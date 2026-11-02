@@ -29,7 +29,8 @@ html,body{margin:0;padding:0;background:#eceae6;color:#111;
 .go button{width:100%;font-family:inherit;font-size:15.5px;font-weight:700;
  padding:14px;border-radius:11px;border:none;background:#b5342a;color:#fff;
  -webkit-tap-highlight-color:transparent;}
-.go .hint{text-align:center;font-size:12px;color:#999;margin-top:7px;line-height:1.5;}
+.go .hint{text-align:center;font-size:13.5px;color:#444;margin-top:9px;
+ line-height:1.7;font-weight:500;}
 
 .pane{display:none;padding:10px 10px 20px;}
 .pane.on{display:block;}
@@ -45,8 +46,7 @@ html,body{margin:0;padding:0;background:#eceae6;color:#111;
 @media print{
   body{background:#fff;}
   .stickytop,.go,.raw,.foot{display:none !important;}
-  .pane{display:none !important;padding:0;}
-  .pane.on{display:block !important;}
+  .pane{display:block !important;padding:0;}
   .pane img{box-shadow:none;border-radius:0;margin:0;page-break-after:always;
              width:100%;}
   .pane img:last-child{page-break-after:auto;}
@@ -60,46 +60,20 @@ html,body{margin:0;padding:0;background:#eceae6;color:#111;
     <a href="../">总菜谱</a>
     <a href="print.html" class="on">本周打印</a>
   </div>
-  <div class="pick">
-    <label class="on" data-pane="p1"><input type="checkbox" checked> 打印版 9 页</label>
-    <label data-pane="p2"><input type="checkbox"> 一周总览 1 页</label>
-  </div>
   <div class="go">
-    <button id="go">存为 PDF / 分享</button>
-    <div class="hint">在弹出的打印页里选「分享」→ 微信<br>或选「存储到文件」得到 PDF</div>
+    <button id="go">打印 / 存 PDF / 分享到微信</button>
+    <div class="hint">点按钮弹出打印页 → 选「分享」发微信<br>或选「存储到文件」保存 PDF</div>
   </div>
 </div>
 
 <div class="pane on" id="p1"><img src="pg/p1.jpg" alt="第1页"><img src="pg/p2.jpg" alt="第2页"><img src="pg/p3.jpg" alt="第3页"><img src="pg/p4.jpg" alt="第4页"><img src="pg/p5.jpg" alt="第5页"><img src="pg/p6.jpg" alt="第6页"><img src="pg/p7.jpg" alt="第7页"><img src="pg/p8.jpg" alt="第8页"><img src="pg/p9.jpg" alt="第9页"></div>
-<div class="pane" id="p2"><img src="pg-ov/p1.jpg" alt="第1页"></div>
 
 <div class="raw"><a href="print.pdf" target="_blank" rel="noopener">打开原始 PDF</a></div>
 <div class="foot">菜谱目录 · W1-11-02</div>
 
 <script>
 (function(){
-  [].slice.call(document.querySelectorAll(".pick label")).forEach(function(lb){
-    lb.onclick = function(ev){
-      if(ev.target.tagName !== "INPUT") {
-        var cb = lb.querySelector("input");
-        cb.checked = !cb.checked;
-        ev.preventDefault();
-      }
-      apply();
-    };
-    function apply(){
-      var cb = lb.querySelector("input");
-      var pane = document.getElementById(lb.getAttribute("data-pane"));
-      if(cb.checked){ lb.classList.add("on"); pane.classList.add("on"); }
-      else { lb.classList.remove("on"); pane.classList.remove("on"); }
-    }
-    apply();
-  });
-
   document.getElementById("go").onclick = function(){
-    var any = [].slice.call(document.querySelectorAll(".pane"))
-                   .some(function(p){ return p.classList.contains("on"); });
-    if(!any){ alert("先勾选要导出的内容"); return; }
     window.print();
   };
 })();
