@@ -51,7 +51,7 @@ git -c user.email="hejiheji001@users.noreply.github.com" \
 git push -q origin main
 echo "✅ 已发布"
 echo "   https://hejiheji001.github.io/recipe-book/"
-echo "     ├ 菜谱目录（首页）"
 echo "     ├ 本周菜单   /week/"
-echo "     ├ 打印版     /week/print.pdf"
-echo "     └ 采购清单   /week/shopping.html"
+echo "     ├ 本周菜单   /week/"
+echo "     ├ 总菜谱     /"
+echo "     └ 本周打印   /week/print.html"
