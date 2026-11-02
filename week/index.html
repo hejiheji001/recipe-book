@@ -19,6 +19,12 @@ a{color:var(--ink);}
 .sitenav a.hot{color:#b5342a;font-weight:600;}
 .stickytop{position:-webkit-sticky;position:sticky;top:0;z-index:9;
  background:#fff;border-bottom:1px solid var(--line);}
+.stamp{text-align:right;font-size:10.5px;color:#c0c0bc;padding:0 12px 5px;}
+.bottombar{position:-webkit-sticky;position:sticky;bottom:0;z-index:30;display:flex;gap:6px;
+ padding:8px 10px calc(8px + env(safe-area-inset-bottom));
+ background:#fff;border-top:1px solid #e6e6e2;box-shadow:0 -3px 12px rgba(0,0,0,.07);}
+.bottombar a{flex:1;text-align:center;text-decoration:none;font-size:14px;font-weight:600;
+ padding:11px 0;border-radius:10px;background:#fff;color:#444;border:1px solid #e0e0dc;}
 
 nav{position:static;z-index:auto;
   display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;
@@ -31,7 +37,7 @@ nav a{flex:0 0 auto;display:flex;align-items:center;justify-content:center;
 nav a.on{background:var(--ink);color:#fff;border-color:var(--ink);font-weight:600;}
 nav a.shop{border-color:var(--ink);font-weight:600;}
 
-.wrap{max-width:560px;margin:0 auto;padding:0 14px 48px;}
+.wrap{max-width:560px;margin:0 auto;padding:0 14px 92px;}
 
 .day{padding-top:14px;scroll-margin-top:122px;}
 .dh{border-bottom:2.5px solid var(--ink);padding-bottom:7px;margin-bottom:11px;}
@@ -110,16 +116,17 @@ ol li{margin-bottom:5px;line-height:1.5;}
   <a href="print.html">本周打印</a>
 </div>
 <nav><a class="shop" href="#shop">采购清单</a><a href="#d1">周一</a><a href="#d2">周二</a><a href="#d3">周三</a><a href="#d4">周四</a><a href="#d5">周五</a><a href="#d6">周六</a><a href="#d7">周日</a></nav>
+<div class="stamp">更新 11-02 19:43</div>
 </div>
 <div class="wrap">
 
   <section class="day" id="d1">
     <div class="dh">
       <h2>周一　11/2</h2>
-      <div class="sub">潮汕家常 · 快手开局<br>人盯锅 <b>17min</b>　总耗时 <b>23min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+      <div class="sub">潮汕家常 · 快手开局<br>人盯锅 <b>17min</b>　总耗时 <b>30min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
     </div>
     <h3>下 锅 顺 序</h3>
-    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>开火 蒸水蛋（约15min）<br><span class="tag">B</span>开火 白灼虾（约12min）<br><span class="tag">锅</span>洗切备料 · 电饭煲下米<br></div></div><div class="it"><div class="t">0:12</div><div class="c"><span class="tag">B</span>白灼虾 出锅；开火 菜脯炒肉末（约12min）<br></div></div><div class="it"><div class="t">0:15</div><div class="c"><span class="tag">A</span>蒸水蛋 出锅；开火 紫菜蛋花汤（约8min）<br></div></div><div class="it"><div class="t">0:23</div><div class="c"><span class="tag">A</span>紫菜蛋花汤 出锅；开火 蒜蓉炒芥兰（约7min）<br></div></div><div class="it"><div class="t">0:24</div><div class="c"><span class="tag">B</span>菜脯炒肉末 出锅<br></div></div><div class="it"><div class="t">0:30</div><div class="c"><span class="tag">A</span>蒜蓉炒芥兰 出锅<br></div></div></div>
     <h3>菜 谱</h3>
     
     <details class="dish" open>
@@ -150,7 +157,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周一 11/2</span><span class="role">主菜③</span>
         <span class="nm">蒸水蛋</span>
-        <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼B</i><i>15min</i></div>
+        <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼A</i><i>15min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 200个</div></div><div class="row"><div class="k">调 料</div><div class="v dim">盐、生抽、香油、葱、温水</div></div>
@@ -174,7 +181,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周一 11/2</span><span class="role">青菜</span>
         <span class="nm">蒜蓉炒芥兰</span>
-        <div class="meta"><i>3岁可吃</i><i>炒</i><i>灶眼B</i><i>7min</i></div>
+        <div class="meta"><i>3岁可吃</i><i>炒</i><i>灶眼A</i><i>7min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">芥兰 600g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、猪油、盐、蚝油</div></div>
@@ -187,17 +194,17 @@ ol li{margin-bottom:5px;line-height:1.5;}
   <section class="day" id="d2">
     <div class="dh">
       <h2>周二　11/3</h2>
-      <div class="sub">蒸菜日 · 少油烟<br>人盯锅 <b>22min</b>　总耗时 <b>28min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+      <div class="sub">蒸菜日 · 少油烟<br>人盯锅 <b>22min</b>　总耗时 <b>42min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
     </div>
     <h3>下 锅 顺 序</h3>
-    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>开火 清蒸鲈鱼（约20min）<br><span class="tag">B</span>开火 香菇蒸滑蛋（约20min）<br><span class="tag">锅</span>洗切备料 · 电饭煲下米<br></div></div><div class="it"><div class="t">0:20</div><div class="c"><span class="tag">A</span>清蒸鲈鱼 出锅；开火 蒜蓉蒸嫩豆腐（约15min）<br><span class="tag">B</span>香菇蒸滑蛋 出锅；开火 冬瓜虾皮汤（约15min）<br></div></div><div class="it"><div class="t">0:35</div><div class="c"><span class="tag">A</span>蒜蓉蒸嫩豆腐 出锅；开火 清炒油麦菜（约7min）<br><span class="tag">B</span>冬瓜虾皮汤 出锅<br></div></div><div class="it"><div class="t">0:42</div><div class="c"><span class="tag">A</span>清炒油麦菜 出锅<br></div></div></div>
     <h3>菜 谱</h3>
     
     <details class="dish" open>
       <summary>
         <span class="dchip">周二 11/3</span><span class="role cam">主菜①</span>
         <span class="nm">清蒸鲈鱼</span>
-        <div class="meta"><i>镜头菜</i><i>蒸</i><i>灶眼B</i><i>20min</i></div>
+        <div class="meta"><i>镜头菜</i><i>蒸</i><i>灶眼A</i><i>20min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">鲈鱼 600g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">姜、葱、蒸鱼豉油、花生油、盐</div></div>
@@ -221,7 +228,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周二 11/3</span><span class="role">主菜③</span>
         <span class="nm">蒜蓉蒸嫩豆腐</span>
-        <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼B</i><i>15min</i></div>
+        <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼A</i><i>15min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">嫩豆腐 500g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、蒸鱼豉油、油、葱</div></div>
@@ -233,7 +240,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周二 11/3</span><span class="role">汤</span>
         <span class="nm">冬瓜虾皮汤</span>
-        <div class="meta"><i>3岁可吃</i><i>炖</i><i>灶眼A</i><i>15min</i></div>
+        <div class="meta"><i>3岁可吃</i><i>炖</i><i>灶眼B</i><i>15min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">冬瓜 500g　虾皮 20g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">姜、盐、香油、葱</div></div>
@@ -245,7 +252,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周二 11/3</span><span class="role">青菜</span>
         <span class="nm">清炒油麦菜</span>
-        <div class="meta"><i>3岁可吃</i><i>炒</i><i>灶眼B</i><i>7min</i></div>
+        <div class="meta"><i>3岁可吃</i><i>炒</i><i>灶眼A</i><i>7min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">油麦菜 650g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、油、盐</div></div>
@@ -258,10 +265,10 @@ ol li{margin-bottom:5px;line-height:1.5;}
   <section class="day" id="d3">
     <div class="dh">
       <h2>周三　11/4</h2>
-      <div class="sub">烤箱日 · 一炉到底<br>人盯锅 <b>30min</b>　总耗时 <b>43min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+      <div class="sub">烤箱日 · 一炉到底<br>人盯锅 <b>30min</b>　总耗时 <b>90min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
     </div>
     <h3>下 锅 顺 序</h3>
-    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>开火 番茄罗勒奶油汤（约35min）<br><span class="tag">B</span>开火 香煎杏鲍菇豆腐（约20min）<br><span class="tag">锅</span>开火 蒜香烤排骨（约35min）；洗切备料 · 电饭煲下米<br></div></div><div class="it"><div class="t">0:20</div><div class="c"><span class="tag">B</span>香煎杏鲍菇豆腐 出锅<br></div></div><div class="it"><div class="t">0:35</div><div class="c"><span class="tag">A</span>番茄罗勒奶油汤 出锅<br><span class="tag">锅</span>蒜香烤排骨 出锅；开火 蒜香蜂蜜烤鸡翅（约30min）<br></div></div><div class="it"><div class="t">1:05</div><div class="c"><span class="tag">锅</span>蒜香蜂蜜烤鸡翅 出锅；开火 蒜香烤西兰花（约25min）<br></div></div><div class="it"><div class="t">1:30</div><div class="c"><span class="tag">锅</span>蒜香烤西兰花 出锅<br></div></div></div>
     <h3>菜 谱</h3>
     
     <details class="dish" open>
@@ -304,7 +311,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周三 11/4</span><span class="role">汤</span>
         <span class="nm">番茄罗勒奶油汤</span>
-        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>35min</i></div>
+        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼A</i><i>35min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">番茄 700g　淡奶油 150g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">洋葱、蒜、番茄膏、罗勒、橄榄油、盐</div></div>
@@ -329,10 +336,10 @@ ol li{margin-bottom:5px;line-height:1.5;}
   <section class="day" id="d4">
     <div class="dh">
       <h2>周四　11/5</h2>
-      <div class="sub">炖煮日 · 老人小孩都软<br>人盯锅 <b>26min</b>　总耗时 <b>98min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+      <div class="sub">炖煮日 · 老人小孩都软<br>人盯锅 <b>26min</b>　总耗时 <b>109min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
     </div>
     <h3>下 锅 顺 序</h3>
-    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>开火 玉米胡萝卜猪骨汤（约90min）<br><span class="tag">B</span>开火 南姜萝卜炖排骨（约70min）<br><span class="tag">锅</span>洗切备料 · 电饭煲下米<br></div></div><div class="it"><div class="t">1:10</div><div class="c"><span class="tag">B</span>南姜萝卜炖排骨 出锅；开火 梅菜蒸肉饼（约30min）<br></div></div><div class="it"><div class="t">1:30</div><div class="c"><span class="tag">A</span>玉米胡萝卜猪骨汤 出锅；开火 菜脯煎蛋（约12min）<br></div></div><div class="it"><div class="t">1:40</div><div class="c"><span class="tag">B</span>梅菜蒸肉饼 出锅；开火 腐乳通菜（约9min）<br></div></div><div class="it"><div class="t">1:42</div><div class="c"><span class="tag">A</span>菜脯煎蛋 出锅<br></div></div><div class="it"><div class="t">1:49</div><div class="c"><span class="tag">B</span>腐乳通菜 出锅<br></div></div></div>
     <h3>菜 谱</h3>
     
     <details class="dish" open>
@@ -363,7 +370,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周四 11/5</span><span class="role">主菜③</span>
         <span class="nm">菜脯煎蛋</span>
-        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>12min</i></div>
+        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼A</i><i>12min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 300个　菜脯 100g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">油、葱、白胡椒</div></div>
@@ -375,7 +382,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周四 11/5</span><span class="role">汤</span>
         <span class="nm">玉米胡萝卜猪骨汤</span>
-        <div class="meta"><i>做</i><i>灶眼B</i><i>90min</i></div>
+        <div class="meta"><i>做</i><i>灶眼A</i><i>90min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">玉米 400g　胡萝卜 250g　猪骨 600g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">姜、盐、水</div></div>
@@ -400,17 +407,17 @@ ol li{margin-bottom:5px;line-height:1.5;}
   <section class="day" id="d5">
     <div class="dh">
       <h2>周五　11/6</h2>
-      <div class="sub">砂锅日 · 全周最省时<br>人盯锅 <b>29min</b>　总耗时 <b>43min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+      <div class="sub">砂锅日 · 全周最省时<br>人盯锅 <b>29min</b>　总耗时 <b>62min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
     </div>
     <h3>下 锅 顺 序</h3>
-    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>开火 潮式葱姜焗鸡块（约35min）<br><span class="tag">B</span>开火 砂锅豆腐煲（约30min）<br><span class="tag">锅</span>洗切备料 · 电饭煲下米<br></div></div><div class="it"><div class="t">0:30</div><div class="c"><span class="tag">B</span>砂锅豆腐煲 出锅；开火 丝瓜肉片汤（约20min）<br></div></div><div class="it"><div class="t">0:35</div><div class="c"><span class="tag">A</span>潮式葱姜焗鸡块 出锅；开火 金针菇蒸粉丝（约18min）<br></div></div><div class="it"><div class="t">0:50</div><div class="c"><span class="tag">B</span>丝瓜肉片汤 出锅；开火 蚝油生菜（约12min）<br></div></div><div class="it"><div class="t">0:53</div><div class="c"><span class="tag">A</span>金针菇蒸粉丝 出锅<br></div></div><div class="it"><div class="t">1:02</div><div class="c"><span class="tag">B</span>蚝油生菜 出锅<br></div></div></div>
     <h3>菜 谱</h3>
     
     <details class="dish" open>
       <summary>
         <span class="dchip">周五 11/6</span><span class="role cam">主菜①</span>
         <span class="nm">潮式葱姜焗鸡块</span>
-        <div class="meta"><i>镜头菜</i><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>35min</i></div>
+        <div class="meta"><i>镜头菜</i><i>3岁可吃</i><i>做</i><i>灶眼A</i><i>35min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">三黄鸡 900g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">葱、姜、生抽、蚝油、盐、油</div></div>
@@ -434,7 +441,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周五 11/6</span><span class="role">主菜③</span>
         <span class="nm">金针菇蒸粉丝</span>
-        <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼B</i><i>18min</i></div>
+        <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼A</i><i>18min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">金针菇 300g　粉丝 80g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、蒸鱼豉油、油、小米辣</div></div>
@@ -446,7 +453,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周五 11/6</span><span class="role">汤</span>
         <span class="nm">丝瓜肉片汤</span>
-        <div class="meta"><i>3岁可吃</i><i>炖</i><i>灶眼A</i><i>20min</i></div>
+        <div class="meta"><i>3岁可吃</i><i>炖</i><i>灶眼B</i><i>20min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">丝瓜 500g　猪肉 250g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">姜、盐、白胡椒、葱、水</div></div>
@@ -474,7 +481,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <div class="sub">海鲜日 · 补充 omega-3<br>人盯锅 <b>28min</b>　总耗时 <b>38min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
     </div>
     <h3>下 锅 顺 序</h3>
-    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>开火 法式奶油蘑菇汤（约30min）<br><span class="tag">B</span>开火 卤水蛋 + 卤豆腐（约20min）<br><span class="tag">锅</span>开火 香草柠檬烤鳕鱼（约30min）；洗切备料 · 电饭煲下米<br></div></div><div class="it"><div class="t">0:20</div><div class="c"><span class="tag">B</span>卤水蛋 + 卤豆腐 出锅；开火 虾仁滑蛋（约15min）<br></div></div><div class="it"><div class="t">0:30</div><div class="c"><span class="tag">A</span>法式奶油蘑菇汤 出锅；开火 蒜蓉菜心（约8min）<br><span class="tag">锅</span>香草柠檬烤鳕鱼 出锅<br></div></div><div class="it"><div class="t">0:35</div><div class="c"><span class="tag">B</span>虾仁滑蛋 出锅<br></div></div><div class="it"><div class="t">0:38</div><div class="c"><span class="tag">A</span>蒜蓉菜心 出锅<br></div></div></div>
     <h3>菜 谱</h3>
     
     <details class="dish" open>
@@ -517,7 +524,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周六 11/7</span><span class="role">汤</span>
         <span class="nm">法式奶油蘑菇汤</span>
-        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>30min</i></div>
+        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼A</i><i>30min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">白蘑菇 400g　牛奶 400g　淡奶油 100g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">黄油、面粉、洋葱、盐、黑胡椒</div></div>
@@ -529,7 +536,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周六 11/7</span><span class="role">青菜</span>
         <span class="nm">蒜蓉菜心</span>
-        <div class="meta"><i>3岁可吃</i><i>炒</i><i>灶眼B</i><i>8min</i></div>
+        <div class="meta"><i>3岁可吃</i><i>炒</i><i>灶眼A</i><i>8min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">菜心 600g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、盐、蚝油、油</div></div>
@@ -542,17 +549,17 @@ ol li{margin-bottom:5px;line-height:1.5;}
   <section class="day" id="d7">
     <div class="dh">
       <h2>周日　11/8</h2>
-      <div class="sub">周日大菜 · 一锅牛腩<br>人盯锅 <b>29min</b>　总耗时 <b>98min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+      <div class="sub">周日大菜 · 一锅牛腩<br>人盯锅 <b>29min</b>　总耗时 <b>112min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
     </div>
     <h3>下 锅 顺 序</h3>
-    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>开火 潮汕萝卜炖牛腩（约90min）<br><span class="tag">B</span>开火 冬瓜瑶柱瘦肉汤（约75min）<br><span class="tag">锅</span>洗切备料 · 电饭煲下米<br></div></div><div class="it"><div class="t">1:15</div><div class="c"><span class="tag">B</span>冬瓜瑶柱瘦肉汤 出锅；开火 沙姜鸡（约30min）<br></div></div><div class="it"><div class="t">1:30</div><div class="c"><span class="tag">A</span>潮汕萝卜炖牛腩 出锅；开火 虾皮葱香煎豆腐（约18min）<br></div></div><div class="it"><div class="t">1:45</div><div class="c"><span class="tag">B</span>沙姜鸡 出锅；开火 蒜炒通菜（约7min）<br></div></div><div class="it"><div class="t">1:48</div><div class="c"><span class="tag">A</span>虾皮葱香煎豆腐 出锅<br></div></div><div class="it"><div class="t">1:52</div><div class="c"><span class="tag">B</span>蒜炒通菜 出锅<br></div></div></div>
     <h3>菜 谱</h3>
     
     <details class="dish" open>
       <summary>
         <span class="dchip">周日 11/8</span><span class="role cam">主菜①</span>
         <span class="nm">潮汕萝卜炖牛腩</span>
-        <div class="meta"><i>镜头菜</i><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>90min</i></div>
+        <div class="meta"><i>镜头菜</i><i>3岁可吃</i><i>做</i><i>灶眼A</i><i>90min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">牛腩 700g　白萝卜 600g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">南姜、蒜、生抽、盐、八角</div></div>
@@ -576,7 +583,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
       <summary>
         <span class="dchip">周日 11/8</span><span class="role">主菜③</span>
         <span class="nm">虾皮葱香煎豆腐</span>
-        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>18min</i></div>
+        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼A</i><i>18min</i></div>
       </summary>
       <div class="body">
         <div class="row"><div class="k">主 料</div><div class="v">老豆腐 500g　虾皮 20g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">葱、生抽、盐、油</div></div>
@@ -622,7 +629,11 @@ ol li{margin-bottom:5px;line-height:1.5;}
     </div>
   </section>
   <div class="foot">点菜品标题可收起 / 展开　·　青菜永远是最后 3 分钟做<br>
-  <span style="color:#d0d0cc">更新于 2026-11-02 19:02</span></div>
+  <span style="color:#d0d0cc">更新于 2026-11-02 19:43</span></div>
+</div>
+<div class="bottombar">
+  <a href="../?open=mylist">我的单</a>
+  <a href="../?open=trash">回收站</a>
 </div>
 
 <script>

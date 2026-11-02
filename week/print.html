@@ -42,7 +42,12 @@ html,body{margin:0;padding:0;background:#eceae6;color:#111;
 .raw a{display:block;text-align:center;text-decoration:none;font-size:13px;
  font-weight:600;padding:11px 0;border-radius:10px;background:#fff;color:#666;
  border:1px solid #ddd;}
-.foot{text-align:center;color:#b6b6b0;font-size:11.5px;padding:0 0 24px;}
+.foot{text-align:center;color:#b6b6b0;font-size:11.5px;padding:0 0 84px;}
+.bottombar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;gap:6px;
+ padding:8px 10px calc(8px + env(safe-area-inset-bottom));
+ background:#fff;border-top:1px solid #e6e6e2;box-shadow:0 -3px 12px rgba(0,0,0,.07);}
+.bottombar a{flex:1;text-align:center;text-decoration:none;font-size:14px;font-weight:600;
+ padding:11px 0;border-radius:10px;background:#fff;color:#444;border:1px solid #e0e0dc;}
 
 @media print{
   body{background:#fff;}
@@ -64,7 +69,7 @@ html,body{margin:0;padding:0;background:#eceae6;color:#111;
   <div class="go">
     <button id="go">打印 / 存 PDF / 分享到微信</button>
     <div class="hint">点按钮弹出打印页 → 选「分享」发微信<br>或选「存储到文件」保存 PDF
-      <span class="upd">更新 11-02 19:33</span></div>
+      <span class="upd">更新 11-02 19:43</span></div>
   </div>
 </div>
 
@@ -72,6 +77,11 @@ html,body{margin:0;padding:0;background:#eceae6;color:#111;
 
 <div class="raw"><a href="print.pdf" target="_blank" rel="noopener">打开原始 PDF</a></div>
 <div class="foot">菜谱目录 · W1-11-02</div>
+
+<div class="bottombar">
+  <a href="../?open=mylist">我的单</a>
+  <a href="../?open=trash">回收站</a>
+</div>
 
 <script>
 (function(){
