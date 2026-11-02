@@ -3,14 +3,41 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>菜谱</title>
 <style>
-body{margin:0;padding:40px 24px;font:16px/1.7 -apple-system,"PingFang SC",sans-serif;
- background:#fff;color:#111;}
-h1{font-size:24px;margin:0 0 8px;}
-p{color:#888;font-size:14px;margin:0 0 28px;}
-a{display:block;padding:18px 20px;background:#111;color:#fff;text-decoration:none;
- border-radius:12px;font-size:16px;font-weight:600;text-align:center;}
+*{box-sizing:border-box}
+body{margin:0;padding:34px 22px 40px;font:16px/1.65 -apple-system,"PingFang SC",sans-serif;
+ background:#fafaf8;color:#111;}
+h1{font-size:26px;margin:0 0 6px;letter-spacing:-.5px;}
+p.sub{color:#999;font-size:14px;margin:0 0 26px;}
+a.card{display:block;padding:17px 18px;background:#fff;color:#111;text-decoration:none;
+ border:1px solid #ececE6;border-radius:14px;margin-bottom:10px;}
+a.card b{display:block;font-size:16.5px;margin-bottom:3px;}
+a.card span{font-size:13px;color:#999;}
+a.card.primary{background:#111;color:#fff;border-color:#111;}
+a.card.primary span{color:#aaa;}
+.foot{margin-top:26px;font-size:12px;color:#c8c8c4;text-align:center;}
 </style></head><body>
 <h1>菜谱</h1>
-<p>点下面进入</p>
-<a href="./catalog.html">菜谱目录（567 道）</a>
+<p class="sub">按周做饭 · 按需采购</p>
+
+<a class="card primary" href="./catalog.html">
+  <b>菜谱目录</b>
+  <span>567 道 · 可筛选 · 选菜生成采购清单</span>
+</a>
+
+<a class="card" href="./week/">
+  <b>本周菜单</b>
+  <span>7 天 × 5 道 · 每天几点做什么</span>
+</a>
+
+<a class="card" href="./week/print.pdf">
+  <b>本周打印版 PDF</b>
+  <span>9 页 · 打出来贴冰箱</span>
+</a>
+
+<a class="card" href="./week/overview.pdf">
+  <b>本周总览 PDF</b>
+  <span>一页看完全周</span>
+</a>
+
+<div class="foot">建议「添加到主屏幕」当 App 用</div>
 </body></html>
