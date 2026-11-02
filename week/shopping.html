@@ -100,7 +100,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="print.html">本周打印</a>
   </div>
   <div class="bar">
-    <span class="p">已买 <b id="done">0</b>/42<span class="upd">更新 11-02 20:10</span></span>
+    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-02 20:24</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
@@ -249,10 +249,12 @@ body{min-height:100vh;display:flex;flex-direction:column;}
   }
 
   document.getElementById("img").onclick = function(){
-    var items = [].slice.call(document.querySelectorAll(".it")).map(function(el){
+    var all = [].slice.call(document.querySelectorAll(".it")).map(function(el){
       return { n:el.querySelector(".nm").textContent, q:el.querySelector(".q").textContent,
                on:el.querySelector("input").checked };
     });
+    var picked = all.filter(function(x){ return x.on; });
+    var items = picked.length ? picked : all;   // 没勾就导出全部
     var W=750,pad=44,LH=42,H=150+items.length*LH+90;
     var c=document.createElement("canvas"); c.width=W; c.height=H;
     var x=c.getContext("2d");
@@ -260,16 +262,16 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     x.fillStyle="#111"; x.font="bold 40px -apple-system,'PingFang SC',sans-serif";
     x.fillText("采购清单", pad, 74);
     x.fillStyle="#999"; x.font="24px -apple-system,'PingFang SC',sans-serif";
-    x.fillText("W1-11-02 · 共 "+items.length+" 项 · 已买 "+items.filter(function(i){return i.on;}).length, pad, 112);
+    x.fillText("W1-11-02 · 共 "+items.length+" 项", pad, 112);
     x.strokeStyle="#e6e6e2"; x.lineWidth=2;
     x.beginPath(); x.moveTo(pad,132); x.lineTo(W-pad,132); x.stroke();
     var y=180;
     items.forEach(function(it){
-      x.fillStyle = it.on ? "#c8c8c4" : "#222";
+      x.fillStyle = "#222";
       x.font="28px -apple-system,'PingFang SC',sans-serif";
-      x.fillText((it.on?"☑ ":"☐ ")+it.n, pad, y);
+      x.fillText(it.n, pad, y);
       x.textAlign="right";
-      x.fillStyle = it.on ? "#e2e2de" : "#b5342a";
+      x.fillStyle = "#b5342a";
       x.font="bold 28px -apple-system,'PingFang SC',sans-serif";
       x.fillText(it.q, W-pad, y);
       x.textAlign="left"; y+=LH;
