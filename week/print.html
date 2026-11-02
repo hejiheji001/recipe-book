@@ -80,7 +80,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
   </div>
 </div>
 
-<div class="head"><span>更新 11-02 23:03</span>
+<div class="head"><span>更新 11-02 23:30</span>
   <span class="hact"><b id="reload">刷新</b> <em>W1-11-02</em></span></div>
 
 <div class="main">
@@ -95,7 +95,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
         </div>
       </div>
       <div class="acts">
-        <b class="open" id="shareWeek">打开 PDF · 分享到微信</b>
+        <a class="open" href="print.pdf" target="_blank" rel="noopener">打开 PDF（打开后点分享 → 微信）</a>
       </div>
     </div>
   </div>
@@ -121,19 +121,12 @@ body{min-height:100vh;display:flex;flex-direction:column;}
 <script>
 (function(){
   var view=document.getElementById("view"), vBody=document.getElementById("vBody");
-  document.getElementById("openWeek").onclick=function(){
-    view.classList.add("on"); window.scrollTo(0,0);
-  };
   document.getElementById("vBack").onclick=function(){ view.classList.remove("on"); };
   document.getElementById("vPrint").onclick=function(){
     try{ window.print(); }catch(e){ alert("请用「分享」→打印"); }
   };
 
   // ===== 分享 PDF（iOS 会弹系统分享面板，可直接选微信）=====
-  // 先把每周 PDF 取到内存，点击时才能同步调起分享（iOS 要求用户手势内）
-  var weekBlob = null;
-  fetch("print.pdf").then(function(r){ return r.blob(); })
-    .then(function(b){ weekBlob = b; }).catch(function(){});
 
   function sharePdf(blob, name){
     var file = null;
@@ -151,101 +144,48 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     window.scrollTo(0,0);
   }
 
-  document.getElementById("shareWeek").onclick = function(){
-    if(weekBlob){ sharePdf(weekBlob, "本周打印"); }
-    else { showViewer(); }   // 还没取到就直接给预览
-  };
-
   document.getElementById("reload").onclick = function(){
     location.reload();
   };
 
-  // 读自定义 PDF
-  function idbOpen(){
-    return new Promise(function(res,rej){
-      var r=indexedDB.open("rb_pdf",1);
-      r.onupgradeneeded=function(e){
-        var db=e.target.result;
-        if(!db.objectStoreNames.contains("pdfs")) db.createObjectStore("pdfs",{keyPath:"id"});
-      };
-      r.onsuccess=function(e){ res(e.target.result); };
-      r.onerror=function(){ rej(r.error); };
-    });
+  // ===== 自定义打印（读 localStorage 元数据）=====
+  function loadPrints(){
+    try{ return JSON.parse(localStorage.getItem("rb_prints")||"[]"); }catch(e){ return []; }
   }
-  function idbAll(){
-    return idbOpen().then(function(db){
-      return new Promise(function(res,rej){
-        var tx=db.transaction("pdfs","readonly");
-        var q=tx.objectStore("pdfs").getAll();
-        q.onsuccess=function(){ res(q.result||[]); };
-        q.onerror=function(){ rej(q.error); };
-      });
-    });
-  }
-  function idbDel(id){
-    return idbOpen().then(function(db){
-      return new Promise(function(res,rej){
-        var tx=db.transaction("pdfs","readwrite");
-        tx.objectStore("pdfs").delete(id);
-        tx.oncomplete=res; tx.onerror=function(){ rej(tx.error); };
-      });
-    });
-  }
+  function escT(t){ return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
 
-  var urls={};
   function render(list){
     var box=document.getElementById("mine");
     if(!list.length){
       box.innerHTML="<div class='empty'>还没有。<br>在总菜谱选菜 → 生成清单 → 打印PDF → 生成 PDF<br>生成后点上方「刷新」</div>";
       return;
     }
-    list.sort(function(a,b){ return b.at-a.at; });
+    list.sort(function(a,b){ return (b.at||0)-(a.at||0); });
     box.innerHTML = list.map(function(it){
-      var kb=Math.round((it.size||0)/1024);
-      var isOld = (it.ver || 1) < 2;
-      var canRegen = isOld && it.items && it.items.length;
-      var badge = isOld ? "<span class='oldtag'>旧版</span>" : "";
-      var mainBtn = canRegen
-        ? "<a class='open' href='../?regen="+it.id+"'>重新生成新排版</a>"
-        : (isOld
-            ? "<b class='open' style='opacity:.55'>旧版 · 回总菜谱重做</b>"
-            : "<b class='open' data-open='"+it.id+"'>打开 PDF · 分享到微信</b>");
       return "<div class='card' data-id='"+it.id+"'>"+
         "<div class='rowt'><span class='ok'>✓</span><div class='meta'>"+
-        "<div class='nm'>"+esc(it.name)+badge+"</div>"+
-        "<div class='sub2'>"+it.date+" · "+kb+" KB</div></div></div>"+
-        "<div class='acts'>"+mainBtn+
+        "<div class='nm'>"+escT(it.name)+"</div>"+
+        "<div class='sub2'>"+it.date+" · "+(it.dishes?it.dishes.length:0)+" 道菜</div>"+
+        "</div></div>"+
+        "<div class='acts'>"+
+        "<a class='open' href='../?print="+it.id+"'>打开 · 生成 PDF</a>"+
         "<b class='delx' data-del='"+it.id+"'>删除</b></div></div>";
     }).join("");
 
-    [].slice.call(box.querySelectorAll("[data-open]")).forEach(function(b){
-      b.onclick=function(){
-        var id=+b.getAttribute("data-open");
-        var it=list.filter(function(x){return x.id===id;})[0];
-        if(!it) return;
-        sharePdf(it.blob, it.name);
-      };
-    });
     [].slice.call(box.querySelectorAll("[data-del]")).forEach(function(b){
       b.onclick=function(){
         var id=+b.getAttribute("data-del");
-        if(!confirm("删除这份打印件？")) return;
-        idbDel(id).then(function(){ load(); });
+        if(!confirm("删除这条记录？")) return;
+        localStorage.setItem("rb_prints", JSON.stringify(
+          loadPrints().filter(function(x){ return x.id!==id; })));
+        load();
       };
     });
   }
-  function esc(t){ return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
 
-  function withTimeout(p, ms){
-    return Promise.race([p, new Promise(function(_, rej){
-      setTimeout(function(){ rej(new Error("timeout")); }, ms);
-    })]);
-  }
   function load(){
-    withTimeout(idbAll(), 6000).then(render).catch(function(){
-      document.getElementById("mine").innerHTML =
-        "<div class='empty'>读取超时。<br>点上方「刷新」再试；<br>如果刚才提示过「已直接下载」，文件在手机的「文件」App 里。</div>";
-    });
+    try{ render(loadPrints()); }
+    catch(e){ document.getElementById("mine").innerHTML="<div class='empty'>读取失败，点上方「刷新」</div>"; }
   }
   load();
 })();
