@@ -10,7 +10,17 @@ body{margin:0;background:#fff;color:var(--ink);
   font:18px/1.5 "PingFang SC","Hiragino Sans GB","Heiti SC",sans-serif;}
 a{color:var(--ink);}
 
-nav{position:-webkit-sticky;position:sticky;top:0;z-index:9;
+/* 站点导航（上层）*/
+.sitenav{display:flex;padding:0 4px;background:#fff;border-bottom:1px solid #f0f0ec;}
+.sitenav a{flex:1;text-align:center;font-size:13px;padding:11px 2px;
+ color:#666;text-decoration:none;font-weight:500;white-space:nowrap;
+ -webkit-tap-highlight-color:transparent;}
+.sitenav a.on{color:#111;font-weight:700;box-shadow:inset 0 -2px 0 #111;}
+.sitenav a.hot{color:#b5342a;font-weight:600;}
+.stickytop{position:-webkit-sticky;position:sticky;top:0;z-index:9;
+ background:#fff;border-bottom:1px solid var(--line);}
+
+nav{position:static;z-index:auto;
   display:flex;gap:6px;overflow-x:auto;overflow-y:hidden;
   padding:8px 11px;background:#fff;border-bottom:1px solid var(--line);
   scrollbar-width:none;}
@@ -22,7 +32,7 @@ nav a.shop{border-color:var(--ink);font-weight:600;}
 
 .wrap{max-width:560px;margin:0 auto;padding:0 14px 48px;}
 
-.day{padding-top:14px;scroll-margin-top:76px;}
+.day{padding-top:14px;scroll-margin-top:122px;}
 .dh{border-bottom:2.5px solid var(--ink);padding-bottom:7px;margin-bottom:11px;}
 .dh h2{margin:0;font-size:22px;letter-spacing:.4px;}
 .dh .sub{margin-top:4px;font-size:14.5px;color:var(--dim);line-height:1.42;}
@@ -73,7 +83,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
   font-size:14px;border:1px solid var(--line);border-radius:20px;
   padding:8px 0;margin:10px 0 4px;}
 
-.shop{padding-top:14px;scroll-margin-top:76px;}
+.shop{padding-top:14px;scroll-margin-top:122px;}
 .scat{margin-top:16px;}
 .scn{font-size:14px;color:#fff;background:var(--ink);display:inline-block;
   padding:3px 11px;border-radius:6px;font-weight:600;letter-spacing:1px;}
@@ -93,7 +103,15 @@ ol li{margin-bottom:5px;line-height:1.5;}
 </style></head>
 <body>
 <a id="top"></a>
+<div class="stickytop">
+<div class="sitenav">
+  <a href="../">菜谱目录</a>
+  <a href="./" class="on">本周菜单</a>
+  <a href="print.pdf">打印版</a>
+  <a href="shopping.html" class="hot">采购清单</a>
+</div>
 <nav><a class="shop" href="#shop">采购清单</a><a href="#d1">周一</a><a href="#d2">周二</a><a href="#d3">周三</a><a href="#d4">周四</a><a href="#d5">周五</a><a href="#d6">周六</a><a href="#d7">周日</a></nav>
+</div>
 <div class="wrap">
 
   <section class="day" id="d1">
@@ -613,7 +631,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
     <a class="totop" href="#top">↑ 回到顶部导航</a>
   </section>
   <div class="foot">点菜品标题可收起 / 展开　·　青菜永远是最后 3 分钟做<br>
-  <span style="color:#d0d0cc">更新于 2026-11-02 17:14</span></div>
+  <span style="color:#d0d0cc">更新于 2026-11-02 17:31</span></div>
 </div>
 
 <script>
@@ -623,7 +641,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
   function target(a){ return document.querySelector(a.getAttribute('href')); }
   function sync(){
     var secs = links.map(target);
-    var y = (window.pageYOffset || document.documentElement.scrollTop || 0) + 90, idx = 0;
+    var y = (window.pageYOffset || document.documentElement.scrollTop || 0) + 140, idx = 0;
     for (var i=0;i<secs.length;i++){ if (secs[i] && secs[i].offsetTop <= y) idx = i; }
     links.forEach(function(a,i){ a.classList.toggle('on', i===idx); });
   }
