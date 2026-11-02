@@ -33,6 +33,9 @@ mkdir -p "$HERE/week"
 [ -n "$PRINT" ] && cp "$PRINT" "$HERE/week/print.pdf"
 [ -n "$OVER" ]  && cp "$OVER"  "$HERE/week/overview.pdf"
 [ -n "$SHOP" ]  && cp "$SHOP"  "$HERE/week/shopping.csv"
+# 采购清单页（手机可看/可打勾/可打印）
+[ -n "$SHOP" ] && python3 "$ROOT/scripts/build_shopping_html.py" \
+    "$SHOP" "$HERE/week/shopping.html" "$CODE"
 
 cat > "$HERE/week/meta.json" <<JSON
 {"code":"$CODE","updated":"$(date '+%Y-%m-%d %H:%M')"}
@@ -45,6 +48,8 @@ git -c user.email="hejiheji001@users.noreply.github.com" \
     commit -m "更新 $CODE $(date '+%Y-%m-%d %H:%M')" || echo "（无变化）"
 git push -q origin main
 echo "✅ 已发布"
-echo "   菜谱目录  https://hejiheji001.github.io/recipe-book/catalog.html"
-echo "   本周菜单  https://hejiheji001.github.io/recipe-book/week/"
-echo "   打印 PDF  https://hejiheji001.github.io/recipe-book/week/print.pdf"
+echo "   https://hejiheji001.github.io/recipe-book/"
+echo "     ├ 菜谱目录（首页）"
+echo "     ├ 本周菜单   /week/"
+echo "     ├ 打印版     /week/print.pdf"
+echo "     └ 采购清单   /week/shopping.html"
