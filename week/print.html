@@ -15,21 +15,42 @@ html,body{margin:0;padding:0;background:#eceae6;color:#111;
  text-decoration:none;font-weight:500;white-space:nowrap;}
 .sitenav a.on{color:#111;font-weight:700;box-shadow:inset 0 -2px 0 #111;}
 .sitenav a.hot{color:#b5342a;font-weight:600;}
-.subtabs{display:flex;gap:6px;padding:8px 12px;}
-.subtabs b{flex:1;display:flex;align-items:center;justify-content:center;
- text-align:center;font-size:13.5px;font-weight:600;padding:9px 0;
- border:1px solid #e0e0dc;border-radius:9px;color:#666;background:#fff;
- cursor:pointer;-webkit-tap-highlight-color:transparent;}
-.subtabs b.on{background:#111;color:#fff;border-color:#111;}
+
+.pick{display:flex;gap:8px;padding:9px 12px;align-items:center;}
+.pick label{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;
+ font-size:13px;font-weight:600;color:#444;padding:10px 4px;
+ border:1px solid #e0e0dc;border-radius:10px;background:#fff;
+ -webkit-tap-highlight-color:transparent;}
+.pick label.on{background:#111;color:#fff;border-color:#111;}
+.pick input{width:16px;height:16px;accent-color:#fff;}
+.pick label.on input{accent-color:#111;}
+
+.go{padding:0 12px 10px;}
+.go button{width:100%;font-family:inherit;font-size:15.5px;font-weight:700;
+ padding:14px;border-radius:11px;border:none;background:#b5342a;color:#fff;
+ -webkit-tap-highlight-color:transparent;}
+.go .hint{text-align:center;font-size:12px;color:#999;margin-top:7px;line-height:1.5;}
+
 .pane{display:none;padding:10px 10px 20px;}
 .pane.on{display:block;}
 .pane img{width:100%;display:block;border-radius:8px;margin-bottom:10px;
  box-shadow:0 2px 10px rgba(0,0,0,.09);background:#fff;}
 .none{text-align:center;color:#aaa;padding:50px 0;font-size:14px;}
-.raw{display:flex;gap:8px;padding:0 10px 24px;}
-.raw a{flex:1;text-align:center;text-decoration:none;font-size:13.5px;font-weight:600;
- padding:12px 0;border-radius:10px;background:#fff;color:#444;border:1px solid #ddd;}
+.raw{padding:0 10px 24px;}
+.raw a{display:block;text-align:center;text-decoration:none;font-size:13px;
+ font-weight:600;padding:11px 0;border-radius:10px;background:#fff;color:#666;
+ border:1px solid #ddd;}
 .foot{text-align:center;color:#b6b6b0;font-size:11.5px;padding:0 0 24px;}
+
+@media print{
+  body{background:#fff;}
+  .stickytop,.go,.raw,.foot{display:none !important;}
+  .pane{display:none !important;padding:0;}
+  .pane.on{display:block !important;}
+  .pane img{box-shadow:none;border-radius:0;margin:0;page-break-after:always;
+             width:100%;}
+  .pane img:last-child{page-break-after:auto;}
+}
 </style></head><body>
 
 <div class="stickytop">
@@ -39,32 +60,48 @@ html,body{margin:0;padding:0;background:#eceae6;color:#111;
     <a href="../">总菜谱</a>
     <a href="print.html" class="on">本周打印</a>
   </div>
-  <div class="subtabs">
-    <b class="on" data-pane="p1">打印版 9 页</b>
-    <b data-pane="p2">一周总览 1 页</b>
+  <div class="pick">
+    <label class="on" data-pane="p1"><input type="checkbox" checked> 打印版 9 页</label>
+    <label data-pane="p2"><input type="checkbox"> 一周总览 1 页</label>
+  </div>
+  <div class="go">
+    <button id="go">存为 PDF / 分享</button>
+    <div class="hint">在弹出的打印页里选「分享」→ 微信<br>或选「存储到文件」得到 PDF</div>
   </div>
 </div>
 
 <div class="pane on" id="p1"><img src="pg/p1.jpg" alt="第1页"><img src="pg/p2.jpg" alt="第2页"><img src="pg/p3.jpg" alt="第3页"><img src="pg/p4.jpg" alt="第4页"><img src="pg/p5.jpg" alt="第5页"><img src="pg/p6.jpg" alt="第6页"><img src="pg/p7.jpg" alt="第7页"><img src="pg/p8.jpg" alt="第8页"><img src="pg/p9.jpg" alt="第9页"></div>
 <div class="pane" id="p2"><img src="pg-ov/p1.jpg" alt="第1页"></div>
 
-<div class="raw">
-  <a href="print.pdf" target="_blank" rel="noopener">打开原始 PDF</a>
-</div>
+<div class="raw"><a href="print.pdf" target="_blank" rel="noopener">打开原始 PDF</a></div>
 <div class="foot">菜谱目录 · W1-11-02</div>
 
 <script>
 (function(){
-  var tabs = [].slice.call(document.querySelectorAll(".subtabs b"));
-  tabs.forEach(function(t){
-    t.onclick = function(){
-      tabs.forEach(function(x){ x.className=""; });
-      [].slice.call(document.querySelectorAll(".pane")).forEach(function(p){ p.className="pane"; });
-      t.className = "on";
-      document.getElementById(t.getAttribute("data-pane")).className = "pane on";
-      window.scrollTo(0,0);
+  [].slice.call(document.querySelectorAll(".pick label")).forEach(function(lb){
+    lb.onclick = function(ev){
+      if(ev.target.tagName !== "INPUT") {
+        var cb = lb.querySelector("input");
+        cb.checked = !cb.checked;
+        ev.preventDefault();
+      }
+      apply();
     };
+    function apply(){
+      var cb = lb.querySelector("input");
+      var pane = document.getElementById(lb.getAttribute("data-pane"));
+      if(cb.checked){ lb.classList.add("on"); pane.classList.add("on"); }
+      else { lb.classList.remove("on"); pane.classList.remove("on"); }
+    }
+    apply();
   });
+
+  document.getElementById("go").onclick = function(){
+    var any = [].slice.call(document.querySelectorAll(".pane"))
+                   .some(function(p){ return p.classList.contains("on"); });
+    if(!any){ alert("先勾选要导出的内容"); return; }
+    window.print();
+  };
 })();
 </script>
 </body></html>
