@@ -100,7 +100,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="print.html">本周打印</a>
   </div>
   <div class="bar">
-    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-02 20:24</span></span>
+    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-02 20:41</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
@@ -249,40 +249,81 @@ body{min-height:100vh;display:flex;flex-direction:column;}
   }
 
   document.getElementById("img").onclick = function(){
-    var all = [].slice.call(document.querySelectorAll(".it")).map(function(el){
-      return { n:el.querySelector(".nm").textContent, q:el.querySelector(".q").textContent,
-               on:el.querySelector("input").checked };
+    // 按分类收集（保留分组）
+    var groups = [];
+    [].slice.call(document.querySelectorAll("section.cat")).forEach(function(sec){
+      var h = sec.querySelector("h2 .gh span");
+      var cat = h ? h.textContent : "其他";
+      var arr = [];
+      [].slice.call(sec.querySelectorAll(".it")).forEach(function(el){
+        arr.push({ n: el.querySelector(".nm").textContent,
+                    q: el.querySelector(".q").textContent,
+                    on: el.querySelector("input").checked });
+      });
+      groups.push({ cat: cat, items: arr });
     });
-    var picked = all.filter(function(x){ return x.on; });
-    var items = picked.length ? picked : all;   // 没勾就导出全部
-    var W=750,pad=44,LH=42,H=150+items.length*LH+90;
-    var c=document.createElement("canvas"); c.width=W; c.height=H;
-    var x=c.getContext("2d");
-    x.fillStyle="#fff"; x.fillRect(0,0,W,H);
-    x.fillStyle="#111"; x.font="bold 40px -apple-system,'PingFang SC',sans-serif";
+
+    // 有勾选就只导出勾选的分类/条目
+    var any = false;
+    groups.forEach(function(g){ if(g.items.some(function(i){return i.on;})) any = true; });
+
+    var render = [];
+    groups.forEach(function(g){
+      var items = any ? g.items.filter(function(i){ return i.on; }) : g.items;
+      if(items.length) render.push({ cat: g.cat, items: items });
+    });
+
+    var total = render.reduce(function(s,g){ return s + g.items.length; }, 0);
+
+    var W = 750, pad = 44, LH = 46, HEAD = 150, CAT = 62;
+    var H = HEAD + render.length * CAT + total * LH + 80;
+    var c = document.createElement("canvas"); c.width = W; c.height = H;
+    var x = c.getContext("2d");
+    x.fillStyle = "#fff"; x.fillRect(0, 0, W, H);
+
+    x.fillStyle = "#111"; x.font = "bold 40px -apple-system,'PingFang SC',sans-serif";
     x.fillText("采购清单", pad, 74);
-    x.fillStyle="#999"; x.font="24px -apple-system,'PingFang SC',sans-serif";
-    x.fillText("W1-11-02 · 共 "+items.length+" 项", pad, 112);
-    x.strokeStyle="#e6e6e2"; x.lineWidth=2;
-    x.beginPath(); x.moveTo(pad,132); x.lineTo(W-pad,132); x.stroke();
-    var y=180;
-    items.forEach(function(it){
-      x.fillStyle = "#222";
-      x.font="28px -apple-system,'PingFang SC',sans-serif";
-      x.fillText(it.n, pad, y);
-      x.textAlign="right";
+    x.fillStyle = "#999"; x.font = "24px -apple-system,'PingFang SC',sans-serif";
+    x.fillText("W1-11-02 · 共 " + total + " 项 · " +
+               new Date().toLocaleDateString("zh-CN"), pad, 112);
+
+    var y = HEAD;
+    render.forEach(function(g){
+      // 分类色条
+      y += 14;
+      x.fillStyle = "#f3f3ef";
+      x.fillRect(pad - 12, y - 30, W - pad*2 + 24, CAT - 16);
       x.fillStyle = "#b5342a";
-      x.font="bold 28px -apple-system,'PingFang SC',sans-serif";
-      x.fillText(it.q, W-pad, y);
-      x.textAlign="left"; y+=LH;
+      x.fillRect(pad - 12, y - 30, 5, CAT - 16);
+      x.fillStyle = "#111"; x.font = "bold 28px -apple-system,'PingFang SC',sans-serif";
+      x.fillText(g.cat, pad + 4, y + 2);
+      x.textAlign = "right";
+      x.fillStyle = "#aaa"; x.font = "22px -apple-system,'PingFang SC',sans-serif";
+      x.fillText(g.items.length + " 项", W - pad, y + 2);
+      x.textAlign = "left";
+      y += CAT - 12;
+
+      g.items.forEach(function(it, i){
+        if(i % 2 === 1){ x.fillStyle = "#fafaf8"; x.fillRect(pad - 12, y - 28, W - pad*2 + 24, LH - 4); }
+        x.fillStyle = "#222"; x.font = "26px -apple-system,'PingFang SC',sans-serif";
+        x.fillText(it.n, pad, y);
+        x.textAlign = "right";
+        x.fillStyle = "#b5342a"; x.font = "bold 26px -apple-system,'PingFang SC',sans-serif";
+        x.fillText(it.q, W - pad, y);
+        x.textAlign = "left";
+        y += LH;
+      });
     });
-    x.fillStyle="#cfcfca"; x.font="20px -apple-system,'PingFang SC',sans-serif";
-    x.fillText("菜谱目录 · W1-11-02", pad, H-34);
-    dlg.innerHTML="<h3>采购清单图片</h3><div class='bighint'>长按下面这张图 → 存储到照片</div>"+
-      "<img src='"+c.toDataURL("image/png")+"' style='width:100%;border-radius:12px;margin:10px 0'>"+
+
+    x.fillStyle = "#cfcfca"; x.font = "20px -apple-system,'PingFang SC',sans-serif";
+    x.fillText("菜谱目录 · W1-11-02", pad, H - 30);
+
+    dlg.innerHTML = "<h3>采购清单图片</h3>"+
+      "<div class='bighint'>长按下面这张图 → 存储到照片</div>"+
+      "<img src='" + c.toDataURL("image/png") + "' style='width:100%;border-radius:12px;margin:10px 0'>"+
       "<div class='acts'><button id='closeBtn'>关闭</button></div>";
     dlg.classList.add("on"); mask.classList.add("on");
-    document.getElementById("closeBtn").onclick=mask.onclick;
+    document.getElementById("closeBtn").onclick = mask.onclick;
   };
  }catch(err){ if(window.console) console.log("shop err:", err.message); }
 })();
