@@ -17,6 +17,8 @@ LATEST="${LATEST%/}"
 CODE=$(basename "$LATEST")
 echo "最新一周：$CODE"
 
+# 根地址就是菜谱目录（不再单独做入口页），catalog.html 保留给旧链接
+cp "$CAT" "$HERE/index.html"
 cp "$CAT" "$HERE/catalog.html"
 
 # 一周三件套
