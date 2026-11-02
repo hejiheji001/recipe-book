@@ -21,12 +21,13 @@ a{color:var(--ink);}
  background:#fff;border-bottom:1px solid var(--line);}
 
 nav{position:static;z-index:auto;
-  display:flex;gap:6px;overflow-x:auto;overflow-y:hidden;
-  padding:8px 11px;background:#fff;border-bottom:1px solid var(--line);
-  scrollbar-width:none;}
+  display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;
+  padding:8px 9px;background:#fff;border-bottom:1px solid var(--line);}
 nav::-webkit-scrollbar{display:none;}
-nav a{flex:0 0 auto;text-decoration:none;color:var(--dim);font-size:15px;
-  padding:6px 13px;border:1px solid var(--line);border-radius:20px;}
+nav a{flex:0 0 auto;display:flex;align-items:center;justify-content:center;
+  text-align:center;text-decoration:none;color:var(--dim);font-size:15px;
+  line-height:1;padding:8px 15px;border:1px solid var(--line);border-radius:20px;}
+.sitenav a{display:flex;align-items:center;justify-content:center;}
 nav a.on{background:var(--ink);color:#fff;border-color:var(--ink);font-weight:600;}
 nav a.shop{border-color:var(--ink);font-weight:600;}
 
@@ -79,9 +80,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
 .daynav{display:flex;gap:10px;margin:14px 0 0;}
 .daynav a{flex:1;text-align:center;text-decoration:none;font-size:15px;
   border:1px solid var(--line);border-radius:12px;padding:11px 0;background:var(--soft);}
-.totop{display:block;text-align:center;text-decoration:none;color:var(--dim);
-  font-size:14px;border:1px solid var(--line);border-radius:20px;
-  padding:8px 0;margin:10px 0 4px;}
+
 
 .shop{padding-top:14px;scroll-margin-top:122px;}
 .scat{margin-top:16px;}
@@ -107,7 +106,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
 <div class="sitenav">
   <a href="../">菜谱目录</a>
   <a href="./" class="on">本周菜单</a>
-  <a href="print.pdf">打印版</a>
+  <a href="print.html">打印版</a>
   <a href="shopping.html" class="hot">采购清单</a>
 </div>
 <nav><a class="shop" href="#shop">采购清单</a><a href="#d1">周一</a><a href="#d2">周二</a><a href="#d3">周三</a><a href="#d4">周四</a><a href="#d5">周五</a><a href="#d6">周六</a><a href="#d7">周日</a></nav>
@@ -184,7 +183,6 @@ ol li{margin-bottom:5px;line-height:1.5;}
       </div>
     </details>
     <div class="daynav"><a href="#d2">周二 →</a></div>
-    <a class="totop" href="#top">↑ 回到顶部导航</a>
   </section>
   <section class="day" id="d2">
     <div class="dh">
@@ -256,7 +254,6 @@ ol li{margin-bottom:5px;line-height:1.5;}
       </div>
     </details>
     <div class="daynav"><a href="#d1">← 周一</a><a href="#d3">周三 →</a></div>
-    <a class="totop" href="#top">↑ 回到顶部导航</a>
   </section>
   <section class="day" id="d3">
     <div class="dh">
@@ -328,7 +325,6 @@ ol li{margin-bottom:5px;line-height:1.5;}
       </div>
     </details>
     <div class="daynav"><a href="#d2">← 周二</a><a href="#d4">周四 →</a></div>
-    <a class="totop" href="#top">↑ 回到顶部导航</a>
   </section>
   <section class="day" id="d4">
     <div class="dh">
@@ -400,7 +396,6 @@ ol li{margin-bottom:5px;line-height:1.5;}
       </div>
     </details>
     <div class="daynav"><a href="#d3">← 周三</a><a href="#d5">周五 →</a></div>
-    <a class="totop" href="#top">↑ 回到顶部导航</a>
   </section>
   <section class="day" id="d5">
     <div class="dh">
@@ -472,7 +467,6 @@ ol li{margin-bottom:5px;line-height:1.5;}
       </div>
     </details>
     <div class="daynav"><a href="#d4">← 周四</a><a href="#d6">周六 →</a></div>
-    <a class="totop" href="#top">↑ 回到顶部导航</a>
   </section>
   <section class="day" id="d6">
     <div class="dh">
@@ -544,7 +538,6 @@ ol li{margin-bottom:5px;line-height:1.5;}
       </div>
     </details>
     <div class="daynav"><a href="#d5">← 周五</a><a href="#d7">周日 →</a></div>
-    <a class="totop" href="#top">↑ 回到顶部导航</a>
   </section>
   <section class="day" id="d7">
     <div class="dh">
@@ -616,7 +609,6 @@ ol li{margin-bottom:5px;line-height:1.5;}
       </div>
     </details>
     <div class="daynav"><a href="#d6">← 周六</a></div>
-    <a class="totop" href="#top">↑ 回到顶部导航</a>
   </section>
 
   <section class="shop" id="shop">
@@ -628,10 +620,9 @@ ol li{margin-bottom:5px;line-height:1.5;}
       ① 鹅需要 700g，但实际买的是整只（约 2000g），剩下的煮粥或下次用。<br>
       ② 蔬菜建议分两次买：周一到周三一批，周四补一次叶菜。
     </div>
-    <a class="totop" href="#top">↑ 回到顶部导航</a>
   </section>
   <div class="foot">点菜品标题可收起 / 展开　·　青菜永远是最后 3 分钟做<br>
-  <span style="color:#d0d0cc">更新于 2026-11-02 17:31</span></div>
+  <span style="color:#d0d0cc">更新于 2026-11-02 18:23</span></div>
 </div>
 
 <script>

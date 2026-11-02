@@ -34,6 +34,11 @@ h2 span{font-weight:400;color:#c0c0bc;}
 .it input:checked ~ .nm{text-decoration:line-through;color:#c8c8c4;}
 .it input:checked ~ .q{text-decoration:line-through;color:#ddd;}
 .foot{text-align:center;color:#d0d0cc;font-size:11.5px;padding:26px 0 20px;}
+#toast{display:none;position:fixed;left:50%;top:38%;transform:translate(-50%,-50%);
+ background:rgba(0,0,0,.86);color:#fff;padding:14px 22px;border-radius:12px;
+ font-size:15.5px;z-index:300;pointer-events:none;max-width:80%;text-align:center;}
+.bighint{background:#fdecea;color:#c0392b;border:2px solid #c0392b;border-radius:12px;
+ padding:14px 16px;font-size:17px;font-weight:800;text-align:center;line-height:1.5;}
 #mask{display:none;position:fixed;left:0;right:0;top:0;bottom:0;z-index:200;background:rgba(0,0,0,.45);}
 #mask.on{display:block;}
 #dlg{position:fixed;left:0;right:0;bottom:0;z-index:201;display:none;background:#fff;
@@ -59,12 +64,13 @@ h2 span{font-weight:400;color:#c0c0bc;}
   <div class="sitenav">
     <a href="../">菜谱目录</a>
     <a href="./">本周菜单</a>
-    <a href="print.pdf">打印版</a>
+    <a href="print.html">打印版</a>
     <a href="shopping.html" class="on hot">采购清单</a>
   </div>
   <div class="bar">
     <span class="p">已买 <b id="done">0</b>/<span id="tot">42</span></span>
-    <button id="clear">清除勾选</button>
+    <button id="clear">清除</button>
+    <button id="save">保存清单</button>
     <button id="img" class="pri">存为图片</button>
   </div>
 </div>
@@ -75,6 +81,7 @@ h2 span{font-weight:400;color:#c0c0bc;}
 
 <div id="mask"></div>
 <div id="dlg"></div>
+<div id="toast"></div>
 
 <script>
 (function(){
@@ -106,6 +113,37 @@ h2 span{font-weight:400;color:#c0c0bc;}
   document.getElementById("clear").onclick = function(){
     boxes.forEach(function(b){ b.checked = false; });
     save(); sync();
+  };
+
+  // ===== 保存清单（进「我的单」，与菜谱目录打通）=====
+  function pad(n){ return ("0"+n).slice(-2); }
+  function todayStr(){ var d=new Date(); return pad(d.getMonth()+1)+"/"+pad(d.getDate()); }
+  function loadLists(){ try{ return JSON.parse(localStorage.getItem("rb_lists")||"[]"); }catch(e){ return []; } }
+  function loadTrash(){ try{ return JSON.parse(localStorage.getItem("rb_trash")||"[]"); }catch(e){ return []; } }
+
+  document.getElementById("save").onclick = function(){
+    var items = [].slice.call(document.querySelectorAll(".it")).map(function(el){
+      return { n: el.querySelector(".nm").textContent, q: el.querySelector(".q").textContent };
+    });
+    var base = todayStr(), used = {}, i = 1;
+    loadLists().concat(loadTrash()).forEach(function(x){
+      var nm = (x.name||"");
+      if(nm.indexOf(base)===0){ var m = nm.match(/-([0-9]+)$/); used[m ? +m[1] : 1] = 1; }
+    });
+    while(used[i]) i++;
+    var nm = base + "-" + i;
+    var d = new Date();
+    var ls = loadLists();
+    ls.unshift({
+      id: d.getTime(), name: nm,
+      date: d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate()),
+      items: items, dishes: [], from: "本周菜单 W1-11-02"
+    });
+    localStorage.setItem("rb_lists", JSON.stringify(ls));
+    var t = document.getElementById("toast");
+    t.textContent = "已保存：" + nm;
+    t.style.display = "block";
+    setTimeout(function(){ t.style.display = "none"; }, 1500);
   };
 
   // ===== 存为图片 =====
@@ -164,7 +202,7 @@ h2 span{font-weight:400;color:#c0c0bc;}
     x.fillText("菜谱目录 · W1-11-02", pad, H-34);
 
     var data = c.toDataURL("image/png");
-    dlg.innerHTML = "<h3>采购清单图片</h3><div class='sub'>长按图片 → 存储到照片</div>"+
+    dlg.innerHTML = "<h3>采购清单图片</h3><div class='bighint'>长按下面这张图 → 存储到照片</div>"+
       "<img src='"+data+"' style='width:100%;border:1px solid #eee;border-radius:10px'>"+
       "<div class='acts'><button id='closeBtn'>关闭</button></div>";
     dlg.classList.add("on"); mask.classList.add("on");
