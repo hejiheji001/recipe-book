@@ -39,6 +39,8 @@ body{min-height:100vh;display:flex;flex-direction:column;}
 .delx{background:#ffffff;color:#c0392b;border:1px solid #e6c9c4;flex:0 0 66px;}
 
 .empty{color:#8a8a84;text-align:center;padding:18px 0;font-size:12.5px;}
+.oldtag{display:inline-block;font-size:10px;font-weight:700;color:#8a5a12;
+ background:#fdf3e3;border-radius:4px;padding:1px 5px;margin-left:6px;vertical-align:1px;}
 .foot{text-align:center;color:#c4c4be;font-size:11.5px;padding:10px 0 24px;flex:1 0 auto;}
 .bottombar{position:-webkit-sticky;position:sticky;bottom:0;z-index:30;display:flex;gap:6px;
  padding:8px 10px calc(8px + env(safe-area-inset-bottom));
@@ -74,7 +76,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
   </div>
 </div>
 
-<div class="head"><span>更新 11-02 22:25</span><span>W1-11-02</span></div>
+<div class="head"><span>更新 11-02 22:34</span><span>W1-11-02</span></div>
 
 <div class="main">
   <div class="sec">
@@ -88,8 +90,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
         </div>
       </div>
       <div class="acts">
-        <b class="open" id="openWeek">打开 / 打印</b>
-        <a class="delx" href="print.pdf" target="_blank" rel="noopener">原始 PDF</a>
+        <a class="open" href="print.pdf" target="_blank" rel="noopener">打开 PDF · 可分享到微信</a>
       </div>
     </div>
   </div>
@@ -165,11 +166,19 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     list.sort(function(a,b){ return b.at-a.at; });
     box.innerHTML = list.map(function(it){
       var kb=Math.round((it.size||0)/1024);
+      var isOld = (it.ver || 1) < 2;
+      var canRegen = isOld && it.items && it.items.length;
+      var badge = isOld ? "<span class='oldtag'>旧版</span>" : "";
+      var mainBtn = canRegen
+        ? "<a class='open' href='../?regen="+it.id+"'>重新生成新排版</a>"
+        : (isOld
+            ? "<b class='open' style='opacity:.55'>旧版 · 回总菜谱重做</b>"
+            : "<b class='open' data-open='"+it.id+"'>打开 PDF · 分享到微信</b>");
       return "<div class='card' data-id='"+it.id+"'>"+
         "<div class='rowt'><span class='ok'>✓</span><div class='meta'>"+
-        "<div class='nm'>"+esc(it.name)+"</div>"+
+        "<div class='nm'>"+esc(it.name)+badge+"</div>"+
         "<div class='sub2'>"+it.date+" · "+kb+" KB</div></div></div>"+
-        "<div class='acts'><b class='open' data-open='"+it.id+"'>打开 / 分享到微信</b>"+
+        "<div class='acts'>"+mainBtn+
         "<b class='delx' data-del='"+it.id+"'>删除</b></div></div>";
     }).join("");
 
