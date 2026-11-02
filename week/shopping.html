@@ -57,7 +57,25 @@ h2 em{font-style:normal;font-size:12px;font-weight:500;color:#9a9a95;}
 .it input:checked ~ .nm{text-decoration:line-through;color:#c8c8c4;}
 .it input:checked ~ .q{text-decoration:line-through;color:#e0e0dc;}
 
-.foot{height:70px;}
+#mask{display:none;position:fixed;left:0;right:0;top:0;bottom:0;z-index:200;
+ background:rgba(0,0,0,.45);}
+#mask.on{display:block;}
+#dlg{position:fixed;left:0;right:0;bottom:0;z-index:201;display:none;
+ background:#fff;border-radius:16px 16px 0 0;max-height:88vh;overflow-y:auto;
+ padding:16px 16px calc(20px + env(safe-area-inset-bottom));}
+#dlg.on{display:block;}
+#dlg h3{margin:0 0 4px;font-size:18px;}
+#dlg .acts{display:flex;gap:8px;margin-top:14px;}
+#dlg .acts button{flex:1;font-size:15px;padding:13px;border-radius:11px;border:none;font-weight:600;}
+#dlg #closeBtn{background:#f2f2ee;color:#555;}
+.bighint{background:#fdecea;color:#c0392b;border:2px solid #c0392b;border-radius:12px;
+ padding:14px 16px;font-size:17px;font-weight:800;text-align:center;line-height:1.5;}
+#toast{display:none;position:fixed;left:50%;top:38%;transform:translate(-50%,-50%);
+ background:rgba(0,0,0,.86);color:#fff;padding:14px 22px;border-radius:12px;
+ font-size:15.5px;z-index:300;pointer-events:none;max-width:80%;text-align:center;}
+
+body{min-height:100vh;display:flex;flex-direction:column;}
+.foot{flex:1 0 auto;height:70px;}
 .bottombar{position:-webkit-sticky;position:sticky;bottom:0;z-index:30;display:flex;gap:6px;
  padding:8px 10px calc(8px + env(safe-area-inset-bottom));
  background:#fff;border-top:1px solid #e6e6e2;box-shadow:0 -3px 12px rgba(0,0,0,.07);}
@@ -82,7 +100,7 @@ h2 em{font-style:normal;font-size:12px;font-weight:500;color:#9a9a95;}
     <a href="print.html">本周打印</a>
   </div>
   <div class="bar">
-    <span class="p">已买 <b id="done">0</b>/42<span class="upd">更新 11-02 20:00</span></span>
+    <span class="p">已买 <b id="done">0</b>/42<span class="upd">更新 11-02 20:10</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
@@ -165,9 +183,21 @@ h2 em{font-style:normal;font-size:12px;font-weight:500;color:#9a9a95;}
   [].slice.call(document.querySelectorAll(".cf")).forEach(function(c){
     c.onclick = function(){
       var g = c.getAttribute("data-g");
-      if(g === ""){ pickedCats = {}; }
+      if(g === ""){
+        pickedCats = {};
+        boxes.forEach(function(b){ b.checked = false; });
+      }
       else if(pickedCats[g]){ delete pickedCats[g]; }
       else { pickedCats[g] = 1; }
+      // 选中分类 → 该分类下全部勾上；取消 → 全部取消
+      [].slice.call(document.querySelectorAll("section.cat")).forEach(function(sec){
+        var gi2 = sec.getAttribute("data-g");
+        var on = (g === "") ? false : (pickedCats[gi2] === 1);
+        if(g === "") return;
+        [].slice.call(sec.querySelectorAll(".it input")).forEach(function(b){ b.checked = on; });
+        syncGroup(gi2);
+      });
+      save(); sync();
       [].slice.call(document.querySelectorAll(".cf")).forEach(function(x){
         var gg = x.getAttribute("data-g");
         if(gg !== "") x.classList.toggle("on", pickedCats[gg] === 1);
