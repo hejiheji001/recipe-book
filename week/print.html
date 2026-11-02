@@ -76,7 +76,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
   </div>
 </div>
 
-<div class="head"><span>更新 11-02 22:36</span><span>W1-11-02</span></div>
+<div class="head"><span>更新 11-02 22:53</span><span>W1-11-02</span></div>
 
 <div class="main">
   <div class="sec">
@@ -90,7 +90,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
         </div>
       </div>
       <div class="acts">
-        <a class="open" href="print.pdf" target="_blank" rel="noopener">打开 PDF · 可分享到微信</a>
+        <b class="open" id="shareWeek">打开 PDF · 分享到微信</b>
       </div>
     </div>
   </div>
@@ -122,6 +122,29 @@ body{min-height:100vh;display:flex;flex-direction:column;}
   document.getElementById("vBack").onclick=function(){ view.classList.remove("on"); };
   document.getElementById("vPrint").onclick=function(){
     try{ window.print(); }catch(e){ alert("请用「分享」→打印"); }
+  };
+
+  // ===== 分享 PDF（iOS 会弹系统分享面板，可直接选微信）=====
+  function sharePdf(blob, name){
+    var file = null;
+    try{ file = new File([blob], name + ".pdf", {type:"application/pdf"}); }catch(e){}
+    if(file && navigator.canShare && navigator.canShare({files:[file]})){
+      navigator.share({files:[file], title:name}).catch(function(){});
+      return;
+    }
+    var url = URL.createObjectURL(blob);
+    window.open(url, "_blank");
+    setTimeout(function(){ URL.revokeObjectURL(url); }, 60000);
+  }
+
+  function shareUrl(url, name){
+    fetch(url).then(function(r){ return r.blob(); })
+      .then(function(b){ sharePdf(b, name); })
+      .catch(function(){ window.open(url, "_blank"); });
+  }
+
+  document.getElementById("shareWeek").onclick = function(){
+    shareUrl("print.pdf", "本周打印");
   };
 
   // 读自定义 PDF
@@ -187,9 +210,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
         var id=+b.getAttribute("data-open");
         var it=list.filter(function(x){return x.id===id;})[0];
         if(!it) return;
-        var u=URL.createObjectURL(it.blob);
-        window.open(u,"_blank");
-        setTimeout(function(){ URL.revokeObjectURL(u); }, 60000);
+        sharePdf(it.blob, it.name);
       };
     });
     [].slice.call(box.querySelectorAll("[data-del]")).forEach(function(b){
