@@ -61,8 +61,8 @@ h2 em{font-style:normal;font-size:12px;font-weight:500;color:#9a9a95;}
 .bottombar{position:-webkit-sticky;position:sticky;bottom:0;z-index:30;display:flex;gap:6px;
  padding:8px 10px calc(8px + env(safe-area-inset-bottom));
  background:#fff;border-top:1px solid #e6e6e2;box-shadow:0 -3px 12px rgba(0,0,0,.07);}
-.bottombar a{flex:1;text-align:center;text-decoration:none;font-size:14px;font-weight:600;
- padding:11px 0;border-radius:10px;background:#fff;color:#444;border:1px solid #e0e0dc;}
+.bottombar a{flex:1;text-align:center;text-decoration:none;font-size:13px;font-weight:600;
+ padding:10px 0;border-radius:9px;background:#fff;color:#444;border:1px solid #e0e0dc;}
 
 @media print{
   .stickytop,.foot{display:none !important;}
@@ -82,7 +82,7 @@ h2 em{font-style:normal;font-size:12px;font-weight:500;color:#9a9a95;}
     <a href="print.html">本周打印</a>
   </div>
   <div class="bar">
-    <span class="p">已买 <b id="done">0</b>/42<span class="upd">更新 11-02 19:43</span></span>
+    <span class="p">已买 <b id="done">0</b>/42<span class="upd">更新 11-02 20:00</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
@@ -152,18 +152,30 @@ h2 em{font-style:normal;font-size:12px;font-weight:500;color:#9a9a95;}
     save(); sync(); syncAllGroups();
   };
 
-  // 分类筛选
+  // 分类筛选（多选）
+  var pickedCats = {};
+  function applyCats(){
+    var all = Object.keys(pickedCats).length === 0;
+    [].slice.call(document.querySelectorAll("section.cat")).forEach(function(s){
+      s.classList.toggle("on", all || pickedCats[s.getAttribute("data-g")] === 1);
+    });
+    var allChip = document.querySelector('.cf[data-g=""]');
+    if(allChip) allChip.classList.toggle("on", all);
+  }
   [].slice.call(document.querySelectorAll(".cf")).forEach(function(c){
     c.onclick = function(){
-      [].slice.call(document.querySelectorAll(".cf")).forEach(function(x){ x.classList.remove("on"); });
-      c.classList.add("on");
       var g = c.getAttribute("data-g");
-      [].slice.call(document.querySelectorAll("section.cat")).forEach(function(s){
-        s.classList.toggle("on", g === "" || s.getAttribute("data-g") === g);
+      if(g === ""){ pickedCats = {}; }
+      else if(pickedCats[g]){ delete pickedCats[g]; }
+      else { pickedCats[g] = 1; }
+      [].slice.call(document.querySelectorAll(".cf")).forEach(function(x){
+        var gg = x.getAttribute("data-g");
+        if(gg !== "") x.classList.toggle("on", pickedCats[gg] === 1);
       });
+      applyCats();
     };
   });
-  [].slice.call(document.querySelectorAll("section.cat")).forEach(function(s){ s.classList.add("on"); });
+  applyCats();
 
   function pad(n){ return ("0"+n).slice(-2); }
   function todayStr(){ var d=new Date(); return pad(d.getMonth()+1)+"/"+pad(d.getDate()); }
