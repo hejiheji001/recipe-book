@@ -52,6 +52,6 @@ git push -q origin main
 echo "✅ 已发布"
 echo "   https://hejiheji001.github.io/recipe-book/"
 echo "     ├ 本周菜单   /week/"
-echo "     ├ 本周菜单   /week/"
+echo "     ├ 本周采购   /week/shopping.html"
 echo "     ├ 总菜谱     /"
 echo "     └ 本周打印   /week/print.html"
