@@ -2,13 +2,13 @@
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
-<title>打印版 · W1-11-02</title>
+<title>本周打印 · W1-11-02</title>
 <style>
 *{box-sizing:border-box;-webkit-text-size-adjust:100%;}
-html,body{margin:0;padding:0;height:100%;background:#fff;color:#111;
- font:15px/1.6 "PingFang SC","Hiragino Sans GB",sans-serif;overflow:hidden;}
+html,body{margin:0;padding:0;background:#eceae6;color:#111;
+ font:15px/1.6 "PingFang SC","Hiragino Sans GB",sans-serif;}
 .stickytop{position:-webkit-sticky;position:sticky;top:0;z-index:9;
- background:#fff;border-bottom:1px solid #e6e6e2;flex:0 0 auto;}
+ background:#fff;border-bottom:1px solid #e6e6e2;}
 .sitenav{display:flex;padding:0 4px;border-bottom:1px solid #f0f0ec;}
 .sitenav a{flex:1;display:flex;align-items:center;justify-content:center;
  text-align:center;font-size:13px;padding:12px 2px;color:#666;
@@ -16,45 +16,53 @@ html,body{margin:0;padding:0;height:100%;background:#fff;color:#111;
 .sitenav a.on{color:#111;font-weight:700;box-shadow:inset 0 -2px 0 #111;}
 .sitenav a.hot{color:#b5342a;font-weight:600;}
 .subtabs{display:flex;gap:6px;padding:8px 12px;}
-.subtabs b{flex:1;text-align:center;font-size:13.5px;font-weight:600;
- padding:9px 0;border:1px solid #e0e0dc;border-radius:9px;color:#666;background:#fff;
+.subtabs b{flex:1;display:flex;align-items:center;justify-content:center;
+ text-align:center;font-size:13.5px;font-weight:600;padding:9px 0;
+ border:1px solid #e0e0dc;border-radius:9px;color:#666;background:#fff;
  cursor:pointer;-webkit-tap-highlight-color:transparent;}
 .subtabs b.on{background:#111;color:#fff;border-color:#111;}
-#view{width:100%;height:calc(100% - 0px);border:0;display:block;background:#f4f4f1;}
-.wrap{display:flex;flex-direction:column;height:100%;}
-.body{flex:1 1 auto;position:relative;min-height:0;}
-.body iframe{width:100%;height:100%;border:0;display:block;}
-.tip{padding:9px 14px;font-size:12.5px;color:#8a8a85;background:#fafaf8;
- border-bottom:1px solid #eee;text-align:center;}
-.tip b{color:#6b4d10;}
+.pane{display:none;padding:10px 10px 20px;}
+.pane.on{display:block;}
+.pane img{width:100%;display:block;border-radius:8px;margin-bottom:10px;
+ box-shadow:0 2px 10px rgba(0,0,0,.09);background:#fff;}
+.none{text-align:center;color:#aaa;padding:50px 0;font-size:14px;}
+.raw{display:flex;gap:8px;padding:0 10px 24px;}
+.raw a{flex:1;text-align:center;text-decoration:none;font-size:13.5px;font-weight:600;
+ padding:12px 0;border-radius:10px;background:#fff;color:#444;border:1px solid #ddd;}
+.foot{text-align:center;color:#b6b6b0;font-size:11.5px;padding:0 0 24px;}
 </style></head><body>
-<div class="wrap">
-  <div class="stickytop">
-    <div class="sitenav">
-      <a href="./">本周菜单</a>
-      <a href="shopping.html" class="hot">本周采购</a>
-      <a href="../">总菜谱</a>
-      <a href="print.html" class="on">本周打印</a>
-    </div>
-    <div class="subtabs">
-      <b class="on" data-src="print.pdf">打印版 9 页</b>
-      <b data-src="overview.pdf">一周总览 1 页</b>
-    </div>
+
+<div class="stickytop">
+  <div class="sitenav">
+    <a href="./">本周菜单</a>
+    <a href="shopping.html" class="hot">本周采购</a>
+    <a href="../">总菜谱</a>
+    <a href="print.html" class="on">本周打印</a>
   </div>
-  <div class="tip">双指捏合可放大　·　<b>点上面切换</b></div>
-  <div class="body">
-    <iframe id="view" src="print.pdf#view=FitH"></iframe>
+  <div class="subtabs">
+    <b class="on" data-pane="p1">打印版 9 页</b>
+    <b data-pane="p2">一周总览 1 页</b>
   </div>
 </div>
+
+<div class="pane on" id="p1"><img src="pg/p1.jpg" alt="第1页"><img src="pg/p2.jpg" alt="第2页"><img src="pg/p3.jpg" alt="第3页"><img src="pg/p4.jpg" alt="第4页"><img src="pg/p5.jpg" alt="第5页"><img src="pg/p6.jpg" alt="第6页"><img src="pg/p7.jpg" alt="第7页"><img src="pg/p8.jpg" alt="第8页"><img src="pg/p9.jpg" alt="第9页"></div>
+<div class="pane" id="p2"><img src="pg-ov/p1.jpg" alt="第1页"></div>
+
+<div class="raw">
+  <a href="print.pdf" target="_blank" rel="noopener">打开原始 PDF</a>
+</div>
+<div class="foot">菜谱目录 · W1-11-02</div>
+
 <script>
 (function(){
   var tabs = [].slice.call(document.querySelectorAll(".subtabs b"));
-  var view = document.getElementById("view");
   tabs.forEach(function(t){
     t.onclick = function(){
-      tabs.forEach(function(x){ x.className = ""; });
+      tabs.forEach(function(x){ x.className=""; });
+      [].slice.call(document.querySelectorAll(".pane")).forEach(function(p){ p.className="pane"; });
       t.className = "on";
-      view.src = t.getAttribute("data-src") + "#view=FitH";
+      document.getElementById(t.getAttribute("data-pane")).className = "pane on";
+      window.scrollTo(0,0);
     };
   });
 })();

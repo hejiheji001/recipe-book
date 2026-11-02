@@ -36,8 +36,9 @@ mkdir -p "$HERE/week"
 # 采购清单页（手机可看/可打勾/可打印）
 [ -n "$SHOP" ] && python3 "$ROOT/scripts/build_shopping_html.py" \
     "$SHOP" "$HERE/week/shopping.html" "$CODE"
-# 打印版入口页（带导航，避免打开 PDF 后丢失导航）
-python3 "$ROOT/scripts/build_print_html.py" "$HERE/week/print.html" "$CODE"
+# 打印版：PDF 逐页转图 + 入口页（带导航，可滚动查看全部页）
+python3 "$ROOT/scripts/build_print_pages.py" "$HERE/week"
+python3 "$ROOT/scripts/build_print_html.py" "$HERE/week/print.html" "$CODE" "$HERE/week"
 
 cat > "$HERE/week/meta.json" <<JSON
 {"code":"$CODE","updated":"$(date '+%Y-%m-%d %H:%M')"}
