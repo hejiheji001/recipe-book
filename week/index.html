@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<title>一周晚餐 · 2026/11/2 – 11/8</title>
+<style>
+:root{--ink:#111;--dim:#6b6b6b;--line:#e0e0dc;--soft:#f5f5f2;--accent:#b5342a;}
+*{box-sizing:border-box;-webkit-text-size-adjust:100%;}
+body{margin:0;background:#fff;color:var(--ink);
+  font:18px/1.5 "PingFang SC","Hiragino Sans GB","Heiti SC",sans-serif;}
+a{color:var(--ink);}
+
+nav{position:-webkit-sticky;position:sticky;top:0;z-index:9;
+  display:flex;gap:6px;overflow-x:auto;overflow-y:hidden;
+  padding:8px 11px;background:#fff;border-bottom:1px solid var(--line);
+  scrollbar-width:none;}
+nav::-webkit-scrollbar{display:none;}
+nav a{flex:0 0 auto;text-decoration:none;color:var(--dim);font-size:15px;
+  padding:6px 13px;border:1px solid var(--line);border-radius:20px;}
+nav a.on{background:var(--ink);color:#fff;border-color:var(--ink);font-weight:600;}
+nav a.shop{border-color:var(--ink);font-weight:600;}
+
+.wrap{max-width:560px;margin:0 auto;padding:0 14px 48px;}
+
+.day{padding-top:14px;scroll-margin-top:76px;}
+.dh{border-bottom:2.5px solid var(--ink);padding-bottom:7px;margin-bottom:11px;}
+.dh h2{margin:0;font-size:22px;letter-spacing:.4px;}
+.dh .sub{margin-top:4px;font-size:14.5px;color:var(--dim);line-height:1.42;}
+.dh .sub b{color:var(--accent);font-weight:700;}
+
+h3{font-size:14.5px;margin:12px 0 6px;color:var(--dim);font-weight:600;letter-spacing:1px;}
+
+.tl{background:var(--soft);border-radius:12px;padding:2px 14px;}
+.tl .it{display:flex;gap:11px;padding:7px 0;border-bottom:1px dashed var(--line);}
+.tl .it:last-child{border-bottom:0;}
+.tl .t{flex:0 0 78px;font-size:14.5px;font-weight:700;color:var(--accent);
+  font-variant-numeric:tabular-nums;padding-top:1px;line-height:1.35;}
+.tl .c{flex:1;font-size:17px;line-height:1.4;}
+.tl .tag{display:inline-block;font-size:12px;padding:1px 7px;border-radius:5px;
+  background:#e6e6e1;color:#3a3a3a;margin-right:6px;vertical-align:2px;font-weight:600;}
+
+.dish{border:1px solid var(--line);border-radius:14px;margin-bottom:9px;overflow:hidden;}
+.dish>summary{list-style:none;padding:10px 15px;background:var(--soft);cursor:pointer;
+  position:relative;padding-right:38px;}
+.dish>summary::-webkit-details-marker{display:none;}
+.dish>summary::after{content:"›";position:absolute;right:17px;top:50%;
+  transform:translateY(-50%) rotate(90deg);font-size:22px;color:#999;transition:.2s;}
+.dish[open]>summary::after{transform:translateY(-50%) rotate(-90deg);}
+.dchip{display:inline-block;font-size:12px;font-weight:700;color:#fff;background:#333;
+  padding:2px 7px;border-radius:5px;margin-right:7px;vertical-align:2px;}
+.role{font-size:12.5px;color:#fff;background:var(--ink);padding:3px 8px;border-radius:5px;
+  margin-right:9px;vertical-align:2px;font-weight:600;white-space:nowrap;}
+.role.cam{background:var(--accent);}
+.nm{font-size:19px;font-weight:700;}
+.meta{margin-top:4px;font-size:13px;color:var(--dim);}
+.meta i{display:inline-block;margin-right:12px;font-style:normal;}
+.meta i:first-child{color:var(--accent);font-weight:600;}
+
+.body{padding:0 15px 11px;}
+.row{margin-top:9px;}
+.row .k{font-size:12px;color:var(--dim);letter-spacing:1px;margin-bottom:2px;}
+.row .v{font-size:17.5px;line-height:1.48;}
+.row .v.dim{font-size:15.5px;color:#3d3d3d;line-height:1.42;}
+ol{margin:2px 0 0;padding-left:21px;}
+ol li{margin-bottom:5px;line-height:1.5;}
+.tip{background:#fff4f2;border-left:4px solid var(--accent);padding:7px 12px;
+  border-radius:0 8px 8px 0;font-size:16px;line-height:1.45;}
+
+.daynav{display:flex;gap:10px;margin:14px 0 0;}
+.daynav a{flex:1;text-align:center;text-decoration:none;font-size:15px;
+  border:1px solid var(--line);border-radius:12px;padding:11px 0;background:var(--soft);}
+.totop{display:block;text-align:center;text-decoration:none;color:var(--dim);
+  font-size:14px;border:1px solid var(--line);border-radius:20px;
+  padding:8px 0;margin:10px 0 4px;}
+
+.shop{padding-top:14px;scroll-margin-top:76px;}
+.scat{margin-top:16px;}
+.scn{font-size:14px;color:#fff;background:var(--ink);display:inline-block;
+  padding:3px 11px;border-radius:6px;font-weight:600;letter-spacing:1px;}
+.scn span{background:rgba(255,255,255,.25);border-radius:4px;padding:0 6px;
+  margin-left:8px;font-size:12px;font-weight:400;}
+.si{display:flex;align-items:baseline;gap:10px;padding:10px 2px;
+  border-bottom:1px solid var(--line);}
+.sn{flex:1;font-size:17px;font-weight:600;}
+.sb{flex:0 0 auto;font-size:15px;color:#333;white-space:nowrap;}
+.sb b{font-size:17px;color:var(--accent);}
+.sp{font-size:12.5px;color:#888;margin-left:3px;}
+.sd{flex:0 0 76px;text-align:right;font-size:12.5px;color:#999;}
+.note{background:var(--soft);border-radius:14px;padding:14px 16px;font-size:15.5px;
+  line-height:1.7;color:#2c2c2c;margin-top:14px;}
+.note b{color:var(--accent);}
+.foot{text-align:center;color:#b0b0b0;font-size:12.5px;padding:22px 0 0;}
+</style></head>
+<body>
+<a id="top"></a>
+<nav><a class="shop" href="#shop">采购清单</a><a href="#d1">周一</a><a href="#d2">周二</a><a href="#d3">周三</a><a href="#d4">周四</a><a href="#d5">周五</a><a href="#d6">周六</a><a href="#d7">周日</a></nav>
+<div class="wrap">
+
+  <section class="day" id="d1">
+    <div class="dh">
+      <h2>周一　11/2</h2>
+      <div class="sub">潮汕家常 · 快手开局<br>人盯锅 <b>17min</b>　总耗时 <b>23min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+    </div>
+    <h3>下 锅 顺 序</h3>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <h3>菜 谱</h3>
+    
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周一 11/2</span><span class="role cam">主菜①</span>
+        <span class="nm">白灼虾</span>
+        <div class="meta"><i>镜头菜</i><i>做</i><i>灶眼B</i><i>12min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">沙虾 500g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">姜、葱、料酒、盐、生抽、蒜、小米辣、糖、香油</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>虾剪须开背去虾线，冲洗沥干</li><li>水沸后下姜片葱段料酒盐</li><li>虾入锅90秒，弯曲变红立刻捞出</li><li>马上投入冰水（带冰块）浸3分钟</li><li>沥干装盘</li><li>蘸料：生抽+蒜末+小米辣+糖+香油</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">超过2分钟肉就柴；冰水是弹牙的唯一关键，不能省</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周一 11/2</span><span class="role">主菜②</span>
+        <span class="nm">菜脯炒肉末</span>
+        <div class="meta"><i>3岁可吃</i><i>炒</i><i>灶眼B</i><i>12min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">菜脯 80g　猪肉末 300g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、生抽、糖、葱、油</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>菜脯泡水10分钟去咸，挤干切碎</li><li>热锅少油，下肉末炒散至微焦出油</li><li>下菜脯碎、蒜末同炒2分钟</li><li>淋生抽+少许糖提鲜</li><li>撒葱花出锅</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">菜脯一定要泡，不泡齁咸；这道菜自带咸味，不要再放盐</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周一 11/2</span><span class="role">主菜③</span>
+        <span class="nm">蒸水蛋</span>
+        <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼B</i><i>15min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 200个</div></div><div class="row"><div class="k">调 料</div><div class="v dim">盐、生抽、香油、葱、温水</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>鸡蛋打散，加1.5倍温水（约40℃）搅匀</li><li>过筛去掉泡沫</li><li>碗口盖保鲜膜或盘子</li><li>水开后上锅，中小火蒸10分钟</li><li>关火焖2分钟</li><li>淋生抽香油，撒葱花</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">水温40℃左右，加冷水蛋羹不嫩；必须盖膜，不然表面起蜂窝</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周一 11/2</span><span class="role">汤</span>
+        <span class="nm">紫菜蛋花汤</span>
+        <div class="meta"><i>3岁可吃</i><i>炖</i><i>灶眼A</i><i>8min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">紫菜 5g　鸡蛋 100个</div></div><div class="row"><div class="k">调 料</div><div class="v dim">盐、香油、白胡椒、葱、水</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>紫菜撕小块</li><li>水沸下紫菜</li><li>鸡蛋打散，转最小火，沿锅边细流倒入</li><li>静置10秒再轻轻推散</li><li>盐、香油、葱花</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">火大蛋就成块，火小才是蛋花</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周一 11/2</span><span class="role">青菜</span>
+        <span class="nm">蒜蓉炒芥兰</span>
+        <div class="meta"><i>3岁可吃</i><i>炒</i><i>灶眼B</i><i>7min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">芥兰 600g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、猪油、盐、蚝油</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>芥兰摘段，粗茎削去外皮（不然有渣）</li><li>沸水加盐和几滴油，焯30秒捞出</li><li>热锅下猪油爆香蒜末</li><li>下芥兰猛火快炒90秒</li><li>淋蚝油翻匀出锅</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">焯水是保脆的唯一关键；猪油是潮汕味的分界线</div></div></div>
+      </div>
+    </details>
+    <div class="daynav"><a href="#d2">周二 →</a></div>
+    <a class="totop" href="#top">↑ 回到顶部导航</a>
+  </section>
+  <section class="day" id="d2">
+    <div class="dh">
+      <h2>周二　11/3</h2>
+      <div class="sub">蒸菜日 · 少油烟<br>人盯锅 <b>22min</b>　总耗时 <b>28min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+    </div>
+    <h3>下 锅 顺 序</h3>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <h3>菜 谱</h3>
+    
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周二 11/3</span><span class="role cam">主菜①</span>
+        <span class="nm">清蒸鲈鱼</span>
+        <div class="meta"><i>镜头菜</i><i>蒸</i><i>灶眼B</i><i>20min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">鲈鱼 600g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">姜、葱、蒸鱼豉油、花生油、盐</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>鲈鱼去鳞去内脏洗净，两面各划 2 刀</li><li>鱼身放姜片，水沸后大火蒸 9min</li><li>关火焖 1min，倒掉盘中腥水</li><li>铺葱丝，淋蒸鱼豉油 25ml，泼 20ml 热油</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">蒸鱼时间按 500g 7min 计算，超过 10min 肉会老</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周二 11/3</span><span class="role">主菜②</span>
+        <span class="nm">香菇蒸滑蛋</span>
+        <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼B</i><i>20min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 250个　香菇 100g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">温水、盐、生抽、香油、葱</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>鸡蛋打散，加温水 300ml 和盐 2g，过筛 1 次</li><li>香菇切薄片，铺在蛋液表面</li><li>盘子盖保鲜膜并扎 4 个小孔</li><li>水开后中小火蒸 10min，关火焖 3min</li><li>淋蒸鱼豉油 8ml，撒葱花</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">蛋液过筛并盖膜，表面才平整细嫩</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周二 11/3</span><span class="role">主菜③</span>
+        <span class="nm">蒜蓉蒸嫩豆腐</span>
+        <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼B</i><i>15min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">嫩豆腐 500g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、蒸鱼豉油、油、葱</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>嫩豆腐倒扣脱盒，切 2cm 厚片摆盘</li><li>蒜末一半用油小火炸 2min 至金黄，一半保留生蒜</li><li>金银蒜铺在豆腐上，水沸后大火蒸 8min</li><li>倒掉盘中水，淋蒸鱼豉油 20ml 和热油 15ml，撒葱花</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">蒸好后倒掉盘水，豉油才不会被稀释</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周二 11/3</span><span class="role">汤</span>
+        <span class="nm">冬瓜虾皮汤</span>
+        <div class="meta"><i>3岁可吃</i><i>炖</i><i>灶眼A</i><i>15min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">冬瓜 500g　虾皮 20g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">姜、盐、香油、葱</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>冬瓜去皮切 3cm 块，虾皮温水洗 1 次</li><li>水 900ml 加姜片煮沸，下冬瓜煮 12min</li><li>下虾皮再煮 3min，撇浮沫</li><li>盐 3g、白胡椒 1g、葱花调味</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">虾皮先洗一次去表面咸味，汤底会更清甜</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周二 11/3</span><span class="role">青菜</span>
+        <span class="nm">清炒油麦菜</span>
+        <div class="meta"><i>3岁可吃</i><i>炒</i><i>灶眼B</i><i>7min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">油麦菜 650g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、油、盐</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>油麦菜洗净掰段，沥到全干</li><li>热锅下油，爆香蒜末</li><li>下菜大火90秒</li><li>盐调味，翻匀出锅</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">菜要沥干，带水下锅就出水变软</div></div></div>
+      </div>
+    </details>
+    <div class="daynav"><a href="#d1">← 周一</a><a href="#d3">周三 →</a></div>
+    <a class="totop" href="#top">↑ 回到顶部导航</a>
+  </section>
+  <section class="day" id="d3">
+    <div class="dh">
+      <h2>周三　11/4</h2>
+      <div class="sub">烤箱日 · 一炉到底<br>人盯锅 <b>30min</b>　总耗时 <b>43min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+    </div>
+    <h3>下 锅 顺 序</h3>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <h3>菜 谱</h3>
+    
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周三 11/4</span><span class="role cam">主菜①</span>
+        <span class="nm">蒜香烤排骨</span>
+        <div class="meta"><i>镜头菜</i><i>烤</i><i>烤箱</i><i>35min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">猪排骨 700g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、生抽、蚝油、蜂蜜、黑胡椒、油</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>排骨斩 4cm 段，加全部调料抓匀腌 20min（或前一晚）</li><li>空气炸锅 200°C 10min</li><li>翻面刷腌料汁，再 8min</li><li>最后 220°C 2min 上色，静置 3min 再装盘</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">蜂蜜最后刷；静置是为了锁汁</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周三 11/4</span><span class="role">主菜②</span>
+        <span class="nm">蒜香蜂蜜烤鸡翅</span>
+        <div class="meta"><i>3岁可吃</i><i>烤</i><i>烤箱</i><i>30min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">鸡翅中 800g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、生抽、蜂蜜、黑胡椒、油</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>两面划 2 刀，加调料腌 30min（或前一晚）</li><li>空气炸锅 200°C 10min</li><li>翻面刷剩余酱汁，再 8min</li><li>最后 220°C 2min 上色</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">蜂蜜最后刷，早刷会焦黑发苦</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周三 11/4</span><span class="role">主菜③</span>
+        <span class="nm">香煎杏鲍菇豆腐</span>
+        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>20min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">杏鲍菇 300g　老豆腐 300g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、生抽、蚝油、油、葱</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>杏鲍菇切 1cm 厚片，豆腐切 2cm 片并吸干</li><li>平底锅加油，豆腐每面煎 3min，盛出</li><li>下杏鲍菇中火每面煎 2min 至金黄</li><li>豆腐回锅，加生抽 12ml、热水 30ml，盖盖 3min</li><li>撒葱花和白胡椒 1g</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">杏鲍菇煎到边缘焦黄才有肉感，别一开始加水</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周三 11/4</span><span class="role">汤</span>
+        <span class="nm">番茄罗勒奶油汤</span>
+        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>35min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">番茄 700g　淡奶油 150g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">洋葱、蒜、番茄膏、罗勒、橄榄油、盐</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>番茄切块，洋葱切末，蒜切片</li><li>黄油 20g 炒洋葱 4min，加入蒜片炒 30 秒</li><li>下番茄和水 500ml，大火滚后小火煮 25min</li><li>料理棒打匀，加入淡奶油 100ml 和干罗勒 1g</li><li>小火加热 3min，加盐 4g、黑胡椒 0.5g，不要沸腾</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">番茄要煮到皮肉完全分开再打，汤才细滑</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周三 11/4</span><span class="role">青菜</span>
+        <span class="nm">蒜香烤西兰花</span>
+        <div class="meta"><i>3岁可吃</i><i>烤</i><i>烤箱</i><i>25min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">西兰花 600g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">橄榄油、蒜、盐、黑胡椒、柠檬</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>切小朵，沸水焯 60 秒捞出沥干</li><li>拌橄榄油 + 蒜 + 盐胡椒</li><li>铺烤盘，200°C 烤 10min（边缘焦化最好吃）</li><li>出烤箱挤柠檬汁</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">先焯再烤，不然外面焦里面生；柠檬汁必须出烤箱后加</div></div></div>
+      </div>
+    </details>
+    <div class="daynav"><a href="#d2">← 周二</a><a href="#d4">周四 →</a></div>
+    <a class="totop" href="#top">↑ 回到顶部导航</a>
+  </section>
+  <section class="day" id="d4">
+    <div class="dh">
+      <h2>周四　11/5</h2>
+      <div class="sub">炖煮日 · 老人小孩都软<br>人盯锅 <b>26min</b>　总耗时 <b>98min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+    </div>
+    <h3>下 锅 顺 序</h3>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <h3>菜 谱</h3>
+    
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周四 11/5</span><span class="role cam">主菜①</span>
+        <span class="nm">南姜萝卜炖排骨</span>
+        <div class="meta"><i>镜头菜</i><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>70min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">猪排骨 700g　白萝卜 500g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">南姜、盐、白胡椒、葱</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>排骨斩 4cm 段，冷水下锅，加姜焯 5min，冲净浮沫</li><li>白萝卜去皮切 3cm 块，南姜切 5 片</li><li>砂锅下排骨、萝卜、南姜和热水，水面高过食材 2cm</li><li>大火滚 10min，转小火加盖炖 70min</li><li>加生抽 15ml、鱼露 8ml，再炖 5min</li><li>出锅前加盐 3g、白胡椒 1g，排骨夹出拆小块给孩子</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">南姜先煮出香味再调鱼露，汤会清甜不腥</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周四 11/5</span><span class="role">主菜②</span>
+        <span class="nm">梅菜蒸肉饼</span>
+        <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼B</i><i>30min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">猪肉末 500g　梅干菜 100g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">生抽、糖、生粉、葱、水</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>梅菜泡水20分钟去咸，挤干切碎</li><li>猪肉末加生粉、生抽、少许糖，同一方向搅打上劲</li><li>拌入梅菜碎</li><li>平铺在盘里，压成1.5厘米厚的饼</li><li>水开后上锅蒸15分钟</li><li>出锅淋少许热油</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">肉末要搅打上劲，不然蒸出来是散的；梅菜必须泡</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周四 11/5</span><span class="role">主菜③</span>
+        <span class="nm">菜脯煎蛋</span>
+        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>12min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 300个　菜脯 100g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">油、葱、白胡椒</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>菜脯泡10分钟挤干切碎</li><li>鸡蛋打散，加菜脯碎搅匀</li><li>热锅下油（油要比炒菜多）</li><li>倒入蛋液，中火不动煎1分钟定型</li><li>翻面再煎1分钟至金黄</li><li>出锅切块</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">油要够，蛋才蓬；火不能大，大了外焦里生</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周四 11/5</span><span class="role">汤</span>
+        <span class="nm">玉米胡萝卜猪骨汤</span>
+        <div class="meta"><i>做</i><i>灶眼B</i><i>90min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">玉米 400g　胡萝卜 250g　猪骨 600g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">姜、盐、水</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>猪骨冷水下锅加姜焯 8min，冲洗干净</li><li>玉米切 4 段，胡萝卜切滚刀</li><li>锅中加水 1400ml、猪骨、姜片、玉米，大火滚 15min</li><li>转小火加盖煲 65min，下胡萝卜再煲 15min</li><li>盐 5g 调味，撇去浮油后上桌</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">大火滚够 15min 再转小火，骨汤才有厚度；盐最后放</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周四 11/5</span><span class="role">青菜</span>
+        <span class="nm">腐乳通菜</span>
+        <div class="meta"><i>3岁可吃</i><i>炒</i><i>灶眼B</i><i>9min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">通菜 700g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">南乳、蒜、油、盐、水</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>通菜摘段，茎叶分开</li><li>南乳一块加1勺汁压碎调匀</li><li>热锅爆香蒜末</li><li>先下茎炒40秒</li><li>下叶和南乳同炒40秒出锅</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">南乳本身极咸，不用再放盐；梗叶分开下</div></div></div>
+      </div>
+    </details>
+    <div class="daynav"><a href="#d3">← 周三</a><a href="#d5">周五 →</a></div>
+    <a class="totop" href="#top">↑ 回到顶部导航</a>
+  </section>
+  <section class="day" id="d5">
+    <div class="dh">
+      <h2>周五　11/6</h2>
+      <div class="sub">砂锅日 · 全周最省时<br>人盯锅 <b>29min</b>　总耗时 <b>43min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+    </div>
+    <h3>下 锅 顺 序</h3>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <h3>菜 谱</h3>
+    
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周五 11/6</span><span class="role cam">主菜①</span>
+        <span class="nm">潮式葱姜焗鸡块</span>
+        <div class="meta"><i>镜头菜</i><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>35min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">三黄鸡 900g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">葱、姜、生抽、蚝油、盐、油</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>鸡腿肉切 4cm 块，加生抽 15ml、生粉 10g、料酒 10ml 腌 15min</li><li>姜切片，葱切 6cm 段，砂锅加油中火烧 2min</li><li>铺姜片和葱白，鸡皮朝下放入，盖盖中火焗 8min</li><li>翻面，加水 50ml，盖盖小火焗 10min</li><li>放葱绿再焗 2min，孩子份去皮切小块</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">鸡块不要叠放，先焗鸡皮再加水，才有焦香和嫩汁</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周五 11/6</span><span class="role">主菜②</span>
+        <span class="nm">砂锅豆腐煲</span>
+        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>30min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">北豆腐 650g　香菇 120g　白菜 250g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">生抽、蚝油、姜、蒜、葱、生粉、水</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>海鲜菇去根洗净，嫩豆腐切 2cm 块</li><li>砂锅加油 10ml，爆姜片 30 秒</li><li>加水 500ml、生抽 10ml，煮沸后下海鲜菇</li><li>中火煮 5min，下豆腐再煮 5min</li><li>盐 3g 调味，撒葱花关火焖 2min</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">豆腐最后放，轻推锅身不要用铲子搅，形状才完整</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周五 11/6</span><span class="role">主菜③</span>
+        <span class="nm">金针菇蒸粉丝</span>
+        <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼B</i><i>18min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">金针菇 300g　粉丝 80g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、蒸鱼豉油、油、小米辣</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>粉丝温水泡软铺盘底</li><li>金针菇撕开铺上</li><li>蒜末一半炸金、一半生，金银蒜铺面</li><li>大火蒸 8min</li><li>倒掉盘里水，淋豉油，泼热油</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">蒸出的水要倒掉（涩）；金银蒜是香味层次的关键</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周五 11/6</span><span class="role">汤</span>
+        <span class="nm">丝瓜肉片汤</span>
+        <div class="meta"><i>3岁可吃</i><i>炖</i><i>灶眼A</i><i>20min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">丝瓜 500g　猪肉 250g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">姜、盐、白胡椒、葱、水</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>瘦肉切薄片，加生粉和少许水抓匀腌5分钟</li><li>丝瓜去皮切滚刀块</li><li>水沸下姜片、丝瓜滚3分钟</li><li>转最小火，把肉片分散下锅，不要搅动</li><li>滚1分钟关火</li><li>盐和白胡椒调味</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">肉片要小火下、不能搅，一搅就老</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周五 11/6</span><span class="role">青菜</span>
+        <span class="nm">蚝油生菜</span>
+        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>12min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">生菜 650g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蚝油、生抽、糖、生粉、水、花生油</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>掰开洗净沥干</li><li>沸水加盐 + 油，焯 15 秒捞出沥干装盘</li><li>爆蒜，加蚝油 + 2 勺水 + 糖烧开，淋在生菜上</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">只焯 15 秒；酱汁现烧现淋，凉的淋上去会腥</div></div></div>
+      </div>
+    </details>
+    <div class="daynav"><a href="#d4">← 周四</a><a href="#d6">周六 →</a></div>
+    <a class="totop" href="#top">↑ 回到顶部导航</a>
+  </section>
+  <section class="day" id="d6">
+    <div class="dh">
+      <h2>周六　11/7</h2>
+      <div class="sub">海鲜日 · 补充 omega-3<br>人盯锅 <b>28min</b>　总耗时 <b>38min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+    </div>
+    <h3>下 锅 顺 序</h3>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <h3>菜 谱</h3>
+    
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周六 11/7</span><span class="role cam">主菜①</span>
+        <span class="nm">香草柠檬烤鳕鱼</span>
+        <div class="meta"><i>镜头菜</i><i>烤</i><i>烤箱</i><i>30min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">鳕鱼 700g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">橄榄油、柠檬、百里香、蒜、盐、黑胡椒</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>鳕鱼柳擦干，检查并拔净鱼刺</li><li>加橄榄油 15ml、柠檬汁 15ml、蒜末、盐 4g、黑胡椒 1g 腌 10min</li><li>烤箱 210°C 预热，鱼柳放烤纸上</li><li>210°C 烤 18min，中心变白并可用叉子分层</li><li>出炉静置 5min，撒欧芹和柠檬皮屑</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">鱼柳一定要查刺，给孩子的部分先分成小块再上桌</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周六 11/7</span><span class="role">主菜②</span>
+        <span class="nm">卤水蛋 + 卤豆腐</span>
+        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>20min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 200个　老豆腐 400g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">卤汁</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>鸡蛋提前冷水下锅煮 8min，过冷水剥壳</li><li>豆腐切 2cm 厚片，厨房纸吸干（可先煎一下更不易散）</li><li>卤汁烧开后下二者，小火 15min</li><li>关火后继续泡着，越泡越入味</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">与卤鹅同锅，零额外成本；卤蛋是 3 岁的保底菜</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周六 11/7</span><span class="role">主菜③</span>
+        <span class="nm">虾仁滑蛋</span>
+        <div class="meta"><i>炒</i><i>灶眼B</i><i>15min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">虾仁 300g　鸡蛋 300个</div></div><div class="row"><div class="k">调 料</div><div class="v dim">油、盐、白胡椒、葱、生粉</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>虾仁用生粉 5g 和水 10ml 抓匀腌 8min</li><li>番茄切块，热锅下油炒 3min 至出汁</li><li>虾仁下锅炒 90 秒至刚变红，推到锅边</li><li>鸡蛋打散加盐 2g，倒入后用锅铲推 60 秒至半凝固</li><li>与番茄虾仁合炒 30 秒，撒葱花</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">蛋液半凝固就关火，余温会把滑蛋收熟</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周六 11/7</span><span class="role">汤</span>
+        <span class="nm">法式奶油蘑菇汤</span>
+        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>30min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">白蘑菇 400g　牛奶 400g　淡奶油 100g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">黄油、面粉、洋葱、盐、黑胡椒</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>黄油融化，下洋葱碎炒软</li><li>下蘑菇片炒到出水再收干（这步不能省）</li><li>撒面粉炒1分钟成面糊</li><li>分次倒入牛奶，边倒边搅到无颗粒</li><li>小火煮10分钟</li><li>加淡奶油，盐和黑胡椒调味</li><li>料理棒打细腻（可选）</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">面粉要炒过才不腥；牛奶分次加不结块</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周六 11/7</span><span class="role">青菜</span>
+        <span class="nm">蒜蓉菜心</span>
+        <div class="meta"><i>3岁可吃</i><i>炒</i><i>灶眼B</i><i>8min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">菜心 600g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、盐、蚝油、油</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>蒜蓉爆香后下菜心大火快炒</li><li>菜心洗净摘段</li><li>沸水加盐油焯30秒捞出</li><li>沥干装盘，淋蚝油</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">菜心焯水30秒是保脆关键，久了发黄</div></div></div>
+      </div>
+    </details>
+    <div class="daynav"><a href="#d5">← 周五</a><a href="#d7">周日 →</a></div>
+    <a class="totop" href="#top">↑ 回到顶部导航</a>
+  </section>
+  <section class="day" id="d7">
+    <div class="dh">
+      <h2>周日　11/8</h2>
+      <div class="sub">周日大菜 · 一锅牛腩<br>人盯锅 <b>29min</b>　总耗时 <b>98min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
+    </div>
+    <h3>下 锅 顺 序</h3>
+    <div class="tl"><div class="it"><div class="t">0:00</div><div class="c"><span class="tag">A</span>备菜：全部洗切完毕<br><span class="tag">锅</span>电饭煲下米<br></div></div></div>
+    <h3>菜 谱</h3>
+    
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周日 11/8</span><span class="role cam">主菜①</span>
+        <span class="nm">潮汕萝卜炖牛腩</span>
+        <div class="meta"><i>镜头菜</i><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>90min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">牛腩 700g　白萝卜 600g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">南姜、蒜、生抽、盐、八角</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>牛腩切 4cm 块，冷水下锅加姜焯 6min，冲净</li><li>热锅下牛腩煎 3min，加生抽 25ml、老抽 8ml 炒匀</li><li>加热水 1200ml、葱段、八角，大火滚 8min</li><li>转小火加盖炖 60min</li><li>白萝卜切滚刀块下锅，再炖 15min</li><li>盐 5g、白胡椒 1g 调味，牛腩切片装盘</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">萝卜后放才能保持形状；炖汁留出一碗拌饭</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周日 11/8</span><span class="role">主菜②</span>
+        <span class="nm">沙姜鸡</span>
+        <div class="meta"><i>蒸</i><i>灶眼B</i><i>30min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">鸡 800g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">沙姜、蒜、葱、生抽、花生油、盐</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>鸡斩 4cm 件，加沙姜末 25g、生抽 20ml、蚝油 15g、生粉 8g 腌 20min</li><li>砂锅加油，爆姜片和葱白 1min</li><li>鸡件皮朝下铺平，中火煎 4min</li><li>翻面加热水 80ml，盖盖中小火焗 12min</li><li>开盖收汁 3min，加葱段焖 30 秒</li><li>关火静置 5min 后切块装盘</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">鸡件铺平不要叠，锅底有热气才能熟得均匀；孩子份去皮切碎</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周日 11/8</span><span class="role">主菜③</span>
+        <span class="nm">虾皮葱香煎豆腐</span>
+        <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>18min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">老豆腐 500g　虾皮 20g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">葱、生抽、盐、油</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>豆腐切 2cm 厚片，厨房纸压干水分</li><li>平底锅下油，豆腐中火每面煎 3min</li><li>撒虾皮和葱白，翻炒 1min</li><li>加生抽 15ml、热水 30ml，盖盖小火 5min，撒葱绿</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">豆腐先压干再煎不粘锅，虾皮本身有咸味不用另加盐</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周日 11/8</span><span class="role">汤</span>
+        <span class="nm">冬瓜瑶柱瘦肉汤</span>
+        <div class="meta"><i>做</i><i>灶眼B</i><i>75min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">冬瓜 600g　猪瘦肉 350g　干贝 35g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">姜、盐、水</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>干贝用温水泡 10min，瘦肉切片加生粉抓 3min</li><li>锅中加水 1000ml、姜片、干贝煮沸</li><li>下冬瓜块，中火煮 15min</li><li>转小火分散下肉片，煮 3min，盐 4g 调味</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">肉片最后下，冬瓜煮到半透明即可，久煮会碎</div></div></div>
+      </div>
+    </details>
+    <details class="dish" open>
+      <summary>
+        <span class="dchip">周日 11/8</span><span class="role">青菜</span>
+        <span class="nm">蒜炒通菜</span>
+        <div class="meta"><i>3岁可吃</i><i>炒</i><i>灶眼B</i><i>7min</i></div>
+      </summary>
+      <div class="body">
+        <div class="row"><div class="k">主 料</div><div class="v">通菜 700g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">蒜、油、盐</div></div>
+        <div class="row"><div class="k">做 法</div><div class="v"><ol><li>通菜摘段，茎和叶分开放</li><li>热锅爆香蒜末</li><li>先下茎炒40秒</li><li>再下叶同炒40秒</li><li>盐调味出锅</li></ol></div></div>
+        <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">梗叶分开下，一起下叶烂了梗还生；全程大火</div></div></div>
+      </div>
+    </details>
+    <div class="daynav"><a href="#d6">← 周六</a></div>
+    <a class="totop" href="#top">↑ 回到顶部导航</a>
+  </section>
+
+  <section class="shop" id="shop">
+    <div class="dh"><h2>本周采购清单</h2>
+      <div class="sub">42 项 · 整装品按瓶/袋计，其余按重量</div></div>
+    <div class="scat"><div class="scn">肉禽<span>9 项</span></div><div class="si"><div class="sn">三黄鸡</div><div class="sb">买 <b>900g</b></div><div class="sd">周五</div></div><div class="si"><div class="sn">牛腩</div><div class="sb">买 <b>700g</b></div><div class="sd">周日</div></div><div class="si"><div class="sn">猪排骨</div><div class="sb">买 <b>1400g</b></div><div class="sd">周三、周四</div></div><div class="si"><div class="sn">猪瘦肉</div><div class="sb">买 <b>400g</b></div><div class="sd">周日</div></div><div class="si"><div class="sn">猪肉</div><div class="sb">买 <b>250g</b></div><div class="sd">周五</div></div><div class="si"><div class="sn">猪肉末</div><div class="sb">买 <b>800g</b></div><div class="sd">周一、周四</div></div><div class="si"><div class="sn">猪骨</div><div class="sb">买 <b>600g</b></div><div class="sd">周四</div></div><div class="si"><div class="sn">鸡</div><div class="sb">买 <b>800g</b></div><div class="sd">周日</div></div><div class="si"><div class="sn">鸡翅中</div><div class="sb">买 <b>800g</b></div><div class="sd">周三</div></div></div><div class="scat"><div class="scn">水产<span>7 项</span></div><div class="si"><div class="sn">干贝</div><div class="sb">买 <b>50g</b></div><div class="sd">周日</div></div><div class="si"><div class="sn">杏鲍菇</div><div class="sb">买 <b>300g</b></div><div class="sd">周三</div></div><div class="si"><div class="sn">沙虾</div><div class="sb">买 <b>500g</b></div><div class="sd">周一</div></div><div class="si"><div class="sn">虾仁</div><div class="sb">买 <b>300g</b></div><div class="sd">周六</div></div><div class="si"><div class="sn">虾皮</div><div class="sb">买 <b>50g</b></div><div class="sd">周二、周日</div></div><div class="si"><div class="sn">鲈鱼</div><div class="sb">买 <b>600g</b></div><div class="sd">周二</div></div><div class="si"><div class="sn">鳕鱼</div><div class="sb">买 <b>700g</b></div><div class="sd">周六</div></div></div><div class="scat"><div class="scn">蛋豆<span>4 项</span></div><div class="si"><div class="sn">北豆腐</div><div class="sb">买 <b>700g</b></div><div class="sd">周五</div></div><div class="si"><div class="sn">嫩豆腐</div><div class="sb">买 <b>500g</b></div><div class="sd">周二</div></div><div class="si"><div class="sn">老豆腐</div><div class="sb">买 <b>1200g</b></div><div class="sd">周三、周六、周日</div></div><div class="si"><div class="sn">鸡蛋</div><div class="sb">买 <b>1350个</b></div><div class="sd">周一、周二、周四、周六</div></div></div><div class="scat"><div class="scn">乳品主食<span>3 项</span></div><div class="si"><div class="sn">淡奶油</div><div class="sb">买 <b>1瓶</b></div><div class="sd">周三、周六</div></div><div class="si"><div class="sn">牛奶</div><div class="sb">买 <b>1瓶</b></div><div class="sd">周六</div></div><div class="si"><div class="sn">粉丝</div><div class="sb">买 <b>100g</b></div><div class="sd">周五</div></div></div><div class="scat"><div class="scn">蔬菜<span>17 项</span></div><div class="si"><div class="sn">丝瓜</div><div class="sb">买 <b>500g</b></div><div class="sd">周五</div></div><div class="si"><div class="sn">冬瓜</div><div class="sb">买 <b>1100g</b></div><div class="sd">周二、周日</div></div><div class="si"><div class="sn">梅干菜</div><div class="sb">买 <b>100g</b></div><div class="sd">周四</div></div><div class="si"><div class="sn">油麦菜</div><div class="sb">买 <b>700g</b></div><div class="sd">周二</div></div><div class="si"><div class="sn">玉米</div><div class="sb">买 <b>400g</b></div><div class="sd">周四</div></div><div class="si"><div class="sn">生菜</div><div class="sb">买 <b>700g</b></div><div class="sd">周五</div></div><div class="si"><div class="sn">番茄</div><div class="sb">买 <b>700g</b></div><div class="sd">周三</div></div><div class="si"><div class="sn">白菜</div><div class="sb">买 <b>250g</b></div><div class="sd">周五</div></div><div class="si"><div class="sn">白萝卜</div><div class="sb">买 <b>1100g</b></div><div class="sd">周四、周日</div></div><div class="si"><div class="sn">白蘑菇</div><div class="sb">买 <b>400g</b></div><div class="sd">周六</div></div><div class="si"><div class="sn">胡萝卜</div><div class="sb">买 <b>250g</b></div><div class="sd">周四</div></div><div class="si"><div class="sn">芥兰</div><div class="sb">买 <b>600g</b></div><div class="sd">周一</div></div><div class="si"><div class="sn">菜心</div><div class="sb">买 <b>600g</b></div><div class="sd">周六</div></div><div class="si"><div class="sn">西兰花</div><div class="sb">买 <b>600g</b></div><div class="sd">周三</div></div><div class="si"><div class="sn">通菜</div><div class="sb">买 <b>1400g</b></div><div class="sd">周四、周日</div></div><div class="si"><div class="sn">金针菇</div><div class="sb">买 <b>300g</b></div><div class="sd">周五</div></div><div class="si"><div class="sn">香菇</div><div class="sb">买 <b>250g</b></div><div class="sd">周二、周五</div></div></div><div class="scat"><div class="scn">干货<span>2 项</span></div><div class="si"><div class="sn">紫菜</div><div class="sb">买 <b>50g</b></div><div class="sd">周一</div></div><div class="si"><div class="sn">菜脯</div><div class="sb">买 <b>200g</b></div><div class="sd">周一、周四</div></div></div>
+    <div class="note">
+      <b>两个提醒</b><br>
+      ① 鹅需要 700g，但实际买的是整只（约 2000g），剩下的煮粥或下次用。<br>
+      ② 蔬菜建议分两次买：周一到周三一批，周四补一次叶菜。
+    </div>
+    <a class="totop" href="#top">↑ 回到顶部导航</a>
+  </section>
+  <div class="foot">点菜品标题可收起 / 展开　·　青菜永远是最后 3 分钟做</div>
+</div>
+
+<script>
+(function(){
+  var nav = document.querySelector('nav');
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a'));
+  function target(a){ return document.querySelector(a.getAttribute('href')); }
+  function sync(){
+    var secs = links.map(target);
+    var y = (window.pageYOffset || document.documentElement.scrollTop || 0) + 90, idx = 0;
+    for (var i=0;i<secs.length;i++){ if (secs[i] && secs[i].offsetTop <= y) idx = i; }
+    links.forEach(function(a,i){ a.classList.toggle('on', i===idx); });
+  }
+  links.forEach(function(a){
+    a.addEventListener('click', function(ev){
+      ev.preventDefault();
+      var el = target(a);
+      if (el) el.scrollIntoView({block:'start'});
+      if (history.replaceState) history.replaceState(null,'',a.getAttribute('href'));
+      sync();
+    });
+  });
+  var t;
+  window.addEventListener('scroll', function(){ clearTimeout(t); t=setTimeout(sync,60); }, {passive:true});
+  window.addEventListener('load', sync);
+  sync();
+  if (location.hash){ var el=document.querySelector(location.hash); if(el) setTimeout(function(){el.scrollIntoView();},80); }
+})();
+</script>
+
+</body></html>
