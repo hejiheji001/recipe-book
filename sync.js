@@ -313,7 +313,8 @@
       '#rbsheet .g-sub{margin:0 0 4px;}',
       '#rbsheet input{background:#f7f7f4;text-align:center;letter-spacing:1px;}',
       '#rbsheet .g-btn{margin-top:10px;}',
-      '#rbsheet .g-ghost{background:#f2f2ee;color:#555;}'
+      '#rbsheet .g-ghost{background:#f2f2ee;color:#555;}',
+      '@media print{#rbg,#rbsheet,#rbbar{display:none !important;}body.rb-lock{overflow:visible !important;}}'
     ].join('');
     document.head.appendChild(s);
   }
