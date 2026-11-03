@@ -70,9 +70,17 @@ h2 em{font-style:normal;font-size:12px;font-weight:500;color:#9a9a95;}
 #dlg #closeBtn{background:#f2f2ee;color:#555;}
 .bighint{background:#fdecea;color:#c0392b;border:2px solid #c0392b;border-radius:12px;
  padding:14px 16px;font-size:17px;font-weight:800;text-align:center;line-height:1.5;}
-.it.have{padding-left:10px;}
+.it.have{padding-left:8px;}
 .it.have .nm{color:#555;}
 .pnote b{color:#b5342a;font-weight:700;cursor:pointer;}
+.shgrp{font-size:12px;font-weight:700;color:#9a9a95;letter-spacing:.5px;
+ padding:12px 14px 6px;background:#fafaf8;border-top:1px solid #f0f0ec;
+ text-transform:none;}
+.ibtn{flex:0 0 auto;font-family:inherit;font-size:11.5px;font-weight:600;
+ padding:6px 10px;border-radius:14px;border:1px solid #d8d8d2;background:#fff;color:#666;
+ -webkit-tap-highlight-color:transparent;white-space:nowrap;}
+.ibtn.go{border-color:#111;color:#111;}
+.ibtn.back{border-color:#e0c9c4;color:#b5342a;}
 .picklist{max-height:52vh;overflow-y:auto;margin:8px 0;border-top:1px solid #eee;}
 .pk{display:flex;align-items:center;gap:9px;padding:10px 2px;
  border-bottom:1px solid #f4f4f0;font-size:14.5px;cursor:pointer;}
@@ -109,7 +117,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="print.html">打印清单</a>
   </div>
   <div class="bar">
-    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-03 02:39</span></span>
+    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-03 02:56</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
@@ -154,6 +162,7 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
   function sync(){ doneEl.textContent = boxes.filter(function(b){ return b.checked; }).length; }
 
   function syncGroup(g){
+    if(g === "season"){ syncSeasonGroup(); return; }
     var bs = [].slice.call(document.querySelectorAll('.it input[data-g="'+g+'"]'));
     var c = document.querySelector('.gc[data-g="'+g+'"]');
     if(!c || !bs.length) return;
@@ -174,6 +183,18 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
     c.onclick = function(ev){
       ev.stopPropagation();
       var g = c.getAttribute("data-g");
+      if(g === "season"){
+        var sk = document.querySelectorAll("input[data-season]");
+        var m = loadSeasonPick();
+        for(var i=0;i<sk.length;i++){
+          sk[i].checked = c.checked;
+          var nm = sk[i].getAttribute("data-season");
+          if(c.checked) m[nm] = 1; else delete m[nm];
+        }
+        saveSeasonPick(m);
+        syncSeasonGroup();
+        return;
+      }
       document.querySelectorAll('.it input[data-g="'+g+'"]').forEach(function(b){ b.checked = c.checked; });
       save(); sync(); syncGroup(g);
     };
@@ -191,6 +212,26 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
     catch(e){ return {v:1, items:{}}; }
   }
   function saveStock(st){ localStorage.setItem(STOCK_KEY, JSON.stringify(st)); }
+
+  // 调料「要买」勾选状态（独立于生鲜的 rb_shop_<code>）
+  var SPICK_KEY = "rb_shopseason_W1-11-02";
+  function loadSeasonPick(){
+    try{ return JSON.parse(localStorage.getItem(SPICK_KEY)||"{}"); }catch(e){ return {}; }
+  }
+  function saveSeasonPick(m){ localStorage.setItem(SPICK_KEY, JSON.stringify(m)); }
+
+  // 库存页「加回采购」写的队列：读进来勾上并清空
+  var BACK_KEY = "rb_backtobuy";
+  function consumeBackToBuy(){
+    var q = [];
+    try{ q = JSON.parse(localStorage.getItem(BACK_KEY)||"[]"); }catch(e){ return 0; }
+    if(!q.length) return 0;
+    var m = loadSeasonPick();
+    q.forEach(function(n){ m[n] = 1; });
+    saveSeasonPick(m);
+    localStorage.removeItem(BACK_KEY);
+    return q.length;
+  }
   function todayStr(){ var d=new Date(); return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate()); }
   function daysSince(s){ return Math.round((new Date(todayStr()) - new Date(s))/86400000); }
 
@@ -211,6 +252,7 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
 
     var st = loadStock();
     var buy = [], have = [];
+    var pickSt = loadSeasonPick();
     names.sort(function(a,b){ return (WEEKP[b]||0)-(WEEKP[a]||0); });
     names.forEach(function(n){
       var it = st.items[n];
@@ -226,10 +268,12 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
       h += "<div class='shgrp'>要买（"+buy.length+"）</div>";
       buy.forEach(function(n){
         var meta = SEASON[n] || {};
-        h += "<label class='it'><input type='checkbox' data-season='"+escT(n)+"'>"+
+        var ck = pickSt[n] ? " checked" : "";
+        h += "<label class='it'><input type='checkbox' data-season='"+escT(n)+"'"+ck+">"+
              "<span class='nm'>"+escT(n)+"</span>"+
              "<span class='q'>1 份</span>"+
-             "<span class='d'>"+(meta.n? meta.n+" 道菜用过":"")+"</span></label>";
+             "<span class='d'>"+(meta.n? meta.n+" 道菜用过":"")+"</span>"+
+             "<b class='ibtn go' data-have='"+escT(n)+"'>家里有</b></label>";
       });
     }
     if(have.length){
@@ -239,13 +283,78 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
         var lab = meta.tier === "常备" ? "常备" : ("还够用约 " + Math.max(0,leftDays(o.n,o.it)) + " 天");
         h += "<div class='it have'><span class='nm'>"+escT(o.n)+"</span>"+
              "<span class='q' style='color:#2f7a45'>"+lab+"</span>"+
-             "<span class='d'></span></div>";
+             "<span class='d'></span>"+
+             "<b class='ibtn back' data-back='"+escT(o.n)+"'>加回采购</b></div>";
       });
     }
     list.innerHTML = h;
 
     var qp = document.getElementById("quickPick");
     if(qp) qp.onclick = openPick;
+
+    // 勾选状态：持久化，重算后不掉
+    var sk = list.querySelectorAll("input[data-season]");
+    for(var i=0;i<sk.length;i++){
+      sk[i].onchange = (function(cb){
+        return function(){
+          var m = loadSeasonPick();
+          if(cb.checked) m[cb.getAttribute("data-season")] = 1;
+          else delete m[cb.getAttribute("data-season")];
+          saveSeasonPick(m);
+          syncSeasonGroup();
+        };
+      })(sk[i]);
+    }
+    syncSeasonGroup();
+
+    // 家里有 → 进库存，本条即时移到「已有」
+    var gb = list.querySelectorAll("[data-have]");
+    for(var j=0;j<gb.length;j++){
+      gb[j].onclick = (function(n){
+        return function(ev){
+          ev.preventDefault(); ev.stopPropagation();
+          var s = loadStock();
+          if(!s.items[n]) s.items[n] = { since: todayStr() };
+          saveStock(s);
+          var m = loadSeasonPick(); delete m[n]; saveSeasonPick(m);
+          renderSeason();
+          toast(n + " 已进库存");
+        };
+      })(gb[j].getAttribute("data-have"));
+    }
+
+    // 加回采购 → 移出库存，本条即时回到「要买」并勾上
+    var bb = list.querySelectorAll("[data-back]");
+    for(var k=0;k<bb.length;k++){
+      bb[k].onclick = (function(n){
+        return function(ev){
+          ev.preventDefault(); ev.stopPropagation();
+          var s = loadStock();
+          delete s.items[n];
+          saveStock(s);
+          var m = loadSeasonPick(); m[n] = 1; saveSeasonPick(m);
+          renderSeason();
+          toast(n + " 已加回采购清单");
+        };
+      })(bb[k].getAttribute("data-back"));
+    }
+
+    // 「调料」分类 chip 的计数
+    var cnt = document.getElementById("seasonCnt");
+    if(cnt) cnt.textContent = "要买 " + buy.length + " · 已有 " + have.length;
+  }
+
+  function seasonAllChecked(){
+    var sk = [].slice.call(document.querySelectorAll("input[data-season]"));
+    return sk.length > 0 && sk.every(function(b){ return b.checked; });
+  }
+  function syncSeasonGroup(){
+    var c = document.querySelector('.gc[data-g="season"]');
+    if(!c) return;
+    var sk = [].slice.call(document.querySelectorAll("input[data-season]"));
+    var n = sk.filter(function(b){ return b.checked; }).length;
+    c.checked = (n > 0 && n === sk.length);
+    c.indeterminate = (n > 0 && n < sk.length);
   }
 
   function escT(t){ return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;"); }
@@ -269,15 +378,18 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
     document.getElementById("pkCancel").onclick = mask.onclick;
     document.getElementById("pkOk").onclick = function(){
       var st2 = loadStock();
+      var m2 = loadSeasonPick();
       [].slice.call(dlg.querySelectorAll("[data-pk]")).forEach(function(cb){
         var n = cb.getAttribute("data-pk");
         if(cb.checked){
           if(!st2.items[n]) st2.items[n] = { since: todayStr() };
+          delete m2[n];
         } else {
           delete st2.items[n];
         }
       });
       saveStock(st2);
+      saveSeasonPick(m2);
       dlg.classList.remove("on"); mask.classList.remove("on");
       dlg.innerHTML = "";
       renderSeason();      // 采购清单实时重算
@@ -286,16 +398,30 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
     };
   }
 
+  var backN = consumeBackToBuy();
   renderSeason();
+  if(backN) toast("已加回 " + backN + " 项调料");
 
   document.getElementById("all").onclick = function(){
     var all = boxes.every(function(b){ return b.checked; });
     boxes.forEach(function(b){ b.checked = !all; });
     save(); sync(); syncAllGroups();
+    // 连同调料「要买」一起
+    var sk = document.querySelectorAll("input[data-season]");
+    var m = loadSeasonPick();
+    for(var i=0;i<sk.length;i++){
+      sk[i].checked = !all;
+      var nm = sk[i].getAttribute("data-season");
+      if(!all) m[nm] = 1; else delete m[nm];
+    }
+    saveSeasonPick(m); syncSeasonGroup();
   };
   document.getElementById("clear").onclick = function(){
     boxes.forEach(function(b){ b.checked = false; });
     save(); sync(); syncAllGroups();
+    var sk = document.querySelectorAll("input[data-season]");
+    for(var i=0;i<sk.length;i++) sk[i].checked = false;
+    saveSeasonPick({}); syncSeasonGroup();
   };
 
   // 分类筛选（多选）
@@ -336,7 +462,8 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
   applyCats();
 
   function pad(n){ return ("0"+n).slice(-2); }
-  function todayStr(){ var d=new Date(); return pad(d.getMonth()+1)+"/"+pad(d.getDate()); }
+  // 我的单用短日期（MM/DD），改名避让 todayStr（YYYY-MM-DD）
+  function todayShort(){ var d=new Date(); return pad(d.getMonth()+1)+"/"+pad(d.getDate()); }
   function loadLists(){ try{ return JSON.parse(localStorage.getItem("rb_lists")||"[]"); }catch(e){ return []; } }
   function loadTrash(){ try{ return JSON.parse(localStorage.getItem("rb_trash")||"[]"); }catch(e){ return []; } }
 
@@ -346,11 +473,28 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
     setTimeout(function(){ t.style.display="none"; },1500);
   }
 
-  document.getElementById("save").onclick = function(){
-    var items = [].slice.call(document.querySelectorAll(".it")).map(function(el){
-      return { n: el.querySelector(".nm").textContent, q: el.querySelector(".q").textContent };
+  // 调料「要买」里已勾的项 → 与生鲜同样格式，供保存/存图使用
+  function seasonPickedItems(){
+    var out = [];
+    var m = loadSeasonPick();
+    [].slice.call(document.querySelectorAll("#seasonList input[data-season]")).forEach(function(cb){
+      if(!cb.checked) return;
+      var n = cb.getAttribute("data-season");
+      out.push({ n: n, q: "1 份" });
     });
-    var base = todayStr(), used = {}, i = 1;
+    return out;
+  }
+
+  document.getElementById("save").onclick = function(){
+    var items = [];
+    [].slice.call(document.querySelectorAll("section.cat .it")).forEach(function(el){
+      if(el.closest("#seasonSec")) return;
+      var nmEl = el.querySelector(".nm"), qEl = el.querySelector(".q");
+      if(!nmEl || !qEl) return;
+      items.push({ n: nmEl.textContent, q: qEl.textContent });
+    });
+    items = items.concat(seasonPickedItems());
+    var base = todayShort(), used = {}, i = 1;
     loadLists().concat(loadTrash()).forEach(function(x){
       var nm=(x.name||""); if(nm.indexOf(base)===0){ var m=nm.match(/-([0-9]+)$/); used[m?+m[1]:1]=1; }
     });
@@ -380,6 +524,7 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
     // 按分类收集（保留分组）
     var groups = [];
     [].slice.call(document.querySelectorAll("section.cat")).forEach(function(sec){
+      if(sec.id === "seasonSec") return;
       var h = sec.querySelector("h2 .gh span");
       var cat = h ? h.textContent : "其他";
       var arr = [];
@@ -400,6 +545,12 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
       var items = any ? g.items.filter(function(i){ return i.on; }) : g.items;
       if(items.length) render.push({ cat: g.cat, items: items });
     });
+
+    // 调料（要买里勾上的）
+    var sPicked = seasonPickedItems();
+    if(sPicked.length){
+      render.push({ cat: "调料", items: sPicked.map(function(i){ return { n: i.n, q: i.q }; }) });
+    }
 
     var total = render.reduce(function(s,g){ return s + g.items.length; }, 0);
 
