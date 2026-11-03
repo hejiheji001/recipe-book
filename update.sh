@@ -38,10 +38,6 @@ WY="$ROOT/recipes/W$(echo $CODE | sed -E 's/^W([0-9]+)-.*/\1/').yaml"
 [ -n "$SHOP" ] && python3 "$ROOT/scripts/build_shopping_html.py" \
     "$SHOP" "$HERE/week/shopping.html" "$CODE" "$WY"
 
-# 备菜时间表（放 week/ 下，稍后一起拷）
-PT="$LATEST/备菜时间表.html"
-[ -f "$PT" ] && cp "$PT" "$HERE/week/prep.html"
-
 # 打印清单页（PDF → 逐页 jpg → html）。pg/ 缺失时才转，避免每次发布都跑
 if [ ! -d "$HERE/week/pg" ] && [ -f "$HERE/week/print.pdf" ]; then
   python3 "$ROOT/scripts/build_print_pages.py" "$HERE/week" || true

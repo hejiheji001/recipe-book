@@ -1,4 +1,4 @@
-const VER = '20261103173845';
+const VER = '20261103175726';
 const CACHE = 'rb-' + VER;
 
 const PRECACHE = [
@@ -7,7 +7,6 @@ const PRECACHE = [
   './catalog.html',
   './week/',
   './week/shopping.html',
-  './week/prep.html',
   './week/print.html',
   './sync.js',
   './manifest.json'
