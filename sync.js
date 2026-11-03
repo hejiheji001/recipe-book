@@ -257,10 +257,10 @@
     if (!fam) { dot.style.display = 'none'; return; }
     dot.style.display = 'inline-block';
     var label = fam.name;
-    var state = tone === 'doing' ? '同步中' : (tone === 'ok' ? '已同步' : '本地');
+    var state = tone === 'doing' ? '同步中' : (tone === 'ok' ? '已同步' : '仅本机');
     dot.className = tone === 'doing' ? 'doing' : (tone === 'ok' ? 'on' : '');
-    dot.innerHTML = '<i></i>' + label;
-    dot.title = label + ' · ' + state + '（点这里切换小区）';
+    dot.innerHTML = '<i></i><b>' + label + '</b><u>切换</u>';
+    dot.title = label + ' · ' + state;
   }
 
   function css() {
@@ -290,19 +290,19 @@
       'font-family:inherit;-webkit-tap-highlight-color:transparent;}',
       '#rbg .g-nb b.on{background:#111;color:#fff;border-color:#111;}',
       '#rbg .g-foot{font-size:11.5px;color:#c0c0bc;margin-top:26px;line-height:1.7;}',
-      '#rbbar{display:flex;justify-content:flex-end;padding:5px 10px;',
-      'background:#fbfbf9;border-bottom:1px solid #f0f0ec;}',
-      '#rbbar:empty{display:none;}',
-      '#rbd{display:none;font-size:11px;font-weight:700;color:#555;',
-      'background:#f2f2ee;border:1px solid #e2e2dc;border-radius:11px;',
-      'padding:4px 9px;white-space:nowrap;cursor:pointer;',
-      'line-height:1.35;',
+      '#rbbar{display:flex;align-items:center;justify-content:space-between;',
+      'padding:8px 12px;background:#fff;border-bottom:1px solid #e6e6e2;}',
+      '#rbbar .rb-lbl{font-size:12px;color:#9a9a95;font-weight:600;}',
+      '#rbd{display:none;align-items:center;gap:7px;cursor:pointer;',
+      'font-size:15px;font-weight:800;color:#111;',
       '-webkit-tap-highlight-color:transparent;}',
-      '#rbd i{display:inline-block;width:6px;height:6px;border-radius:50%;',
-      'background:#b8b8b2;margin-right:4px;vertical-align:1px;font-style:normal;}',
-      '#rbd.on{color:#2f7a45;border-color:#cfe3d4;background:#f4f9f5;}',
+      '#rbd b{font-weight:800;}',
+      '#rbd i{display:inline-block;width:8px;height:8px;border-radius:50%;',
+      'background:#b8b8b2;font-style:normal;flex:0 0 auto;}',
+      '#rbd u{text-decoration:none;font-size:12px;font-weight:700;color:#b5342a;',
+      'border:1px solid #f0d5d0;background:#fdf4f3;border-radius:8px;',
+      'padding:3px 9px;margin-left:2px;}',
       '#rbd.on i{background:#2f7a45;}',
-      '#rbd.doing{color:#b57c1f;border-color:#f0e0c0;background:#fdf7ec;}',
       '#rbd.doing i{background:#d99b3d;}',
       '#rbsheet{position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.4);',
       'display:none;align-items:flex-end;}',
@@ -495,7 +495,7 @@
 
     var bar = document.createElement('div');
     bar.id = 'rbbar';
-    bar.innerHTML = '<span id="rbd"></span>';
+    bar.innerHTML = '<span class="rb-lbl">当前小区</span><span id="rbd"></span>';
     if (nav.parentNode) nav.parentNode.insertBefore(bar, nav.nextSibling);
 
     dot = document.getElementById('rbd');
@@ -524,6 +524,7 @@
   };
 
   function boot() {
+    css();
     mountDot();
     if (!gate()) start();
   }
