@@ -38,9 +38,17 @@ WY="$ROOT/recipes/W$(echo $CODE | sed -E 's/^W([0-9]+)-.*/\1/').yaml"
 [ -n "$SHOP" ] && python3 "$ROOT/scripts/build_shopping_html.py" \
     "$SHOP" "$HERE/week/shopping.html" "$CODE" "$WY"
 
+# 备菜时间表（放 week/ 下，稍后一起拷）
+PT="$LATEST/备菜时间表.html"
+[ -f "$PT" ] && cp "$PT" "$HERE/week/prep.html"
+
 cat > "$HERE/week/meta.json" <<JSON
 {"code":"$CODE","updated":"$(date '+%Y-%m-%d %H:%M')"}
 JSON
+
+# 版本号：每次发布把 sw.js 的 VER 换成时间戳，触发新 SW 安装
+V=$(date '+%Y%m%d%H%M')
+sed -i.bak "s/^const VER = .*/const VER = '$V';/" "$HERE/sw.js" && rm -f "$HERE/sw.js.bak"
 
 cd "$HERE"
 git add -A
