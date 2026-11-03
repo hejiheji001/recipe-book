@@ -1,4 +1,4 @@
-const VER = '202611031553';
+const VER = '202611031556';
 const CACHE = 'rb-' + VER;
 
 const PRECACHE = [
@@ -7,7 +7,7 @@ const PRECACHE = [
   './catalog.html',
   './week/',
   './week/shopping.html',
-  './week/print.html'
+  './week/prep.html'
 ];
 
 self.addEventListener('install', e => {
