@@ -452,7 +452,13 @@
     syncState.fam = fam.fam;
 
     paint('off');
-    pull(fam.pw, fam.fam).then(function () {
+    pull(fam.pw, fam.fam).then(function (info) {
+      var upload = (info && info.need && info.need.length)
+        ? bootstrap(fam.pw, fam.fam, info.need) : Promise.resolve(0);
+      return upload.then(function () {
+        return pull(fam.pw, fam.fam);
+      });
+    }).then(function () {
       paint('ok');
       if (window.RB_ON_SYNC) window.RB_ON_SYNC();
     }).catch(function () { paint('off'); });
