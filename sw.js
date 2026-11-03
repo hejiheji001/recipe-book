@@ -1,4 +1,4 @@
-const VER = '20261103181038';
+const VER = '20261103183650';
 const CACHE = 'rb-' + VER;
 
 const PRECACHE = [
@@ -9,7 +9,9 @@ const PRECACHE = [
   './week/shopping.html',
   './week/print.html',
   './sync.js',
-  './manifest.json'
+  './manifest.json',
+  './icons/apple-touch-icon.png',
+  './icons/icon-192.png'
 ];
 
 self.addEventListener('install', e => {
