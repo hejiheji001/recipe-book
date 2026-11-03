@@ -73,9 +73,15 @@ h2 em{font-style:normal;font-size:12px;font-weight:500;color:#9a9a95;}
 .it.have{padding-left:8px;}
 .it.have .nm{color:#555;}
 .pnote b{color:#b5342a;font-weight:700;cursor:pointer;}
-.shgrp{font-size:12px;font-weight:700;color:#9a9a95;letter-spacing:.5px;
- padding:12px 14px 6px;background:#fafaf8;border-top:1px solid #f0f0ec;
- text-transform:none;}
+.shgrp{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:700;color:#9a9a95;
+ letter-spacing:.5px;padding:10px 14px 6px;background:#fafaf8;
+ border-top:1px solid #f0f0ec;text-transform:none;}
+.shgrp .sg-name{flex:1 1 auto;}
+.shgrp .sg-act{font-family:inherit;font-size:11.5px;font-weight:700;padding:6px 11px;
+ border-radius:14px;border:1px solid #111;background:#111;color:#fff;
+ -webkit-tap-highlight-color:transparent;white-space:nowrap;}
+.shgrp .sg-act.ghost{background:#fff;color:#666;border-color:#d8d8d2;}
+.shgrp .sg-act.off{opacity:.4;}
 .ibtn{flex:0 0 auto;font-family:inherit;font-size:11.5px;font-weight:600;
  padding:6px 10px;border-radius:14px;border:1px solid #d8d8d2;background:#fff;color:#666;
  -webkit-tap-highlight-color:transparent;white-space:nowrap;}
@@ -117,13 +123,13 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="print.html">打印清单</a>
   </div>
   <div class="bar">
-    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-03 02:56</span></span>
+    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-03 14:15</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
     <button id="img" class="pri">存图片</button>
   </div>
-  <div class="catbar"><b class='cf on' data-g=''>全部</b><b class='cf' data-g='0'>肉禽</b><b class='cf' data-g='1'>水产</b><b class='cf' data-g='2'>蛋豆</b><b class='cf' data-g='3'>乳品主食</b><b class='cf' data-g='4'>蔬菜</b><b class='cf' data-g='5'>干货</b></div>
+  <div class="catbar"><b class='cf on' data-g=''>全部</b><b class='cf' data-g='0'>肉禽</b><b class='cf' data-g='1'>水产</b><b class='cf' data-g='2'>蛋豆</b><b class='cf' data-g='3'>乳品主食</b><b class='cf' data-g='4'>蔬菜</b><b class='cf' data-g='5'>干货</b><b class='cf' data-g='season'>调料</b></div>
 </div>
 
 <section class='cat' data-g='0'><h2><label class='gh'><input type='checkbox' class='gc' data-g='0'><span>肉禽</span></label><em>9 项</em></h2><div class='grp'><label class='it'><input type='checkbox' data-i='0' data-g='0'><span class='nm'>三黄鸡</span><span class='q'>900g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='1' data-g='0'><span class='nm'>牛腩</span><span class='q'>700g</span><span class='d'>周日</span></label><label class='it'><input type='checkbox' data-i='2' data-g='0'><span class='nm'>猪排骨</span><span class='q'>1400g</span><span class='d'>周三、周四</span></label><label class='it'><input type='checkbox' data-i='3' data-g='0'><span class='nm'>猪瘦肉</span><span class='q'>400g</span><span class='d'>周日</span></label><label class='it'><input type='checkbox' data-i='4' data-g='0'><span class='nm'>猪肉</span><span class='q'>250g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='5' data-g='0'><span class='nm'>猪肉末</span><span class='q'>800g</span><span class='d'>周一、周四</span></label><label class='it'><input type='checkbox' data-i='6' data-g='0'><span class='nm'>猪骨</span><span class='q'>600g</span><span class='d'>周四</span></label><label class='it'><input type='checkbox' data-i='7' data-g='0'><span class='nm'>鸡</span><span class='q'>800g</span><span class='d'>周日</span></label><label class='it'><input type='checkbox' data-i='8' data-g='0'><span class='nm'>鸡翅中</span><span class='q'>800g</span><span class='d'>周三</span></label></div></section><section class='cat' data-g='1'><h2><label class='gh'><input type='checkbox' class='gc' data-g='1'><span>水产</span></label><em>7 项</em></h2><div class='grp'><label class='it'><input type='checkbox' data-i='9' data-g='1'><span class='nm'>干贝</span><span class='q'>50g</span><span class='d'>周日</span></label><label class='it'><input type='checkbox' data-i='10' data-g='1'><span class='nm'>杏鲍菇</span><span class='q'>300g</span><span class='d'>周三</span></label><label class='it'><input type='checkbox' data-i='11' data-g='1'><span class='nm'>沙虾</span><span class='q'>500g</span><span class='d'>周一</span></label><label class='it'><input type='checkbox' data-i='12' data-g='1'><span class='nm'>虾仁</span><span class='q'>300g</span><span class='d'>周六</span></label><label class='it'><input type='checkbox' data-i='13' data-g='1'><span class='nm'>虾皮</span><span class='q'>50g</span><span class='d'>周二、周日</span></label><label class='it'><input type='checkbox' data-i='14' data-g='1'><span class='nm'>鲈鱼</span><span class='q'>600g</span><span class='d'>周二</span></label><label class='it'><input type='checkbox' data-i='15' data-g='1'><span class='nm'>鳕鱼</span><span class='q'>700g</span><span class='d'>周六</span></label></div></section><section class='cat' data-g='2'><h2><label class='gh'><input type='checkbox' class='gc' data-g='2'><span>蛋豆</span></label><em>4 项</em></h2><div class='grp'><label class='it'><input type='checkbox' data-i='16' data-g='2'><span class='nm'>北豆腐</span><span class='q'>700g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='17' data-g='2'><span class='nm'>嫩豆腐</span><span class='q'>500g</span><span class='d'>周二</span></label><label class='it'><input type='checkbox' data-i='18' data-g='2'><span class='nm'>老豆腐</span><span class='q'>1200g</span><span class='d'>周三、周六、周日</span></label><label class='it'><input type='checkbox' data-i='19' data-g='2'><span class='nm'>鸡蛋</span><span class='q'>1350个</span><span class='d'>周一、周二、周四、周六</span></label></div></section><section class='cat' data-g='3'><h2><label class='gh'><input type='checkbox' class='gc' data-g='3'><span>乳品主食</span></label><em>3 项</em></h2><div class='grp'><label class='it'><input type='checkbox' data-i='20' data-g='3'><span class='nm'>淡奶油</span><span class='q'>1瓶</span><span class='d'>周三、周六</span></label><label class='it'><input type='checkbox' data-i='21' data-g='3'><span class='nm'>牛奶</span><span class='q'>1瓶</span><span class='d'>周六</span></label><label class='it'><input type='checkbox' data-i='22' data-g='3'><span class='nm'>粉丝</span><span class='q'>100g</span><span class='d'>周五</span></label></div></section><section class='cat' data-g='4'><h2><label class='gh'><input type='checkbox' class='gc' data-g='4'><span>蔬菜</span></label><em>17 项</em></h2><div class='grp'><label class='it'><input type='checkbox' data-i='23' data-g='4'><span class='nm'>丝瓜</span><span class='q'>500g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='24' data-g='4'><span class='nm'>冬瓜</span><span class='q'>1100g</span><span class='d'>周二、周日</span></label><label class='it'><input type='checkbox' data-i='25' data-g='4'><span class='nm'>梅干菜</span><span class='q'>100g</span><span class='d'>周四</span></label><label class='it'><input type='checkbox' data-i='26' data-g='4'><span class='nm'>油麦菜</span><span class='q'>700g</span><span class='d'>周二</span></label><label class='it'><input type='checkbox' data-i='27' data-g='4'><span class='nm'>玉米</span><span class='q'>400g</span><span class='d'>周四</span></label><label class='it'><input type='checkbox' data-i='28' data-g='4'><span class='nm'>生菜</span><span class='q'>700g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='29' data-g='4'><span class='nm'>番茄</span><span class='q'>700g</span><span class='d'>周三</span></label><label class='it'><input type='checkbox' data-i='30' data-g='4'><span class='nm'>白菜</span><span class='q'>250g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='31' data-g='4'><span class='nm'>白萝卜</span><span class='q'>1100g</span><span class='d'>周四、周日</span></label><label class='it'><input type='checkbox' data-i='32' data-g='4'><span class='nm'>白蘑菇</span><span class='q'>400g</span><span class='d'>周六</span></label><label class='it'><input type='checkbox' data-i='33' data-g='4'><span class='nm'>胡萝卜</span><span class='q'>250g</span><span class='d'>周四</span></label><label class='it'><input type='checkbox' data-i='34' data-g='4'><span class='nm'>芥兰</span><span class='q'>600g</span><span class='d'>周一</span></label><label class='it'><input type='checkbox' data-i='35' data-g='4'><span class='nm'>菜心</span><span class='q'>600g</span><span class='d'>周六</span></label><label class='it'><input type='checkbox' data-i='36' data-g='4'><span class='nm'>西兰花</span><span class='q'>600g</span><span class='d'>周三</span></label><label class='it'><input type='checkbox' data-i='37' data-g='4'><span class='nm'>通菜</span><span class='q'>1400g</span><span class='d'>周四、周日</span></label><label class='it'><input type='checkbox' data-i='38' data-g='4'><span class='nm'>金针菇</span><span class='q'>300g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='39' data-g='4'><span class='nm'>香菇</span><span class='q'>250g</span><span class='d'>周二、周五</span></label></div></section><section class='cat' data-g='5'><h2><label class='gh'><input type='checkbox' class='gc' data-g='5'><span>干货</span></label><em>2 项</em></h2><div class='grp'><label class='it'><input type='checkbox' data-i='40' data-g='5'><span class='nm'>紫菜</span><span class='q'>50g</span><span class='d'>周一</span></label><label class='it'><input type='checkbox' data-i='41' data-g='5'><span class='nm'>菜脯</span><span class='q'>200g</span><span class='d'>周一、周四</span></label></div></section>
@@ -235,6 +241,8 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
   function todayStr(){ var d=new Date(); return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate()); }
   function daysSince(s){ return Math.round((new Date(todayStr()) - new Date(s))/86400000); }
 
+  var pickedCats = {};
+
   function leftDays(name, it){
     var meta = SEASON[name] || {};
     var shelf = meta.shelf || 365;
@@ -248,7 +256,7 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
     var list = document.getElementById("seasonList");
     var names = Object.keys(WEEKP);
     if(!names.length){ sec.style.display="none"; return; }
-    sec.style.display="block";
+    sec.style.display = (Object.keys(pickedCats).length === 0 || pickedCats["season"] === 1) ? "block" : "none";
 
     var st = loadStock();
     var buy = [], have = [];
@@ -265,7 +273,8 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
          "家里有的勾进库存，其余进采购。"+
          " <b id='quickPick'>确认家里有的 ›</b></div>";
     if(buy.length){
-      h += "<div class='shgrp'>要买（"+buy.length+"）</div>";
+      h += "<div class='shgrp'><span class='sg-name'>要买（"+buy.length+"）</span>"+
+           "<b class='sg-act ghost' id='bulkHave'>勾选的 · 已有</b></div>";
       buy.forEach(function(n){
         var meta = SEASON[n] || {};
         var ck = pickSt[n] ? " checked" : "";
@@ -277,14 +286,16 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
       });
     }
     if(have.length){
-      h += "<div class='shgrp'>已有（"+have.length+"）</div>";
+      h += "<div class='shgrp'><span class='sg-name'>已有（"+have.length+"）</span>"+
+           "<b class='sg-act' id='bulkBack'>勾选的 · 加回采购</b></div>";
       have.forEach(function(o){
         var meta = SEASON[o.n] || {};
         var lab = meta.tier === "常备" ? "常备" : ("还够用约 " + Math.max(0,leftDays(o.n,o.it)) + " 天");
-        h += "<div class='it have'><span class='nm'>"+escT(o.n)+"</span>"+
+        h += "<label class='it have'><input type='checkbox' class='hk' data-hk='"+escT(o.n)+"'>"+
+             "<span class='nm'>"+escT(o.n)+"</span>"+
              "<span class='q' style='color:#2f7a45'>"+lab+"</span>"+
              "<span class='d'></span>"+
-             "<b class='ibtn back' data-back='"+escT(o.n)+"'>加回采购</b></div>";
+             "<b class='ibtn back' data-back='"+escT(o.n)+"'>加回采购</b></label>";
       });
     }
     list.innerHTML = h;
@@ -342,6 +353,42 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
     // 「调料」分类 chip 的计数
     var cnt = document.getElementById("seasonCnt");
     if(cnt) cnt.textContent = "要买 " + buy.length + " · 已有 " + have.length;
+
+    var bh = document.getElementById("bulkHave");
+    if(bh) bh.onclick = function(ev){
+      ev.preventDefault(); ev.stopPropagation();
+      var names2 = [];
+      [].slice.call(list.querySelectorAll("input[data-season]")).forEach(function(cb){
+        if(cb.checked) names2.push(cb.getAttribute("data-season"));
+      });
+      if(!names2.length){ toast("先勾选要买里的调料"); return; }
+      var s2 = loadStock(), m2 = loadSeasonPick();
+      names2.forEach(function(n){
+        if(!s2.items[n]) s2.items[n] = { since: todayStr() };
+        delete m2[n];
+      });
+      saveStock(s2); saveSeasonPick(m2);
+      renderSeason();
+      toast(names2.length + " 项已进库存");
+    };
+
+    var bb2 = document.getElementById("bulkBack");
+    if(bb2) bb2.onclick = function(ev){
+      ev.preventDefault(); ev.stopPropagation();
+      var names3 = [];
+      [].slice.call(list.querySelectorAll("input[data-hk]")).forEach(function(cb){
+        if(cb.checked) names3.push(cb.getAttribute("data-hk"));
+      });
+      if(!names3.length){ toast("先勾选已有里的调料"); return; }
+      var s3 = loadStock(), m3 = loadSeasonPick();
+      names3.forEach(function(n){
+        delete s3.items[n];
+        m3[n] = 1;
+      });
+      saveStock(s3); saveSeasonPick(m3);
+      renderSeason();
+      toast(names3.length + " 项已加回采购");
+    };
   }
 
   function seasonAllChecked(){
@@ -425,11 +472,15 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
   };
 
   // 分类筛选（多选）
-  var pickedCats = {};
   function applyCats(){
     var all = Object.keys(pickedCats).length === 0;
     [].slice.call(document.querySelectorAll("section.cat")).forEach(function(s){
-      s.classList.toggle("on", all || pickedCats[s.getAttribute("data-g")] === 1);
+      var on = all || pickedCats[s.getAttribute("data-g")] === 1;
+      if(s.id === "seasonSec"){
+        if(Object.keys(WEEKP).length) s.style.display = on ? "block" : "none";
+        return;
+      }
+      s.classList.toggle("on", on);
     });
     var allChip = document.querySelector('.cf[data-g=""]');
     if(allChip) allChip.classList.toggle("on", all);
@@ -443,15 +494,34 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
       }
       else if(pickedCats[g]){ delete pickedCats[g]; }
       else { pickedCats[g] = 1; }
-      // 选中分类 → 该分类下全部勾上；取消 → 全部取消
-      [].slice.call(document.querySelectorAll("section.cat")).forEach(function(sec){
-        var gi2 = sec.getAttribute("data-g");
-        var on = (g === "") ? false : (pickedCats[gi2] === 1);
-        if(g === "") return;
-        [].slice.call(sec.querySelectorAll(".it input")).forEach(function(b){ b.checked = on; });
-        syncGroup(gi2);
-      });
-      save(); sync();
+
+      if(g === "season"){
+        var on2 = pickedCats["season"] === 1;
+        [].slice.call(document.querySelectorAll("#seasonList input[data-season]")).forEach(function(b){ b.checked = on2; });
+        var m = loadSeasonPick();
+        if(on2){
+          Object.keys(WEEKP).forEach(function(n){ m[n] = 1; });
+        } else { m = {}; }
+        saveSeasonPick(m); syncSeasonGroup();
+      } else if(g !== ""){
+        // 选中分类 → 该分类下全部勾上；取消 → 全部取消
+        [].slice.call(document.querySelectorAll("section.cat")).forEach(function(sec){
+          if(sec.id === "seasonSec") return;
+          var gi2 = sec.getAttribute("data-g");
+          var on = (pickedCats[gi2] === 1);
+          [].slice.call(sec.querySelectorAll(".it input")).forEach(function(b){ b.checked = on; });
+          syncGroup(gi2);
+        });
+        save(); sync();
+      } else {
+        [].slice.call(document.querySelectorAll("section.cat")).forEach(function(sec){
+          if(sec.id === "seasonSec") return;
+          [].slice.call(sec.querySelectorAll(".it input")).forEach(function(b){ b.checked = false; });
+          syncGroup(sec.getAttribute("data-g"));
+        });
+        save(); sync();
+      }
+
       [].slice.call(document.querySelectorAll(".cf")).forEach(function(x){
         var gg = x.getAttribute("data-g");
         if(gg !== "") x.classList.toggle("on", pickedCats[gg] === 1);
