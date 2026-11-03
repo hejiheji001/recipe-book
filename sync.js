@@ -27,10 +27,10 @@
   var DEFAULT_NB = 'queenroad';
 
   var DOCS = [
-    { key: 'rb_stock', suffix: '_stock', wrap: false, week: false },
+    { key: 'rb_stock', suffix: '_stock', wrap: false, week: false, mergeKeys: true },
     { key: 'rb_lists', suffix: '_orders', wrap: true, week: false },
     { key: 'rb_prints', suffix: '_prints', wrap: true, week: false },
-    { key: 'rb_shop', suffix: '_shop-fresh', wrap: false, week: true }
+    { key: 'rb_shop', suffix: '_shop-fresh', wrap: false, week: true, mergeKeys: true }
   ];
 
   var GATE_KEY = 'rb_gate';
@@ -103,6 +103,29 @@
     return !!(v && v.items && Object.keys(v.items).length);
   }
 
+  function mergeByKey(doc, remote, local) {
+    if (!remote || typeof remote !== 'object') return local;
+    if (doc.week) {
+      var out = {};
+      var rt = remote.items || {};
+      var lc = local || {};
+      Object.keys(rt).forEach(function (k) { out[k] = 1; });
+      Object.keys(lc).forEach(function (k) { out[k] = 1; });
+      return out;
+    }
+    var r = (remote && remote.items) || {};
+    var l = (local && local.items) || {};
+    var merged = {};
+    Object.keys(r).forEach(function (k) { merged[k] = r[k]; });
+    Object.keys(l).forEach(function (k) {
+      if (!merged[k]) { merged[k] = l[k]; return; }
+      var a = String((merged[k] && merged[k].since) || '');
+      var b = String((l[k] && l[k].since) || '');
+      if (b > a) merged[k] = l[k];
+    });
+    return { v: 1, items: merged };
+  }
+
   function pull(pw, fam) {
     var revs = {};
     var need = [];
@@ -124,7 +147,13 @@
 
         if (x.r.body.rev > 0) {
           var val = unpack(doc, x.r.body.items);
-          if (val !== null) writeLocal(doc, val);
+          if (val === null) return;
+
+          if (doc.mergeKeys) {
+            writeLocal(doc, mergeByKey(doc, val, readLocal(doc)));
+          } else {
+            writeLocal(doc, val);
+          }
         } else if (localHas(doc)) {
           need.push(doc);
         }
@@ -227,10 +256,11 @@
     var fam = ls(FAM_KEY, null);
     if (!fam) { dot.style.display = 'none'; return; }
     dot.style.display = 'inline-block';
-    var map = { ok: ['#2f7a45', '已同步'], doing: ['#d99b3d', '同步中'], off: ['#b8b8b2', '本地'] };
-    var t = map[tone] || (syncState.fam ? ['#b8b8b2', '本地'] : ['#b8b8b2', '本地']);
-    dot.style.background = t[0];
-    dot.title = fam.name + ' · ' + t[1];
+    var label = fam.name;
+    var state = tone === 'doing' ? '同步中' : (tone === 'ok' ? '已同步' : '本地');
+    dot.className = tone === 'doing' ? 'doing' : (tone === 'ok' ? 'on' : '');
+    dot.innerHTML = '<i></i>' + label;
+    dot.title = label + ' · ' + state + '（点这里切换小区）';
   }
 
   function css() {
@@ -260,8 +290,20 @@
       'font-family:inherit;-webkit-tap-highlight-color:transparent;}',
       '#rbg .g-nb b.on{background:#111;color:#fff;border-color:#111;}',
       '#rbg .g-foot{font-size:11.5px;color:#c0c0bc;margin-top:26px;line-height:1.7;}',
-      '#rbd{display:none;width:7px;height:7px;border-radius:50%;margin-left:7px;',
-      'background:#b8b8b2;vertical-align:middle;cursor:pointer;}',
+      '#rbbar{display:flex;justify-content:flex-end;padding:5px 10px;',
+      'background:#fbfbf9;border-bottom:1px solid #f0f0ec;}',
+      '#rbbar:empty{display:none;}',
+      '#rbd{display:none;font-size:11px;font-weight:700;color:#555;',
+      'background:#f2f2ee;border:1px solid #e2e2dc;border-radius:11px;',
+      'padding:4px 9px;white-space:nowrap;cursor:pointer;',
+      'line-height:1.35;',
+      '-webkit-tap-highlight-color:transparent;}',
+      '#rbd i{display:inline-block;width:6px;height:6px;border-radius:50%;',
+      'background:#b8b8b2;margin-right:4px;vertical-align:1px;font-style:normal;}',
+      '#rbd.on{color:#2f7a45;border-color:#cfe3d4;background:#f4f9f5;}',
+      '#rbd.on i{background:#2f7a45;}',
+      '#rbd.doing{color:#b57c1f;border-color:#f0e0c0;background:#fdf7ec;}',
+      '#rbd.doing i{background:#d99b3d;}',
       '#rbsheet{position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.4);',
       'display:none;align-items:flex-end;}',
       '#rbsheet.on{display:flex;}',
@@ -450,10 +492,14 @@
   function mountDot() {
     var nav = document.querySelector('.sitenav') || document.querySelector('.nav') || document.querySelector('.nav2');
     if (!nav) return;
-    dot = document.createElement('span');
-    dot.id = 'rbd';
+
+    var bar = document.createElement('div');
+    bar.id = 'rbbar';
+    bar.innerHTML = '<span id="rbd"></span>';
+    if (nav.parentNode) nav.parentNode.insertBefore(bar, nav.nextSibling);
+
+    dot = document.getElementById('rbd');
     dot.onclick = sheet;
-    nav.appendChild(dot);
   }
 
   window.RBSYNC = {

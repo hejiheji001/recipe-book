@@ -2,8 +2,26 @@
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
+<link rel="manifest" href="../manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="菜谱">
 <title>打印清单 · W1-11-02</title>
 <style>
+#delAsk{position:fixed;inset:0;z-index:999;background:rgba(0,0,0,.45);
+ display:flex;align-items:center;justify-content:center;padding:24px;}
+#delAsk .da-card{background:#fff;border-radius:14px;padding:20px 20px 14px;
+ width:100%;max-width:320px;box-shadow:0 12px 40px rgba(0,0,0,.2);}
+#delAsk h3{margin:0 0 8px;font-size:16.5px;font-weight:800;}
+#delAsk p{margin:0 0 16px;font-size:14px;color:#6b6b64;word-break:break-all;}
+#delAsk .da-acts{display:flex;gap:8px;}
+#delAsk .da-acts b{flex:1;text-align:center;font-size:14.5px;font-weight:700;
+ padding:11px 0;border-radius:9px;cursor:pointer;
+ -webkit-tap-highlight-color:transparent;}
+#delAsk .da-no{background:#f2f2ee;color:#555;}
+#delAsk .da-yes{background:#c0392b;color:#fff;}
+
 *{box-sizing:border-box;-webkit-text-size-adjust:100%;}
 html,body{margin:0;padding:0;background:#d9d9d1;color:#111;
  font:15px/1.6 "PingFang SC","Hiragino Sans GB",sans-serif;}
@@ -81,7 +99,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
   </div>
 </div>
 
-<div class="head"><span>更新 11-03 17:15</span>
+<div class="head"><span>更新 11-03 17:38</span>
   <span class="hact"><b id="reload">刷新</b> <em>W1-11-02</em></span></div>
 
 <div class="main">
@@ -175,15 +193,39 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     }).join("");
 
     [].slice.call(box.querySelectorAll("[data-del]")).forEach(function(b){
-      b.onclick=function(){
+      b.onclick=function(ev){
+        ev.preventDefault();
+        ev.stopPropagation();
         var id=+b.getAttribute("data-del");
-        if(!confirm("删除这条记录？")) return;
-        localStorage.setItem("rb_prints", JSON.stringify(
-          loadPrints().filter(function(x){ return x.id!==id; })));
-        if(window.RBSYNC) RBSYNC.save("rb_prints");
-        load();
+        var card = b.closest(".card");
+        var nm = card ? card.querySelector(".nm").textContent : "这条记录";
+        askDelete(nm, function(){
+          localStorage.setItem("rb_prints", JSON.stringify(
+            loadPrints().filter(function(x){ return x.id!==id; })));
+          if(window.RBSYNC) RBSYNC.save("rb_prints");
+          load();
+        });
       };
     });
+  }
+
+  function askDelete(name, ok){
+    var old = document.getElementById("delAsk");
+    if(old) old.remove();
+    var d = document.createElement("div");
+    d.id = "delAsk";
+    d.innerHTML =
+      "<div class='da-card'>" +
+      "<h3>删除这条打印记录？</h3>" +
+      "<p>" + escT(name) + "</p>" +
+      "<div class='da-acts'>" +
+      "<b class='da-no'>取消</b>" +
+      "<b class='da-yes'>删除</b></div></div>";
+    document.body.appendChild(d);
+
+    document.querySelector(".da-no").onclick = function(){ d.remove(); };
+    document.querySelector(".da-yes").onclick = function(){ d.remove(); ok(); };
+    d.onclick = function(e){ if(e.target === d) d.remove(); };
   }
 
   function load(){
