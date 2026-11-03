@@ -1,28 +1,28 @@
-/* 菜谱网站同步层：页面口令 → 小区口令 → SHA-256 派生 family → Supabase
+/* 菜谱网站同步层：页面口令 → 选小区 → 输入门牌号 → Supabase
  *
  * 设计要点
- *   - 页面口令只挡界面；真正的数据访问靠服务端校验小区口令（families 表 + bcrypt）
- *   - family = SHA-256(base|小区口令) 前 32 位，网页里只有 base，完整 family 不落源码
+ *   - 页面口令只挡界面；真正的数据访问靠服务端校验门牌号（families 表 + bcrypt）
+ *   - 每个小区一个固定 family（32 位 hex），门牌号只当口令用，不参与派生
+ *   - 门牌号不分大小写（服务端统一 upper 后比对）
  *   - localStorage 是唯一真实数据源；云端挂了页面照常能用
- *   - 首次开通（云端全空 + 本地有数据）才允许把本地推上去
+ *   - 首次接入（云端该份为空 + 本地有数据）才把本地推上去
  */
 (function () {
   'use strict';
 
-  var BASE = 'LuY62vdp5T0VYj3WmjldwANnvDKq5tC3';
   var API = 'https://brxlbwgyxcrilraxlbvt.supabase.co/rest/v1/rpc';
   var KEY = 'sb_publishable_n4_Ik7gMKPEpZgpGX_s2_Q_kS9jp3hH';
 
   var PAGE_PW = '12250504';
 
   var NBS = [
-    { id: 'queenroad', name: '皇后道' },
-    { id: 'jianshang', name: '简上村' },
-    { id: 'yongyi', name: '雍颐湾' },
-    { id: 'tianyue', name: '天樾府' },
-    { id: 'haorizi', name: '好日子' },
-    { id: 'birmingham', name: '伯明翰' },
-    { id: 'yulin', name: '裕林花园' }
+    { id: 'queenroad',  name: '皇后道',   fam: '0b0d3b8bf348c85fcc244691b77f8825' },
+    { id: 'yongyi',     name: '雍颐湾',   fam: 'f688c606b8b3213afaca12d152556a1d' },
+    { id: 'jianshang',  name: '简上村',   fam: '28b32bec231e9d2797270197f71ebbf4' },
+    { id: 'tianyue',    name: '天樾府',   fam: '45311a241602fcd2450c36c8ef16d778' },
+    { id: 'yulin',      name: '裕林花园', fam: '33619a67ac9a7642efb75ac6656508cc' },
+    { id: 'birmingham', name: '伯明翰',   fam: '142ae6144dbb013b5e51146d29ec67ef' },
+    { id: 'haorizi',    name: '好日子',   fam: '7256bfe636fb4da7458a09b7f0f9b1bf' }
   ];
   var DEFAULT_NB = 'queenroad';
 
@@ -43,19 +43,6 @@
     catch (e) { return d; }
   }
   function lss(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
-
-  function hex(buf) {
-    return Array.prototype.map.call(new Uint8Array(buf),
-      function (b) { return ('0' + b.toString(16)).slice(-2); }).join('');
-  }
-
-  function deriveFamily(nbId, pw) {
-    if (!window.crypto || !window.crypto.subtle) return Promise.resolve(null);
-    var data = new TextEncoder().encode(BASE + '|' + nbId + '|' + pw);
-    return crypto.subtle.digest('SHA-256', data).then(function (buf) {
-      return hex(buf).slice(0, 32);
-    });
-  }
 
   function call(fn, body) {
     return fetch(API + '/' + fn, {
@@ -349,13 +336,13 @@
     g.innerHTML =
       '<div class="g-in">' +
       '<h1>哪一家？</h1>' +
-      '<p class="g-sub">选自己家，输一次口令，以后这台设备直接进。</p>' +
+      '<p class="g-sub">选自己家，填门牌号，以后这台设备直接进。</p>' +
       '<label>小区</label><div class="g-nb" id="rgNbs">' + rows() + '</div>' +
-      '<label>这家的小区口令</label>' +
-      '<input id="rgNpw" type="password" autocomplete="off" placeholder="至少 6 位，字母数字混合">' +
+      '<label>门牌号</label>' +
+      '<input id="rgNpw" type="text" autocomplete="off" autocapitalize="characters" placeholder="例如 1801 或 6A27C">' +
       '<div class="g-err" id="rgNerr"></div>' +
       '<button class="g-btn" id="rgNgo">进入</button>' +
-      '<div class="g-foot">口令存在这台手机上。换设备要重输一次。</div>' +
+      '<div class="g-foot">门牌号输一次，这台手机以后不用再输。换设备要重输。不分大小写。</div>' +
       '</div>';
     document.body.appendChild(g);
     document.body.classList.add('rb-lock');
@@ -376,21 +363,19 @@
 
     btn.onclick = function () {
       var pw = (document.getElementById('rgNpw').value || '').trim();
-      if (pw.length < 6) { err.textContent = '口令至少 6 位'; return; }
+      if (pw.length < 3) { err.textContent = '请输入门牌号'; return; }
       btn.disabled = true;
       btn.textContent = '连接中…';
 
-      deriveFamily(picked, pw).then(function (famId) {
-        if (!famId) { err.textContent = '此浏览器不支持安全计算'; btn.disabled = false; btn.textContent = '进入'; return; }
-        var nb = NBS.filter(function (n) { return n.id === picked; })[0] || NBS[0];
-        return call('put_family', {
-          p_family: famId, p_token: pw, p_label: nb.name
-        }).then(function (reg) {
+      var nb = NBS.filter(function (n) { return n.id === picked; })[0] || NBS[0];
+      var famId = nb.fam;
+
+      call('put_family', { p_family: famId, p_token: pw, p_label: nb.name })
+        .then(function (reg) {
           if (!reg.ok && reg.status !== 200) {
-            if (reg.body && reg.body.code === 'PT403') {
-              throw new Error('此小区口令不对');
-            }
-            throw new Error('连接失败');
+            if (reg.body && reg.body.code === 'PT403') throw new Error('门牌号不对');
+            if (reg.body && reg.body.code === 'PT404') throw new Error('这个家还没开通');
+            throw new Error('连不上服务器，请检查网络');
           }
           return pull(pw, famId);
         }).then(function (info) {
@@ -407,8 +392,7 @@
           setTimeout(function () { g.remove(); }, 200);
           paint('ok');
           if (done) done(n);
-        });
-      }).catch(function (e) {
+        }).catch(function (e) {
         err.textContent = (e && e.message) || '连不上服务器，请检查网络';
         btn.disabled = false;
         btn.textContent = '进入';
@@ -445,7 +429,7 @@
       '<div class="s-card">' +
       '<h1>' + fam.name + '</h1>' +
       '<p class="g-sub">这台设备已连到这个家，改动会自动同步。</p>' +
-      '<label>小区口令（记下来，换手机要用）</label>' +
+      '<label>门牌号（换手机时要填）</label>' +
       '<input id="rsPw" type="text" readonly value="' + fam.pw + '">' +
       '<button class="g-btn" id="rsSw">换一个家</button>' +
       '<button class="g-btn g-ghost" id="rsOut">退出这台设备</button>' +
