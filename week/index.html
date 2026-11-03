@@ -130,17 +130,16 @@ ol li{margin-bottom:5px;line-height:1.5;}
 <a id="top"></a>
 <div class="stickytop">
 <div class="sitenav">
-  <a href="./" class="on">本周菜单</a>
-  <a href="shopping.html" class="hot">本周采购</a>
+  <a href="./" class="on">推荐菜单</a>
+  <a href="shopping.html" class="hot">推荐采购</a>
   <a href="../">总菜谱</a>
-  <a href="print.html">打印清单</a>
 </div>
 <nav><a href="#d1">周一</a><a href="#d2">周二</a><a href="#d3">周三</a><a href="#d4">周四</a><a href="#d5">周五</a><a href="#d6">周六</a><a href="#d7">周日</a></nav>
-<div class="stamp">更新 11-03 20:48</div>
+<div class="stamp">更新 11-03 22:30</div>
 </div>
 <div class="wrap">
 
-  <section class="day" id="d1">
+  <section class="day" id="d1" data-date="2026-11-02">
     <div class="dh">
       <h2>周一　11/2</h2>
       <div class="sub">潮汕家常 · 快手开局<br>人盯锅 <b>17min</b>　总耗时 <b>30min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
@@ -212,7 +211,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
     </details>
     <div class="daynav"><a href="#d2">周二 →</a></div>
   </section>
-  <section class="day" id="d2">
+  <section class="day" id="d2" data-date="2026-11-03">
     <div class="dh">
       <h2>周二　11/3</h2>
       <div class="sub">蒸菜日 · 少油烟<br>人盯锅 <b>22min</b>　总耗时 <b>42min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
@@ -284,7 +283,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
     </details>
     <div class="daynav"><a href="#d1">← 周一</a><a href="#d3">周三 →</a></div>
   </section>
-  <section class="day" id="d3">
+  <section class="day" id="d3" data-date="2026-11-04">
     <div class="dh">
       <h2>周三　11/4</h2>
       <div class="sub">烤箱日 · 一炉到底<br>人盯锅 <b>30min</b>　总耗时 <b>90min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
@@ -356,7 +355,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
     </details>
     <div class="daynav"><a href="#d2">← 周二</a><a href="#d4">周四 →</a></div>
   </section>
-  <section class="day" id="d4">
+  <section class="day" id="d4" data-date="2026-11-05">
     <div class="dh">
       <h2>周四　11/5</h2>
       <div class="sub">炖煮日 · 老人小孩都软<br>人盯锅 <b>26min</b>　总耗时 <b>109min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
@@ -428,7 +427,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
     </details>
     <div class="daynav"><a href="#d3">← 周三</a><a href="#d5">周五 →</a></div>
   </section>
-  <section class="day" id="d5">
+  <section class="day" id="d5" data-date="2026-11-06">
     <div class="dh">
       <h2>周五　11/6</h2>
       <div class="sub">砂锅日 · 全周最省时<br>人盯锅 <b>29min</b>　总耗时 <b>62min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
@@ -500,7 +499,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
     </details>
     <div class="daynav"><a href="#d4">← 周四</a><a href="#d6">周六 →</a></div>
   </section>
-  <section class="day" id="d6">
+  <section class="day" id="d6" data-date="2026-11-07">
     <div class="dh">
       <h2>周六　11/7</h2>
       <div class="sub">海鲜日 · 补充 omega-3<br>人盯锅 <b>28min</b>　总耗时 <b>38min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
@@ -572,7 +571,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
     </details>
     <div class="daynav"><a href="#d5">← 周五</a><a href="#d7">周日 →</a></div>
   </section>
-  <section class="day" id="d7">
+  <section class="day" id="d7" data-date="2026-11-08">
     <div class="dh">
       <h2>周日　11/8</h2>
       <div class="sub">周日大菜 · 一锅牛腩<br>人盯锅 <b>29min</b>　总耗时 <b>112min</b>　3 道主菜 + 1 汤 + 1 青菜</div>
@@ -645,7 +644,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
     <div class="daynav"><a href="#d6">← 周六</a></div>
   </section>
   <div class="foot">点菜品标题可收起 / 展开　·　青菜永远是最后 3 分钟做<br>
-  <span style="color:#d0d0cc">更新于 2026-11-03 20:48</span></div>
+  <span style="color:#d0d0cc">更新于 2026-11-03 22:30</span></div>
 </div>
 <div class="bottombar">
   <a href="../?open=mylist">我的单</a>
@@ -678,6 +677,32 @@ ol li{margin-bottom:5px;line-height:1.5;}
   window.addEventListener('load', sync);
   sync();
   if (location.hash){ var el=document.querySelector(location.hash); if(el) setTimeout(function(){el.scrollIntoView();},80); }
+
+  // ===== 推荐菜单：隐藏已过去的日期（按设备本地日期）=====
+  function pad2(n){ return ("0"+n).slice(-2); }
+  function todayKey(){ var d=new Date(); return d.getFullYear()+"-"+pad2(d.getMonth()+1)+"-"+pad2(d.getDate()); }
+  (function(){
+    var today = todayKey();
+    var secs = document.querySelectorAll("section.day[data-date]");
+    var hidden = 0;
+    var _today = new Date();
+    secs.forEach(function(sec){
+      var dk = sec.getAttribute("data-date");
+      if (dk && dk < today){
+        sec.style.display = "none";
+        hidden++;
+        var nap = document.querySelector('nav a[href="#'+sec.id+'"]');
+        if (nap) nap.style.display = "none";
+      }
+    });
+    if (hidden){
+      var note = document.createElement("div");
+      note.style.cssText = "text-align:center;font-size:12px;color:#9a9a95;padding:8px 0 2px;";
+      note.textContent = "已隐藏 " + hidden + " 天（日期已过）";
+      var wrap = document.querySelector(".wrap");
+      if (wrap) wrap.insertBefore(note, wrap.firstChild);
+    }
+  })();
 })();
 </script>
 
