@@ -70,6 +70,15 @@ h2 em{font-style:normal;font-size:12px;font-weight:500;color:#9a9a95;}
 #dlg #closeBtn{background:#f2f2ee;color:#555;}
 .bighint{background:#fdecea;color:#c0392b;border:2px solid #c0392b;border-radius:12px;
  padding:14px 16px;font-size:17px;font-weight:800;text-align:center;line-height:1.5;}
+.it.have{padding-left:10px;}
+.it.have .nm{color:#555;}
+.pnote b{color:#b5342a;font-weight:700;cursor:pointer;}
+.picklist{max-height:52vh;overflow-y:auto;margin:8px 0;border-top:1px solid #eee;}
+.pk{display:flex;align-items:center;gap:9px;padding:10px 2px;
+ border-bottom:1px solid #f4f4f0;font-size:14.5px;cursor:pointer;}
+.pk input{width:19px;height:19px;accent-color:#111;flex:0 0 auto;}
+.pk span{flex:1;}
+.pk i{font-style:normal;font-size:11.5px;color:#aaa;}
 #toast{display:none;position:fixed;left:50%;top:38%;transform:translate(-50%,-50%);
  background:rgba(0,0,0,.86);color:#fff;padding:14px 22px;border-radius:12px;
  font-size:15.5px;z-index:300;pointer-events:none;max-width:80%;text-align:center;}
@@ -100,7 +109,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="print.html">打印清单</a>
   </div>
   <div class="bar">
-    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-03 00:09</span></span>
+    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-03 01:56</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
@@ -111,16 +120,26 @@ body{min-height:100vh;display:flex;flex-direction:column;}
 
 <section class='cat' data-g='0'><h2><label class='gh'><input type='checkbox' class='gc' data-g='0'><span>肉禽</span></label><em>9 项</em></h2><div class='grp'><label class='it'><input type='checkbox' data-i='0' data-g='0'><span class='nm'>三黄鸡</span><span class='q'>900g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='1' data-g='0'><span class='nm'>牛腩</span><span class='q'>700g</span><span class='d'>周日</span></label><label class='it'><input type='checkbox' data-i='2' data-g='0'><span class='nm'>猪排骨</span><span class='q'>1400g</span><span class='d'>周三、周四</span></label><label class='it'><input type='checkbox' data-i='3' data-g='0'><span class='nm'>猪瘦肉</span><span class='q'>400g</span><span class='d'>周日</span></label><label class='it'><input type='checkbox' data-i='4' data-g='0'><span class='nm'>猪肉</span><span class='q'>250g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='5' data-g='0'><span class='nm'>猪肉末</span><span class='q'>800g</span><span class='d'>周一、周四</span></label><label class='it'><input type='checkbox' data-i='6' data-g='0'><span class='nm'>猪骨</span><span class='q'>600g</span><span class='d'>周四</span></label><label class='it'><input type='checkbox' data-i='7' data-g='0'><span class='nm'>鸡</span><span class='q'>800g</span><span class='d'>周日</span></label><label class='it'><input type='checkbox' data-i='8' data-g='0'><span class='nm'>鸡翅中</span><span class='q'>800g</span><span class='d'>周三</span></label></div></section><section class='cat' data-g='1'><h2><label class='gh'><input type='checkbox' class='gc' data-g='1'><span>水产</span></label><em>7 项</em></h2><div class='grp'><label class='it'><input type='checkbox' data-i='9' data-g='1'><span class='nm'>干贝</span><span class='q'>50g</span><span class='d'>周日</span></label><label class='it'><input type='checkbox' data-i='10' data-g='1'><span class='nm'>杏鲍菇</span><span class='q'>300g</span><span class='d'>周三</span></label><label class='it'><input type='checkbox' data-i='11' data-g='1'><span class='nm'>沙虾</span><span class='q'>500g</span><span class='d'>周一</span></label><label class='it'><input type='checkbox' data-i='12' data-g='1'><span class='nm'>虾仁</span><span class='q'>300g</span><span class='d'>周六</span></label><label class='it'><input type='checkbox' data-i='13' data-g='1'><span class='nm'>虾皮</span><span class='q'>50g</span><span class='d'>周二、周日</span></label><label class='it'><input type='checkbox' data-i='14' data-g='1'><span class='nm'>鲈鱼</span><span class='q'>600g</span><span class='d'>周二</span></label><label class='it'><input type='checkbox' data-i='15' data-g='1'><span class='nm'>鳕鱼</span><span class='q'>700g</span><span class='d'>周六</span></label></div></section><section class='cat' data-g='2'><h2><label class='gh'><input type='checkbox' class='gc' data-g='2'><span>蛋豆</span></label><em>4 项</em></h2><div class='grp'><label class='it'><input type='checkbox' data-i='16' data-g='2'><span class='nm'>北豆腐</span><span class='q'>700g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='17' data-g='2'><span class='nm'>嫩豆腐</span><span class='q'>500g</span><span class='d'>周二</span></label><label class='it'><input type='checkbox' data-i='18' data-g='2'><span class='nm'>老豆腐</span><span class='q'>1200g</span><span class='d'>周三、周六、周日</span></label><label class='it'><input type='checkbox' data-i='19' data-g='2'><span class='nm'>鸡蛋</span><span class='q'>1350个</span><span class='d'>周一、周二、周四、周六</span></label></div></section><section class='cat' data-g='3'><h2><label class='gh'><input type='checkbox' class='gc' data-g='3'><span>乳品主食</span></label><em>3 项</em></h2><div class='grp'><label class='it'><input type='checkbox' data-i='20' data-g='3'><span class='nm'>淡奶油</span><span class='q'>1瓶</span><span class='d'>周三、周六</span></label><label class='it'><input type='checkbox' data-i='21' data-g='3'><span class='nm'>牛奶</span><span class='q'>1瓶</span><span class='d'>周六</span></label><label class='it'><input type='checkbox' data-i='22' data-g='3'><span class='nm'>粉丝</span><span class='q'>100g</span><span class='d'>周五</span></label></div></section><section class='cat' data-g='4'><h2><label class='gh'><input type='checkbox' class='gc' data-g='4'><span>蔬菜</span></label><em>17 项</em></h2><div class='grp'><label class='it'><input type='checkbox' data-i='23' data-g='4'><span class='nm'>丝瓜</span><span class='q'>500g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='24' data-g='4'><span class='nm'>冬瓜</span><span class='q'>1100g</span><span class='d'>周二、周日</span></label><label class='it'><input type='checkbox' data-i='25' data-g='4'><span class='nm'>梅干菜</span><span class='q'>100g</span><span class='d'>周四</span></label><label class='it'><input type='checkbox' data-i='26' data-g='4'><span class='nm'>油麦菜</span><span class='q'>700g</span><span class='d'>周二</span></label><label class='it'><input type='checkbox' data-i='27' data-g='4'><span class='nm'>玉米</span><span class='q'>400g</span><span class='d'>周四</span></label><label class='it'><input type='checkbox' data-i='28' data-g='4'><span class='nm'>生菜</span><span class='q'>700g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='29' data-g='4'><span class='nm'>番茄</span><span class='q'>700g</span><span class='d'>周三</span></label><label class='it'><input type='checkbox' data-i='30' data-g='4'><span class='nm'>白菜</span><span class='q'>250g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='31' data-g='4'><span class='nm'>白萝卜</span><span class='q'>1100g</span><span class='d'>周四、周日</span></label><label class='it'><input type='checkbox' data-i='32' data-g='4'><span class='nm'>白蘑菇</span><span class='q'>400g</span><span class='d'>周六</span></label><label class='it'><input type='checkbox' data-i='33' data-g='4'><span class='nm'>胡萝卜</span><span class='q'>250g</span><span class='d'>周四</span></label><label class='it'><input type='checkbox' data-i='34' data-g='4'><span class='nm'>芥兰</span><span class='q'>600g</span><span class='d'>周一</span></label><label class='it'><input type='checkbox' data-i='35' data-g='4'><span class='nm'>菜心</span><span class='q'>600g</span><span class='d'>周六</span></label><label class='it'><input type='checkbox' data-i='36' data-g='4'><span class='nm'>西兰花</span><span class='q'>600g</span><span class='d'>周三</span></label><label class='it'><input type='checkbox' data-i='37' data-g='4'><span class='nm'>通菜</span><span class='q'>1400g</span><span class='d'>周四、周日</span></label><label class='it'><input type='checkbox' data-i='38' data-g='4'><span class='nm'>金针菇</span><span class='q'>300g</span><span class='d'>周五</span></label><label class='it'><input type='checkbox' data-i='39' data-g='4'><span class='nm'>香菇</span><span class='q'>250g</span><span class='d'>周二、周五</span></label></div></section><section class='cat' data-g='5'><h2><label class='gh'><input type='checkbox' class='gc' data-g='5'><span>干货</span></label><em>2 项</em></h2><div class='grp'><label class='it'><input type='checkbox' data-i='40' data-g='5'><span class='nm'>紫菜</span><span class='q'>50g</span><span class='d'>周一</span></label><label class='it'><input type='checkbox' data-i='41' data-g='5'><span class='nm'>菜脯</span><span class='q'>200g</span><span class='d'>周一、周四</span></label></div></section>
 
+<section class="cat" data-g="season" id="seasonSec" style="display:none">
+  <h2><label class="gh"><input type="checkbox" class="gc" data-g="season"><span>本周调料</span></label>
+      <em id="seasonCnt"></em></h2>
+  <div class="grp" id="seasonList"></div>
+</section>
+
 <div class="foot"></div>
 
 <div class="bottombar">
   <a href="../?open=mylist">我的单</a>
+  <a href="../?open=stock">库存</a>
   <a href="../?open=trash">回收站</a>
 </div>
 
 <div id="mask"></div>
 <div id="dlg"></div>
 <div id="toast"></div>
+
+<script>window.__SEASON__ = {"盐":{"tier":"常备","shelf":730,"n":312},"葱":{"tier":"常备","shelf":365,"n":261},"生抽":{"tier":"常备","shelf":365,"n":244},"姜":{"tier":"常备","shelf":365,"n":230},"水":{"tier":"常备","shelf":365,"n":225},"蒜":{"tier":"常备","shelf":365,"n":221},"花生油":{"tier":"常备","shelf":270,"n":119},"糖":{"tier":"常备","shelf":730,"n":118},"油":{"tier":"常备","shelf":270,"n":95},"老抽":{"tier":"常备","shelf":365,"n":80},"生粉":{"tier":"常备","shelf":730,"n":77},"黑胡椒":{"tier":"常备","shelf":365,"n":75},"料酒":{"tier":"常备","shelf":365,"n":72},"鱼露":{"tier":"常备","shelf":365,"n":70},"橄榄油":{"tier":"常备","shelf":270,"n":64},"白胡椒":{"tier":"常备","shelf":365,"n":54},"冰糖":{"tier":"常备","shelf":730,"n":54},"蚝油":{"tier":"常备","shelf":270,"n":53},"黄酒":{"tier":"常备","shelf":365,"n":53},"八角":{"tier":"常用","shelf":730,"n":39},"南姜":{"tier":"常用","shelf":365,"n":38},"食用油":{"tier":"常用","shelf":270,"n":34},"小米辣":{"tier":"常用","shelf":365,"n":34},"黄油":{"tier":"常用","shelf":270,"n":33},"桂皮":{"tier":"常用","shelf":730,"n":29},"白糖":{"tier":"常用","shelf":730,"n":24},"香菜":{"tier":"常用","shelf":365,"n":22},"柠檬":{"tier":"常用","shelf":365,"n":21},"青柠":{"tier":"常用","shelf":365,"n":21},"洋葱":{"tier":"常用","shelf":365,"n":20},"鸡蛋":{"tier":"常用","shelf":365,"n":19},"面粉":{"tier":"常用","shelf":730,"n":19},"高汤":{"tier":"常用","shelf":365,"n":19},"香油":{"tier":"常用","shelf":270,"n":18},"醋":{"tier":"常用","shelf":365,"n":16},"虾米":{"tier":"常用","shelf":365,"n":16},"香叶":{"tier":"常用","shelf":730,"n":15},"白醋":{"tier":"常用","shelf":365,"n":14},"粗盐":{"tier":"常用","shelf":730,"n":14},"欧芹":{"tier":"常用","shelf":365,"n":13},"迷迭香":{"tier":"常用","shelf":365,"n":13},"豆豉":{"tier":"常用","shelf":180,"n":13},"猪油":{"tier":"常用","shelf":270,"n":13},"帕玛森":{"tier":"常用","shelf":365,"n":13},"罗勒":{"tier":"常用","shelf":365,"n":13},"花椒粉":{"tier":"常用","shelf":730,"n":12},"百里香":{"tier":"常用","shelf":365,"n":12},"花椒":{"tier":"常用","shelf":730,"n":12},"香菇":{"tier":"常用","shelf":365,"n":12},"番茄膏":{"tier":"常用","shelf":120,"n":11},"干辣椒":{"tier":"常用","shelf":365,"n":11},"牛奶":{"tier":"常用","shelf":60,"n":10},"蜂蜜":{"tier":"常用","shelf":180,"n":10},"白胡椒粉":{"tier":"常用","shelf":730,"n":10},"香醋":{"tier":"常用","shelf":365,"n":10},"普宁豆酱":{"tier":"偶尔","shelf":180,"n":9},"蒸鱼豉油":{"tier":"偶尔","shelf":365,"n":9},"豆瓣酱":{"tier":"偶尔","shelf":180,"n":9},"红油":{"tier":"偶尔","shelf":270,"n":9},"芹菜":{"tier":"偶尔","shelf":365,"n":8},"番茄酱":{"tier":"偶尔","shelf":120,"n":8},"椰浆":{"tier":"偶尔","shelf":180,"n":8},"香茅":{"tier":"偶尔","shelf":365,"n":8},"五香粉":{"tier":"偶尔","shelf":730,"n":7},"花生":{"tier":"偶尔","shelf":365,"n":7},"酵母":{"tier":"偶尔","shelf":365,"n":7},"枸杞":{"tier":"偶尔","shelf":365,"n":7},"淡奶油":{"tier":"偶尔","shelf":270,"n":6},"白葡萄酒":{"tier":"偶尔","shelf":365,"n":6},"马苏里拉":{"tier":"偶尔","shelf":365,"n":6},"陈皮":{"tier":"偶尔","shelf":365,"n":6},"柱侯酱":{"tier":"偶尔","shelf":180,"n":6},"牛至":{"tier":"偶尔","shelf":365,"n":6},"九层塔":{"tier":"偶尔","shelf":365,"n":6},"胡萝卜":{"tier":"偶尔","shelf":365,"n":5},"番茄":{"tier":"偶尔","shelf":365,"n":5},"温水":{"tier":"偶尔","shelf":365,"n":5},"沙姜":{"tier":"偶尔","shelf":365,"n":5},"蜜枣":{"tier":"偶尔","shelf":365,"n":5},"南乳":{"tier":"偶尔","shelf":180,"n":5},"面包糠":{"tier":"偶尔","shelf":365,"n":5},"白砂糖":{"tier":"偶尔","shelf":730,"n":5},"青柠叶":{"tier":"偶尔","shelf":365,"n":5},"甜面酱":{"tier":"偶尔","shelf":180,"n":4},"肉豆蔻":{"tier":"偶尔","shelf":365,"n":4},"沙茶酱":{"tier":"偶尔","shelf":180,"n":4},"芝麻酱":{"tier":"偶尔","shelf":120,"n":4},"泡椒":{"tier":"偶尔","shelf":365,"n":4},"芽菜":{"tier":"偶尔","shelf":365,"n":4},"蒜粉":{"tier":"偶尔","shelf":730,"n":4},"剁椒":{"tier":"偶尔","shelf":365,"n":4},"蛋清":{"tier":"偶尔","shelf":365,"n":4},"青椒":{"tier":"偶尔","shelf":365,"n":3},"豆芽":{"tier":"偶尔","shelf":365,"n":3},"格鲁耶尔奶酪":{"tier":"偶尔","shelf":60,"n":3},"红酒醋":{"tier":"偶尔","shelf":365,"n":3},"第戎芥末":{"tier":"偶尔","shelf":365,"n":3},"腐乳":{"tier":"偶尔","shelf":180,"n":3},"韭黄":{"tier":"偶尔","shelf":365,"n":3},"麦芽糖":{"tier":"偶尔","shelf":730,"n":3},"荷叶":{"tier":"偶尔","shelf":365,"n":3},"咖喱粉":{"tier":"偶尔","shelf":730,"n":3},"胡椒粉":{"tier":"偶尔","shelf":730,"n":3},"芝麻":{"tier":"偶尔","shelf":365,"n":3},"玉米淀粉":{"tier":"偶尔","shelf":730,"n":3},"甜椒粉":{"tier":"偶尔","shelf":730,"n":3},"孜然":{"tier":"偶尔","shelf":730,"n":3},"红糖":{"tier":"偶尔","shelf":730,"n":3},"糟卤":{"tier":"偶尔","shelf":365,"n":3},"土豆淀粉":{"tier":"罕见","shelf":730,"n":2},"粉丝":{"tier":"罕见","shelf":730,"n":2},"黄瓜":{"tier":"罕见","shelf":365,"n":2},"白兰地":{"tier":"罕见","shelf":365,"n":2},"红酒":{"tier":"罕见","shelf":365,"n":2},"月桂叶":{"tier":"罕见","shelf":365,"n":2},"藏红花":{"tier":"罕见","shelf":365,"n":2},"花生酱":{"tier":"罕见","shelf":120,"n":2},"鱼骨汤":{"tier":"罕见","shelf":365,"n":2},"卤汁":{"tier":"罕见","shelf":365,"n":2},"叉烧酱":{"tier":"罕见","shelf":120,"n":2},"咖喱酱":{"tier":"罕见","shelf":120,"n":2},"泡打粉":{"tier":"罕见","shelf":730,"n":2},"黄片糖":{"tier":"罕见","shelf":730,"n":2},"客家米酒":{"tier":"罕见","shelf":365,"n":2},"火腿":{"tier":"罕见","shelf":365,"n":2},"蔬菜高汤":{"tier":"罕见","shelf":365,"n":2},"柠檬汁":{"tier":"罕见","shelf":365,"n":2},"郫县豆瓣":{"tier":"罕见","shelf":365,"n":2},"辣椒粉":{"tier":"罕见","shelf":730,"n":2},"花生碎":{"tier":"罕见","shelf":365,"n":2},"青咖喱酱":{"tier":"罕见","shelf":120,"n":2},"红咖喱酱":{"tier":"罕见","shelf":120,"n":2},"罗望子酱":{"tier":"罕见","shelf":120,"n":2},"蛋黄酱":{"tier":"罕见","shelf":120,"n":2},"甜酱油":{"tier":"罕见","shelf":365,"n":2},"白芝麻":{"tier":"罕见","shelf":365,"n":2},"切达奶酪":{"tier":"罕见","shelf":60,"n":2},"桂花酱":{"tier":"罕见","shelf":120,"n":2},"葱白":{"tier":"罕见","shelf":365,"n":1},"粉条":{"tier":"罕见","shelf":730,"n":1},"白菜":{"tier":"罕见","shelf":365,"n":1},"豆角":{"tier":"罕见","shelf":365,"n":1},"米醋":{"tier":"罕见","shelf":365,"n":1},"孜然粉":{"tier":"罕见","shelf":730,"n":1},"黄豆酱":{"tier":"罕见","shelf":120,"n":1},"黄花菜":{"tier":"罕见","shelf":365,"n":1},"鸭油":{"tier":"罕见","shelf":270,"n":1},"细香葱":{"tier":"罕见","shelf":365,"n":1},"香草精":{"tier":"罕见","shelf":365,"n":1},"奶酪":{"tier":"罕见","shelf":60,"n":1},"淀粉":{"tier":"罕见","shelf":730,"n":1},"冰水":{"tier":"罕见","shelf":365,"n":1},"虾皮":{"tier":"罕见","shelf":365,"n":1},"韭菜":{"tier":"罕见","shelf":365,"n":1},"红枣":{"tier":"罕见","shelf":365,"n":1},"黄豆":{"tier":"罕见","shelf":365,"n":1},"猪骨汤":{"tier":"罕见","shelf":365,"n":1},"牛骨汤":{"tier":"罕见","shelf":365,"n":1},"菜脯":{"tier":"罕见","shelf":365,"n":1},"橄榄菜":{"tier":"罕见","shelf":365,"n":1},"甜醋":{"tier":"罕见","shelf":365,"n":1},"红椒":{"tier":"罕见","shelf":365,"n":1},"沸水":{"tier":"罕见","shelf":365,"n":1},"炼乳":{"tier":"罕见","shelf":365,"n":1},"XO酱":{"tier":"罕见","shelf":120,"n":1},"虾酱":{"tier":"罕见","shelf":120,"n":1},"沙姜粉":{"tier":"罕见","shelf":730,"n":1},"白胡椒粒":{"tier":"罕见","shelf":365,"n":1},"客家黄酒":{"tier":"罕见","shelf":365,"n":1},"客家娘酒":{"tier":"罕见","shelf":365,"n":1},"粘米粉":{"tier":"罕见","shelf":730,"n":1},"碱水":{"tier":"罕见","shelf":365,"n":1},"菊花":{"tier":"罕见","shelf":365,"n":1},"蛋白":{"tier":"罕见","shelf":365,"n":1},"陈醋":{"tier":"罕见","shelf":365,"n":1},"海鲜高汤":{"tier":"罕见","shelf":365,"n":1},"红葡萄酒":{"tier":"罕见","shelf":365,"n":1},"牛肉高汤":{"tier":"罕见","shelf":365,"n":1},"菠菜":{"tier":"罕见","shelf":365,"n":1},"鼠尾草":{"tier":"罕见","shelf":365,"n":1},"巴萨米克醋":{"tier":"罕见","shelf":365,"n":1},"海盐":{"tier":"罕见","shelf":730,"n":1},"莳萝":{"tier":"罕见","shelf":365,"n":1},"黑橄榄":{"tier":"罕见","shelf":365,"n":1},"雪利醋":{"tier":"罕见","shelf":365,"n":1},"面包":{"tier":"罕见","shelf":365,"n":1},"酸奶":{"tier":"罕见","shelf":365,"n":1},"布格麦":{"tier":"罕见","shelf":365,"n":1},"薄荷":{"tier":"罕见","shelf":365,"n":1},"猪肉末":{"tier":"罕见","shelf":365,"n":1},"辣椒油":{"tier":"罕见","shelf":270,"n":1},"石膏粉":{"tier":"罕见","shelf":120,"n":1},"棕榈糖":{"tier":"罕见","shelf":730,"n":1},"丁香":{"tier":"罕见","shelf":365,"n":1},"咖喱叶":{"tier":"罕见","shelf":365,"n":1},"叻沙酱":{"tier":"罕见","shelf":120,"n":1},"鸡油":{"tier":"罕见","shelf":270,"n":1},"辣椒酱":{"tier":"罕见","shelf":120,"n":1},"红葱":{"tier":"罕见","shelf":365,"n":1},"腰果":{"tier":"罕见","shelf":365,"n":1},"肉骨茶药材包":{"tier":"罕见","shelf":365,"n":1},"烟熏辣椒粉":{"tier":"罕见","shelf":730,"n":1},"洋葱粉":{"tier":"罕见","shelf":730,"n":1},"苹果醋":{"tier":"罕见","shelf":365,"n":1},"伍斯特酱":{"tier":"罕见","shelf":120,"n":1},"肉桂粉":{"tier":"罕见","shelf":730,"n":1},"龙井茶":{"tier":"罕见","shelf":365,"n":1},"红曲米":{"tier":"罕见","shelf":365,"n":1},"虾油":{"tier":"罕见","shelf":270,"n":1}};
+window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18,"小米辣":2,"糖":4,"香油":5,"油":14,"白胡椒":5,"猪油":1,"蚝油":7,"蒸鱼豉油":3,"花生油":3,"蜂蜜":2,"黑胡椒":5,"洋葱":2,"番茄膏":1,"罗勒":1,"橄榄油":3,"柠檬":2,"南姜":2,"生粉":4,"南乳":1,"百里香":1,"卤汁":1,"黄油":1,"面粉":1,"八角":1,"沙姜":1};</script>
 
 <script>
 (function(){
@@ -159,6 +178,114 @@ body{min-height:100vh;display:flex;flex-direction:column;}
       save(); sync(); syncGroup(g);
     };
   });
+
+  // ===== 本周调料（按库存现场计算）=====
+  var SEASON = window.__SEASON__ || {};
+  var WEEKP = window.__WEEKPANT__ || {};
+  var USE_DAYS = {"常备": null, "常用": 90, "偶尔": 150, "罕见": 240};
+  var STOCK_KEY = "rb_stock";
+  var DEFAULTS = ["盐","油","生抽","老抽","糖","生粉"];
+
+  function loadStock(){
+    try{ var o = JSON.parse(localStorage.getItem(STOCK_KEY)||"null"); return o && o.items ? o : {v:1, items:{}}; }
+    catch(e){ return {v:1, items:{}}; }
+  }
+  function saveStock(st){ localStorage.setItem(STOCK_KEY, JSON.stringify(st)); }
+  function todayStr(){ var d=new Date(); return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate()); }
+  function daysSince(s){ return Math.round((new Date(todayStr()) - new Date(s))/86400000); }
+
+  function leftDays(name, it){
+    var meta = SEASON[name] || {};
+    var shelf = meta.shelf || 365;
+    var use = USE_DAYS[meta.tier];
+    var cap = use ? Math.min(shelf, use) : shelf;
+    return cap - daysSince(it.since);
+  }
+
+  function renderSeason(){
+    var sec = document.getElementById("seasonSec");
+    var list = document.getElementById("seasonList");
+    var names = Object.keys(WEEKP);
+    if(!names.length){ sec.style.display="none"; return; }
+    sec.style.display="block";
+
+    var st = loadStock();
+    var buy = [], have = [];
+    names.sort(function(a,b){ return (WEEKP[b]||0)-(WEEKP[a]||0); });
+    names.forEach(function(n){
+      var it = st.items[n];
+      if(it && leftDays(n, it) > 0) have.push({n:n, it:it});
+      else buy.push(n);
+    });
+
+    var h = "";
+    h += "<div class='pnote'>本周用到 " + names.length + " 种调料。" +
+         "家里有的勾进库存，其余进采购。"+
+         " <b id='quickPick'>确认家里有的 ›</b></div>";
+    if(buy.length){
+      h += "<div class='shgrp'>要买（"+buy.length+"）</div>";
+      buy.forEach(function(n){
+        var meta = SEASON[n] || {};
+        h += "<label class='it'><input type='checkbox' data-season='"+escT(n)+"'>"+
+             "<span class='nm'>"+escT(n)+"</span>"+
+             "<span class='q'>1 份</span>"+
+             "<span class='d'>"+(meta.n? meta.n+" 道菜用过":"")+"</span></label>";
+      });
+    }
+    if(have.length){
+      h += "<div class='shgrp'>已有（"+have.length+"）</div>";
+      have.forEach(function(o){
+        var meta = SEASON[o.n] || {};
+        var lab = meta.tier === "常备" ? "常备" : ("还够用约 " + Math.max(0,leftDays(o.n,o.it)) + " 天");
+        h += "<div class='it have'><span class='nm'>"+escT(o.n)+"</span>"+
+             "<span class='q' style='color:#2f7a45'>"+lab+"</span>"+
+             "<span class='d'></span></div>";
+      });
+    }
+    list.innerHTML = h;
+
+    var qp = document.getElementById("quickPick");
+    if(qp) qp.onclick = openPick;
+  }
+
+  function escT(t){ return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;"); }
+
+  // 快速确认弹层
+  function openPick(){
+    var st = loadStock();
+    var names = Object.keys(WEEKP).sort(function(a,b){ return (WEEKP[b]||0)-(WEEKP[a]||0); });
+    var html = "<h3>家里已经有的调料</h3>"+
+      "<div class='sub'>勾上的进库存，下次不再提醒。</div>"+
+      "<div class='picklist'>";
+    names.forEach(function(n){
+      var on = st.items[n] ? " checked" : (DEFAULTS.indexOf(n)>=0 ? " checked" : "");
+      html += "<label class='pk'><input type='checkbox' data-pk='"+escT(n)+"'"+on+">"+
+              "<span>"+escT(n)+"</span><i>"+(WEEKP[n]||0)+" 道菜</i></label>";
+    });
+    html += "</div><div class='acts'><button id='pkCancel'>取消</button>"+
+            "<button id='pkOk'>确认</button></div>";
+    dlg.innerHTML = html;
+    dlg.classList.add("on"); mask.classList.add("on");
+    document.getElementById("pkCancel").onclick = mask.onclick;
+    document.getElementById("pkOk").onclick = function(){
+      var st2 = loadStock();
+      [].slice.call(dlg.querySelectorAll("[data-pk]")).forEach(function(cb){
+        var n = cb.getAttribute("data-pk");
+        if(cb.checked){
+          if(!st2.items[n]) st2.items[n] = { since: todayStr() };
+        } else {
+          delete st2.items[n];
+        }
+      });
+      saveStock(st2);
+      dlg.classList.remove("on"); mask.classList.remove("on");
+      dlg.innerHTML = "";
+      renderSeason();
+      toast("库存已更新");
+    };
+  }
+
+  renderSeason();
 
   document.getElementById("all").onclick = function(){
     var all = boxes.every(function(b){ return b.checked; });

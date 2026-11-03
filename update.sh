@@ -33,12 +33,10 @@ mkdir -p "$HERE/week"
 [ -n "$PRINT" ] && cp "$PRINT" "$HERE/week/print.pdf"
 [ -n "$OVER" ]  && cp "$OVER"  "$HERE/week/overview.pdf"
 [ -n "$SHOP" ]  && cp "$SHOP"  "$HERE/week/shopping.csv"
-# 采购清单页（手机可看/可打勾/可打印）
+# 采购清单页（含本周调料，按本机库存现场计算）
+WY="$ROOT/recipes/W$(echo $CODE | sed -E 's/^W([0-9]+)-.*/\1/').yaml"
 [ -n "$SHOP" ] && python3 "$ROOT/scripts/build_shopping_html.py" \
-    "$SHOP" "$HERE/week/shopping.html" "$CODE"
-# 打印版：PDF 逐页转图 + 入口页（带导航，可滚动查看全部页）
-python3 "$ROOT/scripts/build_print_pages.py" "$HERE/week"
-python3 "$ROOT/scripts/build_print_html.py" "$HERE/week/print.html" "$CODE" "$HERE/week"
+    "$SHOP" "$HERE/week/shopping.html" "$CODE" "$WY"
 
 cat > "$HERE/week/meta.json" <<JSON
 {"code":"$CODE","updated":"$(date '+%Y-%m-%d %H:%M')"}
