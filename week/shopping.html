@@ -2,6 +2,7 @@
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
+<meta name="rb-week" content="W1-11-02">
 <title>本周采购 · W1-11-02</title>
 <style>
 *{box-sizing:border-box;-webkit-text-size-adjust:100%;}
@@ -124,7 +125,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="print.html">打印清单</a>
   </div>
   <div class="bar">
-    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-03 15:56</span></span>
+    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-03 16:20</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
@@ -165,7 +166,8 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
 
   function load(){ try{ return JSON.parse(localStorage.getItem(KEY)||"{}"); }catch(e){ return {}; } }
   function save(){ var m={}; boxes.forEach(function(b){ if(b.checked) m[b.getAttribute("data-i")]=1; });
-    localStorage.setItem(KEY, JSON.stringify(m)); }
+    localStorage.setItem(KEY, JSON.stringify(m));
+    if(window.RBSYNC) RBSYNC.save("rb_shop"); }
   function sync(){ doneEl.textContent = boxes.filter(function(b){ return b.checked; }).length; }
 
   function syncGroup(g){
@@ -211,7 +213,10 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
     try{ var o = JSON.parse(localStorage.getItem(STOCK_KEY)||"null"); return o && o.items ? o : {v:1, items:{}}; }
     catch(e){ return {v:1, items:{}}; }
   }
-  function saveStock(st){ localStorage.setItem(STOCK_KEY, JSON.stringify(st)); }
+  function saveStock(st){
+    localStorage.setItem(STOCK_KEY, JSON.stringify(st));
+    if(window.RBSYNC) RBSYNC.save("rb_stock");
+  }
 
   function todayStr(){ var d=new Date(); return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate()); }
   function daysSince(s){ return Math.round((new Date(todayStr()) - new Date(s))/86400000); }
@@ -459,6 +464,7 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
       date:d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate()),
       items:items, dishes:[], from:"本周菜单 W1-11-02" });
     localStorage.setItem("rb_lists", JSON.stringify(ls));
+    if(window.RBSYNC) RBSYNC.save("rb_lists");
     toast("已保存：" + nm);
   };
 
@@ -562,6 +568,7 @@ window.__WEEKPANT__ = {"姜":8,"葱":18,"料酒":1,"盐":24,"生抽":14,"蒜":18
  }catch(err){ if(window.console) console.log("shop err:", err.message); }
 })();
 </script>
+<script src="../sync.js" defer></script>
 <script>
 if('serviceWorker' in navigator){
   navigator.serviceWorker.register('../sw.js').catch(function(){});

@@ -1,4 +1,4 @@
-const VER = '20261103155650';
+const VER = '20261103162054';
 const CACHE = 'rb-' + VER;
 
 const PRECACHE = [
@@ -7,7 +7,8 @@ const PRECACHE = [
   './catalog.html',
   './week/',
   './week/shopping.html',
-  './week/prep.html'
+  './week/prep.html',
+  './sync.js'
 ];
 
 self.addEventListener('install', e => {
