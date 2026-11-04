@@ -631,6 +631,23 @@
     }
   };
 
+  // 跨页导航会丢 query 和 hash（iOS 主屏 PWA 尤其明显），
+  // 所以在点击瞬间把意图写进 localStorage，落地页读它再打开对应弹层。
+  var OPEN_INTENT = 'rb_open_intent';
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a[href*="open="]') : null;
+    if (!a) return;
+    var m = (a.getAttribute('href') || '').match(/open=(\w+)/);
+    if (m) { try { localStorage.setItem(OPEN_INTENT, m[1]); } catch (x) {} }
+  }, true);
+
+  function takeIntent() {
+    var v = null;
+    try { v = localStorage.getItem(OPEN_INTENT); localStorage.removeItem(OPEN_INTENT); } catch (x) {}
+    return v;
+  }
+  window.RB_TAKE_INTENT = takeIntent;
+
   function boot() {
     css();
     mountDot();
