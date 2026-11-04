@@ -340,7 +340,7 @@
       'font-family:inherit;-webkit-tap-highlight-color:transparent;}',
       '#rbg .g-nb b.on{background:#111;color:#fff;border-color:#111;}',
       '#rbg .g-foot{font-size:11.5px;color:#c0c0bc;margin-top:26px;line-height:1.7;}',
-      '#rbg .g-rf{display:inline-block;margin-top:10px;padding:6px 12px;border:1px solid #d8d8d2;',
+      '#rbg .g-rf{display:inline-block;margin-top:10px;padding:6px 12px;border:1px solid #d8d8d2;}',
       '#rbg .g-rf{border-radius:8px;background:#fff;color:#b5342a;font-weight:700;cursor:pointer;}',
       '#rbbar{display:flex;align-items:center;justify-content:space-between;',
       'padding:5px 12px;background:#fff;border-bottom:1px solid #efefeb;}',
