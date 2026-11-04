@@ -1,4 +1,4 @@
-const VER = '20261104151255';
+const VER = '20261104214601';
 const CACHE = 'rb-' + VER;
 
 const PRECACHE = [
@@ -33,6 +33,8 @@ self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
 
+  if (req.mode === 'navigate') return;
+
   const url = new URL(req.url);
   if (url.origin !== location.origin) return;
 
@@ -45,6 +47,6 @@ self.addEventListener('fetch', e => {
         }
         return res;
       })
-      .catch(() => caches.match(req).then(hit => hit || caches.match('./index.html')))
+      .catch(() => caches.match(req, { ignoreSearch: true }).then(hit => hit || caches.match('./index.html')))
   );
 });
