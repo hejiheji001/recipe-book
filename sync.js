@@ -393,11 +393,21 @@
       '<div class="g-err" id="rgErr"></div>' +
       '<button class="g-btn" id="rgGo">进入</button>' +
       '<div class="g-foot">第一次输完会记住这台设备，以后直接进。<br>' +
-      '<span class="g-rf" data-rf="1">看不到最新版？点这里刷新</span></div>' +
+      '<span class="g-rf" data-rf="1">看不到最新版？点这里刷新</span>' +
+      '<br><span class="g-rf" data-skip="1" style="margin-top:6px">先不用，直接看菜谱</span></div>' +
       '</div>';
     document.body.appendChild(g);
     document.body.classList.add('rb-lock');
     g.classList.add('on');
+    (function () {
+      var sk = g.querySelector('[data-skip]');
+      if (sk) sk.onclick = function (e) {
+        e.preventDefault();
+        document.body.classList.remove('rb-lock');
+        g.remove();
+        paint('off');
+      };
+    })();
     (function(){ var rf=g.querySelector('[data-rf]'); if(rf){ rf.onclick=function(e){ e.preventDefault(); if(window.RB_REFRESH) window.RB_REFRESH(); }; } })();
 
     var inp = document.getElementById('rgPass');
@@ -506,9 +516,20 @@
     };
   }
 
+  // 兼容旧的字符串格式（只存了 fam id）：转成对象，pw 缺失时只关闭同步、不影响本地使用。
+  function normalizeFam(raw) {
+    if (!raw) return null;
+    if (typeof raw === 'string') {
+      var hit = NBS.filter(function (n) { return n.fam === raw; })[0];
+      return { id: hit ? hit.id : '', name: hit ? hit.name : '', pw: '', fam: raw };
+    }
+    if (raw.fam) return raw;
+    return null;
+  }
+
   function start() {
-    var fam = ls(FAM_KEY, null);
-    if (!fam || !fam.fam) {
+    var fam = normalizeFam(ls(FAM_KEY, null));
+    if (!fam) {
       picker();
       return;
     }
@@ -516,6 +537,10 @@
     syncState.fam = fam.fam;
 
     paint('off');
+    if (!fam.pw) {
+      // 只有小区没有门牌号：同步关掉，页面照常本地可用，不再弹遮罩。
+      return;
+    }
     pull(fam.pw, fam.fam).then(function (info) {
       var upload = (info && info.need && info.need.length)
         ? bootstrap(fam.pw, fam.fam, info.need) : Promise.resolve(0);
