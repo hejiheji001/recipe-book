@@ -630,13 +630,18 @@
   }
 
   // 页面加载时主动查一次 SW 更新（配合 updateViaCache:'none'）
-  try {
-    if (navigator.serviceWorker && navigator.serviceWorker.getRegistration) {
-      navigator.serviceWorker.getRegistration().then(function (r) {
-        if (r && r.update) r.update();
-      }).catch(function () { });
-    }
-  } catch (e) { }
+  // 延迟且只在已 activated 时调用，避免安装中的竞态报错
+  if (navigator.serviceWorker && navigator.serviceWorker.getRegistration) {
+    setTimeout(function () {
+      try {
+        navigator.serviceWorker.getRegistration().then(function (r) {
+          if (r && r.active && !r.installing && r.update) {
+            try { r.update(); } catch (e) { }
+          }
+        }).catch(function () { });
+      } catch (e) { }
+    }, 3000);
+  }
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', mount);
