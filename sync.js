@@ -36,6 +36,7 @@
   var GATE_KEY = 'rb_gate';
   var FAM_KEY = 'rb_family';
   var REV_KEY = 'rb_rev';
+  var DIRTY_KEY = 'rb_dirty';
   var DELAY = 700;
 
   function ls(k, d) {
@@ -43,6 +44,38 @@
     catch (e) { return d; }
   }
   function lss(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+
+  function isDirty(doc) {
+    var d = ls(DIRTY_KEY, {}) || {};
+    return !!d[doc.suffix];
+  }
+  function markDirty(doc) {
+    var d = ls(DIRTY_KEY, {}) || {};
+    d[doc.suffix] = 1;
+    lss(DIRTY_KEY, d);
+  }
+  function clearDirty(doc) {
+    var d = ls(DIRTY_KEY, {}) || {};
+    delete d[doc.suffix];
+    lss(DIRTY_KEY, d);
+  }
+
+  // 换小区/退出：本机旧数据必须清掉，否则会并进新家的云端
+  function purgeLocal() {
+    DOCS.forEach(function (d) {
+      if (d.week) {
+        try {
+          Object.keys(localStorage).forEach(function (k) {
+            if (k.indexOf('rb_shop_') === 0) localStorage.removeItem(k);
+          });
+        } catch (e) {}
+      } else {
+        try { localStorage.removeItem(d.key); } catch (e) {}
+      }
+    });
+    lss(REV_KEY, {});
+    lss(DIRTY_KEY, {});
+  }
 
   function call(fn, body) {
     return fetch(API + '/' + fn, {
@@ -119,11 +152,26 @@
     Object.keys(r).forEach(function (k) { merged[k] = r[k]; });
     Object.keys(l).forEach(function (k) {
       if (!merged[k]) { merged[k] = l[k]; return; }
-      var a = String((merged[k] && merged[k].since) || '');
-      var b = String((l[k] && l[k].since) || '');
+      var a = Number((merged[k] && merged[k].ts) || 0);
+      var b = Number((l[k] && l[k].ts) || 0);
       if (b > a) merged[k] = l[k];
     });
-    return { v: 1, items: merged };
+    // 墓碑：删除也要同步，否则另一台设备会把删掉的又并回来
+    var rdel = (remote && remote.del) || {};
+    var ldel = (local && local.del) || {};
+    var del = {};
+    Object.keys(rdel).forEach(function (k) {
+      del[k] = Math.max(Number(del[k] || 0), Number(rdel[k] || 0));
+    });
+    Object.keys(ldel).forEach(function (k) {
+      del[k] = Math.max(Number(del[k] || 0), Number(ldel[k] || 0));
+    });
+    Object.keys(del).forEach(function (k) {
+      var it = merged[k];
+      if (it && Number(it.ts || 0) > Number(del[k] || 0)) { delete del[k]; return; }
+      delete merged[k];
+    });
+    return { v: 2, items: merged, del: del };
   }
 
   function pull(pw, fam) {
@@ -149,7 +197,7 @@
           var val = unpack(doc, x.r.body.items);
           if (val === null) return;
 
-          if (doc.mergeKeys) {
+          if (doc.mergeKeys && isDirty(doc)) {
             writeLocal(doc, mergeByKey(doc, val, readLocal(doc)));
           } else {
             writeLocal(doc, val);
@@ -198,6 +246,7 @@
       if (r.ok) {
         revs[doc.suffix] = r.body.rev;
         lss(REV_KEY, revs);
+        clearDirty(doc);
         return 'ok';
       }
       if (r.status === 409) {
@@ -212,7 +261,7 @@
               p_rev: g.body.rev,
               p_token: pw
             }).then(function (r2) {
-              if (r2.ok) { revs[doc.suffix] = r2.body.rev; lss(REV_KEY, revs); return 'ok'; }
+              if (r2.ok) { revs[doc.suffix] = r2.body.rev; lss(REV_KEY, revs); clearDirty(doc); return 'ok'; }
               return 'fail';
             });
           });
@@ -235,6 +284,7 @@
       return;
     }
 
+    markDirty(doc);
     clearTimeout(syncState.timer);
     syncState.timer = setTimeout(function () {
       syncState.busy = true;
@@ -469,6 +519,19 @@
       paint('ok');
       if (window.RB_ON_SYNC) window.RB_ON_SYNC();
     }).catch(function () { paint('off'); });
+
+    // 别的设备改了？回到前台时再拉一次
+    if (!start._bound) {
+      start._bound = 1;
+      document.addEventListener('visibilitychange', function () {
+        if (document.visibilityState !== 'visible') return;
+        if (!syncState.fam || !syncState.pw) return;
+        pull(syncState.pw, syncState.fam).then(function () {
+          paint('ok');
+          if (window.RB_ON_SYNC) window.RB_ON_SYNC();
+        }).catch(function () {});
+      });
+    }
   }
 
   function sheet() {
@@ -525,13 +588,13 @@
     state: function () { return { on: !!syncState.fam, fam: ls(FAM_KEY, null) }; },
     switchFamily: function () {
       lss(FAM_KEY, null);
-      lss(REV_KEY, {});
+      purgeLocal();
       picker(function () { location.reload(); });
     },
     logout: function () {
       lss(GATE_KEY, false);
       lss(FAM_KEY, null);
-      lss(REV_KEY, {});
+      purgeLocal();
       location.reload();
     }
   };

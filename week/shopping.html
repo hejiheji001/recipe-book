@@ -139,7 +139,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="../?open=stock">库存</a>
   </div>
   <div class="bar">
-    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-04 10:55</span></span>
+    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-04 11:13</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
@@ -193,12 +193,15 @@ window.__DAYING__ = {"2026-11-02":[["沙虾",500.0,"g",500.0,"g"],["菜脯",80.0
   }
   function syncAllGroups(){ [].slice.call(document.querySelectorAll(".gc")).forEach(function(c){ syncGroup(c.getAttribute("data-g")); }); }
 
-  var st = load();
+  function applyChecks(){
+    var st = load();
+    boxes.forEach(function(b){ b.checked = !!st[b.getAttribute("data-i")]; });
+    sync(); syncAllGroups();
+  }
   boxes.forEach(function(b){
-    if(st[b.getAttribute("data-i")]) b.checked = true;
     b.onchange = function(){ save(); sync(); syncGroup(b.getAttribute("data-g")); };
   });
-  sync(); syncAllGroups();
+  applyChecks();
 
   // ===== 生鲜：库存里已有的自动从清单剔除 =====
   var hideHave = false;
@@ -345,7 +348,7 @@ window.__DAYING__ = {"2026-11-02":[["沙虾",500.0,"g",500.0,"g"],["菜脯",80.0
 
   // 云端拉回来之后再刷一次（首次加载时本地可能还是空的）
   window.RB_ON_SYNC = function(){
-    try{ refreshFresh(); sync(); }catch(e){}
+    try{ refreshFresh(); applyChecks(); }catch(e){}
   };
 
   [].slice.call(document.querySelectorAll(".gc")).forEach(function(c){
