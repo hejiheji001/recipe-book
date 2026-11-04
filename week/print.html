@@ -98,7 +98,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
   </div>
 </div>
 
-<div class="head"><span>更新 11-04 10:15</span>
+<div class="head"><span>更新 11-04 10:35</span>
   <span class="hact"><b id="reload">刷新</b> <em>W1-11-02</em></span></div>
 
 <div class="main">
@@ -237,7 +237,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
 <script src="../sync.js" defer></script>
 <script>
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('../sw.js').catch(function(){});
+  navigator.serviceWorker.register('../sw.js', {updateViaCache:'none'}).catch(function(){});
 }
 </script>
 </body></html>

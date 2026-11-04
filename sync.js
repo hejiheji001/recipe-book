@@ -290,6 +290,8 @@
       'font-family:inherit;-webkit-tap-highlight-color:transparent;}',
       '#rbg .g-nb b.on{background:#111;color:#fff;border-color:#111;}',
       '#rbg .g-foot{font-size:11.5px;color:#c0c0bc;margin-top:26px;line-height:1.7;}',
+      '#rbg .g-rf{display:inline-block;margin-top:10px;padding:6px 12px;border:1px solid #d8d8d2;',
+      '#rbg .g-rf{border-radius:8px;background:#fff;color:#b5342a;font-weight:700;cursor:pointer;}',
       '#rbbar{display:flex;align-items:center;justify-content:space-between;',
       'padding:8px 12px;background:#fff;border-bottom:1px solid #e6e6e2;}',
       '#rbbar .rb-lbl{font-size:12px;color:#9a9a95;font-weight:600;}',
@@ -333,11 +335,13 @@
       '<input id="rgPass" type="password" inputmode="numeric" autocomplete="off" placeholder="8 位数字">' +
       '<div class="g-err" id="rgErr"></div>' +
       '<button class="g-btn" id="rgGo">进入</button>' +
-      '<div class="g-foot">第一次输完会记住这台设备，以后直接进。</div>' +
+      '<div class="g-foot">第一次输完会记住这台设备，以后直接进。<br>' +
+      '<span class="g-rf" data-rf="1">看不到最新版？点这里刷新</span></div>' +
       '</div>';
     document.body.appendChild(g);
     document.body.classList.add('rb-lock');
     g.classList.add('on');
+    (function(){ var rf=g.querySelector('[data-rf]'); if(rf){ rf.onclick=function(e){ e.preventDefault(); if(window.RB_REFRESH) window.RB_REFRESH(); }; } })();
 
     var inp = document.getElementById('rgPass');
     var err = document.getElementById('rgErr');
@@ -385,11 +389,13 @@
       '<input id="rgNpw" type="text" autocomplete="off" autocapitalize="characters" placeholder="例如 1801 或 6A27C">' +
       '<div class="g-err" id="rgNerr"></div>' +
       '<button class="g-btn" id="rgNgo">进入</button>' +
-      '<div class="g-foot">门牌号输一次，这台手机以后不用再输。换设备要重输。不分大小写。</div>' +
+      '<div class="g-foot">门牌号输一次，这台手机以后不用再输。换设备要重输。不分大小写。<br>' +
+      '<span class="g-rf" data-rf="1">看不到最新版？点这里刷新</span></div>' +
       '</div>';
     document.body.appendChild(g);
     document.body.classList.add('rb-lock');
     g.classList.add('on');
+    (function(){ var rf=g.querySelector('[data-rf]'); if(rf){ rf.onclick=function(e){ e.preventDefault(); if(window.RB_REFRESH) window.RB_REFRESH(); }; } })();
 
     var err = document.getElementById('rgNerr');
     var btn = document.getElementById('rgNgo');
@@ -540,5 +546,101 @@
     document.addEventListener('DOMContentLoaded', boot);
   } else {
     boot();
+  }
+})();
+
+/* ===== 刷新按钮 + 强制拉取最新版本 ===== */
+(function () {
+  var BUSY = false;
+
+  function go() {
+    if (window.__rbGoing) return;
+    window.__rbGoing = true;
+    var base = location.pathname.replace(/index\.html$/, '');
+    location.replace(base + '?_r=' + Date.now() + (location.hash || ''));
+  }
+
+  function hardRefresh() {
+    if (BUSY) return;
+    BUSY = true;
+    var btn = document.getElementById('rbRefresh');
+    if (btn) { btn.textContent = '刷新中…'; btn.style.opacity = '0.6'; }
+    var p = Promise.resolve();
+
+    // 1) 注销 Service Worker（旧版缓存的最大来源）
+    try {
+      if (navigator.serviceWorker && navigator.serviceWorker.getRegistrations) {
+        p = p.then(function () {
+          return navigator.serviceWorker.getRegistrations().then(function (rs) {
+            return Promise.all(rs.map(function (r) { try { return r.unregister(); } catch (e) { } }));
+          });
+        });
+      }
+    } catch (e) { }
+
+    // 2) 清空所有 Cache Storage
+    p = p.then(function () {
+      if (window.caches && caches.keys) {
+        return caches.keys().then(function (ks) {
+          return Promise.all(ks.map(function (k) { try { return caches.delete(k); } catch (e) { } }));
+        });
+      }
+    }).catch(function () { });
+
+    p.then(go);
+    setTimeout(go, 1500); // 兜底：promise 卡住也要刷新
+  }
+
+  window.RB_REFRESH = hardRefresh;
+
+  function mount() {
+    if (document.getElementById('rbRefresh')) return;
+
+    var btn = document.createElement('button');
+    btn.id = 'rbRefresh';
+    btn.type = 'button';
+    btn.textContent = '刷新';
+    btn.setAttribute('aria-label', '强制刷新到最新版本');
+    btn.style.cssText =
+      'margin-left:8px;padding:3px 9px;font-family:inherit;font-size:12px;line-height:1.4;' +
+      'border:1px solid #d8d8d2;border-radius:8px;background:#fff;color:#b5342a;' +
+      'font-weight:700;vertical-align:middle;-webkit-tap-highlight-color:transparent;';
+    btn.onclick = function (e) {
+      if (e) { e.preventDefault(); e.stopPropagation(); }
+      hardRefresh();
+    };
+
+    // 优先挂在「更新 MM-DD HH:MM」这个版本戳旁边
+    var host = document.querySelector('.stamp') ||
+               document.querySelector('.upd') ||
+               document.querySelector('.head');
+    var nav = document.querySelector('.sitenav') || document.querySelector('.nav2');
+
+    if (host) {
+      if (host.classList.contains('head') || host.tagName === 'DIV') {
+        host.appendChild(btn);            // .head / .stamp 是块级容器
+      } else if (host.parentNode) {
+        host.parentNode.insertBefore(btn, host.nextSibling);
+      }
+    } else if (nav && nav.parentNode) {
+      nav.parentNode.insertBefore(btn, nav.nextSibling);
+    } else {
+      return; // 找不到落点就不挂，避免乱飘
+    }
+  }
+
+  // 页面加载时主动查一次 SW 更新（配合 updateViaCache:'none'）
+  try {
+    if (navigator.serviceWorker && navigator.serviceWorker.getRegistration) {
+      navigator.serviceWorker.getRegistration().then(function (r) {
+        if (r && r.update) r.update();
+      }).catch(function () { });
+    }
+  } catch (e) { }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', mount);
+  } else {
+    mount();
   }
 })();
