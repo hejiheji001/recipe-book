@@ -319,6 +319,8 @@
       '#rbg{position:fixed;inset:0;z-index:9999;background:#faf9f6;display:none;',
       'flex-direction:column;padding:0 22px;box-sizing:border-box;overflow-y:auto;}',
       '#rbg.on{display:flex;}',
+      // 内容层（弹层 #dlg / 导航 / 弹窗）永远压在遮罩之上，避免遮罩万一残留就锁死全站
+      '#dlg,#mask,#top,.top{position:relative;z-index:10000;}',
       'body.rb-lock{overflow:hidden;}',
       '#rbg .g-in{max-width:420px;margin:auto;width:100%;padding:40px 0;}',
       '#rbg h1{font-size:22px;margin:0 0 6px;font-weight:800;letter-spacing:.5px;}',
@@ -375,6 +377,9 @@
 
   function gate(force) {
     if (!force && ls(GATE_KEY, false)) return false;
+    // 兜底：已有口令+家庭配置时绝不再挂遮罩。遮罩是 fixed 全屏 z-index:9999，
+    // 一旦残留会把整个页面（含库存勾选）的点击全部拦掉。
+    if (!force && ls(FAM_KEY, null)) return false;
 
     css();
     var g = document.createElement('div');

@@ -23,9 +23,26 @@ sys.path.insert(0, os.path.join(BASE, "scripts"))
 OUT = os.path.expanduser(
     "~/Life-with-AI/Shared/food-data/01-事实/库存快照.csv")
 
-API = "https://brxlbwgyxcrilaxlbvt.supabase.co/rest/v1/rpc"
-KEY = "sb_publishable_n4_Ik7gMKPEpZgpGX_s2_Q_kS9jp3hH"
-FAMILY = "142ae6144dbb013b5e51146d29ec67ef"
+SYNC_JS = os.path.join(BASE, "发布", "sync.js")
+
+
+def _read_sync(field):
+    import re
+    with open(SYNC_JS, encoding="utf-8") as f:
+        txt = f.read()
+    if field == "api":
+        return re.search(r"var API = '([^']+)'", txt).group(1)
+    if field == "key":
+        return re.search(r"var KEY = '([^']+)'", txt).group(1)
+    if field == "fam":
+        m = re.search(r"id: 'birmingham'.*?fam: '([0-9a-f]{32})'", txt, re.S)
+        return m.group(1)
+    raise ValueError(field)
+
+
+API = _read_sync("api")
+KEY = _read_sync("key")
+FAMILY = _read_sync("fam")
 SUFFIX = "_stock"
 TOKEN = "809"
 
@@ -41,22 +58,24 @@ def fetch_cloud(token=TOKEN, timeout=20):
         return json.loads(r.read().decode() or "{}")
 
 
+def _has_items(d):
+    return isinstance(d, dict) and isinstance(d.get("items"), dict)
+
+
 def unwrap(payload):
     if not payload:
         return None
-    if isinstance(payload, dict) and "items" in payload:
+    if _has_items(payload):
         return payload
-    for key in ("body", "data", "doc"):
+    for key in ("body", "data", "doc", "items"):
         v = payload.get(key)
-        if isinstance(v, dict) and "items" in v:
-            return v
         if isinstance(v, str):
             try:
-                p = json.loads(v)
-                if isinstance(p, dict) and "items" in p:
-                    return p
+                v = json.loads(v)
             except ValueError:
-                pass
+                continue
+        if _has_items(v):
+            return v
     return None
 
 
@@ -82,8 +101,12 @@ def rows_of(doc, today):
     table = storage_days.shelf_table()
 
     out = []
-    for name, it in sorted((doc.get("items") or {}).items()):
-        it = it or {}
+    raw = doc.get("items") or {}
+    if isinstance(raw, dict) and isinstance(raw.get("items"), dict):
+        raw = raw["items"]
+    for name, it in sorted(raw.items()):
+        if not isinstance(it, dict):
+            it = {"d": it}
         spec = table.get(name) or {}
         mode = it.get("mode")
         if mode not in spec:
