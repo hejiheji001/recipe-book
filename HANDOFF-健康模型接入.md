@@ -56,6 +56,10 @@ https://raw.githubusercontent.com/hejiheji001/recipe-book/main/week/meta.json
           "nutrition": {"kcal_total":586.0,"protein_total":93.2,"fat_total":10.2,
                         "carb_total":30.1,"fiber_total":0.8,"sodium_total":2757.0,
                         "sat_fat_total":null},
+          "edible_grams": 300.0,
+          "per100g": {"kcal_total":195.3,"protein_total":31.1,"fat_total":3.4,
+                      "carb_total":10.0,"fiber_total":0.3,"sodium_total":919.0,
+                      "sat_fat_total":null},
           "nutrition_known": true }
       ]}
   ]
@@ -71,6 +75,31 @@ https://raw.githubusercontent.com/hejiheji001/recipe-book/main/week/meta.json
 - `ing[].qty` 是菜谱需要的克数/个数，`ing[].unit` 是单位（g/ml/个/根…）；`buy` 是按包装取整后的采购量。
 - `pantry` 是调料清单，只有名字，没有量。
 - `servings_hint` 只是「这周菜单按几个人排的」参考值（3.35 是某家庭的数），不是硬约束。
+- `edible_grams` = 这一整锅的可食重量（克）；`per100g` = 由它除出来的每 100g 营养。缺则双双为 `null`。
+
+### 我们的分量 ≠ 你的分量（必读）
+
+这份菜单是**按家庭整锅**排的：一条 586 kcal 的蒸水蛋是「一整锅」，不是「一份」。
+所以**不要**把 `nutrition` 直接当自己那一餐的量，也**不要**拿 `servings_hint` 去硬除。
+
+三种换算，按精度从高到低：
+
+| 做法 | 公式 | 什么时候用 |
+|---|---|---|
+| **按自己吃的克数（推荐）** | `我的 kcal = per100g.kcal_total × 我吃的克数 / 100` | 你有称、或者按份量记录 |
+| 按整锅比例分摊 | `我的 kcal = nutrition.kcal_total × 我吃的克数 / edible_grams` | 同上，等价；没有 per100g 时用这个 |
+| 按人数比（最粗） | `我的 kcal = nutrition.kcal_total ÷ servings_hint × 我的份数比例` | 只有一个「我吃 1.2 人份」这种估计时，误差最大 |
+
+```python
+# 推荐：知道自己吃多少克
+d = menu["days"][0]["dishes"][0]           # 白灼虾
+my_grams = 150
+if d["per100g"] and d["per100g"]["kcal_total"] is not None:
+    kcal = d["per100g"]["kcal_total"] * my_grams / 100   # ≈ 293
+```
+
+采购同理：`need_*` / `buy_*` 是**这份家庭菜单的总量**，不是你自己一周要买的。
+按你自己的系数缩放（例如你只吃家里的 40%，就 ×0.4），或者干脆只用它做「这周吃什么」的候选，量自己重算。
 
 ---
 
@@ -82,7 +111,11 @@ https://raw.githubusercontent.com/hejiheji001/recipe-book/main/week/meta.json
     { "category": "肉禽", "name": "三黄鸡",
       "need_qty": 900.0, "need_unit": "g",  "need_text": "900g",
       "buy_qty": 900.0,  "buy_unit": "g",   "buy_text": "900g",
-      "used_on": ["周五"] }
+      "used_on": ["周五"],
+      "link": "https://www.aldi.co.uk/product/...",     // 可能为 null
+      "product": {"name":"鸡蛋","store":"ALDI","size":"6 pack",
+                  "price_gbp":1.29,"link":"https://..."} // 可能为 null
+    }
   ]}
 ```
 
@@ -91,6 +124,10 @@ https://raw.githubusercontent.com/hejiheji001/recipe-book/main/week/meta.json
 - `category` 取值：`肉禽 / 水产 / 蛋豆 / 乳品主食 / 蔬菜 / 干货`（可能新增）。
 - `used_on` 是「哪几天用」，值为「周一…周日」，可能空数组。
 - 同一食材只会出现一次（已按食材合并过）。
+- `link` / `product`：**可能为 `null`**。只有「买得到对应包装商品」的项才有链接；
+  生鲜（三黄鸡、沙虾、排骨）通常没有 —— 不要因为缺链接就当数据错误。当前覆盖率约 1/42，
+  补法是在 `01-事实/商品链接映射.csv` 里加一行「食材 → 商品名」，不用改代码。
+- 链接指向 ALDI 官网商品页，价格是抓取时的目录价，**会过期**，下单前别当实时价。
 
 ---
 
