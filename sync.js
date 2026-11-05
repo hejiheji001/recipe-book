@@ -22,7 +22,8 @@
     { id: 'tianyue',    name: '天樾府',   fam: '45311a241602fcd2450c36c8ef16d778' },
     { id: 'yulin',      name: '裕林花园', fam: '33619a67ac9a7642efb75ac6656508cc' },
     { id: 'birmingham', name: '伯明翰',   fam: '142ae6144dbb013b5e51146d29ec67ef' },
-    { id: 'haorizi',    name: '好日子',   fam: '7256bfe636fb4da7458a09b7f0f9b1bf' }
+    { id: 'haorizi',    name: '好日子',   fam: '7256bfe636fb4da7458a09b7f0f9b1bf' },
+    { id: 'hydeyuan',   name: '海德园',   fam: '65aeb8c62e6700e095f1c5ace330281c' }
   ];
   var DEFAULT_NB = 'queenroad';
 
