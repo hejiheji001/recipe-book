@@ -125,7 +125,7 @@ def rows_of(doc, today):
     pool = ing_pool.load_pool()
     storage_days.mount(pool)
     table = storage_days.shelf_table()
-    units = stock_units.build(pool.keys())
+    units = stock_units.build(pool.keys(), pool)
 
     out = []
     raw = doc.get("items") or {}

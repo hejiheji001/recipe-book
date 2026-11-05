@@ -232,11 +232,11 @@ th{color:#777;font-weight:600;font-size:12px}
 </style></head><body>
 <a id=top></a>
 <div class=stickytop><div class=sitenav>
-  <a href='../../'>总菜谱</a>
-  <a href='./' class=on>推荐菜谱</a>
-  <a href='#shopping' class=hot>推荐采购</a>
-  <a href='../../#open=mylist'>我的菜谱</a>
-  <a href='../../#open=stock'>库存</a>
+  <a href='../../#open=catalog' data-view='catalog'>总菜谱</a>
+  <a href='./' class=on data-view='recommend'>推荐菜谱</a>
+  <a href='#shopping' class=hot data-view='shopping'>推荐采购</a>
+  <a href='../../#open=mylist' data-view='mylist'>我的菜谱</a>
+  <a href='../../#open=stock' data-view='stock'>库存</a>
 </div><nav><a href='#d1'>周四</a><a href='#d2'>周五</a><a href='#d3'>周六</a><a href='#d4'>周日</a><a href='#d5'>周一</a><a href='#d6'>周二</a><a href='#d7'>周三</a><a href='#d8'>周四</a><a href='#d9'>周五</a><a href='#d10'>周六</a><a href='#d11'>周日</a></nav>
 <div class=stamp>更新 11-05 18:30</div>
 </div><div class=wrap>
@@ -473,4 +473,34 @@ th{color:#777;font-weight:600;font-size:12px}
 </div>
 <div class=shoptotal>合计 <b>£24.25</b></div>
 </section>
-<div class=shopnote>营养口径：整份（一餐全部食材，非家庭整锅）；采购：这是她自己 11 天的量，不是家庭量。内容由该户维护者更新。</div></div></body></html>
+<div class=shopnote>营养口径：整份（一餐全部食材，非家庭整锅）；采购：这是她自己 11 天的量，不是家庭量。内容由该户维护者更新。</div></div>
+<script>
+(function(){
+  var VIEWS = ["catalog", "mylist", "recommend", "shopping", "stock"];
+  function viewNow(){
+    var m = location.hash.match(/(?:^#|&)open=([^&]+)/);
+    if(m && VIEWS.indexOf(m[1]) >= 0) return m[1];
+    if(location.hash === "#shopping") return "shopping";
+    return "recommend";
+  }
+  function setActive(view){
+    var els = document.querySelectorAll("[data-view]");
+    for(var i = 0; i < els.length; i++){
+      els[i].classList.toggle("on", els[i].getAttribute("data-view") === view);
+    }
+  }
+  function apply(){ setActive(viewNow()); }
+  window.addEventListener("hashchange", apply);
+  document.addEventListener("click", function(e){
+    var a = e.target && e.target.closest ? e.target.closest("[data-view]") : null;
+    if(!a) return;
+    var v = a.getAttribute("data-view");
+    if(v === "shopping" || v === "recommend"){
+      setTimeout(apply, 0);
+      setTimeout(apply, 60);
+    }
+  }, true);
+  apply();
+})();
+</script>
+</body></html>
