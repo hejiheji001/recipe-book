@@ -1,1 +1,7 @@
-{"code":"W1-11-02","updated":"2026-11-05 12:38"}
+{
+ "schema": 1,
+ "menu": "menu.json",
+ "shopping": "shopping.csv",
+ "updated": "2026-11-05 12:53",
+ "code": "W1-11-02"
+}

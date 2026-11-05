@@ -45,9 +45,8 @@ fi
 [ -f "$HERE/week/print.pdf" ] && python3 "$ROOT/scripts/build_print_html.py" \
     "$HERE/week/print.html" "$CODE" "$HERE/week"
 
-cat > "$HERE/week/meta.json" <<JSON
-{"code":"$CODE","updated":"$(date '+%Y-%m-%d %H:%M')"}
-JSON
+# 机器可读的菜单（给健康模型用）：week/menu.json + week/meta.json
+[ -f "$WY" ] && python3 "$ROOT/scripts/build_menu_json.py" "$WY" "$CODE"
 
 # 版本号：每次发布把 sw.js 的 VER 换成时间戳，触发新 SW 安装
 V=$(date '+%Y%m%d%H%M%S')
