@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "code": "H1-11-05",
- "generated": "2026-11-05T14:13:51",
+ "generated": "2026-11-05T14:53:44",
  "quantity_basis": "单人 11 天（两次采购：11-07 / 11-14）",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "items": [
@@ -16,6 +16,10 @@
    "buy_text": "6 × 450 g (2700g)",
    "packs": 6,
    "price_gbp": 1.59,
+   "name_en": "British Baby Spinach",
+   "pack_size": "450 g",
+   "unit_price_gbp": 1.59,
+   "line_total_gbp": 9.54,
    "used_on": [
     "周一",
     "周三",
@@ -44,6 +48,10 @@
    "buy_text": "5 × 200 g (1000g)",
    "packs": 5,
    "price_gbp": 0.89,
+   "name_en": "Scottish Shredded Kale",
+   "pack_size": "200 g",
+   "unit_price_gbp": 0.89,
+   "line_total_gbp": 4.45,
    "used_on": [
     "周一",
     "周二",
@@ -73,6 +81,10 @@
    "buy_text": "6 × 250 g (1500g)",
    "packs": 6,
    "price_gbp": 0.95,
+   "name_en": "British Chestnut Mushrooms",
+   "pack_size": "250 g",
+   "unit_price_gbp": 0.95,
+   "line_total_gbp": 5.7,
    "used_on": [
     "周一",
     "周三",
@@ -100,6 +112,10 @@
    "buy_text": "3 × 500 g (1500g)",
    "packs": 3,
    "price_gbp": 1.39,
+   "name_en": "Courgettes",
+   "pack_size": "500 g",
+   "unit_price_gbp": 1.39,
+   "line_total_gbp": 4.17,
    "used_on": [
     "周三",
     "周四",
@@ -125,6 +141,10 @@
    "buy_text": "2 × 1 Each (2g)",
    "packs": 2,
    "price_gbp": 0.99,
+   "name_en": "Cucumber",
+   "pack_size": "1 Each",
+   "unit_price_gbp": 0.99,
+   "line_total_gbp": 1.98,
    "used_on": [
     "周二",
     "周六",
@@ -150,6 +170,10 @@
    "buy_text": "1 × 1 Each (1g)",
    "packs": 1,
    "price_gbp": 0.79,
+   "name_en": "Aubergine",
+   "pack_size": "1 Each",
+   "unit_price_gbp": 0.79,
+   "line_total_gbp": 0.79,
    "used_on": [
     "周二"
    ],
@@ -173,6 +197,10 @@
    "buy_text": "2 × 400 g (800g)",
    "packs": 2,
    "price_gbp": 3.19,
+   "name_en": "Strawberries",
+   "pack_size": "400 g",
+   "unit_price_gbp": 3.19,
+   "line_total_gbp": 6.38,
    "used_on": [
     "周三",
     "周四"
@@ -197,6 +225,10 @@
    "buy_text": "2 × 5 Each (10g)",
    "packs": 2,
    "price_gbp": 0.78,
+   "name_en": "Bananas",
+   "pack_size": "5 Each",
+   "unit_price_gbp": 0.78,
+   "line_total_gbp": 1.56,
    "used_on": [
     "周五",
     "周日"
@@ -221,6 +253,10 @@
    "buy_text": "1 × 6 Each (6g)",
    "packs": 1,
    "price_gbp": 2.85,
+   "name_en": "Pink Lady Apples",
+   "pack_size": "6 Each",
+   "unit_price_gbp": 2.85,
+   "line_total_gbp": 2.85,
    "used_on": [
     "周一",
     "周二"
@@ -245,6 +281,10 @@
    "buy_text": "0 × 1 kg",
    "packs": 0,
    "price_gbp": 2.95,
+   "name_en": "Chicken Thighs",
+   "pack_size": "1 kg",
+   "unit_price_gbp": 2.95,
+   "line_total_gbp": 0.0,
    "used_on": [
     "周一",
     "周三",
@@ -272,6 +312,10 @@
    "buy_text": "0 × 240 g",
    "packs": 0,
    "price_gbp": 3.59,
+   "name_en": "Boneless Salmon Fillets 2 Pack",
+   "pack_size": "240 g",
+   "unit_price_gbp": 3.59,
+   "line_total_gbp": 0.0,
    "used_on": [
     "周二"
    ],
@@ -295,6 +339,10 @@
    "buy_text": "0 × 1.136 l",
    "packs": 0,
    "price_gbp": 1.2,
+   "name_en": "British Semi Skimmed Milk 1.8% Fat",
+   "pack_size": "1.136 l",
+   "unit_price_gbp": 1.2,
+   "line_total_gbp": 0.0,
    "used_on": [
     "周三",
     "周四",
@@ -322,6 +370,10 @@
    "buy_text": "0 × 12 Each",
    "packs": 0,
    "price_gbp": 2.89,
+   "name_en": "British Large Free Range Eggs 12 Pack",
+   "pack_size": "12 Each",
+   "unit_price_gbp": 2.89,
+   "line_total_gbp": 0.0,
    "used_on": [
     "周一",
     "周二",
@@ -350,6 +402,10 @@
    "buy_text": "0 × 400 g",
    "packs": 0,
    "price_gbp": 0.41,
+   "name_en": "Chickpeas",
+   "pack_size": "400 g",
+   "unit_price_gbp": 0.41,
+   "line_total_gbp": 0.0,
    "used_on": [
     "周二",
     "周三",
@@ -378,6 +434,10 @@
    "buy_text": "0 × 400 g",
    "packs": 0,
    "price_gbp": 0.45,
+   "name_en": "Tinned Lentils",
+   "pack_size": "400 g",
+   "unit_price_gbp": 0.45,
+   "line_total_gbp": 0.0,
    "used_on": [
     "周一",
     "周五",
@@ -403,6 +463,10 @@
    "buy_text": "0 × 145 g",
    "packs": 0,
    "price_gbp": 0.65,
+   "name_en": "Tuna Chunks In Spring Water",
+   "pack_size": "145 g",
+   "unit_price_gbp": 0.65,
+   "line_total_gbp": 0.0,
    "used_on": [
     "周六",
     "周日"
@@ -427,6 +491,10 @@
    "buy_text": "0 × 250 g",
    "packs": 0,
    "price_gbp": 0.85,
+   "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+   "pack_size": "250 g",
+   "unit_price_gbp": 0.85,
+   "line_total_gbp": 0.0,
    "used_on": [
     "周一",
     "周二",
@@ -454,6 +522,10 @@
    "buy_text": "0 × 200 g",
    "packs": 0,
    "price_gbp": 1.69,
+   "name_en": "Whole Almonds",
+   "pack_size": "200 g",
+   "unit_price_gbp": 1.69,
+   "line_total_gbp": 0.0,
    "used_on": [
     "周一",
     "周二",
@@ -480,6 +552,10 @@
    "buy_text": "0 × 1 l",
    "packs": 0,
    "price_gbp": 5.99,
+   "name_en": "Extra Virgin Olive Oil",
+   "pack_size": "1 l",
+   "unit_price_gbp": 5.99,
+   "line_total_gbp": 0.0,
    "used_on": [
     "周一",
     "周二",
