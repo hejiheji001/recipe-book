@@ -1,0 +1,2459 @@
+{
+ "schema": 1,
+ "code": "H1-11-05",
+ "week": "2026-11-05 – 2026-11-15",
+ "family": "伯明翰809",
+ "generated": "2026-11-05T14:13:51",
+ "source": "健康减肥/01-事实/饮食/餐单.csv + 食谱库.csv",
+ "nutrition_basis": "整份（一餐全部食材，非家庭整锅）",
+ "servings_hint": 1.0,
+ "portion_hint": "一餐即一份；要拆成两顿就按 per100g × 你的克数 / 100 换算",
+ "days": [
+  {
+   "day": 1,
+   "date": "11/5",
+   "weekday": "周四",
+   "iso_date": "2026-11-05",
+   "theme": "力量日",
+   "active_min": 39,
+   "total_min": 54,
+   "dishes": [
+    {
+     "role": "早餐",
+     "name": "鸡蛋菠菜燕麦饼",
+     "cook_min": 8,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "燕麦",
+       "qty": 31.5,
+       "unit": "g",
+       "buy": 31.5
+      },
+      {
+       "name": "鸡蛋",
+       "qty": 84.0,
+       "unit": "g",
+       "buy": 84.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 70.0,
+       "unit": "g",
+       "buy": 70.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 2.8,
+       "unit": "g",
+       "buy": 2.8
+      }
+     ],
+     "pantry": [
+      "盐"
+     ],
+     "nutrition": {
+      "kcal_total": 284.1,
+      "protein_total": 18.1,
+      "fat_total": 12.4,
+      "carb_total": 26.0,
+      "fiber_total": 4.5,
+      "sodium_total": 170.7,
+      "sat_fat_total": 3.4
+     },
+     "edible_grams": 188.3,
+     "per100g": {
+      "kcal_total": 150.9,
+      "protein_total": 9.6,
+      "fat_total": 6.6,
+      "carb_total": 13.8,
+      "fiber_total": 2.4,
+      "sodium_total": 90.7,
+      "sat_fat_total": 1.8
+     },
+     "nutrition_known": true,
+     "recipe_id": "R003",
+     "portion_multiplier": 0.7
+    },
+    {
+     "role": "午餐",
+     "name": "牛肉鹰嘴豆羽衣甘蓝炖",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "牛肉末",
+       "qty": 100.0,
+       "unit": "g",
+       "buy": 100.0
+      },
+      {
+       "name": "鹰嘴豆",
+       "qty": 60.0,
+       "unit": "g",
+       "buy": 60.0
+      },
+      {
+       "name": "羽衣甘蓝",
+       "qty": 120.0,
+       "unit": "g",
+       "buy": 120.0
+      },
+      {
+       "name": "洋葱",
+       "qty": 40.0,
+       "unit": "g",
+       "buy": 40.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 5.0,
+       "unit": "g",
+       "buy": 5.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "孜然"
+     ],
+     "nutrition": {
+      "kcal_total": 507.8,
+      "protein_total": 39.2,
+      "fat_total": 16.8,
+      "carb_total": 47.0,
+      "fiber_total": 11.2,
+      "sodium_total": 149.6,
+      "sat_fat_total": 4.4
+     },
+     "edible_grams": 325.0,
+     "per100g": {
+      "kcal_total": 156.2,
+      "protein_total": 12.1,
+      "fat_total": 5.2,
+      "carb_total": 14.5,
+      "fiber_total": 3.4,
+      "sodium_total": 46.0,
+      "sat_fat_total": 1.4
+     },
+     "nutrition_known": true,
+     "recipe_id": "R008",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "晚餐",
+     "name": "鳕鱼西葫芦鹰嘴豆",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鳕鱼",
+       "qty": 170.0,
+       "unit": "g",
+       "buy": 170.0
+      },
+      {
+       "name": "西葫芦",
+       "qty": 180.0,
+       "unit": "g",
+       "buy": 180.0
+      },
+      {
+       "name": "蘑菇",
+       "qty": 100.0,
+       "unit": "g",
+       "buy": 100.0
+      },
+      {
+       "name": "鹰嘴豆",
+       "qty": 45.0,
+       "unit": "g",
+       "buy": 45.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 6.0,
+       "unit": "g",
+       "buy": 6.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 414.7,
+      "protein_total": 48.4,
+      "fat_total": 9.2,
+      "carb_total": 38.8,
+      "fiber_total": 8.4,
+      "sodium_total": 241.5,
+      "sat_fat_total": 1.0
+     },
+     "edible_grams": 501.0,
+     "per100g": {
+      "kcal_total": 82.8,
+      "protein_total": 9.7,
+      "fat_total": 1.8,
+      "carb_total": 7.7,
+      "fiber_total": 1.7,
+      "sodium_total": 48.2,
+      "sat_fat_total": 0.2
+     },
+     "nutrition_known": true,
+     "recipe_id": "R015",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "加餐",
+     "name": "牛奶草莓",
+     "cook_min": 1,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "半脱脂奶",
+       "qty": 150.0,
+       "unit": "g",
+       "buy": 150.0
+      },
+      {
+       "name": "草莓",
+       "qty": 100.0,
+       "unit": "g",
+       "buy": 100.0
+      }
+     ],
+     "pantry": [],
+     "nutrition": {
+      "kcal_total": 107.0,
+      "protein_total": 6.4,
+      "fat_total": 2.9,
+      "carb_total": 14.3,
+      "fiber_total": 1.1,
+      "sodium_total": 64.2,
+      "sat_fat_total": 1.6
+     },
+     "edible_grams": 250.0,
+     "per100g": {
+      "kcal_total": 42.8,
+      "protein_total": 2.6,
+      "fat_total": 1.2,
+      "carb_total": 5.7,
+      "fiber_total": 0.4,
+      "sodium_total": 25.7,
+      "sat_fat_total": 0.6
+     },
+     "nutrition_known": true,
+     "recipe_id": "R020",
+     "portion_multiplier": 1.0
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "date": "11/6",
+   "weekday": "周五",
+   "iso_date": "2026-11-06",
+   "theme": "休息日",
+   "active_min": 36,
+   "total_min": 51,
+   "dishes": [
+    {
+     "role": "早餐",
+     "name": "燕麦蛋奶碗",
+     "cook_min": 6,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "燕麦",
+       "qty": 24.5,
+       "unit": "g",
+       "buy": 24.5
+      },
+      {
+       "name": "半脱脂奶",
+       "qty": 77.0,
+       "unit": "g",
+       "buy": 77.0
+      },
+      {
+       "name": "鸡蛋",
+       "qty": 70.0,
+       "unit": "g",
+       "buy": 70.0
+      },
+      {
+       "name": "香蕉",
+       "qty": 63.0,
+       "unit": "g",
+       "buy": 63.0
+      },
+      {
+       "name": "杏仁",
+       "qty": 7.0,
+       "unit": "g",
+       "buy": 7.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 21.0,
+       "unit": "g",
+       "buy": 21.0
+      }
+     ],
+     "pantry": [
+      "盐"
+     ],
+     "nutrition": {
+      "kcal_total": 336.0,
+      "protein_total": 19.1,
+      "fat_total": 12.5,
+      "carb_total": 38.1,
+      "fiber_total": 4.3,
+      "sodium_total": 142.3,
+      "sat_fat_total": 3.5
+     },
+     "edible_grams": 262.5,
+     "per100g": {
+      "kcal_total": 128.0,
+      "protein_total": 7.3,
+      "fat_total": 4.8,
+      "carb_total": 14.5,
+      "fiber_total": 1.6,
+      "sodium_total": 54.2,
+      "sat_fat_total": 1.3
+     },
+     "nutrition_known": true,
+     "recipe_id": "R001",
+     "portion_multiplier": 0.7
+    },
+    {
+     "role": "午餐",
+     "name": "鸡腿蘑菇藜麦饭",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鸡腿肉",
+       "qty": 77.0,
+       "unit": "g",
+       "buy": 77.0
+      },
+      {
+       "name": "藜麦",
+       "qty": 31.5,
+       "unit": "g",
+       "buy": 31.5
+      },
+      {
+       "name": "蘑菇",
+       "qty": 84.0,
+       "unit": "g",
+       "buy": 84.0
+      },
+      {
+       "name": "羽衣甘蓝",
+       "qty": 42.0,
+       "unit": "g",
+       "buy": 42.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 3.5,
+       "unit": "g",
+       "buy": 3.5
+      }
+     ],
+     "pantry": [
+      "盐",
+      "姜",
+      "大蒜"
+     ],
+     "nutrition": {
+      "kcal_total": 305.5,
+      "protein_total": 24.4,
+      "fat_total": 11.2,
+      "carb_total": 24.1,
+      "fiber_total": 5.2,
+      "sodium_total": 92.0,
+      "sat_fat_total": 2.0
+     },
+     "edible_grams": 238.0,
+     "per100g": {
+      "kcal_total": 128.4,
+      "protein_total": 10.3,
+      "fat_total": 4.7,
+      "carb_total": 10.1,
+      "fiber_total": 2.2,
+      "sodium_total": 38.7,
+      "sat_fat_total": 0.8
+     },
+     "nutrition_known": true,
+     "recipe_id": "R011",
+     "portion_multiplier": 0.7
+    },
+    {
+     "role": "晚餐",
+     "name": "鳕鱼西葫芦鹰嘴豆",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鳕鱼",
+       "qty": 221.0,
+       "unit": "g",
+       "buy": 221.0
+      },
+      {
+       "name": "西葫芦",
+       "qty": 234.0,
+       "unit": "g",
+       "buy": 234.0
+      },
+      {
+       "name": "蘑菇",
+       "qty": 130.0,
+       "unit": "g",
+       "buy": 130.0
+      },
+      {
+       "name": "鹰嘴豆",
+       "qty": 58.5,
+       "unit": "g",
+       "buy": 58.5
+      },
+      {
+       "name": "橄榄油",
+       "qty": 7.8,
+       "unit": "g",
+       "buy": 7.8
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 539.1,
+      "protein_total": 62.9,
+      "fat_total": 12.0,
+      "carb_total": 50.4,
+      "fiber_total": 10.9,
+      "sodium_total": 313.9,
+      "sat_fat_total": 1.3
+     },
+     "edible_grams": 651.3,
+     "per100g": {
+      "kcal_total": 82.8,
+      "protein_total": 9.7,
+      "fat_total": 1.8,
+      "carb_total": 7.7,
+      "fiber_total": 1.7,
+      "sodium_total": 48.2,
+      "sat_fat_total": 0.2
+     },
+     "nutrition_known": true,
+     "recipe_id": "R015",
+     "portion_multiplier": 1.3
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "date": "11/7",
+   "weekday": "周六",
+   "iso_date": "2026-11-07",
+   "theme": "休息日",
+   "active_min": 35,
+   "total_min": 50,
+   "dishes": [
+    {
+     "role": "早餐",
+     "name": "玉米鸡蛋菠菜碗",
+     "cook_min": 8,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "玉米粒",
+       "qty": 150.0,
+       "unit": "g",
+       "buy": 150.0
+      },
+      {
+       "name": "鸡蛋",
+       "qty": 120.0,
+       "unit": "g",
+       "buy": 120.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 120.0,
+       "unit": "g",
+       "buy": 120.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 4.0,
+       "unit": "g",
+       "buy": 4.0
+      }
+     ],
+     "pantry": [
+      "盐"
+     ],
+     "nutrition": {
+      "kcal_total": 350.4,
+      "protein_total": 22.4,
+      "fat_total": 16.0,
+      "carb_total": 29.3,
+      "fiber_total": 5.0,
+      "sodium_total": 267.5,
+      "sat_fat_total": 4.6
+     },
+     "edible_grams": 394.0,
+     "per100g": {
+      "kcal_total": 88.9,
+      "protein_total": 5.7,
+      "fat_total": 4.1,
+      "carb_total": 7.4,
+      "fiber_total": 1.3,
+      "sodium_total": 67.9,
+      "sat_fat_total": 1.2
+     },
+     "nutrition_known": true,
+     "recipe_id": "R023",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "午餐",
+     "name": "鸡胸扁豆菠菜碗",
+     "cook_min": 12,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鸡胸肉",
+       "qty": 200.0,
+       "unit": "g",
+       "buy": 200.0
+      },
+      {
+       "name": "扁豆",
+       "qty": 150.0,
+       "unit": "g",
+       "buy": 150.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 200.0,
+       "unit": "g",
+       "buy": 200.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 2.0,
+       "unit": "g",
+       "buy": 2.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 358.0,
+      "protein_total": 57.9,
+      "fat_total": 6.7,
+      "carb_total": 21.3,
+      "fiber_total": 9.2,
+      "sodium_total": 265.9,
+      "sat_fat_total": 1.3
+     },
+     "edible_grams": 552.0,
+     "per100g": {
+      "kcal_total": 64.9,
+      "protein_total": 10.5,
+      "fat_total": 1.2,
+      "carb_total": 3.9,
+      "fiber_total": 1.7,
+      "sodium_total": 48.2,
+      "sat_fat_total": 0.2
+     },
+     "nutrition_known": true,
+     "recipe_id": "R024",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "晚餐",
+     "name": "牛排薯条菠菜",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "牛排",
+       "qty": 130.0,
+       "unit": "g",
+       "buy": 130.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 150.0,
+       "unit": "g",
+       "buy": 150.0
+      },
+      {
+       "name": "薯条",
+       "qty": 150.0,
+       "unit": "g",
+       "buy": 150.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 2.0,
+       "unit": "g",
+       "buy": 2.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 508.0,
+      "protein_total": 35.0,
+      "fat_total": 20.3,
+      "carb_total": 45.8,
+      "fiber_total": 6.3,
+      "sodium_total": 349.3,
+      "sat_fat_total": 5.6
+     },
+     "edible_grams": 432.0,
+     "per100g": {
+      "kcal_total": 117.6,
+      "protein_total": 8.1,
+      "fat_total": 4.7,
+      "carb_total": 10.6,
+      "fiber_total": 1.5,
+      "sodium_total": 80.9,
+      "sat_fat_total": 1.3
+     },
+     "nutrition_known": true,
+     "recipe_id": "R021",
+     "portion_multiplier": 1.0
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "date": "11/8",
+   "weekday": "周日",
+   "iso_date": "2026-11-08",
+   "theme": "有氧日",
+   "active_min": 31,
+   "total_min": 46,
+   "dishes": [
+    {
+     "role": "早餐",
+     "name": "燕麦蛋奶碗",
+     "cook_min": 6,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "燕麦",
+       "qty": 24.5,
+       "unit": "g",
+       "buy": 24.5
+      },
+      {
+       "name": "半脱脂奶",
+       "qty": 77.0,
+       "unit": "g",
+       "buy": 77.0
+      },
+      {
+       "name": "鸡蛋",
+       "qty": 70.0,
+       "unit": "g",
+       "buy": 70.0
+      },
+      {
+       "name": "香蕉",
+       "qty": 63.0,
+       "unit": "g",
+       "buy": 63.0
+      },
+      {
+       "name": "杏仁",
+       "qty": 7.0,
+       "unit": "g",
+       "buy": 7.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 21.0,
+       "unit": "g",
+       "buy": 21.0
+      }
+     ],
+     "pantry": [
+      "盐"
+     ],
+     "nutrition": {
+      "kcal_total": 336.0,
+      "protein_total": 19.1,
+      "fat_total": 12.5,
+      "carb_total": 38.1,
+      "fiber_total": 4.3,
+      "sodium_total": 142.3,
+      "sat_fat_total": 3.5
+     },
+     "edible_grams": 262.5,
+     "per100g": {
+      "kcal_total": 128.0,
+      "protein_total": 7.3,
+      "fat_total": 4.8,
+      "carb_total": 14.5,
+      "fiber_total": 1.6,
+      "sodium_total": 54.2,
+      "sat_fat_total": 1.3
+     },
+     "nutrition_known": true,
+     "recipe_id": "R001",
+     "portion_multiplier": 0.7
+    },
+    {
+     "role": "午餐",
+     "name": "金枪鱼鹰嘴豆沙拉",
+     "cook_min": 10,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "金枪鱼",
+       "qty": 156.0,
+       "unit": "g",
+       "buy": 156.0
+      },
+      {
+       "name": "鹰嘴豆",
+       "qty": 91.0,
+       "unit": "g",
+       "buy": 91.0
+      },
+      {
+       "name": "黄瓜",
+       "qty": 156.0,
+       "unit": "g",
+       "buy": 156.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 104.0,
+       "unit": "g",
+       "buy": 104.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 6.5,
+       "unit": "g",
+       "buy": 6.5
+      }
+     ],
+     "pantry": [
+      "盐",
+      "柠檬",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 581.0,
+      "protein_total": 60.2,
+      "fat_total": 11.4,
+      "carb_total": 65.7,
+      "fiber_total": 13.1,
+      "sodium_total": 188.2,
+      "sat_fat_total": 1.0
+     },
+     "edible_grams": 513.5,
+     "per100g": {
+      "kcal_total": 113.1,
+      "protein_total": 11.7,
+      "fat_total": 2.2,
+      "carb_total": 12.8,
+      "fiber_total": 2.6,
+      "sodium_total": 36.7,
+      "sat_fat_total": 0.2
+     },
+     "nutrition_known": true,
+     "recipe_id": "R013",
+     "portion_multiplier": 1.3
+    },
+    {
+     "role": "晚餐",
+     "name": "鸡腿蘑菇藜麦饭",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鸡腿肉",
+       "qty": 143.0,
+       "unit": "g",
+       "buy": 143.0
+      },
+      {
+       "name": "藜麦",
+       "qty": 58.5,
+       "unit": "g",
+       "buy": 58.5
+      },
+      {
+       "name": "蘑菇",
+       "qty": 156.0,
+       "unit": "g",
+       "buy": 156.0
+      },
+      {
+       "name": "羽衣甘蓝",
+       "qty": 78.0,
+       "unit": "g",
+       "buy": 78.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 6.5,
+       "unit": "g",
+       "buy": 6.5
+      }
+     ],
+     "pantry": [
+      "盐",
+      "姜",
+      "大蒜"
+     ],
+     "nutrition": {
+      "kcal_total": 567.3,
+      "protein_total": 45.2,
+      "fat_total": 20.8,
+      "carb_total": 44.7,
+      "fiber_total": 9.6,
+      "sodium_total": 170.8,
+      "sat_fat_total": 3.8
+     },
+     "edible_grams": 442.0,
+     "per100g": {
+      "kcal_total": 128.3,
+      "protein_total": 10.2,
+      "fat_total": 4.7,
+      "carb_total": 10.1,
+      "fiber_total": 2.2,
+      "sodium_total": 38.6,
+      "sat_fat_total": 0.9
+     },
+     "nutrition_known": true,
+     "recipe_id": "R011",
+     "portion_multiplier": 1.3
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "date": "11/9",
+   "weekday": "周一",
+   "iso_date": "2026-11-09",
+   "theme": "有氧日",
+   "active_min": 36,
+   "total_min": 51,
+   "dishes": [
+    {
+     "role": "早餐",
+     "name": "鸡蛋菠菜燕麦饼",
+     "cook_min": 8,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "燕麦",
+       "qty": 45.0,
+       "unit": "g",
+       "buy": 45.0
+      },
+      {
+       "name": "鸡蛋",
+       "qty": 120.0,
+       "unit": "g",
+       "buy": 120.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 100.0,
+       "unit": "g",
+       "buy": 100.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 4.0,
+       "unit": "g",
+       "buy": 4.0
+      }
+     ],
+     "pantry": [
+      "盐"
+     ],
+     "nutrition": {
+      "kcal_total": 405.8,
+      "protein_total": 25.9,
+      "fat_total": 17.7,
+      "carb_total": 37.2,
+      "fiber_total": 6.5,
+      "sodium_total": 243.9,
+      "sat_fat_total": 4.8
+     },
+     "edible_grams": 269.0,
+     "per100g": {
+      "kcal_total": 150.9,
+      "protein_total": 9.6,
+      "fat_total": 6.6,
+      "carb_total": 13.8,
+      "fiber_total": 2.4,
+      "sodium_total": 90.7,
+      "sat_fat_total": 1.8
+     },
+     "nutrition_known": true,
+     "recipe_id": "R003",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "午餐",
+     "name": "鸡胸扁豆菠菜碗",
+     "cook_min": 12,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鸡胸肉",
+       "qty": 260.0,
+       "unit": "g",
+       "buy": 260.0
+      },
+      {
+       "name": "扁豆",
+       "qty": 195.0,
+       "unit": "g",
+       "buy": 195.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 260.0,
+       "unit": "g",
+       "buy": 260.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 2.6,
+       "unit": "g",
+       "buy": 2.6
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 465.4,
+      "protein_total": 75.3,
+      "fat_total": 8.7,
+      "carb_total": 27.7,
+      "fiber_total": 12.0,
+      "sodium_total": 345.7,
+      "sat_fat_total": 1.7
+     },
+     "edible_grams": 717.6,
+     "per100g": {
+      "kcal_total": 64.9,
+      "protein_total": 10.5,
+      "fat_total": 1.2,
+      "carb_total": 3.9,
+      "fiber_total": 1.7,
+      "sodium_total": 48.2,
+      "sat_fat_total": 0.2
+     },
+     "nutrition_known": true,
+     "recipe_id": "R024",
+     "portion_multiplier": 1.3
+    },
+    {
+     "role": "晚餐",
+     "name": "鸡腿蘑菇藜麦饭",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鸡腿肉",
+       "qty": 110.0,
+       "unit": "g",
+       "buy": 110.0
+      },
+      {
+       "name": "藜麦",
+       "qty": 45.0,
+       "unit": "g",
+       "buy": 45.0
+      },
+      {
+       "name": "蘑菇",
+       "qty": 120.0,
+       "unit": "g",
+       "buy": 120.0
+      },
+      {
+       "name": "羽衣甘蓝",
+       "qty": 60.0,
+       "unit": "g",
+       "buy": 60.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 5.0,
+       "unit": "g",
+       "buy": 5.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "姜",
+      "大蒜"
+     ],
+     "nutrition": {
+      "kcal_total": 436.4,
+      "protein_total": 34.8,
+      "fat_total": 16.0,
+      "carb_total": 34.4,
+      "fiber_total": 7.4,
+      "sodium_total": 131.4,
+      "sat_fat_total": 2.9
+     },
+     "edible_grams": 340.0,
+     "per100g": {
+      "kcal_total": 128.4,
+      "protein_total": 10.2,
+      "fat_total": 4.7,
+      "carb_total": 10.1,
+      "fiber_total": 2.2,
+      "sodium_total": 38.6,
+      "sat_fat_total": 0.9
+     },
+     "nutrition_known": true,
+     "recipe_id": "R011",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "加餐",
+     "name": "苹果杏仁",
+     "cook_min": 1,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "苹果",
+       "qty": 120.0,
+       "unit": "g",
+       "buy": 120.0
+      },
+      {
+       "name": "杏仁",
+       "qty": 12.0,
+       "unit": "g",
+       "buy": 12.0
+      }
+     ],
+     "pantry": [],
+     "nutrition": {
+      "kcal_total": 133.0,
+      "protein_total": 3.2,
+      "fat_total": 5.7,
+      "carb_total": 19.3,
+      "fiber_total": 3.0,
+      "sodium_total": 2.6,
+      "sat_fat_total": 0.5
+     },
+     "edible_grams": 132.0,
+     "per100g": {
+      "kcal_total": 100.8,
+      "protein_total": 2.4,
+      "fat_total": 4.3,
+      "carb_total": 14.6,
+      "fiber_total": 2.3,
+      "sodium_total": 2.0,
+      "sat_fat_total": 0.4
+     },
+     "nutrition_known": true,
+     "recipe_id": "R019",
+     "portion_multiplier": 1.0
+    }
+   ]
+  },
+  {
+   "day": 6,
+   "date": "11/10",
+   "weekday": "周二",
+   "iso_date": "2026-11-10",
+   "theme": "力量日",
+   "active_min": 36,
+   "total_min": 51,
+   "dishes": [
+    {
+     "role": "早餐",
+     "name": "鹰嘴豆鸡蛋沙拉",
+     "cook_min": 8,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鹰嘴豆",
+       "qty": 49.0,
+       "unit": "g",
+       "buy": 49.0
+      },
+      {
+       "name": "鸡蛋",
+       "qty": 70.0,
+       "unit": "g",
+       "buy": 70.0
+      },
+      {
+       "name": "黄瓜",
+       "qty": 70.0,
+       "unit": "g",
+       "buy": 70.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 2.8,
+       "unit": "g",
+       "buy": 2.8
+      }
+     ],
+     "pantry": [
+      "盐",
+      "柠檬"
+     ],
+     "nutrition": {
+      "kcal_total": 300.3,
+      "protein_total": 20.1,
+      "fat_total": 11.0,
+      "carb_total": 33.2,
+      "fiber_total": 6.0,
+      "sodium_total": 98.4,
+      "sat_fat_total": 2.6
+     },
+     "edible_grams": 191.8,
+     "per100g": {
+      "kcal_total": 156.6,
+      "protein_total": 10.5,
+      "fat_total": 5.7,
+      "carb_total": 17.3,
+      "fiber_total": 3.1,
+      "sodium_total": 51.3,
+      "sat_fat_total": 1.4
+     },
+     "nutrition_known": true,
+     "recipe_id": "R005",
+     "portion_multiplier": 0.7
+    },
+    {
+     "role": "午餐",
+     "name": "三文鱼藜麦羽衣甘蓝",
+     "cook_min": 12,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "三文鱼",
+       "qty": 143.0,
+       "unit": "g",
+       "buy": 143.0
+      },
+      {
+       "name": "藜麦",
+       "qty": 65.0,
+       "unit": "g",
+       "buy": 65.0
+      },
+      {
+       "name": "羽衣甘蓝",
+       "qty": 130.0,
+       "unit": "g",
+       "buy": 130.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 3.9,
+       "unit": "g",
+       "buy": 3.9
+      }
+     ],
+     "pantry": [
+      "盐",
+      "柠檬",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 555.6,
+      "protein_total": 40.2,
+      "fat_total": 19.5,
+      "carb_total": 45.0,
+      "fiber_total": 8.5,
+      "sodium_total": 178.0,
+      "sat_fat_total": 2.6
+     },
+     "edible_grams": 341.9,
+     "per100g": {
+      "kcal_total": 162.5,
+      "protein_total": 11.8,
+      "fat_total": 5.7,
+      "carb_total": 13.2,
+      "fiber_total": 2.5,
+      "sodium_total": 52.1,
+      "sat_fat_total": 0.8
+     },
+     "nutrition_known": true,
+     "recipe_id": "R012",
+     "portion_multiplier": 1.3
+    },
+    {
+     "role": "晚餐",
+     "name": "鸡胸茄子鹰嘴豆煲",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鸡胸肉",
+       "qty": 130.0,
+       "unit": "g",
+       "buy": 130.0
+      },
+      {
+       "name": "茄子",
+       "qty": 180.0,
+       "unit": "g",
+       "buy": 180.0
+      },
+      {
+       "name": "鹰嘴豆",
+       "qty": 50.0,
+       "unit": "g",
+       "buy": 50.0
+      },
+      {
+       "name": "洋葱",
+       "qty": 40.0,
+       "unit": "g",
+       "buy": 40.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 4.0,
+       "unit": "g",
+       "buy": 4.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 416.8,
+      "protein_total": 45.0,
+      "fat_total": 9.0,
+      "carb_total": 43.2,
+      "fiber_total": 8.5,
+      "sodium_total": 72.7,
+      "sat_fat_total": 1.3
+     },
+     "edible_grams": 404.0,
+     "per100g": {
+      "kcal_total": 103.2,
+      "protein_total": 11.1,
+      "fat_total": 2.2,
+      "carb_total": 10.7,
+      "fiber_total": 2.1,
+      "sodium_total": 18.0,
+      "sat_fat_total": 0.3
+     },
+     "nutrition_known": true,
+     "recipe_id": "R014",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "加餐",
+     "name": "苹果杏仁",
+     "cook_min": 1,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "苹果",
+       "qty": 84.0,
+       "unit": "g",
+       "buy": 84.0
+      },
+      {
+       "name": "杏仁",
+       "qty": 8.4,
+       "unit": "g",
+       "buy": 8.4
+      }
+     ],
+     "pantry": [],
+     "nutrition": {
+      "kcal_total": 93.1,
+      "protein_total": 2.2,
+      "fat_total": 4.0,
+      "carb_total": 13.5,
+      "fiber_total": 2.1,
+      "sodium_total": 1.8,
+      "sat_fat_total": 0.3
+     },
+     "edible_grams": 92.4,
+     "per100g": {
+      "kcal_total": 100.8,
+      "protein_total": 2.4,
+      "fat_total": 4.3,
+      "carb_total": 14.6,
+      "fiber_total": 2.3,
+      "sodium_total": 1.9,
+      "sat_fat_total": 0.3
+     },
+     "nutrition_known": true,
+     "recipe_id": "R019",
+     "portion_multiplier": 0.7
+    }
+   ]
+  },
+  {
+   "day": 7,
+   "date": "11/11",
+   "weekday": "周三",
+   "iso_date": "2026-11-11",
+   "theme": "休息日",
+   "active_min": 41,
+   "total_min": 56,
+   "dishes": [
+    {
+     "role": "早餐",
+     "name": "燕麦鸡腿咸粥",
+     "cook_min": 10,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "燕麦",
+       "qty": 35.0,
+       "unit": "g",
+       "buy": 35.0
+      },
+      {
+       "name": "半脱脂奶",
+       "qty": 150.0,
+       "unit": "g",
+       "buy": 150.0
+      },
+      {
+       "name": "鸡腿肉",
+       "qty": 90.0,
+       "unit": "g",
+       "buy": 90.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 60.0,
+       "unit": "g",
+       "buy": 60.0
+      },
+      {
+       "name": "羽衣甘蓝",
+       "qty": 60.0,
+       "unit": "g",
+       "buy": 60.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "姜"
+     ],
+     "nutrition": {
+      "kcal_total": 400.8,
+      "protein_total": 34.1,
+      "fat_total": 12.0,
+      "carb_total": 36.5,
+      "fiber_total": 6.7,
+      "sodium_total": 218.1,
+      "sat_fat_total": 3.8
+     },
+     "edible_grams": 395.0,
+     "per100g": {
+      "kcal_total": 101.5,
+      "protein_total": 8.6,
+      "fat_total": 3.0,
+      "carb_total": 9.2,
+      "fiber_total": 1.7,
+      "sodium_total": 55.2,
+      "sat_fat_total": 1.0
+     },
+     "nutrition_known": true,
+     "recipe_id": "R004",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "午餐",
+     "name": "鸡腿蘑菇藜麦饭",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鸡腿肉",
+       "qty": 110.0,
+       "unit": "g",
+       "buy": 110.0
+      },
+      {
+       "name": "藜麦",
+       "qty": 45.0,
+       "unit": "g",
+       "buy": 45.0
+      },
+      {
+       "name": "蘑菇",
+       "qty": 120.0,
+       "unit": "g",
+       "buy": 120.0
+      },
+      {
+       "name": "羽衣甘蓝",
+       "qty": 60.0,
+       "unit": "g",
+       "buy": 60.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 5.0,
+       "unit": "g",
+       "buy": 5.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "姜",
+      "大蒜"
+     ],
+     "nutrition": {
+      "kcal_total": 436.4,
+      "protein_total": 34.8,
+      "fat_total": 16.0,
+      "carb_total": 34.4,
+      "fiber_total": 7.4,
+      "sodium_total": 131.4,
+      "sat_fat_total": 2.9
+     },
+     "edible_grams": 340.0,
+     "per100g": {
+      "kcal_total": 128.4,
+      "protein_total": 10.2,
+      "fat_total": 4.7,
+      "carb_total": 10.1,
+      "fiber_total": 2.2,
+      "sodium_total": 38.6,
+      "sat_fat_total": 0.9
+     },
+     "nutrition_known": true,
+     "recipe_id": "R011",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "晚餐",
+     "name": "鳕鱼西葫芦鹰嘴豆",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鳕鱼",
+       "qty": 119.0,
+       "unit": "g",
+       "buy": 119.0
+      },
+      {
+       "name": "西葫芦",
+       "qty": 126.0,
+       "unit": "g",
+       "buy": 126.0
+      },
+      {
+       "name": "蘑菇",
+       "qty": 70.0,
+       "unit": "g",
+       "buy": 70.0
+      },
+      {
+       "name": "鹰嘴豆",
+       "qty": 31.5,
+       "unit": "g",
+       "buy": 31.5
+      },
+      {
+       "name": "橄榄油",
+       "qty": 4.2,
+       "unit": "g",
+       "buy": 4.2
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 290.3,
+      "protein_total": 33.9,
+      "fat_total": 6.4,
+      "carb_total": 27.2,
+      "fiber_total": 5.9,
+      "sodium_total": 169.0,
+      "sat_fat_total": 0.7
+     },
+     "edible_grams": 350.7,
+     "per100g": {
+      "kcal_total": 82.8,
+      "protein_total": 9.7,
+      "fat_total": 1.8,
+      "carb_total": 7.8,
+      "fiber_total": 1.7,
+      "sodium_total": 48.2,
+      "sat_fat_total": 0.2
+     },
+     "nutrition_known": true,
+     "recipe_id": "R015",
+     "portion_multiplier": 0.7
+    },
+    {
+     "role": "加餐",
+     "name": "牛奶草莓",
+     "cook_min": 1,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "半脱脂奶",
+       "qty": 105.0,
+       "unit": "g",
+       "buy": 105.0
+      },
+      {
+       "name": "草莓",
+       "qty": 70.0,
+       "unit": "g",
+       "buy": 70.0
+      }
+     ],
+     "pantry": [],
+     "nutrition": {
+      "kcal_total": 74.9,
+      "protein_total": 4.5,
+      "fat_total": 2.0,
+      "carb_total": 10.0,
+      "fiber_total": 0.8,
+      "sodium_total": 44.9,
+      "sat_fat_total": 1.1
+     },
+     "edible_grams": 175.0,
+     "per100g": {
+      "kcal_total": 42.8,
+      "protein_total": 2.6,
+      "fat_total": 1.1,
+      "carb_total": 5.7,
+      "fiber_total": 0.5,
+      "sodium_total": 25.7,
+      "sat_fat_total": 0.6
+     },
+     "nutrition_known": true,
+     "recipe_id": "R020",
+     "portion_multiplier": 0.7
+    }
+   ]
+  },
+  {
+   "day": 8,
+   "date": "11/12",
+   "weekday": "周四",
+   "iso_date": "2026-11-12",
+   "theme": "力量日",
+   "active_min": 39,
+   "total_min": 54,
+   "dishes": [
+    {
+     "role": "早餐",
+     "name": "鸡蛋菠菜燕麦饼",
+     "cook_min": 8,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "燕麦",
+       "qty": 31.5,
+       "unit": "g",
+       "buy": 31.5
+      },
+      {
+       "name": "鸡蛋",
+       "qty": 84.0,
+       "unit": "g",
+       "buy": 84.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 70.0,
+       "unit": "g",
+       "buy": 70.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 2.8,
+       "unit": "g",
+       "buy": 2.8
+      }
+     ],
+     "pantry": [
+      "盐"
+     ],
+     "nutrition": {
+      "kcal_total": 284.1,
+      "protein_total": 18.1,
+      "fat_total": 12.4,
+      "carb_total": 26.0,
+      "fiber_total": 4.5,
+      "sodium_total": 170.7,
+      "sat_fat_total": 3.4
+     },
+     "edible_grams": 188.3,
+     "per100g": {
+      "kcal_total": 150.9,
+      "protein_total": 9.6,
+      "fat_total": 6.6,
+      "carb_total": 13.8,
+      "fiber_total": 2.4,
+      "sodium_total": 90.7,
+      "sat_fat_total": 1.8
+     },
+     "nutrition_known": true,
+     "recipe_id": "R003",
+     "portion_multiplier": 0.7
+    },
+    {
+     "role": "午餐",
+     "name": "牛肉鹰嘴豆羽衣甘蓝炖",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "牛肉末",
+       "qty": 100.0,
+       "unit": "g",
+       "buy": 100.0
+      },
+      {
+       "name": "鹰嘴豆",
+       "qty": 60.0,
+       "unit": "g",
+       "buy": 60.0
+      },
+      {
+       "name": "羽衣甘蓝",
+       "qty": 120.0,
+       "unit": "g",
+       "buy": 120.0
+      },
+      {
+       "name": "洋葱",
+       "qty": 40.0,
+       "unit": "g",
+       "buy": 40.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 5.0,
+       "unit": "g",
+       "buy": 5.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "孜然"
+     ],
+     "nutrition": {
+      "kcal_total": 507.8,
+      "protein_total": 39.2,
+      "fat_total": 16.8,
+      "carb_total": 47.0,
+      "fiber_total": 11.2,
+      "sodium_total": 149.6,
+      "sat_fat_total": 4.4
+     },
+     "edible_grams": 325.0,
+     "per100g": {
+      "kcal_total": 156.2,
+      "protein_total": 12.1,
+      "fat_total": 5.2,
+      "carb_total": 14.5,
+      "fiber_total": 3.4,
+      "sodium_total": 46.0,
+      "sat_fat_total": 1.4
+     },
+     "nutrition_known": true,
+     "recipe_id": "R008",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "晚餐",
+     "name": "鳕鱼西葫芦鹰嘴豆",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鳕鱼",
+       "qty": 170.0,
+       "unit": "g",
+       "buy": 170.0
+      },
+      {
+       "name": "西葫芦",
+       "qty": 180.0,
+       "unit": "g",
+       "buy": 180.0
+      },
+      {
+       "name": "蘑菇",
+       "qty": 100.0,
+       "unit": "g",
+       "buy": 100.0
+      },
+      {
+       "name": "鹰嘴豆",
+       "qty": 45.0,
+       "unit": "g",
+       "buy": 45.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 6.0,
+       "unit": "g",
+       "buy": 6.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 414.7,
+      "protein_total": 48.4,
+      "fat_total": 9.2,
+      "carb_total": 38.8,
+      "fiber_total": 8.4,
+      "sodium_total": 241.5,
+      "sat_fat_total": 1.0
+     },
+     "edible_grams": 501.0,
+     "per100g": {
+      "kcal_total": 82.8,
+      "protein_total": 9.7,
+      "fat_total": 1.8,
+      "carb_total": 7.7,
+      "fiber_total": 1.7,
+      "sodium_total": 48.2,
+      "sat_fat_total": 0.2
+     },
+     "nutrition_known": true,
+     "recipe_id": "R015",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "加餐",
+     "name": "牛奶草莓",
+     "cook_min": 1,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "半脱脂奶",
+       "qty": 150.0,
+       "unit": "g",
+       "buy": 150.0
+      },
+      {
+       "name": "草莓",
+       "qty": 100.0,
+       "unit": "g",
+       "buy": 100.0
+      }
+     ],
+     "pantry": [],
+     "nutrition": {
+      "kcal_total": 107.0,
+      "protein_total": 6.4,
+      "fat_total": 2.9,
+      "carb_total": 14.3,
+      "fiber_total": 1.1,
+      "sodium_total": 64.2,
+      "sat_fat_total": 1.6
+     },
+     "edible_grams": 250.0,
+     "per100g": {
+      "kcal_total": 42.8,
+      "protein_total": 2.6,
+      "fat_total": 1.2,
+      "carb_total": 5.7,
+      "fiber_total": 0.4,
+      "sodium_total": 25.7,
+      "sat_fat_total": 0.6
+     },
+     "nutrition_known": true,
+     "recipe_id": "R020",
+     "portion_multiplier": 1.0
+    }
+   ]
+  },
+  {
+   "day": 9,
+   "date": "11/13",
+   "weekday": "周五",
+   "iso_date": "2026-11-13",
+   "theme": "休息日",
+   "active_min": 35,
+   "total_min": 50,
+   "dishes": [
+    {
+     "role": "早餐",
+     "name": "玉米鸡蛋菠菜碗",
+     "cook_min": 8,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "玉米粒",
+       "qty": 150.0,
+       "unit": "g",
+       "buy": 150.0
+      },
+      {
+       "name": "鸡蛋",
+       "qty": 120.0,
+       "unit": "g",
+       "buy": 120.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 120.0,
+       "unit": "g",
+       "buy": 120.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 4.0,
+       "unit": "g",
+       "buy": 4.0
+      }
+     ],
+     "pantry": [
+      "盐"
+     ],
+     "nutrition": {
+      "kcal_total": 350.4,
+      "protein_total": 22.4,
+      "fat_total": 16.0,
+      "carb_total": 29.3,
+      "fiber_total": 5.0,
+      "sodium_total": 267.5,
+      "sat_fat_total": 4.6
+     },
+     "edible_grams": 394.0,
+     "per100g": {
+      "kcal_total": 88.9,
+      "protein_total": 5.7,
+      "fat_total": 4.1,
+      "carb_total": 7.4,
+      "fiber_total": 1.3,
+      "sodium_total": 67.9,
+      "sat_fat_total": 1.2
+     },
+     "nutrition_known": true,
+     "recipe_id": "R023",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "午餐",
+     "name": "鸡胸扁豆菠菜碗",
+     "cook_min": 12,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鸡胸肉",
+       "qty": 200.0,
+       "unit": "g",
+       "buy": 200.0
+      },
+      {
+       "name": "扁豆",
+       "qty": 150.0,
+       "unit": "g",
+       "buy": 150.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 200.0,
+       "unit": "g",
+       "buy": 200.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 2.0,
+       "unit": "g",
+       "buy": 2.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 358.0,
+      "protein_total": 57.9,
+      "fat_total": 6.7,
+      "carb_total": 21.3,
+      "fiber_total": 9.2,
+      "sodium_total": 265.9,
+      "sat_fat_total": 1.3
+     },
+     "edible_grams": 552.0,
+     "per100g": {
+      "kcal_total": 64.9,
+      "protein_total": 10.5,
+      "fat_total": 1.2,
+      "carb_total": 3.9,
+      "fiber_total": 1.7,
+      "sodium_total": 48.2,
+      "sat_fat_total": 0.2
+     },
+     "nutrition_known": true,
+     "recipe_id": "R024",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "晚餐",
+     "name": "牛排薯条菠菜",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "牛排",
+       "qty": 130.0,
+       "unit": "g",
+       "buy": 130.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 150.0,
+       "unit": "g",
+       "buy": 150.0
+      },
+      {
+       "name": "薯条",
+       "qty": 150.0,
+       "unit": "g",
+       "buy": 150.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 2.0,
+       "unit": "g",
+       "buy": 2.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 508.0,
+      "protein_total": 35.0,
+      "fat_total": 20.3,
+      "carb_total": 45.8,
+      "fiber_total": 6.3,
+      "sodium_total": 349.3,
+      "sat_fat_total": 5.6
+     },
+     "edible_grams": 432.0,
+     "per100g": {
+      "kcal_total": 117.6,
+      "protein_total": 8.1,
+      "fat_total": 4.7,
+      "carb_total": 10.6,
+      "fiber_total": 1.5,
+      "sodium_total": 80.9,
+      "sat_fat_total": 1.3
+     },
+     "nutrition_known": true,
+     "recipe_id": "R021",
+     "portion_multiplier": 1.0
+    }
+   ]
+  },
+  {
+   "day": 10,
+   "date": "11/14",
+   "weekday": "周六",
+   "iso_date": "2026-11-14",
+   "theme": "休息日",
+   "active_min": 35,
+   "total_min": 50,
+   "dishes": [
+    {
+     "role": "早餐",
+     "name": "燕麦鸡腿咸粥",
+     "cook_min": 10,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "燕麦",
+       "qty": 24.5,
+       "unit": "g",
+       "buy": 24.5
+      },
+      {
+       "name": "半脱脂奶",
+       "qty": 105.0,
+       "unit": "g",
+       "buy": 105.0
+      },
+      {
+       "name": "鸡腿肉",
+       "qty": 63.0,
+       "unit": "g",
+       "buy": 63.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 42.0,
+       "unit": "g",
+       "buy": 42.0
+      },
+      {
+       "name": "羽衣甘蓝",
+       "qty": 42.0,
+       "unit": "g",
+       "buy": 42.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "姜"
+     ],
+     "nutrition": {
+      "kcal_total": 280.6,
+      "protein_total": 23.9,
+      "fat_total": 8.4,
+      "carb_total": 25.5,
+      "fiber_total": 4.7,
+      "sodium_total": 152.7,
+      "sat_fat_total": 2.7
+     },
+     "edible_grams": 276.5,
+     "per100g": {
+      "kcal_total": 101.5,
+      "protein_total": 8.6,
+      "fat_total": 3.0,
+      "carb_total": 9.2,
+      "fiber_total": 1.7,
+      "sodium_total": 55.2,
+      "sat_fat_total": 1.0
+     },
+     "nutrition_known": true,
+     "recipe_id": "R004",
+     "portion_multiplier": 0.7
+    },
+    {
+     "role": "午餐",
+     "name": "金枪鱼鹰嘴豆沙拉",
+     "cook_min": 10,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "金枪鱼",
+       "qty": 120.0,
+       "unit": "g",
+       "buy": 120.0
+      },
+      {
+       "name": "鹰嘴豆",
+       "qty": 70.0,
+       "unit": "g",
+       "buy": 70.0
+      },
+      {
+       "name": "黄瓜",
+       "qty": 120.0,
+       "unit": "g",
+       "buy": 120.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 80.0,
+       "unit": "g",
+       "buy": 80.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 5.0,
+       "unit": "g",
+       "buy": 5.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "柠檬",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 446.9,
+      "protein_total": 46.3,
+      "fat_total": 8.8,
+      "carb_total": 50.5,
+      "fiber_total": 10.1,
+      "sodium_total": 144.8,
+      "sat_fat_total": 0.8
+     },
+     "edible_grams": 395.0,
+     "per100g": {
+      "kcal_total": 113.1,
+      "protein_total": 11.7,
+      "fat_total": 2.2,
+      "carb_total": 12.8,
+      "fiber_total": 2.6,
+      "sodium_total": 36.7,
+      "sat_fat_total": 0.2
+     },
+     "nutrition_known": true,
+     "recipe_id": "R013",
+     "portion_multiplier": 1.0
+    },
+    {
+     "role": "晚餐",
+     "name": "牛排玉米扁豆菠菜",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "牛排",
+       "qty": 130.0,
+       "unit": "g",
+       "buy": 130.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 150.0,
+       "unit": "g",
+       "buy": 150.0
+      },
+      {
+       "name": "玉米粒",
+       "qty": 200.0,
+       "unit": "g",
+       "buy": 200.0
+      },
+      {
+       "name": "扁豆",
+       "qty": 60.0,
+       "unit": "g",
+       "buy": 60.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 6.0,
+       "unit": "g",
+       "buy": 6.0
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "孜然"
+     ],
+     "nutrition": {
+      "kcal_total": 475.1,
+      "protein_total": 37.4,
+      "fat_total": 18.8,
+      "carb_total": 39.2,
+      "fiber_total": 8.9,
+      "sodium_total": 211.6,
+      "sat_fat_total": 5.9
+     },
+     "edible_grams": 546.0,
+     "per100g": {
+      "kcal_total": 87.0,
+      "protein_total": 6.8,
+      "fat_total": 3.4,
+      "carb_total": 7.2,
+      "fiber_total": 1.6,
+      "sodium_total": 38.8,
+      "sat_fat_total": 1.1
+     },
+     "nutrition_known": true,
+     "recipe_id": "R022",
+     "portion_multiplier": 1.0
+    }
+   ]
+  },
+  {
+   "day": 11,
+   "date": "11/15",
+   "weekday": "周日",
+   "iso_date": "2026-11-15",
+   "theme": "有氧日",
+   "active_min": 31,
+   "total_min": 46,
+   "dishes": [
+    {
+     "role": "早餐",
+     "name": "燕麦蛋奶碗",
+     "cook_min": 6,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "燕麦",
+       "qty": 24.5,
+       "unit": "g",
+       "buy": 24.5
+      },
+      {
+       "name": "半脱脂奶",
+       "qty": 77.0,
+       "unit": "g",
+       "buy": 77.0
+      },
+      {
+       "name": "鸡蛋",
+       "qty": 70.0,
+       "unit": "g",
+       "buy": 70.0
+      },
+      {
+       "name": "香蕉",
+       "qty": 63.0,
+       "unit": "g",
+       "buy": 63.0
+      },
+      {
+       "name": "杏仁",
+       "qty": 7.0,
+       "unit": "g",
+       "buy": 7.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 21.0,
+       "unit": "g",
+       "buy": 21.0
+      }
+     ],
+     "pantry": [
+      "盐"
+     ],
+     "nutrition": {
+      "kcal_total": 336.0,
+      "protein_total": 19.1,
+      "fat_total": 12.5,
+      "carb_total": 38.1,
+      "fiber_total": 4.3,
+      "sodium_total": 142.3,
+      "sat_fat_total": 3.5
+     },
+     "edible_grams": 262.5,
+     "per100g": {
+      "kcal_total": 128.0,
+      "protein_total": 7.3,
+      "fat_total": 4.8,
+      "carb_total": 14.5,
+      "fiber_total": 1.6,
+      "sodium_total": 54.2,
+      "sat_fat_total": 1.3
+     },
+     "nutrition_known": true,
+     "recipe_id": "R001",
+     "portion_multiplier": 0.7
+    },
+    {
+     "role": "午餐",
+     "name": "金枪鱼鹰嘴豆沙拉",
+     "cook_min": 10,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "金枪鱼",
+       "qty": 156.0,
+       "unit": "g",
+       "buy": 156.0
+      },
+      {
+       "name": "鹰嘴豆",
+       "qty": 91.0,
+       "unit": "g",
+       "buy": 91.0
+      },
+      {
+       "name": "黄瓜",
+       "qty": 156.0,
+       "unit": "g",
+       "buy": 156.0
+      },
+      {
+       "name": "菠菜",
+       "qty": 104.0,
+       "unit": "g",
+       "buy": 104.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 6.5,
+       "unit": "g",
+       "buy": 6.5
+      }
+     ],
+     "pantry": [
+      "盐",
+      "柠檬",
+      "黑胡椒"
+     ],
+     "nutrition": {
+      "kcal_total": 581.0,
+      "protein_total": 60.2,
+      "fat_total": 11.4,
+      "carb_total": 65.7,
+      "fiber_total": 13.1,
+      "sodium_total": 188.2,
+      "sat_fat_total": 1.0
+     },
+     "edible_grams": 513.5,
+     "per100g": {
+      "kcal_total": 113.1,
+      "protein_total": 11.7,
+      "fat_total": 2.2,
+      "carb_total": 12.8,
+      "fiber_total": 2.6,
+      "sodium_total": 36.7,
+      "sat_fat_total": 0.2
+     },
+     "nutrition_known": true,
+     "recipe_id": "R013",
+     "portion_multiplier": 1.3
+    },
+    {
+     "role": "晚餐",
+     "name": "鸡腿蘑菇藜麦饭",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鸡腿肉",
+       "qty": 143.0,
+       "unit": "g",
+       "buy": 143.0
+      },
+      {
+       "name": "藜麦",
+       "qty": 58.5,
+       "unit": "g",
+       "buy": 58.5
+      },
+      {
+       "name": "蘑菇",
+       "qty": 156.0,
+       "unit": "g",
+       "buy": 156.0
+      },
+      {
+       "name": "羽衣甘蓝",
+       "qty": 78.0,
+       "unit": "g",
+       "buy": 78.0
+      },
+      {
+       "name": "橄榄油",
+       "qty": 6.5,
+       "unit": "g",
+       "buy": 6.5
+      }
+     ],
+     "pantry": [
+      "盐",
+      "姜",
+      "大蒜"
+     ],
+     "nutrition": {
+      "kcal_total": 567.3,
+      "protein_total": 45.2,
+      "fat_total": 20.8,
+      "carb_total": 44.7,
+      "fiber_total": 9.6,
+      "sodium_total": 170.8,
+      "sat_fat_total": 3.8
+     },
+     "edible_grams": 442.0,
+     "per100g": {
+      "kcal_total": 128.3,
+      "protein_total": 10.2,
+      "fat_total": 4.7,
+      "carb_total": 10.1,
+      "fiber_total": 2.2,
+      "sodium_total": 38.6,
+      "sat_fat_total": 0.9
+     },
+     "nutrition_known": true,
+     "recipe_id": "R011",
+     "portion_multiplier": 1.3
+    }
+   ]
+  }
+ ]
+}

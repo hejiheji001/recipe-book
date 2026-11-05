@@ -53,6 +53,9 @@ elif [ -f "$WY" ]; then
   python3 "$ROOT/scripts/build_menu_json.py" "$WY" "$CODE"
 fi
 
+# 定制清单（定制/<slug>/ → custom/<slug>/）：只读定制目录，家庭菜单构建不会覆盖它
+python3 "$ROOT/scripts/sync_custom.py"
+
 # 版本号：每次发布把 sw.js 的 VER 换成时间戳，触发新 SW 安装
 V=$(date '+%Y%m%d%H%M%S')
 sed -i.bak "s/^const VER = .*/const VER = '$V';/" "$HERE/sw.js" && rm -f "$HERE/sw.js.bak"

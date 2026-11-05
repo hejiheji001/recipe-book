@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "menu": "menu.json",
- "shopping": "shopping.json",
- "updated": "2026-11-05 14:13",
- "code": "H1-11-05"
+ "shopping": "shopping.csv",
+ "updated": "2026-11-05 14:38",
+ "code": "W1-11-02"
 }
