@@ -1,13 +1,7 @@
 {
  "schema": 1,
- "slug": "birmingham-809",
- "name": "伯明翰 809",
- "family_id": "birmingham",
- "token": "809",
- "owner": "健康模型（个人健康饮食）",
- "note": "这户的推荐菜谱/采购由健康模型维护，家庭菜单构建不会写入此目录",
- "code": "H1-11-05",
- "updated": "2026-11-05 17:05",
  "menu": "menu.json",
- "shopping": "shopping.json"
+ "shopping": "shopping.json",
+ "updated": "2026-11-05 18:15",
+ "code": "H1-11-05"
 }

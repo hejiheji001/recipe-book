@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-05T17:05:53",
+ "generated": "2026-11-05T18:15:30",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "items": [
@@ -93,29 +93,58 @@
    }
   },
   {
-   "category": "蔬菜",
-   "name": "西葫芦",
-   "buy_qty": 1000.0,
+   "category": "干货",
+   "name": "鹰嘴豆",
+   "buy_qty": 800.0,
    "buy_unit": "g",
-   "buy_text": "2 × 500 g（1000g）",
+   "buy_text": "2 × 400 g（沥干 265 g）（800g）",
    "packs": 2,
-   "price_gbp": 1.39,
-   "name_en": "Courgettes",
-   "pack_size": "500 g",
-   "unit_price_gbp": 1.39,
-   "line_total_gbp": 2.78,
+   "price_gbp": 0.41,
+   "name_en": "Chickpeas",
+   "pack_size": "400 g（沥干 265 g）",
+   "unit_price_gbp": 0.41,
+   "line_total_gbp": 0.82,
    "used_on": [
+    "周二",
     "周三",
     "周四",
-    "周五"
+    "周五",
+    "周六",
+    "周日"
    ],
-   "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+   "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
    "product": {
-    "name": "Courgettes",
+    "name": "Chickpeas",
     "store": "ALDI",
-    "size": "500 g",
-    "price_gbp": 1.39,
-    "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
+    "size": "400 g（沥干 265 g）",
+    "price_gbp": 0.41,
+    "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
+   }
+  },
+  {
+   "category": "干货",
+   "name": "扁豆",
+   "buy_qty": 800.0,
+   "buy_unit": "g",
+   "buy_text": "2 × 400 g（沥干 230 g）（800g）",
+   "packs": 2,
+   "price_gbp": 0.45,
+   "name_en": "Tinned Lentils",
+   "pack_size": "400 g（沥干 230 g）",
+   "unit_price_gbp": 0.45,
+   "line_total_gbp": 0.9,
+   "used_on": [
+    "周一",
+    "周五",
+    "周六"
+   ],
+   "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
+   "product": {
+    "name": "Tinned Lentils",
+    "store": "ALDI",
+    "size": "400 g（沥干 230 g）",
+    "price_gbp": 0.45,
+    "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
    }
   },
   {
@@ -144,32 +173,29 @@
    }
   },
   {
-   "category": "干货",
-   "name": "鹰嘴豆",
-   "buy_qty": 400.0,
+   "category": "蔬菜",
+   "name": "西葫芦",
+   "buy_qty": 1000.0,
    "buy_unit": "g",
-   "buy_text": "1 × 400 g（400g）",
-   "packs": 1,
-   "price_gbp": 0.41,
-   "name_en": "Chickpeas",
-   "pack_size": "400 g",
-   "unit_price_gbp": 0.41,
-   "line_total_gbp": 0.41,
+   "buy_text": "2 × 500 g（1000g）",
+   "packs": 2,
+   "price_gbp": 1.39,
+   "name_en": "Courgettes",
+   "pack_size": "500 g",
+   "unit_price_gbp": 1.39,
+   "line_total_gbp": 2.78,
    "used_on": [
-    "周二",
     "周三",
     "周四",
-    "周五",
-    "周六",
-    "周日"
+    "周五"
    ],
-   "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
    "product": {
-    "name": "Chickpeas",
+    "name": "Courgettes",
     "store": "ALDI",
-    "size": "400 g",
-    "price_gbp": 0.41,
-    "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
+    "size": "500 g",
+    "price_gbp": 1.39,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
    }
   },
   {
@@ -196,32 +222,6 @@
     "size": "1 Each",
     "price_gbp": 0.99,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
-   }
-  },
-  {
-   "category": "干货",
-   "name": "扁豆",
-   "buy_qty": 400.0,
-   "buy_unit": "g",
-   "buy_text": "1 × 400 g（400g）",
-   "packs": 1,
-   "price_gbp": 0.45,
-   "name_en": "Tinned Lentils",
-   "pack_size": "400 g",
-   "unit_price_gbp": 0.45,
-   "line_total_gbp": 0.45,
-   "used_on": [
-    "周一",
-    "周五",
-    "周六"
-   ],
-   "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
-   "product": {
-    "name": "Tinned Lentils",
-    "store": "ALDI",
-    "size": "400 g",
-    "price_gbp": 0.45,
-    "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
    }
   },
   {
@@ -346,29 +346,58 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "西葫芦",
-     "buy_qty": 500.0,
+     "category": "干货",
+     "name": "鹰嘴豆",
+     "buy_qty": 800.0,
      "buy_unit": "g",
-     "buy_text": "1 × 500 g（500g）",
-     "packs": 1,
-     "price_gbp": 1.39,
-     "name_en": "Courgettes",
-     "pack_size": "500 g",
-     "unit_price_gbp": 1.39,
-     "line_total_gbp": 1.39,
+     "buy_text": "2 × 400 g（沥干 265 g）（800g）",
+     "packs": 2,
+     "price_gbp": 0.41,
+     "name_en": "Chickpeas",
+     "pack_size": "400 g（沥干 265 g）",
+     "unit_price_gbp": 0.41,
+     "line_total_gbp": 0.82,
      "used_on": [
+      "周二",
       "周三",
       "周四",
-      "周五"
+      "周五",
+      "周六",
+      "周日"
      ],
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+     "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
      "product": {
-      "name": "Courgettes",
+      "name": "Chickpeas",
       "store": "ALDI",
-      "size": "500 g",
-      "price_gbp": 1.39,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
+      "size": "400 g（沥干 265 g）",
+      "price_gbp": 0.41,
+      "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "扁豆",
+     "buy_qty": 800.0,
+     "buy_unit": "g",
+     "buy_text": "2 × 400 g（沥干 230 g）（800g）",
+     "packs": 2,
+     "price_gbp": 0.45,
+     "name_en": "Tinned Lentils",
+     "pack_size": "400 g（沥干 230 g）",
+     "unit_price_gbp": 0.45,
+     "line_total_gbp": 0.9,
+     "used_on": [
+      "周一",
+      "周五",
+      "周六"
+     ],
+     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
+     "product": {
+      "name": "Tinned Lentils",
+      "store": "ALDI",
+      "size": "400 g（沥干 230 g）",
+      "price_gbp": 0.45,
+      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
      }
     },
     {
@@ -397,58 +426,29 @@
      }
     },
     {
-     "category": "干货",
-     "name": "鹰嘴豆",
-     "buy_qty": 400.0,
+     "category": "蔬菜",
+     "name": "西葫芦",
+     "buy_qty": 500.0,
      "buy_unit": "g",
-     "buy_text": "1 × 400 g（400g）",
+     "buy_text": "1 × 500 g（500g）",
      "packs": 1,
-     "price_gbp": 0.41,
-     "name_en": "Chickpeas",
-     "pack_size": "400 g",
-     "unit_price_gbp": 0.41,
-     "line_total_gbp": 0.41,
+     "price_gbp": 1.39,
+     "name_en": "Courgettes",
+     "pack_size": "500 g",
+     "unit_price_gbp": 1.39,
+     "line_total_gbp": 1.39,
      "used_on": [
-      "周二",
       "周三",
       "周四",
-      "周五",
-      "周六",
-      "周日"
+      "周五"
      ],
-     "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
      "product": {
-      "name": "Chickpeas",
+      "name": "Courgettes",
       "store": "ALDI",
-      "size": "400 g",
-      "price_gbp": 0.41,
-      "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
-     }
-    },
-    {
-     "category": "干货",
-     "name": "扁豆",
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "buy_text": "1 × 400 g（400g）",
-     "packs": 1,
-     "price_gbp": 0.45,
-     "name_en": "Tinned Lentils",
-     "pack_size": "400 g",
-     "unit_price_gbp": 0.45,
-     "line_total_gbp": 0.45,
-     "used_on": [
-      "周一",
-      "周五",
-      "周六"
-     ],
-     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
-     "product": {
-      "name": "Tinned Lentils",
-      "store": "ALDI",
-      "size": "400 g",
-      "price_gbp": 0.45,
-      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
+      "size": "500 g",
+      "price_gbp": 1.39,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
      }
     },
     {
@@ -480,7 +480,7 @@
      }
     }
    ],
-   "subtotal_gbp": 11.26
+   "subtotal_gbp": 12.12
   },
   {
    "n": 2,
@@ -629,5 +629,5 @@
    "subtotal_gbp": 10.83
   }
  ],
- "total_gbp": 22.09
+ "total_gbp": 22.95
 }

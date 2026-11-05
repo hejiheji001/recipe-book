@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "updated": "2026-11-05 17:15",
+  "updated": "2026-11-05 18:15",
   "note": "该户有定制则优先用这里的清单，没有则回退 week/（全站默认）",
   "sets": [
     {
       "slug": "birmingham-809",
-      "name": "伯明翰 809",
-      "family_id": "birmingham",
+      "name": "birmingham-809",
+      "family_id": null,
       "code": "H1-11-05",
-      "updated": "2026-11-05 17:05",
-      "owner": "健康模型（个人健康饮食）",
+      "updated": "2026-11-05 18:15",
+      "owner": null,
       "menu": "custom/birmingham-809/menu.json",
       "shopping": "custom/birmingham-809/shopping.json",
       "meta": "custom/birmingham-809/meta.json",
