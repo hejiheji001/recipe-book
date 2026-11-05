@@ -46,7 +46,8 @@ FAMILY = _read_sync("fam")
 SUFFIX = "_stock"
 TOKEN = "809"
 
-COLS = ["名称", "存放方式", "是否开封", "入库日期", "剩余天数", "是否过期"]
+COLS = ["名称", "数量", "单位", "估算克数", "克数口径",
+        "存放方式", "是否开封", "入库日期", "剩余天数", "是否过期"]
 
 
 def fetch_cloud(token=TOKEN, timeout=20):
@@ -93,12 +94,29 @@ def days_between(since, today):
     return (today - d).days
 
 
+def measure(it, units, name):
+    """数量/单位/克数。单位缺省用食材的默认单位；换算不出来就留空并标「未知」。"""
+    info = units.get(name) or {}
+    unit = it.get("unit") or info.get("u") or "g"
+    qty = it.get("qty")
+    try:
+        qty = float(qty)
+    except (TypeError, ValueError):
+        qty = ""
+    per = (info.get("g") or {}).get(unit)
+    if qty == "" or not per:
+        return qty, unit, "", ("未知" if qty != "" else "")
+    return qty, unit, round(qty * per), (info.get("src") or {}).get(unit, "未知")
+
+
 def rows_of(doc, today):
     import ing_pool
     import storage_days
+    import stock_units
     pool = ing_pool.load_pool()
     storage_days.mount(pool)
     table = storage_days.shelf_table()
+    units = stock_units.build(pool.keys())
 
     out = []
     raw = doc.get("items") or {}
@@ -122,8 +140,13 @@ def rows_of(doc, today):
         if used is None:
             continue
         left = days - used
+        qty, unit, grams, gsrc = measure(it, units, name)
         out.append({
             "名称": name,
+            "数量": qty,
+            "单位": unit,
+            "估算克数": grams,
+            "克数口径": gsrc,
             "存放方式": mode,
             "是否开封": "是" if opened else "否",
             "入库日期": str(it.get("since"))[:10],
