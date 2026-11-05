@@ -3,7 +3,7 @@
  "code": "H1-11-05",
  "week": "2026-11-05 – 2026-11-15",
  "family": "伯明翰809",
- "generated": "2026-11-05T15:46:23",
+ "generated": "2026-11-05T16:52:26",
  "source": "健康减肥/01-事实/饮食/餐单.csv + 食谱库.csv",
  "nutrition_basis": "整份（一餐全部食材，非家庭整锅）",
  "servings_hint": 1.0,
@@ -279,8 +279,14 @@
     }
    ],
    "cook": {
-    "span_min": 24,
-    "hands_min": 24,
+    "span_min": 28,
+    "hands_min": 22,
+    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
+    "merged_dishes": [
+     "牛肉鹰嘴豆羽衣甘蓝炖",
+     "鳕鱼西葫芦鹰嘴豆",
+     "牛奶草莓"
+    ],
     "timeline": [
      {
       "t": 0.0,
@@ -289,8 +295,7 @@
       "dish": "牛肉鹰嘴豆羽衣甘蓝炖",
       "text": "洋葱40g切丁+蒜5g炒香",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
       "t": 4.0,
@@ -326,29 +331,26 @@
       "dish": "鳕鱼西葫芦鹰嘴豆",
       "text": "蘑菇100g下锅",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
       "t": 14.0,
-      "dur": 2.5,
+      "dur": 2.0,
       "kind": "prep",
       "dish": "鳕鱼西葫芦鹰嘴豆",
       "text": "加鹰嘴豆45g+水80ml",
-      "hands": 2.5,
-      "inferred": true
+      "hands": 2.0
      },
      {
-      "t": 16.5,
-      "dur": 2.5,
+      "t": 16.0,
+      "dur": 1.5,
       "kind": "prep",
-      "dish": "牛奶草莓",
-      "text": "半脱脂奶150ml倒杯",
-      "hands": 2.5,
-      "inferred": true
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "鳕鱼170g切块铺面",
+      "hands": 1.5
      },
      {
-      "t": 16.5,
+      "t": 17.5,
       "dur": 6.0,
       "kind": "free",
       "dish": "鳕鱼西葫芦鹰嘴豆",
@@ -357,30 +359,23 @@
       "device": "hob"
      },
      {
-      "t": 19.0,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "牛奶草莓",
-      "text": "草莓100g洗净对半切。",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 21.5,
+      "t": 23.5,
       "dur": 2.0,
       "kind": "watch",
       "dish": "牛肉鹰嘴豆羽衣甘蓝炖",
       "text": "最后下羽衣甘蓝120g煮2分钟，加盐。",
       "hands": 2.0,
       "device": "hob"
+     },
+     {
+      "t": 25.5,
+      "dur": 2.5,
+      "kind": "prep",
+      "dish": "牛奶草莓",
+      "text": "半脱脂奶150ml倒杯；草莓100g洗净对半切。",
+      "hands": 2.5
      }
-    ],
-    "merged_dishes": [
-     "牛肉鹰嘴豆羽衣甘蓝炖",
-     "鳕鱼西葫芦鹰嘴豆",
-     "牛奶草莓"
-    ],
-    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道"
+    ]
    }
   },
   {
@@ -616,11 +611,24 @@
     }
    ],
    "cook": {
-    "span_min": 26,
-    "hands_min": 20,
+    "span_min": 30,
+    "hands_min": 24,
+    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
+    "merged_dishes": [
+     "鸡腿蘑菇藜麦饭",
+     "鳕鱼西葫芦鹰嘴豆"
+    ],
     "timeline": [
      {
       "t": 0.0,
+      "dur": 1.0,
+      "kind": "prep",
+      "dish": "鸡腿蘑菇藜麦饭",
+      "text": "藜麦31.5g煮15分钟",
+      "hands": 1.0
+     },
+     {
+      "t": 1.0,
       "dur": 15.0,
       "kind": "free",
       "dish": "鸡腿蘑菇藜麦饭",
@@ -629,44 +637,7 @@
       "device": "hob"
      },
      {
-      "t": 0.0,
-      "dur": 3.0,
-      "kind": "watch",
-      "dish": "鳕鱼西葫芦鹰嘴豆",
-      "text": "蒜5g爆香，西葫芦234g切块炒3分钟",
-      "hands": 3.0,
-      "device": "hob"
-     },
-     {
-      "t": 3.0,
-      "dur": 4.0,
-      "kind": "watch",
-      "dish": "鳕鱼西葫芦鹰嘴豆",
-      "text": "蘑菇130g下锅",
-      "hands": 4.0,
-      "device": "hob",
-      "inferred": true
-     },
-     {
-      "t": 7.0,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "鳕鱼西葫芦鹰嘴豆",
-      "text": "加鹰嘴豆58.5g+水80ml",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 9.5,
-      "dur": 6.0,
-      "kind": "free",
-      "dish": "鳕鱼西葫芦鹰嘴豆",
-      "text": "鳕鱼221g切块铺面盖盖焖6分钟，盐黑胡椒。",
-      "hands": 0.0,
-      "device": "hob"
-     },
-     {
-      "t": 15.0,
+      "t": 1.0,
       "dur": 5.0,
       "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
@@ -675,29 +646,75 @@
       "device": "hob"
      },
      {
-      "t": 20.0,
+      "t": 6.0,
       "dur": 4.0,
       "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
       "text": "蘑菇84g切片炒出水",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
-      "t": 24.0,
+      "t": 10.0,
       "dur": 2.0,
       "kind": "prep",
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "西葫芦234g切块",
+      "hands": 2.0
+     },
+     {
+      "t": 12.0,
+      "dur": 3.0,
+      "kind": "watch",
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "蒜5g爆香，西葫芦234g切块炒3分钟",
+      "hands": 3.0,
+      "device": "hob"
+     },
+     {
+      "t": 15.0,
+      "dur": 4.0,
+      "kind": "watch",
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "蘑菇130g下锅",
+      "hands": 4.0,
+      "device": "hob"
+     },
+     {
+      "t": 19.0,
+      "dur": 2.0,
+      "kind": "prep",
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "加鹰嘴豆58.5g+水80ml",
+      "hands": 2.0
+     },
+     {
+      "t": 21.0,
+      "dur": 1.5,
+      "kind": "prep",
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "鳕鱼221g切块铺面",
+      "hands": 1.5
+     },
+     {
+      "t": 22.5,
+      "dur": 6.0,
+      "kind": "free",
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "鳕鱼221g切块铺面盖盖焖6分钟，盐黑胡椒。",
+      "hands": 0.0,
+      "device": "hob"
+     },
+     {
+      "t": 28.5,
+      "dur": 2.0,
+      "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
       "text": "羽衣甘蓝42g最后2分钟，加盐。",
-      "hands": 2.0
+      "hands": 2.0,
+      "device": "hob"
      }
-    ],
-    "merged_dishes": [
-     "鸡腿蘑菇藜麦饭",
-     "鳕鱼西葫芦鹰嘴豆"
-    ],
-    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道"
+    ]
    }
   },
   {
@@ -908,11 +925,24 @@
     }
    ],
    "cook": {
-    "span_min": 17,
-    "hands_min": 13,
+    "span_min": 20,
+    "hands_min": 16,
+    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
+    "merged_dishes": [
+     "牛排薯条菠菜",
+     "鸡胸扁豆菠菜碗"
+    ],
     "timeline": [
      {
       "t": 0.0,
+      "dur": 1.0,
+      "kind": "prep",
+      "dish": "牛排薯条菠菜",
+      "text": "薯条150g平铺烤盘200℃",
+      "hands": 1.0
+     },
+     {
+      "t": 1.0,
       "dur": 12.0,
       "kind": "free",
       "dish": "牛排薯条菠菜",
@@ -921,25 +951,24 @@
       "device": "oven"
      },
      {
-      "t": 0.0,
-      "dur": 5.0,
+      "t": 1.0,
+      "dur": 1.0,
       "kind": "soak",
       "dish": "鸡胸扁豆菠菜碗",
       "text": "鸡胸肉200g切条用盐0.5g和黑胡椒1g腌5分钟",
       "hands": 1.0
      },
      {
-      "t": 5.0,
+      "t": 6.0,
       "dur": 4.0,
       "kind": "watch",
       "dish": "鸡胸扁豆菠菜碗",
       "text": "扁豆150g煮软沥干",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
-      "t": 9.0,
+      "t": 10.0,
       "dur": 4.0,
       "kind": "watch",
       "dish": "鸡胸扁豆菠菜碗",
@@ -948,7 +977,15 @@
       "device": "hob"
      },
      {
-      "t": 13.0,
+      "t": 16.0,
+      "dur": 1.5,
+      "kind": "prep",
+      "dish": "牛排薯条菠菜",
+      "text": "牛排130g回温后撒盐0.8g和黑胡椒1g",
+      "hands": 1.5
+     },
+     {
+      "t": 16.0,
       "dur": 3.0,
       "kind": "watch",
       "dish": "牛排薯条菠菜",
@@ -957,7 +994,7 @@
       "device": "hob"
      },
      {
-      "t": 16.0,
+      "t": 19.0,
       "dur": 1.0,
       "kind": "watch",
       "dish": "牛排薯条菠菜",
@@ -965,12 +1002,7 @@
       "hands": 1.0,
       "device": "hob"
      }
-    ],
-    "merged_dishes": [
-     "鸡胸扁豆菠菜碗",
-     "牛排薯条菠菜"
-    ],
-    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道"
+    ]
    }
   },
   {
@@ -1206,20 +1238,24 @@
     }
    ],
    "cook": {
-    "span_min": 26,
-    "hands_min": 21,
+    "span_min": 18,
+    "hands_min": 17,
+    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
+    "merged_dishes": [
+     "鸡腿蘑菇藜麦饭",
+     "金枪鱼鹰嘴豆沙拉"
+    ],
     "timeline": [
      {
       "t": 0.0,
-      "dur": 2.5,
+      "dur": 1.0,
       "kind": "prep",
-      "dish": "金枪鱼鹰嘴豆沙拉",
-      "text": "鹰嘴豆91g沥干",
-      "hands": 2.5,
-      "inferred": true
+      "dish": "鸡腿蘑菇藜麦饭",
+      "text": "藜麦58.5g煮15分钟",
+      "hands": 1.0
      },
      {
-      "t": 0.0,
+      "t": 1.0,
       "dur": 15.0,
       "kind": "free",
       "dish": "鸡腿蘑菇藜麦饭",
@@ -1228,34 +1264,15 @@
       "device": "hob"
      },
      {
-      "t": 2.5,
-      "dur": 2.5,
+      "t": 1.0,
+      "dur": 3.0,
       "kind": "prep",
       "dish": "金枪鱼鹰嘴豆沙拉",
-      "text": "金枪鱼156g沥干",
-      "hands": 2.5,
-      "inferred": true
+      "text": "鹰嘴豆91g沥干；金枪鱼156g沥干；黄瓜156g+菠菜104g切好",
+      "hands": 3.0
      },
      {
-      "t": 5.0,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "金枪鱼鹰嘴豆沙拉",
-      "text": "黄瓜156g+菠菜104g切好",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 7.5,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "金枪鱼鹰嘴豆沙拉",
-      "text": "橄榄油6.5g+柠檬10g+盐黑胡椒拌匀。",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 15.0,
+      "t": 4.0,
       "dur": 5.0,
       "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
@@ -1264,29 +1281,32 @@
       "device": "hob"
      },
      {
-      "t": 20.0,
+      "t": 9.0,
       "dur": 4.0,
       "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
       "text": "蘑菇156g切片炒出水",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
-      "t": 24.0,
+      "t": 13.0,
       "dur": 2.0,
-      "kind": "prep",
+      "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
       "text": "羽衣甘蓝78g最后2分钟，加盐。",
+      "hands": 2.0,
+      "device": "hob"
+     },
+     {
+      "t": 16.0,
+      "dur": 2.0,
+      "kind": "prep",
+      "dish": "金枪鱼鹰嘴豆沙拉",
+      "text": "橄榄油6.5g+柠檬10g+盐黑胡椒拌匀",
       "hands": 2.0
      }
-    ],
-    "merged_dishes": [
-     "金枪鱼鹰嘴豆沙拉",
-     "鸡腿蘑菇藜麦饭"
-    ],
-    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道"
+    ]
    }
   },
   {
@@ -1552,11 +1572,25 @@
     }
    ],
    "cook": {
-    "span_min": 29,
-    "hands_min": 25,
+    "span_min": 28,
+    "hands_min": 22,
+    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
+    "merged_dishes": [
+     "鸡腿蘑菇藜麦饭",
+     "鸡胸扁豆菠菜碗",
+     "苹果杏仁"
+    ],
     "timeline": [
      {
       "t": 0.0,
+      "dur": 1.0,
+      "kind": "prep",
+      "dish": "鸡腿蘑菇藜麦饭",
+      "text": "藜麦45g煮15分钟",
+      "hands": 1.0
+     },
+     {
+      "t": 1.0,
       "dur": 15.0,
       "kind": "free",
       "dish": "鸡腿蘑菇藜麦饭",
@@ -1565,25 +1599,24 @@
       "device": "hob"
      },
      {
-      "t": 0.0,
-      "dur": 5.0,
+      "t": 1.0,
+      "dur": 1.0,
       "kind": "soak",
       "dish": "鸡胸扁豆菠菜碗",
       "text": "鸡胸肉260g切条用盐0.5g和黑胡椒1g腌5分钟",
       "hands": 1.0
      },
      {
-      "t": 5.0,
+      "t": 6.0,
       "dur": 4.0,
       "kind": "watch",
       "dish": "鸡胸扁豆菠菜碗",
       "text": "扁豆195g煮软沥干",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
-      "t": 9.0,
+      "t": 10.0,
       "dur": 4.0,
       "kind": "watch",
       "dish": "鸡胸扁豆菠菜碗",
@@ -1592,16 +1625,7 @@
       "device": "hob"
      },
      {
-      "t": 13.0,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "苹果杏仁",
-      "text": "苹果120g洗净带皮直接吃",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 15.5,
+      "t": 16.0,
       "dur": 5.0,
       "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
@@ -1610,39 +1634,32 @@
       "device": "hob"
      },
      {
-      "t": 20.5,
+      "t": 21.0,
       "dur": 4.0,
       "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
       "text": "蘑菇120g切片炒出水",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
-      "t": 24.5,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "苹果杏仁",
-      "text": "杏仁12g抓一把。",
-      "hands": 2.5,
-      "inferred": true
+      "t": 25.0,
+      "dur": 2.0,
+      "kind": "watch",
+      "dish": "鸡腿蘑菇藜麦饭",
+      "text": "羽衣甘蓝60g最后2分钟，加盐。",
+      "hands": 2.0,
+      "device": "hob"
      },
      {
       "t": 27.0,
-      "dur": 2.0,
+      "dur": 1.0,
       "kind": "prep",
-      "dish": "鸡腿蘑菇藜麦饭",
-      "text": "羽衣甘蓝60g最后2分钟，加盐。",
-      "hands": 2.0
+      "dish": "苹果杏仁",
+      "text": "苹果120g洗净带皮直接吃；杏仁12g抓一把",
+      "hands": 1.0
      }
-    ],
-    "merged_dishes": [
-     "鸡胸扁豆菠菜碗",
-     "鸡腿蘑菇藜麦饭",
-     "苹果杏仁"
-    ],
-    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道"
+    ]
    }
   },
   {
@@ -1909,48 +1926,33 @@
     }
    ],
    "cook": {
-    "span_min": 29,
-    "hands_min": 22,
+    "span_min": 24,
+    "hands_min": 8,
+    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
+    "merged_dishes": [
+     "三文鱼藜麦羽衣甘蓝",
+     "鸡胸茄子鹰嘴豆煲",
+     "苹果杏仁"
+    ],
     "timeline": [
      {
       "t": 0.0,
-      "dur": 10.0,
-      "kind": "free",
+      "dur": 1.0,
+      "kind": "prep",
       "dish": "三文鱼藜麦羽衣甘蓝",
       "text": "烤箱200℃",
-      "hands": 0.0,
-      "device": "oven",
-      "inferred": true
+      "hands": 1.0
      },
      {
       "t": 0.0,
-      "dur": 5.0,
+      "dur": 1.0,
       "kind": "soak",
       "dish": "鸡胸茄子鹰嘴豆煲",
       "text": "茄子180g切块撒盐静置5分钟",
       "hands": 1.0
      },
      {
-      "t": 5.0,
-      "dur": 4.0,
-      "kind": "watch",
-      "dish": "鸡胸茄子鹰嘴豆煲",
-      "text": "鸡胸130g切块，蒜5g+洋葱40g炒香",
-      "hands": 4.0,
-      "device": "hob",
-      "inferred": true
-     },
-     {
-      "t": 9.0,
-      "dur": 8.0,
-      "kind": "watch",
-      "dish": "鸡胸茄子鹰嘴豆煲",
-      "text": "下茄子炒软，加鹰嘴豆50g+水100ml炖8分钟，盐黑胡椒。",
-      "hands": 8.0,
-      "device": "hob"
-     },
-     {
-      "t": 10.0,
+      "t": 1.0,
       "dur": 12.0,
       "kind": "free",
       "dish": "三文鱼藜麦羽衣甘蓝",
@@ -1959,49 +1961,58 @@
       "device": "oven"
      },
      {
-      "t": 17.0,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "苹果杏仁",
-      "text": "苹果84g洗净带皮直接吃",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 19.5,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "苹果杏仁",
-      "text": "杏仁8.4g抓一把。",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 22.0,
+      "t": 5.0,
       "dur": 4.0,
       "kind": "watch",
-      "dish": "三文鱼藜麦羽衣甘蓝",
-      "text": "藜麦65g另煮",
+      "dish": "鸡胸茄子鹰嘴豆煲",
+      "text": "鸡胸130g切块，蒜5g+洋葱40g炒香",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
-      "t": 26.0,
+      "t": 9.0,
+      "dur": 8.0,
+      "kind": "free",
+      "dish": "鸡胸茄子鹰嘴豆煲",
+      "text": "下茄子炒软，加鹰嘴豆50g+水100ml炖8分钟，盐黑胡椒。",
+      "hands": 0.0,
+      "device": "hob"
+     },
+     {
+      "t": 10.0,
       "dur": 3.0,
       "kind": "free",
       "dish": "三文鱼藜麦羽衣甘蓝",
-      "text": "羽衣甘蓝130g撕片拌橄榄油3.9g，最后3分钟同烤。",
+      "text": "羽衣甘蓝130g撕片拌橄榄油3.9g，最后3分钟同烤",
       "hands": 0.0,
       "device": "oven"
+     },
+     {
+      "t": 13.0,
+      "dur": 1.0,
+      "kind": "prep",
+      "dish": "三文鱼藜麦羽衣甘蓝",
+      "text": "藜麦65g另煮",
+      "hands": 1.0
+     },
+     {
+      "t": 14.0,
+      "dur": 10.0,
+      "kind": "free",
+      "dish": "三文鱼藜麦羽衣甘蓝",
+      "text": "藜麦65g另煮",
+      "hands": 0.0,
+      "device": "hob"
+     },
+     {
+      "t": 17.0,
+      "dur": 1.0,
+      "kind": "prep",
+      "dish": "苹果杏仁",
+      "text": "苹果84g洗净带皮直接吃；杏仁8.4g抓一把",
+      "hands": 1.0
      }
-    ],
-    "merged_dishes": [
-     "三文鱼藜麦羽衣甘蓝",
-     "鸡胸茄子鹰嘴豆煲",
-     "苹果杏仁"
-    ],
-    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道"
+    ]
    }
   },
   {
@@ -2281,11 +2292,25 @@
     }
    ],
    "cook": {
-    "span_min": 26,
+    "span_min": 32,
     "hands_min": 26,
+    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
+    "merged_dishes": [
+     "鸡腿蘑菇藜麦饭",
+     "鳕鱼西葫芦鹰嘴豆",
+     "牛奶草莓"
+    ],
     "timeline": [
      {
       "t": 0.0,
+      "dur": 1.0,
+      "kind": "prep",
+      "dish": "鸡腿蘑菇藜麦饭",
+      "text": "藜麦45g煮15分钟",
+      "hands": 1.0
+     },
+     {
+      "t": 1.0,
       "dur": 15.0,
       "kind": "free",
       "dish": "鸡腿蘑菇藜麦饭",
@@ -2294,62 +2319,7 @@
       "device": "hob"
      },
      {
-      "t": 0.0,
-      "dur": 3.0,
-      "kind": "watch",
-      "dish": "鳕鱼西葫芦鹰嘴豆",
-      "text": "蒜5g爆香，西葫芦126g切块炒3分钟",
-      "hands": 3.0,
-      "device": "hob"
-     },
-     {
-      "t": 3.0,
-      "dur": 4.0,
-      "kind": "watch",
-      "dish": "鳕鱼西葫芦鹰嘴豆",
-      "text": "蘑菇70g下锅",
-      "hands": 4.0,
-      "device": "hob",
-      "inferred": true
-     },
-     {
-      "t": 7.0,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "鳕鱼西葫芦鹰嘴豆",
-      "text": "加鹰嘴豆31.5g+水80ml",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 9.5,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "牛奶草莓",
-      "text": "半脱脂奶105ml倒杯",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 9.5,
-      "dur": 6.0,
-      "kind": "free",
-      "dish": "鳕鱼西葫芦鹰嘴豆",
-      "text": "鳕鱼119g切块铺面盖盖焖6分钟，盐黑胡椒。",
-      "hands": 0.0,
-      "device": "hob"
-     },
-     {
-      "t": 12.0,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "牛奶草莓",
-      "text": "草莓70g洗净对半切。",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 15.0,
+      "t": 1.0,
       "dur": 5.0,
       "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
@@ -2358,30 +2328,83 @@
       "device": "hob"
      },
      {
-      "t": 20.0,
+      "t": 6.0,
       "dur": 4.0,
       "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
       "text": "蘑菇120g切片炒出水",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
-      "t": 24.0,
+      "t": 10.0,
       "dur": 2.0,
       "kind": "prep",
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "西葫芦126g切块",
+      "hands": 2.0
+     },
+     {
+      "t": 12.0,
+      "dur": 3.0,
+      "kind": "watch",
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "蒜5g爆香，西葫芦126g切块炒3分钟",
+      "hands": 3.0,
+      "device": "hob"
+     },
+     {
+      "t": 15.0,
+      "dur": 4.0,
+      "kind": "watch",
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "蘑菇70g下锅",
+      "hands": 4.0,
+      "device": "hob"
+     },
+     {
+      "t": 19.0,
+      "dur": 2.0,
+      "kind": "prep",
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "加鹰嘴豆31.5g+水80ml",
+      "hands": 2.0
+     },
+     {
+      "t": 21.0,
+      "dur": 1.5,
+      "kind": "prep",
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "鳕鱼119g切块铺面",
+      "hands": 1.5
+     },
+     {
+      "t": 22.5,
+      "dur": 6.0,
+      "kind": "free",
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "鳕鱼119g切块铺面盖盖焖6分钟，盐黑胡椒。",
+      "hands": 0.0,
+      "device": "hob"
+     },
+     {
+      "t": 28.5,
+      "dur": 2.0,
+      "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
       "text": "羽衣甘蓝60g最后2分钟，加盐。",
+      "hands": 2.0,
+      "device": "hob"
+     },
+     {
+      "t": 30.5,
+      "dur": 2.0,
+      "kind": "prep",
+      "dish": "牛奶草莓",
+      "text": "半脱脂奶105ml倒杯；草莓70g洗净对半切",
       "hands": 2.0
      }
-    ],
-    "merged_dishes": [
-     "鸡腿蘑菇藜麦饭",
-     "鳕鱼西葫芦鹰嘴豆",
-     "牛奶草莓"
-    ],
-    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道"
+    ]
    }
   },
   {
@@ -2654,8 +2677,14 @@
     }
    ],
    "cook": {
-    "span_min": 24,
-    "hands_min": 24,
+    "span_min": 28,
+    "hands_min": 22,
+    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
+    "merged_dishes": [
+     "牛肉鹰嘴豆羽衣甘蓝炖",
+     "鳕鱼西葫芦鹰嘴豆",
+     "牛奶草莓"
+    ],
     "timeline": [
      {
       "t": 0.0,
@@ -2664,8 +2693,7 @@
       "dish": "牛肉鹰嘴豆羽衣甘蓝炖",
       "text": "洋葱40g切丁+蒜5g炒香",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
       "t": 4.0,
@@ -2701,29 +2729,26 @@
       "dish": "鳕鱼西葫芦鹰嘴豆",
       "text": "蘑菇100g下锅",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
       "t": 14.0,
-      "dur": 2.5,
+      "dur": 2.0,
       "kind": "prep",
       "dish": "鳕鱼西葫芦鹰嘴豆",
       "text": "加鹰嘴豆45g+水80ml",
-      "hands": 2.5,
-      "inferred": true
+      "hands": 2.0
      },
      {
-      "t": 16.5,
-      "dur": 2.5,
+      "t": 16.0,
+      "dur": 1.5,
       "kind": "prep",
-      "dish": "牛奶草莓",
-      "text": "半脱脂奶150ml倒杯",
-      "hands": 2.5,
-      "inferred": true
+      "dish": "鳕鱼西葫芦鹰嘴豆",
+      "text": "鳕鱼170g切块铺面",
+      "hands": 1.5
      },
      {
-      "t": 16.5,
+      "t": 17.5,
       "dur": 6.0,
       "kind": "free",
       "dish": "鳕鱼西葫芦鹰嘴豆",
@@ -2732,30 +2757,23 @@
       "device": "hob"
      },
      {
-      "t": 19.0,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "牛奶草莓",
-      "text": "草莓100g洗净对半切。",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 21.5,
+      "t": 23.5,
       "dur": 2.0,
       "kind": "watch",
       "dish": "牛肉鹰嘴豆羽衣甘蓝炖",
       "text": "最后下羽衣甘蓝120g煮2分钟，加盐。",
       "hands": 2.0,
       "device": "hob"
+     },
+     {
+      "t": 25.5,
+      "dur": 2.5,
+      "kind": "prep",
+      "dish": "牛奶草莓",
+      "text": "半脱脂奶150ml倒杯；草莓100g洗净对半切。",
+      "hands": 2.5
      }
-    ],
-    "merged_dishes": [
-     "牛肉鹰嘴豆羽衣甘蓝炖",
-     "鳕鱼西葫芦鹰嘴豆",
-     "牛奶草莓"
-    ],
-    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道"
+    ]
    }
   },
   {
@@ -2966,11 +2984,24 @@
     }
    ],
    "cook": {
-    "span_min": 17,
-    "hands_min": 13,
+    "span_min": 20,
+    "hands_min": 16,
+    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
+    "merged_dishes": [
+     "牛排薯条菠菜",
+     "鸡胸扁豆菠菜碗"
+    ],
     "timeline": [
      {
       "t": 0.0,
+      "dur": 1.0,
+      "kind": "prep",
+      "dish": "牛排薯条菠菜",
+      "text": "薯条150g平铺烤盘200℃",
+      "hands": 1.0
+     },
+     {
+      "t": 1.0,
       "dur": 12.0,
       "kind": "free",
       "dish": "牛排薯条菠菜",
@@ -2979,25 +3010,24 @@
       "device": "oven"
      },
      {
-      "t": 0.0,
-      "dur": 5.0,
+      "t": 1.0,
+      "dur": 1.0,
       "kind": "soak",
       "dish": "鸡胸扁豆菠菜碗",
       "text": "鸡胸肉200g切条用盐0.5g和黑胡椒1g腌5分钟",
       "hands": 1.0
      },
      {
-      "t": 5.0,
+      "t": 6.0,
       "dur": 4.0,
       "kind": "watch",
       "dish": "鸡胸扁豆菠菜碗",
       "text": "扁豆150g煮软沥干",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
-      "t": 9.0,
+      "t": 10.0,
       "dur": 4.0,
       "kind": "watch",
       "dish": "鸡胸扁豆菠菜碗",
@@ -3006,7 +3036,15 @@
       "device": "hob"
      },
      {
-      "t": 13.0,
+      "t": 16.0,
+      "dur": 1.5,
+      "kind": "prep",
+      "dish": "牛排薯条菠菜",
+      "text": "牛排130g回温后撒盐0.8g和黑胡椒1g",
+      "hands": 1.5
+     },
+     {
+      "t": 16.0,
       "dur": 3.0,
       "kind": "watch",
       "dish": "牛排薯条菠菜",
@@ -3015,7 +3053,7 @@
       "device": "hob"
      },
      {
-      "t": 16.0,
+      "t": 19.0,
       "dur": 1.0,
       "kind": "watch",
       "dish": "牛排薯条菠菜",
@@ -3023,12 +3061,7 @@
       "hands": 1.0,
       "device": "hob"
      }
-    ],
-    "merged_dishes": [
-     "鸡胸扁豆菠菜碗",
-     "牛排薯条菠菜"
-    ],
-    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道"
+    ]
    }
   },
   {
@@ -3258,8 +3291,13 @@
     }
    ],
    "cook": {
-    "span_min": 20,
-    "hands_min": 20,
+    "span_min": 15,
+    "hands_min": 15,
+    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
+    "merged_dishes": [
+     "牛排玉米扁豆菠菜",
+     "金枪鱼鹰嘴豆沙拉"
+    ],
     "timeline": [
      {
       "t": 0.0,
@@ -3268,70 +3306,43 @@
       "dish": "牛排玉米扁豆菠菜",
       "text": "扁豆60g煮软沥干",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
-     },
-     {
-      "t": 4.0,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "金枪鱼鹰嘴豆沙拉",
-      "text": "鹰嘴豆70g沥干",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 6.5,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "金枪鱼鹰嘴豆沙拉",
-      "text": "金枪鱼120g沥干",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 9.0,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "金枪鱼鹰嘴豆沙拉",
-      "text": "黄瓜120g+菠菜80g切好",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 11.5,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "金枪鱼鹰嘴豆沙拉",
-      "text": "橄榄油5g+柠檬10g+盐黑胡椒拌匀。",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 14.0,
-      "dur": 1.5,
-      "kind": "watch",
-      "dish": "牛排玉米扁豆菠菜",
-      "text": "牛排130g撒盐0.8g和孜然1g，大火每面1.5分钟静置切片",
-      "hands": 1.5,
       "device": "hob"
      },
      {
-      "t": 15.5,
-      "dur": 4.0,
+      "t": 4.0,
+      "dur": 3.0,
+      "kind": "prep",
+      "dish": "金枪鱼鹰嘴豆沙拉",
+      "text": "鹰嘴豆70g沥干；金枪鱼120g沥干；黄瓜120g+菠菜80g切好",
+      "hands": 3.0
+     },
+     {
+      "t": 7.0,
+      "dur": 3.0,
+      "kind": "watch",
+      "dish": "牛排玉米扁豆菠菜",
+      "text": "牛排130g撒盐0.8g和孜然1g，大火每面1.5分钟静置切片",
+      "hands": 3.0,
+      "device": "hob"
+     },
+     {
+      "t": 10.0,
+      "dur": 3.0,
       "kind": "watch",
       "dish": "牛排玉米扁豆菠菜",
       "text": "同锅橄榄油6g炒玉米粒200g三分钟，下菠菜150g炒软，拌入扁豆。",
-      "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "hands": 3.0,
+      "device": "hob"
+     },
+     {
+      "t": 13.0,
+      "dur": 2.0,
+      "kind": "prep",
+      "dish": "金枪鱼鹰嘴豆沙拉",
+      "text": "橄榄油5g+柠檬10g+盐黑胡椒拌匀",
+      "hands": 2.0
      }
-    ],
-    "merged_dishes": [
-     "金枪鱼鹰嘴豆沙拉",
-     "牛排玉米扁豆菠菜"
-    ],
-    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道"
+    ]
    }
   },
   {
@@ -3567,20 +3578,24 @@
     }
    ],
    "cook": {
-    "span_min": 26,
-    "hands_min": 21,
+    "span_min": 18,
+    "hands_min": 17,
+    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
+    "merged_dishes": [
+     "鸡腿蘑菇藜麦饭",
+     "金枪鱼鹰嘴豆沙拉"
+    ],
     "timeline": [
      {
       "t": 0.0,
-      "dur": 2.5,
+      "dur": 1.0,
       "kind": "prep",
-      "dish": "金枪鱼鹰嘴豆沙拉",
-      "text": "鹰嘴豆91g沥干",
-      "hands": 2.5,
-      "inferred": true
+      "dish": "鸡腿蘑菇藜麦饭",
+      "text": "藜麦58.5g煮15分钟",
+      "hands": 1.0
      },
      {
-      "t": 0.0,
+      "t": 1.0,
       "dur": 15.0,
       "kind": "free",
       "dish": "鸡腿蘑菇藜麦饭",
@@ -3589,34 +3604,15 @@
       "device": "hob"
      },
      {
-      "t": 2.5,
-      "dur": 2.5,
+      "t": 1.0,
+      "dur": 3.0,
       "kind": "prep",
       "dish": "金枪鱼鹰嘴豆沙拉",
-      "text": "金枪鱼156g沥干",
-      "hands": 2.5,
-      "inferred": true
+      "text": "鹰嘴豆91g沥干；金枪鱼156g沥干；黄瓜156g+菠菜104g切好",
+      "hands": 3.0
      },
      {
-      "t": 5.0,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "金枪鱼鹰嘴豆沙拉",
-      "text": "黄瓜156g+菠菜104g切好",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 7.5,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "金枪鱼鹰嘴豆沙拉",
-      "text": "橄榄油6.5g+柠檬10g+盐黑胡椒拌匀。",
-      "hands": 2.5,
-      "inferred": true
-     },
-     {
-      "t": 15.0,
+      "t": 4.0,
       "dur": 5.0,
       "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
@@ -3625,29 +3621,32 @@
       "device": "hob"
      },
      {
-      "t": 20.0,
+      "t": 9.0,
       "dur": 4.0,
       "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
       "text": "蘑菇156g切片炒出水",
       "hands": 4.0,
-      "device": "hob",
-      "inferred": true
+      "device": "hob"
      },
      {
-      "t": 24.0,
+      "t": 13.0,
       "dur": 2.0,
-      "kind": "prep",
+      "kind": "watch",
       "dish": "鸡腿蘑菇藜麦饭",
       "text": "羽衣甘蓝78g最后2分钟，加盐。",
+      "hands": 2.0,
+      "device": "hob"
+     },
+     {
+      "t": 16.0,
+      "dur": 2.0,
+      "kind": "prep",
+      "dish": "金枪鱼鹰嘴豆沙拉",
+      "text": "橄榄油6.5g+柠檬10g+盐黑胡椒拌匀",
       "hands": 2.0
      }
-    ],
-    "merged_dishes": [
-     "金枪鱼鹰嘴豆沙拉",
-     "鸡腿蘑菇藜麦饭"
-    ],
-    "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道"
+    ]
    }
   }
  ]
