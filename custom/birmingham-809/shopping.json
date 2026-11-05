@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "code": "H1-11-05",
- "generated": "2026-11-05T15:35:20",
+ "generated": "2026-11-05T15:35:38",
  "quantity_basis": "单人 11 天（两次采购：11-07 / 11-14）",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "items": [
@@ -210,7 +210,7 @@
    "need_text": "1个",
    "buy_qty": 1.0,
    "buy_unit": "个",
-   "buy_text": "0 件（11-06 前后）+ 1 件（11-12 前后）",
+   "buy_text": "1 × 1 Each（11-12 前后）",
    "batch1": 0,
    "batch2": 1,
    "packs": 1,
