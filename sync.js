@@ -504,6 +504,7 @@
           });
         }).then(function (n) {
           lss(FAM_KEY, { id: nb.id, name: nb.name, pw: pw, fam: famId });
+          try { window.dispatchEvent(new Event('rb:family')); } catch (e) {}
           syncState.pw = pw;
           syncState.fam = famId;
           g.classList.remove('on');
