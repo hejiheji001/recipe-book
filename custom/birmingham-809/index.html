@@ -192,9 +192,17 @@ ol li{margin-bottom:5px;line-height:1.5;}
 .ding,.dpant{font-size:13px;margin-top:6px;line-height:1.6}
 .ding i,.dpant i{font-style:normal;color:#8a7f66;margin-right:6px;font-size:11px}
 .dsteps{margin:7px 0 0;padding-left:20px;font-size:13px;line-height:1.7;color:#333}
-.shopwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.shoptab{min-width:660px}
-.shoptab td.en{color:#555;font-size:12px}
+.shopwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid #eee;border-radius:6px}
+.shoptab{min-width:760px;table-layout:fixed;border-collapse:separate;border-spacing:0}
+.shoptab th,.shoptab td{padding:7px 6px;background:#fff;border-bottom:1px solid #eee}
+.shoptab thead th{background:#f7f6f1;position:sticky;top:0;z-index:4}
+/* 冻结前三列：品类 / 中文名 / 英文名 */
+.shoptab th:nth-child(1),.shoptab td:nth-child(1){position:sticky;left:0;z-index:3;width:52px}
+.shoptab th:nth-child(2),.shoptab td:nth-child(2){position:sticky;left:52px;z-index:3;width:76px}
+.shoptab th:nth-child(3),.shoptab td:nth-child(3){position:sticky;left:128px;z-index:3;width:116px;
+ box-shadow:2px 0 5px rgba(0,0,0,.07)}
+.shoptab thead th:nth-child(-n+3){z-index:5}
+.shoptab td:nth-child(3){white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#555;font-size:12px}
 .shoptab tr.sumrow td{font-weight:700;border-top:2px solid #ddd;background:#faf9f5}
 .shopnote{margin:16px 0 0;padding:10px 12px;background:#fff8e6;border-left:3px solid #e0b74a;
  font-size:12px;color:#6b5a2e;border-radius:3px}
@@ -285,7 +293,7 @@ th{color:#777;font-weight:600;font-size:12px}
 <div class=dishcard><div class=dhead><b>鸡腿蘑菇藜麦饭</b><span class=rl>晚餐</span><span class=cook>动手 15 min</span></div><div class=dmeta>整锅 567.3 kcal · 可食 442 g · 128.3 kcal/100g · 单份 442 g</div><div class=ding><i>食材</i>鸡腿肉 143g、藜麦 58.5g、蘑菇 156g、羽衣甘蓝 78g、橄榄油 6.5g</div><div class=dpant><i>调料</i>盐、姜、大蒜</div><ol class=dsteps><li>藜麦58.5g煮15分钟</li><li>鸡腿143g切块，姜3g蒜6.5g爆香煎5分钟</li><li>蘑菇156g切片炒出水</li><li>羽衣甘蓝78g最后2分钟，加盐。</li></ol></div>
 </section>
 <section class=day id=shopping><div class=dh><h2>推荐采购</h2><div class=sub>共 9 项 · 家庭整周量</div></div>
-<div class=shopwrap><table class=shoptab><thead><tr><th>品类</th><th>中文名</th><th>英文名</th><th>规格(每包)</th><th>包数</th><th>总量</th><th>单价£</th><th>总价£</th><th>商品页</th></tr></thead><tbody>
+<div class=shopwrap><table class=shoptab><colgroup><col style='width:52px'><col style='width:76px'><col style='width:116px'><col style='width:86px'><col style='width:56px'><col style='width:152px'><col style='width:76px'><col style='width:76px'><col style='width:88px'></colgroup><thead><tr><th>品类</th><th>中文名</th><th>英文名</th><th>规格(每包)</th><th>包数</th><th>总量</th><th>单价£</th><th>总价£</th><th>商品页</th></tr></thead><tbody>
 <tr><td>蔬菜</td><td>菠菜</td><td class=en>British Baby Spinach</td><td>450 g</td><td>6</td><td>6 × 450 g (2700g)</td><td>1.59</td><td>9.54</td><td><a href='https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023' target=_blank rel=noopener>商品页</a></td></tr>
 <tr><td>蔬菜</td><td>羽衣甘蓝</td><td class=en>Scottish Shredded Kale</td><td>200 g</td><td>5</td><td>5 × 200 g (1000g)</td><td>0.89</td><td>4.45</td><td><a href='https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974' target=_blank rel=noopener>商品页</a></td></tr>
 <tr><td>蔬菜</td><td>蘑菇</td><td class=en>British Chestnut Mushrooms</td><td>250 g</td><td>6</td><td>6 × 250 g (1500g)</td><td>0.95</td><td>5.70</td><td><a href='https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800' target=_blank rel=noopener>商品页</a></td></tr>
@@ -295,6 +303,6 @@ th{color:#777;font-weight:600;font-size:12px}
 <tr><td>水果</td><td>草莓</td><td class=en>Strawberries</td><td>400 g</td><td>2</td><td>2 × 400 g (800g)</td><td>3.19</td><td>6.38</td><td><a href='https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339979' target=_blank rel=noopener>商品页</a></td></tr>
 <tr><td>水果</td><td>香蕉</td><td class=en>Bananas</td><td>5 Each</td><td>2</td><td>2 × 5 Each (10个)</td><td>0.78</td><td>1.56</td><td><a href='https://www.aldi.co.uk/product/nature-s-pick-bananas-000000000000267180' target=_blank rel=noopener>商品页</a></td></tr>
 <tr><td>水果</td><td>苹果</td><td class=en>Pink Lady Apples</td><td>6 Each</td><td>1</td><td>1 × 6 Each (6个)</td><td>2.85</td><td>2.85</td><td><a href='https://www.aldi.co.uk/product/nature-s-pick-pink-lady-apples-000000000000271500' target=_blank rel=noopener>商品页</a></td></tr>
-<tr class=sumrow><td colspan=7>合计</td><td>£37.42</td><td>—</td></tr>
+<tr class=sumrow><td colspan=3 class=sumlabel>合计</td><td></td><td></td><td></td><td></td><td>£37.42</td><td>—</td></tr>
 </tbody></table></div></section>
 <div class=shopnote>营养为整锅口径，不是每份；采购量为这份家庭菜单的总量。内容由该户维护者更新。</div></div></body></html>
