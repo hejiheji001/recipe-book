@@ -103,10 +103,19 @@ def measure(it, units, name):
         qty = float(qty)
     except (TypeError, ValueError):
         qty = ""
-    per = (info.get("g") or {}).get(unit)
+    per, src = None, None
+    try:
+        pv = it.get("per")
+        if pv not in ("", None):
+            per, src = float(pv), "自填每包"
+    except (TypeError, ValueError):
+        per = None
+    if not per:
+        per = (info.get("g") or {}).get(unit)
+        src = (info.get("src") or {}).get(unit)
     if qty == "" or not per:
         return qty, unit, "", ("未知" if qty != "" else "")
-    return qty, unit, round(qty * per), (info.get("src") or {}).get(unit, "未知")
+    return qty, unit, round(qty * per), src or "未知"
 
 
 def rows_of(doc, today):
