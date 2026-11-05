@@ -1,1 +1,502 @@
-{"schema":1,"code":"W1-11-02","generated":"2026-11-05T12:56:37","quantity_basis":"家庭量（整锅/整周，按这份菜单的人数买）","portion_hint":"need_* 是这份家庭菜单的总量；按你自己吃多少等比缩放，别直接当自己的采购量","items":[{"category":"肉禽","name":"三黄鸡","need_qty":900.0,"need_unit":"g","need_text":"900g","buy_qty":900.0,"buy_unit":"g","buy_text":"900g","used_on":["周五"],"link":null,"product":{"name":"鸡块","store":"手填","size":"1 kg","price_gbp":null,"link":null}},{"category":"肉禽","name":"牛腩","need_qty":700.0,"need_unit":"g","need_text":"700g","buy_qty":700.0,"buy_unit":"g","buy_text":"700g","used_on":["周日"],"link":null,"product":null},{"category":"肉禽","name":"猪排骨","need_qty":1400.0,"need_unit":"g","need_text":"1400g","buy_qty":1400.0,"buy_unit":"g","buy_text":"1400g","used_on":["周三","周四"],"link":null,"product":null},{"category":"肉禽","name":"猪瘦肉","need_qty":350.0,"need_unit":"g","need_text":"350g","buy_qty":400.0,"buy_unit":"g","buy_text":"400g","used_on":["周日"],"link":null,"product":null},{"category":"肉禽","name":"猪肉","need_qty":250.0,"need_unit":"g","need_text":"250g","buy_qty":250.0,"buy_unit":"g","buy_text":"250g","used_on":["周五"],"link":null,"product":null},{"category":"肉禽","name":"猪肉末","need_qty":800.0,"need_unit":"g","need_text":"800g","buy_qty":800.0,"buy_unit":"g","buy_text":"800g","used_on":["周一","周四"],"link":null,"product":null},{"category":"肉禽","name":"猪骨","need_qty":600.0,"need_unit":"g","need_text":"600g","buy_qty":600.0,"buy_unit":"g","buy_text":"600g","used_on":["周四"],"link":null,"product":null},{"category":"肉禽","name":"鸡","need_qty":800.0,"need_unit":"g","need_text":"800g","buy_qty":800.0,"buy_unit":"g","buy_text":"800g","used_on":["周日"],"link":null,"product":null},{"category":"肉禽","name":"鸡翅中","need_qty":800.0,"need_unit":"g","need_text":"800g","buy_qty":800.0,"buy_unit":"g","buy_text":"800g","used_on":["周三"],"link":null,"product":null},{"category":"水产","name":"干贝","need_qty":35.0,"need_unit":"g","need_text":"35g","buy_qty":50.0,"buy_unit":"g","buy_text":"50g","used_on":["周日"],"link":null,"product":null},{"category":"水产","name":"杏鲍菇","need_qty":300.0,"need_unit":"g","need_text":"300g","buy_qty":300.0,"buy_unit":"g","buy_text":"300g","used_on":["周三"],"link":null,"product":null},{"category":"水产","name":"沙虾","need_qty":500.0,"need_unit":"g","need_text":"500g","buy_qty":500.0,"buy_unit":"g","buy_text":"500g","used_on":["周一"],"link":null,"product":null},{"category":"水产","name":"虾仁","need_qty":300.0,"need_unit":"g","need_text":"300g","buy_qty":300.0,"buy_unit":"g","buy_text":"300g","used_on":["周六"],"link":null,"product":null},{"category":"水产","name":"虾皮","need_qty":40.0,"need_unit":"g","need_text":"40g","buy_qty":50.0,"buy_unit":"g","buy_text":"50g","used_on":["周二","周日"],"link":null,"product":null},{"category":"水产","name":"鲈鱼","need_qty":600.0,"need_unit":"g","need_text":"600g","buy_qty":600.0,"buy_unit":"g","buy_text":"600g","used_on":["周二"],"link":null,"product":null},{"category":"水产","name":"鳕鱼","need_qty":700.0,"need_unit":"g","need_text":"700g","buy_qty":700.0,"buy_unit":"g","buy_text":"700g","used_on":["周六"],"link":null,"product":null},{"category":"蛋豆","name":"北豆腐","need_qty":650.0,"need_unit":"g","need_text":"650g","buy_qty":700.0,"buy_unit":"g","buy_text":"700g","used_on":["周五"],"link":null,"product":null},{"category":"蛋豆","name":"嫩豆腐","need_qty":500.0,"need_unit":"g","need_text":"500g","buy_qty":500.0,"buy_unit":"g","buy_text":"500g","used_on":["周二"],"link":null,"product":null},{"category":"蛋豆","name":"老豆腐","need_qty":1200.0,"need_unit":"g","need_text":"1200g","buy_qty":1200.0,"buy_unit":"g","buy_text":"1200g","used_on":["周三","周六","周日"],"link":null,"product":null},{"category":"蛋豆","name":"鸡蛋","need_qty":1350.0,"need_unit":"个","need_text":"1350个","buy_qty":1350.0,"buy_unit":"个","buy_text":"1350个","used_on":["周一","周二","周四","周六"],"link":"https://www.aldi.co.uk/product/merevale-free-range-eggs-6-pack-000000000000548465","product":{"name":"鸡蛋","store":"ALDI","size":"6 Each","price_gbp":1.0,"link":"https://www.aldi.co.uk/product/merevale-free-range-eggs-6-pack-000000000000548465"}},{"category":"乳品主食","name":"淡奶油","need_qty":250.0,"need_unit":"g","need_text":"250g","buy_qty":1.0,"buy_unit":"瓶","buy_text":"1瓶","used_on":["周三","周六"],"link":null,"product":null},{"category":"乳品主食","name":"牛奶","need_qty":400.0,"need_unit":"g","need_text":"400g","buy_qty":1.0,"buy_unit":"瓶","buy_text":"1瓶","used_on":["周六"],"link":null,"product":null},{"category":"乳品主食","name":"粉丝","need_qty":80.0,"need_unit":"g","need_text":"80g","buy_qty":100.0,"buy_unit":"g","buy_text":"100g","used_on":["周五"],"link":null,"product":null},{"category":"蔬菜","name":"丝瓜","need_qty":500.0,"need_unit":"g","need_text":"500g","buy_qty":500.0,"buy_unit":"g","buy_text":"500g","used_on":["周五"],"link":null,"product":null},{"category":"蔬菜","name":"冬瓜","need_qty":1100.0,"need_unit":"g","need_text":"1100g","buy_qty":1100.0,"buy_unit":"g","buy_text":"1100g","used_on":["周二","周日"],"link":null,"product":null},{"category":"蔬菜","name":"梅干菜","need_qty":100.0,"need_unit":"g","need_text":"100g","buy_qty":100.0,"buy_unit":"g","buy_text":"100g","used_on":["周四"],"link":null,"product":null},{"category":"蔬菜","name":"油麦菜","need_qty":650.0,"need_unit":"g","need_text":"650g","buy_qty":700.0,"buy_unit":"g","buy_text":"700g","used_on":["周二"],"link":null,"product":null},{"category":"蔬菜","name":"玉米","need_qty":400.0,"need_unit":"g","need_text":"400g","buy_qty":400.0,"buy_unit":"g","buy_text":"400g","used_on":["周四"],"link":null,"product":null},{"category":"蔬菜","name":"生菜","need_qty":650.0,"need_unit":"g","need_text":"650g","buy_qty":700.0,"buy_unit":"g","buy_text":"700g","used_on":["周五"],"link":null,"product":null},{"category":"蔬菜","name":"番茄","need_qty":700.0,"need_unit":"g","need_text":"700g","buy_qty":700.0,"buy_unit":"g","buy_text":"700g","used_on":["周三"],"link":null,"product":null},{"category":"蔬菜","name":"白菜","need_qty":250.0,"need_unit":"g","need_text":"250g","buy_qty":250.0,"buy_unit":"g","buy_text":"250g","used_on":["周五"],"link":null,"product":null},{"category":"蔬菜","name":"白萝卜","need_qty":1100.0,"need_unit":"g","need_text":"1100g","buy_qty":1100.0,"buy_unit":"g","buy_text":"1100g","used_on":["周四","周日"],"link":null,"product":null},{"category":"蔬菜","name":"白蘑菇","need_qty":400.0,"need_unit":"g","need_text":"400g","buy_qty":400.0,"buy_unit":"g","buy_text":"400g","used_on":["周六"],"link":null,"product":null},{"category":"蔬菜","name":"胡萝卜","need_qty":250.0,"need_unit":"g","need_text":"250g","buy_qty":250.0,"buy_unit":"g","buy_text":"250g","used_on":["周四"],"link":null,"product":null},{"category":"蔬菜","name":"芥兰","need_qty":600.0,"need_unit":"g","need_text":"600g","buy_qty":600.0,"buy_unit":"g","buy_text":"600g","used_on":["周一"],"link":null,"product":null},{"category":"蔬菜","name":"菜心","need_qty":600.0,"need_unit":"g","need_text":"600g","buy_qty":600.0,"buy_unit":"g","buy_text":"600g","used_on":["周六"],"link":null,"product":null},{"category":"蔬菜","name":"西兰花","need_qty":600.0,"need_unit":"g","need_text":"600g","buy_qty":600.0,"buy_unit":"g","buy_text":"600g","used_on":["周三"],"link":null,"product":null},{"category":"蔬菜","name":"通菜","need_qty":1400.0,"need_unit":"g","need_text":"1400g","buy_qty":1400.0,"buy_unit":"g","buy_text":"1400g","used_on":["周四","周日"],"link":null,"product":null},{"category":"蔬菜","name":"金针菇","need_qty":300.0,"need_unit":"g","need_text":"300g","buy_qty":300.0,"buy_unit":"g","buy_text":"300g","used_on":["周五"],"link":null,"product":null},{"category":"蔬菜","name":"香菇","need_qty":220.0,"need_unit":"g","need_text":"220g","buy_qty":250.0,"buy_unit":"g","buy_text":"250g","used_on":["周二","周五"],"link":null,"product":null},{"category":"干货","name":"紫菜","need_qty":5.0,"need_unit":"g","need_text":"5g","buy_qty":50.0,"buy_unit":"g","buy_text":"50g","used_on":["周一"],"link":null,"product":null},{"category":"干货","name":"菜脯","need_qty":180.0,"need_unit":"g","need_text":"180g","buy_qty":200.0,"buy_unit":"g","buy_text":"200g","used_on":["周一","周四"],"link":null,"product":null}]}
+{
+ "schema": 1,
+ "code": "H1-11-05",
+ "generated": "2026-11-05T14:13:51",
+ "quantity_basis": "单人 11 天（两次采购：11-07 / 11-14）",
+ "portion_hint": "这是她自己 11 天的量，不是家庭量",
+ "items": [
+  {
+   "category": "蔬菜",
+   "name": "菠菜",
+   "need_qty": 2700.0,
+   "need_unit": "g",
+   "need_text": "2700g",
+   "buy_qty": 2700.0,
+   "buy_unit": "g",
+   "buy_text": "6 × 450 g (2700g)",
+   "packs": 6,
+   "price_gbp": 1.59,
+   "used_on": [
+    "周一",
+    "周三",
+    "周四",
+    "周五",
+    "周六",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023",
+   "product": {
+    "name": "British Baby Spinach",
+    "store": "ALDI",
+    "size": "450 g",
+    "price_gbp": 1.59,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023"
+   }
+  },
+  {
+   "category": "蔬菜",
+   "name": "羽衣甘蓝",
+   "need_qty": 1000.0,
+   "need_unit": "g",
+   "need_text": "1000g",
+   "buy_qty": 1000.0,
+   "buy_unit": "g",
+   "buy_text": "5 × 200 g (1000g)",
+   "packs": 5,
+   "price_gbp": 0.89,
+   "used_on": [
+    "周一",
+    "周二",
+    "周三",
+    "周四",
+    "周五",
+    "周六",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
+   "product": {
+    "name": "Scottish Shredded Kale",
+    "store": "ALDI",
+    "size": "200 g",
+    "price_gbp": 0.89,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
+   }
+  },
+  {
+   "category": "蔬菜",
+   "name": "蘑菇",
+   "need_qty": 1500.0,
+   "need_unit": "g",
+   "need_text": "1500g",
+   "buy_qty": 1500.0,
+   "buy_unit": "g",
+   "buy_text": "6 × 250 g (1500g)",
+   "packs": 6,
+   "price_gbp": 0.95,
+   "used_on": [
+    "周一",
+    "周三",
+    "周四",
+    "周五",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
+   "product": {
+    "name": "British Chestnut Mushrooms",
+    "store": "ALDI",
+    "size": "250 g",
+    "price_gbp": 0.95,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
+   }
+  },
+  {
+   "category": "蔬菜",
+   "name": "西葫芦",
+   "need_qty": 1500.0,
+   "need_unit": "g",
+   "need_text": "1500g",
+   "buy_qty": 1500.0,
+   "buy_unit": "g",
+   "buy_text": "3 × 500 g (1500g)",
+   "packs": 3,
+   "price_gbp": 1.39,
+   "used_on": [
+    "周三",
+    "周四",
+    "周五"
+   ],
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+   "product": {
+    "name": "Courgettes",
+    "store": "ALDI",
+    "size": "500 g",
+    "price_gbp": 1.39,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
+   }
+  },
+  {
+   "category": "蔬菜",
+   "name": "黄瓜",
+   "need_qty": 2.0,
+   "need_unit": "g",
+   "need_text": "2g",
+   "buy_qty": 2.0,
+   "buy_unit": "g",
+   "buy_text": "2 × 1 Each (2g)",
+   "packs": 2,
+   "price_gbp": 0.99,
+   "used_on": [
+    "周二",
+    "周六",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
+   "product": {
+    "name": "Cucumber",
+    "store": "ALDI",
+    "size": "1 Each",
+    "price_gbp": 0.99,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
+   }
+  },
+  {
+   "category": "蔬菜",
+   "name": "茄子",
+   "need_qty": 1.0,
+   "need_unit": "g",
+   "need_text": "1g",
+   "buy_qty": 1.0,
+   "buy_unit": "g",
+   "buy_text": "1 × 1 Each (1g)",
+   "packs": 1,
+   "price_gbp": 0.79,
+   "used_on": [
+    "周二"
+   ],
+   "link": "https://www.aldi.co.uk/search?text=Aubergine",
+   "product": {
+    "name": "Aubergine",
+    "store": "ALDI",
+    "size": "1 Each",
+    "price_gbp": 0.79,
+    "link": "https://www.aldi.co.uk/search?text=Aubergine"
+   }
+  },
+  {
+   "category": "蔬菜",
+   "name": "草莓",
+   "need_qty": 800.0,
+   "need_unit": "g",
+   "need_text": "800g",
+   "buy_qty": 800.0,
+   "buy_unit": "g",
+   "buy_text": "2 × 400 g (800g)",
+   "packs": 2,
+   "price_gbp": 3.19,
+   "used_on": [
+    "周三",
+    "周四"
+   ],
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339979",
+   "product": {
+    "name": "Strawberries",
+    "store": "ALDI",
+    "size": "400 g",
+    "price_gbp": 3.19,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339979"
+   }
+  },
+  {
+   "category": "蔬菜",
+   "name": "香蕉",
+   "need_qty": 10.0,
+   "need_unit": "g",
+   "need_text": "10g",
+   "buy_qty": 10.0,
+   "buy_unit": "g",
+   "buy_text": "2 × 5 Each (10g)",
+   "packs": 2,
+   "price_gbp": 0.78,
+   "used_on": [
+    "周五",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-bananas-000000000000267180",
+   "product": {
+    "name": "Bananas",
+    "store": "ALDI",
+    "size": "5 Each",
+    "price_gbp": 0.78,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-bananas-000000000000267180"
+   }
+  },
+  {
+   "category": "蔬菜",
+   "name": "苹果",
+   "need_qty": 6.0,
+   "need_unit": "g",
+   "need_text": "6g",
+   "buy_qty": 6.0,
+   "buy_unit": "g",
+   "buy_text": "1 × 6 Each (6g)",
+   "packs": 1,
+   "price_gbp": 2.85,
+   "used_on": [
+    "周一",
+    "周二"
+   ],
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-pink-lady-apples-000000000000271500",
+   "product": {
+    "name": "Pink Lady Apples",
+    "store": "ALDI",
+    "size": "6 Each",
+    "price_gbp": 2.85,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-pink-lady-apples-000000000000271500"
+   }
+  },
+  {
+   "category": "肉禽",
+   "name": "鸡腿肉",
+   "need_qty": 0.0,
+   "need_unit": "g",
+   "need_text": "1 kg",
+   "buy_qty": 0.0,
+   "buy_unit": "g",
+   "buy_text": "0 × 1 kg",
+   "packs": 0,
+   "price_gbp": 2.95,
+   "used_on": [
+    "周一",
+    "周三",
+    "周五",
+    "周六",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103",
+   "product": {
+    "name": "Chicken Thighs",
+    "store": "ALDI",
+    "size": "1 kg",
+    "price_gbp": 2.95,
+    "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103"
+   }
+  },
+  {
+   "category": "肉禽",
+   "name": "三文鱼",
+   "need_qty": 0.0,
+   "need_unit": "g",
+   "need_text": "240 g",
+   "buy_qty": 0.0,
+   "buy_unit": "g",
+   "buy_text": "0 × 240 g",
+   "packs": 0,
+   "price_gbp": 3.59,
+   "used_on": [
+    "周二"
+   ],
+   "link": "https://www.aldi.co.uk/product/the-fishmonger-boneless-salmon-fillets-2-pack-000000000000381995",
+   "product": {
+    "name": "Boneless Salmon Fillets 2 Pack",
+    "store": "ALDI",
+    "size": "240 g",
+    "price_gbp": 3.59,
+    "link": "https://www.aldi.co.uk/product/the-fishmonger-boneless-salmon-fillets-2-pack-000000000000381995"
+   }
+  },
+  {
+   "category": "乳品主食",
+   "name": "半脱脂奶",
+   "need_qty": 0.0,
+   "need_unit": "g",
+   "need_text": "1.136 l",
+   "buy_qty": 0.0,
+   "buy_unit": "g",
+   "buy_text": "0 × 1.136 l",
+   "packs": 0,
+   "price_gbp": 1.2,
+   "used_on": [
+    "周三",
+    "周四",
+    "周五",
+    "周六",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/cowbelle-british-semi-skimmed-milk-1-8-fat-000000000416712001",
+   "product": {
+    "name": "British Semi Skimmed Milk 1.8% Fat",
+    "store": "ALDI",
+    "size": "1.136 l",
+    "price_gbp": 1.2,
+    "link": "https://www.aldi.co.uk/product/cowbelle-british-semi-skimmed-milk-1-8-fat-000000000416712001"
+   }
+  },
+  {
+   "category": "乳品主食",
+   "name": "鸡蛋",
+   "need_qty": 0.0,
+   "need_unit": "g",
+   "need_text": "12 Each",
+   "buy_qty": 0.0,
+   "buy_unit": "g",
+   "buy_text": "0 × 12 Each",
+   "packs": 0,
+   "price_gbp": 2.89,
+   "used_on": [
+    "周一",
+    "周二",
+    "周四",
+    "周五",
+    "周六",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
+   "product": {
+    "name": "British Large Free Range Eggs 12 Pack",
+    "store": "ALDI",
+    "size": "12 Each",
+    "price_gbp": 2.89,
+    "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009"
+   }
+  },
+  {
+   "category": "干货",
+   "name": "鹰嘴豆",
+   "need_qty": 0.0,
+   "need_unit": "g",
+   "need_text": "400 g",
+   "buy_qty": 0.0,
+   "buy_unit": "g",
+   "buy_text": "0 × 400 g",
+   "packs": 0,
+   "price_gbp": 0.41,
+   "used_on": [
+    "周二",
+    "周三",
+    "周四",
+    "周五",
+    "周六",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
+   "product": {
+    "name": "Chickpeas",
+    "store": "ALDI",
+    "size": "400 g",
+    "price_gbp": 0.41,
+    "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
+   }
+  },
+  {
+   "category": "干货",
+   "name": "扁豆",
+   "need_qty": 0.0,
+   "need_unit": "g",
+   "need_text": "400 g",
+   "buy_qty": 0.0,
+   "buy_unit": "g",
+   "buy_text": "0 × 400 g",
+   "packs": 0,
+   "price_gbp": 0.45,
+   "used_on": [
+    "周一",
+    "周五",
+    "周六"
+   ],
+   "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
+   "product": {
+    "name": "Tinned Lentils",
+    "store": "ALDI",
+    "size": "400 g",
+    "price_gbp": 0.45,
+    "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
+   }
+  },
+  {
+   "category": "干货",
+   "name": "金枪鱼",
+   "need_qty": 0.0,
+   "need_unit": "g",
+   "need_text": "145 g",
+   "buy_qty": 0.0,
+   "buy_unit": "g",
+   "buy_text": "0 × 145 g",
+   "packs": 0,
+   "price_gbp": 0.65,
+   "used_on": [
+    "周六",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
+   "product": {
+    "name": "Tuna Chunks In Spring Water",
+    "store": "ALDI",
+    "size": "145 g",
+    "price_gbp": 0.65,
+    "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
+   }
+  },
+  {
+   "category": "干货",
+   "name": "藜麦",
+   "need_qty": 0.0,
+   "need_unit": "g",
+   "need_text": "250 g",
+   "buy_qty": 0.0,
+   "buy_unit": "g",
+   "buy_text": "0 × 250 g",
+   "packs": 0,
+   "price_gbp": 0.85,
+   "used_on": [
+    "周一",
+    "周二",
+    "周三",
+    "周五",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
+   "product": {
+    "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+    "store": "ALDI",
+    "size": "250 g",
+    "price_gbp": 0.85,
+    "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
+   }
+  },
+  {
+   "category": "干货",
+   "name": "杏仁",
+   "need_qty": 0.0,
+   "need_unit": "g",
+   "need_text": "200 g",
+   "buy_qty": 0.0,
+   "buy_unit": "g",
+   "buy_text": "0 × 200 g",
+   "packs": 0,
+   "price_gbp": 1.69,
+   "used_on": [
+    "周一",
+    "周二",
+    "周五",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/the-foodie-market-whole-almonds-000000000000384091",
+   "product": {
+    "name": "Whole Almonds",
+    "store": "ALDI",
+    "size": "200 g",
+    "price_gbp": 1.69,
+    "link": "https://www.aldi.co.uk/product/the-foodie-market-whole-almonds-000000000000384091"
+   }
+  },
+  {
+   "category": "干货",
+   "name": "橄榄油",
+   "need_qty": 0.0,
+   "need_unit": "g",
+   "need_text": "1 l",
+   "buy_qty": 0.0,
+   "buy_unit": "g",
+   "buy_text": "0 × 1 l",
+   "packs": 0,
+   "price_gbp": 5.99,
+   "used_on": [
+    "周一",
+    "周二",
+    "周三",
+    "周四",
+    "周五",
+    "周六",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/solesta-extra-virgin-olive-oil-000000000000488795",
+   "product": {
+    "name": "Extra Virgin Olive Oil",
+    "store": "ALDI",
+    "size": "1 l",
+    "price_gbp": 5.99,
+    "link": "https://www.aldi.co.uk/product/solesta-extra-virgin-olive-oil-000000000000488795"
+   }
+  }
+ ]
+}

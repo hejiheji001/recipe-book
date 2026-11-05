@@ -46,7 +46,12 @@ fi
     "$HERE/week/print.html" "$CODE" "$HERE/week"
 
 # 机器可读的菜单（给健康模型用）：week/menu.json + week/meta.json
-[ -f "$WY" ] && python3 "$ROOT/scripts/build_menu_json.py" "$WY" "$CODE"
+# week/*.json 已由健康侧接管（code 以 H 开头），不再用家庭 yaml 覆盖
+if grep -q '"code": "H' "$ROOT/发布/week/meta.json" 2>/dev/null; then
+  echo "week/*.json 由健康侧维护，跳过 build_menu_json"
+elif [ -f "$WY" ]; then
+  python3 "$ROOT/scripts/build_menu_json.py" "$WY" "$CODE"
+fi
 
 # 版本号：每次发布把 sw.js 的 VER 换成时间戳，触发新 SW 安装
 V=$(date '+%Y%m%d%H%M%S')
