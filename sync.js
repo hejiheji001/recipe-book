@@ -319,8 +319,10 @@
       '#rbg{position:fixed;inset:0;z-index:9999;background:#faf9f6;display:none;',
       'flex-direction:column;padding:0 22px;box-sizing:border-box;overflow-y:auto;}',
       '#rbg.on{display:flex;}',
-      // 内容层（弹层 #dlg / 导航 / 弹窗）永远压在遮罩之上，避免遮罩万一残留就锁死全站
-      '#dlg,#mask,#top,.top{position:relative;z-index:10000;}',
+      // 内容层（弹层 #dlg / 导航 / 弹窗）永远压在遮罩之上，避免遮罩万一残留就锁死全站。
+      // 只抬 z-index，绝不改 position：#dlg/#mask 是 fixed、.top 是 sticky，
+      // 一旦被覆盖成 relative，弹层会渲染到文档末尾（点“我的菜谱”看着像跳回总菜谱），导航也会失去吸顶。
+      '#dlg,#mask,#top,.top{z-index:10000;}',
       'body.rb-lock{overflow:hidden;}',
       '#rbg .g-in{max-width:420px;margin:auto;width:100%;padding:40px 0;}',
       '#rbg h1{font-size:22px;margin:0 0 6px;font-weight:800;letter-spacing:.5px;}',
