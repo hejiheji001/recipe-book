@@ -1,21 +1,16 @@
 {
- "schema": 1,
+ "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-05T15:35:38",
- "quantity_basis": "单人 11 天（两次采购：11-07 / 11-14）",
+ "generated": "2026-11-05T17:05:53",
+ "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "items": [
   {
    "category": "蔬菜",
    "name": "菠菜",
-   "need_qty": 2250.0,
-   "need_unit": "g",
-   "need_text": "2250g",
    "buy_qty": 2250.0,
    "buy_unit": "g",
-   "buy_text": "2 件（11-06 前后）+ 3 件（11-12 前后）",
-   "batch1": 2,
-   "batch2": 3,
+   "buy_text": "5 × 450 g（2250g）",
    "packs": 5,
    "price_gbp": 1.59,
    "name_en": "British Baby Spinach",
@@ -42,14 +37,9 @@
   {
    "category": "蔬菜",
    "name": "羽衣甘蓝",
-   "need_qty": 800.0,
-   "need_unit": "g",
-   "need_text": "800g",
    "buy_qty": 800.0,
    "buy_unit": "g",
-   "buy_text": "2 件（11-06 前后）+ 2 件（11-12 前后）",
-   "batch1": 2,
-   "batch2": 2,
+   "buy_text": "4 × 200 g（800g）",
    "packs": 4,
    "price_gbp": 0.89,
    "name_en": "Scottish Shredded Kale",
@@ -77,14 +67,9 @@
   {
    "category": "蔬菜",
    "name": "蘑菇",
-   "need_qty": 1000.0,
-   "need_unit": "g",
-   "need_text": "1000g",
    "buy_qty": 1000.0,
    "buy_unit": "g",
-   "buy_text": "2 件（11-06 前后）+ 2 件（11-12 前后）",
-   "batch1": 2,
-   "batch2": 2,
+   "buy_text": "4 × 250 g（1000g）",
    "packs": 4,
    "price_gbp": 0.95,
    "name_en": "British Chestnut Mushrooms",
@@ -110,14 +95,9 @@
   {
    "category": "蔬菜",
    "name": "西葫芦",
-   "need_qty": 1000.0,
-   "need_unit": "g",
-   "need_text": "1000g",
    "buy_qty": 1000.0,
    "buy_unit": "g",
-   "buy_text": "1 件（11-06 前后）+ 1 件（11-12 前后）",
-   "batch1": 1,
-   "batch2": 1,
+   "buy_text": "2 × 500 g（1000g）",
    "packs": 2,
    "price_gbp": 1.39,
    "name_en": "Courgettes",
@@ -141,14 +121,9 @@
   {
    "category": "干货",
    "name": "金枪鱼",
-   "need_qty": 290.0,
-   "need_unit": "g",
-   "need_text": "290g",
    "buy_qty": 290.0,
    "buy_unit": "g",
-   "buy_text": "2 × 145 g (290g)",
-   "batch1": 2,
-   "batch2": 0,
+   "buy_text": "2 × 145 g（290g）",
    "packs": 2,
    "price_gbp": 0.65,
    "name_en": "Tuna Chunks In Spring Water",
@@ -171,14 +146,9 @@
   {
    "category": "干货",
    "name": "鹰嘴豆",
-   "need_qty": 400.0,
-   "need_unit": "g",
-   "need_text": "400g",
    "buy_qty": 400.0,
    "buy_unit": "g",
-   "buy_text": "1 × 400 g (400g)",
-   "batch1": 1,
-   "batch2": 0,
+   "buy_text": "1 × 400 g（400g）",
    "packs": 1,
    "price_gbp": 0.41,
    "name_en": "Chickpeas",
@@ -205,14 +175,9 @@
   {
    "category": "蔬菜",
    "name": "黄瓜",
-   "need_qty": 1.0,
-   "need_unit": "个",
-   "need_text": "1个",
    "buy_qty": 1.0,
    "buy_unit": "个",
-   "buy_text": "1 × 1 Each（11-12 前后）",
-   "batch1": 0,
-   "batch2": 1,
+   "buy_text": "1 × 1 Each（1个）",
    "packs": 1,
    "price_gbp": 0.99,
    "name_en": "Cucumber",
@@ -236,14 +201,9 @@
   {
    "category": "干货",
    "name": "扁豆",
-   "need_qty": 400.0,
-   "need_unit": "g",
-   "need_text": "400g",
    "buy_qty": 400.0,
    "buy_unit": "g",
-   "buy_text": "1 × 400 g (400g)",
-   "batch1": 1,
-   "batch2": 0,
+   "buy_text": "1 × 400 g（400g）",
    "packs": 1,
    "price_gbp": 0.45,
    "name_en": "Tinned Lentils",
@@ -267,14 +227,9 @@
   {
    "category": "干货",
    "name": "藜麦",
-   "need_qty": 250.0,
-   "need_unit": "g",
-   "need_text": "250g",
    "buy_qty": 250.0,
    "buy_unit": "g",
-   "buy_text": "1 × 250 g (250g)",
-   "batch1": 1,
-   "batch2": 0,
+   "buy_text": "1 × 250 g（250g）",
    "packs": 1,
    "price_gbp": 0.85,
    "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
@@ -297,5 +252,382 @@
     "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
    }
   }
- ]
+ ],
+ "batches": [
+  {
+   "n": 1,
+   "label": "第 1 批 · 11-06 前后",
+   "items": [
+    {
+     "category": "蔬菜",
+     "name": "菠菜",
+     "buy_qty": 900.0,
+     "buy_unit": "g",
+     "buy_text": "2 × 450 g（900g）",
+     "packs": 2,
+     "price_gbp": 1.59,
+     "name_en": "British Baby Spinach",
+     "pack_size": "450 g",
+     "unit_price_gbp": 1.59,
+     "line_total_gbp": 3.18,
+     "used_on": [
+      "周一",
+      "周三",
+      "周四",
+      "周五",
+      "周六",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023",
+     "product": {
+      "name": "British Baby Spinach",
+      "store": "ALDI",
+      "size": "450 g",
+      "price_gbp": 1.59,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "羽衣甘蓝",
+     "buy_qty": 400.0,
+     "buy_unit": "g",
+     "buy_text": "2 × 200 g（400g）",
+     "packs": 2,
+     "price_gbp": 0.89,
+     "name_en": "Scottish Shredded Kale",
+     "pack_size": "200 g",
+     "unit_price_gbp": 0.89,
+     "line_total_gbp": 1.78,
+     "used_on": [
+      "周一",
+      "周二",
+      "周三",
+      "周四",
+      "周五",
+      "周六",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
+     "product": {
+      "name": "Scottish Shredded Kale",
+      "store": "ALDI",
+      "size": "200 g",
+      "price_gbp": 0.89,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "蘑菇",
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "buy_text": "2 × 250 g（500g）",
+     "packs": 2,
+     "price_gbp": 0.95,
+     "name_en": "British Chestnut Mushrooms",
+     "pack_size": "250 g",
+     "unit_price_gbp": 0.95,
+     "line_total_gbp": 1.9,
+     "used_on": [
+      "周一",
+      "周三",
+      "周四",
+      "周五",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
+     "product": {
+      "name": "British Chestnut Mushrooms",
+      "store": "ALDI",
+      "size": "250 g",
+      "price_gbp": 0.95,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "西葫芦",
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "buy_text": "1 × 500 g（500g）",
+     "packs": 1,
+     "price_gbp": 1.39,
+     "name_en": "Courgettes",
+     "pack_size": "500 g",
+     "unit_price_gbp": 1.39,
+     "line_total_gbp": 1.39,
+     "used_on": [
+      "周三",
+      "周四",
+      "周五"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+     "product": {
+      "name": "Courgettes",
+      "store": "ALDI",
+      "size": "500 g",
+      "price_gbp": 1.39,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "金枪鱼",
+     "buy_qty": 290.0,
+     "buy_unit": "g",
+     "buy_text": "2 × 145 g（290g）",
+     "packs": 2,
+     "price_gbp": 0.65,
+     "name_en": "Tuna Chunks In Spring Water",
+     "pack_size": "145 g",
+     "unit_price_gbp": 0.65,
+     "line_total_gbp": 1.3,
+     "used_on": [
+      "周六",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
+     "product": {
+      "name": "Tuna Chunks In Spring Water",
+      "store": "ALDI",
+      "size": "145 g",
+      "price_gbp": 0.65,
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "鹰嘴豆",
+     "buy_qty": 400.0,
+     "buy_unit": "g",
+     "buy_text": "1 × 400 g（400g）",
+     "packs": 1,
+     "price_gbp": 0.41,
+     "name_en": "Chickpeas",
+     "pack_size": "400 g",
+     "unit_price_gbp": 0.41,
+     "line_total_gbp": 0.41,
+     "used_on": [
+      "周二",
+      "周三",
+      "周四",
+      "周五",
+      "周六",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
+     "product": {
+      "name": "Chickpeas",
+      "store": "ALDI",
+      "size": "400 g",
+      "price_gbp": 0.41,
+      "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "扁豆",
+     "buy_qty": 400.0,
+     "buy_unit": "g",
+     "buy_text": "1 × 400 g（400g）",
+     "packs": 1,
+     "price_gbp": 0.45,
+     "name_en": "Tinned Lentils",
+     "pack_size": "400 g",
+     "unit_price_gbp": 0.45,
+     "line_total_gbp": 0.45,
+     "used_on": [
+      "周一",
+      "周五",
+      "周六"
+     ],
+     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
+     "product": {
+      "name": "Tinned Lentils",
+      "store": "ALDI",
+      "size": "400 g",
+      "price_gbp": 0.45,
+      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "藜麦",
+     "buy_qty": 250.0,
+     "buy_unit": "g",
+     "buy_text": "1 × 250 g（250g）",
+     "packs": 1,
+     "price_gbp": 0.85,
+     "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+     "pack_size": "250 g",
+     "unit_price_gbp": 0.85,
+     "line_total_gbp": 0.85,
+     "used_on": [
+      "周一",
+      "周二",
+      "周三",
+      "周五",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
+     "product": {
+      "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+      "store": "ALDI",
+      "size": "250 g",
+      "price_gbp": 0.85,
+      "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
+     }
+    }
+   ],
+   "subtotal_gbp": 11.26
+  },
+  {
+   "n": 2,
+   "label": "第 2 批 · 11-12 前后",
+   "items": [
+    {
+     "category": "蔬菜",
+     "name": "菠菜",
+     "buy_qty": 1350.0,
+     "buy_unit": "g",
+     "buy_text": "3 × 450 g（1350g）",
+     "packs": 3,
+     "price_gbp": 1.59,
+     "name_en": "British Baby Spinach",
+     "pack_size": "450 g",
+     "unit_price_gbp": 1.59,
+     "line_total_gbp": 4.77,
+     "used_on": [
+      "周一",
+      "周三",
+      "周四",
+      "周五",
+      "周六",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023",
+     "product": {
+      "name": "British Baby Spinach",
+      "store": "ALDI",
+      "size": "450 g",
+      "price_gbp": 1.59,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "羽衣甘蓝",
+     "buy_qty": 400.0,
+     "buy_unit": "g",
+     "buy_text": "2 × 200 g（400g）",
+     "packs": 2,
+     "price_gbp": 0.89,
+     "name_en": "Scottish Shredded Kale",
+     "pack_size": "200 g",
+     "unit_price_gbp": 0.89,
+     "line_total_gbp": 1.78,
+     "used_on": [
+      "周一",
+      "周二",
+      "周三",
+      "周四",
+      "周五",
+      "周六",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
+     "product": {
+      "name": "Scottish Shredded Kale",
+      "store": "ALDI",
+      "size": "200 g",
+      "price_gbp": 0.89,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "蘑菇",
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "buy_text": "2 × 250 g（500g）",
+     "packs": 2,
+     "price_gbp": 0.95,
+     "name_en": "British Chestnut Mushrooms",
+     "pack_size": "250 g",
+     "unit_price_gbp": 0.95,
+     "line_total_gbp": 1.9,
+     "used_on": [
+      "周一",
+      "周三",
+      "周四",
+      "周五",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
+     "product": {
+      "name": "British Chestnut Mushrooms",
+      "store": "ALDI",
+      "size": "250 g",
+      "price_gbp": 0.95,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "西葫芦",
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "buy_text": "1 × 500 g（500g）",
+     "packs": 1,
+     "price_gbp": 1.39,
+     "name_en": "Courgettes",
+     "pack_size": "500 g",
+     "unit_price_gbp": 1.39,
+     "line_total_gbp": 1.39,
+     "used_on": [
+      "周三",
+      "周四",
+      "周五"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+     "product": {
+      "name": "Courgettes",
+      "store": "ALDI",
+      "size": "500 g",
+      "price_gbp": 1.39,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "黄瓜",
+     "buy_qty": 1.0,
+     "buy_unit": "个",
+     "buy_text": "1 × 1 Each（1个）",
+     "packs": 1,
+     "price_gbp": 0.99,
+     "name_en": "Cucumber",
+     "pack_size": "1 Each",
+     "unit_price_gbp": 0.99,
+     "line_total_gbp": 0.99,
+     "used_on": [
+      "周二",
+      "周六",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
+     "product": {
+      "name": "Cucumber",
+      "store": "ALDI",
+      "size": "1 Each",
+      "price_gbp": 0.99,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
+     }
+    }
+   ],
+   "subtotal_gbp": 10.83
+  }
+ ],
+ "total_gbp": 22.09
 }
