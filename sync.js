@@ -614,6 +614,19 @@
     dot.onclick = sheet;
   }
 
+  /* 本户有定制清单时，/week/ 与 /week/shopping.html 自动跳定制页（书签/直接打开也生效） */
+  (function () {
+    var p = location.pathname;
+    if (!/\/week(\/|\/shopping\.html)?$/.test(p)) return;
+    var fam = ls(FAM_KEY, null);
+    if (!fam || !fam.id) return;
+    fetch('../custom/index.json?t=' + Date.now()).then(function (r) { return r.json(); }).then(function (d) {
+      var s = (d.sets || []).filter(function (x) { return x.family_id === fam.id; })[0];
+      if (!s) return;
+      location.replace('../custom/' + s.slug + '/' + (p.indexOf('shopping') >= 0 ? '#shopping' : ''));
+    }).catch(function () {});
+  })();
+
   window.RBSYNC = {
     save: function (docKey) {
       if (docKey === 'rb_shop' && !weekCode()) {
