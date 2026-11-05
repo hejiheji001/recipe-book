@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-05T18:15:30",
+ "generated": "2026-11-05T18:30:37",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "items": [
@@ -123,14 +123,39 @@
   },
   {
    "category": "干货",
+   "name": "金枪鱼",
+   "buy_qty": 580.0,
+   "buy_unit": "g",
+   "buy_text": "4 × 145 g（沥干 102 g）（580g）",
+   "packs": 4,
+   "price_gbp": 0.65,
+   "name_en": "Tuna Chunks In Spring Water",
+   "pack_size": "145 g（沥干 102 g）",
+   "unit_price_gbp": 0.65,
+   "line_total_gbp": 2.6,
+   "used_on": [
+    "周六",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
+   "product": {
+    "name": "Tuna Chunks In Spring Water",
+    "store": "ALDI",
+    "size": "145 g（沥干 102 g）",
+    "price_gbp": 0.65,
+    "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
+   }
+  },
+  {
+   "category": "干货",
    "name": "扁豆",
    "buy_qty": 800.0,
    "buy_unit": "g",
-   "buy_text": "2 × 400 g（沥干 230 g）（800g）",
+   "buy_text": "2 × 400 g（沥干 240 g）（800g）",
    "packs": 2,
    "price_gbp": 0.45,
    "name_en": "Tinned Lentils",
-   "pack_size": "400 g（沥干 230 g）",
+   "pack_size": "400 g（沥干 240 g）",
    "unit_price_gbp": 0.45,
    "line_total_gbp": 0.9,
    "used_on": [
@@ -142,34 +167,9 @@
    "product": {
     "name": "Tinned Lentils",
     "store": "ALDI",
-    "size": "400 g（沥干 230 g）",
+    "size": "400 g（沥干 240 g）",
     "price_gbp": 0.45,
     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
-   }
-  },
-  {
-   "category": "干货",
-   "name": "金枪鱼",
-   "buy_qty": 290.0,
-   "buy_unit": "g",
-   "buy_text": "2 × 145 g（290g）",
-   "packs": 2,
-   "price_gbp": 0.65,
-   "name_en": "Tuna Chunks In Spring Water",
-   "pack_size": "145 g",
-   "unit_price_gbp": 0.65,
-   "line_total_gbp": 1.3,
-   "used_on": [
-    "周六",
-    "周日"
-   ],
-   "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
-   "product": {
-    "name": "Tuna Chunks In Spring Water",
-    "store": "ALDI",
-    "size": "145 g",
-    "price_gbp": 0.65,
-    "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
    }
   },
   {
@@ -376,14 +376,39 @@
     },
     {
      "category": "干货",
+     "name": "金枪鱼",
+     "buy_qty": 580.0,
+     "buy_unit": "g",
+     "buy_text": "4 × 145 g（沥干 102 g）（580g）",
+     "packs": 4,
+     "price_gbp": 0.65,
+     "name_en": "Tuna Chunks In Spring Water",
+     "pack_size": "145 g（沥干 102 g）",
+     "unit_price_gbp": 0.65,
+     "line_total_gbp": 2.6,
+     "used_on": [
+      "周六",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
+     "product": {
+      "name": "Tuna Chunks In Spring Water",
+      "store": "ALDI",
+      "size": "145 g（沥干 102 g）",
+      "price_gbp": 0.65,
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
+     }
+    },
+    {
+     "category": "干货",
      "name": "扁豆",
      "buy_qty": 800.0,
      "buy_unit": "g",
-     "buy_text": "2 × 400 g（沥干 230 g）（800g）",
+     "buy_text": "2 × 400 g（沥干 240 g）（800g）",
      "packs": 2,
      "price_gbp": 0.45,
      "name_en": "Tinned Lentils",
-     "pack_size": "400 g（沥干 230 g）",
+     "pack_size": "400 g（沥干 240 g）",
      "unit_price_gbp": 0.45,
      "line_total_gbp": 0.9,
      "used_on": [
@@ -395,34 +420,9 @@
      "product": {
       "name": "Tinned Lentils",
       "store": "ALDI",
-      "size": "400 g（沥干 230 g）",
+      "size": "400 g（沥干 240 g）",
       "price_gbp": 0.45,
       "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
-     }
-    },
-    {
-     "category": "干货",
-     "name": "金枪鱼",
-     "buy_qty": 290.0,
-     "buy_unit": "g",
-     "buy_text": "2 × 145 g（290g）",
-     "packs": 2,
-     "price_gbp": 0.65,
-     "name_en": "Tuna Chunks In Spring Water",
-     "pack_size": "145 g",
-     "unit_price_gbp": 0.65,
-     "line_total_gbp": 1.3,
-     "used_on": [
-      "周六",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
-     "product": {
-      "name": "Tuna Chunks In Spring Water",
-      "store": "ALDI",
-      "size": "145 g",
-      "price_gbp": 0.65,
-      "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
      }
     },
     {
@@ -480,7 +480,7 @@
      }
     }
    ],
-   "subtotal_gbp": 12.12
+   "subtotal_gbp": 13.42
   },
   {
    "n": 2,
@@ -629,5 +629,5 @@
    "subtotal_gbp": 10.83
   }
  ],
- "total_gbp": 22.95
+ "total_gbp": 24.25
 }
