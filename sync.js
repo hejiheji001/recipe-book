@@ -640,7 +640,13 @@
     var a = e.target && e.target.closest ? e.target.closest('a[href*="open="]') : null;
     if (!a) return;
     var m = (a.getAttribute('href') || '').match(/open=(\w+)/);
-    if (m) { try { localStorage.setItem(OPEN_INTENT, m[1]); } catch (x) {} }
+    if (!m) return;
+    // 只有跨页跳转才需要存意图；同页点击由页面自己的弹层处理，
+    // 存了没人消费，下次进站会莫名其妙自动弹上一次点的那个弹层。
+    var samePage = true;
+    try { samePage = new URL(a.getAttribute('href'), location.href).pathname === location.pathname; } catch (x) {}
+    if (samePage) return;
+    try { localStorage.setItem(OPEN_INTENT, m[1]); } catch (x) {}
   }, true);
 
   function takeIntent() {
@@ -653,6 +659,11 @@
   function boot() {
     css();
     mountDot();
+    // 落地 URL 已经带了 open=，说明这次导航成功，意图不再需要；
+    // 不清掉的话，下次进站会被当成新意图再弹一次。
+    if (/[?#&]open=\w/.test(location.hash + location.search)) {
+      try { localStorage.removeItem(OPEN_INTENT); } catch (x) {}
+    }
     if (!gate()) start();
   }
 
