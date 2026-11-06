@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-06T12:36:07",
+ "generated": "2026-11-06T13:13:11",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "items": [
@@ -105,7 +105,6 @@
    "unit_price_gbp": 1.39,
    "line_total_gbp": 2.78,
    "used_on": [
-    "周三",
     "周四"
    ],
    "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
@@ -357,7 +356,6 @@
      "unit_price_gbp": 1.39,
      "line_total_gbp": 1.39,
      "used_on": [
-      "周三",
       "周四"
      ],
      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
@@ -584,7 +582,6 @@
      "unit_price_gbp": 1.39,
      "line_total_gbp": 1.39,
      "used_on": [
-      "周三",
       "周四"
      ],
      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",

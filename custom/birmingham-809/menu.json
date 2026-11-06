@@ -3,7 +3,7 @@
  "code": "H1-11-05",
  "week": "2026-11-05 – 2026-11-15",
  "family": "伯明翰809",
- "generated": "2026-11-06T12:36:07",
+ "generated": "2026-11-06T13:13:11",
  "source": "健康减肥/01-事实/饮食/餐单.csv + 食谱库.csv",
  "nutrition_basis": "整份（一餐全部食材，非家庭整锅）",
  "servings_hint": 1.0,
@@ -571,9 +571,9 @@
       },
       {
        "name": "藜麦",
-       "qty": 31.5,
+       "qty": 69.3,
        "unit": "g",
-       "buy": 31.5
+       "buy": 69.3
       },
       {
        "name": "蘑菇",
@@ -600,32 +600,33 @@
       "大蒜"
      ],
      "nutrition": {
-      "kcal_total": 305.5,
-      "protein_total": 24.4,
+      "kcal_total": 305.7,
+      "protein_total": 24.6,
       "fat_total": 11.2,
-      "carb_total": 24.1,
-      "fiber_total": 5.2,
-      "sodium_total": 92.0,
+      "carb_total": 24.8,
+      "fiber_total": 4.4,
+      "sodium_total": 101.9,
       "sat_fat_total": 2.0
      },
-     "edible_grams": 238.0,
+     "edible_grams": 275.8,
      "per100g": {
-      "kcal_total": 128.4,
-      "protein_total": 10.3,
-      "fat_total": 4.7,
-      "carb_total": 10.1,
-      "fiber_total": 2.2,
-      "sodium_total": 38.7,
-      "sat_fat_total": 0.8
+      "kcal_total": 110.8,
+      "protein_total": 8.9,
+      "fat_total": 4.1,
+      "carb_total": 9.0,
+      "fiber_total": 1.6,
+      "sodium_total": 36.9,
+      "sat_fat_total": 0.7
      },
      "nutrition_known": true,
      "steps": [
-      "藜麦31.5g煮15分钟",
+      "熟藜麦69.3g（预熟袋装）微波高火1分钟",
       "鸡腿77g切块，姜3g蒜3.5g爆香煎5分钟",
       "蘑菇84g切片炒出水",
-      "羽衣甘蓝42g最后2分钟，加盐。"
+      "羽衣甘蓝42g最后2分钟",
+      "拌入熟藜麦，加盐。"
      ],
-     "serving_g": 238.0,
+     "serving_g": 275.8,
      "recipe_id": "R011",
      "portion_multiplier": 0.7
     },
@@ -780,7 +781,7 @@
        },
        {
         "name": "藜麦",
-        "qty": 31.5,
+        "qty": 69.3,
         "unit": "g"
        },
        {
@@ -815,7 +816,7 @@
       "dur": 1.0,
       "kind": "prep",
       "dish": "鸡腿蘑菇藜麦饭",
-      "text": "藜麦31.5g煮15分钟",
+      "text": "熟藜麦69.3g微波1分钟",
       "hands": 1.0
      },
      {
@@ -823,9 +824,8 @@
       "dur": 15.0,
       "kind": "free",
       "dish": "鸡腿蘑菇藜麦饭",
-      "text": "藜麦31.5g煮15分钟",
-      "hands": 0.0,
-      "device": "hob"
+      "text": "熟藜麦69.3g微波1分钟",
+      "hands": 0.0
      },
      {
       "t": 1.0,
@@ -1434,9 +1434,9 @@
       },
       {
        "name": "藜麦",
-       "qty": 58.5,
+       "qty": 128.7,
        "unit": "g",
-       "buy": 58.5
+       "buy": 128.7
       },
       {
        "name": "蘑菇",
@@ -1463,32 +1463,33 @@
       "大蒜"
      ],
      "nutrition": {
-      "kcal_total": 567.3,
-      "protein_total": 45.2,
+      "kcal_total": 567.7,
+      "protein_total": 45.6,
       "fat_total": 20.8,
-      "carb_total": 44.7,
-      "fiber_total": 9.6,
-      "sodium_total": 170.8,
+      "carb_total": 46.1,
+      "fiber_total": 8.2,
+      "sodium_total": 189.3,
       "sat_fat_total": 3.8
      },
-     "edible_grams": 442.0,
+     "edible_grams": 512.2,
      "per100g": {
-      "kcal_total": 128.3,
-      "protein_total": 10.2,
-      "fat_total": 4.7,
-      "carb_total": 10.1,
-      "fiber_total": 2.2,
-      "sodium_total": 38.6,
-      "sat_fat_total": 0.9
+      "kcal_total": 110.8,
+      "protein_total": 8.9,
+      "fat_total": 4.1,
+      "carb_total": 9.0,
+      "fiber_total": 1.6,
+      "sodium_total": 37.0,
+      "sat_fat_total": 0.7
      },
      "nutrition_known": true,
      "steps": [
-      "藜麦58.5g煮15分钟",
+      "熟藜麦128.7g（预熟袋装）微波高火1分钟",
       "鸡腿143g切块，姜3g蒜6.5g爆香煎5分钟",
       "蘑菇156g切片炒出水",
-      "羽衣甘蓝78g最后2分钟，加盐。"
+      "羽衣甘蓝78g最后2分钟",
+      "拌入熟藜麦，加盐。"
      ],
-     "serving_g": 442.0,
+     "serving_g": 512.2,
      "recipe_id": "R011",
      "portion_multiplier": 1.3
     }
@@ -1575,7 +1576,7 @@
        },
        {
         "name": "藜麦",
-        "qty": 58.5,
+        "qty": 128.7,
         "unit": "g"
        }
       ]
@@ -1607,7 +1608,7 @@
       "dur": 1.0,
       "kind": "prep",
       "dish": "鸡腿蘑菇藜麦饭",
-      "text": "藜麦58.5g煮15分钟",
+      "text": "熟藜麦128.7g微波1分钟",
       "hands": 1.0
      },
      {
@@ -1615,9 +1616,8 @@
       "dur": 15.0,
       "kind": "free",
       "dish": "鸡腿蘑菇藜麦饭",
-      "text": "藜麦58.5g煮15分钟",
-      "hands": 0.0,
-      "device": "hob"
+      "text": "熟藜麦128.7g微波1分钟",
+      "hands": 0.0
      },
      {
       "t": 1.0,
@@ -1819,9 +1819,9 @@
       },
       {
        "name": "藜麦",
-       "qty": 45.0,
+       "qty": 99.0,
        "unit": "g",
-       "buy": 45.0
+       "buy": 99.0
       },
       {
        "name": "蘑菇",
@@ -1848,32 +1848,33 @@
       "大蒜"
      ],
      "nutrition": {
-      "kcal_total": 436.4,
-      "protein_total": 34.8,
+      "kcal_total": 436.7,
+      "protein_total": 35.1,
       "fat_total": 16.0,
-      "carb_total": 34.4,
-      "fiber_total": 7.4,
-      "sodium_total": 131.4,
+      "carb_total": 35.5,
+      "fiber_total": 6.3,
+      "sodium_total": 145.6,
       "sat_fat_total": 2.9
      },
-     "edible_grams": 340.0,
+     "edible_grams": 394.0,
      "per100g": {
-      "kcal_total": 128.4,
-      "protein_total": 10.2,
-      "fat_total": 4.7,
-      "carb_total": 10.1,
-      "fiber_total": 2.2,
-      "sodium_total": 38.6,
-      "sat_fat_total": 0.9
+      "kcal_total": 110.8,
+      "protein_total": 8.9,
+      "fat_total": 4.1,
+      "carb_total": 9.0,
+      "fiber_total": 1.6,
+      "sodium_total": 37.0,
+      "sat_fat_total": 0.7
      },
      "nutrition_known": true,
      "steps": [
-      "藜麦45g煮15分钟",
+      "熟藜麦99g（预熟袋装）微波高火1分钟",
       "鸡腿110g切块，姜3g蒜5g爆香煎5分钟",
       "蘑菇120g切片炒出水",
-      "羽衣甘蓝60g最后2分钟，加盐。"
+      "羽衣甘蓝60g最后2分钟",
+      "拌入熟藜麦，加盐。"
      ],
-     "serving_g": 340.0,
+     "serving_g": 394.0,
      "recipe_id": "R011",
      "portion_multiplier": 1.0
     },
@@ -1994,7 +1995,7 @@
        },
        {
         "name": "藜麦",
-        "qty": 45.0,
+        "qty": 99.0,
         "unit": "g"
        },
        {
@@ -2030,7 +2031,7 @@
       "dur": 1.0,
       "kind": "prep",
       "dish": "鸡腿蘑菇藜麦饭",
-      "text": "藜麦45g煮15分钟",
+      "text": "熟藜麦99g微波1分钟",
       "hands": 1.0
      },
      {
@@ -2038,9 +2039,8 @@
       "dur": 15.0,
       "kind": "free",
       "dish": "鸡腿蘑菇藜麦饭",
-      "text": "藜麦45g煮15分钟",
-      "hands": 0.0,
-      "device": "hob"
+      "text": "熟藜麦99g微波1分钟",
+      "hands": 0.0
      },
      {
       "t": 1.0,
@@ -2124,27 +2124,27 @@
      "ing": [
       {
        "name": "鹰嘴豆",
-       "qty": 49.0,
+       "qty": 70.0,
        "unit": "g",
-       "buy": 49.0
+       "buy": 70.0
       },
       {
        "name": "鸡蛋",
-       "qty": 70.0,
+       "qty": 100.0,
        "unit": "g",
-       "buy": 70.0
+       "buy": 100.0
       },
       {
        "name": "黄瓜",
-       "qty": 70.0,
+       "qty": 100.0,
        "unit": "g",
-       "buy": 70.0
+       "buy": 100.0
       },
       {
        "name": "橄榄油",
-       "qty": 2.8,
+       "qty": 4.0,
        "unit": "g",
-       "buy": 2.8
+       "buy": 4.0
       }
      ],
      "pantry": [
@@ -2152,15 +2152,15 @@
       "柠檬"
      ],
      "nutrition": {
-      "kcal_total": 300.3,
-      "protein_total": 20.1,
-      "fat_total": 11.0,
-      "carb_total": 33.2,
-      "fiber_total": 6.0,
-      "sodium_total": 98.4,
-      "sat_fat_total": 2.6
+      "kcal_total": 429.0,
+      "protein_total": 28.7,
+      "fat_total": 15.7,
+      "carb_total": 47.4,
+      "fiber_total": 8.6,
+      "sodium_total": 140.6,
+      "sat_fat_total": 3.7
      },
-     "edible_grams": 191.8,
+     "edible_grams": 274.0,
      "per100g": {
       "kcal_total": 156.6,
       "protein_total": 10.5,
@@ -2172,13 +2172,13 @@
      },
      "nutrition_known": true,
      "steps": [
-      "鸡蛋70g水煮8分钟",
-      "鹰嘴豆49g沥干、黄瓜70g切丁",
-      "橄榄油2.8g+柠檬汁10g+盐拌匀。"
+      "鸡蛋100g水煮8分钟",
+      "鹰嘴豆70g沥干、黄瓜100g切丁",
+      "橄榄油4g+柠檬汁10g+盐拌匀。"
      ],
-     "serving_g": 191.8,
+     "serving_g": 274.0,
      "recipe_id": "R005",
-     "portion_multiplier": 0.7
+     "portion_multiplier": 1.0
     },
     {
      "role": "午餐",
@@ -2189,27 +2189,27 @@
      "ing": [
       {
        "name": "三文鱼",
-       "qty": 143.0,
+       "qty": 77.0,
        "unit": "g",
-       "buy": 143.0
+       "buy": 77.0
       },
       {
        "name": "藜麦",
-       "qty": 65.0,
+       "qty": 77.0,
        "unit": "g",
-       "buy": 65.0
+       "buy": 77.0
       },
       {
        "name": "羽衣甘蓝",
-       "qty": 130.0,
+       "qty": 70.0,
        "unit": "g",
-       "buy": 130.0
+       "buy": 70.0
       },
       {
        "name": "橄榄油",
-       "qty": 3.9,
+       "qty": 2.1,
        "unit": "g",
-       "buy": 3.9
+       "buy": 2.1
       }
      ],
      "pantry": [
@@ -2218,34 +2218,33 @@
       "黑胡椒"
      ],
      "nutrition": {
-      "kcal_total": 555.6,
-      "protein_total": 40.2,
-      "fat_total": 19.5,
-      "carb_total": 45.0,
-      "fiber_total": 8.5,
-      "sodium_total": 178.0,
-      "sat_fat_total": 2.6
+      "kcal_total": 299.4,
+      "protein_total": 21.9,
+      "fat_total": 10.5,
+      "carb_total": 25.1,
+      "fiber_total": 3.7,
+      "sodium_total": 105.3,
+      "sat_fat_total": 1.4
      },
-     "edible_grams": 341.9,
+     "edible_grams": 226.1,
      "per100g": {
-      "kcal_total": 162.5,
-      "protein_total": 11.8,
-      "fat_total": 5.7,
-      "carb_total": 13.2,
-      "fiber_total": 2.5,
-      "sodium_total": 52.1,
-      "sat_fat_total": 0.8
+      "kcal_total": 132.4,
+      "protein_total": 9.7,
+      "fat_total": 4.6,
+      "carb_total": 11.1,
+      "fiber_total": 1.6,
+      "sodium_total": 46.6,
+      "sat_fat_total": 0.6
      },
      "nutrition_known": true,
      "steps": [
-      "烤箱200℃",
-      "三文鱼143g抹盐+柠檬烤12分钟",
-      "藜麦65g另煮",
-      "羽衣甘蓝130g撕片拌橄榄油3.9g，最后3分钟同烤。"
+      "熟藜麦77g（预熟袋装）微波高火1分钟",
+      "烤箱200℃三文鱼77g抹盐+柠檬烤12分钟",
+      "羽衣甘蓝70g焯1分钟，拌橄榄油2.1g，配熟藜麦。"
      ],
-     "serving_g": 341.9,
+     "serving_g": 226.1,
      "recipe_id": "R012",
-     "portion_multiplier": 1.3
+     "portion_multiplier": 0.7
     },
     {
      "role": "晚餐",
@@ -2256,33 +2255,33 @@
      "ing": [
       {
        "name": "鸡胸肉",
-       "qty": 130.0,
+       "qty": 169.0,
        "unit": "g",
-       "buy": 130.0
+       "buy": 169.0
       },
       {
        "name": "茄子",
-       "qty": 180.0,
+       "qty": 234.0,
        "unit": "g",
-       "buy": 180.0
+       "buy": 234.0
       },
       {
        "name": "鹰嘴豆",
-       "qty": 50.0,
+       "qty": 65.0,
        "unit": "g",
-       "buy": 50.0
+       "buy": 65.0
       },
       {
        "name": "洋葱",
-       "qty": 40.0,
+       "qty": 52.0,
        "unit": "g",
-       "buy": 40.0
+       "buy": 52.0
       },
       {
        "name": "橄榄油",
-       "qty": 4.0,
+       "qty": 5.2,
        "unit": "g",
-       "buy": 4.0
+       "buy": 5.2
       }
      ],
      "pantry": [
@@ -2291,15 +2290,15 @@
       "黑胡椒"
      ],
      "nutrition": {
-      "kcal_total": 416.8,
-      "protein_total": 45.0,
-      "fat_total": 9.0,
-      "carb_total": 43.2,
-      "fiber_total": 8.5,
-      "sodium_total": 72.7,
-      "sat_fat_total": 1.3
+      "kcal_total": 541.8,
+      "protein_total": 58.5,
+      "fat_total": 11.7,
+      "carb_total": 56.2,
+      "fiber_total": 11.1,
+      "sodium_total": 94.5,
+      "sat_fat_total": 1.7
      },
-     "edible_grams": 404.0,
+     "edible_grams": 525.2,
      "per100g": {
       "kcal_total": 103.2,
       "protein_total": 11.1,
@@ -2311,13 +2310,13 @@
      },
      "nutrition_known": true,
      "steps": [
-      "茄子180g切块撒盐静置5分钟",
-      "鸡胸130g切块，蒜5g+洋葱40g炒香",
-      "下茄子炒软，加鹰嘴豆50g+水100ml炖8分钟，盐黑胡椒。"
+      "茄子234g切块撒盐静置5分钟",
+      "鸡胸169g切块，蒜5g+洋葱52g炒香",
+      "下茄子炒软，加鹰嘴豆65g+水100ml炖8分钟，盐黑胡椒。"
      ],
-     "serving_g": 404.0,
+     "serving_g": 525.2,
      "recipe_id": "R014",
-     "portion_multiplier": 1.0
+     "portion_multiplier": 1.3
     },
     {
      "role": "加餐",
@@ -2376,17 +2375,17 @@
       "items": [
        {
         "name": "三文鱼",
-        "qty": 143.0,
+        "qty": 77.0,
         "unit": "g"
        },
        {
         "name": "鸡胸肉",
-        "qty": 130.0,
+        "qty": 169.0,
         "unit": "g"
        },
        {
         "name": "洋葱",
-        "qty": 40.0,
+        "qty": 52.0,
         "unit": "g"
        }
       ]
@@ -2396,27 +2395,27 @@
       "items": [
        {
         "name": "鹰嘴豆",
-        "qty": 99.0,
+        "qty": 135.0,
         "unit": "g"
        },
        {
         "name": "鸡蛋",
-        "qty": 70.0,
+        "qty": 100.0,
         "unit": "g"
        },
        {
         "name": "黄瓜",
-        "qty": 70.0,
+        "qty": 100.0,
         "unit": "g"
        },
        {
         "name": "羽衣甘蓝",
-        "qty": 130.0,
+        "qty": 70.0,
         "unit": "g"
        },
        {
         "name": "茄子",
-        "qty": 180.0,
+        "qty": 234.0,
         "unit": "g"
        },
        {
@@ -2431,12 +2430,12 @@
       "items": [
        {
         "name": "橄榄油",
-        "qty": 10.7,
+        "qty": 11.3,
         "unit": "g"
        },
        {
         "name": "藜麦",
-        "qty": 65.0,
+        "qty": 77.0,
         "unit": "g"
        },
        {
@@ -2524,7 +2523,7 @@
       "dur": 1.0,
       "kind": "prep",
       "dish": "三文鱼藜麦羽衣甘蓝",
-      "text": "藜麦65g另煮",
+      "text": "熟藜麦143g微波1分钟",
       "hands": 1.0
      },
      {
@@ -2532,9 +2531,8 @@
       "dur": 10.0,
       "kind": "free",
       "dish": "三文鱼藜麦羽衣甘蓝",
-      "text": "藜麦65g另煮",
-      "hands": 0.0,
-      "device": "hob"
+      "text": "熟藜麦143g微波1分钟",
+      "hands": 0.0
      },
      {
       "t": 17.0,
@@ -2642,9 +2640,9 @@
       },
       {
        "name": "藜麦",
-       "qty": 45.0,
+       "qty": 99.0,
        "unit": "g",
-       "buy": 45.0
+       "buy": 99.0
       },
       {
        "name": "蘑菇",
@@ -2671,38 +2669,39 @@
       "大蒜"
      ],
      "nutrition": {
-      "kcal_total": 436.4,
-      "protein_total": 34.8,
+      "kcal_total": 436.7,
+      "protein_total": 35.1,
       "fat_total": 16.0,
-      "carb_total": 34.4,
-      "fiber_total": 7.4,
-      "sodium_total": 131.4,
+      "carb_total": 35.5,
+      "fiber_total": 6.3,
+      "sodium_total": 145.6,
       "sat_fat_total": 2.9
      },
-     "edible_grams": 340.0,
+     "edible_grams": 394.0,
      "per100g": {
-      "kcal_total": 128.4,
-      "protein_total": 10.2,
-      "fat_total": 4.7,
-      "carb_total": 10.1,
-      "fiber_total": 2.2,
-      "sodium_total": 38.6,
-      "sat_fat_total": 0.9
+      "kcal_total": 110.8,
+      "protein_total": 8.9,
+      "fat_total": 4.1,
+      "carb_total": 9.0,
+      "fiber_total": 1.6,
+      "sodium_total": 37.0,
+      "sat_fat_total": 0.7
      },
      "nutrition_known": true,
      "steps": [
-      "藜麦45g煮15分钟",
+      "熟藜麦99g（预熟袋装）微波高火1分钟",
       "鸡腿110g切块，姜3g蒜5g爆香煎5分钟",
       "蘑菇120g切片炒出水",
-      "羽衣甘蓝60g最后2分钟，加盐。"
+      "羽衣甘蓝60g最后2分钟",
+      "拌入熟藜麦，加盐。"
      ],
-     "serving_g": 340.0,
+     "serving_g": 394.0,
      "recipe_id": "R011",
      "portion_multiplier": 1.0
     },
     {
      "role": "晚餐",
-     "name": "鳕鱼西葫芦鹰嘴豆",
+     "name": "鳕鱼茄子鹰嘴豆",
      "cook_min": 15,
      "camera": false,
      "kid_ok": false,
@@ -2714,7 +2713,7 @@
        "buy": 119.0
       },
       {
-       "name": "西葫芦",
+       "name": "茄子",
        "qty": 126.0,
        "unit": "g",
        "buy": 126.0
@@ -2744,33 +2743,33 @@
       "黑胡椒"
      ],
      "nutrition": {
-      "kcal_total": 290.3,
-      "protein_total": 33.9,
+      "kcal_total": 295.3,
+      "protein_total": 34.2,
       "fat_total": 6.4,
-      "carb_total": 27.2,
-      "fiber_total": 5.9,
-      "sodium_total": 169.0,
+      "carb_total": 28.6,
+      "fiber_total": 6.8,
+      "sodium_total": 169.5,
       "sat_fat_total": 0.7
      },
      "edible_grams": 350.7,
      "per100g": {
-      "kcal_total": 82.8,
-      "protein_total": 9.7,
+      "kcal_total": 84.2,
+      "protein_total": 9.8,
       "fat_total": 1.8,
-      "carb_total": 7.8,
-      "fiber_total": 1.7,
-      "sodium_total": 48.2,
+      "carb_total": 8.2,
+      "fiber_total": 1.9,
+      "sodium_total": 48.3,
       "sat_fat_total": 0.2
      },
      "nutrition_known": true,
      "steps": [
-      "蒜5g爆香，西葫芦126g切块炒3分钟",
+      "蒜5g爆香，茄子126g切块炒3分钟",
       "蘑菇70g下锅",
       "加鹰嘴豆31.5g+水80ml",
       "鳕鱼119g切块铺面盖盖焖6分钟，盐黑胡椒。"
      ],
      "serving_g": 350.7,
-     "recipe_id": "R015",
+     "recipe_id": "R025",
      "portion_multiplier": 0.7
     },
     {
@@ -2864,7 +2863,7 @@
         "unit": "g"
        },
        {
-        "name": "西葫芦",
+        "name": "茄子",
         "qty": 126.0,
         "unit": "g"
        },
@@ -2885,7 +2884,7 @@
        },
        {
         "name": "藜麦",
-        "qty": 45.0,
+        "qty": 99.0,
         "unit": "g"
        },
        {
@@ -2926,7 +2925,7 @@
       "dur": 1.0,
       "kind": "prep",
       "dish": "鸡腿蘑菇藜麦饭",
-      "text": "藜麦45g煮15分钟",
+      "text": "熟藜麦99g微波1分钟",
       "hands": 1.0
      },
      {
@@ -2934,9 +2933,8 @@
       "dur": 15.0,
       "kind": "free",
       "dish": "鸡腿蘑菇藜麦饭",
-      "text": "藜麦45g煮15分钟",
-      "hands": 0.0,
-      "device": "hob"
+      "text": "熟藜麦99g微波1分钟",
+      "hands": 0.0
      },
      {
       "t": 1.0,
@@ -4388,9 +4386,9 @@
       },
       {
        "name": "藜麦",
-       "qty": 58.5,
+       "qty": 128.7,
        "unit": "g",
-       "buy": 58.5
+       "buy": 128.7
       },
       {
        "name": "蘑菇",
@@ -4417,32 +4415,33 @@
       "大蒜"
      ],
      "nutrition": {
-      "kcal_total": 567.3,
-      "protein_total": 45.2,
+      "kcal_total": 567.7,
+      "protein_total": 45.6,
       "fat_total": 20.8,
-      "carb_total": 44.7,
-      "fiber_total": 9.6,
-      "sodium_total": 170.8,
+      "carb_total": 46.1,
+      "fiber_total": 8.2,
+      "sodium_total": 189.3,
       "sat_fat_total": 3.8
      },
-     "edible_grams": 442.0,
+     "edible_grams": 512.2,
      "per100g": {
-      "kcal_total": 128.3,
-      "protein_total": 10.2,
-      "fat_total": 4.7,
-      "carb_total": 10.1,
-      "fiber_total": 2.2,
-      "sodium_total": 38.6,
-      "sat_fat_total": 0.9
+      "kcal_total": 110.8,
+      "protein_total": 8.9,
+      "fat_total": 4.1,
+      "carb_total": 9.0,
+      "fiber_total": 1.6,
+      "sodium_total": 37.0,
+      "sat_fat_total": 0.7
      },
      "nutrition_known": true,
      "steps": [
-      "藜麦58.5g煮15分钟",
+      "熟藜麦128.7g（预熟袋装）微波高火1分钟",
       "鸡腿143g切块，姜3g蒜6.5g爆香煎5分钟",
       "蘑菇156g切片炒出水",
-      "羽衣甘蓝78g最后2分钟，加盐。"
+      "羽衣甘蓝78g最后2分钟",
+      "拌入熟藜麦，加盐。"
      ],
-     "serving_g": 442.0,
+     "serving_g": 512.2,
      "recipe_id": "R011",
      "portion_multiplier": 1.3
     }
@@ -4529,7 +4528,7 @@
        },
        {
         "name": "藜麦",
-        "qty": 58.5,
+        "qty": 128.7,
         "unit": "g"
        }
       ]
@@ -4561,7 +4560,7 @@
       "dur": 1.0,
       "kind": "prep",
       "dish": "鸡腿蘑菇藜麦饭",
-      "text": "藜麦58.5g煮15分钟",
+      "text": "熟藜麦128.7g微波1分钟",
       "hands": 1.0
      },
      {
@@ -4569,9 +4568,8 @@
       "dur": 15.0,
       "kind": "free",
       "dish": "鸡腿蘑菇藜麦饭",
-      "text": "藜麦58.5g煮15分钟",
-      "hands": 0.0,
-      "device": "hob"
+      "text": "熟藜麦128.7g微波1分钟",
+      "hands": 0.0
      },
      {
       "t": 1.0,
