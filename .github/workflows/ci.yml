@@ -1,0 +1,142 @@
+name: Web CI
+
+# 说明：本仓库只存放 GitHub Pages 的生成产物，源码（食谱库/scripts/recipes）
+# 不在这个仓库里，所以这里先做「静态校验 + 浏览器冒烟」。
+# 真正的源码构建/多平台打包，等源码入仓或建立源码仓库后再加 build job。
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: web-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate JS syntax
+        run: |
+          set -e
+          find . -path ./.git -prune -o -name '*.js' -exec sh -c '
+            for f do
+              echo "node --check $f"
+              node --check "$f"
+            done
+          ' sh {} +
+
+      - name: Validate JSON and Python syntax
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          files = sorted(Path(".").rglob("*.json"))
+          for p in files:
+              if ".git" in p.parts:
+                  continue
+              json.loads(p.read_text(encoding="utf-8"))
+              print("JSON OK", p)
+
+          manifest = json.loads(Path("manifest.json").read_text(encoding="utf-8"))
+          assert manifest["name"] == "菜谱"
+          assert manifest["display"] == "standalone"
+          for icon in manifest.get("icons", []):
+              assert Path(icon["src"]).is_file(), icon["src"]
+          PY
+          python3 -m py_compile 导出库存.py
+
+      - name: Validate published HTML
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import re
+          from pathlib import Path
+
+          catalog = Path("catalog.html")
+          index = Path("index.html")
+          assert catalog.stat().st_size > 1_000_000
+          assert index.stat().st_size > 1_000_000
+          assert hashlib.sha256(catalog.read_bytes()).digest() == hashlib.sha256(index.read_bytes()).digest(), "catalog.html 与 index.html 不一致"
+
+          html = catalog.read_text(encoding="utf-8")
+          for token, label in [
+              (r"id=[\"']stReceipt[\"']", "传小票按钮"),
+              (r"data-nm=", "菜谱数据"),
+              (r"manifest\.json", "PWA manifest"),
+          ]:
+              assert re.search(token, html), f"catalog.html 缺少{label}"
+          print("HTML OK:", catalog.stat().st_size, "bytes")
+          PY
+
+      - name: Install Playwright
+        run: |
+          python3 -m pip install --disable-pip-version-check "playwright>=1.40,<2"
+          python3 -m playwright install --with-deps chromium
+
+      - name: Browser smoke
+        run: |
+          set -e
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/rb-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID 2>/dev/null || true' EXIT
+          sleep 2
+          python3 - <<'PY'
+          import asyncio
+          from playwright.async_api import async_playwright
+
+          async def main():
+              async with async_playwright() as p:
+                  browser = await p.chromium.launch()
+                  context = await browser.new_context(viewport={"width": 390, "height": 844})
+                  page = await context.new_page()
+                  errors = []
+                  page.on("pageerror", lambda e: errors.append(str(e)))
+                  await page.add_init_script(
+                      "localStorage.setItem('rb_gate','true');"
+                  )
+                  # 不让 CI 访问 Supabase：只测页面结构
+                  await page.route(
+                      "**/sync.js",
+                      lambda route: route.fulfill(
+                          status=200,
+                          content_type="application/javascript",
+                          body="",
+                      ),
+                  )
+                  await page.goto(
+                      "http://127.0.0.1:8765/catalog.html",
+                      wait_until="networkidle",
+                      timeout=30000,
+                  )
+                  assert await page.locator("[data-view=stock]").count() > 0
+                  await page.click("[data-view=stock]")
+                  await page.wait_for_selector("#stReceipt", state="visible", timeout=5000)
+                  assert (await page.inner_text("#stReceipt")).strip() == "传小票"
+                  assert not errors, f"页面 JS 错误: {errors}"
+                  print("Browser smoke OK: 库存弹层 + 传小票按钮")
+                  await browser.close()
+
+          asyncio.run(main())
+          PY
