@@ -627,6 +627,54 @@
     }).catch(function () {});
   })();
 
+  function readAsDataURL(file, cb){
+    var r = new FileReader();
+    r.onload = function(){ cb(null, r.result); };
+    r.onerror = function(){ cb(new Error('读取图片失败')); };
+    r.readAsDataURL(file);
+  }
+  function shrinkReceipt(file, cb){
+    if(!/^image\/(jpeg|png|webp)$/i.test(file.type)){ readAsDataURL(file, cb); return; }
+    var url = URL.createObjectURL(file), img = new Image();
+    img.onload = function(){
+      var max = 1600, w = img.naturalWidth, h = img.naturalHeight;
+      if(Math.max(w, h) > max){
+        var s = max / Math.max(w, h);
+        w = Math.round(w * s); h = Math.round(h * s);
+      }
+      var c = document.createElement('canvas');
+      c.width = w; c.height = h;
+      c.getContext('2d').drawImage(img, 0, 0, w, h);
+      URL.revokeObjectURL(url);
+      try { cb(null, c.toDataURL('image/jpeg', 0.82)); }
+      catch(e){ cb(e); }
+    };
+    img.onerror = function(){ URL.revokeObjectURL(url); readAsDataURL(file, cb); };
+    img.src = url;
+  }
+  function uploadReceipt(file, done){
+    var fam = ls(FAM_KEY, null);
+    if(!fam || !fam.fam || !fam.pw) return done(new Error('先输入家庭口令'));
+    if(!file) return done(new Error('没有选择图片'));
+    if(file.size > 12 * 1024 * 1024) return done(new Error('图片超过 12MB'));
+    shrinkReceipt(file, function(err, dataUrl){
+      if(err) return done(err);
+      var m = /^data:([^;]+);base64,(.+)$/.exec(dataUrl || '');
+      if(!m) return done(new Error('图片格式不支持'));
+      call('put_receipt', {
+        p_family: fam.fam,
+        p_token: fam.pw,
+        p_filename: file.name || 'receipt.jpg',
+        p_mime: m[1],
+        p_image_b64: m[2]
+      }).then(function(r){
+        if(!r.ok) return done(new Error((r.body && (r.body.message || r.body.hint)) || '上传失败'));
+        done(null, r.body);
+      }).catch(function(e){ done(e); });
+    });
+  }
+  window.RB_RECEIPT = { upload: uploadReceipt };
+
   window.RBSYNC = {
     save: function (docKey) {
       if (docKey === 'rb_shop' && !weekCode()) {
