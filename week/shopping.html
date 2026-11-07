@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="菜谱">
 <meta name="rb-week" content="W1-11-02">
-<meta name="rb-build" content="20261107070208">
+<meta name="rb-build" content="20261107071230">
 <title>推荐采购 · W1-11-02</title>
 <style>
 *{box-sizing:border-box;-webkit-text-size-adjust:100%;}
@@ -154,7 +154,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="../#open=about">关于</a>
   </div>
   <div class="bar">
-    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-07 07:02</span></span>
+    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-07 07:12</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
@@ -721,8 +721,7 @@ window.__DAYING__ = {"2026-11-02":[["沙虾",500.0,"g",500.0,"g"],["菜脯",80.0
       lines.push("【" + g.cat + "】");
       g.items.forEach(function(it){ lines.push(it.n + "  " + it.q); });
     });
-    return lines.join("
-");
+    return lines.join("\n");
   }
   function copyPlain(text, done){
     if(navigator.clipboard && navigator.clipboard.writeText){
