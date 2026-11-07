@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-07T12:25:25",
+ "generated": "2026-11-07T12:32:10",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "columns": [
@@ -59,116 +59,9 @@
   "ALDI": "Aldi",
   "SAINSBURYS": "Sainsbury's"
  },
- "exclusive": [
-  {
-   "category": "蔬菜",
-   "name": "茄子",
-   "buy_qty": 2.0,
-   "buy_unit": "个",
-   "buy_text": "2个",
-   "packs": 2,
-   "price_gbp": 1.05,
-   "name_en": "Aubergine",
-   "brand": "Sainsbury's",
-   "pack_size": "1 个",
-   "unit_price_gbp": 1.05,
-   "line_total_gbp": 2.1,
-   "used_on": [
-    "周五",
-    "周日"
-   ],
-   "link": "https://www.sainsburys.co.uk/gol-ui/product/6026956",
-   "product": {
-    "name": "Aubergine",
-    "brand": "Sainsbury's",
-    "size": "1 个",
-    "price_gbp": 1.05,
-    "link": "https://www.sainsburys.co.uk/gol-ui/product/6026956"
-   },
-   "only_at": "SAINSBURYS",
-   "only_at_label": "Sainsbury's"
-  },
-  {
-   "category": "调料",
-   "name": "孜然",
-   "buy_qty": 43.0,
-   "buy_unit": "g",
-   "buy_text": "43g",
-   "packs": 1,
-   "price_gbp": 1.15,
-   "name_en": "Ground Cumin 43g",
-   "brand": "Sainsbury's",
-   "pack_size": "43 g",
-   "unit_price_gbp": 1.15,
-   "line_total_gbp": 1.15,
-   "used_on": [],
-   "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705",
-   "product": {
-    "name": "Ground Cumin 43g",
-    "brand": "Sainsbury's",
-    "size": "43 g",
-    "price_gbp": 1.15,
-    "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705"
-   },
-   "only_at": "SAINSBURYS",
-   "only_at_label": "Sainsbury's"
-  }
- ],
- "exclusive_note": "以下食材只有一家超市买得到，需单独跑一趟",
+ "exclusive": [],
+ "exclusive_note": "",
  "items": [
-  {
-   "category": "蔬菜",
-   "name": "茄子",
-   "buy_qty": 2.0,
-   "buy_unit": "个",
-   "buy_text": "2个",
-   "packs": 2,
-   "price_gbp": 1.05,
-   "name_en": "Aubergine",
-   "brand": "Sainsbury's",
-   "pack_size": "1 个",
-   "unit_price_gbp": 1.05,
-   "line_total_gbp": 2.1,
-   "used_on": [
-    "周五",
-    "周日"
-   ],
-   "link": "https://www.sainsburys.co.uk/gol-ui/product/6026956",
-   "product": {
-    "name": "Aubergine",
-    "brand": "Sainsbury's",
-    "size": "1 个",
-    "price_gbp": 1.05,
-    "link": "https://www.sainsburys.co.uk/gol-ui/product/6026956"
-   },
-   "only_at": "SAINSBURYS",
-   "only_at_label": "Sainsbury's"
-  },
-  {
-   "category": "调料",
-   "name": "孜然",
-   "buy_qty": 43.0,
-   "buy_unit": "g",
-   "buy_text": "43g",
-   "packs": 1,
-   "price_gbp": 1.15,
-   "name_en": "Ground Cumin 43g",
-   "brand": "Sainsbury's",
-   "pack_size": "43 g",
-   "unit_price_gbp": 1.15,
-   "line_total_gbp": 1.15,
-   "used_on": [],
-   "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705",
-   "product": {
-    "name": "Ground Cumin 43g",
-    "brand": "Sainsbury's",
-    "size": "43 g",
-    "price_gbp": 1.15,
-    "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705"
-   },
-   "only_at": "SAINSBURYS",
-   "only_at_label": "Sainsbury's"
-  },
   {
    "category": "蔬菜",
    "name": "菠菜",
@@ -313,6 +206,32 @@
     "size": "250 g",
     "price_gbp": 0.95,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
+   }
+  },
+  {
+   "category": "蔬菜",
+   "name": "茄子",
+   "buy_qty": 2.0,
+   "buy_unit": "个",
+   "buy_text": "2个",
+   "packs": 2,
+   "price_gbp": 0.79,
+   "name_en": "Aubergine",
+   "brand": "（官网未收录，货架散装）",
+   "pack_size": "1 个",
+   "unit_price_gbp": 0.79,
+   "line_total_gbp": 1.58,
+   "used_on": [
+    "周五",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/search?text=Aubergine",
+   "product": {
+    "name": "Aubergine",
+    "brand": "（官网未收录，货架散装）",
+    "size": "1 个",
+    "price_gbp": 0.79,
+    "link": "https://www.aldi.co.uk/search?text=Aubergine"
    }
   },
   {
@@ -708,6 +627,29 @@
     "price_gbp": 0.99,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
    }
+  },
+  {
+   "category": "调料",
+   "name": "孜然",
+   "buy_qty": 40.0,
+   "buy_unit": "g",
+   "buy_text": "40g",
+   "packs": 1,
+   "price_gbp": 0.79,
+   "name_en": "Ground Cumin",
+   "brand": "Stonemill",
+   "pack_size": "40 g",
+   "unit_price_gbp": 0.79,
+   "line_total_gbp": 0.79,
+   "used_on": [],
+   "link": "https://www.aldi.co.uk/search?text=Cumin",
+   "product": {
+    "name": "Ground Cumin",
+    "brand": "Stonemill",
+    "size": "40 g",
+    "price_gbp": 0.79,
+    "link": "https://www.aldi.co.uk/search?text=Cumin"
+   }
   }
  ],
  "batches": [
@@ -859,6 +801,32 @@
       "size": "250 g",
       "price_gbp": 0.95,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "茄子",
+     "buy_qty": 2.0,
+     "buy_unit": "个",
+     "buy_text": "2个",
+     "packs": 2,
+     "price_gbp": 0.79,
+     "name_en": "Aubergine",
+     "brand": "（官网未收录，货架散装）",
+     "pack_size": "1 个",
+     "unit_price_gbp": 0.79,
+     "line_total_gbp": 1.58,
+     "used_on": [
+      "周五",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/search?text=Aubergine",
+     "product": {
+      "name": "Aubergine",
+      "brand": "（官网未收录，货架散装）",
+      "size": "1 个",
+      "price_gbp": 0.79,
+      "link": "https://www.aldi.co.uk/search?text=Aubergine"
      }
     },
     {
@@ -1228,9 +1196,32 @@
       "price_gbp": 0.99,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
      }
+    },
+    {
+     "category": "调料",
+     "name": "孜然",
+     "buy_qty": 40.0,
+     "buy_unit": "g",
+     "buy_text": "40g",
+     "packs": 1,
+     "price_gbp": 0.79,
+     "name_en": "Ground Cumin",
+     "brand": "Stonemill",
+     "pack_size": "40 g",
+     "unit_price_gbp": 0.79,
+     "line_total_gbp": 0.79,
+     "used_on": [],
+     "link": "https://www.aldi.co.uk/search?text=Cumin",
+     "product": {
+      "name": "Ground Cumin",
+      "brand": "Stonemill",
+      "size": "40 g",
+      "price_gbp": 0.79,
+      "link": "https://www.aldi.co.uk/search?text=Cumin"
+     }
     }
    ],
-   "subtotal_gbp": 54.27
+   "subtotal_gbp": 56.64
   },
   {
    "n": 2,
@@ -1380,7 +1371,7 @@
    "subtotal_gbp": 8.29
   }
  ],
- "total_gbp": 62.56,
+ "total_gbp": 64.93,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -1530,6 +1521,32 @@
       "size": "250 g",
       "price_gbp": 0.95,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "茄子",
+     "buy_qty": 2.0,
+     "buy_unit": "个",
+     "buy_text": "2个",
+     "packs": 2,
+     "price_gbp": 0.79,
+     "name_en": "Aubergine",
+     "brand": "（官网未收录，货架散装）",
+     "pack_size": "1 个",
+     "unit_price_gbp": 0.79,
+     "line_total_gbp": 1.58,
+     "used_on": [
+      "周五",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/search?text=Aubergine",
+     "product": {
+      "name": "Aubergine",
+      "brand": "（官网未收录，货架散装）",
+      "size": "1 个",
+      "price_gbp": 0.79,
+      "link": "https://www.aldi.co.uk/search?text=Aubergine"
      }
     },
     {
@@ -1925,6 +1942,29 @@
       "price_gbp": 0.99,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
      }
+    },
+    {
+     "category": "调料",
+     "name": "孜然",
+     "buy_qty": 40.0,
+     "buy_unit": "g",
+     "buy_text": "40g",
+     "packs": 1,
+     "price_gbp": 0.79,
+     "name_en": "Ground Cumin",
+     "brand": "Stonemill",
+     "pack_size": "40 g",
+     "unit_price_gbp": 0.79,
+     "line_total_gbp": 0.79,
+     "used_on": [],
+     "link": "https://www.aldi.co.uk/search?text=Cumin",
+     "product": {
+      "name": "Ground Cumin",
+      "brand": "Stonemill",
+      "size": "40 g",
+      "price_gbp": 0.79,
+      "link": "https://www.aldi.co.uk/search?text=Cumin"
+     }
     }
    ],
    "batches": [
@@ -2076,6 +2116,32 @@
         "size": "250 g",
         "price_gbp": 0.95,
         "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
+       }
+      },
+      {
+       "category": "蔬菜",
+       "name": "茄子",
+       "buy_qty": 2.0,
+       "buy_unit": "个",
+       "buy_text": "2个",
+       "packs": 2,
+       "price_gbp": 0.79,
+       "name_en": "Aubergine",
+       "brand": "（官网未收录，货架散装）",
+       "pack_size": "1 个",
+       "unit_price_gbp": 0.79,
+       "line_total_gbp": 1.58,
+       "used_on": [
+        "周五",
+        "周日"
+       ],
+       "link": "https://www.aldi.co.uk/search?text=Aubergine",
+       "product": {
+        "name": "Aubergine",
+        "brand": "（官网未收录，货架散装）",
+        "size": "1 个",
+        "price_gbp": 0.79,
+        "link": "https://www.aldi.co.uk/search?text=Aubergine"
        }
       },
       {
@@ -2445,9 +2511,32 @@
         "price_gbp": 0.99,
         "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
        }
+      },
+      {
+       "category": "调料",
+       "name": "孜然",
+       "buy_qty": 40.0,
+       "buy_unit": "g",
+       "buy_text": "40g",
+       "packs": 1,
+       "price_gbp": 0.79,
+       "name_en": "Ground Cumin",
+       "brand": "Stonemill",
+       "pack_size": "40 g",
+       "unit_price_gbp": 0.79,
+       "line_total_gbp": 0.79,
+       "used_on": [],
+       "link": "https://www.aldi.co.uk/search?text=Cumin",
+       "product": {
+        "name": "Ground Cumin",
+        "brand": "Stonemill",
+        "size": "40 g",
+        "price_gbp": 0.79,
+        "link": "https://www.aldi.co.uk/search?text=Cumin"
+       }
       }
      ],
-     "subtotal_gbp": 54.27
+     "subtotal_gbp": 56.64
     },
     {
      "n": 2,
@@ -2597,66 +2686,14 @@
      "subtotal_gbp": 8.29
     }
    ],
-   "total_gbp": 62.56,
+   "total_gbp": 64.93,
    "missing": [],
-   "unavailable": [
-    "茄子",
-    "孜然"
-   ]
+   "unavailable": []
   },
   "SAINSBURYS": {
    "store": "SAINSBURYS",
    "store_label": "Sainsbury's",
    "items": [
-    {
-     "category": "蔬菜",
-     "name": "茄子",
-     "buy_qty": 2.0,
-     "buy_unit": "个",
-     "buy_text": "2个",
-     "packs": 2,
-     "price_gbp": 1.05,
-     "name_en": "Aubergine",
-     "brand": "Sainsbury's",
-     "pack_size": "1 个",
-     "unit_price_gbp": 1.05,
-     "line_total_gbp": 2.1,
-     "used_on": [
-      "周五",
-      "周日"
-     ],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/6026956",
-     "product": {
-      "name": "Aubergine",
-      "brand": "Sainsbury's",
-      "size": "1 个",
-      "price_gbp": 1.05,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/6026956"
-     }
-    },
-    {
-     "category": "调料",
-     "name": "孜然",
-     "buy_qty": 43.0,
-     "buy_unit": "g",
-     "buy_text": "43g",
-     "packs": 1,
-     "price_gbp": 1.15,
-     "name_en": "Ground Cumin 43g",
-     "brand": "Sainsbury's",
-     "pack_size": "43 g",
-     "unit_price_gbp": 1.15,
-     "line_total_gbp": 1.15,
-     "used_on": [],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705",
-     "product": {
-      "name": "Ground Cumin 43g",
-      "brand": "Sainsbury's",
-      "size": "43 g",
-      "price_gbp": 1.15,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705"
-     }
-    },
     {
      "category": "蔬菜",
      "name": "菠菜",
@@ -2801,6 +2838,32 @@
       "size": "300 g",
       "price_gbp": 1.29,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "茄子",
+     "buy_qty": 2.0,
+     "buy_unit": "个",
+     "buy_text": "2个",
+     "packs": 2,
+     "price_gbp": 1.05,
+     "name_en": "Aubergine",
+     "brand": "Sainsbury's",
+     "pack_size": "1 个",
+     "unit_price_gbp": 1.05,
+     "line_total_gbp": 2.1,
+     "used_on": [
+      "周五",
+      "周日"
+     ],
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/6026956",
+     "product": {
+      "name": "Aubergine",
+      "brand": "Sainsbury's",
+      "size": "1 个",
+      "price_gbp": 1.05,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/6026956"
      }
     },
     {
@@ -3195,6 +3258,29 @@
       "size": "100 g",
       "price_gbp": 1.25,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "孜然",
+     "buy_qty": 43.0,
+     "buy_unit": "g",
+     "buy_text": "43g",
+     "packs": 1,
+     "price_gbp": 1.15,
+     "name_en": "Ground Cumin 43g",
+     "brand": "Sainsbury's",
+     "pack_size": "43 g",
+     "unit_price_gbp": 1.15,
+     "line_total_gbp": 1.15,
+     "used_on": [],
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705",
+     "product": {
+      "name": "Ground Cumin 43g",
+      "brand": "Sainsbury's",
+      "size": "43 g",
+      "price_gbp": 1.15,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705"
      }
     }
    ],
