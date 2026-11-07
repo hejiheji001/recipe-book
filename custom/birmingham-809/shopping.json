@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-07T12:44:15",
+ "generated": "2026-11-07T13:25:43",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "columns": [
@@ -242,33 +242,6 @@
   },
   {
    "category": "肉类",
-   "name": "火鸡肉",
-   "buy_qty": 500.0,
-   "buy_unit": "g",
-   "buy_text": "500g",
-   "packs": 1,
-   "price_gbp": 2.99,
-   "name_en": "British Turkey Mince 7% Fat",
-   "name_short": "Turkey Mince 7% Fat",
-   "brand": "ASHFIELDS",
-   "pack_size": "500 g",
-   "unit_price_gbp": 2.99,
-   "line_total_gbp": 2.99,
-   "used_on": [
-    "周一",
-    "周五"
-   ],
-   "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
-   "product": {
-    "name": "British Turkey Mince 7% Fat",
-    "brand": "ASHFIELDS",
-    "size": "500 g",
-    "price_gbp": 2.99,
-    "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144"
-   }
-  },
-  {
-   "category": "肉类",
    "name": "牛排",
    "buy_qty": 390.0,
    "buy_unit": "g",
@@ -293,6 +266,33 @@
     "size": "195 g",
     "price_gbp": 4.49,
     "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068"
+   }
+  },
+  {
+   "category": "肉类",
+   "name": "火鸡肉",
+   "buy_qty": 500.0,
+   "buy_unit": "g",
+   "buy_text": "500g",
+   "packs": 1,
+   "price_gbp": 2.99,
+   "name_en": "British Turkey Mince 7% Fat",
+   "name_short": "Turkey Mince 7% Fat",
+   "brand": "ASHFIELDS",
+   "pack_size": "500 g",
+   "unit_price_gbp": 2.99,
+   "line_total_gbp": 2.99,
+   "used_on": [
+    "周一",
+    "周五"
+   ],
+   "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
+   "product": {
+    "name": "British Turkey Mince 7% Fat",
+    "brand": "ASHFIELDS",
+    "size": "500 g",
+    "price_gbp": 2.99,
+    "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144"
    }
   },
   {
@@ -859,33 +859,6 @@
     },
     {
      "category": "肉类",
-     "name": "火鸡肉",
-     "buy_qty": 500.0,
-     "buy_unit": "g",
-     "buy_text": "500g",
-     "packs": 1,
-     "price_gbp": 2.99,
-     "name_en": "British Turkey Mince 7% Fat",
-     "name_short": "Turkey Mince 7% Fat",
-     "brand": "ASHFIELDS",
-     "pack_size": "500 g",
-     "unit_price_gbp": 2.99,
-     "line_total_gbp": 2.99,
-     "used_on": [
-      "周一",
-      "周五"
-     ],
-     "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
-     "product": {
-      "name": "British Turkey Mince 7% Fat",
-      "brand": "ASHFIELDS",
-      "size": "500 g",
-      "price_gbp": 2.99,
-      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144"
-     }
-    },
-    {
-     "category": "肉类",
      "name": "牛排",
      "buy_qty": 390.0,
      "buy_unit": "g",
@@ -910,6 +883,33 @@
       "size": "195 g",
       "price_gbp": 4.49,
       "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "火鸡肉",
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "buy_text": "500g",
+     "packs": 1,
+     "price_gbp": 2.99,
+     "name_en": "British Turkey Mince 7% Fat",
+     "name_short": "Turkey Mince 7% Fat",
+     "brand": "ASHFIELDS",
+     "pack_size": "500 g",
+     "unit_price_gbp": 2.99,
+     "line_total_gbp": 2.99,
+     "used_on": [
+      "周一",
+      "周五"
+     ],
+     "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
+     "product": {
+      "name": "British Turkey Mince 7% Fat",
+      "brand": "ASHFIELDS",
+      "size": "500 g",
+      "price_gbp": 2.99,
+      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144"
      }
     },
     {
@@ -1605,33 +1605,6 @@
     },
     {
      "category": "肉类",
-     "name": "火鸡肉",
-     "buy_qty": 500.0,
-     "buy_unit": "g",
-     "buy_text": "500g",
-     "packs": 1,
-     "price_gbp": 2.99,
-     "name_en": "British Turkey Mince 7% Fat",
-     "name_short": "Turkey Mince 7% Fat",
-     "brand": "ASHFIELDS",
-     "pack_size": "500 g",
-     "unit_price_gbp": 2.99,
-     "line_total_gbp": 2.99,
-     "used_on": [
-      "周一",
-      "周五"
-     ],
-     "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
-     "product": {
-      "name": "British Turkey Mince 7% Fat",
-      "brand": "ASHFIELDS",
-      "size": "500 g",
-      "price_gbp": 2.99,
-      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144"
-     }
-    },
-    {
-     "category": "肉类",
      "name": "牛排",
      "buy_qty": 390.0,
      "buy_unit": "g",
@@ -1656,6 +1629,33 @@
       "size": "195 g",
       "price_gbp": 4.49,
       "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "火鸡肉",
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "buy_text": "500g",
+     "packs": 1,
+     "price_gbp": 2.99,
+     "name_en": "British Turkey Mince 7% Fat",
+     "name_short": "Turkey Mince 7% Fat",
+     "brand": "ASHFIELDS",
+     "pack_size": "500 g",
+     "unit_price_gbp": 2.99,
+     "line_total_gbp": 2.99,
+     "used_on": [
+      "周一",
+      "周五"
+     ],
+     "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
+     "product": {
+      "name": "British Turkey Mince 7% Fat",
+      "brand": "ASHFIELDS",
+      "size": "500 g",
+      "price_gbp": 2.99,
+      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144"
      }
     },
     {
@@ -2222,33 +2222,6 @@
       },
       {
        "category": "肉类",
-       "name": "火鸡肉",
-       "buy_qty": 500.0,
-       "buy_unit": "g",
-       "buy_text": "500g",
-       "packs": 1,
-       "price_gbp": 2.99,
-       "name_en": "British Turkey Mince 7% Fat",
-       "name_short": "Turkey Mince 7% Fat",
-       "brand": "ASHFIELDS",
-       "pack_size": "500 g",
-       "unit_price_gbp": 2.99,
-       "line_total_gbp": 2.99,
-       "used_on": [
-        "周一",
-        "周五"
-       ],
-       "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
-       "product": {
-        "name": "British Turkey Mince 7% Fat",
-        "brand": "ASHFIELDS",
-        "size": "500 g",
-        "price_gbp": 2.99,
-        "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144"
-       }
-      },
-      {
-       "category": "肉类",
        "name": "牛排",
        "buy_qty": 390.0,
        "buy_unit": "g",
@@ -2273,6 +2246,33 @@
         "size": "195 g",
         "price_gbp": 4.49,
         "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068"
+       }
+      },
+      {
+       "category": "肉类",
+       "name": "火鸡肉",
+       "buy_qty": 500.0,
+       "buy_unit": "g",
+       "buy_text": "500g",
+       "packs": 1,
+       "price_gbp": 2.99,
+       "name_en": "British Turkey Mince 7% Fat",
+       "name_short": "Turkey Mince 7% Fat",
+       "brand": "ASHFIELDS",
+       "pack_size": "500 g",
+       "unit_price_gbp": 2.99,
+       "line_total_gbp": 2.99,
+       "used_on": [
+        "周一",
+        "周五"
+       ],
+       "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
+       "product": {
+        "name": "British Turkey Mince 7% Fat",
+        "brand": "ASHFIELDS",
+        "size": "500 g",
+        "price_gbp": 2.99,
+        "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144"
        }
       },
       {
@@ -2970,33 +2970,6 @@
     },
     {
      "category": "肉类",
-     "name": "火鸡肉",
-     "buy_qty": 750.0,
-     "buy_unit": "g",
-     "buy_text": "750g",
-     "packs": 1,
-     "price_gbp": 4.75,
-     "name_en": "7% Fat Fresh British Turkey Mince 750g",
-     "name_short": "7% Fat Fresh Turkey Mince",
-     "brand": "Sainsbury's",
-     "pack_size": "750 g",
-     "unit_price_gbp": 4.75,
-     "line_total_gbp": 4.75,
-     "used_on": [
-      "周一",
-      "周五"
-     ],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-     "product": {
-      "name": "7% Fat Fresh British Turkey Mince 750g",
-      "brand": "Sainsbury's",
-      "size": "750 g",
-      "price_gbp": 4.75,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-     }
-    },
-    {
-     "category": "肉类",
      "name": "牛排",
      "buy_qty": 450.0,
      "buy_unit": "g",
@@ -3020,6 +2993,33 @@
       "brand": "Sainsbury's",
       "size": "225 g",
       "price_gbp": 4.5,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "火鸡肉",
+     "buy_qty": 750.0,
+     "buy_unit": "g",
+     "buy_text": "750g",
+     "packs": 1,
+     "price_gbp": 4.75,
+     "name_en": "7% Fat Fresh British Turkey Mince 750g",
+     "name_short": "7% Fat Fresh Turkey Mince",
+     "brand": "Sainsbury's",
+     "pack_size": "750 g",
+     "unit_price_gbp": 4.75,
+     "line_total_gbp": 4.75,
+     "used_on": [
+      "周一",
+      "周五"
+     ],
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+     "product": {
+      "name": "7% Fat Fresh British Turkey Mince 750g",
+      "brand": "Sainsbury's",
+      "size": "750 g",
+      "price_gbp": 4.75,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
     },
@@ -3587,33 +3587,6 @@
       },
       {
        "category": "肉类",
-       "name": "火鸡肉",
-       "buy_qty": 750.0,
-       "buy_unit": "g",
-       "buy_text": "750g",
-       "packs": 1,
-       "price_gbp": 4.75,
-       "name_en": "7% Fat Fresh British Turkey Mince 750g",
-       "name_short": "7% Fat Fresh Turkey Mince",
-       "brand": "Sainsbury's",
-       "pack_size": "750 g",
-       "unit_price_gbp": 4.75,
-       "line_total_gbp": 4.75,
-       "used_on": [
-        "周一",
-        "周五"
-       ],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-       "product": {
-        "name": "7% Fat Fresh British Turkey Mince 750g",
-        "brand": "Sainsbury's",
-        "size": "750 g",
-        "price_gbp": 4.75,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-       }
-      },
-      {
-       "category": "肉类",
        "name": "牛排",
        "buy_qty": 450.0,
        "buy_unit": "g",
@@ -3637,6 +3610,33 @@
         "brand": "Sainsbury's",
         "size": "225 g",
         "price_gbp": 4.5,
+        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+       }
+      },
+      {
+       "category": "肉类",
+       "name": "火鸡肉",
+       "buy_qty": 750.0,
+       "buy_unit": "g",
+       "buy_text": "750g",
+       "packs": 1,
+       "price_gbp": 4.75,
+       "name_en": "7% Fat Fresh British Turkey Mince 750g",
+       "name_short": "7% Fat Fresh Turkey Mince",
+       "brand": "Sainsbury's",
+       "pack_size": "750 g",
+       "unit_price_gbp": 4.75,
+       "line_total_gbp": 4.75,
+       "used_on": [
+        "周一",
+        "周五"
+       ],
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+       "product": {
+        "name": "7% Fat Fresh British Turkey Mince 750g",
+        "brand": "Sainsbury's",
+        "size": "750 g",
+        "price_gbp": 4.75,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
       },
