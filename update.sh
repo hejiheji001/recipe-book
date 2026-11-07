@@ -17,9 +17,30 @@ LATEST="${LATEST%/}"
 CODE=$(basename "$LATEST")
 echo "最新一周：$CODE"
 
-# 根地址就是菜谱目录（不再单独做入口页），catalog.html 保留给旧链接
-cp "$CAT" "$HERE/index.html"
+# 根地址跳「推荐菜谱」（全设备统一默认页）；总菜谱放 catalog.html
 cp "$CAT" "$HERE/catalog.html"
+cat > "$HERE/index.html" <<'ENTRY'
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="菜谱">
+<meta name="theme-color" content="#ffffff">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<title>菜谱</title>
+<script>
+(function(){
+  var h = location.hash || "";
+  location.replace(h && h !== "#open=catalog" ? "./catalog.html" + h : "./week/");
+})();
+</script>
+</head><body>
+<noscript><a href="./week/">进入推荐菜谱</a> · <a href="./catalog.html">总菜谱</a></noscript>
+</body></html>
+ENTRY
 
 # 一周三件套
 HTML=$(ls "$LATEST"/*-一周晚餐菜谱.html 2>/dev/null | head -1)
