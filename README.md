@@ -17,7 +17,7 @@
 ## 更新
 
 ```bash
-cd "/Users/surichen/MCN 大冒险/琪-美食博主号/数据建设"
+cd "/Users/surichen/职业/MCN 大冒险/琪-美食博主号/数据建设"
 python3 build_all.py --week W1     # 重出本周产物
 ./发布/update.sh                    # 推上去
 ```

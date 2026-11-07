@@ -9,6 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="菜谱">
 <meta name="rb-week" content="W1-11-02">
+<meta name="rb-build" content="20261107070208">
 <title>推荐采购 · W1-11-02</title>
 <style>
 *{box-sizing:border-box;-webkit-text-size-adjust:100%;}
@@ -75,6 +76,19 @@ h2 em{font-style:normal;font-size:12px;font-weight:500;color:#9a9a95;}
 #dlg .acts{display:flex;gap:8px;margin-top:14px;}
 #dlg .acts button{flex:1;font-size:15px;padding:13px;border-radius:11px;border:none;font-weight:600;}
 #dlg #closeBtn{background:#f2f2ee;color:#555;}
+#dlg .acts button.pri{background:#111;color:#fff;}
+#dlg .txsub{font-size:12.5px;color:#999;line-height:1.55;margin:6px 0 10px;}
+#dlg .txopts{display:flex;gap:8px;margin:0 0 10px;}
+#dlg .txopt{flex:1;text-align:left;font-family:inherit;padding:10px 11px;border:1px solid #e4e3df;
+ border-radius:11px;background:#fff;color:#333;cursor:pointer;}
+#dlg .txopt b{display:block;font-size:14px;margin-bottom:2px;}
+#dlg .txopt span{display:block;font-size:11px;line-height:1.35;color:#999;}
+#dlg .txopt.on{border-color:#b5342a;background:#fff5f3;box-shadow:inset 0 0 0 1px #b5342a;}
+#dlg .txopt.on b{color:#b5342a;}
+#dlg #txBody{width:100%;box-sizing:border-box;height:240px;resize:vertical;font-family:inherit;
+ font-size:14px;line-height:1.65;color:#111;background:#faf9f6;border:1px solid #e4e3df;
+ border-radius:11px;padding:11px 12px;white-space:pre-wrap;}
+#dlg #txBody:focus{outline:none;border-color:#111;background:#fff;}
 .bighint{background:#fdecea;color:#c0392b;border:2px solid #c0392b;border-radius:12px;
  padding:14px 16px;font-size:17px;font-weight:800;text-align:center;line-height:1.5;}
 .it.have{padding-left:8px;}
@@ -137,13 +151,15 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="shopping.html" class="on hot">推荐采购</a>
     <a href="../#open=mylist">我的菜谱</a>
     <a href="../#open=stock">库存</a>
+    <a href="../#open=about">关于</a>
   </div>
   <div class="bar">
-    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-05 15:50</span></span>
+    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-07 07:02</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
-    <button id="img" class="pri">存图片</button>
+    <button id="img">存图片</button>
+    <button id="txt" class="pri">导出文字</button>
   </div>
   <div class="catbar"><b class='cf on' data-g=''>全部</b><b class='cf' data-g='0'>肉禽</b><b class='cf' data-g='1'>水产</b><b class='cf' data-g='2'>蛋豆</b><b class='cf' data-g='3'>乳品主食</b><b class='cf' data-g='4'>蔬菜</b><b class='cf' data-g='5'>干货</b><b class='cf' data-g='season'>调料</b></div>
   <div class="hidebar" id="hideBar" style="display:none"><b></b><i>›</i></div>
@@ -658,6 +674,110 @@ window.__DAYING__ = {"2026-11-02":[["沙虾",500.0,"g",500.0,"g"],["菜脯",80.0
     if(line) out.push(line);
     return out;
   }
+
+  // ===== 导出文字：纯文本 / 京东 AI 购 =====
+  function collectShopGroups(){
+    // 与「存图片」同逻辑：有勾选只导勾选项，否则导全部
+    var groups = [];
+    [].slice.call(document.querySelectorAll("section.cat")).forEach(function(sec){
+      if(sec.id === "seasonSec") return;
+      var hEl = sec.querySelector("h2 .gh span");
+      var cat = hEl ? hEl.textContent : "其他";
+      var arr = [];
+      [].slice.call(sec.querySelectorAll(".it")).forEach(function(el){
+        arr.push({ n: el.querySelector(".nm").textContent,
+                    q: el.querySelector(".q").textContent,
+                    on: el.querySelector("input").checked });
+      });
+      groups.push({ cat: cat, items: arr });
+    });
+    var any = false;
+    groups.forEach(function(g){ if(g.items.some(function(i){return i.on;})) any = true; });
+    var out = [];
+    groups.forEach(function(g){
+      var items = any ? g.items.filter(function(i){ return i.on; }) : g.items;
+      if(items.length) out.push({ cat: g.cat, items: items });
+    });
+    var sPicked = seasonPickedItems();
+    if(sPicked.length) out.push({ cat: "调料", items: sPicked });
+    return out;
+  }
+  function shopText(mode){
+    var groups = collectShopGroups();
+    var total = groups.reduce(function(s,g){ return s + g.items.length; }, 0);
+    var d = new Date();
+    var date = d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2);
+    var lines = [];
+    if(mode === "jd"){
+      lines.push("这是一个新的菜单，先定位我当前的位置，然后通过“秒送”的形式帮我购买下列商品。");
+      lines.push("");
+      lines.push("采购清单（" + total + " 项） · W1-11-02 · " + date);
+    } else {
+      lines.push("采购清单 · W1-11-02 · " + date);
+      lines.push("共 " + total + " 项");
+    }
+    groups.forEach(function(g){
+      lines.push("");
+      lines.push("【" + g.cat + "】");
+      g.items.forEach(function(it){ lines.push(it.n + "  " + it.q); });
+    });
+    return lines.join("
+");
+  }
+  function copyPlain(text, done){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ done(true); }, function(){ done(false); });
+    } else {
+      try{
+        var ta=document.createElement("textarea");
+        ta.value=text; ta.style.cssText="position:fixed;left:-9999px;top:0;";
+        document.body.appendChild(ta); ta.select();
+        var ok=document.execCommand("copy"); document.body.removeChild(ta); done(!!ok);
+      }catch(e){ done(false); }
+    }
+  }
+  function openJd(){
+    var ua = navigator.userAgent || "";
+    if(/Android/i.test(ua)){
+      var intent = "intent://#Intent;package=com.jingdong.joyai.app;S.browser_fallback_url="
+        + encodeURIComponent("https://aigou.jd.com/") + ";end";
+      var w = window.open(intent, "_blank"); if(!w) location.href = intent;
+      return;
+    }
+    var url = /iPhone|iPad|iPod/i.test(ua) ? "https://apps.apple.com/cn/app/id6748010090" : "https://aigou.jd.com/";
+    var w2 = window.open(url, "_blank"); if(!w2) location.href = url;
+  }
+  document.getElementById("txt").onclick = function(){
+    var mode = "plain";
+    dlg.innerHTML =
+      "<h3>导出采购清单</h3>" +
+      "<div class='txsub'>复制后可粘到聊天、AI 助手或购物软件。京东 AI 购格式会额外带上“秒送”指令。</div>" +
+      "<div class='txopts'>" +
+        "<button class='txopt on' type='button' data-mode='plain'><b>纯文本</b><span>按类别列出食材和重量</span></button>" +
+        "<button class='txopt' type='button' data-mode='jd'><b>京东 AI 购</b><span>带定位 + 秒送购买指令</span></button>" +
+      "</div>" +
+      "<textarea id='txBody' readonly></textarea>" +
+      "<div class='acts'><button id='txCopy' class='pri'>复制文字</button>" +
+      "<button id='txJd'>打开京东 AI 购</button><button id='txClose'>关闭</button></div>";
+    dlg.classList.add("on"); mask.classList.add("on");
+    var body = document.getElementById("txBody");
+    function refresh(){
+      body.value = shopText(mode);
+      [].slice.call(dlg.querySelectorAll(".txopt")).forEach(function(b){
+        b.classList.toggle("on", b.getAttribute("data-mode") === mode);
+      });
+    }
+    [].slice.call(dlg.querySelectorAll(".txopt")).forEach(function(b){
+      b.onclick = function(){ mode = b.getAttribute("data-mode"); refresh(); };
+    });
+    body.onclick = function(){ this.select(); };
+    document.getElementById("txCopy").onclick = function(){
+      copyPlain(body.value, function(ok){ toast(ok ? "已复制" : "复制失败，请长按选择"); });
+    };
+    document.getElementById("txJd").onclick = openJd;
+    document.getElementById("txClose").onclick = mask.onclick;
+    refresh();
+  };
 
   document.getElementById("img").onclick = function(){
     // 按分类收集（保留分组）

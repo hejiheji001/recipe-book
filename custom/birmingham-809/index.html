@@ -51,7 +51,12 @@ h3{font-size:14.5px;margin:12px 0 6px;color:var(--dim);font-weight:600;letter-sp
 .dh{position:relative;}
 .pdflink{display:inline-block;margin-left:8px;padding:1px 7px;border:1px solid #d8d8d2;
  border-radius:7px;color:#b5342a;font-weight:700;text-decoration:none;
- font-size:10.5px;line-height:1.5;vertical-align:middle;}
+ font-size:10.5px;line-height:1.5;vertical-align:middle;transition:opacity .2s;}
+.pdflink.loading{opacity:.65;pointer-events:none;}
+.pdflink .sp{display:none;width:10px;height:10px;margin-right:4px;vertical-align:-1px;
+ border:2px solid #e0b8b2;border-top-color:#b5342a;border-radius:50%;animation:spin .7s linear infinite;}
+.pdflink.loading .sp{display:inline-block;}
+@keyframes spin{to{transform:rotate(360deg);}}
 
 @media print{
   @page { size:A4; margin:6mm 6mm 5mm 6mm; }

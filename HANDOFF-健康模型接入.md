@@ -27,8 +27,8 @@ https://raw.githubusercontent.com/hejiheji001/recipe-book/main/week/meta.json
 
 本地调试用的等价文件（同一份内容，不用联网）：
 ```
-~/MCN 大冒险/琪-美食博主号/数据建设/发布/week/menu.json
-~/MCN 大冒险/琪-美食博主号/数据建设/发布/week/shopping.json
+~/职业/MCN 大冒险/琪-美食博主号/数据建设/发布/week/menu.json
+~/职业/MCN 大冒险/琪-美食博主号/数据建设/发布/week/shopping.json
 ```
 
 ---
