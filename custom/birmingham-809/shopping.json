@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-07T10:49:04",
+ "generated": "2026-11-07T11:14:30",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "default_store": "ALDI",
@@ -17,7 +17,7 @@
   {
    "category": "蔬菜",
    "name": "菠菜",
-   "buy_qty": 2700,
+   "buy_qty": 2700.0,
    "buy_unit": "g",
    "buy_text": "6 × 450 g（2700g）",
    "packs": 6,
@@ -48,14 +48,14 @@
   {
    "category": "干货",
    "name": "鹰嘴豆",
-   "buy_qty": 795,
+   "buy_qty": 1200.0,
    "buy_unit": "g",
-   "buy_text": "3 × 400 g（沥干 265 g）（795g）",
+   "buy_text": "3 × 400 g（1200g）",
    "packs": 3,
    "price_gbp": 0.41,
    "name_en": "Chickpeas",
    "brand": "FOUR SEASONS",
-   "pack_size": "400 g（沥干 265 g）",
+   "pack_size": "400 g",
    "unit_price_gbp": 0.41,
    "line_total_gbp": 1.23,
    "used_on": [
@@ -70,7 +70,7 @@
    "product": {
     "name": "Chickpeas",
     "brand": "FOUR SEASONS",
-    "size": "400 g（沥干 265 g）",
+    "size": "400 g",
     "price_gbp": 0.41,
     "link": null
    }
@@ -78,7 +78,7 @@
   {
    "category": "蔬菜",
    "name": "羽衣甘蓝",
-   "buy_qty": 800,
+   "buy_qty": 800.0,
    "buy_unit": "g",
    "buy_text": "4 × 200 g（800g）",
    "packs": 4,
@@ -107,7 +107,7 @@
   {
    "category": "水产",
    "name": "鳕鱼",
-   "buy_qty": 720,
+   "buy_qty": 720.0,
    "buy_unit": "g",
    "buy_text": "2 × 360 g（720g）",
    "packs": 2,
@@ -135,7 +135,7 @@
   {
    "category": "蔬菜",
    "name": "蘑菇",
-   "buy_qty": 750,
+   "buy_qty": 750.0,
    "buy_unit": "g",
    "buy_text": "3 × 250 g（750g）",
    "packs": 3,
@@ -163,14 +163,14 @@
   {
    "category": "蔬菜",
    "name": "茄子",
-   "buy_qty": 500,
+   "buy_qty": 2.0,
    "buy_unit": "个",
-   "buy_text": "2 × 1 Each（500个）",
+   "buy_text": "2 × 1 个（2个）",
    "packs": 2,
    "price_gbp": 0.79,
    "name_en": "Aubergine",
    "brand": "（官网未收录，货架散装）",
-   "pack_size": "1 Each",
+   "pack_size": "1 个",
    "unit_price_gbp": 0.79,
    "line_total_gbp": 1.58,
    "used_on": [
@@ -181,7 +181,7 @@
    "product": {
     "name": "Aubergine",
     "brand": "（官网未收录，货架散装）",
-    "size": "1 Each",
+    "size": "1 个",
     "price_gbp": 0.79,
     "link": null
    }
@@ -189,7 +189,7 @@
   {
    "category": "肉类",
    "name": "火鸡肉",
-   "buy_qty": 500,
+   "buy_qty": 500.0,
    "buy_unit": "g",
    "buy_text": "1 × 500 g（500g）",
    "packs": 1,
@@ -215,7 +215,7 @@
   {
    "category": "肉类",
    "name": "牛排",
-   "buy_qty": 390,
+   "buy_qty": 390.0,
    "buy_unit": "g",
    "buy_text": "2 × 195 g（390g）",
    "packs": 2,
@@ -242,14 +242,14 @@
   {
    "category": "干货",
    "name": "金枪鱼",
-   "buy_qty": 306,
+   "buy_qty": 435.0,
    "buy_unit": "g",
-   "buy_text": "3 × 145 g（沥干 102 g）（306g）",
+   "buy_text": "3 × 145 g（435g）",
    "packs": 3,
    "price_gbp": 0.65,
    "name_en": "Tuna Chunks In Spring Water",
    "brand": "THE FISHMONGER",
-   "pack_size": "145 g（沥干 102 g）",
+   "pack_size": "145 g",
    "unit_price_gbp": 0.65,
    "line_total_gbp": 1.95,
    "used_on": [
@@ -260,7 +260,7 @@
    "product": {
     "name": "Tuna Chunks In Spring Water",
     "brand": "THE FISHMONGER",
-    "size": "145 g（沥干 102 g）",
+    "size": "145 g",
     "price_gbp": 0.65,
     "link": null
    }
@@ -268,14 +268,14 @@
   {
    "category": "蔬菜",
    "name": "黄瓜",
-   "buy_qty": 600,
+   "buy_qty": 2.0,
    "buy_unit": "个",
-   "buy_text": "2 × 1 Each（600个）",
+   "buy_text": "2 × 1 个（2个）",
    "packs": 2,
    "price_gbp": 0.99,
    "name_en": "Cucumber",
    "brand": "NATURE'S PICK",
-   "pack_size": "1 Each",
+   "pack_size": "1 个",
    "unit_price_gbp": 0.99,
    "line_total_gbp": 1.98,
    "used_on": [
@@ -286,7 +286,7 @@
    "product": {
     "name": "Cucumber",
     "brand": "NATURE'S PICK",
-    "size": "1 Each",
+    "size": "1 个",
     "price_gbp": 0.99,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
    }
@@ -294,14 +294,14 @@
   {
    "category": "干货",
    "name": "玉米粒",
-   "buy_qty": 350,
+   "buy_qty": 570.0,
    "buy_unit": "g",
-   "buy_text": "2 × 285 g（沥干 175 g）（350g）",
+   "buy_text": "2 × 285 g（570g）",
    "packs": 2,
    "price_gbp": 0.55,
    "name_en": "Supersweet Sweetcorn in Water",
    "brand": "FOUR SEASONS",
-   "pack_size": "285 g（沥干 175 g）",
+   "pack_size": "285 g",
    "unit_price_gbp": 0.55,
    "line_total_gbp": 1.1,
    "used_on": [
@@ -314,7 +314,7 @@
    "product": {
     "name": "Supersweet Sweetcorn in Water",
     "brand": "FOUR SEASONS",
-    "size": "285 g（沥干 175 g）",
+    "size": "285 g",
     "price_gbp": 0.55,
     "link": "https://www.aldi.co.uk/product/four-seasons-supersweet-sweetcorn-in-water"
    }
@@ -322,7 +322,7 @@
   {
    "category": "蔬菜",
    "name": "西葫芦",
-   "buy_qty": 500,
+   "buy_qty": 500.0,
    "buy_unit": "g",
    "buy_text": "1 × 500 g（500g）",
    "packs": 1,
@@ -348,7 +348,7 @@
   {
    "category": "肉类",
    "name": "牛肉末",
-   "buy_qty": 500,
+   "buy_qty": 500.0,
    "buy_unit": "g",
    "buy_text": "1 × 500 g（500g）",
    "packs": 1,
@@ -374,7 +374,7 @@
   {
    "category": "肉类",
    "name": "鸡腿肉",
-   "buy_qty": 1000,
+   "buy_qty": 1000.0,
    "buy_unit": "g",
    "buy_text": "1 × 1 kg（1000g）",
    "packs": 1,
@@ -401,14 +401,14 @@
   {
    "category": "干货",
    "name": "扁豆",
-   "buy_qty": 240,
+   "buy_qty": 400.0,
    "buy_unit": "g",
-   "buy_text": "1 × 400 g（沥干 240 g）（240g）",
+   "buy_text": "1 × 400 g（400g）",
    "packs": 1,
    "price_gbp": 0.45,
    "name_en": "Tinned Lentils",
    "brand": "FOUR SEASONS",
-   "pack_size": "400 g（沥干 240 g）",
+   "pack_size": "400 g",
    "unit_price_gbp": 0.45,
    "line_total_gbp": 0.45,
    "used_on": [
@@ -420,7 +420,7 @@
    "product": {
     "name": "Tinned Lentils",
     "brand": "FOUR SEASONS",
-    "size": "400 g（沥干 240 g）",
+    "size": "400 g",
     "price_gbp": 0.45,
     "link": null
    }
@@ -428,7 +428,7 @@
   {
    "category": "水产",
    "name": "虾",
-   "buy_qty": 150,
+   "buy_qty": 150.0,
    "buy_unit": "g",
    "buy_text": "1 × 150 g（150g）",
    "packs": 1,
@@ -453,14 +453,14 @@
   {
    "category": "乳制品",
    "name": "鸡蛋",
-   "buy_qty": 600,
+   "buy_qty": 12.0,
    "buy_unit": "个",
-   "buy_text": "1 × 12 Each（600个）",
+   "buy_text": "1 × 12 个（12个）",
    "packs": 1,
    "price_gbp": 2.89,
    "name_en": "British Large Free Range Eggs 12 Pack",
    "brand": "MEREVALE",
-   "pack_size": "12 Each",
+   "pack_size": "12 个",
    "unit_price_gbp": 2.89,
    "line_total_gbp": 2.89,
    "used_on": [
@@ -476,7 +476,7 @@
    "product": {
     "name": "British Large Free Range Eggs 12 Pack",
     "brand": "MEREVALE",
-    "size": "12 Each",
+    "size": "12 个",
     "price_gbp": 2.89,
     "link": null
    }
@@ -484,7 +484,7 @@
   {
    "category": "水果",
    "name": "草莓",
-   "buy_qty": 400,
+   "buy_qty": 400.0,
    "buy_unit": "g",
    "buy_text": "1 × 400 g（400g）",
    "packs": 1,
@@ -510,14 +510,14 @@
   {
    "category": "水果",
    "name": "柠檬",
-   "buy_qty": 400,
+   "buy_qty": 4.0,
    "buy_unit": "个",
-   "buy_text": "1 × 4 Each（400个）",
+   "buy_text": "1 × 4 个（4个）",
    "packs": 1,
    "price_gbp": 0.89,
    "name_en": "Wonky Lemons",
    "brand": "EVERYDAY ESSENTIALS",
-   "pack_size": "4 Each",
+   "pack_size": "4 个",
    "unit_price_gbp": 0.89,
    "line_total_gbp": 0.89,
    "used_on": [],
@@ -525,7 +525,7 @@
    "product": {
     "name": "Wonky Lemons",
     "brand": "EVERYDAY ESSENTIALS",
-    "size": "4 Each",
+    "size": "4 个",
     "price_gbp": 0.89,
     "link": null
    }
@@ -533,7 +533,7 @@
   {
    "category": "干货",
    "name": "藜麦",
-   "buy_qty": 250,
+   "buy_qty": 250.0,
    "buy_unit": "g",
    "buy_text": "1 × 250 g（250g）",
    "packs": 1,
@@ -560,7 +560,7 @@
   {
    "category": "调料",
    "name": "姜",
-   "buy_qty": 125,
+   "buy_qty": 125.0,
    "buy_unit": "g",
    "buy_text": "1 × 125 g（125g）",
    "packs": 1,
@@ -583,7 +583,7 @@
   {
    "category": "调料",
    "name": "孜然",
-   "buy_qty": 40,
+   "buy_qty": 40.0,
    "buy_unit": "g",
    "buy_text": "1 × 40 g（40g）",
    "packs": 1,
@@ -612,7 +612,7 @@
     {
      "category": "蔬菜",
      "name": "菠菜",
-     "buy_qty": 1800,
+     "buy_qty": 1800.0,
      "buy_unit": "g",
      "buy_text": "4 × 450 g（1800g）",
      "packs": 4,
@@ -643,14 +643,14 @@
     {
      "category": "干货",
      "name": "鹰嘴豆",
-     "buy_qty": 795,
+     "buy_qty": 1200.0,
      "buy_unit": "g",
-     "buy_text": "3 × 400 g（沥干 265 g）（795g）",
+     "buy_text": "3 × 400 g（1200g）",
      "packs": 3,
      "price_gbp": 0.41,
      "name_en": "Chickpeas",
      "brand": "FOUR SEASONS",
-     "pack_size": "400 g（沥干 265 g）",
+     "pack_size": "400 g",
      "unit_price_gbp": 0.41,
      "line_total_gbp": 1.23,
      "used_on": [
@@ -665,7 +665,7 @@
      "product": {
       "name": "Chickpeas",
       "brand": "FOUR SEASONS",
-      "size": "400 g（沥干 265 g）",
+      "size": "400 g",
       "price_gbp": 0.41,
       "link": null
      }
@@ -673,7 +673,7 @@
     {
      "category": "蔬菜",
      "name": "羽衣甘蓝",
-     "buy_qty": 400,
+     "buy_qty": 400.0,
      "buy_unit": "g",
      "buy_text": "2 × 200 g（400g）",
      "packs": 2,
@@ -702,7 +702,7 @@
     {
      "category": "水产",
      "name": "鳕鱼",
-     "buy_qty": 720,
+     "buy_qty": 720.0,
      "buy_unit": "g",
      "buy_text": "2 × 360 g（720g）",
      "packs": 2,
@@ -730,7 +730,7 @@
     {
      "category": "蔬菜",
      "name": "蘑菇",
-     "buy_qty": 500,
+     "buy_qty": 500.0,
      "buy_unit": "g",
      "buy_text": "2 × 250 g（500g）",
      "packs": 2,
@@ -758,14 +758,14 @@
     {
      "category": "蔬菜",
      "name": "茄子",
-     "buy_qty": 500,
+     "buy_qty": 2.0,
      "buy_unit": "个",
-     "buy_text": "2 × 1 Each（500个）",
+     "buy_text": "2 × 1 个（2个）",
      "packs": 2,
      "price_gbp": 0.79,
      "name_en": "Aubergine",
      "brand": "（官网未收录，货架散装）",
-     "pack_size": "1 Each",
+     "pack_size": "1 个",
      "unit_price_gbp": 0.79,
      "line_total_gbp": 1.58,
      "used_on": [
@@ -776,7 +776,7 @@
      "product": {
       "name": "Aubergine",
       "brand": "（官网未收录，货架散装）",
-      "size": "1 Each",
+      "size": "1 个",
       "price_gbp": 0.79,
       "link": null
      }
@@ -784,7 +784,7 @@
     {
      "category": "肉类",
      "name": "火鸡肉",
-     "buy_qty": 500,
+     "buy_qty": 500.0,
      "buy_unit": "g",
      "buy_text": "1 × 500 g（500g）",
      "packs": 1,
@@ -810,7 +810,7 @@
     {
      "category": "肉类",
      "name": "牛排",
-     "buy_qty": 390,
+     "buy_qty": 390.0,
      "buy_unit": "g",
      "buy_text": "2 × 195 g（390g）",
      "packs": 2,
@@ -837,14 +837,14 @@
     {
      "category": "干货",
      "name": "金枪鱼",
-     "buy_qty": 306,
+     "buy_qty": 435.0,
      "buy_unit": "g",
-     "buy_text": "3 × 145 g（沥干 102 g）（306g）",
+     "buy_text": "3 × 145 g（435g）",
      "packs": 3,
      "price_gbp": 0.65,
      "name_en": "Tuna Chunks In Spring Water",
      "brand": "THE FISHMONGER",
-     "pack_size": "145 g（沥干 102 g）",
+     "pack_size": "145 g",
      "unit_price_gbp": 0.65,
      "line_total_gbp": 1.95,
      "used_on": [
@@ -855,7 +855,7 @@
      "product": {
       "name": "Tuna Chunks In Spring Water",
       "brand": "THE FISHMONGER",
-      "size": "145 g（沥干 102 g）",
+      "size": "145 g",
       "price_gbp": 0.65,
       "link": null
      }
@@ -863,14 +863,14 @@
     {
      "category": "蔬菜",
      "name": "黄瓜",
-     "buy_qty": 300,
+     "buy_qty": 1.0,
      "buy_unit": "个",
-     "buy_text": "1 × 1 Each（300个）",
+     "buy_text": "1 × 1 个（1个）",
      "packs": 1,
      "price_gbp": 0.99,
      "name_en": "Cucumber",
      "brand": "NATURE'S PICK",
-     "pack_size": "1 Each",
+     "pack_size": "1 个",
      "unit_price_gbp": 0.99,
      "line_total_gbp": 0.99,
      "used_on": [
@@ -881,7 +881,7 @@
      "product": {
       "name": "Cucumber",
       "brand": "NATURE'S PICK",
-      "size": "1 Each",
+      "size": "1 个",
       "price_gbp": 0.99,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
      }
@@ -889,14 +889,14 @@
     {
      "category": "干货",
      "name": "玉米粒",
-     "buy_qty": 350,
+     "buy_qty": 570.0,
      "buy_unit": "g",
-     "buy_text": "2 × 285 g（沥干 175 g）（350g）",
+     "buy_text": "2 × 285 g（570g）",
      "packs": 2,
      "price_gbp": 0.55,
      "name_en": "Supersweet Sweetcorn in Water",
      "brand": "FOUR SEASONS",
-     "pack_size": "285 g（沥干 175 g）",
+     "pack_size": "285 g",
      "unit_price_gbp": 0.55,
      "line_total_gbp": 1.1,
      "used_on": [
@@ -909,7 +909,7 @@
      "product": {
       "name": "Supersweet Sweetcorn in Water",
       "brand": "FOUR SEASONS",
-      "size": "285 g（沥干 175 g）",
+      "size": "285 g",
       "price_gbp": 0.55,
       "link": "https://www.aldi.co.uk/product/four-seasons-supersweet-sweetcorn-in-water"
      }
@@ -917,7 +917,7 @@
     {
      "category": "肉类",
      "name": "牛肉末",
-     "buy_qty": 500,
+     "buy_qty": 500.0,
      "buy_unit": "g",
      "buy_text": "1 × 500 g（500g）",
      "packs": 1,
@@ -943,7 +943,7 @@
     {
      "category": "肉类",
      "name": "鸡腿肉",
-     "buy_qty": 1000,
+     "buy_qty": 1000.0,
      "buy_unit": "g",
      "buy_text": "1 × 1 kg（1000g）",
      "packs": 1,
@@ -970,14 +970,14 @@
     {
      "category": "干货",
      "name": "扁豆",
-     "buy_qty": 240,
+     "buy_qty": 400.0,
      "buy_unit": "g",
-     "buy_text": "1 × 400 g（沥干 240 g）（240g）",
+     "buy_text": "1 × 400 g（400g）",
      "packs": 1,
      "price_gbp": 0.45,
      "name_en": "Tinned Lentils",
      "brand": "FOUR SEASONS",
-     "pack_size": "400 g（沥干 240 g）",
+     "pack_size": "400 g",
      "unit_price_gbp": 0.45,
      "line_total_gbp": 0.45,
      "used_on": [
@@ -989,7 +989,7 @@
      "product": {
       "name": "Tinned Lentils",
       "brand": "FOUR SEASONS",
-      "size": "400 g（沥干 240 g）",
+      "size": "400 g",
       "price_gbp": 0.45,
       "link": null
      }
@@ -997,7 +997,7 @@
     {
      "category": "水产",
      "name": "虾",
-     "buy_qty": 150,
+     "buy_qty": 150.0,
      "buy_unit": "g",
      "buy_text": "1 × 150 g（150g）",
      "packs": 1,
@@ -1022,14 +1022,14 @@
     {
      "category": "乳制品",
      "name": "鸡蛋",
-     "buy_qty": 600,
+     "buy_qty": 12.0,
      "buy_unit": "个",
-     "buy_text": "1 × 12 Each（600个）",
+     "buy_text": "1 × 12 个（12个）",
      "packs": 1,
      "price_gbp": 2.89,
      "name_en": "British Large Free Range Eggs 12 Pack",
      "brand": "MEREVALE",
-     "pack_size": "12 Each",
+     "pack_size": "12 个",
      "unit_price_gbp": 2.89,
      "line_total_gbp": 2.89,
      "used_on": [
@@ -1045,7 +1045,7 @@
      "product": {
       "name": "British Large Free Range Eggs 12 Pack",
       "brand": "MEREVALE",
-      "size": "12 Each",
+      "size": "12 个",
       "price_gbp": 2.89,
       "link": null
      }
@@ -1053,7 +1053,7 @@
     {
      "category": "水果",
      "name": "草莓",
-     "buy_qty": 400,
+     "buy_qty": 400.0,
      "buy_unit": "g",
      "buy_text": "1 × 400 g（400g）",
      "packs": 1,
@@ -1079,14 +1079,14 @@
     {
      "category": "水果",
      "name": "柠檬",
-     "buy_qty": 400,
+     "buy_qty": 4.0,
      "buy_unit": "个",
-     "buy_text": "1 × 4 Each（400个）",
+     "buy_text": "1 × 4 个（4个）",
      "packs": 1,
      "price_gbp": 0.89,
      "name_en": "Wonky Lemons",
      "brand": "EVERYDAY ESSENTIALS",
-     "pack_size": "4 Each",
+     "pack_size": "4 个",
      "unit_price_gbp": 0.89,
      "line_total_gbp": 0.89,
      "used_on": [],
@@ -1094,7 +1094,7 @@
      "product": {
       "name": "Wonky Lemons",
       "brand": "EVERYDAY ESSENTIALS",
-      "size": "4 Each",
+      "size": "4 个",
       "price_gbp": 0.89,
       "link": null
      }
@@ -1102,7 +1102,7 @@
     {
      "category": "干货",
      "name": "藜麦",
-     "buy_qty": 250,
+     "buy_qty": 250.0,
      "buy_unit": "g",
      "buy_text": "1 × 250 g（250g）",
      "packs": 1,
@@ -1129,7 +1129,7 @@
     {
      "category": "调料",
      "name": "姜",
-     "buy_qty": 125,
+     "buy_qty": 125.0,
      "buy_unit": "g",
      "buy_text": "1 × 125 g（125g）",
      "packs": 1,
@@ -1152,7 +1152,7 @@
     {
      "category": "调料",
      "name": "孜然",
-     "buy_qty": 40,
+     "buy_qty": 40.0,
      "buy_unit": "g",
      "buy_text": "1 × 40 g（40g）",
      "packs": 1,
@@ -1182,7 +1182,7 @@
     {
      "category": "蔬菜",
      "name": "菠菜",
-     "buy_qty": 900,
+     "buy_qty": 900.0,
      "buy_unit": "g",
      "buy_text": "2 × 450 g（900g）",
      "packs": 2,
@@ -1213,7 +1213,7 @@
     {
      "category": "蔬菜",
      "name": "羽衣甘蓝",
-     "buy_qty": 400,
+     "buy_qty": 400.0,
      "buy_unit": "g",
      "buy_text": "2 × 200 g（400g）",
      "packs": 2,
@@ -1242,7 +1242,7 @@
     {
      "category": "蔬菜",
      "name": "蘑菇",
-     "buy_qty": 250,
+     "buy_qty": 250.0,
      "buy_unit": "g",
      "buy_text": "1 × 250 g（250g）",
      "packs": 1,
@@ -1270,14 +1270,14 @@
     {
      "category": "蔬菜",
      "name": "黄瓜",
-     "buy_qty": 300,
+     "buy_qty": 1.0,
      "buy_unit": "个",
-     "buy_text": "1 × 1 Each（300个）",
+     "buy_text": "1 × 1 个（1个）",
      "packs": 1,
      "price_gbp": 0.99,
      "name_en": "Cucumber",
      "brand": "NATURE'S PICK",
-     "pack_size": "1 Each",
+     "pack_size": "1 个",
      "unit_price_gbp": 0.99,
      "line_total_gbp": 0.99,
      "used_on": [
@@ -1288,7 +1288,7 @@
      "product": {
       "name": "Cucumber",
       "brand": "NATURE'S PICK",
-      "size": "1 Each",
+      "size": "1 个",
       "price_gbp": 0.99,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
      }
@@ -1296,7 +1296,7 @@
     {
      "category": "蔬菜",
      "name": "西葫芦",
-     "buy_qty": 500,
+     "buy_qty": 500.0,
      "buy_unit": "g",
      "buy_text": "1 × 500 g（500g）",
      "packs": 1,
@@ -1332,7 +1332,7 @@
     {
      "category": "蔬菜",
      "name": "菠菜",
-     "buy_qty": 2700,
+     "buy_qty": 2700.0,
      "buy_unit": "g",
      "buy_text": "6 × 450 g（2700g）",
      "packs": 6,
@@ -1363,14 +1363,14 @@
     {
      "category": "干货",
      "name": "鹰嘴豆",
-     "buy_qty": 795,
+     "buy_qty": 1200.0,
      "buy_unit": "g",
-     "buy_text": "3 × 400 g（沥干 265 g）（795g）",
+     "buy_text": "3 × 400 g（1200g）",
      "packs": 3,
      "price_gbp": 0.41,
      "name_en": "Chickpeas",
      "brand": "FOUR SEASONS",
-     "pack_size": "400 g（沥干 265 g）",
+     "pack_size": "400 g",
      "unit_price_gbp": 0.41,
      "line_total_gbp": 1.23,
      "used_on": [
@@ -1385,7 +1385,7 @@
      "product": {
       "name": "Chickpeas",
       "brand": "FOUR SEASONS",
-      "size": "400 g（沥干 265 g）",
+      "size": "400 g",
       "price_gbp": 0.41,
       "link": null
      }
@@ -1393,7 +1393,7 @@
     {
      "category": "蔬菜",
      "name": "羽衣甘蓝",
-     "buy_qty": 800,
+     "buy_qty": 800.0,
      "buy_unit": "g",
      "buy_text": "4 × 200 g（800g）",
      "packs": 4,
@@ -1422,7 +1422,7 @@
     {
      "category": "水产",
      "name": "鳕鱼",
-     "buy_qty": 720,
+     "buy_qty": 720.0,
      "buy_unit": "g",
      "buy_text": "2 × 360 g（720g）",
      "packs": 2,
@@ -1450,7 +1450,7 @@
     {
      "category": "蔬菜",
      "name": "蘑菇",
-     "buy_qty": 750,
+     "buy_qty": 750.0,
      "buy_unit": "g",
      "buy_text": "3 × 250 g（750g）",
      "packs": 3,
@@ -1478,14 +1478,14 @@
     {
      "category": "蔬菜",
      "name": "茄子",
-     "buy_qty": 500,
+     "buy_qty": 2.0,
      "buy_unit": "个",
-     "buy_text": "2 × 1 Each（500个）",
+     "buy_text": "2 × 1 个（2个）",
      "packs": 2,
      "price_gbp": 0.79,
      "name_en": "Aubergine",
      "brand": "（官网未收录，货架散装）",
-     "pack_size": "1 Each",
+     "pack_size": "1 个",
      "unit_price_gbp": 0.79,
      "line_total_gbp": 1.58,
      "used_on": [
@@ -1496,7 +1496,7 @@
      "product": {
       "name": "Aubergine",
       "brand": "（官网未收录，货架散装）",
-      "size": "1 Each",
+      "size": "1 个",
       "price_gbp": 0.79,
       "link": null
      }
@@ -1504,7 +1504,7 @@
     {
      "category": "肉类",
      "name": "火鸡肉",
-     "buy_qty": 500,
+     "buy_qty": 500.0,
      "buy_unit": "g",
      "buy_text": "1 × 500 g（500g）",
      "packs": 1,
@@ -1530,7 +1530,7 @@
     {
      "category": "肉类",
      "name": "牛排",
-     "buy_qty": 390,
+     "buy_qty": 390.0,
      "buy_unit": "g",
      "buy_text": "2 × 195 g（390g）",
      "packs": 2,
@@ -1557,14 +1557,14 @@
     {
      "category": "干货",
      "name": "金枪鱼",
-     "buy_qty": 306,
+     "buy_qty": 435.0,
      "buy_unit": "g",
-     "buy_text": "3 × 145 g（沥干 102 g）（306g）",
+     "buy_text": "3 × 145 g（435g）",
      "packs": 3,
      "price_gbp": 0.65,
      "name_en": "Tuna Chunks In Spring Water",
      "brand": "THE FISHMONGER",
-     "pack_size": "145 g（沥干 102 g）",
+     "pack_size": "145 g",
      "unit_price_gbp": 0.65,
      "line_total_gbp": 1.95,
      "used_on": [
@@ -1575,7 +1575,7 @@
      "product": {
       "name": "Tuna Chunks In Spring Water",
       "brand": "THE FISHMONGER",
-      "size": "145 g（沥干 102 g）",
+      "size": "145 g",
       "price_gbp": 0.65,
       "link": null
      }
@@ -1583,14 +1583,14 @@
     {
      "category": "蔬菜",
      "name": "黄瓜",
-     "buy_qty": 600,
+     "buy_qty": 2.0,
      "buy_unit": "个",
-     "buy_text": "2 × 1 Each（600个）",
+     "buy_text": "2 × 1 个（2个）",
      "packs": 2,
      "price_gbp": 0.99,
      "name_en": "Cucumber",
      "brand": "NATURE'S PICK",
-     "pack_size": "1 Each",
+     "pack_size": "1 个",
      "unit_price_gbp": 0.99,
      "line_total_gbp": 1.98,
      "used_on": [
@@ -1601,7 +1601,7 @@
      "product": {
       "name": "Cucumber",
       "brand": "NATURE'S PICK",
-      "size": "1 Each",
+      "size": "1 个",
       "price_gbp": 0.99,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
      }
@@ -1609,14 +1609,14 @@
     {
      "category": "干货",
      "name": "玉米粒",
-     "buy_qty": 350,
+     "buy_qty": 570.0,
      "buy_unit": "g",
-     "buy_text": "2 × 285 g（沥干 175 g）（350g）",
+     "buy_text": "2 × 285 g（570g）",
      "packs": 2,
      "price_gbp": 0.55,
      "name_en": "Supersweet Sweetcorn in Water",
      "brand": "FOUR SEASONS",
-     "pack_size": "285 g（沥干 175 g）",
+     "pack_size": "285 g",
      "unit_price_gbp": 0.55,
      "line_total_gbp": 1.1,
      "used_on": [
@@ -1629,7 +1629,7 @@
      "product": {
       "name": "Supersweet Sweetcorn in Water",
       "brand": "FOUR SEASONS",
-      "size": "285 g（沥干 175 g）",
+      "size": "285 g",
       "price_gbp": 0.55,
       "link": "https://www.aldi.co.uk/product/four-seasons-supersweet-sweetcorn-in-water"
      }
@@ -1637,7 +1637,7 @@
     {
      "category": "蔬菜",
      "name": "西葫芦",
-     "buy_qty": 500,
+     "buy_qty": 500.0,
      "buy_unit": "g",
      "buy_text": "1 × 500 g（500g）",
      "packs": 1,
@@ -1663,7 +1663,7 @@
     {
      "category": "肉类",
      "name": "牛肉末",
-     "buy_qty": 500,
+     "buy_qty": 500.0,
      "buy_unit": "g",
      "buy_text": "1 × 500 g（500g）",
      "packs": 1,
@@ -1689,7 +1689,7 @@
     {
      "category": "肉类",
      "name": "鸡腿肉",
-     "buy_qty": 1000,
+     "buy_qty": 1000.0,
      "buy_unit": "g",
      "buy_text": "1 × 1 kg（1000g）",
      "packs": 1,
@@ -1716,14 +1716,14 @@
     {
      "category": "干货",
      "name": "扁豆",
-     "buy_qty": 240,
+     "buy_qty": 400.0,
      "buy_unit": "g",
-     "buy_text": "1 × 400 g（沥干 240 g）（240g）",
+     "buy_text": "1 × 400 g（400g）",
      "packs": 1,
      "price_gbp": 0.45,
      "name_en": "Tinned Lentils",
      "brand": "FOUR SEASONS",
-     "pack_size": "400 g（沥干 240 g）",
+     "pack_size": "400 g",
      "unit_price_gbp": 0.45,
      "line_total_gbp": 0.45,
      "used_on": [
@@ -1735,7 +1735,7 @@
      "product": {
       "name": "Tinned Lentils",
       "brand": "FOUR SEASONS",
-      "size": "400 g（沥干 240 g）",
+      "size": "400 g",
       "price_gbp": 0.45,
       "link": null
      }
@@ -1743,7 +1743,7 @@
     {
      "category": "水产",
      "name": "虾",
-     "buy_qty": 150,
+     "buy_qty": 150.0,
      "buy_unit": "g",
      "buy_text": "1 × 150 g（150g）",
      "packs": 1,
@@ -1768,14 +1768,14 @@
     {
      "category": "乳制品",
      "name": "鸡蛋",
-     "buy_qty": 600,
+     "buy_qty": 12.0,
      "buy_unit": "个",
-     "buy_text": "1 × 12 Each（600个）",
+     "buy_text": "1 × 12 个（12个）",
      "packs": 1,
      "price_gbp": 2.89,
      "name_en": "British Large Free Range Eggs 12 Pack",
      "brand": "MEREVALE",
-     "pack_size": "12 Each",
+     "pack_size": "12 个",
      "unit_price_gbp": 2.89,
      "line_total_gbp": 2.89,
      "used_on": [
@@ -1791,7 +1791,7 @@
      "product": {
       "name": "British Large Free Range Eggs 12 Pack",
       "brand": "MEREVALE",
-      "size": "12 Each",
+      "size": "12 个",
       "price_gbp": 2.89,
       "link": null
      }
@@ -1799,7 +1799,7 @@
     {
      "category": "水果",
      "name": "草莓",
-     "buy_qty": 400,
+     "buy_qty": 400.0,
      "buy_unit": "g",
      "buy_text": "1 × 400 g（400g）",
      "packs": 1,
@@ -1825,14 +1825,14 @@
     {
      "category": "水果",
      "name": "柠檬",
-     "buy_qty": 400,
+     "buy_qty": 4.0,
      "buy_unit": "个",
-     "buy_text": "1 × 4 Each（400个）",
+     "buy_text": "1 × 4 个（4个）",
      "packs": 1,
      "price_gbp": 0.89,
      "name_en": "Wonky Lemons",
      "brand": "EVERYDAY ESSENTIALS",
-     "pack_size": "4 Each",
+     "pack_size": "4 个",
      "unit_price_gbp": 0.89,
      "line_total_gbp": 0.89,
      "used_on": [],
@@ -1840,7 +1840,7 @@
      "product": {
       "name": "Wonky Lemons",
       "brand": "EVERYDAY ESSENTIALS",
-      "size": "4 Each",
+      "size": "4 个",
       "price_gbp": 0.89,
       "link": null
      }
@@ -1848,7 +1848,7 @@
     {
      "category": "干货",
      "name": "藜麦",
-     "buy_qty": 250,
+     "buy_qty": 250.0,
      "buy_unit": "g",
      "buy_text": "1 × 250 g（250g）",
      "packs": 1,
@@ -1875,7 +1875,7 @@
     {
      "category": "调料",
      "name": "姜",
-     "buy_qty": 125,
+     "buy_qty": 125.0,
      "buy_unit": "g",
      "buy_text": "1 × 125 g（125g）",
      "packs": 1,
@@ -1898,7 +1898,7 @@
     {
      "category": "调料",
      "name": "孜然",
-     "buy_qty": 40,
+     "buy_qty": 40.0,
      "buy_unit": "g",
      "buy_text": "1 × 40 g（40g）",
      "packs": 1,
@@ -1927,7 +1927,7 @@
       {
        "category": "蔬菜",
        "name": "菠菜",
-       "buy_qty": 1800,
+       "buy_qty": 1800.0,
        "buy_unit": "g",
        "buy_text": "4 × 450 g（1800g）",
        "packs": 4,
@@ -1958,14 +1958,14 @@
       {
        "category": "干货",
        "name": "鹰嘴豆",
-       "buy_qty": 795,
+       "buy_qty": 1200.0,
        "buy_unit": "g",
-       "buy_text": "3 × 400 g（沥干 265 g）（795g）",
+       "buy_text": "3 × 400 g（1200g）",
        "packs": 3,
        "price_gbp": 0.41,
        "name_en": "Chickpeas",
        "brand": "FOUR SEASONS",
-       "pack_size": "400 g（沥干 265 g）",
+       "pack_size": "400 g",
        "unit_price_gbp": 0.41,
        "line_total_gbp": 1.23,
        "used_on": [
@@ -1980,7 +1980,7 @@
        "product": {
         "name": "Chickpeas",
         "brand": "FOUR SEASONS",
-        "size": "400 g（沥干 265 g）",
+        "size": "400 g",
         "price_gbp": 0.41,
         "link": null
        }
@@ -1988,7 +1988,7 @@
       {
        "category": "蔬菜",
        "name": "羽衣甘蓝",
-       "buy_qty": 400,
+       "buy_qty": 400.0,
        "buy_unit": "g",
        "buy_text": "2 × 200 g（400g）",
        "packs": 2,
@@ -2017,7 +2017,7 @@
       {
        "category": "水产",
        "name": "鳕鱼",
-       "buy_qty": 720,
+       "buy_qty": 720.0,
        "buy_unit": "g",
        "buy_text": "2 × 360 g（720g）",
        "packs": 2,
@@ -2045,7 +2045,7 @@
       {
        "category": "蔬菜",
        "name": "蘑菇",
-       "buy_qty": 500,
+       "buy_qty": 500.0,
        "buy_unit": "g",
        "buy_text": "2 × 250 g（500g）",
        "packs": 2,
@@ -2073,14 +2073,14 @@
       {
        "category": "蔬菜",
        "name": "茄子",
-       "buy_qty": 500,
+       "buy_qty": 2.0,
        "buy_unit": "个",
-       "buy_text": "2 × 1 Each（500个）",
+       "buy_text": "2 × 1 个（2个）",
        "packs": 2,
        "price_gbp": 0.79,
        "name_en": "Aubergine",
        "brand": "（官网未收录，货架散装）",
-       "pack_size": "1 Each",
+       "pack_size": "1 个",
        "unit_price_gbp": 0.79,
        "line_total_gbp": 1.58,
        "used_on": [
@@ -2091,7 +2091,7 @@
        "product": {
         "name": "Aubergine",
         "brand": "（官网未收录，货架散装）",
-        "size": "1 Each",
+        "size": "1 个",
         "price_gbp": 0.79,
         "link": null
        }
@@ -2099,7 +2099,7 @@
       {
        "category": "肉类",
        "name": "火鸡肉",
-       "buy_qty": 500,
+       "buy_qty": 500.0,
        "buy_unit": "g",
        "buy_text": "1 × 500 g（500g）",
        "packs": 1,
@@ -2125,7 +2125,7 @@
       {
        "category": "肉类",
        "name": "牛排",
-       "buy_qty": 390,
+       "buy_qty": 390.0,
        "buy_unit": "g",
        "buy_text": "2 × 195 g（390g）",
        "packs": 2,
@@ -2152,14 +2152,14 @@
       {
        "category": "干货",
        "name": "金枪鱼",
-       "buy_qty": 306,
+       "buy_qty": 435.0,
        "buy_unit": "g",
-       "buy_text": "3 × 145 g（沥干 102 g）（306g）",
+       "buy_text": "3 × 145 g（435g）",
        "packs": 3,
        "price_gbp": 0.65,
        "name_en": "Tuna Chunks In Spring Water",
        "brand": "THE FISHMONGER",
-       "pack_size": "145 g（沥干 102 g）",
+       "pack_size": "145 g",
        "unit_price_gbp": 0.65,
        "line_total_gbp": 1.95,
        "used_on": [
@@ -2170,7 +2170,7 @@
        "product": {
         "name": "Tuna Chunks In Spring Water",
         "brand": "THE FISHMONGER",
-        "size": "145 g（沥干 102 g）",
+        "size": "145 g",
         "price_gbp": 0.65,
         "link": null
        }
@@ -2178,14 +2178,14 @@
       {
        "category": "蔬菜",
        "name": "黄瓜",
-       "buy_qty": 300,
+       "buy_qty": 1.0,
        "buy_unit": "个",
-       "buy_text": "1 × 1 Each（300个）",
+       "buy_text": "1 × 1 个（1个）",
        "packs": 1,
        "price_gbp": 0.99,
        "name_en": "Cucumber",
        "brand": "NATURE'S PICK",
-       "pack_size": "1 Each",
+       "pack_size": "1 个",
        "unit_price_gbp": 0.99,
        "line_total_gbp": 0.99,
        "used_on": [
@@ -2196,7 +2196,7 @@
        "product": {
         "name": "Cucumber",
         "brand": "NATURE'S PICK",
-        "size": "1 Each",
+        "size": "1 个",
         "price_gbp": 0.99,
         "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
        }
@@ -2204,14 +2204,14 @@
       {
        "category": "干货",
        "name": "玉米粒",
-       "buy_qty": 350,
+       "buy_qty": 570.0,
        "buy_unit": "g",
-       "buy_text": "2 × 285 g（沥干 175 g）（350g）",
+       "buy_text": "2 × 285 g（570g）",
        "packs": 2,
        "price_gbp": 0.55,
        "name_en": "Supersweet Sweetcorn in Water",
        "brand": "FOUR SEASONS",
-       "pack_size": "285 g（沥干 175 g）",
+       "pack_size": "285 g",
        "unit_price_gbp": 0.55,
        "line_total_gbp": 1.1,
        "used_on": [
@@ -2224,7 +2224,7 @@
        "product": {
         "name": "Supersweet Sweetcorn in Water",
         "brand": "FOUR SEASONS",
-        "size": "285 g（沥干 175 g）",
+        "size": "285 g",
         "price_gbp": 0.55,
         "link": "https://www.aldi.co.uk/product/four-seasons-supersweet-sweetcorn-in-water"
        }
@@ -2232,7 +2232,7 @@
       {
        "category": "肉类",
        "name": "牛肉末",
-       "buy_qty": 500,
+       "buy_qty": 500.0,
        "buy_unit": "g",
        "buy_text": "1 × 500 g（500g）",
        "packs": 1,
@@ -2258,7 +2258,7 @@
       {
        "category": "肉类",
        "name": "鸡腿肉",
-       "buy_qty": 1000,
+       "buy_qty": 1000.0,
        "buy_unit": "g",
        "buy_text": "1 × 1 kg（1000g）",
        "packs": 1,
@@ -2285,14 +2285,14 @@
       {
        "category": "干货",
        "name": "扁豆",
-       "buy_qty": 240,
+       "buy_qty": 400.0,
        "buy_unit": "g",
-       "buy_text": "1 × 400 g（沥干 240 g）（240g）",
+       "buy_text": "1 × 400 g（400g）",
        "packs": 1,
        "price_gbp": 0.45,
        "name_en": "Tinned Lentils",
        "brand": "FOUR SEASONS",
-       "pack_size": "400 g（沥干 240 g）",
+       "pack_size": "400 g",
        "unit_price_gbp": 0.45,
        "line_total_gbp": 0.45,
        "used_on": [
@@ -2304,7 +2304,7 @@
        "product": {
         "name": "Tinned Lentils",
         "brand": "FOUR SEASONS",
-        "size": "400 g（沥干 240 g）",
+        "size": "400 g",
         "price_gbp": 0.45,
         "link": null
        }
@@ -2312,7 +2312,7 @@
       {
        "category": "水产",
        "name": "虾",
-       "buy_qty": 150,
+       "buy_qty": 150.0,
        "buy_unit": "g",
        "buy_text": "1 × 150 g（150g）",
        "packs": 1,
@@ -2337,14 +2337,14 @@
       {
        "category": "乳制品",
        "name": "鸡蛋",
-       "buy_qty": 600,
+       "buy_qty": 12.0,
        "buy_unit": "个",
-       "buy_text": "1 × 12 Each（600个）",
+       "buy_text": "1 × 12 个（12个）",
        "packs": 1,
        "price_gbp": 2.89,
        "name_en": "British Large Free Range Eggs 12 Pack",
        "brand": "MEREVALE",
-       "pack_size": "12 Each",
+       "pack_size": "12 个",
        "unit_price_gbp": 2.89,
        "line_total_gbp": 2.89,
        "used_on": [
@@ -2360,7 +2360,7 @@
        "product": {
         "name": "British Large Free Range Eggs 12 Pack",
         "brand": "MEREVALE",
-        "size": "12 Each",
+        "size": "12 个",
         "price_gbp": 2.89,
         "link": null
        }
@@ -2368,7 +2368,7 @@
       {
        "category": "水果",
        "name": "草莓",
-       "buy_qty": 400,
+       "buy_qty": 400.0,
        "buy_unit": "g",
        "buy_text": "1 × 400 g（400g）",
        "packs": 1,
@@ -2394,14 +2394,14 @@
       {
        "category": "水果",
        "name": "柠檬",
-       "buy_qty": 400,
+       "buy_qty": 4.0,
        "buy_unit": "个",
-       "buy_text": "1 × 4 Each（400个）",
+       "buy_text": "1 × 4 个（4个）",
        "packs": 1,
        "price_gbp": 0.89,
        "name_en": "Wonky Lemons",
        "brand": "EVERYDAY ESSENTIALS",
-       "pack_size": "4 Each",
+       "pack_size": "4 个",
        "unit_price_gbp": 0.89,
        "line_total_gbp": 0.89,
        "used_on": [],
@@ -2409,7 +2409,7 @@
        "product": {
         "name": "Wonky Lemons",
         "brand": "EVERYDAY ESSENTIALS",
-        "size": "4 Each",
+        "size": "4 个",
         "price_gbp": 0.89,
         "link": null
        }
@@ -2417,7 +2417,7 @@
       {
        "category": "干货",
        "name": "藜麦",
-       "buy_qty": 250,
+       "buy_qty": 250.0,
        "buy_unit": "g",
        "buy_text": "1 × 250 g（250g）",
        "packs": 1,
@@ -2444,7 +2444,7 @@
       {
        "category": "调料",
        "name": "姜",
-       "buy_qty": 125,
+       "buy_qty": 125.0,
        "buy_unit": "g",
        "buy_text": "1 × 125 g（125g）",
        "packs": 1,
@@ -2467,7 +2467,7 @@
       {
        "category": "调料",
        "name": "孜然",
-       "buy_qty": 40,
+       "buy_qty": 40.0,
        "buy_unit": "g",
        "buy_text": "1 × 40 g（40g）",
        "packs": 1,
@@ -2497,7 +2497,7 @@
       {
        "category": "蔬菜",
        "name": "菠菜",
-       "buy_qty": 900,
+       "buy_qty": 900.0,
        "buy_unit": "g",
        "buy_text": "2 × 450 g（900g）",
        "packs": 2,
@@ -2528,7 +2528,7 @@
       {
        "category": "蔬菜",
        "name": "羽衣甘蓝",
-       "buy_qty": 400,
+       "buy_qty": 400.0,
        "buy_unit": "g",
        "buy_text": "2 × 200 g（400g）",
        "packs": 2,
@@ -2557,7 +2557,7 @@
       {
        "category": "蔬菜",
        "name": "蘑菇",
-       "buy_qty": 250,
+       "buy_qty": 250.0,
        "buy_unit": "g",
        "buy_text": "1 × 250 g（250g）",
        "packs": 1,
@@ -2585,14 +2585,14 @@
       {
        "category": "蔬菜",
        "name": "黄瓜",
-       "buy_qty": 300,
+       "buy_qty": 1.0,
        "buy_unit": "个",
-       "buy_text": "1 × 1 Each（300个）",
+       "buy_text": "1 × 1 个（1个）",
        "packs": 1,
        "price_gbp": 0.99,
        "name_en": "Cucumber",
        "brand": "NATURE'S PICK",
-       "pack_size": "1 Each",
+       "pack_size": "1 个",
        "unit_price_gbp": 0.99,
        "line_total_gbp": 0.99,
        "used_on": [
@@ -2603,7 +2603,7 @@
        "product": {
         "name": "Cucumber",
         "brand": "NATURE'S PICK",
-        "size": "1 Each",
+        "size": "1 个",
         "price_gbp": 0.99,
         "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
        }
@@ -2611,7 +2611,7 @@
       {
        "category": "蔬菜",
        "name": "西葫芦",
-       "buy_qty": 500,
+       "buy_qty": 500.0,
        "buy_unit": "g",
        "buy_text": "1 × 500 g（500g）",
        "packs": 1,
@@ -2648,7 +2648,7 @@
     {
      "category": "蔬菜",
      "name": "菠菜",
-     "buy_qty": 2860,
+     "buy_qty": 2860.0,
      "buy_unit": "g",
      "buy_text": "11 × 260 g（2860g）",
      "packs": 11,
@@ -2679,14 +2679,14 @@
     {
      "category": "干货",
      "name": "鹰嘴豆",
-     "buy_qty": 960,
+     "buy_qty": 1600.0,
      "buy_unit": "g",
-     "buy_text": "4 × 400 g（沥干 240 g）（960g）",
+     "buy_text": "4 × 400 g（1600g）",
      "packs": 4,
      "price_gbp": 0.41,
      "name_en": "Chickpeas in Water 400g",
      "brand": "Sainsbury's",
-     "pack_size": "400 g（沥干 240 g）",
+     "pack_size": "400 g",
      "unit_price_gbp": 0.41,
      "line_total_gbp": 1.64,
      "used_on": [
@@ -2701,7 +2701,7 @@
      "product": {
       "name": "Chickpeas in Water 400g",
       "brand": "Sainsbury's",
-      "size": "400 g（沥干 240 g）",
+      "size": "400 g",
       "price_gbp": 0.41,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
@@ -2709,7 +2709,7 @@
     {
      "category": "蔬菜",
      "name": "羽衣甘蓝",
-     "buy_qty": 800,
+     "buy_qty": 800.0,
      "buy_unit": "g",
      "buy_text": "4 × 200 g（800g）",
      "packs": 4,
@@ -2738,7 +2738,7 @@
     {
      "category": "水产",
      "name": "鳕鱼",
-     "buy_qty": 720,
+     "buy_qty": 720.0,
      "buy_unit": "g",
      "buy_text": "2 × 360 g（720g）",
      "packs": 2,
@@ -2766,7 +2766,7 @@
     {
      "category": "蔬菜",
      "name": "蘑菇",
-     "buy_qty": 900,
+     "buy_qty": 900.0,
      "buy_unit": "g",
      "buy_text": "3 × 300 g（900g）",
      "packs": 3,
@@ -2794,14 +2794,14 @@
     {
      "category": "蔬菜",
      "name": "茄子",
-     "buy_qty": 500,
+     "buy_qty": 2.0,
      "buy_unit": "个",
-     "buy_text": "2 × 1 Each（500个）",
+     "buy_text": "2 × 1 个（2个）",
      "packs": 2,
      "price_gbp": 1.05,
      "name_en": "Aubergine",
      "brand": "Sainsbury's",
-     "pack_size": "1 Each",
+     "pack_size": "1 个",
      "unit_price_gbp": 1.05,
      "line_total_gbp": 2.1,
      "used_on": [
@@ -2812,7 +2812,7 @@
      "product": {
       "name": "Aubergine",
       "brand": "Sainsbury's",
-      "size": "1 Each",
+      "size": "1 个",
       "price_gbp": 1.05,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
@@ -2820,7 +2820,7 @@
     {
      "category": "肉类",
      "name": "火鸡肉",
-     "buy_qty": 750,
+     "buy_qty": 750.0,
      "buy_unit": "g",
      "buy_text": "1 × 750 g（750g）",
      "packs": 1,
@@ -2846,7 +2846,7 @@
     {
      "category": "肉类",
      "name": "牛排",
-     "buy_qty": 450,
+     "buy_qty": 450.0,
      "buy_unit": "g",
      "buy_text": "2 × 225 g（450g）",
      "packs": 2,
@@ -2873,14 +2873,14 @@
     {
      "category": "干货",
      "name": "金枪鱼",
-     "buy_qty": 306,
+     "buy_qty": 435.0,
      "buy_unit": "g",
-     "buy_text": "3 × 145 g（沥干 102 g）（306g）",
+     "buy_text": "3 × 145 g（435g）",
      "packs": 3,
      "price_gbp": 0.75,
      "name_en": "Tuna Chunks in Spring Water 145g",
      "brand": "Sainsbury's",
-     "pack_size": "145 g（沥干 102 g）",
+     "pack_size": "145 g",
      "unit_price_gbp": 0.75,
      "line_total_gbp": 2.25,
      "used_on": [
@@ -2891,7 +2891,7 @@
      "product": {
       "name": "Tuna Chunks in Spring Water 145g",
       "brand": "Sainsbury's",
-      "size": "145 g（沥干 102 g）",
+      "size": "145 g",
       "price_gbp": 0.75,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
@@ -2899,14 +2899,14 @@
     {
      "category": "蔬菜",
      "name": "黄瓜",
-     "buy_qty": 600,
+     "buy_qty": 2.0,
      "buy_unit": "个",
-     "buy_text": "2 × 1 Each（600个）",
+     "buy_text": "2 × 1 个（2个）",
      "packs": 2,
      "price_gbp": 1.09,
      "name_en": "Whole Cucumber",
      "brand": "Sainsbury's",
-     "pack_size": "1 Each",
+     "pack_size": "1 个",
      "unit_price_gbp": 1.09,
      "line_total_gbp": 2.18,
      "used_on": [
@@ -2917,7 +2917,7 @@
      "product": {
       "name": "Whole Cucumber",
       "brand": "Sainsbury's",
-      "size": "1 Each",
+      "size": "1 个",
       "price_gbp": 1.09,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
@@ -2925,14 +2925,14 @@
     {
      "category": "干货",
      "name": "玉米粒",
-     "buy_qty": 471,
+     "buy_qty": 594.0,
      "buy_unit": "g",
-     "buy_text": "3 × 198 g（沥干 157 g）（471g）",
+     "buy_text": "3 × 198 g（594g）",
      "packs": 3,
      "price_gbp": 0.3,
      "name_en": "Naturally Sweet Sweetcorn In Water 198g",
      "brand": "Sainsbury's",
-     "pack_size": "198 g（沥干 157 g）",
+     "pack_size": "198 g",
      "unit_price_gbp": 0.3,
      "line_total_gbp": 0.9,
      "used_on": [
@@ -2945,7 +2945,7 @@
      "product": {
       "name": "Naturally Sweet Sweetcorn In Water 198g",
       "brand": "Sainsbury's",
-      "size": "198 g（沥干 157 g）",
+      "size": "198 g",
       "price_gbp": 0.3,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
@@ -2953,7 +2953,7 @@
     {
      "category": "蔬菜",
      "name": "西葫芦",
-     "buy_qty": 500,
+     "buy_qty": 500.0,
      "buy_unit": "g",
      "buy_text": "1 × 500 g（500g）",
      "packs": 1,
@@ -2979,7 +2979,7 @@
     {
      "category": "肉类",
      "name": "牛肉末",
-     "buy_qty": 500,
+     "buy_qty": 500.0,
      "buy_unit": "g",
      "buy_text": "1 × 500 g（500g）",
      "packs": 1,
@@ -3005,7 +3005,7 @@
     {
      "category": "肉类",
      "name": "鸡腿肉",
-     "buy_qty": 1280,
+     "buy_qty": 1280.0,
      "buy_unit": "g",
      "buy_text": "2 × 640 g（1280g）",
      "packs": 2,
@@ -3032,14 +3032,14 @@
     {
      "category": "干货",
      "name": "扁豆",
-     "buy_qty": 265,
+     "buy_qty": 400.0,
      "buy_unit": "g",
-     "buy_text": "1 × 400 g（沥干 265 g）（265g）",
+     "buy_text": "1 × 400 g（400g）",
      "packs": 1,
      "price_gbp": 0.5,
      "name_en": "Green Lentils In Water 400g",
      "brand": "Sainsbury's",
-     "pack_size": "400 g（沥干 265 g）",
+     "pack_size": "400 g",
      "unit_price_gbp": 0.5,
      "line_total_gbp": 0.5,
      "used_on": [
@@ -3051,7 +3051,7 @@
      "product": {
       "name": "Green Lentils In Water 400g",
       "brand": "Sainsbury's",
-      "size": "400 g（沥干 265 g）",
+      "size": "400 g",
       "price_gbp": 0.5,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
@@ -3059,7 +3059,7 @@
     {
      "category": "水产",
      "name": "虾",
-     "buy_qty": 180,
+     "buy_qty": 180.0,
      "buy_unit": "g",
      "buy_text": "1 × 180 g（180g）",
      "packs": 1,
@@ -3084,14 +3084,14 @@
     {
      "category": "乳制品",
      "name": "鸡蛋",
-     "buy_qty": 600,
+     "buy_qty": 12.0,
      "buy_unit": "个",
-     "buy_text": "1 × 12 Each（600个）",
+     "buy_text": "1 × 12 个（12个）",
      "packs": 1,
      "price_gbp": 4.0,
      "name_en": "Free Range Golden Yolk Eggs x12",
      "brand": "Sainsbury's",
-     "pack_size": "12 Each",
+     "pack_size": "12 个",
      "unit_price_gbp": 4.0,
      "line_total_gbp": 4.0,
      "used_on": [
@@ -3107,7 +3107,7 @@
      "product": {
       "name": "Free Range Golden Yolk Eggs x12",
       "brand": "Sainsbury's",
-      "size": "12 Each",
+      "size": "12 个",
       "price_gbp": 4.0,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
@@ -3115,7 +3115,7 @@
     {
      "category": "水果",
      "name": "草莓",
-     "buy_qty": 400,
+     "buy_qty": 400.0,
      "buy_unit": "g",
      "buy_text": "1 × 400 g（400g）",
      "packs": 1,
@@ -3141,14 +3141,14 @@
     {
      "category": "水果",
      "name": "柠檬",
-     "buy_qty": 400,
+     "buy_qty": 4.0,
      "buy_unit": "个",
-     "buy_text": "1 × 4 Each（400个）",
+     "buy_text": "1 × 4 个（4个）",
      "packs": 1,
      "price_gbp": 1.4,
      "name_en": "Lemons 4 Pack",
      "brand": "Sainsbury's",
-     "pack_size": "4 Each",
+     "pack_size": "4 个",
      "unit_price_gbp": 1.4,
      "line_total_gbp": 1.4,
      "used_on": [],
@@ -3156,7 +3156,7 @@
      "product": {
       "name": "Lemons 4 Pack",
       "brand": "Sainsbury's",
-      "size": "4 Each",
+      "size": "4 个",
       "price_gbp": 1.4,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
@@ -3164,7 +3164,7 @@
     {
      "category": "干货",
      "name": "藜麦",
-     "buy_qty": 250,
+     "buy_qty": 250.0,
      "buy_unit": "g",
      "buy_text": "1 × 250 g（250g）",
      "packs": 1,
@@ -3191,7 +3191,7 @@
     {
      "category": "调料",
      "name": "姜",
-     "buy_qty": 200,
+     "buy_qty": 200.0,
      "buy_unit": "g",
      "buy_text": "2 × 100 g（200g）",
      "packs": 2,
@@ -3214,7 +3214,7 @@
     {
      "category": "调料",
      "name": "孜然",
-     "buy_qty": 43,
+     "buy_qty": 43.0,
      "buy_unit": "g",
      "buy_text": "1 × 43 g（43g）",
      "packs": 1,
@@ -3243,7 +3243,7 @@
       {
        "category": "蔬菜",
        "name": "菠菜",
-       "buy_qty": 2080,
+       "buy_qty": 2080.0,
        "buy_unit": "g",
        "buy_text": "8 × 260 g（2080g）",
        "packs": 8,
@@ -3274,14 +3274,14 @@
       {
        "category": "干货",
        "name": "鹰嘴豆",
-       "buy_qty": 960,
+       "buy_qty": 1600.0,
        "buy_unit": "g",
-       "buy_text": "4 × 400 g（沥干 240 g）（960g）",
+       "buy_text": "4 × 400 g（1600g）",
        "packs": 4,
        "price_gbp": 0.41,
        "name_en": "Chickpeas in Water 400g",
        "brand": "Sainsbury's",
-       "pack_size": "400 g（沥干 240 g）",
+       "pack_size": "400 g",
        "unit_price_gbp": 0.41,
        "line_total_gbp": 1.64,
        "used_on": [
@@ -3296,7 +3296,7 @@
        "product": {
         "name": "Chickpeas in Water 400g",
         "brand": "Sainsbury's",
-        "size": "400 g（沥干 240 g）",
+        "size": "400 g",
         "price_gbp": 0.41,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
@@ -3304,7 +3304,7 @@
       {
        "category": "蔬菜",
        "name": "羽衣甘蓝",
-       "buy_qty": 400,
+       "buy_qty": 400.0,
        "buy_unit": "g",
        "buy_text": "2 × 200 g（400g）",
        "packs": 2,
@@ -3333,7 +3333,7 @@
       {
        "category": "水产",
        "name": "鳕鱼",
-       "buy_qty": 720,
+       "buy_qty": 720.0,
        "buy_unit": "g",
        "buy_text": "2 × 360 g（720g）",
        "packs": 2,
@@ -3361,7 +3361,7 @@
       {
        "category": "蔬菜",
        "name": "蘑菇",
-       "buy_qty": 600,
+       "buy_qty": 600.0,
        "buy_unit": "g",
        "buy_text": "2 × 300 g（600g）",
        "packs": 2,
@@ -3389,14 +3389,14 @@
       {
        "category": "蔬菜",
        "name": "茄子",
-       "buy_qty": 500,
+       "buy_qty": 2.0,
        "buy_unit": "个",
-       "buy_text": "2 × 1 Each（500个）",
+       "buy_text": "2 × 1 个（2个）",
        "packs": 2,
        "price_gbp": 1.05,
        "name_en": "Aubergine",
        "brand": "Sainsbury's",
-       "pack_size": "1 Each",
+       "pack_size": "1 个",
        "unit_price_gbp": 1.05,
        "line_total_gbp": 2.1,
        "used_on": [
@@ -3407,7 +3407,7 @@
        "product": {
         "name": "Aubergine",
         "brand": "Sainsbury's",
-        "size": "1 Each",
+        "size": "1 个",
         "price_gbp": 1.05,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
@@ -3415,7 +3415,7 @@
       {
        "category": "肉类",
        "name": "火鸡肉",
-       "buy_qty": 750,
+       "buy_qty": 750.0,
        "buy_unit": "g",
        "buy_text": "1 × 750 g（750g）",
        "packs": 1,
@@ -3441,7 +3441,7 @@
       {
        "category": "肉类",
        "name": "牛排",
-       "buy_qty": 450,
+       "buy_qty": 450.0,
        "buy_unit": "g",
        "buy_text": "2 × 225 g（450g）",
        "packs": 2,
@@ -3468,14 +3468,14 @@
       {
        "category": "干货",
        "name": "金枪鱼",
-       "buy_qty": 306,
+       "buy_qty": 435.0,
        "buy_unit": "g",
-       "buy_text": "3 × 145 g（沥干 102 g）（306g）",
+       "buy_text": "3 × 145 g（435g）",
        "packs": 3,
        "price_gbp": 0.75,
        "name_en": "Tuna Chunks in Spring Water 145g",
        "brand": "Sainsbury's",
-       "pack_size": "145 g（沥干 102 g）",
+       "pack_size": "145 g",
        "unit_price_gbp": 0.75,
        "line_total_gbp": 2.25,
        "used_on": [
@@ -3486,7 +3486,7 @@
        "product": {
         "name": "Tuna Chunks in Spring Water 145g",
         "brand": "Sainsbury's",
-        "size": "145 g（沥干 102 g）",
+        "size": "145 g",
         "price_gbp": 0.75,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
@@ -3494,14 +3494,14 @@
       {
        "category": "蔬菜",
        "name": "黄瓜",
-       "buy_qty": 300,
+       "buy_qty": 1.0,
        "buy_unit": "个",
-       "buy_text": "1 × 1 Each（300个）",
+       "buy_text": "1 × 1 个（1个）",
        "packs": 1,
        "price_gbp": 1.09,
        "name_en": "Whole Cucumber",
        "brand": "Sainsbury's",
-       "pack_size": "1 Each",
+       "pack_size": "1 个",
        "unit_price_gbp": 1.09,
        "line_total_gbp": 1.09,
        "used_on": [
@@ -3512,7 +3512,7 @@
        "product": {
         "name": "Whole Cucumber",
         "brand": "Sainsbury's",
-        "size": "1 Each",
+        "size": "1 个",
         "price_gbp": 1.09,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
@@ -3520,14 +3520,14 @@
       {
        "category": "干货",
        "name": "玉米粒",
-       "buy_qty": 471,
+       "buy_qty": 594.0,
        "buy_unit": "g",
-       "buy_text": "3 × 198 g（沥干 157 g）（471g）",
+       "buy_text": "3 × 198 g（594g）",
        "packs": 3,
        "price_gbp": 0.3,
        "name_en": "Naturally Sweet Sweetcorn In Water 198g",
        "brand": "Sainsbury's",
-       "pack_size": "198 g（沥干 157 g）",
+       "pack_size": "198 g",
        "unit_price_gbp": 0.3,
        "line_total_gbp": 0.9,
        "used_on": [
@@ -3540,7 +3540,7 @@
        "product": {
         "name": "Naturally Sweet Sweetcorn In Water 198g",
         "brand": "Sainsbury's",
-        "size": "198 g（沥干 157 g）",
+        "size": "198 g",
         "price_gbp": 0.3,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
@@ -3548,7 +3548,7 @@
       {
        "category": "肉类",
        "name": "牛肉末",
-       "buy_qty": 500,
+       "buy_qty": 500.0,
        "buy_unit": "g",
        "buy_text": "1 × 500 g（500g）",
        "packs": 1,
@@ -3574,7 +3574,7 @@
       {
        "category": "肉类",
        "name": "鸡腿肉",
-       "buy_qty": 1280,
+       "buy_qty": 1280.0,
        "buy_unit": "g",
        "buy_text": "2 × 640 g（1280g）",
        "packs": 2,
@@ -3601,14 +3601,14 @@
       {
        "category": "干货",
        "name": "扁豆",
-       "buy_qty": 265,
+       "buy_qty": 400.0,
        "buy_unit": "g",
-       "buy_text": "1 × 400 g（沥干 265 g）（265g）",
+       "buy_text": "1 × 400 g（400g）",
        "packs": 1,
        "price_gbp": 0.5,
        "name_en": "Green Lentils In Water 400g",
        "brand": "Sainsbury's",
-       "pack_size": "400 g（沥干 265 g）",
+       "pack_size": "400 g",
        "unit_price_gbp": 0.5,
        "line_total_gbp": 0.5,
        "used_on": [
@@ -3620,7 +3620,7 @@
        "product": {
         "name": "Green Lentils In Water 400g",
         "brand": "Sainsbury's",
-        "size": "400 g（沥干 265 g）",
+        "size": "400 g",
         "price_gbp": 0.5,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
@@ -3628,7 +3628,7 @@
       {
        "category": "水产",
        "name": "虾",
-       "buy_qty": 180,
+       "buy_qty": 180.0,
        "buy_unit": "g",
        "buy_text": "1 × 180 g（180g）",
        "packs": 1,
@@ -3653,14 +3653,14 @@
       {
        "category": "乳制品",
        "name": "鸡蛋",
-       "buy_qty": 600,
+       "buy_qty": 12.0,
        "buy_unit": "个",
-       "buy_text": "1 × 12 Each（600个）",
+       "buy_text": "1 × 12 个（12个）",
        "packs": 1,
        "price_gbp": 4.0,
        "name_en": "Free Range Golden Yolk Eggs x12",
        "brand": "Sainsbury's",
-       "pack_size": "12 Each",
+       "pack_size": "12 个",
        "unit_price_gbp": 4.0,
        "line_total_gbp": 4.0,
        "used_on": [
@@ -3676,7 +3676,7 @@
        "product": {
         "name": "Free Range Golden Yolk Eggs x12",
         "brand": "Sainsbury's",
-        "size": "12 Each",
+        "size": "12 个",
         "price_gbp": 4.0,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
@@ -3684,7 +3684,7 @@
       {
        "category": "水果",
        "name": "草莓",
-       "buy_qty": 400,
+       "buy_qty": 400.0,
        "buy_unit": "g",
        "buy_text": "1 × 400 g（400g）",
        "packs": 1,
@@ -3710,14 +3710,14 @@
       {
        "category": "水果",
        "name": "柠檬",
-       "buy_qty": 400,
+       "buy_qty": 4.0,
        "buy_unit": "个",
-       "buy_text": "1 × 4 Each（400个）",
+       "buy_text": "1 × 4 个（4个）",
        "packs": 1,
        "price_gbp": 1.4,
        "name_en": "Lemons 4 Pack",
        "brand": "Sainsbury's",
-       "pack_size": "4 Each",
+       "pack_size": "4 个",
        "unit_price_gbp": 1.4,
        "line_total_gbp": 1.4,
        "used_on": [],
@@ -3725,7 +3725,7 @@
        "product": {
         "name": "Lemons 4 Pack",
         "brand": "Sainsbury's",
-        "size": "4 Each",
+        "size": "4 个",
         "price_gbp": 1.4,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
@@ -3733,7 +3733,7 @@
       {
        "category": "干货",
        "name": "藜麦",
-       "buy_qty": 250,
+       "buy_qty": 250.0,
        "buy_unit": "g",
        "buy_text": "1 × 250 g（250g）",
        "packs": 1,
@@ -3760,7 +3760,7 @@
       {
        "category": "调料",
        "name": "姜",
-       "buy_qty": 200,
+       "buy_qty": 200.0,
        "buy_unit": "g",
        "buy_text": "2 × 100 g（200g）",
        "packs": 2,
@@ -3783,7 +3783,7 @@
       {
        "category": "调料",
        "name": "孜然",
-       "buy_qty": 43,
+       "buy_qty": 43.0,
        "buy_unit": "g",
        "buy_text": "1 × 43 g（43g）",
        "packs": 1,
@@ -3813,7 +3813,7 @@
       {
        "category": "蔬菜",
        "name": "菠菜",
-       "buy_qty": 780,
+       "buy_qty": 780.0,
        "buy_unit": "g",
        "buy_text": "3 × 260 g（780g）",
        "packs": 3,
@@ -3844,7 +3844,7 @@
       {
        "category": "蔬菜",
        "name": "羽衣甘蓝",
-       "buy_qty": 400,
+       "buy_qty": 400.0,
        "buy_unit": "g",
        "buy_text": "2 × 200 g（400g）",
        "packs": 2,
@@ -3873,7 +3873,7 @@
       {
        "category": "蔬菜",
        "name": "蘑菇",
-       "buy_qty": 300,
+       "buy_qty": 300.0,
        "buy_unit": "g",
        "buy_text": "1 × 300 g（300g）",
        "packs": 1,
@@ -3901,14 +3901,14 @@
       {
        "category": "蔬菜",
        "name": "黄瓜",
-       "buy_qty": 300,
+       "buy_qty": 1.0,
        "buy_unit": "个",
-       "buy_text": "1 × 1 Each（300个）",
+       "buy_text": "1 × 1 个（1个）",
        "packs": 1,
        "price_gbp": 1.09,
        "name_en": "Whole Cucumber",
        "brand": "Sainsbury's",
-       "pack_size": "1 Each",
+       "pack_size": "1 个",
        "unit_price_gbp": 1.09,
        "line_total_gbp": 1.09,
        "used_on": [
@@ -3919,7 +3919,7 @@
        "product": {
         "name": "Whole Cucumber",
         "brand": "Sainsbury's",
-        "size": "1 Each",
+        "size": "1 个",
         "price_gbp": 1.09,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
@@ -3927,7 +3927,7 @@
       {
        "category": "蔬菜",
        "name": "西葫芦",
-       "buy_qty": 500,
+       "buy_qty": 500.0,
        "buy_unit": "g",
        "buy_text": "1 × 500 g（500g）",
        "packs": 1,
