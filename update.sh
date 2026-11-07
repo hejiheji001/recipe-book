@@ -34,7 +34,7 @@ cat > "$HERE/index.html" <<'ENTRY'
 <script>
 (function(){
   var h = location.hash || "";
-  location.replace(h && h !== "#open=catalog" ? "./catalog.html" + h : "./week/");
+  location.replace(h ? "./catalog.html" + h : "./week/");
 })();
 </script>
 </head><body>
