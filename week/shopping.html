@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="菜谱">
 <meta name="rb-week" content="W1-11-02">
-<meta name="rb-build" content="20261107072124">
+<meta name="rb-build" content="20261107072353">
 <title>推荐采购 · W1-11-02</title>
 <style>
 *{box-sizing:border-box;-webkit-text-size-adjust:100%;}
@@ -74,7 +74,8 @@ h2 em{font-style:normal;font-size:12px;font-weight:500;color:#9a9a95;}
 #dlg.on{display:block;}
 #dlg h3{margin:0 0 4px;font-size:18px;}
 #dlg .acts{display:flex;gap:8px;margin-top:14px;}
-#dlg .acts button{flex:1;font-size:15px;padding:13px;border-radius:11px;border:none;font-weight:600;}
+#dlg .acts button{flex:1;font-size:13.5px;padding:12px 6px;border-radius:11px;border:none;font-weight:600;
+ white-space:nowrap;}
 #dlg #closeBtn{background:#f2f2ee;color:#555;}
 #dlg .acts button.pri{background:#111;color:#fff;}
 #dlg .txsub{font-size:12.5px;color:#999;line-height:1.55;margin:6px 0 10px;}
@@ -154,7 +155,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="../#open=about">关于</a>
   </div>
   <div class="bar">
-    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-07 07:21</span></span>
+    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-07 07:23</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
@@ -776,7 +777,7 @@ window.__DAYING__ = {"2026-11-02":[["沙虾",500.0,"g",500.0,"g"],["菜脯",80.0
       "</div>" +
       "<textarea id='txBody' readonly></textarea>" +
       "<div class='acts'><button id='txCopy' class='pri'>复制文字</button>" +
-      "<button id='txJd'>打开京东 AI 购</button><button id='txClose'>关闭</button></div>";
+      "<button id='txJd'>京东 AI 购</button><button id='txClose'>关闭</button></div>";
     dlg.classList.add("on"); mask.classList.add("on");
     var body = document.getElementById("txBody");
     function refresh(){
