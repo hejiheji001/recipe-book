@@ -84,6 +84,7 @@ jobs:
           for token, label in [
               (r"id=[\"']stReceipt[\"']", "传小票按钮"),
               (r"id=[\"']textBtn[\"']", "导出文字按钮"),
+              (r"id=[\"']navAbout[\"']", "关于页入口"),
               (r"id=[\"']stMatch[\"']", "库存找菜按钮"),
               (r"data-copy-ing=", "复制食材按钮"),
               (r"data-add-qty=", "库存数量输入"),
