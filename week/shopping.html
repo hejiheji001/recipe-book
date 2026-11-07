@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="菜谱">
 <meta name="rb-week" content="W1-11-02">
-<meta name="rb-build" content="20261107071230">
+<meta name="rb-build" content="20261107071530">
 <title>推荐采购 · W1-11-02</title>
 <style>
 *{box-sizing:border-box;-webkit-text-size-adjust:100%;}
@@ -154,7 +154,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="../#open=about">关于</a>
   </div>
   <div class="bar">
-    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-07 07:12</span></span>
+    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-07 07:15</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
@@ -639,28 +639,48 @@ window.__DAYING__ = {"2026-11-02":[["沙虾",500.0,"g",500.0,"g"],["菜脯",80.0
     return out;
   }
 
-  document.getElementById("save").onclick = function(){
+  function itemKey(items){
+    return items.map(function(it){ return (it.n || "") + "|" + (it.q || ""); }).sort().join("||");
+  }
+  function stillNeed(el){
+    if(!el || el.style.display === "none") return false;
+    var n = el.getAttribute("data-nm2");
+    if(!n) return true;
+    var st = loadStock();
+    var it = st.items[n];
+    return !(it && leftDays(n, it) > 0);
+  }
+  function saveShopList(){
     var items = [];
     [].slice.call(document.querySelectorAll("section.cat .it")).forEach(function(el){
       if(el.closest("#seasonSec")) return;
+      if(!stillNeed(el)) return;
       var nmEl = el.querySelector(".nm"), qEl = el.querySelector(".q");
       if(!nmEl || !qEl) return;
       items.push({ n: nmEl.textContent, q: qEl.textContent });
     });
     items = items.concat(seasonPickedItems());
+    if(!items.length){ toast("没有要买的了"); return null; }
+    var key = itemKey(items);
+    var hit = loadLists().filter(function(x){ return itemKey(x.items || []) === key; })[0];
+    if(hit){ toast("已在我的菜谱：" + hit.name); return hit; }
     var base = todayShort(), used = {}, i = 1;
     loadLists().concat(loadTrash()).forEach(function(x){
       var nm=(x.name||""); if(nm.indexOf(base)===0){ var m=nm.match(/-([0-9]+)$/); used[m?+m[1]:1]=1; }
     });
     while(used[i]) i++;
     var nm = base + "-" + i, d = new Date(), ls = loadLists();
-    ls.unshift({ id:d.getTime(), name:nm,
+    var rec = { id:d.getTime(), name:nm,
       date:d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate()),
-      items:items, dishes:[], from:"推荐菜谱 W1-11-02" });
+      items:items, dishes:[], from:"推荐采购 W1-11-02" };
+    ls.unshift(rec);
     localStorage.setItem("rb_lists", JSON.stringify(ls));
     if(window.RBSYNC) RBSYNC.save("rb_lists");
-    toast("已保存：" + nm);
-  };
+    toast("已保存到我的菜谱：" + nm);
+    return rec;
+  }
+
+  document.getElementById("save").onclick = function(){ saveShopList(); };
 
   var mask=document.getElementById("mask"), dlg=document.getElementById("dlg");
   mask.onclick=function(){ dlg.classList.remove("on"); mask.classList.remove("on"); };
@@ -685,6 +705,7 @@ window.__DAYING__ = {"2026-11-02":[["沙虾",500.0,"g",500.0,"g"],["菜脯",80.0
       var cat = hEl ? hEl.textContent : "其他";
       var arr = [];
       [].slice.call(sec.querySelectorAll(".it")).forEach(function(el){
+        if(!stillNeed(el)) return;
         arr.push({ n: el.querySelector(".nm").textContent,
                     q: el.querySelector(".q").textContent,
                     on: el.querySelector("input").checked });
