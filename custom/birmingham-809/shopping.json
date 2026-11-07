@@ -1,9 +1,55 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-07T11:14:30",
+ "generated": "2026-11-07T11:20:25",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
+ "columns": [
+  {
+   "key": "category",
+   "label": "品类",
+   "align": "left"
+  },
+  {
+   "key": "name",
+   "label": "中文名",
+   "align": "left"
+  },
+  {
+   "key": "packs",
+   "label": "件",
+   "align": "right"
+  },
+  {
+   "key": "pack_size",
+   "label": "量/份",
+   "align": "left"
+  },
+  {
+   "key": "name_en",
+   "label": "英文",
+   "align": "left",
+   "link": "link"
+  },
+  {
+   "key": "unit_price_gbp",
+   "label": "单价£",
+   "align": "right",
+   "money": true
+  },
+  {
+   "key": "line_total_gbp",
+   "label": "本批£",
+   "align": "right",
+   "money": true
+  },
+  {
+   "key": "buy_qty",
+   "label": "总量",
+   "align": "right",
+   "qty": true
+  }
+ ],
  "default_store": "ALDI",
  "stores": [
   "ALDI",
