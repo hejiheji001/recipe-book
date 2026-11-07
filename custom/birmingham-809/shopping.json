@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-07T14:11:42",
+ "generated": "2026-11-07T15:30:18",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "columns": [
@@ -65,17 +65,17 @@
   {
    "category": "蔬菜",
    "name": "菠菜",
-   "buy_qty": 2700.0,
+   "buy_qty": 2250.0,
    "buy_unit": "g",
-   "buy_text": "2700g",
-   "packs": 6,
+   "buy_text": "2250g",
+   "packs": 5,
    "price_gbp": 1.59,
    "name_en": "British Baby Spinach",
    "name_short": "Baby Spinach",
    "brand": "NATURE'S PICK",
    "pack_size": "450 g",
    "unit_price_gbp": 1.59,
-   "line_total_gbp": 9.54,
+   "line_total_gbp": 7.95,
    "used_on": [
     "周一",
     "周二",
@@ -97,17 +97,17 @@
   {
    "category": "干货",
    "name": "鹰嘴豆",
-   "buy_qty": 1200.0,
+   "buy_qty": 2000.0,
    "buy_unit": "g",
-   "buy_text": "1200g",
-   "packs": 3,
+   "buy_text": "2000g",
+   "packs": 5,
    "price_gbp": 0.41,
    "name_en": "Chickpeas",
    "name_short": "Chickpeas",
    "brand": "FOUR SEASONS",
    "pack_size": "400 g",
    "unit_price_gbp": 0.41,
-   "line_total_gbp": 1.23,
+   "line_total_gbp": 2.05,
    "used_on": [
     "周一",
     "周二",
@@ -126,62 +126,31 @@
    }
   },
   {
-   "category": "蔬菜",
-   "name": "羽衣甘蓝",
+   "category": "干货",
+   "name": "扁豆",
    "buy_qty": 800.0,
    "buy_unit": "g",
    "buy_text": "800g",
-   "packs": 4,
-   "price_gbp": 0.89,
-   "name_en": "Scottish Shredded Kale",
-   "name_short": "Shredded Kale",
-   "brand": "NATURE'S PICK",
-   "pack_size": "200 g",
-   "unit_price_gbp": 0.89,
-   "line_total_gbp": 3.56,
+   "packs": 2,
+   "price_gbp": 0.45,
+   "name_en": "Tinned Lentils",
+   "name_short": "Tinned Lentils",
+   "brand": "FOUR SEASONS",
+   "pack_size": "400 g",
+   "unit_price_gbp": 0.45,
+   "line_total_gbp": 0.9,
    "used_on": [
-    "周一",
     "周三",
-    "周四",
     "周五",
     "周六"
    ],
-   "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
+   "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
    "product": {
-    "name": "Scottish Shredded Kale",
-    "brand": "NATURE'S PICK",
-    "size": "200 g",
-    "price_gbp": 0.89,
-    "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
-   }
-  },
-  {
-   "category": "水产",
-   "name": "鳕鱼",
-   "buy_qty": 720.0,
-   "buy_unit": "g",
-   "buy_text": "720g",
-   "packs": 2,
-   "price_gbp": 3.95,
-   "name_en": "Cod Fillets",
-   "name_short": "Cod Fillets",
-   "brand": "THE FISHMONGER",
-   "pack_size": "360 g",
-   "unit_price_gbp": 3.95,
-   "line_total_gbp": 7.9,
-   "used_on": [
-    "周四",
-    "周五",
-    "周六",
-    "周日"
-   ],
-   "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
-   "product": {
-    "name": "Cod Fillets",
-    "brand": "THE FISHMONGER",
-    "size": "360 g",
-    "price_gbp": 3.95,
-    "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
+    "name": "Tinned Lentils",
+    "brand": "FOUR SEASONS",
+    "size": "400 g",
+    "price_gbp": 0.45,
+    "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
    }
   },
   {
@@ -199,6 +168,7 @@
    "unit_price_gbp": 0.95,
    "line_total_gbp": 2.85,
    "used_on": [
+    "周二",
     "周四",
     "周五",
     "周六",
@@ -211,6 +181,36 @@
     "size": "250 g",
     "price_gbp": 0.95,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
+   }
+  },
+  {
+   "category": "水产",
+   "name": "鳕鱼",
+   "buy_qty": 720.0,
+   "buy_unit": "g",
+   "buy_text": "720g",
+   "packs": 2,
+   "price_gbp": 3.95,
+   "name_en": "Cod Fillets",
+   "name_short": "Cod Fillets",
+   "brand": "THE FISHMONGER",
+   "pack_size": "360 g",
+   "unit_price_gbp": 3.95,
+   "line_total_gbp": 7.9,
+   "used_on": [
+    "周二",
+    "周四",
+    "周五",
+    "周六",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
+   "product": {
+    "name": "Cod Fillets",
+    "brand": "THE FISHMONGER",
+    "size": "360 g",
+    "price_gbp": 3.95,
+    "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
    }
   },
   {
@@ -228,8 +228,9 @@
    "unit_price_gbp": 0.79,
    "line_total_gbp": 1.58,
    "used_on": [
-    "周五",
-    "周日"
+    "周二",
+    "周四",
+    "周五"
    ],
    "link": "https://www.aldi.co.uk/search?text=Aubergine",
    "product": {
@@ -241,31 +242,91 @@
    }
   },
   {
-   "category": "肉类",
-   "name": "牛排",
-   "buy_qty": 390.0,
+   "category": "水果",
+   "name": "草莓",
+   "buy_qty": 800.0,
    "buy_unit": "g",
-   "buy_text": "390g",
+   "buy_text": "800g",
    "packs": 2,
-   "price_gbp": 4.49,
-   "name_en": "British Sirloin Steak 21 Day Matured",
-   "name_short": "Sirloin Steak 21 Day Matured",
-   "brand": "ASHFIELDS",
-   "pack_size": "195 g",
-   "unit_price_gbp": 4.49,
-   "line_total_gbp": 8.98,
+   "price_gbp": 3.19,
+   "name_en": "Strawberries",
+   "name_short": "Strawberries",
+   "brand": "NATURE'S PICK",
+   "pack_size": "400 g",
+   "unit_price_gbp": 3.19,
+   "line_total_gbp": 6.38,
    "used_on": [
     "周二",
+    "周四",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
+   "product": {
+    "name": "Strawberries",
+    "brand": "NATURE'S PICK",
+    "size": "400 g",
+    "price_gbp": 3.19,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
+   }
+  },
+  {
+   "category": "干货",
+   "name": "藜麦",
+   "buy_qty": 500.0,
+   "buy_unit": "g",
+   "buy_text": "500g",
+   "packs": 2,
+   "price_gbp": 0.85,
+   "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+   "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
+   "brand": "WORLDWIDE FOODS",
+   "pack_size": "250 g",
+   "unit_price_gbp": 0.85,
+   "line_total_gbp": 1.7,
+   "used_on": [
+    "周一",
+    "周二",
+    "周四",
+    "周五",
+    "周日"
+   ],
+   "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
+   "product": {
+    "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+    "brand": "WORLDWIDE FOODS",
+    "size": "250 g",
+    "price_gbp": 0.85,
+    "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
+   }
+  },
+  {
+   "category": "蔬菜",
+   "name": "羽衣甘蓝",
+   "buy_qty": 600.0,
+   "buy_unit": "g",
+   "buy_text": "600g",
+   "packs": 3,
+   "price_gbp": 0.89,
+   "name_en": "Scottish Shredded Kale",
+   "name_short": "Shredded Kale",
+   "brand": "NATURE'S PICK",
+   "pack_size": "200 g",
+   "unit_price_gbp": 0.89,
+   "line_total_gbp": 2.67,
+   "used_on": [
+    "周一",
+    "周四",
+    "周五",
     "周六",
     "周日"
    ],
-   "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068",
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
    "product": {
-    "name": "British Sirloin Steak 21 Day Matured",
-    "brand": "ASHFIELDS",
-    "size": "195 g",
-    "price_gbp": 4.49,
-    "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068"
+    "name": "Scottish Shredded Kale",
+    "brand": "NATURE'S PICK",
+    "size": "200 g",
+    "price_gbp": 0.89,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
    }
   },
   {
@@ -284,7 +345,7 @@
    "line_total_gbp": 2.99,
    "used_on": [
     "周一",
-    "周五"
+    "周日"
    ],
    "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
    "product": {
@@ -297,85 +358,58 @@
   },
   {
    "category": "干货",
-   "name": "金枪鱼",
-   "buy_qty": 435.0,
-   "buy_unit": "g",
-   "buy_text": "435g",
-   "packs": 3,
-   "price_gbp": 0.65,
-   "name_en": "Tuna Chunks In Spring Water",
-   "name_short": "Tuna Chunks In Spring Water",
-   "brand": "THE FISHMONGER",
-   "pack_size": "145 g",
-   "unit_price_gbp": 0.65,
-   "line_total_gbp": 1.95,
-   "used_on": [
-    "周二",
-    "周日"
-   ],
-   "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
-   "product": {
-    "name": "Tuna Chunks In Spring Water",
-    "brand": "THE FISHMONGER",
-    "size": "145 g",
-    "price_gbp": 0.65,
-    "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
-   }
-  },
-  {
-   "category": "蔬菜",
-   "name": "黄瓜",
-   "buy_qty": 2.0,
-   "buy_unit": "个",
-   "buy_text": "2个",
-   "packs": 2,
-   "price_gbp": 0.99,
-   "name_en": "Cucumber",
-   "name_short": "Cucumber",
-   "brand": "NATURE'S PICK",
-   "pack_size": "1 个",
-   "unit_price_gbp": 0.99,
-   "line_total_gbp": 1.98,
-   "used_on": [
-    "周二",
-    "周日"
-   ],
-   "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
-   "product": {
-    "name": "Cucumber",
-    "brand": "NATURE'S PICK",
-    "size": "1 个",
-    "price_gbp": 0.99,
-    "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
-   }
-  },
-  {
-   "category": "干货",
    "name": "玉米粒",
-   "buy_qty": 570.0,
+   "buy_qty": 1000.0,
    "buy_unit": "g",
-   "buy_text": "570g",
-   "packs": 2,
-   "price_gbp": 0.55,
-   "name_en": "Supersweet Sweetcorn in Water",
-   "name_short": "Sweetcorn in Water",
+   "buy_text": "1000g",
+   "packs": 1,
+   "price_gbp": 1.49,
+   "name_en": "Sweetcorn (Frozen)",
+   "name_short": "Sweetcorn (Frozen)",
    "brand": "FOUR SEASONS",
-   "pack_size": "285 g",
-   "unit_price_gbp": 0.55,
-   "line_total_gbp": 1.1,
+   "pack_size": "1 kg",
+   "unit_price_gbp": 1.49,
+   "line_total_gbp": 1.49,
    "used_on": [
     "周三",
     "周五",
-    "周六",
-    "周日"
+    "周六"
    ],
-   "link": "https://www.aldi.co.uk/product/four-seasons-supersweet-sweetcorn-in-water",
+   "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
    "product": {
-    "name": "Supersweet Sweetcorn in Water",
+    "name": "Sweetcorn (Frozen)",
     "brand": "FOUR SEASONS",
-    "size": "285 g",
-    "price_gbp": 0.55,
-    "link": "https://www.aldi.co.uk/product/four-seasons-supersweet-sweetcorn-in-water"
+    "size": "1 kg",
+    "price_gbp": 1.49,
+    "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686"
+   }
+  },
+  {
+   "category": "肉类",
+   "name": "牛排",
+   "buy_qty": 195.0,
+   "buy_unit": "g",
+   "buy_text": "195g",
+   "packs": 1,
+   "price_gbp": 4.49,
+   "name_en": "British Sirloin Steak 21 Day Matured",
+   "name_short": "Sirloin Steak 21 Day Matured",
+   "brand": "ASHFIELDS",
+   "pack_size": "195 g",
+   "unit_price_gbp": 4.49,
+   "line_total_gbp": 4.49,
+   "used_on": [
+    "周三",
+    "周五",
+    "周六"
+   ],
+   "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068",
+   "product": {
+    "name": "British Sirloin Steak 21 Day Matured",
+    "brand": "ASHFIELDS",
+    "size": "195 g",
+    "price_gbp": 4.49,
+    "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068"
    }
   },
   {
@@ -394,7 +428,8 @@
    "line_total_gbp": 1.39,
    "used_on": [
     "周四",
-    "周六"
+    "周六",
+    "周日"
    ],
    "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
    "product": {
@@ -406,30 +441,30 @@
    }
   },
   {
-   "category": "肉类",
-   "name": "牛肉末",
-   "buy_qty": 500.0,
+   "category": "干货",
+   "name": "金枪鱼",
+   "buy_qty": 145.0,
    "buy_unit": "g",
-   "buy_text": "500g",
+   "buy_text": "145g",
    "packs": 1,
-   "price_gbp": 4.39,
-   "name_en": "British Beef Mince 10% Fat",
-   "name_short": "Beef Mince 10% Fat",
-   "brand": "ASHFIELDS",
-   "pack_size": "500 g",
-   "unit_price_gbp": 4.39,
-   "line_total_gbp": 4.39,
+   "price_gbp": 0.65,
+   "name_en": "Tuna Chunks In Spring Water",
+   "name_short": "Tuna Chunks In Spring Water",
+   "brand": "THE FISHMONGER",
+   "pack_size": "145 g",
+   "unit_price_gbp": 0.65,
+   "line_total_gbp": 0.65,
    "used_on": [
-    "周一",
-    "周四"
+    "周二",
+    "周日"
    ],
-   "link": "https://www.aldi.co.uk/product/ashfields-british-beef-mince-10-fat-000000000000575299",
+   "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
    "product": {
-    "name": "British Beef Mince 10% Fat",
-    "brand": "ASHFIELDS",
-    "size": "500 g",
-    "price_gbp": 4.39,
-    "link": "https://www.aldi.co.uk/product/ashfields-british-beef-mince-10-fat-000000000000575299"
+    "name": "Tuna Chunks In Spring Water",
+    "brand": "THE FISHMONGER",
+    "size": "145 g",
+    "price_gbp": 0.65,
+    "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
    }
   },
   {
@@ -448,8 +483,7 @@
    "line_total_gbp": 2.95,
    "used_on": [
     "周四",
-    "周五",
-    "周六"
+    "周五"
    ],
    "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103",
    "product": {
@@ -458,119 +492,6 @@
     "size": "1 kg",
     "price_gbp": 2.95,
     "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103"
-   }
-  },
-  {
-   "category": "干货",
-   "name": "扁豆",
-   "buy_qty": 400.0,
-   "buy_unit": "g",
-   "buy_text": "400g",
-   "packs": 1,
-   "price_gbp": 0.45,
-   "name_en": "Tinned Lentils",
-   "name_short": "Tinned Lentils",
-   "brand": "FOUR SEASONS",
-   "pack_size": "400 g",
-   "unit_price_gbp": 0.45,
-   "line_total_gbp": 0.45,
-   "used_on": [
-    "周三",
-    "周六",
-    "周日"
-   ],
-   "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
-   "product": {
-    "name": "Tinned Lentils",
-    "brand": "FOUR SEASONS",
-    "size": "400 g",
-    "price_gbp": 0.45,
-    "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
-   }
-  },
-  {
-   "category": "水产",
-   "name": "虾",
-   "buy_qty": 150.0,
-   "buy_unit": "g",
-   "buy_text": "150g",
-   "packs": 1,
-   "price_gbp": 2.49,
-   "name_en": "Cooked & Peeled King Prawns",
-   "name_short": "Cooked & Peeled King Prawns",
-   "brand": "THE FISHMONGER",
-   "pack_size": "150 g",
-   "unit_price_gbp": 2.49,
-   "line_total_gbp": 2.49,
-   "used_on": [
-    "周三"
-   ],
-   "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648",
-   "product": {
-    "name": "Cooked & Peeled King Prawns",
-    "brand": "THE FISHMONGER",
-    "size": "150 g",
-    "price_gbp": 2.49,
-    "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648"
-   }
-  },
-  {
-   "category": "乳制品",
-   "name": "鸡蛋",
-   "buy_qty": 12.0,
-   "buy_unit": "个",
-   "buy_text": "12个",
-   "packs": 1,
-   "price_gbp": 2.89,
-   "name_en": "British Large Free Range Eggs 12 Pack",
-   "name_short": "Large Free Range Eggs",
-   "brand": "MEREVALE",
-   "pack_size": "12 个",
-   "unit_price_gbp": 2.89,
-   "line_total_gbp": 2.89,
-   "used_on": [
-    "周一",
-    "周二",
-    "周三",
-    "周四",
-    "周五",
-    "周六",
-    "周日"
-   ],
-   "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
-   "product": {
-    "name": "British Large Free Range Eggs 12 Pack",
-    "brand": "MEREVALE",
-    "size": "12 个",
-    "price_gbp": 2.89,
-    "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009"
-   }
-  },
-  {
-   "category": "水果",
-   "name": "草莓",
-   "buy_qty": 400.0,
-   "buy_unit": "g",
-   "buy_text": "400g",
-   "packs": 1,
-   "price_gbp": 3.19,
-   "name_en": "Strawberries",
-   "name_short": "Strawberries",
-   "brand": "NATURE'S PICK",
-   "pack_size": "400 g",
-   "unit_price_gbp": 3.19,
-   "line_total_gbp": 3.19,
-   "used_on": [
-    "周四",
-    "周日"
-   ],
-   "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
-   "product": {
-    "name": "Strawberries",
-    "brand": "NATURE'S PICK",
-    "size": "400 g",
-    "price_gbp": 3.19,
-    "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
    }
   },
   {
@@ -598,31 +519,27 @@
    }
   },
   {
-   "category": "干货",
-   "name": "藜麦",
-   "buy_qty": 250.0,
+   "category": "调料",
+   "name": "孜然",
+   "buy_qty": 40.0,
    "buy_unit": "g",
-   "buy_text": "250g",
+   "buy_text": "40g",
    "packs": 1,
-   "price_gbp": 0.85,
-   "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
-   "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
-   "brand": "WORLDWIDE FOODS",
-   "pack_size": "250 g",
-   "unit_price_gbp": 0.85,
-   "line_total_gbp": 0.85,
-   "used_on": [
-    "周三",
-    "周五",
-    "周六"
-   ],
-   "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
+   "price_gbp": 0.79,
+   "name_en": "Ground Cumin",
+   "name_short": "Ground Cumin",
+   "brand": "Stonemill",
+   "pack_size": "40 g",
+   "unit_price_gbp": 0.79,
+   "line_total_gbp": 0.79,
+   "used_on": [],
+   "link": "https://www.aldi.co.uk/search?text=Cumin",
    "product": {
-    "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
-    "brand": "WORLDWIDE FOODS",
-    "size": "250 g",
-    "price_gbp": 0.85,
-    "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
+    "name": "Ground Cumin",
+    "brand": "Stonemill",
+    "size": "40 g",
+    "price_gbp": 0.79,
+    "link": "https://www.aldi.co.uk/search?text=Cumin"
    }
   },
   {
@@ -648,30 +565,6 @@
     "price_gbp": 0.99,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
    }
-  },
-  {
-   "category": "调料",
-   "name": "孜然",
-   "buy_qty": 40.0,
-   "buy_unit": "g",
-   "buy_text": "40g",
-   "packs": 1,
-   "price_gbp": 0.79,
-   "name_en": "Ground Cumin",
-   "name_short": "Ground Cumin",
-   "brand": "Stonemill",
-   "pack_size": "40 g",
-   "unit_price_gbp": 0.79,
-   "line_total_gbp": 0.79,
-   "used_on": [],
-   "link": "https://www.aldi.co.uk/search?text=Cumin",
-   "product": {
-    "name": "Ground Cumin",
-    "brand": "Stonemill",
-    "size": "40 g",
-    "price_gbp": 0.79,
-    "link": "https://www.aldi.co.uk/search?text=Cumin"
-   }
   }
  ],
  "batches": [
@@ -682,17 +575,17 @@
     {
      "category": "蔬菜",
      "name": "菠菜",
-     "buy_qty": 1800.0,
+     "buy_qty": 1350.0,
      "buy_unit": "g",
-     "buy_text": "1800g",
-     "packs": 4,
+     "buy_text": "1350g",
+     "packs": 3,
      "price_gbp": 1.59,
      "name_en": "British Baby Spinach",
      "name_short": "Baby Spinach",
      "brand": "NATURE'S PICK",
      "pack_size": "450 g",
      "unit_price_gbp": 1.59,
-     "line_total_gbp": 6.36,
+     "line_total_gbp": 4.77,
      "used_on": [
       "周一",
       "周二",
@@ -714,17 +607,17 @@
     {
      "category": "干货",
      "name": "鹰嘴豆",
-     "buy_qty": 1200.0,
+     "buy_qty": 2000.0,
      "buy_unit": "g",
-     "buy_text": "1200g",
-     "packs": 3,
+     "buy_text": "2000g",
+     "packs": 5,
      "price_gbp": 0.41,
      "name_en": "Chickpeas",
      "name_short": "Chickpeas",
      "brand": "FOUR SEASONS",
      "pack_size": "400 g",
      "unit_price_gbp": 0.41,
-     "line_total_gbp": 1.23,
+     "line_total_gbp": 2.05,
      "used_on": [
       "周一",
       "周二",
@@ -743,33 +636,61 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "羽衣甘蓝",
-     "buy_qty": 400.0,
+     "category": "干货",
+     "name": "扁豆",
+     "buy_qty": 800.0,
      "buy_unit": "g",
-     "buy_text": "400g",
+     "buy_text": "800g",
      "packs": 2,
-     "price_gbp": 0.89,
-     "name_en": "Scottish Shredded Kale",
-     "name_short": "Shredded Kale",
-     "brand": "NATURE'S PICK",
-     "pack_size": "200 g",
-     "unit_price_gbp": 0.89,
-     "line_total_gbp": 1.78,
+     "price_gbp": 0.45,
+     "name_en": "Tinned Lentils",
+     "name_short": "Tinned Lentils",
+     "brand": "FOUR SEASONS",
+     "pack_size": "400 g",
+     "unit_price_gbp": 0.45,
+     "line_total_gbp": 0.9,
      "used_on": [
-      "周一",
       "周三",
-      "周四",
       "周五",
       "周六"
      ],
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
+     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
      "product": {
-      "name": "Scottish Shredded Kale",
+      "name": "Tinned Lentils",
+      "brand": "FOUR SEASONS",
+      "size": "400 g",
+      "price_gbp": 0.45,
+      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "蘑菇",
+     "buy_qty": 250.0,
+     "buy_unit": "g",
+     "buy_text": "250g",
+     "packs": 1,
+     "price_gbp": 0.95,
+     "name_en": "British Chestnut Mushrooms",
+     "name_short": "Chestnut Mushrooms",
+     "brand": "NATURE'S PICK",
+     "pack_size": "250 g",
+     "unit_price_gbp": 0.95,
+     "line_total_gbp": 0.95,
+     "used_on": [
+      "周二",
+      "周四",
+      "周五",
+      "周六",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
+     "product": {
+      "name": "British Chestnut Mushrooms",
       "brand": "NATURE'S PICK",
-      "size": "200 g",
-      "price_gbp": 0.89,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
+      "size": "250 g",
+      "price_gbp": 0.95,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
      }
     },
     {
@@ -787,6 +708,7 @@
      "unit_price_gbp": 3.95,
      "line_total_gbp": 7.9,
      "used_on": [
+      "周二",
       "周四",
       "周五",
       "周六",
@@ -799,35 +721,6 @@
       "size": "360 g",
       "price_gbp": 3.95,
       "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "蘑菇",
-     "buy_qty": 500.0,
-     "buy_unit": "g",
-     "buy_text": "500g",
-     "packs": 2,
-     "price_gbp": 0.95,
-     "name_en": "British Chestnut Mushrooms",
-     "name_short": "Chestnut Mushrooms",
-     "brand": "NATURE'S PICK",
-     "pack_size": "250 g",
-     "unit_price_gbp": 0.95,
-     "line_total_gbp": 1.9,
-     "used_on": [
-      "周四",
-      "周五",
-      "周六",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
-     "product": {
-      "name": "British Chestnut Mushrooms",
-      "brand": "NATURE'S PICK",
-      "size": "250 g",
-      "price_gbp": 0.95,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
      }
     },
     {
@@ -845,8 +738,9 @@
      "unit_price_gbp": 0.79,
      "line_total_gbp": 1.58,
      "used_on": [
-      "周五",
-      "周日"
+      "周二",
+      "周四",
+      "周五"
      ],
      "link": "https://www.aldi.co.uk/search?text=Aubergine",
      "product": {
@@ -858,31 +752,91 @@
      }
     },
     {
-     "category": "肉类",
-     "name": "牛排",
-     "buy_qty": 390.0,
+     "category": "水果",
+     "name": "草莓",
+     "buy_qty": 400.0,
      "buy_unit": "g",
-     "buy_text": "390g",
-     "packs": 2,
-     "price_gbp": 4.49,
-     "name_en": "British Sirloin Steak 21 Day Matured",
-     "name_short": "Sirloin Steak 21 Day Matured",
-     "brand": "ASHFIELDS",
-     "pack_size": "195 g",
-     "unit_price_gbp": 4.49,
-     "line_total_gbp": 8.98,
+     "buy_text": "400g",
+     "packs": 1,
+     "price_gbp": 3.19,
+     "name_en": "Strawberries",
+     "name_short": "Strawberries",
+     "brand": "NATURE'S PICK",
+     "pack_size": "400 g",
+     "unit_price_gbp": 3.19,
+     "line_total_gbp": 3.19,
      "used_on": [
       "周二",
+      "周四",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
+     "product": {
+      "name": "Strawberries",
+      "brand": "NATURE'S PICK",
+      "size": "400 g",
+      "price_gbp": 3.19,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "藜麦",
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "buy_text": "500g",
+     "packs": 2,
+     "price_gbp": 0.85,
+     "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+     "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
+     "brand": "WORLDWIDE FOODS",
+     "pack_size": "250 g",
+     "unit_price_gbp": 0.85,
+     "line_total_gbp": 1.7,
+     "used_on": [
+      "周一",
+      "周二",
+      "周四",
+      "周五",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
+     "product": {
+      "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+      "brand": "WORLDWIDE FOODS",
+      "size": "250 g",
+      "price_gbp": 0.85,
+      "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "羽衣甘蓝",
+     "buy_qty": 200.0,
+     "buy_unit": "g",
+     "buy_text": "200g",
+     "packs": 1,
+     "price_gbp": 0.89,
+     "name_en": "Scottish Shredded Kale",
+     "name_short": "Shredded Kale",
+     "brand": "NATURE'S PICK",
+     "pack_size": "200 g",
+     "unit_price_gbp": 0.89,
+     "line_total_gbp": 0.89,
+     "used_on": [
+      "周一",
+      "周四",
+      "周五",
       "周六",
       "周日"
      ],
-     "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068",
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
      "product": {
-      "name": "British Sirloin Steak 21 Day Matured",
-      "brand": "ASHFIELDS",
-      "size": "195 g",
-      "price_gbp": 4.49,
-      "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068"
+      "name": "Scottish Shredded Kale",
+      "brand": "NATURE'S PICK",
+      "size": "200 g",
+      "price_gbp": 0.89,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
      }
     },
     {
@@ -901,7 +855,7 @@
      "line_total_gbp": 2.99,
      "used_on": [
       "周一",
-      "周五"
+      "周日"
      ],
      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
      "product": {
@@ -914,18 +868,74 @@
     },
     {
      "category": "干货",
-     "name": "金枪鱼",
-     "buy_qty": 435.0,
+     "name": "玉米粒",
+     "buy_qty": 1000.0,
      "buy_unit": "g",
-     "buy_text": "435g",
-     "packs": 3,
+     "buy_text": "1000g",
+     "packs": 1,
+     "price_gbp": 1.49,
+     "name_en": "Sweetcorn (Frozen)",
+     "name_short": "Sweetcorn (Frozen)",
+     "brand": "FOUR SEASONS",
+     "pack_size": "1 kg",
+     "unit_price_gbp": 1.49,
+     "line_total_gbp": 1.49,
+     "used_on": [
+      "周三",
+      "周五",
+      "周六"
+     ],
+     "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
+     "product": {
+      "name": "Sweetcorn (Frozen)",
+      "brand": "FOUR SEASONS",
+      "size": "1 kg",
+      "price_gbp": 1.49,
+      "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "牛排",
+     "buy_qty": 195.0,
+     "buy_unit": "g",
+     "buy_text": "195g",
+     "packs": 1,
+     "price_gbp": 4.49,
+     "name_en": "British Sirloin Steak 21 Day Matured",
+     "name_short": "Sirloin Steak 21 Day Matured",
+     "brand": "ASHFIELDS",
+     "pack_size": "195 g",
+     "unit_price_gbp": 4.49,
+     "line_total_gbp": 4.49,
+     "used_on": [
+      "周三",
+      "周五",
+      "周六"
+     ],
+     "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068",
+     "product": {
+      "name": "British Sirloin Steak 21 Day Matured",
+      "brand": "ASHFIELDS",
+      "size": "195 g",
+      "price_gbp": 4.49,
+      "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "金枪鱼",
+     "buy_qty": 145.0,
+     "buy_unit": "g",
+     "buy_text": "145g",
+     "packs": 1,
      "price_gbp": 0.65,
      "name_en": "Tuna Chunks In Spring Water",
      "name_short": "Tuna Chunks In Spring Water",
      "brand": "THE FISHMONGER",
      "pack_size": "145 g",
      "unit_price_gbp": 0.65,
-     "line_total_gbp": 1.95,
+     "line_total_gbp": 0.65,
      "used_on": [
       "周二",
       "周日"
@@ -937,89 +947,6 @@
       "size": "145 g",
       "price_gbp": 0.65,
       "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "黄瓜",
-     "buy_qty": 1.0,
-     "buy_unit": "个",
-     "buy_text": "1个",
-     "packs": 1,
-     "price_gbp": 0.99,
-     "name_en": "Cucumber",
-     "name_short": "Cucumber",
-     "brand": "NATURE'S PICK",
-     "pack_size": "1 个",
-     "unit_price_gbp": 0.99,
-     "line_total_gbp": 0.99,
-     "used_on": [
-      "周二",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
-     "product": {
-      "name": "Cucumber",
-      "brand": "NATURE'S PICK",
-      "size": "1 个",
-      "price_gbp": 0.99,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
-     }
-    },
-    {
-     "category": "干货",
-     "name": "玉米粒",
-     "buy_qty": 570.0,
-     "buy_unit": "g",
-     "buy_text": "570g",
-     "packs": 2,
-     "price_gbp": 0.55,
-     "name_en": "Supersweet Sweetcorn in Water",
-     "name_short": "Sweetcorn in Water",
-     "brand": "FOUR SEASONS",
-     "pack_size": "285 g",
-     "unit_price_gbp": 0.55,
-     "line_total_gbp": 1.1,
-     "used_on": [
-      "周三",
-      "周五",
-      "周六",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/four-seasons-supersweet-sweetcorn-in-water",
-     "product": {
-      "name": "Supersweet Sweetcorn in Water",
-      "brand": "FOUR SEASONS",
-      "size": "285 g",
-      "price_gbp": 0.55,
-      "link": "https://www.aldi.co.uk/product/four-seasons-supersweet-sweetcorn-in-water"
-     }
-    },
-    {
-     "category": "肉类",
-     "name": "牛肉末",
-     "buy_qty": 500.0,
-     "buy_unit": "g",
-     "buy_text": "500g",
-     "packs": 1,
-     "price_gbp": 4.39,
-     "name_en": "British Beef Mince 10% Fat",
-     "name_short": "Beef Mince 10% Fat",
-     "brand": "ASHFIELDS",
-     "pack_size": "500 g",
-     "unit_price_gbp": 4.39,
-     "line_total_gbp": 4.39,
-     "used_on": [
-      "周一",
-      "周四"
-     ],
-     "link": "https://www.aldi.co.uk/product/ashfields-british-beef-mince-10-fat-000000000000575299",
-     "product": {
-      "name": "British Beef Mince 10% Fat",
-      "brand": "ASHFIELDS",
-      "size": "500 g",
-      "price_gbp": 4.39,
-      "link": "https://www.aldi.co.uk/product/ashfields-british-beef-mince-10-fat-000000000000575299"
      }
     },
     {
@@ -1038,8 +965,7 @@
      "line_total_gbp": 2.95,
      "used_on": [
       "周四",
-      "周五",
-      "周六"
+      "周五"
      ],
      "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103",
      "product": {
@@ -1048,119 +974,6 @@
       "size": "1 kg",
       "price_gbp": 2.95,
       "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103"
-     }
-    },
-    {
-     "category": "干货",
-     "name": "扁豆",
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "buy_text": "400g",
-     "packs": 1,
-     "price_gbp": 0.45,
-     "name_en": "Tinned Lentils",
-     "name_short": "Tinned Lentils",
-     "brand": "FOUR SEASONS",
-     "pack_size": "400 g",
-     "unit_price_gbp": 0.45,
-     "line_total_gbp": 0.45,
-     "used_on": [
-      "周三",
-      "周六",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
-     "product": {
-      "name": "Tinned Lentils",
-      "brand": "FOUR SEASONS",
-      "size": "400 g",
-      "price_gbp": 0.45,
-      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "虾",
-     "buy_qty": 150.0,
-     "buy_unit": "g",
-     "buy_text": "150g",
-     "packs": 1,
-     "price_gbp": 2.49,
-     "name_en": "Cooked & Peeled King Prawns",
-     "name_short": "Cooked & Peeled King Prawns",
-     "brand": "THE FISHMONGER",
-     "pack_size": "150 g",
-     "unit_price_gbp": 2.49,
-     "line_total_gbp": 2.49,
-     "used_on": [
-      "周三"
-     ],
-     "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648",
-     "product": {
-      "name": "Cooked & Peeled King Prawns",
-      "brand": "THE FISHMONGER",
-      "size": "150 g",
-      "price_gbp": 2.49,
-      "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "鸡蛋",
-     "buy_qty": 12.0,
-     "buy_unit": "个",
-     "buy_text": "12个",
-     "packs": 1,
-     "price_gbp": 2.89,
-     "name_en": "British Large Free Range Eggs 12 Pack",
-     "name_short": "Large Free Range Eggs",
-     "brand": "MEREVALE",
-     "pack_size": "12 个",
-     "unit_price_gbp": 2.89,
-     "line_total_gbp": 2.89,
-     "used_on": [
-      "周一",
-      "周二",
-      "周三",
-      "周四",
-      "周五",
-      "周六",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
-     "product": {
-      "name": "British Large Free Range Eggs 12 Pack",
-      "brand": "MEREVALE",
-      "size": "12 个",
-      "price_gbp": 2.89,
-      "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009"
-     }
-    },
-    {
-     "category": "水果",
-     "name": "草莓",
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "buy_text": "400g",
-     "packs": 1,
-     "price_gbp": 3.19,
-     "name_en": "Strawberries",
-     "name_short": "Strawberries",
-     "brand": "NATURE'S PICK",
-     "pack_size": "400 g",
-     "unit_price_gbp": 3.19,
-     "line_total_gbp": 3.19,
-     "used_on": [
-      "周四",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
-     "product": {
-      "name": "Strawberries",
-      "brand": "NATURE'S PICK",
-      "size": "400 g",
-      "price_gbp": 3.19,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
      }
     },
     {
@@ -1188,31 +1001,27 @@
      }
     },
     {
-     "category": "干货",
-     "name": "藜麦",
-     "buy_qty": 250.0,
+     "category": "调料",
+     "name": "孜然",
+     "buy_qty": 40.0,
      "buy_unit": "g",
-     "buy_text": "250g",
+     "buy_text": "40g",
      "packs": 1,
-     "price_gbp": 0.85,
-     "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
-     "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
-     "brand": "WORLDWIDE FOODS",
-     "pack_size": "250 g",
-     "unit_price_gbp": 0.85,
-     "line_total_gbp": 0.85,
-     "used_on": [
-      "周三",
-      "周五",
-      "周六"
-     ],
-     "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
+     "price_gbp": 0.79,
+     "name_en": "Ground Cumin",
+     "name_short": "Ground Cumin",
+     "brand": "Stonemill",
+     "pack_size": "40 g",
+     "unit_price_gbp": 0.79,
+     "line_total_gbp": 0.79,
+     "used_on": [],
+     "link": "https://www.aldi.co.uk/search?text=Cumin",
      "product": {
-      "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
-      "brand": "WORLDWIDE FOODS",
-      "size": "250 g",
-      "price_gbp": 0.85,
-      "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
+      "name": "Ground Cumin",
+      "brand": "Stonemill",
+      "size": "40 g",
+      "price_gbp": 0.79,
+      "link": "https://www.aldi.co.uk/search?text=Cumin"
      }
     },
     {
@@ -1238,33 +1047,9 @@
       "price_gbp": 0.99,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
      }
-    },
-    {
-     "category": "调料",
-     "name": "孜然",
-     "buy_qty": 40.0,
-     "buy_unit": "g",
-     "buy_text": "40g",
-     "packs": 1,
-     "price_gbp": 0.79,
-     "name_en": "Ground Cumin",
-     "name_short": "Ground Cumin",
-     "brand": "Stonemill",
-     "pack_size": "40 g",
-     "unit_price_gbp": 0.79,
-     "line_total_gbp": 0.79,
-     "used_on": [],
-     "link": "https://www.aldi.co.uk/search?text=Cumin",
-     "product": {
-      "name": "Ground Cumin",
-      "brand": "Stonemill",
-      "size": "40 g",
-      "price_gbp": 0.79,
-      "link": "https://www.aldi.co.uk/search?text=Cumin"
-     }
     }
    ],
-   "subtotal_gbp": 56.64
+   "subtotal_gbp": 39.17
   },
   {
    "n": 2,
@@ -1304,49 +1089,20 @@
     },
     {
      "category": "蔬菜",
-     "name": "羽衣甘蓝",
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "buy_text": "400g",
-     "packs": 2,
-     "price_gbp": 0.89,
-     "name_en": "Scottish Shredded Kale",
-     "name_short": "Shredded Kale",
-     "brand": "NATURE'S PICK",
-     "pack_size": "200 g",
-     "unit_price_gbp": 0.89,
-     "line_total_gbp": 1.78,
-     "used_on": [
-      "周一",
-      "周三",
-      "周四",
-      "周五",
-      "周六"
-     ],
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
-     "product": {
-      "name": "Scottish Shredded Kale",
-      "brand": "NATURE'S PICK",
-      "size": "200 g",
-      "price_gbp": 0.89,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
-     }
-    },
-    {
-     "category": "蔬菜",
      "name": "蘑菇",
-     "buy_qty": 250.0,
+     "buy_qty": 500.0,
      "buy_unit": "g",
-     "buy_text": "250g",
-     "packs": 1,
+     "buy_text": "500g",
+     "packs": 2,
      "price_gbp": 0.95,
      "name_en": "British Chestnut Mushrooms",
      "name_short": "Chestnut Mushrooms",
      "brand": "NATURE'S PICK",
      "pack_size": "250 g",
      "unit_price_gbp": 0.95,
-     "line_total_gbp": 0.95,
+     "line_total_gbp": 1.9,
      "used_on": [
+      "周二",
       "周四",
       "周五",
       "周六",
@@ -1362,30 +1118,61 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "黄瓜",
-     "buy_qty": 1.0,
-     "buy_unit": "个",
-     "buy_text": "1个",
+     "category": "水果",
+     "name": "草莓",
+     "buy_qty": 400.0,
+     "buy_unit": "g",
+     "buy_text": "400g",
      "packs": 1,
-     "price_gbp": 0.99,
-     "name_en": "Cucumber",
-     "name_short": "Cucumber",
+     "price_gbp": 3.19,
+     "name_en": "Strawberries",
+     "name_short": "Strawberries",
      "brand": "NATURE'S PICK",
-     "pack_size": "1 个",
-     "unit_price_gbp": 0.99,
-     "line_total_gbp": 0.99,
+     "pack_size": "400 g",
+     "unit_price_gbp": 3.19,
+     "line_total_gbp": 3.19,
      "used_on": [
       "周二",
+      "周四",
       "周日"
      ],
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
      "product": {
-      "name": "Cucumber",
+      "name": "Strawberries",
       "brand": "NATURE'S PICK",
-      "size": "1 个",
-      "price_gbp": 0.99,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
+      "size": "400 g",
+      "price_gbp": 3.19,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "羽衣甘蓝",
+     "buy_qty": 400.0,
+     "buy_unit": "g",
+     "buy_text": "400g",
+     "packs": 2,
+     "price_gbp": 0.89,
+     "name_en": "Scottish Shredded Kale",
+     "name_short": "Shredded Kale",
+     "brand": "NATURE'S PICK",
+     "pack_size": "200 g",
+     "unit_price_gbp": 0.89,
+     "line_total_gbp": 1.78,
+     "used_on": [
+      "周一",
+      "周四",
+      "周五",
+      "周六",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
+     "product": {
+      "name": "Scottish Shredded Kale",
+      "brand": "NATURE'S PICK",
+      "size": "200 g",
+      "price_gbp": 0.89,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
      }
     },
     {
@@ -1404,7 +1191,8 @@
      "line_total_gbp": 1.39,
      "used_on": [
       "周四",
-      "周六"
+      "周六",
+      "周日"
      ],
      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
      "product": {
@@ -1416,10 +1204,10 @@
      }
     }
    ],
-   "subtotal_gbp": 8.29
+   "subtotal_gbp": 11.44
   }
  ],
- "total_gbp": 64.93,
+ "total_gbp": 50.61,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -1428,17 +1216,17 @@
     {
      "category": "蔬菜",
      "name": "菠菜",
-     "buy_qty": 2700.0,
+     "buy_qty": 2250.0,
      "buy_unit": "g",
-     "buy_text": "2700g",
-     "packs": 6,
+     "buy_text": "2250g",
+     "packs": 5,
      "price_gbp": 1.59,
      "name_en": "British Baby Spinach",
      "name_short": "Baby Spinach",
      "brand": "NATURE'S PICK",
      "pack_size": "450 g",
      "unit_price_gbp": 1.59,
-     "line_total_gbp": 9.54,
+     "line_total_gbp": 7.95,
      "used_on": [
       "周一",
       "周二",
@@ -1460,17 +1248,17 @@
     {
      "category": "干货",
      "name": "鹰嘴豆",
-     "buy_qty": 1200.0,
+     "buy_qty": 2000.0,
      "buy_unit": "g",
-     "buy_text": "1200g",
-     "packs": 3,
+     "buy_text": "2000g",
+     "packs": 5,
      "price_gbp": 0.41,
      "name_en": "Chickpeas",
      "name_short": "Chickpeas",
      "brand": "FOUR SEASONS",
      "pack_size": "400 g",
      "unit_price_gbp": 0.41,
-     "line_total_gbp": 1.23,
+     "line_total_gbp": 2.05,
      "used_on": [
       "周一",
       "周二",
@@ -1489,62 +1277,31 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "羽衣甘蓝",
+     "category": "干货",
+     "name": "扁豆",
      "buy_qty": 800.0,
      "buy_unit": "g",
      "buy_text": "800g",
-     "packs": 4,
-     "price_gbp": 0.89,
-     "name_en": "Scottish Shredded Kale",
-     "name_short": "Shredded Kale",
-     "brand": "NATURE'S PICK",
-     "pack_size": "200 g",
-     "unit_price_gbp": 0.89,
-     "line_total_gbp": 3.56,
+     "packs": 2,
+     "price_gbp": 0.45,
+     "name_en": "Tinned Lentils",
+     "name_short": "Tinned Lentils",
+     "brand": "FOUR SEASONS",
+     "pack_size": "400 g",
+     "unit_price_gbp": 0.45,
+     "line_total_gbp": 0.9,
      "used_on": [
-      "周一",
       "周三",
-      "周四",
       "周五",
       "周六"
      ],
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
+     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
      "product": {
-      "name": "Scottish Shredded Kale",
-      "brand": "NATURE'S PICK",
-      "size": "200 g",
-      "price_gbp": 0.89,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "鳕鱼",
-     "buy_qty": 720.0,
-     "buy_unit": "g",
-     "buy_text": "720g",
-     "packs": 2,
-     "price_gbp": 3.95,
-     "name_en": "Cod Fillets",
-     "name_short": "Cod Fillets",
-     "brand": "THE FISHMONGER",
-     "pack_size": "360 g",
-     "unit_price_gbp": 3.95,
-     "line_total_gbp": 7.9,
-     "used_on": [
-      "周四",
-      "周五",
-      "周六",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
-     "product": {
-      "name": "Cod Fillets",
-      "brand": "THE FISHMONGER",
-      "size": "360 g",
-      "price_gbp": 3.95,
-      "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
+      "name": "Tinned Lentils",
+      "brand": "FOUR SEASONS",
+      "size": "400 g",
+      "price_gbp": 0.45,
+      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
      }
     },
     {
@@ -1562,6 +1319,7 @@
      "unit_price_gbp": 0.95,
      "line_total_gbp": 2.85,
      "used_on": [
+      "周二",
       "周四",
       "周五",
       "周六",
@@ -1574,6 +1332,36 @@
       "size": "250 g",
       "price_gbp": 0.95,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
+     }
+    },
+    {
+     "category": "水产",
+     "name": "鳕鱼",
+     "buy_qty": 720.0,
+     "buy_unit": "g",
+     "buy_text": "720g",
+     "packs": 2,
+     "price_gbp": 3.95,
+     "name_en": "Cod Fillets",
+     "name_short": "Cod Fillets",
+     "brand": "THE FISHMONGER",
+     "pack_size": "360 g",
+     "unit_price_gbp": 3.95,
+     "line_total_gbp": 7.9,
+     "used_on": [
+      "周二",
+      "周四",
+      "周五",
+      "周六",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
+     "product": {
+      "name": "Cod Fillets",
+      "brand": "THE FISHMONGER",
+      "size": "360 g",
+      "price_gbp": 3.95,
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
      }
     },
     {
@@ -1591,8 +1379,9 @@
      "unit_price_gbp": 0.79,
      "line_total_gbp": 1.58,
      "used_on": [
-      "周五",
-      "周日"
+      "周二",
+      "周四",
+      "周五"
      ],
      "link": "https://www.aldi.co.uk/search?text=Aubergine",
      "product": {
@@ -1604,31 +1393,91 @@
      }
     },
     {
-     "category": "肉类",
-     "name": "牛排",
-     "buy_qty": 390.0,
+     "category": "水果",
+     "name": "草莓",
+     "buy_qty": 800.0,
      "buy_unit": "g",
-     "buy_text": "390g",
+     "buy_text": "800g",
      "packs": 2,
-     "price_gbp": 4.49,
-     "name_en": "British Sirloin Steak 21 Day Matured",
-     "name_short": "Sirloin Steak 21 Day Matured",
-     "brand": "ASHFIELDS",
-     "pack_size": "195 g",
-     "unit_price_gbp": 4.49,
-     "line_total_gbp": 8.98,
+     "price_gbp": 3.19,
+     "name_en": "Strawberries",
+     "name_short": "Strawberries",
+     "brand": "NATURE'S PICK",
+     "pack_size": "400 g",
+     "unit_price_gbp": 3.19,
+     "line_total_gbp": 6.38,
      "used_on": [
       "周二",
+      "周四",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
+     "product": {
+      "name": "Strawberries",
+      "brand": "NATURE'S PICK",
+      "size": "400 g",
+      "price_gbp": 3.19,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "藜麦",
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "buy_text": "500g",
+     "packs": 2,
+     "price_gbp": 0.85,
+     "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+     "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
+     "brand": "WORLDWIDE FOODS",
+     "pack_size": "250 g",
+     "unit_price_gbp": 0.85,
+     "line_total_gbp": 1.7,
+     "used_on": [
+      "周一",
+      "周二",
+      "周四",
+      "周五",
+      "周日"
+     ],
+     "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
+     "product": {
+      "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+      "brand": "WORLDWIDE FOODS",
+      "size": "250 g",
+      "price_gbp": 0.85,
+      "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "羽衣甘蓝",
+     "buy_qty": 600.0,
+     "buy_unit": "g",
+     "buy_text": "600g",
+     "packs": 3,
+     "price_gbp": 0.89,
+     "name_en": "Scottish Shredded Kale",
+     "name_short": "Shredded Kale",
+     "brand": "NATURE'S PICK",
+     "pack_size": "200 g",
+     "unit_price_gbp": 0.89,
+     "line_total_gbp": 2.67,
+     "used_on": [
+      "周一",
+      "周四",
+      "周五",
       "周六",
       "周日"
      ],
-     "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068",
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
      "product": {
-      "name": "British Sirloin Steak 21 Day Matured",
-      "brand": "ASHFIELDS",
-      "size": "195 g",
-      "price_gbp": 4.49,
-      "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068"
+      "name": "Scottish Shredded Kale",
+      "brand": "NATURE'S PICK",
+      "size": "200 g",
+      "price_gbp": 0.89,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
      }
     },
     {
@@ -1647,7 +1496,7 @@
      "line_total_gbp": 2.99,
      "used_on": [
       "周一",
-      "周五"
+      "周日"
      ],
      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
      "product": {
@@ -1660,85 +1509,58 @@
     },
     {
      "category": "干货",
-     "name": "金枪鱼",
-     "buy_qty": 435.0,
-     "buy_unit": "g",
-     "buy_text": "435g",
-     "packs": 3,
-     "price_gbp": 0.65,
-     "name_en": "Tuna Chunks In Spring Water",
-     "name_short": "Tuna Chunks In Spring Water",
-     "brand": "THE FISHMONGER",
-     "pack_size": "145 g",
-     "unit_price_gbp": 0.65,
-     "line_total_gbp": 1.95,
-     "used_on": [
-      "周二",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
-     "product": {
-      "name": "Tuna Chunks In Spring Water",
-      "brand": "THE FISHMONGER",
-      "size": "145 g",
-      "price_gbp": 0.65,
-      "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "黄瓜",
-     "buy_qty": 2.0,
-     "buy_unit": "个",
-     "buy_text": "2个",
-     "packs": 2,
-     "price_gbp": 0.99,
-     "name_en": "Cucumber",
-     "name_short": "Cucumber",
-     "brand": "NATURE'S PICK",
-     "pack_size": "1 个",
-     "unit_price_gbp": 0.99,
-     "line_total_gbp": 1.98,
-     "used_on": [
-      "周二",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
-     "product": {
-      "name": "Cucumber",
-      "brand": "NATURE'S PICK",
-      "size": "1 个",
-      "price_gbp": 0.99,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
-     }
-    },
-    {
-     "category": "干货",
      "name": "玉米粒",
-     "buy_qty": 570.0,
+     "buy_qty": 1000.0,
      "buy_unit": "g",
-     "buy_text": "570g",
-     "packs": 2,
-     "price_gbp": 0.55,
-     "name_en": "Supersweet Sweetcorn in Water",
-     "name_short": "Sweetcorn in Water",
+     "buy_text": "1000g",
+     "packs": 1,
+     "price_gbp": 1.49,
+     "name_en": "Sweetcorn (Frozen)",
+     "name_short": "Sweetcorn (Frozen)",
      "brand": "FOUR SEASONS",
-     "pack_size": "285 g",
-     "unit_price_gbp": 0.55,
-     "line_total_gbp": 1.1,
+     "pack_size": "1 kg",
+     "unit_price_gbp": 1.49,
+     "line_total_gbp": 1.49,
      "used_on": [
       "周三",
       "周五",
-      "周六",
-      "周日"
+      "周六"
      ],
-     "link": "https://www.aldi.co.uk/product/four-seasons-supersweet-sweetcorn-in-water",
+     "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
      "product": {
-      "name": "Supersweet Sweetcorn in Water",
+      "name": "Sweetcorn (Frozen)",
       "brand": "FOUR SEASONS",
-      "size": "285 g",
-      "price_gbp": 0.55,
-      "link": "https://www.aldi.co.uk/product/four-seasons-supersweet-sweetcorn-in-water"
+      "size": "1 kg",
+      "price_gbp": 1.49,
+      "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "牛排",
+     "buy_qty": 195.0,
+     "buy_unit": "g",
+     "buy_text": "195g",
+     "packs": 1,
+     "price_gbp": 4.49,
+     "name_en": "British Sirloin Steak 21 Day Matured",
+     "name_short": "Sirloin Steak 21 Day Matured",
+     "brand": "ASHFIELDS",
+     "pack_size": "195 g",
+     "unit_price_gbp": 4.49,
+     "line_total_gbp": 4.49,
+     "used_on": [
+      "周三",
+      "周五",
+      "周六"
+     ],
+     "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068",
+     "product": {
+      "name": "British Sirloin Steak 21 Day Matured",
+      "brand": "ASHFIELDS",
+      "size": "195 g",
+      "price_gbp": 4.49,
+      "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068"
      }
     },
     {
@@ -1757,7 +1579,8 @@
      "line_total_gbp": 1.39,
      "used_on": [
       "周四",
-      "周六"
+      "周六",
+      "周日"
      ],
      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
      "product": {
@@ -1769,30 +1592,30 @@
      }
     },
     {
-     "category": "肉类",
-     "name": "牛肉末",
-     "buy_qty": 500.0,
+     "category": "干货",
+     "name": "金枪鱼",
+     "buy_qty": 145.0,
      "buy_unit": "g",
-     "buy_text": "500g",
+     "buy_text": "145g",
      "packs": 1,
-     "price_gbp": 4.39,
-     "name_en": "British Beef Mince 10% Fat",
-     "name_short": "Beef Mince 10% Fat",
-     "brand": "ASHFIELDS",
-     "pack_size": "500 g",
-     "unit_price_gbp": 4.39,
-     "line_total_gbp": 4.39,
+     "price_gbp": 0.65,
+     "name_en": "Tuna Chunks In Spring Water",
+     "name_short": "Tuna Chunks In Spring Water",
+     "brand": "THE FISHMONGER",
+     "pack_size": "145 g",
+     "unit_price_gbp": 0.65,
+     "line_total_gbp": 0.65,
      "used_on": [
-      "周一",
-      "周四"
+      "周二",
+      "周日"
      ],
-     "link": "https://www.aldi.co.uk/product/ashfields-british-beef-mince-10-fat-000000000000575299",
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
      "product": {
-      "name": "British Beef Mince 10% Fat",
-      "brand": "ASHFIELDS",
-      "size": "500 g",
-      "price_gbp": 4.39,
-      "link": "https://www.aldi.co.uk/product/ashfields-british-beef-mince-10-fat-000000000000575299"
+      "name": "Tuna Chunks In Spring Water",
+      "brand": "THE FISHMONGER",
+      "size": "145 g",
+      "price_gbp": 0.65,
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
      }
     },
     {
@@ -1811,8 +1634,7 @@
      "line_total_gbp": 2.95,
      "used_on": [
       "周四",
-      "周五",
-      "周六"
+      "周五"
      ],
      "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103",
      "product": {
@@ -1821,119 +1643,6 @@
       "size": "1 kg",
       "price_gbp": 2.95,
       "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103"
-     }
-    },
-    {
-     "category": "干货",
-     "name": "扁豆",
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "buy_text": "400g",
-     "packs": 1,
-     "price_gbp": 0.45,
-     "name_en": "Tinned Lentils",
-     "name_short": "Tinned Lentils",
-     "brand": "FOUR SEASONS",
-     "pack_size": "400 g",
-     "unit_price_gbp": 0.45,
-     "line_total_gbp": 0.45,
-     "used_on": [
-      "周三",
-      "周六",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
-     "product": {
-      "name": "Tinned Lentils",
-      "brand": "FOUR SEASONS",
-      "size": "400 g",
-      "price_gbp": 0.45,
-      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "虾",
-     "buy_qty": 150.0,
-     "buy_unit": "g",
-     "buy_text": "150g",
-     "packs": 1,
-     "price_gbp": 2.49,
-     "name_en": "Cooked & Peeled King Prawns",
-     "name_short": "Cooked & Peeled King Prawns",
-     "brand": "THE FISHMONGER",
-     "pack_size": "150 g",
-     "unit_price_gbp": 2.49,
-     "line_total_gbp": 2.49,
-     "used_on": [
-      "周三"
-     ],
-     "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648",
-     "product": {
-      "name": "Cooked & Peeled King Prawns",
-      "brand": "THE FISHMONGER",
-      "size": "150 g",
-      "price_gbp": 2.49,
-      "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "鸡蛋",
-     "buy_qty": 12.0,
-     "buy_unit": "个",
-     "buy_text": "12个",
-     "packs": 1,
-     "price_gbp": 2.89,
-     "name_en": "British Large Free Range Eggs 12 Pack",
-     "name_short": "Large Free Range Eggs",
-     "brand": "MEREVALE",
-     "pack_size": "12 个",
-     "unit_price_gbp": 2.89,
-     "line_total_gbp": 2.89,
-     "used_on": [
-      "周一",
-      "周二",
-      "周三",
-      "周四",
-      "周五",
-      "周六",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
-     "product": {
-      "name": "British Large Free Range Eggs 12 Pack",
-      "brand": "MEREVALE",
-      "size": "12 个",
-      "price_gbp": 2.89,
-      "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009"
-     }
-    },
-    {
-     "category": "水果",
-     "name": "草莓",
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "buy_text": "400g",
-     "packs": 1,
-     "price_gbp": 3.19,
-     "name_en": "Strawberries",
-     "name_short": "Strawberries",
-     "brand": "NATURE'S PICK",
-     "pack_size": "400 g",
-     "unit_price_gbp": 3.19,
-     "line_total_gbp": 3.19,
-     "used_on": [
-      "周四",
-      "周日"
-     ],
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
-     "product": {
-      "name": "Strawberries",
-      "brand": "NATURE'S PICK",
-      "size": "400 g",
-      "price_gbp": 3.19,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
      }
     },
     {
@@ -1961,31 +1670,27 @@
      }
     },
     {
-     "category": "干货",
-     "name": "藜麦",
-     "buy_qty": 250.0,
+     "category": "调料",
+     "name": "孜然",
+     "buy_qty": 40.0,
      "buy_unit": "g",
-     "buy_text": "250g",
+     "buy_text": "40g",
      "packs": 1,
-     "price_gbp": 0.85,
-     "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
-     "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
-     "brand": "WORLDWIDE FOODS",
-     "pack_size": "250 g",
-     "unit_price_gbp": 0.85,
-     "line_total_gbp": 0.85,
-     "used_on": [
-      "周三",
-      "周五",
-      "周六"
-     ],
-     "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
+     "price_gbp": 0.79,
+     "name_en": "Ground Cumin",
+     "name_short": "Ground Cumin",
+     "brand": "Stonemill",
+     "pack_size": "40 g",
+     "unit_price_gbp": 0.79,
+     "line_total_gbp": 0.79,
+     "used_on": [],
+     "link": "https://www.aldi.co.uk/search?text=Cumin",
      "product": {
-      "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
-      "brand": "WORLDWIDE FOODS",
-      "size": "250 g",
-      "price_gbp": 0.85,
-      "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
+      "name": "Ground Cumin",
+      "brand": "Stonemill",
+      "size": "40 g",
+      "price_gbp": 0.79,
+      "link": "https://www.aldi.co.uk/search?text=Cumin"
      }
     },
     {
@@ -2011,30 +1716,6 @@
       "price_gbp": 0.99,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
      }
-    },
-    {
-     "category": "调料",
-     "name": "孜然",
-     "buy_qty": 40.0,
-     "buy_unit": "g",
-     "buy_text": "40g",
-     "packs": 1,
-     "price_gbp": 0.79,
-     "name_en": "Ground Cumin",
-     "name_short": "Ground Cumin",
-     "brand": "Stonemill",
-     "pack_size": "40 g",
-     "unit_price_gbp": 0.79,
-     "line_total_gbp": 0.79,
-     "used_on": [],
-     "link": "https://www.aldi.co.uk/search?text=Cumin",
-     "product": {
-      "name": "Ground Cumin",
-      "brand": "Stonemill",
-      "size": "40 g",
-      "price_gbp": 0.79,
-      "link": "https://www.aldi.co.uk/search?text=Cumin"
-     }
     }
    ],
    "batches": [
@@ -2045,17 +1726,17 @@
       {
        "category": "蔬菜",
        "name": "菠菜",
-       "buy_qty": 1800.0,
+       "buy_qty": 1350.0,
        "buy_unit": "g",
-       "buy_text": "1800g",
-       "packs": 4,
+       "buy_text": "1350g",
+       "packs": 3,
        "price_gbp": 1.59,
        "name_en": "British Baby Spinach",
        "name_short": "Baby Spinach",
        "brand": "NATURE'S PICK",
        "pack_size": "450 g",
        "unit_price_gbp": 1.59,
-       "line_total_gbp": 6.36,
+       "line_total_gbp": 4.77,
        "used_on": [
         "周一",
         "周二",
@@ -2077,17 +1758,17 @@
       {
        "category": "干货",
        "name": "鹰嘴豆",
-       "buy_qty": 1200.0,
+       "buy_qty": 2000.0,
        "buy_unit": "g",
-       "buy_text": "1200g",
-       "packs": 3,
+       "buy_text": "2000g",
+       "packs": 5,
        "price_gbp": 0.41,
        "name_en": "Chickpeas",
        "name_short": "Chickpeas",
        "brand": "FOUR SEASONS",
        "pack_size": "400 g",
        "unit_price_gbp": 0.41,
-       "line_total_gbp": 1.23,
+       "line_total_gbp": 2.05,
        "used_on": [
         "周一",
         "周二",
@@ -2106,33 +1787,61 @@
        }
       },
       {
-       "category": "蔬菜",
-       "name": "羽衣甘蓝",
-       "buy_qty": 400.0,
+       "category": "干货",
+       "name": "扁豆",
+       "buy_qty": 800.0,
        "buy_unit": "g",
-       "buy_text": "400g",
+       "buy_text": "800g",
        "packs": 2,
-       "price_gbp": 0.89,
-       "name_en": "Scottish Shredded Kale",
-       "name_short": "Shredded Kale",
-       "brand": "NATURE'S PICK",
-       "pack_size": "200 g",
-       "unit_price_gbp": 0.89,
-       "line_total_gbp": 1.78,
+       "price_gbp": 0.45,
+       "name_en": "Tinned Lentils",
+       "name_short": "Tinned Lentils",
+       "brand": "FOUR SEASONS",
+       "pack_size": "400 g",
+       "unit_price_gbp": 0.45,
+       "line_total_gbp": 0.9,
        "used_on": [
-        "周一",
         "周三",
-        "周四",
         "周五",
         "周六"
        ],
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
+       "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
        "product": {
-        "name": "Scottish Shredded Kale",
+        "name": "Tinned Lentils",
+        "brand": "FOUR SEASONS",
+        "size": "400 g",
+        "price_gbp": 0.45,
+        "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
+       }
+      },
+      {
+       "category": "蔬菜",
+       "name": "蘑菇",
+       "buy_qty": 250.0,
+       "buy_unit": "g",
+       "buy_text": "250g",
+       "packs": 1,
+       "price_gbp": 0.95,
+       "name_en": "British Chestnut Mushrooms",
+       "name_short": "Chestnut Mushrooms",
+       "brand": "NATURE'S PICK",
+       "pack_size": "250 g",
+       "unit_price_gbp": 0.95,
+       "line_total_gbp": 0.95,
+       "used_on": [
+        "周二",
+        "周四",
+        "周五",
+        "周六",
+        "周日"
+       ],
+       "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
+       "product": {
+        "name": "British Chestnut Mushrooms",
         "brand": "NATURE'S PICK",
-        "size": "200 g",
-        "price_gbp": 0.89,
-        "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
+        "size": "250 g",
+        "price_gbp": 0.95,
+        "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
        }
       },
       {
@@ -2150,6 +1859,7 @@
        "unit_price_gbp": 3.95,
        "line_total_gbp": 7.9,
        "used_on": [
+        "周二",
         "周四",
         "周五",
         "周六",
@@ -2162,35 +1872,6 @@
         "size": "360 g",
         "price_gbp": 3.95,
         "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
-       }
-      },
-      {
-       "category": "蔬菜",
-       "name": "蘑菇",
-       "buy_qty": 500.0,
-       "buy_unit": "g",
-       "buy_text": "500g",
-       "packs": 2,
-       "price_gbp": 0.95,
-       "name_en": "British Chestnut Mushrooms",
-       "name_short": "Chestnut Mushrooms",
-       "brand": "NATURE'S PICK",
-       "pack_size": "250 g",
-       "unit_price_gbp": 0.95,
-       "line_total_gbp": 1.9,
-       "used_on": [
-        "周四",
-        "周五",
-        "周六",
-        "周日"
-       ],
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
-       "product": {
-        "name": "British Chestnut Mushrooms",
-        "brand": "NATURE'S PICK",
-        "size": "250 g",
-        "price_gbp": 0.95,
-        "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800"
        }
       },
       {
@@ -2208,8 +1889,9 @@
        "unit_price_gbp": 0.79,
        "line_total_gbp": 1.58,
        "used_on": [
-        "周五",
-        "周日"
+        "周二",
+        "周四",
+        "周五"
        ],
        "link": "https://www.aldi.co.uk/search?text=Aubergine",
        "product": {
@@ -2221,31 +1903,91 @@
        }
       },
       {
-       "category": "肉类",
-       "name": "牛排",
-       "buy_qty": 390.0,
+       "category": "水果",
+       "name": "草莓",
+       "buy_qty": 400.0,
        "buy_unit": "g",
-       "buy_text": "390g",
-       "packs": 2,
-       "price_gbp": 4.49,
-       "name_en": "British Sirloin Steak 21 Day Matured",
-       "name_short": "Sirloin Steak 21 Day Matured",
-       "brand": "ASHFIELDS",
-       "pack_size": "195 g",
-       "unit_price_gbp": 4.49,
-       "line_total_gbp": 8.98,
+       "buy_text": "400g",
+       "packs": 1,
+       "price_gbp": 3.19,
+       "name_en": "Strawberries",
+       "name_short": "Strawberries",
+       "brand": "NATURE'S PICK",
+       "pack_size": "400 g",
+       "unit_price_gbp": 3.19,
+       "line_total_gbp": 3.19,
        "used_on": [
         "周二",
+        "周四",
+        "周日"
+       ],
+       "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
+       "product": {
+        "name": "Strawberries",
+        "brand": "NATURE'S PICK",
+        "size": "400 g",
+        "price_gbp": 3.19,
+        "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
+       }
+      },
+      {
+       "category": "干货",
+       "name": "藜麦",
+       "buy_qty": 500.0,
+       "buy_unit": "g",
+       "buy_text": "500g",
+       "packs": 2,
+       "price_gbp": 0.85,
+       "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+       "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
+       "brand": "WORLDWIDE FOODS",
+       "pack_size": "250 g",
+       "unit_price_gbp": 0.85,
+       "line_total_gbp": 1.7,
+       "used_on": [
+        "周一",
+        "周二",
+        "周四",
+        "周五",
+        "周日"
+       ],
+       "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
+       "product": {
+        "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+        "brand": "WORLDWIDE FOODS",
+        "size": "250 g",
+        "price_gbp": 0.85,
+        "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
+       }
+      },
+      {
+       "category": "蔬菜",
+       "name": "羽衣甘蓝",
+       "buy_qty": 200.0,
+       "buy_unit": "g",
+       "buy_text": "200g",
+       "packs": 1,
+       "price_gbp": 0.89,
+       "name_en": "Scottish Shredded Kale",
+       "name_short": "Shredded Kale",
+       "brand": "NATURE'S PICK",
+       "pack_size": "200 g",
+       "unit_price_gbp": 0.89,
+       "line_total_gbp": 0.89,
+       "used_on": [
+        "周一",
+        "周四",
+        "周五",
         "周六",
         "周日"
        ],
-       "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068",
+       "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
        "product": {
-        "name": "British Sirloin Steak 21 Day Matured",
-        "brand": "ASHFIELDS",
-        "size": "195 g",
-        "price_gbp": 4.49,
-        "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068"
+        "name": "Scottish Shredded Kale",
+        "brand": "NATURE'S PICK",
+        "size": "200 g",
+        "price_gbp": 0.89,
+        "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
        }
       },
       {
@@ -2264,7 +2006,7 @@
        "line_total_gbp": 2.99,
        "used_on": [
         "周一",
-        "周五"
+        "周日"
        ],
        "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
        "product": {
@@ -2277,18 +2019,74 @@
       },
       {
        "category": "干货",
-       "name": "金枪鱼",
-       "buy_qty": 435.0,
+       "name": "玉米粒",
+       "buy_qty": 1000.0,
        "buy_unit": "g",
-       "buy_text": "435g",
-       "packs": 3,
+       "buy_text": "1000g",
+       "packs": 1,
+       "price_gbp": 1.49,
+       "name_en": "Sweetcorn (Frozen)",
+       "name_short": "Sweetcorn (Frozen)",
+       "brand": "FOUR SEASONS",
+       "pack_size": "1 kg",
+       "unit_price_gbp": 1.49,
+       "line_total_gbp": 1.49,
+       "used_on": [
+        "周三",
+        "周五",
+        "周六"
+       ],
+       "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
+       "product": {
+        "name": "Sweetcorn (Frozen)",
+        "brand": "FOUR SEASONS",
+        "size": "1 kg",
+        "price_gbp": 1.49,
+        "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686"
+       }
+      },
+      {
+       "category": "肉类",
+       "name": "牛排",
+       "buy_qty": 195.0,
+       "buy_unit": "g",
+       "buy_text": "195g",
+       "packs": 1,
+       "price_gbp": 4.49,
+       "name_en": "British Sirloin Steak 21 Day Matured",
+       "name_short": "Sirloin Steak 21 Day Matured",
+       "brand": "ASHFIELDS",
+       "pack_size": "195 g",
+       "unit_price_gbp": 4.49,
+       "line_total_gbp": 4.49,
+       "used_on": [
+        "周三",
+        "周五",
+        "周六"
+       ],
+       "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068",
+       "product": {
+        "name": "British Sirloin Steak 21 Day Matured",
+        "brand": "ASHFIELDS",
+        "size": "195 g",
+        "price_gbp": 4.49,
+        "link": "https://www.aldi.co.uk/product/ashfields-british-sirloin-steak-21-day-matured-000000000000382068"
+       }
+      },
+      {
+       "category": "干货",
+       "name": "金枪鱼",
+       "buy_qty": 145.0,
+       "buy_unit": "g",
+       "buy_text": "145g",
+       "packs": 1,
        "price_gbp": 0.65,
        "name_en": "Tuna Chunks In Spring Water",
        "name_short": "Tuna Chunks In Spring Water",
        "brand": "THE FISHMONGER",
        "pack_size": "145 g",
        "unit_price_gbp": 0.65,
-       "line_total_gbp": 1.95,
+       "line_total_gbp": 0.65,
        "used_on": [
         "周二",
         "周日"
@@ -2300,89 +2098,6 @@
         "size": "145 g",
         "price_gbp": 0.65,
         "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
-       }
-      },
-      {
-       "category": "蔬菜",
-       "name": "黄瓜",
-       "buy_qty": 1.0,
-       "buy_unit": "个",
-       "buy_text": "1个",
-       "packs": 1,
-       "price_gbp": 0.99,
-       "name_en": "Cucumber",
-       "name_short": "Cucumber",
-       "brand": "NATURE'S PICK",
-       "pack_size": "1 个",
-       "unit_price_gbp": 0.99,
-       "line_total_gbp": 0.99,
-       "used_on": [
-        "周二",
-        "周日"
-       ],
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
-       "product": {
-        "name": "Cucumber",
-        "brand": "NATURE'S PICK",
-        "size": "1 个",
-        "price_gbp": 0.99,
-        "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
-       }
-      },
-      {
-       "category": "干货",
-       "name": "玉米粒",
-       "buy_qty": 570.0,
-       "buy_unit": "g",
-       "buy_text": "570g",
-       "packs": 2,
-       "price_gbp": 0.55,
-       "name_en": "Supersweet Sweetcorn in Water",
-       "name_short": "Sweetcorn in Water",
-       "brand": "FOUR SEASONS",
-       "pack_size": "285 g",
-       "unit_price_gbp": 0.55,
-       "line_total_gbp": 1.1,
-       "used_on": [
-        "周三",
-        "周五",
-        "周六",
-        "周日"
-       ],
-       "link": "https://www.aldi.co.uk/product/four-seasons-supersweet-sweetcorn-in-water",
-       "product": {
-        "name": "Supersweet Sweetcorn in Water",
-        "brand": "FOUR SEASONS",
-        "size": "285 g",
-        "price_gbp": 0.55,
-        "link": "https://www.aldi.co.uk/product/four-seasons-supersweet-sweetcorn-in-water"
-       }
-      },
-      {
-       "category": "肉类",
-       "name": "牛肉末",
-       "buy_qty": 500.0,
-       "buy_unit": "g",
-       "buy_text": "500g",
-       "packs": 1,
-       "price_gbp": 4.39,
-       "name_en": "British Beef Mince 10% Fat",
-       "name_short": "Beef Mince 10% Fat",
-       "brand": "ASHFIELDS",
-       "pack_size": "500 g",
-       "unit_price_gbp": 4.39,
-       "line_total_gbp": 4.39,
-       "used_on": [
-        "周一",
-        "周四"
-       ],
-       "link": "https://www.aldi.co.uk/product/ashfields-british-beef-mince-10-fat-000000000000575299",
-       "product": {
-        "name": "British Beef Mince 10% Fat",
-        "brand": "ASHFIELDS",
-        "size": "500 g",
-        "price_gbp": 4.39,
-        "link": "https://www.aldi.co.uk/product/ashfields-british-beef-mince-10-fat-000000000000575299"
        }
       },
       {
@@ -2401,8 +2116,7 @@
        "line_total_gbp": 2.95,
        "used_on": [
         "周四",
-        "周五",
-        "周六"
+        "周五"
        ],
        "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103",
        "product": {
@@ -2411,119 +2125,6 @@
         "size": "1 kg",
         "price_gbp": 2.95,
         "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103"
-       }
-      },
-      {
-       "category": "干货",
-       "name": "扁豆",
-       "buy_qty": 400.0,
-       "buy_unit": "g",
-       "buy_text": "400g",
-       "packs": 1,
-       "price_gbp": 0.45,
-       "name_en": "Tinned Lentils",
-       "name_short": "Tinned Lentils",
-       "brand": "FOUR SEASONS",
-       "pack_size": "400 g",
-       "unit_price_gbp": 0.45,
-       "line_total_gbp": 0.45,
-       "used_on": [
-        "周三",
-        "周六",
-        "周日"
-       ],
-       "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
-       "product": {
-        "name": "Tinned Lentils",
-        "brand": "FOUR SEASONS",
-        "size": "400 g",
-        "price_gbp": 0.45,
-        "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
-       }
-      },
-      {
-       "category": "水产",
-       "name": "虾",
-       "buy_qty": 150.0,
-       "buy_unit": "g",
-       "buy_text": "150g",
-       "packs": 1,
-       "price_gbp": 2.49,
-       "name_en": "Cooked & Peeled King Prawns",
-       "name_short": "Cooked & Peeled King Prawns",
-       "brand": "THE FISHMONGER",
-       "pack_size": "150 g",
-       "unit_price_gbp": 2.49,
-       "line_total_gbp": 2.49,
-       "used_on": [
-        "周三"
-       ],
-       "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648",
-       "product": {
-        "name": "Cooked & Peeled King Prawns",
-        "brand": "THE FISHMONGER",
-        "size": "150 g",
-        "price_gbp": 2.49,
-        "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648"
-       }
-      },
-      {
-       "category": "乳制品",
-       "name": "鸡蛋",
-       "buy_qty": 12.0,
-       "buy_unit": "个",
-       "buy_text": "12个",
-       "packs": 1,
-       "price_gbp": 2.89,
-       "name_en": "British Large Free Range Eggs 12 Pack",
-       "name_short": "Large Free Range Eggs",
-       "brand": "MEREVALE",
-       "pack_size": "12 个",
-       "unit_price_gbp": 2.89,
-       "line_total_gbp": 2.89,
-       "used_on": [
-        "周一",
-        "周二",
-        "周三",
-        "周四",
-        "周五",
-        "周六",
-        "周日"
-       ],
-       "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
-       "product": {
-        "name": "British Large Free Range Eggs 12 Pack",
-        "brand": "MEREVALE",
-        "size": "12 个",
-        "price_gbp": 2.89,
-        "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009"
-       }
-      },
-      {
-       "category": "水果",
-       "name": "草莓",
-       "buy_qty": 400.0,
-       "buy_unit": "g",
-       "buy_text": "400g",
-       "packs": 1,
-       "price_gbp": 3.19,
-       "name_en": "Strawberries",
-       "name_short": "Strawberries",
-       "brand": "NATURE'S PICK",
-       "pack_size": "400 g",
-       "unit_price_gbp": 3.19,
-       "line_total_gbp": 3.19,
-       "used_on": [
-        "周四",
-        "周日"
-       ],
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
-       "product": {
-        "name": "Strawberries",
-        "brand": "NATURE'S PICK",
-        "size": "400 g",
-        "price_gbp": 3.19,
-        "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
        }
       },
       {
@@ -2551,31 +2152,27 @@
        }
       },
       {
-       "category": "干货",
-       "name": "藜麦",
-       "buy_qty": 250.0,
+       "category": "调料",
+       "name": "孜然",
+       "buy_qty": 40.0,
        "buy_unit": "g",
-       "buy_text": "250g",
+       "buy_text": "40g",
        "packs": 1,
-       "price_gbp": 0.85,
-       "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
-       "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
-       "brand": "WORLDWIDE FOODS",
-       "pack_size": "250 g",
-       "unit_price_gbp": 0.85,
-       "line_total_gbp": 0.85,
-       "used_on": [
-        "周三",
-        "周五",
-        "周六"
-       ],
-       "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
+       "price_gbp": 0.79,
+       "name_en": "Ground Cumin",
+       "name_short": "Ground Cumin",
+       "brand": "Stonemill",
+       "pack_size": "40 g",
+       "unit_price_gbp": 0.79,
+       "line_total_gbp": 0.79,
+       "used_on": [],
+       "link": "https://www.aldi.co.uk/search?text=Cumin",
        "product": {
-        "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
-        "brand": "WORLDWIDE FOODS",
-        "size": "250 g",
-        "price_gbp": 0.85,
-        "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
+        "name": "Ground Cumin",
+        "brand": "Stonemill",
+        "size": "40 g",
+        "price_gbp": 0.79,
+        "link": "https://www.aldi.co.uk/search?text=Cumin"
        }
       },
       {
@@ -2601,33 +2198,9 @@
         "price_gbp": 0.99,
         "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
        }
-      },
-      {
-       "category": "调料",
-       "name": "孜然",
-       "buy_qty": 40.0,
-       "buy_unit": "g",
-       "buy_text": "40g",
-       "packs": 1,
-       "price_gbp": 0.79,
-       "name_en": "Ground Cumin",
-       "name_short": "Ground Cumin",
-       "brand": "Stonemill",
-       "pack_size": "40 g",
-       "unit_price_gbp": 0.79,
-       "line_total_gbp": 0.79,
-       "used_on": [],
-       "link": "https://www.aldi.co.uk/search?text=Cumin",
-       "product": {
-        "name": "Ground Cumin",
-        "brand": "Stonemill",
-        "size": "40 g",
-        "price_gbp": 0.79,
-        "link": "https://www.aldi.co.uk/search?text=Cumin"
-       }
       }
      ],
-     "subtotal_gbp": 56.64
+     "subtotal_gbp": 39.17
     },
     {
      "n": 2,
@@ -2667,49 +2240,20 @@
       },
       {
        "category": "蔬菜",
-       "name": "羽衣甘蓝",
-       "buy_qty": 400.0,
-       "buy_unit": "g",
-       "buy_text": "400g",
-       "packs": 2,
-       "price_gbp": 0.89,
-       "name_en": "Scottish Shredded Kale",
-       "name_short": "Shredded Kale",
-       "brand": "NATURE'S PICK",
-       "pack_size": "200 g",
-       "unit_price_gbp": 0.89,
-       "line_total_gbp": 1.78,
-       "used_on": [
-        "周一",
-        "周三",
-        "周四",
-        "周五",
-        "周六"
-       ],
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
-       "product": {
-        "name": "Scottish Shredded Kale",
-        "brand": "NATURE'S PICK",
-        "size": "200 g",
-        "price_gbp": 0.89,
-        "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
-       }
-      },
-      {
-       "category": "蔬菜",
        "name": "蘑菇",
-       "buy_qty": 250.0,
+       "buy_qty": 500.0,
        "buy_unit": "g",
-       "buy_text": "250g",
-       "packs": 1,
+       "buy_text": "500g",
+       "packs": 2,
        "price_gbp": 0.95,
        "name_en": "British Chestnut Mushrooms",
        "name_short": "Chestnut Mushrooms",
        "brand": "NATURE'S PICK",
        "pack_size": "250 g",
        "unit_price_gbp": 0.95,
-       "line_total_gbp": 0.95,
+       "line_total_gbp": 1.9,
        "used_on": [
+        "周二",
         "周四",
         "周五",
         "周六",
@@ -2725,30 +2269,61 @@
        }
       },
       {
-       "category": "蔬菜",
-       "name": "黄瓜",
-       "buy_qty": 1.0,
-       "buy_unit": "个",
-       "buy_text": "1个",
+       "category": "水果",
+       "name": "草莓",
+       "buy_qty": 400.0,
+       "buy_unit": "g",
+       "buy_text": "400g",
        "packs": 1,
-       "price_gbp": 0.99,
-       "name_en": "Cucumber",
-       "name_short": "Cucumber",
+       "price_gbp": 3.19,
+       "name_en": "Strawberries",
+       "name_short": "Strawberries",
        "brand": "NATURE'S PICK",
-       "pack_size": "1 个",
-       "unit_price_gbp": 0.99,
-       "line_total_gbp": 0.99,
+       "pack_size": "400 g",
+       "unit_price_gbp": 3.19,
+       "line_total_gbp": 3.19,
        "used_on": [
         "周二",
+        "周四",
         "周日"
        ],
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
+       "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
        "product": {
-        "name": "Cucumber",
+        "name": "Strawberries",
         "brand": "NATURE'S PICK",
-        "size": "1 个",
-        "price_gbp": 0.99,
-        "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
+        "size": "400 g",
+        "price_gbp": 3.19,
+        "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
+       }
+      },
+      {
+       "category": "蔬菜",
+       "name": "羽衣甘蓝",
+       "buy_qty": 400.0,
+       "buy_unit": "g",
+       "buy_text": "400g",
+       "packs": 2,
+       "price_gbp": 0.89,
+       "name_en": "Scottish Shredded Kale",
+       "name_short": "Shredded Kale",
+       "brand": "NATURE'S PICK",
+       "pack_size": "200 g",
+       "unit_price_gbp": 0.89,
+       "line_total_gbp": 1.78,
+       "used_on": [
+        "周一",
+        "周四",
+        "周五",
+        "周六",
+        "周日"
+       ],
+       "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
+       "product": {
+        "name": "Scottish Shredded Kale",
+        "brand": "NATURE'S PICK",
+        "size": "200 g",
+        "price_gbp": 0.89,
+        "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
        }
       },
       {
@@ -2767,7 +2342,8 @@
        "line_total_gbp": 1.39,
        "used_on": [
         "周四",
-        "周六"
+        "周六",
+        "周日"
        ],
        "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
        "product": {
@@ -2779,10 +2355,10 @@
        }
       }
      ],
-     "subtotal_gbp": 8.29
+     "subtotal_gbp": 11.44
     }
    ],
-   "total_gbp": 64.93,
+   "total_gbp": 50.61,
    "missing": [],
    "unavailable": []
   },
@@ -2793,17 +2369,17 @@
     {
      "category": "蔬菜",
      "name": "菠菜",
-     "buy_qty": 2860.0,
+     "buy_qty": 2340.0,
      "buy_unit": "g",
-     "buy_text": "2860g",
-     "packs": 11,
+     "buy_text": "2340g",
+     "packs": 9,
      "price_gbp": 1.35,
      "name_en": "Young Spinach 260g",
      "name_short": "Spinach",
      "brand": "Sainsbury's",
      "pack_size": "260 g",
      "unit_price_gbp": 1.35,
-     "line_total_gbp": 14.85,
+     "line_total_gbp": 12.15,
      "used_on": [
       "周一",
       "周二",
@@ -2825,17 +2401,17 @@
     {
      "category": "干货",
      "name": "鹰嘴豆",
-     "buy_qty": 1600.0,
+     "buy_qty": 2365.0,
      "buy_unit": "g",
-     "buy_text": "1600g",
-     "packs": 4,
-     "price_gbp": 0.41,
-     "name_en": "Chickpeas in Water 400g",
-     "name_short": "Chickpeas in Water",
+     "buy_text": "2365g",
+     "packs": 11,
+     "price_gbp": 0.4,
+     "name_en": "Chickpeas 215g (130g drained)",
+     "name_short": "Chickpeas (130g drained)",
      "brand": "Sainsbury's",
-     "pack_size": "400 g",
-     "unit_price_gbp": 0.41,
-     "line_total_gbp": 1.64,
+     "pack_size": "215 g",
+     "unit_price_gbp": 0.4,
+     "line_total_gbp": 4.4,
      "used_on": [
       "周一",
       "周二",
@@ -2844,71 +2420,40 @@
       "周六",
       "周日"
      ],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-chickpeas-215g-130g",
      "product": {
-      "name": "Chickpeas in Water 400g",
+      "name": "Chickpeas 215g (130g drained)",
       "brand": "Sainsbury's",
-      "size": "400 g",
-      "price_gbp": 0.41,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+      "size": "215 g",
+      "price_gbp": 0.4,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-chickpeas-215g-130g"
      }
     },
     {
-     "category": "蔬菜",
-     "name": "羽衣甘蓝",
+     "category": "干货",
+     "name": "扁豆",
      "buy_qty": 800.0,
      "buy_unit": "g",
      "buy_text": "800g",
-     "packs": 4,
-     "price_gbp": 0.89,
-     "name_en": "Kale 200g",
-     "name_short": "Kale",
+     "packs": 2,
+     "price_gbp": 0.5,
+     "name_en": "Green Lentils In Water 400g",
+     "name_short": "Green Lentils In Water",
      "brand": "Sainsbury's",
-     "pack_size": "200 g",
-     "unit_price_gbp": 0.89,
-     "line_total_gbp": 3.56,
+     "pack_size": "400 g",
+     "unit_price_gbp": 0.5,
+     "line_total_gbp": 1.0,
      "used_on": [
-      "周一",
       "周三",
-      "周四",
       "周五",
       "周六"
      ],
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
-      "name": "Kale 200g",
+      "name": "Green Lentils In Water 400g",
       "brand": "Sainsbury's",
-      "size": "200 g",
-      "price_gbp": 0.89,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "鳕鱼",
-     "buy_qty": 720.0,
-     "buy_unit": "g",
-     "buy_text": "720g",
-     "packs": 2,
-     "price_gbp": 7.0,
-     "name_en": "Skinless & Boneless Cod Fillets 360g",
-     "name_short": "Skinless & Boneless Cod Fillets",
-     "brand": "Sainsbury's",
-     "pack_size": "360 g",
-     "unit_price_gbp": 7.0,
-     "line_total_gbp": 14.0,
-     "used_on": [
-      "周四",
-      "周五",
-      "周六",
-      "周日"
-     ],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-     "product": {
-      "name": "Skinless & Boneless Cod Fillets 360g",
-      "brand": "Sainsbury's",
-      "size": "360 g",
-      "price_gbp": 7.0,
+      "size": "400 g",
+      "price_gbp": 0.5,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
     },
@@ -2927,6 +2472,7 @@
      "unit_price_gbp": 1.29,
      "line_total_gbp": 3.87,
      "used_on": [
+      "周二",
       "周四",
       "周五",
       "周六",
@@ -2938,6 +2484,36 @@
       "brand": "Sainsbury's",
       "size": "300 g",
       "price_gbp": 1.29,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+     }
+    },
+    {
+     "category": "水产",
+     "name": "鳕鱼",
+     "buy_qty": 720.0,
+     "buy_unit": "g",
+     "buy_text": "720g",
+     "packs": 2,
+     "price_gbp": 7.0,
+     "name_en": "Skinless & Boneless Cod Fillets 360g",
+     "name_short": "Skinless & Boneless Cod Fillets",
+     "brand": "Sainsbury's",
+     "pack_size": "360 g",
+     "unit_price_gbp": 7.0,
+     "line_total_gbp": 14.0,
+     "used_on": [
+      "周二",
+      "周四",
+      "周五",
+      "周六",
+      "周日"
+     ],
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+     "product": {
+      "name": "Skinless & Boneless Cod Fillets 360g",
+      "brand": "Sainsbury's",
+      "size": "360 g",
+      "price_gbp": 7.0,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
     },
@@ -2956,8 +2532,9 @@
      "unit_price_gbp": 1.05,
      "line_total_gbp": 2.1,
      "used_on": [
-      "周五",
-      "周日"
+      "周二",
+      "周四",
+      "周五"
      ],
      "link": "https://www.sainsburys.co.uk/gol-ui/product/6026956",
      "product": {
@@ -2969,30 +2546,90 @@
      }
     },
     {
-     "category": "肉类",
-     "name": "牛排",
-     "buy_qty": 450.0,
+     "category": "水果",
+     "name": "草莓",
+     "buy_qty": 800.0,
      "buy_unit": "g",
-     "buy_text": "450g",
+     "buy_text": "800g",
      "packs": 2,
-     "price_gbp": 4.5,
-     "name_en": "British or Irish 21 Day Matured Sirloin Steak 225g",
-     "name_short": "21 Day Matured Sirloin Steak",
+     "price_gbp": 3.25,
+     "name_en": "Strawberries 400g",
+     "name_short": "Strawberries",
      "brand": "Sainsbury's",
-     "pack_size": "225 g",
-     "unit_price_gbp": 4.5,
-     "line_total_gbp": 9.0,
+     "pack_size": "400 g",
+     "unit_price_gbp": 3.25,
+     "line_total_gbp": 6.5,
      "used_on": [
       "周二",
+      "周四",
+      "周日"
+     ],
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+     "product": {
+      "name": "Strawberries 400g",
+      "brand": "Sainsbury's",
+      "size": "400 g",
+      "price_gbp": 3.25,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "藜麦",
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "buy_text": "500g",
+     "packs": 2,
+     "price_gbp": 1.45,
+     "name_en": "Red & White Quinoa 250g",
+     "name_short": "Red & White Quinoa",
+     "brand": "Sainsbury's",
+     "pack_size": "250 g",
+     "unit_price_gbp": 1.45,
+     "line_total_gbp": 2.9,
+     "used_on": [
+      "周一",
+      "周二",
+      "周四",
+      "周五",
+      "周日"
+     ],
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+     "product": {
+      "name": "Red & White Quinoa 250g",
+      "brand": "Sainsbury's",
+      "size": "250 g",
+      "price_gbp": 1.45,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "羽衣甘蓝",
+     "buy_qty": 600.0,
+     "buy_unit": "g",
+     "buy_text": "600g",
+     "packs": 3,
+     "price_gbp": 0.89,
+     "name_en": "Kale 200g",
+     "name_short": "Kale",
+     "brand": "Sainsbury's",
+     "pack_size": "200 g",
+     "unit_price_gbp": 0.89,
+     "line_total_gbp": 2.67,
+     "used_on": [
+      "周一",
+      "周四",
+      "周五",
       "周六",
       "周日"
      ],
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
-      "name": "British or Irish 21 Day Matured Sirloin Steak 225g",
+      "name": "Kale 200g",
       "brand": "Sainsbury's",
-      "size": "225 g",
-      "price_gbp": 4.5,
+      "size": "200 g",
+      "price_gbp": 0.89,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
     },
@@ -3012,7 +2649,7 @@
      "line_total_gbp": 4.75,
      "used_on": [
       "周一",
-      "周五"
+      "周日"
      ],
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
@@ -3025,84 +2662,57 @@
     },
     {
      "category": "干货",
-     "name": "金枪鱼",
-     "buy_qty": 435.0,
-     "buy_unit": "g",
-     "buy_text": "435g",
-     "packs": 3,
-     "price_gbp": 0.75,
-     "name_en": "Tuna Chunks in Spring Water 145g",
-     "name_short": "Tuna Chunks in Spring Water",
-     "brand": "Sainsbury's",
-     "pack_size": "145 g",
-     "unit_price_gbp": 0.75,
-     "line_total_gbp": 2.25,
-     "used_on": [
-      "周二",
-      "周日"
-     ],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-     "product": {
-      "name": "Tuna Chunks in Spring Water 145g",
-      "brand": "Sainsbury's",
-      "size": "145 g",
-      "price_gbp": 0.75,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "黄瓜",
-     "buy_qty": 2.0,
-     "buy_unit": "个",
-     "buy_text": "2个",
-     "packs": 2,
-     "price_gbp": 1.09,
-     "name_en": "Whole Cucumber",
-     "name_short": "Whole Cucumber",
-     "brand": "Sainsbury's",
-     "pack_size": "1 个",
-     "unit_price_gbp": 1.09,
-     "line_total_gbp": 2.18,
-     "used_on": [
-      "周二",
-      "周日"
-     ],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-     "product": {
-      "name": "Whole Cucumber",
-      "brand": "Sainsbury's",
-      "size": "1 个",
-      "price_gbp": 1.09,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-     }
-    },
-    {
-     "category": "干货",
      "name": "玉米粒",
-     "buy_qty": 594.0,
+     "buy_qty": 1000.0,
      "buy_unit": "g",
-     "buy_text": "594g",
-     "packs": 3,
-     "price_gbp": 0.3,
-     "name_en": "Naturally Sweet Sweetcorn In Water 198g",
-     "name_short": "Sweetcorn In Water",
+     "buy_text": "1000g",
+     "packs": 1,
+     "price_gbp": 1.9,
+     "name_en": "Sweetcorn, Super Sweet (Frozen)",
+     "name_short": "Sweetcorn, Super Sweet (Frozen)",
      "brand": "Sainsbury's",
-     "pack_size": "198 g",
-     "unit_price_gbp": 0.3,
-     "line_total_gbp": 0.9,
+     "pack_size": "1 kg",
+     "unit_price_gbp": 1.9,
+     "line_total_gbp": 1.9,
      "used_on": [
       "周三",
       "周五",
-      "周六",
-      "周日"
+      "周六"
+     ],
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweetcorn-super-sweet-1kg",
+     "product": {
+      "name": "Sweetcorn, Super Sweet (Frozen)",
+      "brand": "Sainsbury's",
+      "size": "1 kg",
+      "price_gbp": 1.9,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweetcorn-super-sweet-1kg"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "牛排",
+     "buy_qty": 225.0,
+     "buy_unit": "g",
+     "buy_text": "225g",
+     "packs": 1,
+     "price_gbp": 4.5,
+     "name_en": "British or Irish 21 Day Matured Sirloin Steak 225g",
+     "name_short": "21 Day Matured Sirloin Steak",
+     "brand": "Sainsbury's",
+     "pack_size": "225 g",
+     "unit_price_gbp": 4.5,
+     "line_total_gbp": 4.5,
+     "used_on": [
+      "周三",
+      "周五",
+      "周六"
      ],
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
-      "name": "Naturally Sweet Sweetcorn In Water 198g",
+      "name": "British or Irish 21 Day Matured Sirloin Steak 225g",
       "brand": "Sainsbury's",
-      "size": "198 g",
-      "price_gbp": 0.3,
+      "size": "225 g",
+      "price_gbp": 4.5,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
     },
@@ -3122,7 +2732,8 @@
      "line_total_gbp": 1.45,
      "used_on": [
       "周四",
-      "周六"
+      "周六",
+      "周日"
      ],
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
@@ -3134,29 +2745,29 @@
      }
     },
     {
-     "category": "肉类",
-     "name": "牛肉末",
-     "buy_qty": 500.0,
+     "category": "干货",
+     "name": "金枪鱼",
+     "buy_qty": 145.0,
      "buy_unit": "g",
-     "buy_text": "500g",
+     "buy_text": "145g",
      "packs": 1,
-     "price_gbp": 5.5,
-     "name_en": "Beef Mince 12% Fat 500g",
-     "name_short": "Beef Mince 12% Fat",
+     "price_gbp": 0.75,
+     "name_en": "Tuna Chunks in Spring Water 145g",
+     "name_short": "Tuna Chunks in Spring Water",
      "brand": "Sainsbury's",
-     "pack_size": "500 g",
-     "unit_price_gbp": 5.5,
-     "line_total_gbp": 5.5,
+     "pack_size": "145 g",
+     "unit_price_gbp": 0.75,
+     "line_total_gbp": 0.75,
      "used_on": [
-      "周一",
-      "周四"
+      "周二",
+      "周日"
      ],
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
-      "name": "Beef Mince 12% Fat 500g",
+      "name": "Tuna Chunks in Spring Water 145g",
       "brand": "Sainsbury's",
-      "size": "500 g",
-      "price_gbp": 5.5,
+      "size": "145 g",
+      "price_gbp": 0.75,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
     },
@@ -3176,8 +2787,7 @@
      "line_total_gbp": 12.0,
      "used_on": [
       "周四",
-      "周五",
-      "周六"
+      "周五"
      ],
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
@@ -3185,119 +2795,6 @@
       "brand": "Sainsbury's",
       "size": "640 g",
       "price_gbp": 6.0,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-     }
-    },
-    {
-     "category": "干货",
-     "name": "扁豆",
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "buy_text": "400g",
-     "packs": 1,
-     "price_gbp": 0.5,
-     "name_en": "Green Lentils In Water 400g",
-     "name_short": "Green Lentils In Water",
-     "brand": "Sainsbury's",
-     "pack_size": "400 g",
-     "unit_price_gbp": 0.5,
-     "line_total_gbp": 0.5,
-     "used_on": [
-      "周三",
-      "周六",
-      "周日"
-     ],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-     "product": {
-      "name": "Green Lentils In Water 400g",
-      "brand": "Sainsbury's",
-      "size": "400 g",
-      "price_gbp": 0.5,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "虾",
-     "buy_qty": 180.0,
-     "buy_unit": "g",
-     "buy_text": "180g",
-     "packs": 1,
-     "price_gbp": 2.64,
-     "name_en": "Frozen Large Raw Peeled King Prawns 180g",
-     "name_short": "Frozen Large Raw Peeled King Prawns",
-     "brand": "Sainsbury's",
-     "pack_size": "180 g",
-     "unit_price_gbp": 2.64,
-     "line_total_gbp": 2.64,
-     "used_on": [
-      "周三"
-     ],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-     "product": {
-      "name": "Frozen Large Raw Peeled King Prawns 180g",
-      "brand": "Sainsbury's",
-      "size": "180 g",
-      "price_gbp": 2.64,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "鸡蛋",
-     "buy_qty": 12.0,
-     "buy_unit": "个",
-     "buy_text": "12个",
-     "packs": 1,
-     "price_gbp": 4.0,
-     "name_en": "Free Range Golden Yolk Eggs x12",
-     "name_short": "Free Range Golden Yolk Eggs x12",
-     "brand": "Sainsbury's",
-     "pack_size": "12 个",
-     "unit_price_gbp": 4.0,
-     "line_total_gbp": 4.0,
-     "used_on": [
-      "周一",
-      "周二",
-      "周三",
-      "周四",
-      "周五",
-      "周六",
-      "周日"
-     ],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-     "product": {
-      "name": "Free Range Golden Yolk Eggs x12",
-      "brand": "Sainsbury's",
-      "size": "12 个",
-      "price_gbp": 4.0,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-     }
-    },
-    {
-     "category": "水果",
-     "name": "草莓",
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "buy_text": "400g",
-     "packs": 1,
-     "price_gbp": 3.25,
-     "name_en": "Strawberries 400g",
-     "name_short": "Strawberries",
-     "brand": "Sainsbury's",
-     "pack_size": "400 g",
-     "unit_price_gbp": 3.25,
-     "line_total_gbp": 3.25,
-     "used_on": [
-      "周四",
-      "周日"
-     ],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-     "product": {
-      "name": "Strawberries 400g",
-      "brand": "Sainsbury's",
-      "size": "400 g",
-      "price_gbp": 3.25,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
     },
@@ -3326,31 +2823,27 @@
      }
     },
     {
-     "category": "干货",
-     "name": "藜麦",
-     "buy_qty": 250.0,
+     "category": "调料",
+     "name": "孜然",
+     "buy_qty": 43.0,
      "buy_unit": "g",
-     "buy_text": "250g",
+     "buy_text": "43g",
      "packs": 1,
-     "price_gbp": 1.45,
-     "name_en": "Red & White Quinoa 250g",
-     "name_short": "Red & White Quinoa",
+     "price_gbp": 1.15,
+     "name_en": "Ground Cumin 43g",
+     "name_short": "Ground Cumin",
      "brand": "Sainsbury's",
-     "pack_size": "250 g",
-     "unit_price_gbp": 1.45,
-     "line_total_gbp": 1.45,
-     "used_on": [
-      "周三",
-      "周五",
-      "周六"
-     ],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+     "pack_size": "43 g",
+     "unit_price_gbp": 1.15,
+     "line_total_gbp": 1.15,
+     "used_on": [],
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705",
      "product": {
-      "name": "Red & White Quinoa 250g",
+      "name": "Ground Cumin 43g",
       "brand": "Sainsbury's",
-      "size": "250 g",
-      "price_gbp": 1.45,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+      "size": "43 g",
+      "price_gbp": 1.15,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705"
      }
     },
     {
@@ -3376,30 +2869,6 @@
       "price_gbp": 1.25,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/"
      }
-    },
-    {
-     "category": "调料",
-     "name": "孜然",
-     "buy_qty": 43.0,
-     "buy_unit": "g",
-     "buy_text": "43g",
-     "packs": 1,
-     "price_gbp": 1.15,
-     "name_en": "Ground Cumin 43g",
-     "name_short": "Ground Cumin",
-     "brand": "Sainsbury's",
-     "pack_size": "43 g",
-     "unit_price_gbp": 1.15,
-     "line_total_gbp": 1.15,
-     "used_on": [],
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705",
-     "product": {
-      "name": "Ground Cumin 43g",
-      "brand": "Sainsbury's",
-      "size": "43 g",
-      "price_gbp": 1.15,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705"
-     }
     }
    ],
    "batches": [
@@ -3410,17 +2879,17 @@
       {
        "category": "蔬菜",
        "name": "菠菜",
-       "buy_qty": 2080.0,
+       "buy_qty": 1560.0,
        "buy_unit": "g",
-       "buy_text": "2080g",
-       "packs": 8,
+       "buy_text": "1560g",
+       "packs": 6,
        "price_gbp": 1.35,
        "name_en": "Young Spinach 260g",
        "name_short": "Spinach",
        "brand": "Sainsbury's",
        "pack_size": "260 g",
        "unit_price_gbp": 1.35,
-       "line_total_gbp": 10.8,
+       "line_total_gbp": 8.1,
        "used_on": [
         "周一",
         "周二",
@@ -3442,17 +2911,17 @@
       {
        "category": "干货",
        "name": "鹰嘴豆",
-       "buy_qty": 1600.0,
+       "buy_qty": 2365.0,
        "buy_unit": "g",
-       "buy_text": "1600g",
-       "packs": 4,
-       "price_gbp": 0.41,
-       "name_en": "Chickpeas in Water 400g",
-       "name_short": "Chickpeas in Water",
+       "buy_text": "2365g",
+       "packs": 11,
+       "price_gbp": 0.4,
+       "name_en": "Chickpeas 215g (130g drained)",
+       "name_short": "Chickpeas (130g drained)",
        "brand": "Sainsbury's",
-       "pack_size": "400 g",
-       "unit_price_gbp": 0.41,
-       "line_total_gbp": 1.64,
+       "pack_size": "215 g",
+       "unit_price_gbp": 0.4,
+       "line_total_gbp": 4.4,
        "used_on": [
         "周一",
         "周二",
@@ -3461,42 +2930,70 @@
         "周六",
         "周日"
        ],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-chickpeas-215g-130g",
        "product": {
-        "name": "Chickpeas in Water 400g",
+        "name": "Chickpeas 215g (130g drained)",
         "brand": "Sainsbury's",
-        "size": "400 g",
-        "price_gbp": 0.41,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+        "size": "215 g",
+        "price_gbp": 0.4,
+        "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-chickpeas-215g-130g"
        }
       },
       {
-       "category": "蔬菜",
-       "name": "羽衣甘蓝",
-       "buy_qty": 400.0,
+       "category": "干货",
+       "name": "扁豆",
+       "buy_qty": 800.0,
        "buy_unit": "g",
-       "buy_text": "400g",
+       "buy_text": "800g",
        "packs": 2,
-       "price_gbp": 0.89,
-       "name_en": "Kale 200g",
-       "name_short": "Kale",
+       "price_gbp": 0.5,
+       "name_en": "Green Lentils In Water 400g",
+       "name_short": "Green Lentils In Water",
        "brand": "Sainsbury's",
-       "pack_size": "200 g",
-       "unit_price_gbp": 0.89,
-       "line_total_gbp": 1.78,
+       "pack_size": "400 g",
+       "unit_price_gbp": 0.5,
+       "line_total_gbp": 1.0,
        "used_on": [
-        "周一",
         "周三",
-        "周四",
         "周五",
         "周六"
        ],
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
-        "name": "Kale 200g",
+        "name": "Green Lentils In Water 400g",
         "brand": "Sainsbury's",
-        "size": "200 g",
-        "price_gbp": 0.89,
+        "size": "400 g",
+        "price_gbp": 0.5,
+        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+       }
+      },
+      {
+       "category": "蔬菜",
+       "name": "蘑菇",
+       "buy_qty": 300.0,
+       "buy_unit": "g",
+       "buy_text": "300g",
+       "packs": 1,
+       "price_gbp": 1.29,
+       "name_en": "Closed Cup Chestnut Mushrooms 300g",
+       "name_short": "Chestnut Mushrooms",
+       "brand": "Sainsbury's",
+       "pack_size": "300 g",
+       "unit_price_gbp": 1.29,
+       "line_total_gbp": 1.29,
+       "used_on": [
+        "周二",
+        "周四",
+        "周五",
+        "周六",
+        "周日"
+       ],
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+       "product": {
+        "name": "Closed Cup Chestnut Mushrooms 300g",
+        "brand": "Sainsbury's",
+        "size": "300 g",
+        "price_gbp": 1.29,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
       },
@@ -3515,6 +3012,7 @@
        "unit_price_gbp": 7.0,
        "line_total_gbp": 14.0,
        "used_on": [
+        "周二",
         "周四",
         "周五",
         "周六",
@@ -3526,35 +3024,6 @@
         "brand": "Sainsbury's",
         "size": "360 g",
         "price_gbp": 7.0,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-       }
-      },
-      {
-       "category": "蔬菜",
-       "name": "蘑菇",
-       "buy_qty": 600.0,
-       "buy_unit": "g",
-       "buy_text": "600g",
-       "packs": 2,
-       "price_gbp": 1.29,
-       "name_en": "Closed Cup Chestnut Mushrooms 300g",
-       "name_short": "Chestnut Mushrooms",
-       "brand": "Sainsbury's",
-       "pack_size": "300 g",
-       "unit_price_gbp": 1.29,
-       "line_total_gbp": 2.58,
-       "used_on": [
-        "周四",
-        "周五",
-        "周六",
-        "周日"
-       ],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-       "product": {
-        "name": "Closed Cup Chestnut Mushrooms 300g",
-        "brand": "Sainsbury's",
-        "size": "300 g",
-        "price_gbp": 1.29,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
       },
@@ -3573,8 +3042,9 @@
        "unit_price_gbp": 1.05,
        "line_total_gbp": 2.1,
        "used_on": [
-        "周五",
-        "周日"
+        "周二",
+        "周四",
+        "周五"
        ],
        "link": "https://www.sainsburys.co.uk/gol-ui/product/6026956",
        "product": {
@@ -3586,30 +3056,90 @@
        }
       },
       {
-       "category": "肉类",
-       "name": "牛排",
-       "buy_qty": 450.0,
+       "category": "水果",
+       "name": "草莓",
+       "buy_qty": 400.0,
        "buy_unit": "g",
-       "buy_text": "450g",
-       "packs": 2,
-       "price_gbp": 4.5,
-       "name_en": "British or Irish 21 Day Matured Sirloin Steak 225g",
-       "name_short": "21 Day Matured Sirloin Steak",
+       "buy_text": "400g",
+       "packs": 1,
+       "price_gbp": 3.25,
+       "name_en": "Strawberries 400g",
+       "name_short": "Strawberries",
        "brand": "Sainsbury's",
-       "pack_size": "225 g",
-       "unit_price_gbp": 4.5,
-       "line_total_gbp": 9.0,
+       "pack_size": "400 g",
+       "unit_price_gbp": 3.25,
+       "line_total_gbp": 3.25,
        "used_on": [
         "周二",
+        "周四",
+        "周日"
+       ],
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+       "product": {
+        "name": "Strawberries 400g",
+        "brand": "Sainsbury's",
+        "size": "400 g",
+        "price_gbp": 3.25,
+        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+       }
+      },
+      {
+       "category": "干货",
+       "name": "藜麦",
+       "buy_qty": 500.0,
+       "buy_unit": "g",
+       "buy_text": "500g",
+       "packs": 2,
+       "price_gbp": 1.45,
+       "name_en": "Red & White Quinoa 250g",
+       "name_short": "Red & White Quinoa",
+       "brand": "Sainsbury's",
+       "pack_size": "250 g",
+       "unit_price_gbp": 1.45,
+       "line_total_gbp": 2.9,
+       "used_on": [
+        "周一",
+        "周二",
+        "周四",
+        "周五",
+        "周日"
+       ],
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+       "product": {
+        "name": "Red & White Quinoa 250g",
+        "brand": "Sainsbury's",
+        "size": "250 g",
+        "price_gbp": 1.45,
+        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+       }
+      },
+      {
+       "category": "蔬菜",
+       "name": "羽衣甘蓝",
+       "buy_qty": 200.0,
+       "buy_unit": "g",
+       "buy_text": "200g",
+       "packs": 1,
+       "price_gbp": 0.89,
+       "name_en": "Kale 200g",
+       "name_short": "Kale",
+       "brand": "Sainsbury's",
+       "pack_size": "200 g",
+       "unit_price_gbp": 0.89,
+       "line_total_gbp": 0.89,
+       "used_on": [
+        "周一",
+        "周四",
+        "周五",
         "周六",
         "周日"
        ],
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
-        "name": "British or Irish 21 Day Matured Sirloin Steak 225g",
+        "name": "Kale 200g",
         "brand": "Sainsbury's",
-        "size": "225 g",
-        "price_gbp": 4.5,
+        "size": "200 g",
+        "price_gbp": 0.89,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
       },
@@ -3629,7 +3159,7 @@
        "line_total_gbp": 4.75,
        "used_on": [
         "周一",
-        "周五"
+        "周日"
        ],
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
@@ -3642,18 +3172,74 @@
       },
       {
        "category": "干货",
-       "name": "金枪鱼",
-       "buy_qty": 435.0,
+       "name": "玉米粒",
+       "buy_qty": 1000.0,
        "buy_unit": "g",
-       "buy_text": "435g",
-       "packs": 3,
+       "buy_text": "1000g",
+       "packs": 1,
+       "price_gbp": 1.9,
+       "name_en": "Sweetcorn, Super Sweet (Frozen)",
+       "name_short": "Sweetcorn, Super Sweet (Frozen)",
+       "brand": "Sainsbury's",
+       "pack_size": "1 kg",
+       "unit_price_gbp": 1.9,
+       "line_total_gbp": 1.9,
+       "used_on": [
+        "周三",
+        "周五",
+        "周六"
+       ],
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweetcorn-super-sweet-1kg",
+       "product": {
+        "name": "Sweetcorn, Super Sweet (Frozen)",
+        "brand": "Sainsbury's",
+        "size": "1 kg",
+        "price_gbp": 1.9,
+        "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweetcorn-super-sweet-1kg"
+       }
+      },
+      {
+       "category": "肉类",
+       "name": "牛排",
+       "buy_qty": 225.0,
+       "buy_unit": "g",
+       "buy_text": "225g",
+       "packs": 1,
+       "price_gbp": 4.5,
+       "name_en": "British or Irish 21 Day Matured Sirloin Steak 225g",
+       "name_short": "21 Day Matured Sirloin Steak",
+       "brand": "Sainsbury's",
+       "pack_size": "225 g",
+       "unit_price_gbp": 4.5,
+       "line_total_gbp": 4.5,
+       "used_on": [
+        "周三",
+        "周五",
+        "周六"
+       ],
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+       "product": {
+        "name": "British or Irish 21 Day Matured Sirloin Steak 225g",
+        "brand": "Sainsbury's",
+        "size": "225 g",
+        "price_gbp": 4.5,
+        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+       }
+      },
+      {
+       "category": "干货",
+       "name": "金枪鱼",
+       "buy_qty": 145.0,
+       "buy_unit": "g",
+       "buy_text": "145g",
+       "packs": 1,
        "price_gbp": 0.75,
        "name_en": "Tuna Chunks in Spring Water 145g",
        "name_short": "Tuna Chunks in Spring Water",
        "brand": "Sainsbury's",
        "pack_size": "145 g",
        "unit_price_gbp": 0.75,
-       "line_total_gbp": 2.25,
+       "line_total_gbp": 0.75,
        "used_on": [
         "周二",
         "周日"
@@ -3664,89 +3250,6 @@
         "brand": "Sainsbury's",
         "size": "145 g",
         "price_gbp": 0.75,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-       }
-      },
-      {
-       "category": "蔬菜",
-       "name": "黄瓜",
-       "buy_qty": 1.0,
-       "buy_unit": "个",
-       "buy_text": "1个",
-       "packs": 1,
-       "price_gbp": 1.09,
-       "name_en": "Whole Cucumber",
-       "name_short": "Whole Cucumber",
-       "brand": "Sainsbury's",
-       "pack_size": "1 个",
-       "unit_price_gbp": 1.09,
-       "line_total_gbp": 1.09,
-       "used_on": [
-        "周二",
-        "周日"
-       ],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-       "product": {
-        "name": "Whole Cucumber",
-        "brand": "Sainsbury's",
-        "size": "1 个",
-        "price_gbp": 1.09,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-       }
-      },
-      {
-       "category": "干货",
-       "name": "玉米粒",
-       "buy_qty": 594.0,
-       "buy_unit": "g",
-       "buy_text": "594g",
-       "packs": 3,
-       "price_gbp": 0.3,
-       "name_en": "Naturally Sweet Sweetcorn In Water 198g",
-       "name_short": "Sweetcorn In Water",
-       "brand": "Sainsbury's",
-       "pack_size": "198 g",
-       "unit_price_gbp": 0.3,
-       "line_total_gbp": 0.9,
-       "used_on": [
-        "周三",
-        "周五",
-        "周六",
-        "周日"
-       ],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-       "product": {
-        "name": "Naturally Sweet Sweetcorn In Water 198g",
-        "brand": "Sainsbury's",
-        "size": "198 g",
-        "price_gbp": 0.3,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-       }
-      },
-      {
-       "category": "肉类",
-       "name": "牛肉末",
-       "buy_qty": 500.0,
-       "buy_unit": "g",
-       "buy_text": "500g",
-       "packs": 1,
-       "price_gbp": 5.5,
-       "name_en": "Beef Mince 12% Fat 500g",
-       "name_short": "Beef Mince 12% Fat",
-       "brand": "Sainsbury's",
-       "pack_size": "500 g",
-       "unit_price_gbp": 5.5,
-       "line_total_gbp": 5.5,
-       "used_on": [
-        "周一",
-        "周四"
-       ],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-       "product": {
-        "name": "Beef Mince 12% Fat 500g",
-        "brand": "Sainsbury's",
-        "size": "500 g",
-        "price_gbp": 5.5,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
       },
@@ -3766,8 +3269,7 @@
        "line_total_gbp": 12.0,
        "used_on": [
         "周四",
-        "周五",
-        "周六"
+        "周五"
        ],
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
@@ -3775,119 +3277,6 @@
         "brand": "Sainsbury's",
         "size": "640 g",
         "price_gbp": 6.0,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-       }
-      },
-      {
-       "category": "干货",
-       "name": "扁豆",
-       "buy_qty": 400.0,
-       "buy_unit": "g",
-       "buy_text": "400g",
-       "packs": 1,
-       "price_gbp": 0.5,
-       "name_en": "Green Lentils In Water 400g",
-       "name_short": "Green Lentils In Water",
-       "brand": "Sainsbury's",
-       "pack_size": "400 g",
-       "unit_price_gbp": 0.5,
-       "line_total_gbp": 0.5,
-       "used_on": [
-        "周三",
-        "周六",
-        "周日"
-       ],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-       "product": {
-        "name": "Green Lentils In Water 400g",
-        "brand": "Sainsbury's",
-        "size": "400 g",
-        "price_gbp": 0.5,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-       }
-      },
-      {
-       "category": "水产",
-       "name": "虾",
-       "buy_qty": 180.0,
-       "buy_unit": "g",
-       "buy_text": "180g",
-       "packs": 1,
-       "price_gbp": 2.64,
-       "name_en": "Frozen Large Raw Peeled King Prawns 180g",
-       "name_short": "Frozen Large Raw Peeled King Prawns",
-       "brand": "Sainsbury's",
-       "pack_size": "180 g",
-       "unit_price_gbp": 2.64,
-       "line_total_gbp": 2.64,
-       "used_on": [
-        "周三"
-       ],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-       "product": {
-        "name": "Frozen Large Raw Peeled King Prawns 180g",
-        "brand": "Sainsbury's",
-        "size": "180 g",
-        "price_gbp": 2.64,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-       }
-      },
-      {
-       "category": "乳制品",
-       "name": "鸡蛋",
-       "buy_qty": 12.0,
-       "buy_unit": "个",
-       "buy_text": "12个",
-       "packs": 1,
-       "price_gbp": 4.0,
-       "name_en": "Free Range Golden Yolk Eggs x12",
-       "name_short": "Free Range Golden Yolk Eggs x12",
-       "brand": "Sainsbury's",
-       "pack_size": "12 个",
-       "unit_price_gbp": 4.0,
-       "line_total_gbp": 4.0,
-       "used_on": [
-        "周一",
-        "周二",
-        "周三",
-        "周四",
-        "周五",
-        "周六",
-        "周日"
-       ],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-       "product": {
-        "name": "Free Range Golden Yolk Eggs x12",
-        "brand": "Sainsbury's",
-        "size": "12 个",
-        "price_gbp": 4.0,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-       }
-      },
-      {
-       "category": "水果",
-       "name": "草莓",
-       "buy_qty": 400.0,
-       "buy_unit": "g",
-       "buy_text": "400g",
-       "packs": 1,
-       "price_gbp": 3.25,
-       "name_en": "Strawberries 400g",
-       "name_short": "Strawberries",
-       "brand": "Sainsbury's",
-       "pack_size": "400 g",
-       "unit_price_gbp": 3.25,
-       "line_total_gbp": 3.25,
-       "used_on": [
-        "周四",
-        "周日"
-       ],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-       "product": {
-        "name": "Strawberries 400g",
-        "brand": "Sainsbury's",
-        "size": "400 g",
-        "price_gbp": 3.25,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
       },
@@ -3916,31 +3305,27 @@
        }
       },
       {
-       "category": "干货",
-       "name": "藜麦",
-       "buy_qty": 250.0,
+       "category": "调料",
+       "name": "孜然",
+       "buy_qty": 43.0,
        "buy_unit": "g",
-       "buy_text": "250g",
+       "buy_text": "43g",
        "packs": 1,
-       "price_gbp": 1.45,
-       "name_en": "Red & White Quinoa 250g",
-       "name_short": "Red & White Quinoa",
+       "price_gbp": 1.15,
+       "name_en": "Ground Cumin 43g",
+       "name_short": "Ground Cumin",
        "brand": "Sainsbury's",
-       "pack_size": "250 g",
-       "unit_price_gbp": 1.45,
-       "line_total_gbp": 1.45,
-       "used_on": [
-        "周三",
-        "周五",
-        "周六"
-       ],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+       "pack_size": "43 g",
+       "unit_price_gbp": 1.15,
+       "line_total_gbp": 1.15,
+       "used_on": [],
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705",
        "product": {
-        "name": "Red & White Quinoa 250g",
+        "name": "Ground Cumin 43g",
         "brand": "Sainsbury's",
-        "size": "250 g",
-        "price_gbp": 1.45,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+        "size": "43 g",
+        "price_gbp": 1.15,
+        "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705"
        }
       },
       {
@@ -3966,33 +3351,9 @@
         "price_gbp": 1.25,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
-      },
-      {
-       "category": "调料",
-       "name": "孜然",
-       "buy_qty": 43.0,
-       "buy_unit": "g",
-       "buy_text": "43g",
-       "packs": 1,
-       "price_gbp": 1.15,
-       "name_en": "Ground Cumin 43g",
-       "name_short": "Ground Cumin",
-       "brand": "Sainsbury's",
-       "pack_size": "43 g",
-       "unit_price_gbp": 1.15,
-       "line_total_gbp": 1.15,
-       "used_on": [],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705",
-       "product": {
-        "name": "Ground Cumin 43g",
-        "brand": "Sainsbury's",
-        "size": "43 g",
-        "price_gbp": 1.15,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705"
-       }
       }
      ],
-     "subtotal_gbp": 85.28
+     "subtotal_gbp": 66.88
     },
     {
      "n": 2,
@@ -4032,49 +3393,20 @@
       },
       {
        "category": "蔬菜",
-       "name": "羽衣甘蓝",
-       "buy_qty": 400.0,
-       "buy_unit": "g",
-       "buy_text": "400g",
-       "packs": 2,
-       "price_gbp": 0.89,
-       "name_en": "Kale 200g",
-       "name_short": "Kale",
-       "brand": "Sainsbury's",
-       "pack_size": "200 g",
-       "unit_price_gbp": 0.89,
-       "line_total_gbp": 1.78,
-       "used_on": [
-        "周一",
-        "周三",
-        "周四",
-        "周五",
-        "周六"
-       ],
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
-       "product": {
-        "name": "Kale 200g",
-        "brand": "Sainsbury's",
-        "size": "200 g",
-        "price_gbp": 0.89,
-        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
-       }
-      },
-      {
-       "category": "蔬菜",
        "name": "蘑菇",
-       "buy_qty": 300.0,
+       "buy_qty": 600.0,
        "buy_unit": "g",
-       "buy_text": "300g",
-       "packs": 1,
+       "buy_text": "600g",
+       "packs": 2,
        "price_gbp": 1.29,
        "name_en": "Closed Cup Chestnut Mushrooms 300g",
        "name_short": "Chestnut Mushrooms",
        "brand": "Sainsbury's",
        "pack_size": "300 g",
        "unit_price_gbp": 1.29,
-       "line_total_gbp": 1.29,
+       "line_total_gbp": 2.58,
        "used_on": [
+        "周二",
         "周四",
         "周五",
         "周六",
@@ -4090,29 +3422,60 @@
        }
       },
       {
-       "category": "蔬菜",
-       "name": "黄瓜",
-       "buy_qty": 1.0,
-       "buy_unit": "个",
-       "buy_text": "1个",
+       "category": "水果",
+       "name": "草莓",
+       "buy_qty": 400.0,
+       "buy_unit": "g",
+       "buy_text": "400g",
        "packs": 1,
-       "price_gbp": 1.09,
-       "name_en": "Whole Cucumber",
-       "name_short": "Whole Cucumber",
+       "price_gbp": 3.25,
+       "name_en": "Strawberries 400g",
+       "name_short": "Strawberries",
        "brand": "Sainsbury's",
-       "pack_size": "1 个",
-       "unit_price_gbp": 1.09,
-       "line_total_gbp": 1.09,
+       "pack_size": "400 g",
+       "unit_price_gbp": 3.25,
+       "line_total_gbp": 3.25,
        "used_on": [
         "周二",
+        "周四",
         "周日"
        ],
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
-        "name": "Whole Cucumber",
+        "name": "Strawberries 400g",
         "brand": "Sainsbury's",
-        "size": "1 个",
-        "price_gbp": 1.09,
+        "size": "400 g",
+        "price_gbp": 3.25,
+        "link": "https://www.sainsburys.co.uk/gol-ui/product/"
+       }
+      },
+      {
+       "category": "蔬菜",
+       "name": "羽衣甘蓝",
+       "buy_qty": 400.0,
+       "buy_unit": "g",
+       "buy_text": "400g",
+       "packs": 2,
+       "price_gbp": 0.89,
+       "name_en": "Kale 200g",
+       "name_short": "Kale",
+       "brand": "Sainsbury's",
+       "pack_size": "200 g",
+       "unit_price_gbp": 0.89,
+       "line_total_gbp": 1.78,
+       "used_on": [
+        "周一",
+        "周四",
+        "周五",
+        "周六",
+        "周日"
+       ],
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/",
+       "product": {
+        "name": "Kale 200g",
+        "brand": "Sainsbury's",
+        "size": "200 g",
+        "price_gbp": 0.89,
         "link": "https://www.sainsburys.co.uk/gol-ui/product/"
        }
       },
@@ -4132,7 +3495,8 @@
        "line_total_gbp": 1.45,
        "used_on": [
         "周四",
-        "周六"
+        "周六",
+        "周日"
        ],
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
@@ -4144,10 +3508,10 @@
        }
       }
      ],
-     "subtotal_gbp": 9.66
+     "subtotal_gbp": 13.11
     }
    ],
-   "total_gbp": 94.94,
+   "total_gbp": 79.99,
    "missing": [],
    "unavailable": []
   }
@@ -4158,8 +3522,9 @@
    "used_on": [
     "11/5",
     "11/9",
-    "11/12",
+    "11/11",
     "11/13",
+    "11/14",
     "11/15"
    ],
    "note": "家里没有；食谱用到，买不买你定"
@@ -4168,8 +3533,7 @@
    "name": "姜",
    "used_on": [
     "11/6",
-    "11/12",
-    "11/14"
+    "11/12"
    ],
    "note": "家里没有；食谱用到，买不买你定"
   },
@@ -4178,9 +3542,7 @@
    "used_on": [
     "11/8",
     "11/10",
-    "11/11",
-    "11/14",
-    "11/15"
+    "11/14"
    ],
    "note": "家里没有；食谱用到，买不买你定"
   }
