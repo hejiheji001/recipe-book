@@ -76,6 +76,8 @@
     });
     lss(REV_KEY, {});
     lss(DIRTY_KEY, {});
+    // 换家/退出时清掉待上报事件，避免把上一家的事件记到新家庭
+    try { localStorage.removeItem(TRACK_KEY); } catch (e) {}
   }
 
   function call(fn, body) {
@@ -91,6 +93,80 @@
       });
     });
   }
+
+  // ===== 匿名功能使用事件 =====
+  // 只记事件名/页面/数量，不传食材名、门牌号等个人内容；失败就留在本地队列。
+  var TRACK_KEY = 'rb_track_q';
+  var trackLastView = '';
+  var trackBusy = false;
+  var trackTimer = null;
+  var trackSession = '';
+
+  function randId() {
+    return Math.random().toString(36).slice(2) + Date.now().toString(36);
+  }
+  function trackDevice() {
+    var v = null;
+    try { v = localStorage.getItem('rb_device'); } catch (e) {}
+    if (!v) {
+      v = randId();
+      try { localStorage.setItem('rb_device', v); } catch (e) {}
+    }
+    return v;
+  }
+  function trackSessionId() {
+    if (trackSession) return trackSession;
+    try { trackSession = sessionStorage.getItem('rb_sess') || ''; } catch (e) {}
+    if (!trackSession) {
+      trackSession = randId();
+      try { sessionStorage.setItem('rb_sess', trackSession); } catch (e) {}
+    }
+    return trackSession;
+  }
+  function trackFlush() {
+    if (trackBusy) return;
+    var fam = ls(FAM_KEY, null);
+    if (!fam || !fam.fam || !fam.pw) return;
+    var q = ls(TRACK_KEY, []);
+    if (!Array.isArray(q) || !q.length) return;
+    var batch = q.slice(0, 30);
+    trackBusy = true;
+    call('put_events', {
+      p_family: fam.fam,
+      p_token: fam.pw,
+      p_device: trackDevice(),
+      p_session: trackSessionId(),
+      p_events: batch
+    }).then(function (r) {
+      trackBusy = false;
+      if (!r.ok) return;
+      var left = ls(TRACK_KEY, []);
+      if (Array.isArray(left)) {
+        lss(TRACK_KEY, left.slice(batch.length));
+        if (left.length > batch.length) setTimeout(trackFlush, 120);
+      }
+    }).catch(function () { trackBusy = false; });
+  }
+  function track(event, meta, view) {
+    if (!event) return;
+    var q = ls(TRACK_KEY, []);
+    if (!Array.isArray(q)) q = [];
+    q.push({
+      event: String(event).slice(0, 64),
+      view: String(view || trackLastView || '').slice(0, 32),
+      meta: (meta && typeof meta === 'object') ? meta : {},
+      ts: new Date().toISOString()
+    });
+    if (q.length > 120) q = q.slice(-120);
+    lss(TRACK_KEY, q);
+    clearTimeout(trackTimer);
+    trackTimer = setTimeout(trackFlush, 2500);
+  }
+  function trackView(view) {
+    trackLastView = String(view || '').slice(0, 32);
+    track('view', { view: trackLastView }, trackLastView);
+  }
+  window.RBTRACK = { track: track, view: trackView, flush: trackFlush };
 
   function weekCode() {
     var el = document.querySelector('meta[name="rb-week"]');
@@ -511,6 +587,7 @@
           document.body.classList.remove('rb-lock');
           setTimeout(function () { g.remove(); }, 200);
           paint('ok');
+          trackFlush();
           if (done) done(n);
         }).catch(function (e) {
         err.textContent = (e && e.message) || '连不上服务器，请检查网络';
@@ -553,6 +630,7 @@
       });
     }).then(function () {
       paint('ok');
+      trackFlush();
       if (window.RB_ON_SYNC) window.RB_ON_SYNC();
     }).catch(function () { paint('off'); });
 
@@ -564,6 +642,7 @@
         if (!syncState.fam || !syncState.pw) return;
         pull(syncState.pw, syncState.fam).then(function () {
           paint('ok');
+          trackFlush();
           if (window.RB_ON_SYNC) window.RB_ON_SYNC();
         }).catch(function () {});
       });
@@ -722,6 +801,11 @@
   function boot() {
     css();
     mountDot();
+    // 主脚本可能在 sync.js 之前已经执行完 showView，补一次当前页面归属
+    var v0 = (location.hash.match(/[#&]open=(\w+)/) || [])[1] || 'catalog';
+    if (['catalog', 'mylist', 'stock', 'trash'].indexOf(v0) < 0) v0 = 'catalog';
+    trackLastView = v0;
+    track('app_open', { path: location.pathname }, v0);
     // 落地 URL 已经带了 open=，说明这次导航成功，意图不再需要；
     // 不清掉的话，下次进站会被当成新意图再弹一次。
     if (/[?#&]open=\w/.test(location.hash + location.search)) {

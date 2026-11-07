@@ -83,6 +83,10 @@ jobs:
           html = catalog.read_text(encoding="utf-8")
           for token, label in [
               (r"id=[\"']stReceipt[\"']", "传小票按钮"),
+              (r"id=[\"']textBtn[\"']", "导出文字按钮"),
+              (r"id=[\"']stMatch[\"']", "库存找菜按钮"),
+              (r"data-copy-ing=", "复制食材按钮"),
+              (r"data-add-qty=", "库存数量输入"),
               (r"data-nm=", "菜谱数据"),
               (r"manifest\.json", "PWA manifest"),
           ]:
@@ -134,8 +138,10 @@ jobs:
                   await page.click("[data-view=stock]")
                   await page.wait_for_selector("#stReceipt", state="visible", timeout=5000)
                   assert (await page.inner_text("#stReceipt")).strip() == "传小票"
+                  assert await page.locator("#stMatch").count() == 1
+                  assert await page.locator("[data-copy-ing]").count() > 0
                   assert not errors, f"页面 JS 错误: {errors}"
-                  print("Browser smoke OK: 库存弹层 + 传小票按钮")
+                  print("Browser smoke OK: 库存弹层 + 传小票 + 库存找菜 + 复制食材")
                   await browser.close()
 
           asyncio.run(main())
