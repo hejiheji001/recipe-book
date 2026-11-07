@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="菜谱">
 <meta name="rb-week" content="W1-11-02">
-<meta name="rb-build" content="20261107073600">
+<meta name="rb-build" content="20261107075759">
 <title>推荐采购 · W1-11-02</title>
 <style>
 *{box-sizing:border-box;-webkit-text-size-adjust:100%;}
@@ -156,7 +156,7 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="../#open=about">关于</a>
   </div>
   <div class="bar">
-    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-07 07:36</span></span>
+    <span class="p">已选 <b id="done">0</b>/42<span class="upd">更新 11-07 07:57</span></span>
     <button id="all">全选</button>
     <button id="clear">清除</button>
     <button id="save">保存</button>
@@ -759,11 +759,10 @@ window.__DAYING__ = {"2026-11-02":[["沙虾",500.0,"g",500.0,"g"],["菜脯",80.0
   function openJd(){
     var ua = navigator.userAgent || "";
     if(/Android/i.test(ua)){
-      var intent = "intent:#Intent;action=android.intent.action.VIEW;package=com.jingdong.joyai.app;"
-        + "component=com.jingdong.joyai.app/com.jingdong.joyai.aimodule.MainActivity;"
-        + "launchFlags=0x10000000;S.browser_fallback_url="
+      location.href = "intent://#Intent;scheme=openapp.joyai;package=com.jingdong.joyai.app;"
+        + "action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;"
+        + "category=android.intent.category.DEFAULT;S.browser_fallback_url="
         + encodeURIComponent("https://aigou.jd.com/") + ";end";
-      var w = window.open(intent, "_blank"); if(!w) location.href = intent;
       return;
     }
     var url = /iPhone|iPad|iPod/i.test(ua) ? "https://apps.apple.com/cn/app/id6748010090" : "https://aigou.jd.com/";
