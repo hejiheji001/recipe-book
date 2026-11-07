@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-07T12:01:21",
+ "generated": "2026-11-07T12:08:39",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "columns": [
@@ -112,13 +112,13 @@
     "周六",
     "周日"
    ],
-   "link": null,
+   "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
    "product": {
     "name": "Chickpeas",
     "brand": "FOUR SEASONS",
     "size": "400 g",
     "price_gbp": 0.41,
-    "link": null
+    "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
    }
   },
   {
@@ -169,13 +169,13 @@
     "周六",
     "周日"
    ],
-   "link": null,
+   "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
    "product": {
     "name": "Cod Fillets",
     "brand": "THE FISHMONGER",
     "size": "360 g",
     "price_gbp": 3.95,
-    "link": null
+    "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
    }
   },
   {
@@ -223,13 +223,13 @@
     "周五",
     "周日"
    ],
-   "link": null,
+   "link": "https://www.aldi.co.uk/search?text=aubergine",
    "product": {
     "name": "Aubergine",
     "brand": "（官网未收录，货架散装）",
     "size": "1 个",
     "price_gbp": 0.79,
-    "link": null
+    "link": "https://www.aldi.co.uk/search?text=aubergine"
    }
   },
   {
@@ -249,13 +249,13 @@
     "周一",
     "周五"
    ],
-   "link": null,
+   "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
    "product": {
     "name": "British Turkey Mince 7% Fat",
     "brand": "ASHFIELDS",
     "size": "500 g",
     "price_gbp": 2.99,
-    "link": null
+    "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144"
    }
   },
   {
@@ -302,13 +302,13 @@
     "周二",
     "周日"
    ],
-   "link": null,
+   "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
    "product": {
     "name": "Tuna Chunks In Spring Water",
     "brand": "THE FISHMONGER",
     "size": "145 g",
     "price_gbp": 0.65,
-    "link": null
+    "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
    }
   },
   {
@@ -435,13 +435,13 @@
     "周五",
     "周六"
    ],
-   "link": null,
+   "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103",
    "product": {
     "name": "Chicken Thighs",
     "brand": "ASHFIELDS",
     "size": "1 kg",
     "price_gbp": 2.95,
-    "link": null
+    "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103"
    }
   },
   {
@@ -462,13 +462,13 @@
     "周六",
     "周日"
    ],
-   "link": null,
+   "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
    "product": {
     "name": "Tinned Lentils",
     "brand": "FOUR SEASONS",
     "size": "400 g",
     "price_gbp": 0.45,
-    "link": null
+    "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
    }
   },
   {
@@ -487,13 +487,13 @@
    "used_on": [
     "周三"
    ],
-   "link": null,
+   "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648",
    "product": {
     "name": "Cooked & Peeled King Prawns",
     "brand": "THE FISHMONGER",
     "size": "150 g",
     "price_gbp": 2.49,
-    "link": null
+    "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648"
    }
   },
   {
@@ -518,13 +518,13 @@
     "周六",
     "周日"
    ],
-   "link": null,
+   "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
    "product": {
     "name": "British Large Free Range Eggs 12 Pack",
     "brand": "MEREVALE",
     "size": "12 个",
     "price_gbp": 2.89,
-    "link": null
+    "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009"
    }
   },
   {
@@ -544,13 +544,13 @@
     "周四",
     "周日"
    ],
-   "link": null,
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
    "product": {
     "name": "Strawberries",
     "brand": "NATURE'S PICK",
     "size": "400 g",
     "price_gbp": 3.19,
-    "link": null
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
    }
   },
   {
@@ -567,13 +567,13 @@
    "unit_price_gbp": 0.89,
    "line_total_gbp": 0.89,
    "used_on": [],
-   "link": null,
+   "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
    "product": {
     "name": "Wonky Lemons",
     "brand": "EVERYDAY ESSENTIALS",
     "size": "4 个",
     "price_gbp": 0.89,
-    "link": null
+    "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496"
    }
   },
   {
@@ -594,13 +594,13 @@
     "周五",
     "周六"
    ],
-   "link": null,
+   "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
    "product": {
     "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
     "brand": "WORLDWIDE FOODS",
     "size": "250 g",
     "price_gbp": 0.85,
-    "link": null
+    "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
    }
   },
   {
@@ -617,13 +617,13 @@
    "unit_price_gbp": 0.99,
    "line_total_gbp": 0.99,
    "used_on": [],
-   "link": null,
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
    "product": {
     "name": "Ginger",
     "brand": "NATURE'S PICK",
     "size": "125 g",
     "price_gbp": 0.99,
-    "link": null
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
    }
   },
   {
@@ -640,13 +640,13 @@
    "unit_price_gbp": 0.79,
    "line_total_gbp": 0.79,
    "used_on": [],
-   "link": null,
+   "link": "https://www.aldi.co.uk/search?text=cumin",
    "product": {
     "name": "Ground Cumin",
     "brand": "Stonemill",
     "size": "40 g",
     "price_gbp": 0.79,
-    "link": null
+    "link": "https://www.aldi.co.uk/search?text=cumin"
    }
   }
  ],
@@ -707,13 +707,13 @@
       "周六",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
      "product": {
       "name": "Chickpeas",
       "brand": "FOUR SEASONS",
       "size": "400 g",
       "price_gbp": 0.41,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
      }
     },
     {
@@ -764,13 +764,13 @@
       "周六",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
      "product": {
       "name": "Cod Fillets",
       "brand": "THE FISHMONGER",
       "size": "360 g",
       "price_gbp": 3.95,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
      }
     },
     {
@@ -818,13 +818,13 @@
       "周五",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/search?text=aubergine",
      "product": {
       "name": "Aubergine",
       "brand": "（官网未收录，货架散装）",
       "size": "1 个",
       "price_gbp": 0.79,
-      "link": null
+      "link": "https://www.aldi.co.uk/search?text=aubergine"
      }
     },
     {
@@ -844,13 +844,13 @@
       "周一",
       "周五"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
      "product": {
       "name": "British Turkey Mince 7% Fat",
       "brand": "ASHFIELDS",
       "size": "500 g",
       "price_gbp": 2.99,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144"
      }
     },
     {
@@ -897,13 +897,13 @@
       "周二",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
      "product": {
       "name": "Tuna Chunks In Spring Water",
       "brand": "THE FISHMONGER",
       "size": "145 g",
       "price_gbp": 0.65,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
      }
     },
     {
@@ -1004,13 +1004,13 @@
       "周五",
       "周六"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103",
      "product": {
       "name": "Chicken Thighs",
       "brand": "ASHFIELDS",
       "size": "1 kg",
       "price_gbp": 2.95,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103"
      }
     },
     {
@@ -1031,13 +1031,13 @@
       "周六",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
      "product": {
       "name": "Tinned Lentils",
       "brand": "FOUR SEASONS",
       "size": "400 g",
       "price_gbp": 0.45,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
      }
     },
     {
@@ -1056,13 +1056,13 @@
      "used_on": [
       "周三"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648",
      "product": {
       "name": "Cooked & Peeled King Prawns",
       "brand": "THE FISHMONGER",
       "size": "150 g",
       "price_gbp": 2.49,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648"
      }
     },
     {
@@ -1087,13 +1087,13 @@
       "周六",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
      "product": {
       "name": "British Large Free Range Eggs 12 Pack",
       "brand": "MEREVALE",
       "size": "12 个",
       "price_gbp": 2.89,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009"
      }
     },
     {
@@ -1113,13 +1113,13 @@
       "周四",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
      "product": {
       "name": "Strawberries",
       "brand": "NATURE'S PICK",
       "size": "400 g",
       "price_gbp": 3.19,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
      }
     },
     {
@@ -1136,13 +1136,13 @@
      "unit_price_gbp": 0.89,
      "line_total_gbp": 0.89,
      "used_on": [],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
      "product": {
       "name": "Wonky Lemons",
       "brand": "EVERYDAY ESSENTIALS",
       "size": "4 个",
       "price_gbp": 0.89,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496"
      }
     },
     {
@@ -1163,13 +1163,13 @@
       "周五",
       "周六"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
      "product": {
       "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
       "brand": "WORLDWIDE FOODS",
       "size": "250 g",
       "price_gbp": 0.85,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
      }
     },
     {
@@ -1186,13 +1186,13 @@
      "unit_price_gbp": 0.99,
      "line_total_gbp": 0.99,
      "used_on": [],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
      "product": {
       "name": "Ginger",
       "brand": "NATURE'S PICK",
       "size": "125 g",
       "price_gbp": 0.99,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
      }
     },
     {
@@ -1209,13 +1209,13 @@
      "unit_price_gbp": 0.79,
      "line_total_gbp": 0.79,
      "used_on": [],
-     "link": null,
+     "link": "https://www.aldi.co.uk/search?text=cumin",
      "product": {
       "name": "Ground Cumin",
       "brand": "Stonemill",
       "size": "40 g",
       "price_gbp": 0.79,
-      "link": null
+      "link": "https://www.aldi.co.uk/search?text=cumin"
      }
     }
    ],
@@ -1427,13 +1427,13 @@
       "周六",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
      "product": {
       "name": "Chickpeas",
       "brand": "FOUR SEASONS",
       "size": "400 g",
       "price_gbp": 0.41,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
      }
     },
     {
@@ -1484,13 +1484,13 @@
       "周六",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
      "product": {
       "name": "Cod Fillets",
       "brand": "THE FISHMONGER",
       "size": "360 g",
       "price_gbp": 3.95,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
      }
     },
     {
@@ -1538,13 +1538,13 @@
       "周五",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/search?text=aubergine",
      "product": {
       "name": "Aubergine",
       "brand": "（官网未收录，货架散装）",
       "size": "1 个",
       "price_gbp": 0.79,
-      "link": null
+      "link": "https://www.aldi.co.uk/search?text=aubergine"
      }
     },
     {
@@ -1564,13 +1564,13 @@
       "周一",
       "周五"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
      "product": {
       "name": "British Turkey Mince 7% Fat",
       "brand": "ASHFIELDS",
       "size": "500 g",
       "price_gbp": 2.99,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144"
      }
     },
     {
@@ -1617,13 +1617,13 @@
       "周二",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
      "product": {
       "name": "Tuna Chunks In Spring Water",
       "brand": "THE FISHMONGER",
       "size": "145 g",
       "price_gbp": 0.65,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
      }
     },
     {
@@ -1750,13 +1750,13 @@
       "周五",
       "周六"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103",
      "product": {
       "name": "Chicken Thighs",
       "brand": "ASHFIELDS",
       "size": "1 kg",
       "price_gbp": 2.95,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103"
      }
     },
     {
@@ -1777,13 +1777,13 @@
       "周六",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
      "product": {
       "name": "Tinned Lentils",
       "brand": "FOUR SEASONS",
       "size": "400 g",
       "price_gbp": 0.45,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
      }
     },
     {
@@ -1802,13 +1802,13 @@
      "used_on": [
       "周三"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648",
      "product": {
       "name": "Cooked & Peeled King Prawns",
       "brand": "THE FISHMONGER",
       "size": "150 g",
       "price_gbp": 2.49,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648"
      }
     },
     {
@@ -1833,13 +1833,13 @@
       "周六",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
      "product": {
       "name": "British Large Free Range Eggs 12 Pack",
       "brand": "MEREVALE",
       "size": "12 个",
       "price_gbp": 2.89,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009"
      }
     },
     {
@@ -1859,13 +1859,13 @@
       "周四",
       "周日"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
      "product": {
       "name": "Strawberries",
       "brand": "NATURE'S PICK",
       "size": "400 g",
       "price_gbp": 3.19,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
      }
     },
     {
@@ -1882,13 +1882,13 @@
      "unit_price_gbp": 0.89,
      "line_total_gbp": 0.89,
      "used_on": [],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
      "product": {
       "name": "Wonky Lemons",
       "brand": "EVERYDAY ESSENTIALS",
       "size": "4 个",
       "price_gbp": 0.89,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496"
      }
     },
     {
@@ -1909,13 +1909,13 @@
       "周五",
       "周六"
      ],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
      "product": {
       "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
       "brand": "WORLDWIDE FOODS",
       "size": "250 g",
       "price_gbp": 0.85,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
      }
     },
     {
@@ -1932,13 +1932,13 @@
      "unit_price_gbp": 0.99,
      "line_total_gbp": 0.99,
      "used_on": [],
-     "link": null,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
      "product": {
       "name": "Ginger",
       "brand": "NATURE'S PICK",
       "size": "125 g",
       "price_gbp": 0.99,
-      "link": null
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
      }
     },
     {
@@ -1955,13 +1955,13 @@
      "unit_price_gbp": 0.79,
      "line_total_gbp": 0.79,
      "used_on": [],
-     "link": null,
+     "link": "https://www.aldi.co.uk/search?text=cumin",
      "product": {
       "name": "Ground Cumin",
       "brand": "Stonemill",
       "size": "40 g",
       "price_gbp": 0.79,
-      "link": null
+      "link": "https://www.aldi.co.uk/search?text=cumin"
      }
     }
    ],
@@ -2022,13 +2022,13 @@
         "周六",
         "周日"
        ],
-       "link": null,
+       "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
        "product": {
         "name": "Chickpeas",
         "brand": "FOUR SEASONS",
         "size": "400 g",
         "price_gbp": 0.41,
-        "link": null
+        "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
        }
       },
       {
@@ -2079,13 +2079,13 @@
         "周六",
         "周日"
        ],
-       "link": null,
+       "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
        "product": {
         "name": "Cod Fillets",
         "brand": "THE FISHMONGER",
         "size": "360 g",
         "price_gbp": 3.95,
-        "link": null
+        "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
        }
       },
       {
@@ -2133,13 +2133,13 @@
         "周五",
         "周日"
        ],
-       "link": null,
+       "link": "https://www.aldi.co.uk/search?text=aubergine",
        "product": {
         "name": "Aubergine",
         "brand": "（官网未收录，货架散装）",
         "size": "1 个",
         "price_gbp": 0.79,
-        "link": null
+        "link": "https://www.aldi.co.uk/search?text=aubergine"
        }
       },
       {
@@ -2159,13 +2159,13 @@
         "周一",
         "周五"
        ],
-       "link": null,
+       "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
        "product": {
         "name": "British Turkey Mince 7% Fat",
         "brand": "ASHFIELDS",
         "size": "500 g",
         "price_gbp": 2.99,
-        "link": null
+        "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144"
        }
       },
       {
@@ -2212,13 +2212,13 @@
         "周二",
         "周日"
        ],
-       "link": null,
+       "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
        "product": {
         "name": "Tuna Chunks In Spring Water",
         "brand": "THE FISHMONGER",
         "size": "145 g",
         "price_gbp": 0.65,
-        "link": null
+        "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567"
        }
       },
       {
@@ -2319,13 +2319,13 @@
         "周五",
         "周六"
        ],
-       "link": null,
+       "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103",
        "product": {
         "name": "Chicken Thighs",
         "brand": "ASHFIELDS",
         "size": "1 kg",
         "price_gbp": 2.95,
-        "link": null
+        "link": "https://www.aldi.co.uk/product/ashfields-chicken-thighs-000000000000382103"
        }
       },
       {
@@ -2346,13 +2346,13 @@
         "周六",
         "周日"
        ],
-       "link": null,
+       "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
        "product": {
         "name": "Tinned Lentils",
         "brand": "FOUR SEASONS",
         "size": "400 g",
         "price_gbp": 0.45,
-        "link": null
+        "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
        }
       },
       {
@@ -2371,13 +2371,13 @@
        "used_on": [
         "周三"
        ],
-       "link": null,
+       "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648",
        "product": {
         "name": "Cooked & Peeled King Prawns",
         "brand": "THE FISHMONGER",
         "size": "150 g",
         "price_gbp": 2.49,
-        "link": null
+        "link": "https://www.aldi.co.uk/product/the-fishmonger-cooked-peeled-king-prawns-000000000000384648"
        }
       },
       {
@@ -2402,13 +2402,13 @@
         "周六",
         "周日"
        ],
-       "link": null,
+       "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
        "product": {
         "name": "British Large Free Range Eggs 12 Pack",
         "brand": "MEREVALE",
         "size": "12 个",
         "price_gbp": 2.89,
-        "link": null
+        "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009"
        }
       },
       {
@@ -2428,13 +2428,13 @@
         "周四",
         "周日"
        ],
-       "link": null,
+       "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
        "product": {
         "name": "Strawberries",
         "brand": "NATURE'S PICK",
         "size": "400 g",
         "price_gbp": 3.19,
-        "link": null
+        "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
        }
       },
       {
@@ -2451,13 +2451,13 @@
        "unit_price_gbp": 0.89,
        "line_total_gbp": 0.89,
        "used_on": [],
-       "link": null,
+       "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
        "product": {
         "name": "Wonky Lemons",
         "brand": "EVERYDAY ESSENTIALS",
         "size": "4 个",
         "price_gbp": 0.89,
-        "link": null
+        "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496"
        }
       },
       {
@@ -2478,13 +2478,13 @@
         "周五",
         "周六"
        ],
-       "link": null,
+       "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
        "product": {
         "name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
         "brand": "WORLDWIDE FOODS",
         "size": "250 g",
         "price_gbp": 0.85,
-        "link": null
+        "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001"
        }
       },
       {
@@ -2501,13 +2501,13 @@
        "unit_price_gbp": 0.99,
        "line_total_gbp": 0.99,
        "used_on": [],
-       "link": null,
+       "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
        "product": {
         "name": "Ginger",
         "brand": "NATURE'S PICK",
         "size": "125 g",
         "price_gbp": 0.99,
-        "link": null
+        "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
        }
       },
       {
@@ -2524,13 +2524,13 @@
        "unit_price_gbp": 0.79,
        "line_total_gbp": 0.79,
        "used_on": [],
-       "link": null,
+       "link": "https://www.aldi.co.uk/search?text=cumin",
        "product": {
         "name": "Ground Cumin",
         "brand": "Stonemill",
         "size": "40 g",
         "price_gbp": 0.79,
-        "link": null
+        "link": "https://www.aldi.co.uk/search?text=cumin"
        }
       }
      ],
