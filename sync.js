@@ -803,7 +803,7 @@
     mountDot();
     // 主脚本可能在 sync.js 之前已经执行完 showView，补一次当前页面归属
     var v0 = (location.hash.match(/[#&]open=(\w+)/) || [])[1] || 'catalog';
-    if (['catalog', 'mylist', 'stock', 'trash'].indexOf(v0) < 0) v0 = 'catalog';
+    if (['catalog', 'mylist', 'stock', 'trash', 'about'].indexOf(v0) < 0) v0 = 'catalog';
     trackLastView = v0;
     track('app_open', { path: location.pathname }, v0);
     // 落地 URL 已经带了 open=，说明这次导航成功，意图不再需要；
@@ -901,23 +901,81 @@
     }
   }
 
-  // 页面加载时主动查一次 SW 更新（配合 updateViaCache:'none'）
-  // 延迟且只在已 activated 时调用，避免安装中的竞态报错
-  if (navigator.serviceWorker && navigator.serviceWorker.getRegistration) {
-    setTimeout(function () {
-      try {
-        navigator.serviceWorker.getRegistration().then(function (r) {
-          if (r && r.active && !r.installing && r.update) {
-            try { r.update(); } catch (e) { }
-          }
-        }).catch(function () { });
-      } catch (e) { }
-    }, 3000);
-  }
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', mount);
   } else {
     mount();
   }
+
+  // ===== 无感自动更新 =====
+  // 体验类似「外部软件静默刷新缓存」：新版本部署后，新 Service Worker 装好即接管，
+  // 页面在用户没操作的瞬间静默重载一次；有操作时只在下次进入/切后台时生效。
+  (function () {
+    if (!('serviceWorker' in navigator)) return;
+    var KEY = 'rb_autoreload_build';
+    var reloading = false;
+    var busy = false;
+
+    function markBusy() { busy = true; setTimeout(function () { busy = false; }, 3000); }
+    ['pointerdown', 'keydown', 'touchstart', 'input'].forEach(function (ev) {
+      document.addEventListener(ev, markBusy, { passive: true, capture: true });
+    });
+
+    // 读页面内嵌的构建戳（scripts_build_catalog.py 写入），用于版本一致性校验
+    function pageBuild() {
+      var m = document.querySelector('meta[name="rb-build"]');
+      return m ? (m.getAttribute('content') || '') : '';
+    }
+    function remoteBuild() {
+      return fetch('./index.html?t=' + Date.now(), { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.text() : ''; })
+        .then(function (t) {
+          var m = /name="rb-build" content="([^"]*)"/.exec(t || '');
+          return m ? m[1] : '';
+        }).catch(function () { return ''; });
+    }
+
+    // 发现线上构建戳与当前页不一致 → 静默重建到最新（改 URL 参数绕开页面 HTTP 缓存）
+    function checkBuild() {
+      if (reloading) return;
+      var cur = pageBuild();
+      if (!cur) return;
+      remoteBuild().then(function (remote) {
+        if (!remote || remote === cur || reloading) return;
+        // 避免同一构建反复刷新
+        if (localStorage.getItem(KEY) === remote) return;
+        localStorage.setItem(KEY, remote);
+        safeReload();
+      });
+    }
+
+    function safeReload() {
+      if (reloading) return;
+      if (busy) { // 用户正在操作，等下次回到前台/下次进入再说
+        try { localStorage.removeItem(KEY); } catch (e) {}
+        return;
+      }
+      reloading = true;
+      var base = location.pathname.replace(/index\.html$/, '');
+      location.replace(base + '?_v=' + Date.now() + (location.hash || ''));
+    }
+
+    // 1) SW 本身更新：新的装好后 activated
+    var first = true;
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (first) { first = false; return; }   // 首次注册的接管不算更新
+      safeReload();
+    });
+    navigator.serviceWorker.addEventListener('registration', function () {});
+
+    // 2) 回到前台时也校验一次（PWA 场景最常触发）
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'visible') checkBuild();
+    });
+
+    // 3) 首次进站延迟校验一次；之后每 10 分钟一次
+    setTimeout(checkBuild, 3500);
+    setInterval(checkBuild, 10 * 60 * 1000);
+  })();
 })();
