@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-08T19:40:22",
+ "generated": "2026-11-08T19:48:21",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "columns": [
@@ -434,7 +434,7 @@
    "unit_price_gbp": 0.89,
    "line_total_gbp": 0.89,
    "used_on": [],
-   "note": "",
+   "note": "家里没有，买不买你定",
    "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
    "product": {
     "name": "Wonky Lemons",
@@ -512,7 +512,7 @@
    "unit_price_gbp": 0.99,
    "line_total_gbp": 0.99,
    "used_on": [],
-   "note": "",
+   "note": "家里没有，买不买你定",
    "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
    "product": {
     "name": "Ginger",
@@ -520,6 +520,33 @@
     "size": "125 g",
     "price_gbp": 0.99,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
+   }
+  },
+  {
+   "category": "调料",
+   "name": "芹菜",
+   "buy_qty": 350.0,
+   "buy_unit": "g",
+   "buy_text": "350g",
+   "packs": 1,
+   "price_gbp": 1.19,
+   "name_en": "Celery Sticks",
+   "name_short": "Celery Sticks",
+   "brand": "NATURE'S PICK",
+   "pack_size": "350 g",
+   "unit_price_gbp": 1.19,
+   "line_total_gbp": 1.19,
+   "used_on": [
+    "11/13"
+   ],
+   "note": "家里没有，买不买你定",
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000340060",
+   "product": {
+    "name": "Celery Sticks",
+    "brand": "NATURE'S PICK",
+    "size": "350 g",
+    "price_gbp": 1.19,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000340060"
    }
   }
  ],
@@ -1498,7 +1525,7 @@
      "unit_price_gbp": 0.89,
      "line_total_gbp": 0.89,
      "used_on": [],
-     "note": "",
+     "note": "家里没有，买不买你定",
      "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
      "product": {
       "name": "Wonky Lemons",
@@ -1576,7 +1603,7 @@
      "unit_price_gbp": 0.99,
      "line_total_gbp": 0.99,
      "used_on": [],
-     "note": "",
+     "note": "家里没有，买不买你定",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
      "product": {
       "name": "Ginger",
@@ -3255,100 +3282,5 @@
    "unavailable": []
   }
  },
- "optional_items": [
-  {
-   "name": "柠檬",
-   "used_on": [
-    "11/8",
-    "11/9",
-    "11/10",
-    "11/13"
-   ],
-   "note": "家里没有；食谱用到，买不买你定"
-  },
-  {
-   "name": "孜然",
-   "used_on": [
-    "11/8",
-    "11/9",
-    "11/12",
-    "11/13"
-   ],
-   "note": "家里没有；食谱用到，买不买你定"
-  },
-  {
-   "name": "食盐",
-   "used_on": [
-    "11/8",
-    "11/9",
-    "11/12",
-    "11/13"
-   ],
-   "note": "家里没有；食谱用到，买不买你定"
-  },
-  {
-   "name": "莳萝",
-   "used_on": [
-    "11/9"
-   ],
-   "note": "家里没有；食谱用到，买不买你定"
-  },
-  {
-   "name": "姜",
-   "used_on": [
-    "11/11",
-    "11/14"
-   ],
-   "note": "家里没有；食谱用到，买不买你定"
-  },
-  {
-   "name": "鸡高汤",
-   "used_on": [
-    "11/11"
-   ],
-   "note": "家里没有；食谱用到，买不买你定"
-  },
-  {
-   "name": "柠檬皮屑",
-   "used_on": [
-    "11/11"
-   ],
-   "note": "家里没有；食谱用到，买不买你定"
-  },
-  {
-   "name": "肉豆蔻粉",
-   "used_on": [
-    "11/11"
-   ],
-   "note": "家里没有；食谱用到，买不买你定"
-  },
-  {
-   "name": "第戎芥末",
-   "used_on": [
-    "11/13"
-   ],
-   "note": "家里没有；食谱用到，买不买你定"
-  },
-  {
-   "name": "柠檬汁",
-   "used_on": [
-    "11/13"
-   ],
-   "note": "家里没有；食谱用到，买不买你定"
-  },
-  {
-   "name": "芹菜",
-   "used_on": [
-    "11/13"
-   ],
-   "note": "家里没有；食谱用到，买不买你定"
-  },
-  {
-   "name": "卡拉马塔橄榄",
-   "used_on": [
-    "11/13"
-   ],
-   "note": "家里没有；食谱用到，买不买你定"
-  }
- ]
+ "optional_items": []
 }
