@@ -80,6 +80,10 @@
     try { localStorage.removeItem(TRACK_KEY); } catch (e) {}
   }
 
+  var SWITCH_KEY = 'rb_switching';
+  function isSwitching() { return ls(SWITCH_KEY, false) === true; }
+  function setSwitching(v) { lss(SWITCH_KEY, !!v); }
+
   function call(fn, body) {
     return fetch(API + '/' + fn, {
       method: 'POST',
@@ -226,6 +230,7 @@
     var r = (remote && remote.items) || {};
     var l = (local && local.items) || {};
     var merged = {};
+    // 键即实体：油 / 油#2 各自独立，不会被同名合并掉
     Object.keys(r).forEach(function (k) { merged[k] = r[k]; });
     Object.keys(l).forEach(function (k) {
       if (!merged[k]) { merged[k] = l[k]; return; }
@@ -294,7 +299,8 @@
         p_family: fam + doc.suffix,
         p_items: pack(doc, readLocal(doc)),
         p_rev: 0,
-        p_token: pw
+        p_token: pw,
+        p_actor: 'user'
       }).then(function (r) {
         if (r.ok) {
           var revs = ls(REV_KEY, {});
@@ -318,7 +324,8 @@
       p_family: fam + doc.suffix,
       p_items: pack(doc, local),
       p_rev: rev,
-      p_token: pw
+      p_token: pw,
+      p_actor: 'user'
     }).then(function (r) {
       if (r.ok) {
         revs[doc.suffix] = r.body.rev;
@@ -336,7 +343,8 @@
               p_family: fam + doc.suffix,
               p_items: pack(doc, local),
               p_rev: g.body.rev,
-              p_token: pw
+              p_token: pw,
+              p_actor: 'user'
             }).then(function (r2) {
               if (r2.ok) { revs[doc.suffix] = r2.body.rev; lss(REV_KEY, revs); clearDirty(doc); return 'ok'; }
               return 'fail';
@@ -565,20 +573,31 @@
       var nb = NBS.filter(function (n) { return n.id === picked; })[0] || NBS[0];
       var famId = nb.fam;
 
-      call('put_family', { p_family: famId, p_token: pw, p_label: nb.name })
+      call('put_family', { p_family: famId, p_token: pw, p_label: nb.name, p_actor: 'user' })
         .then(function (reg) {
           if (!reg.ok && reg.status !== 200) {
-            if (reg.body && reg.body.code === 'PT403') throw new Error('门牌号不对');
-            if (reg.body && reg.body.code === 'PT404') throw new Error('这个家还没开通');
-            throw new Error('连不上服务器，请检查网络');
+            var c = (reg.body && reg.body.code) || '';
+            var m = (reg.body && reg.body.message) || '';
+            if (c === 'PT403') throw new Error('门牌号不对（这个家已用别的口令注册）');
+            if (c === 'PT404') throw new Error('这个家还没开通');
+            if (c === 'PT401') throw new Error('口令不能为空');
+            if (c === 'PT400') throw new Error(m || '请求格式不对');
+            if (c === 'PT413') throw new Error('数据太大，服务器拒收');
+            if (reg.status === 409) throw new Error('多台设备同时在改，请再点一次进入');
+            if (reg.status === 0) throw new Error('连不上服务器，请检查网络');
+            throw new Error((m || '服务器返回错误') + '（HTTP ' + reg.status + (c ? ' ' + c : '') + '）');
           }
           return pull(pw, famId);
+        }).catch(function (e) {
+          if (e instanceof TypeError) throw new Error('连不上服务器，请检查网络');
+          throw e;
         }).then(function (info) {
           if (!info.need.length) return 0;
           return bootstrap(pw, famId, info.need).then(function (n) {
             return pull(pw, famId).then(function () { return n; });
           });
         }).then(function (n) {
+          if (isSwitching()) purgeLocal();
           lss(FAM_KEY, { id: nb.id, name: nb.name, pw: pw, fam: famId });
           try { window.dispatchEvent(new Event('rb:family')); } catch (e) {}
           syncState.pw = pw;
@@ -745,7 +764,8 @@
         p_token: fam.pw,
         p_filename: file.name || 'receipt.jpg',
         p_mime: m[1],
-        p_image_b64: m[2]
+        p_image_b64: m[2],
+        p_actor: 'user'
       }).then(function(r){
         if(!r.ok) return done(new Error((r.body && (r.body.message || r.body.hint)) || '上传失败'));
         done(null, r.body);
@@ -763,9 +783,8 @@
     },
     state: function () { return { on: !!syncState.fam, fam: ls(FAM_KEY, null) }; },
     switchFamily: function () {
-      lss(FAM_KEY, null);
-      purgeLocal();
-      picker(function () { location.reload(); });
+      setSwitching(true);
+      picker(function () { setSwitching(false); location.reload(); });
     },
     logout: function () {
       lss(GATE_KEY, false);
