@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-08 19:48",
+  "updated": "2026-11-08 20:03",
   "note": "该户有定制则优先用这里的清单，没有则回退 week/（全站默认）",
   "sets": [
     {
@@ -8,7 +8,7 @@
       "name": "birmingham-809",
       "family_id": "birmingham",
       "code": "H1-11-05",
-      "updated": "2026-11-08 19:48",
+      "updated": "2026-11-08 20:03",
       "owner": null,
       "menu": "custom/birmingham-809/menu.json",
       "shopping": "custom/birmingham-809/shopping.json",
