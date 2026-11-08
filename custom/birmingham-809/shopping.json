@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-08T19:39:02",
+ "generated": "2026-11-08T19:40:22",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "columns": [
@@ -85,6 +85,7 @@
     "周六",
     "周日"
    ],
+   "note": "耐存，一次买够",
    "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
    "product": {
     "name": "Chickpeas",
@@ -117,6 +118,7 @@
     "周六",
     "周日"
    ],
+   "note": "易坏，分批",
    "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023",
    "product": {
     "name": "British Baby Spinach",
@@ -147,6 +149,7 @@
     "周六",
     "周日"
    ],
+   "note": "易坏，分批",
    "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
    "product": {
     "name": "Scottish Shredded Kale",
@@ -179,6 +182,7 @@
     "周六",
     "周日"
    ],
+   "note": "",
    "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
    "product": {
     "name": "British Large Free Range Eggs 12 Pack",
@@ -206,6 +210,7 @@
     "周二",
     "周六"
    ],
+   "note": "易坏，分批",
    "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
    "product": {
     "name": "British Chestnut Mushrooms",
@@ -234,6 +239,7 @@
     "周五",
     "周日"
    ],
+   "note": "耐存，一次买够",
    "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
    "product": {
     "name": "Tuna Chunks In Spring Water",
@@ -260,6 +266,7 @@
    "used_on": [
     "周三"
    ],
+   "note": "",
    "link": "https://www.aldi.co.uk/search?text=Aubergine",
    "product": {
     "name": "Aubergine",
@@ -288,6 +295,7 @@
     "周四",
     "周日"
    ],
+   "note": "140g 库存已有",
    "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
    "product": {
     "name": "Strawberries",
@@ -314,6 +322,7 @@
    "used_on": [
     "周四"
    ],
+   "note": "",
    "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
    "product": {
     "name": "British Turkey Mince 7% Fat",
@@ -341,6 +350,7 @@
     "周二",
     "周六"
    ],
+   "note": "易坏，分批",
    "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
    "product": {
     "name": "Courgettes",
@@ -370,6 +380,7 @@
     "周五",
     "周日"
    ],
+   "note": "345g 库存已有",
    "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
    "product": {
     "name": "Cucumber",
@@ -398,6 +409,7 @@
     "周五",
     "周六"
    ],
+   "note": "500g 库存已有",
    "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
    "product": {
     "name": "Sweetcorn (Frozen)",
@@ -422,6 +434,7 @@
    "unit_price_gbp": 0.89,
    "line_total_gbp": 0.89,
    "used_on": [],
+   "note": "",
    "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
    "product": {
     "name": "Wonky Lemons",
@@ -449,6 +462,7 @@
     "周二",
     "周六"
    ],
+   "note": "300g 库存已有",
    "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
    "product": {
     "name": "Cod Fillets",
@@ -473,6 +487,7 @@
    "unit_price_gbp": 0.79,
    "line_total_gbp": 0.79,
    "used_on": [],
+   "note": "耐存",
    "link": "https://www.aldi.co.uk/search?text=Cumin",
    "product": {
     "name": "Ground Cumin",
@@ -497,6 +512,7 @@
    "unit_price_gbp": 0.99,
    "line_total_gbp": 0.99,
    "used_on": [],
+   "note": "",
    "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
    "product": {
     "name": "Ginger",
@@ -535,6 +551,7 @@
       "周六",
       "周日"
      ],
+     "note": "耐存，一次买够",
      "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
      "product": {
       "name": "Chickpeas",
@@ -567,6 +584,7 @@
       "周六",
       "周日"
      ],
+     "note": "易坏，分批",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023",
      "product": {
       "name": "British Baby Spinach",
@@ -597,6 +615,7 @@
       "周六",
       "周日"
      ],
+     "note": "易坏，分批",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
      "product": {
       "name": "Scottish Shredded Kale",
@@ -629,6 +648,7 @@
       "周六",
       "周日"
      ],
+     "note": "",
      "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
      "product": {
       "name": "British Large Free Range Eggs 12 Pack",
@@ -656,6 +676,7 @@
       "周二",
       "周六"
      ],
+     "note": "易坏，分批",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
      "product": {
       "name": "British Chestnut Mushrooms",
@@ -684,6 +705,7 @@
       "周五",
       "周日"
      ],
+     "note": "耐存，一次买够",
      "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
      "product": {
       "name": "Tuna Chunks In Spring Water",
@@ -710,6 +732,7 @@
      "used_on": [
       "周三"
      ],
+     "note": "",
      "link": "https://www.aldi.co.uk/search?text=Aubergine",
      "product": {
       "name": "Aubergine",
@@ -738,6 +761,7 @@
       "周四",
       "周日"
      ],
+     "note": "140g 库存已有",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
      "product": {
       "name": "Strawberries",
@@ -764,6 +788,7 @@
      "used_on": [
       "周四"
      ],
+     "note": "",
      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
      "product": {
       "name": "British Turkey Mince 7% Fat",
@@ -792,6 +817,7 @@
       "周五",
       "周六"
      ],
+     "note": "500g 库存已有",
      "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
      "product": {
       "name": "Sweetcorn (Frozen)",
@@ -816,6 +842,7 @@
      "unit_price_gbp": 0.89,
      "line_total_gbp": 0.89,
      "used_on": [],
+     "note": "",
      "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
      "product": {
       "name": "Wonky Lemons",
@@ -843,6 +870,7 @@
       "周二",
       "周六"
      ],
+     "note": "300g 库存已有",
      "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
      "product": {
       "name": "Cod Fillets",
@@ -867,6 +895,7 @@
      "unit_price_gbp": 0.79,
      "line_total_gbp": 0.79,
      "used_on": [],
+     "note": "耐存",
      "link": "https://www.aldi.co.uk/search?text=Cumin",
      "product": {
       "name": "Ground Cumin",
@@ -891,6 +920,7 @@
      "unit_price_gbp": 0.99,
      "line_total_gbp": 0.99,
      "used_on": [],
+     "note": "",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
      "product": {
       "name": "Ginger",
@@ -930,6 +960,7 @@
       "周六",
       "周日"
      ],
+     "note": "易坏，分批",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023",
      "product": {
       "name": "British Baby Spinach",
@@ -960,6 +991,7 @@
       "周六",
       "周日"
      ],
+     "note": "易坏，分批",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
      "product": {
       "name": "Scottish Shredded Kale",
@@ -987,6 +1019,7 @@
       "周二",
       "周六"
      ],
+     "note": "易坏，分批",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
      "product": {
       "name": "British Chestnut Mushrooms",
@@ -1015,6 +1048,7 @@
       "周四",
       "周日"
      ],
+     "note": "140g 库存已有",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
      "product": {
       "name": "Strawberries",
@@ -1042,6 +1076,7 @@
       "周二",
       "周六"
      ],
+     "note": "易坏，分批",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
      "product": {
       "name": "Courgettes",
@@ -1071,6 +1106,7 @@
       "周五",
       "周日"
      ],
+     "note": "345g 库存已有",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
      "product": {
       "name": "Cucumber",
@@ -1113,6 +1149,7 @@
       "周六",
       "周日"
      ],
+     "note": "耐存，一次买够",
      "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
      "product": {
       "name": "Chickpeas",
@@ -1145,6 +1182,7 @@
       "周六",
       "周日"
      ],
+     "note": "易坏，分批",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023",
      "product": {
       "name": "British Baby Spinach",
@@ -1175,6 +1213,7 @@
       "周六",
       "周日"
      ],
+     "note": "易坏，分批",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
      "product": {
       "name": "Scottish Shredded Kale",
@@ -1207,6 +1246,7 @@
       "周六",
       "周日"
      ],
+     "note": "",
      "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
      "product": {
       "name": "British Large Free Range Eggs 12 Pack",
@@ -1234,6 +1274,7 @@
       "周二",
       "周六"
      ],
+     "note": "易坏，分批",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
      "product": {
       "name": "British Chestnut Mushrooms",
@@ -1262,6 +1303,7 @@
       "周五",
       "周日"
      ],
+     "note": "耐存，一次买够",
      "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
      "product": {
       "name": "Tuna Chunks In Spring Water",
@@ -1288,6 +1330,7 @@
      "used_on": [
       "周三"
      ],
+     "note": "",
      "link": "https://www.aldi.co.uk/search?text=Aubergine",
      "product": {
       "name": "Aubergine",
@@ -1316,6 +1359,7 @@
       "周四",
       "周日"
      ],
+     "note": "140g 库存已有",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
      "product": {
       "name": "Strawberries",
@@ -1342,6 +1386,7 @@
      "used_on": [
       "周四"
      ],
+     "note": "",
      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
      "product": {
       "name": "British Turkey Mince 7% Fat",
@@ -1369,6 +1414,7 @@
       "周二",
       "周六"
      ],
+     "note": "易坏，分批",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
      "product": {
       "name": "Courgettes",
@@ -1398,6 +1444,7 @@
       "周五",
       "周日"
      ],
+     "note": "345g 库存已有",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
      "product": {
       "name": "Cucumber",
@@ -1426,6 +1473,7 @@
       "周五",
       "周六"
      ],
+     "note": "500g 库存已有",
      "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
      "product": {
       "name": "Sweetcorn (Frozen)",
@@ -1450,6 +1498,7 @@
      "unit_price_gbp": 0.89,
      "line_total_gbp": 0.89,
      "used_on": [],
+     "note": "",
      "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
      "product": {
       "name": "Wonky Lemons",
@@ -1477,6 +1526,7 @@
       "周二",
       "周六"
      ],
+     "note": "300g 库存已有",
      "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
      "product": {
       "name": "Cod Fillets",
@@ -1501,6 +1551,7 @@
      "unit_price_gbp": 0.79,
      "line_total_gbp": 0.79,
      "used_on": [],
+     "note": "耐存",
      "link": "https://www.aldi.co.uk/search?text=Cumin",
      "product": {
       "name": "Ground Cumin",
@@ -1525,6 +1576,7 @@
      "unit_price_gbp": 0.99,
      "line_total_gbp": 0.99,
      "used_on": [],
+     "note": "",
      "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
      "product": {
       "name": "Ginger",
@@ -1563,6 +1615,7 @@
         "周六",
         "周日"
        ],
+       "note": "耐存，一次买够",
        "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
        "product": {
         "name": "Chickpeas",
@@ -1595,6 +1648,7 @@
         "周六",
         "周日"
        ],
+       "note": "易坏，分批",
        "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023",
        "product": {
         "name": "British Baby Spinach",
@@ -1625,6 +1679,7 @@
         "周六",
         "周日"
        ],
+       "note": "易坏，分批",
        "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
        "product": {
         "name": "Scottish Shredded Kale",
@@ -1657,6 +1712,7 @@
         "周六",
         "周日"
        ],
+       "note": "",
        "link": "https://www.aldi.co.uk/product/merevale-british-large-free-range-eggs-12-pack-000000000000417009",
        "product": {
         "name": "British Large Free Range Eggs 12 Pack",
@@ -1684,6 +1740,7 @@
         "周二",
         "周六"
        ],
+       "note": "易坏，分批",
        "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
        "product": {
         "name": "British Chestnut Mushrooms",
@@ -1712,6 +1769,7 @@
         "周五",
         "周日"
        ],
+       "note": "耐存，一次买够",
        "link": "https://www.aldi.co.uk/product/the-fishmonger-tuna-chunks-in-spring-water-000000000000227567",
        "product": {
         "name": "Tuna Chunks In Spring Water",
@@ -1738,6 +1796,7 @@
        "used_on": [
         "周三"
        ],
+       "note": "",
        "link": "https://www.aldi.co.uk/search?text=Aubergine",
        "product": {
         "name": "Aubergine",
@@ -1766,6 +1825,7 @@
         "周四",
         "周日"
        ],
+       "note": "140g 库存已有",
        "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
        "product": {
         "name": "Strawberries",
@@ -1792,6 +1852,7 @@
        "used_on": [
         "周四"
        ],
+       "note": "",
        "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
        "product": {
         "name": "British Turkey Mince 7% Fat",
@@ -1820,6 +1881,7 @@
         "周五",
         "周六"
        ],
+       "note": "500g 库存已有",
        "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
        "product": {
         "name": "Sweetcorn (Frozen)",
@@ -1844,6 +1906,7 @@
        "unit_price_gbp": 0.89,
        "line_total_gbp": 0.89,
        "used_on": [],
+       "note": "",
        "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
        "product": {
         "name": "Wonky Lemons",
@@ -1871,6 +1934,7 @@
         "周二",
         "周六"
        ],
+       "note": "300g 库存已有",
        "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
        "product": {
         "name": "Cod Fillets",
@@ -1895,6 +1959,7 @@
        "unit_price_gbp": 0.79,
        "line_total_gbp": 0.79,
        "used_on": [],
+       "note": "耐存",
        "link": "https://www.aldi.co.uk/search?text=Cumin",
        "product": {
         "name": "Ground Cumin",
@@ -1919,6 +1984,7 @@
        "unit_price_gbp": 0.99,
        "line_total_gbp": 0.99,
        "used_on": [],
+       "note": "",
        "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
        "product": {
         "name": "Ginger",
@@ -1958,6 +2024,7 @@
         "周六",
         "周日"
        ],
+       "note": "易坏，分批",
        "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-spinach-000000000000340023",
        "product": {
         "name": "British Baby Spinach",
@@ -1988,6 +2055,7 @@
         "周六",
         "周日"
        ],
+       "note": "易坏，分批",
        "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
        "product": {
         "name": "Scottish Shredded Kale",
@@ -2015,6 +2083,7 @@
         "周二",
         "周六"
        ],
+       "note": "易坏，分批",
        "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
        "product": {
         "name": "British Chestnut Mushrooms",
@@ -2043,6 +2112,7 @@
         "周四",
         "周日"
        ],
+       "note": "140g 库存已有",
        "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
        "product": {
         "name": "Strawberries",
@@ -2070,6 +2140,7 @@
         "周二",
         "周六"
        ],
+       "note": "易坏，分批",
        "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
        "product": {
         "name": "Courgettes",
@@ -2099,6 +2170,7 @@
         "周五",
         "周日"
        ],
+       "note": "345g 库存已有",
        "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
        "product": {
         "name": "Cucumber",
@@ -2143,6 +2215,7 @@
       "周六",
       "周日"
      ],
+     "note": "耐存，一次买够",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-chickpeas-215g-130g",
      "product": {
       "name": "Chickpeas 215g (130g drained)",
@@ -2175,6 +2248,7 @@
       "周六",
       "周日"
      ],
+     "note": "易坏，分批",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
       "name": "Young Spinach 260g",
@@ -2205,6 +2279,7 @@
       "周六",
       "周日"
      ],
+     "note": "易坏，分批",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
       "name": "Kale 200g",
@@ -2237,6 +2312,7 @@
       "周六",
       "周日"
      ],
+     "note": "",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
       "name": "Free Range Golden Yolk Eggs x12",
@@ -2264,6 +2340,7 @@
       "周二",
       "周六"
      ],
+     "note": "易坏，分批",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
       "name": "Closed Cup Chestnut Mushrooms 300g",
@@ -2292,6 +2369,7 @@
       "周五",
       "周日"
      ],
+     "note": "耐存，一次买够",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
       "name": "Tuna Chunks in Spring Water 145g",
@@ -2318,6 +2396,7 @@
      "used_on": [
       "周三"
      ],
+     "note": "",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/6026956",
      "product": {
       "name": "Aubergine",
@@ -2346,6 +2425,7 @@
       "周四",
       "周日"
      ],
+     "note": "140g 库存已有",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
       "name": "Strawberries 400g",
@@ -2372,6 +2452,7 @@
      "used_on": [
       "周四"
      ],
+     "note": "",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
       "name": "7% Fat Fresh British Turkey Mince 750g",
@@ -2399,6 +2480,7 @@
       "周二",
       "周六"
      ],
+     "note": "易坏，分批",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
       "name": "Courgettes 500g",
@@ -2428,6 +2510,7 @@
       "周五",
       "周日"
      ],
+     "note": "345g 库存已有",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
       "name": "Whole Cucumber",
@@ -2456,6 +2539,7 @@
       "周五",
       "周六"
      ],
+     "note": "500g 库存已有",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweetcorn-super-sweet-1kg",
      "product": {
       "name": "Sweetcorn, Super Sweet (Frozen)",
@@ -2480,6 +2564,7 @@
      "unit_price_gbp": 1.4,
      "line_total_gbp": 1.4,
      "used_on": [],
+     "note": "",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
       "name": "Lemons 4 Pack",
@@ -2507,6 +2592,7 @@
       "周二",
       "周六"
      ],
+     "note": "300g 库存已有",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
       "name": "Skinless & Boneless Cod Fillets 360g",
@@ -2531,6 +2617,7 @@
      "unit_price_gbp": 1.15,
      "line_total_gbp": 1.15,
      "used_on": [],
+     "note": "耐存",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705",
      "product": {
       "name": "Ground Cumin 43g",
@@ -2555,6 +2642,7 @@
      "unit_price_gbp": 1.25,
      "line_total_gbp": 2.5,
      "used_on": [],
+     "note": "",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/",
      "product": {
       "name": "Ginger 100g",
@@ -2593,6 +2681,7 @@
         "周六",
         "周日"
        ],
+       "note": "耐存，一次买够",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-chickpeas-215g-130g",
        "product": {
         "name": "Chickpeas 215g (130g drained)",
@@ -2625,6 +2714,7 @@
         "周六",
         "周日"
        ],
+       "note": "易坏，分批",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Young Spinach 260g",
@@ -2655,6 +2745,7 @@
         "周六",
         "周日"
        ],
+       "note": "易坏，分批",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Kale 200g",
@@ -2687,6 +2778,7 @@
         "周六",
         "周日"
        ],
+       "note": "",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Free Range Golden Yolk Eggs x12",
@@ -2714,6 +2806,7 @@
         "周二",
         "周六"
        ],
+       "note": "易坏，分批",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Closed Cup Chestnut Mushrooms 300g",
@@ -2742,6 +2835,7 @@
         "周五",
         "周日"
        ],
+       "note": "耐存，一次买够",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Tuna Chunks in Spring Water 145g",
@@ -2768,6 +2862,7 @@
        "used_on": [
         "周三"
        ],
+       "note": "",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/6026956",
        "product": {
         "name": "Aubergine",
@@ -2796,6 +2891,7 @@
         "周四",
         "周日"
        ],
+       "note": "140g 库存已有",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Strawberries 400g",
@@ -2822,6 +2918,7 @@
        "used_on": [
         "周四"
        ],
+       "note": "",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "7% Fat Fresh British Turkey Mince 750g",
@@ -2850,6 +2947,7 @@
         "周五",
         "周六"
        ],
+       "note": "500g 库存已有",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweetcorn-super-sweet-1kg",
        "product": {
         "name": "Sweetcorn, Super Sweet (Frozen)",
@@ -2874,6 +2972,7 @@
        "unit_price_gbp": 1.4,
        "line_total_gbp": 1.4,
        "used_on": [],
+       "note": "",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Lemons 4 Pack",
@@ -2901,6 +3000,7 @@
         "周二",
         "周六"
        ],
+       "note": "300g 库存已有",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Skinless & Boneless Cod Fillets 360g",
@@ -2925,6 +3025,7 @@
        "unit_price_gbp": 1.15,
        "line_total_gbp": 1.15,
        "used_on": [],
+       "note": "耐存",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/7776705",
        "product": {
         "name": "Ground Cumin 43g",
@@ -2949,6 +3050,7 @@
        "unit_price_gbp": 1.25,
        "line_total_gbp": 2.5,
        "used_on": [],
+       "note": "",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Ginger 100g",
@@ -2988,6 +3090,7 @@
         "周六",
         "周日"
        ],
+       "note": "易坏，分批",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Young Spinach 260g",
@@ -3018,6 +3121,7 @@
         "周六",
         "周日"
        ],
+       "note": "易坏，分批",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Kale 200g",
@@ -3045,6 +3149,7 @@
         "周二",
         "周六"
        ],
+       "note": "易坏，分批",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Closed Cup Chestnut Mushrooms 300g",
@@ -3073,6 +3178,7 @@
         "周四",
         "周日"
        ],
+       "note": "140g 库存已有",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Strawberries 400g",
@@ -3100,6 +3206,7 @@
         "周二",
         "周六"
        ],
+       "note": "易坏，分批",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Courgettes 500g",
@@ -3129,6 +3236,7 @@
         "周五",
         "周日"
        ],
+       "note": "345g 库存已有",
        "link": "https://www.sainsburys.co.uk/gol-ui/product/",
        "product": {
         "name": "Whole Cucumber",
