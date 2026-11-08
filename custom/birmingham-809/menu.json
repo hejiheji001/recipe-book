@@ -3,7 +3,7 @@
  "code": "H1-11-05",
  "week": "2026-11-08 – 2026-11-14",
  "family": "伯明翰809",
- "generated": "2026-11-08T20:03:08",
+ "generated": "2026-11-08T20:13:43",
  "source": "健康减肥/01-事实/饮食/餐单.csv + 食谱库.csv",
  "nutrition_basis": "整份（一餐全部食材，非家庭整锅）",
  "servings_hint": 1.0,
@@ -15,8 +15,8 @@
    "weekday": "周日",
    "iso_date": "2026-11-08",
    "theme": "有氧日",
-   "active_min": 27,
-   "total_min": 42,
+   "active_min": 30,
+   "total_min": 45,
    "dishes": [
     {
      "role": "早餐",
@@ -27,37 +27,37 @@
      "ing": [
       {
        "name": "燕麦",
-       "qty": 46.2,
+       "qty": 43.1,
        "unit": "g",
-       "buy": 46.2,
+       "buy": 43.1,
        "whole": null
       },
       {
        "name": "半脱脂奶",
-       "qty": 184.8,
+       "qty": 172.5,
        "unit": "g",
-       "buy": 184.8,
+       "buy": 172.5,
        "whole": null
       },
       {
        "name": "鸡蛋",
-       "qty": 51.3,
+       "qty": 47.9,
        "unit": "g",
-       "buy": 51.3,
-       "whole": "买1个，本餐用51g，余9g 冷藏下次用"
+       "buy": 47.9,
+       "whole": "买1个，本餐用48g，余12g 冷藏下次用"
       },
       {
        "name": "草莓",
-       "qty": 102.7,
+       "qty": 95.8,
        "unit": "g",
-       "buy": 102.7,
+       "buy": 95.8,
        "whole": null
       },
       {
        "name": "杏仁",
-       "qty": 8.2,
+       "qty": 7.7,
        "unit": "g",
-       "buy": 8.2,
+       "buy": 7.7,
        "whole": null
       }
      ],
@@ -65,15 +65,15 @@
       "盐"
      ],
      "nutrition": {
-      "kcal_total": 423.9,
-      "protein_total": 24.0,
-      "fat_total": 14.9,
-      "carb_total": 50.0,
-      "fiber_total": 6.7,
-      "sodium_total": 147.3,
-      "sat_fat_total": 4.4
+      "kcal_total": 395.5,
+      "protein_total": 22.4,
+      "fat_total": 13.9,
+      "carb_total": 46.7,
+      "fiber_total": 6.2,
+      "sodium_total": 137.5,
+      "sat_fat_total": 4.1
      },
-     "edible_grams": 393.2,
+     "edible_grams": 367.0,
      "per100g": {
       "kcal_total": 107.8,
       "protein_total": 6.1,
@@ -85,13 +85,13 @@
      },
      "nutrition_known": true,
      "steps": [
-      "燕麦46.2g+奶184.8g小火煮5分钟",
-      "鸡蛋51.3g水煮",
-      "草莓102.7g对半切、杏仁8.2g撒面。"
+      "燕麦43.1g+奶172.5g小火煮5分钟",
+      "鸡蛋47.9g水煮",
+      "草莓95.8g对半切、杏仁7.7g撒面。"
      ],
-     "serving_g": 393.3,
+     "serving_g": 367.0,
      "recipe_id": "R002",
-     "portion_multiplier": 1.0268
+     "portion_multiplier": 0.9582
     },
     {
      "role": "午餐",
@@ -102,37 +102,37 @@
      "ing": [
       {
        "name": "金枪鱼",
-       "qty": 104.7,
+       "qty": 97.7,
        "unit": "g",
-       "buy": 104.7,
-       "whole": "买2罐，本餐用105g，余99g 冷藏下次用"
+       "buy": 97.7,
+       "whole": "买1罐，本餐用98g，余4g 冷藏下次用"
       },
       {
        "name": "鹰嘴豆",
-       "qty": 133.5,
+       "qty": 124.6,
        "unit": "g",
-       "buy": 133.5,
-       "whole": "买1罐，本餐用133g，余132g 冷藏下次用"
+       "buy": 124.6,
+       "whole": "买1罐，本餐用125g，余140g 冷藏下次用"
       },
       {
        "name": "黄瓜",
-       "qty": 123.2,
+       "qty": 115.0,
        "unit": "g",
-       "buy": 123.2,
-       "whole": "买1根，本餐用123g，余177g 冷藏下次用"
+       "buy": 115.0,
+       "whole": "买1根，本餐用115g，余185g 冷藏下次用"
       },
       {
        "name": "菠菜",
-       "qty": 82.1,
+       "qty": 76.7,
        "unit": "g",
-       "buy": 82.1,
+       "buy": 76.7,
        "whole": null
       },
       {
        "name": "橄榄油",
-       "qty": 5.1,
+       "qty": 4.8,
        "unit": "g",
-       "buy": 5.1,
+       "buy": 4.8,
        "whole": null
       }
      ],
@@ -142,20 +142,20 @@
       "黑胡椒"
      ],
      "nutrition": {
-      "kcal_total": 369.1,
-      "protein_total": 39.7,
-      "fat_total": 8.2,
-      "carb_total": 30.7,
-      "fiber_total": 10.2,
-      "sodium_total": 106.4,
+      "kcal_total": 344.5,
+      "protein_total": 37.1,
+      "fat_total": 7.7,
+      "carb_total": 28.7,
+      "fiber_total": 9.5,
+      "sodium_total": 99.3,
       "sat_fat_total": 0.8
      },
-     "edible_grams": 448.6,
+     "edible_grams": 418.8,
      "per100g": {
       "kcal_total": 82.3,
-      "protein_total": 8.8,
+      "protein_total": 8.9,
       "fat_total": 1.8,
-      "carb_total": 6.8,
+      "carb_total": 6.9,
       "fiber_total": 2.3,
       "sodium_total": 23.7,
       "sat_fat_total": 0.2
@@ -163,83 +163,78 @@
      "nutrition_known": true,
      "steps": [
       "鹰嘴豆70g沥干",
-      "金枪鱼123.2g沥干",
-      "黄瓜123.2g+菠菜82.1g切好",
-      "橄榄油5.1g+柠檬10g+盐黑胡椒拌匀。"
+      "金枪鱼115g沥干",
+      "黄瓜115g+菠菜76.7g切好",
+      "橄榄油4.8g+柠檬10g+盐黑胡椒拌匀。"
      ],
-     "serving_g": 448.7,
+     "serving_g": 418.7,
      "recipe_id": "R013",
-     "portion_multiplier": 1.0268
+     "portion_multiplier": 0.9582
     },
     {
      "role": "晚餐",
-     "name": "鸡胸扁豆罐头菠菜碗",
-     "cook_min": 12,
+     "name": "简易菲达奶酪莳萝煎蛋卷",
+     "cook_min": 15,
      "camera": false,
      "kid_ok": false,
      "ing": [
       {
-       "name": "鸡胸肉",
-       "qty": 205.4,
+       "name": "鸡蛋",
+       "qty": 175.4,
        "unit": "g",
-       "buy": 205.4,
+       "buy": 175.4,
+       "whole": "买3个，本餐用175g，余5g 冷藏下次用"
+      },
+      {
+       "name": "菲达奶酪",
+       "qty": 24.9,
+       "unit": "g",
+       "buy": 24.9,
        "whole": null
       },
       {
-       "name": "扁豆罐头",
-       "qty": 246.4,
+       "name": "羽衣甘蓝",
+       "qty": 239.6,
        "unit": "g",
-       "buy": 246.4,
-       "whole": null
-      },
-      {
-       "name": "菠菜",
-       "qty": 205.4,
-       "unit": "g",
-       "buy": 205.4,
-       "whole": null
-      },
-      {
-       "name": "橄榄油",
-       "qty": 2.1,
-       "unit": "g",
-       "buy": 2.1,
+       "buy": 239.6,
        "whole": null
       }
      ],
      "pantry": [
-      "盐",
-      "大蒜",
-      "黑胡椒"
+      "黑胡椒",
+      "食盐",
+      "黄油",
+      "莳萝"
      ],
      "nutrition": {
-      "kcal_total": 520.4,
-      "protein_total": 71.0,
-      "fat_total": 8.0,
-      "carb_total": 37.4,
-      "fiber_total": 14.3,
-      "sodium_total": 296.7,
-      "sat_fat_total": 1.3
+      "kcal_total": 582.6,
+      "protein_total": 41.6,
+      "fat_total": 32.1,
+      "carb_total": 19.4,
+      "fiber_total": 8.0,
+      "sodium_total": 1226.5,
+      "sat_fat_total": 10.2
      },
-     "edible_grams": 659.3,
+     "edible_grams": 439.9,
      "per100g": {
-      "kcal_total": 78.9,
-      "protein_total": 10.8,
-      "fat_total": 1.2,
-      "carb_total": 5.7,
-      "fiber_total": 2.2,
-      "sodium_total": 45.0,
-      "sat_fat_total": 0.2
+      "kcal_total": 132.4,
+      "protein_total": 9.5,
+      "fat_total": 7.3,
+      "carb_total": 4.4,
+      "fiber_total": 1.8,
+      "sodium_total": 278.8,
+      "sat_fat_total": 2.3
      },
      "nutrition_known": true,
      "steps": [
-      "鸡胸肉205.4g切条用盐0.5g和黑胡椒1g腌5分钟",
-      "扁豆罐头246.4g开罐沥干，直接备用（罐头已熟，无需煮）",
-      "热锅橄榄油2.1g下蒜5g炒香，鸡胸煎4分钟，加扁豆罐头和菠菜205.4g翻炒2分钟，补盐0.3g。"
+      "在碗中搅打鸡蛋、胡椒和盐，至鸡蛋完全混合、混合物呈纯黄色。",
+      "在煎锅中以中高火融化黄油，转动锅使锅底裹匀。加入蛋液，用橡皮刮刀以画圈动作轻轻搅拌并刮起锅底，至开始形成大凝块、锅底出现裸露处，约 20 秒。",
+      "倾斜煎锅，让未熟的蛋液填满裸露处。用刮刀沿锅边划一圈，将已熟的蛋推向锅边。静置不动烹煮至蛋卷底部刚凝固但表面仍略湿润，约 30 秒。",
+      "将煎锅离火。在蛋卷的一半上撒上菲达奶酪和莳萝。盖上盖子静置至奶酪融化，约 1 分钟。将未填馅的一半翻盖在填馅的一半上，形成半月形。一手持盘，倾斜煎锅将蛋卷滑入盘中。上桌。"
      ],
-     "serving_g": 666.4,
-     "recipe_id": "R100",
-     "portion_multiplier": 1.0268
+     "serving_g": 459.9,
+     "recipe_id": "R041",
+     "portion_multiplier": 0.9582
     },
     {
      "role": "加餐",
@@ -250,34 +245,34 @@
      "ing": [
       {
        "name": "苹果",
-       "qty": 123.2,
+       "qty": 115.0,
        "unit": "g",
-       "buy": 123.2,
-       "whole": "买1个，本餐用123g，余10g 冷藏下次用"
+       "buy": 115.0,
+       "whole": "买1个，本餐用115g，余18g 冷藏下次用"
       },
       {
        "name": "杏仁",
-       "qty": 12.3,
+       "qty": 11.5,
        "unit": "g",
-       "buy": 12.3,
+       "buy": 11.5,
        "whole": null
       }
      ],
      "pantry": [],
      "nutrition": {
-      "kcal_total": 136.6,
-      "protein_total": 3.3,
-      "fat_total": 5.9,
-      "carb_total": 19.8,
-      "fiber_total": 3.1,
-      "sodium_total": 2.7,
+      "kcal_total": 127.4,
+      "protein_total": 3.1,
+      "fat_total": 5.5,
+      "carb_total": 18.5,
+      "fiber_total": 2.9,
+      "sodium_total": 2.5,
       "sat_fat_total": 0.5
      },
-     "edible_grams": 135.5,
+     "edible_grams": 126.5,
      "per100g": {
-      "kcal_total": 100.8,
-      "protein_total": 2.4,
-      "fat_total": 4.4,
+      "kcal_total": 100.7,
+      "protein_total": 2.5,
+      "fat_total": 4.3,
       "carb_total": 14.6,
       "fiber_total": 2.3,
       "sodium_total": 2.0,
@@ -285,69 +280,64 @@
      },
      "nutrition_known": true,
      "steps": [
-      "苹果123.2g洗净带皮直接吃",
-      "杏仁12.3g抓一把。"
+      "苹果115g洗净带皮直接吃",
+      "杏仁11.5g抓一把。"
      ],
-     "serving_g": 135.5,
+     "serving_g": 126.5,
      "recipe_id": "R019",
-     "portion_multiplier": 1.0268
+     "portion_multiplier": 0.9582
     }
    ],
    "prep": {
     "zones": [
      {
-      "zone": "冷冻",
-      "items": [
-       {
-        "name": "鸡胸肉",
-        "qty": 205.4,
-        "unit": "g",
-        "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
-       }
-      ]
-     },
-     {
       "zone": "冷藏",
       "items": [
        {
         "name": "半脱脂奶",
-        "qty": 184.8,
+        "qty": 172.5,
         "unit": "g",
         "hint": ""
        },
        {
         "name": "鸡蛋",
-        "qty": 51.3,
+        "qty": 223.3,
         "unit": "g",
         "hint": ""
        },
        {
         "name": "草莓",
-        "qty": 102.7,
+        "qty": 95.8,
         "unit": "g",
         "hint": "易坏，3 天内吃完"
        },
        {
         "name": "鹰嘴豆",
-        "qty": 133.5,
+        "qty": 124.6,
         "unit": "g",
         "hint": "罐头已熟，开罐沥干即可；冷藏 3 天内吃完"
        },
        {
         "name": "黄瓜",
-        "qty": 123.2,
+        "qty": 115.0,
         "unit": "g",
         "hint": "冷藏，一周内吃完"
        },
        {
         "name": "菠菜",
-        "qty": 287.5,
+        "qty": 76.7,
+        "unit": "g",
+        "hint": "易坏，3 天内吃完"
+       },
+       {
+        "name": "羽衣甘蓝",
+        "qty": 239.6,
         "unit": "g",
         "hint": "易坏，3 天内吃完"
        },
        {
         "name": "苹果",
-        "qty": 123.2,
+        "qty": 115.0,
         "unit": "g",
         "hint": ""
        }
@@ -358,31 +348,31 @@
       "items": [
        {
         "name": "燕麦",
-        "qty": 46.2,
+        "qty": 43.1,
         "unit": "g",
         "hint": ""
        },
        {
         "name": "杏仁",
-        "qty": 20.5,
+        "qty": 19.2,
         "unit": "g",
         "hint": ""
        },
        {
         "name": "金枪鱼",
-        "qty": 104.7,
+        "qty": 97.7,
         "unit": "g",
         "hint": "罐头已熟，开罐沥干即可；冷藏 3 天内吃完"
        },
        {
         "name": "橄榄油",
-        "qty": 7.2,
+        "qty": 4.8,
         "unit": "g",
         "hint": ""
        },
        {
-        "name": "扁豆罐头",
-        "qty": 246.4,
+        "name": "菲达奶酪",
+        "qty": 24.9,
         "unit": "g",
         "hint": ""
        }
@@ -393,10 +383,14 @@
      "盐",
      "柠檬",
      "黑胡椒",
-     "大蒜"
+     "食盐",
+     "黄油",
+     "莳萝"
     ],
     "missing_pantry": [
-     "柠檬"
+     "柠檬",
+     "食盐",
+     "莳萝"
     ]
    },
    "take_order": [
@@ -409,13 +403,13 @@
         {
          "name": "燕麦",
          "hint": "",
-         "qty": 46.2,
+         "qty": 43.1,
          "unit": "g"
         },
         {
          "name": "杏仁",
          "hint": "",
-         "qty": 8.2,
+         "qty": 7.7,
          "unit": "g"
         }
        ]
@@ -426,20 +420,20 @@
         {
          "name": "半脱脂奶",
          "hint": "",
-         "qty": 184.8,
+         "qty": 172.5,
          "unit": "g"
         },
         {
          "name": "鸡蛋",
          "hint": "",
-         "qty": 0.9,
+         "qty": 0.8,
          "unit": "个",
-         "note": "51g"
+         "note": "48g"
         },
         {
          "name": "草莓",
          "hint": "易坏，3 天内吃完",
-         "qty": 102.7,
+         "qty": 95.8,
          "unit": "g"
         }
        ]
@@ -455,26 +449,26 @@
         {
          "name": "金枪鱼",
          "hint": "罐头已熟，开罐沥干即可；冷藏 3 天内吃完",
-         "qty": 104.7,
+         "qty": 97.7,
          "unit": "g",
          "note": "沥干重 · 约 1.0 罐（每罐 145g 毛重 / 沥干 102g）"
         },
         {
          "name": "橄榄油",
          "hint": "",
-         "qty": 7.2,
+         "qty": 4.8,
          "unit": "g"
         },
         {
-         "name": "扁豆罐头",
+         "name": "菲达奶酪",
          "hint": "",
-         "qty": 246.4,
+         "qty": 24.9,
          "unit": "g"
         },
         {
          "name": "杏仁",
          "hint": "",
-         "qty": 12.3,
+         "qty": 11.5,
          "unit": "g"
         }
        ]
@@ -485,37 +479,39 @@
         {
          "name": "鹰嘴豆",
          "hint": "罐头已熟，开罐沥干即可；冷藏 3 天内吃完",
-         "qty": 133.5,
+         "qty": 124.6,
          "unit": "g",
          "note": "沥干重 · 约 0.5 罐（每罐 400g 毛重 / 沥干 265g）"
         },
         {
          "name": "黄瓜",
          "hint": "冷藏，一周内吃完",
-         "qty": 123.2,
+         "qty": 115.0,
          "unit": "g"
         },
         {
          "name": "菠菜",
          "hint": "易坏，3 天内吃完",
-         "qty": 287.5,
+         "qty": 76.7,
+         "unit": "g"
+        },
+        {
+         "name": "鸡蛋",
+         "hint": "",
+         "qty": 2.9,
+         "unit": "个",
+         "note": "175g"
+        },
+        {
+         "name": "羽衣甘蓝",
+         "hint": "易坏，3 天内吃完",
+         "qty": 239.6,
          "unit": "g"
         },
         {
          "name": "苹果",
          "hint": "",
-         "qty": 123.2,
-         "unit": "g"
-        }
-       ]
-      },
-      {
-       "zone": "冷冻",
-       "items": [
-        {
-         "name": "鸡胸肉",
-         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
-         "qty": 205.4,
+         "qty": 115.0,
          "unit": "g"
         }
        ]
@@ -524,31 +520,22 @@
     }
    ],
    "cook": {
-    "span_min": 20,
-    "hands_min": 22,
+    "span_min": 26,
+    "hands_min": 26,
     "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
     "merged_dishes": [
-     "鸡胸扁豆罐头菠菜碗",
      "金枪鱼鹰嘴豆沙拉",
+     "简易菲达奶酪莳萝煎蛋卷",
      "苹果杏仁"
     ],
     "timeline": [
-     {
-      "t": 0.0,
-      "dur": 5.0,
-      "kind": "soak",
-      "dish": "鸡胸扁豆罐头菠菜碗",
-      "role": "提前",
-      "text": "提前：鸡胸肉205.36g切条用盐0.5g和黑胡椒1g腌5分钟（回温期间做午餐）",
-      "hands": 1.0
-     },
      {
       "t": 0.0,
       "dur": 2.5,
       "kind": "prep",
       "dish": "金枪鱼鹰嘴豆沙拉",
       "role": "午餐",
-      "text": "鹰嘴豆133.484g沥干",
+      "text": "鹰嘴豆124.566g沥干",
       "hands": 2.5
      },
      {
@@ -557,7 +544,7 @@
       "kind": "prep",
       "dish": "金枪鱼鹰嘴豆沙拉",
       "role": "午餐",
-      "text": "金枪鱼104.734g沥干",
+      "text": "金枪鱼97.7364g沥干",
       "hands": 2.5
      },
      {
@@ -566,7 +553,7 @@
       "kind": "prep",
       "dish": "金枪鱼鹰嘴豆沙拉",
       "role": "午餐",
-      "text": "黄瓜123.216g+菠菜82.144g切好",
+      "text": "黄瓜114.984g+菠菜76.656g切好",
       "hands": 2.5
      },
      {
@@ -575,43 +562,61 @@
       "kind": "finish",
       "dish": "金枪鱼鹰嘴豆沙拉",
       "role": "午餐",
-      "text": "橄榄油5.134g+柠檬10g+盐黑胡椒拌匀。",
+      "text": "橄榄油4.791g+柠檬10g+盐黑胡椒拌匀。",
       "hands": 0.5
      },
      {
       "t": 8.0,
       "dur": 3.5,
       "kind": "prep",
-      "dish": "鸡胸扁豆罐头菠菜碗",
+      "dish": "简易菲达奶酪莳萝煎蛋卷",
       "role": "午餐",
-      "text": "扁豆罐头246.432g开罐沥干，直接备用（罐头已熟，无需煮）",
+      "text": "在碗中搅打鸡蛋、胡椒和盐，至鸡蛋完全混合、混合物呈纯黄色。",
       "hands": 3.5
      },
      {
       "t": 11.5,
       "dur": 4.0,
       "kind": "watch",
-      "dish": "鸡胸扁豆罐头菠菜碗",
+      "dish": "简易菲达奶酪莳萝煎蛋卷",
       "role": "午餐",
-      "text": "热锅橄榄油2.0536g下蒜5g炒香，鸡胸煎4分钟，加扁豆罐头和菠菜205.36g翻炒2分钟，补盐0.3g。",
+      "text": "在煎锅中以中高火融化黄油，转动锅使锅底裹匀。加入蛋液，用橡皮刮刀以画圈动作轻轻搅拌并刮起锅底，至开始形成大凝块、锅底出现裸露处，约 20 秒。",
       "hands": 4.0
      },
      {
       "t": 15.5,
+      "dur": 4.0,
+      "kind": "watch",
+      "dish": "简易菲达奶酪莳萝煎蛋卷",
+      "role": "午餐",
+      "text": "倾斜煎锅，让未熟的蛋液填满裸露处。用刮刀沿锅边划一圈，将已熟的蛋推向锅边。静置不动烹煮至蛋卷底部刚凝固但表面仍略湿润，约 30 秒。",
+      "hands": 4.0
+     },
+     {
+      "t": 19.5,
+      "dur": 1.0,
+      "kind": "watch",
+      "dish": "简易菲达奶酪莳萝煎蛋卷",
+      "role": "午餐",
+      "text": "将煎锅离火。在蛋卷的一半上撒上菲达奶酪和莳萝。盖上盖子静置至奶酪融化，约 1 分钟。将未填馅的一半翻盖在填馅的一半上，形成半月形。一手持盘，倾斜煎锅将蛋卷滑入盘中。上桌。",
+      "hands": 1.0
+     },
+     {
+      "t": 20.5,
       "dur": 2.5,
       "kind": "prep",
       "dish": "苹果杏仁",
       "role": "加餐",
-      "text": "苹果123.216g洗净带皮直接吃",
+      "text": "苹果114.984g洗净带皮直接吃",
       "hands": 2.5
      },
      {
-      "t": 18.0,
+      "t": 23.0,
       "dur": 2.5,
       "kind": "prep",
       "dish": "苹果杏仁",
       "role": "加餐",
-      "text": "杏仁12.3216g抓一把。",
+      "text": "杏仁11.4984g抓一把。",
       "hands": 2.5
      }
     ]
@@ -1762,37 +1767,37 @@
    "dishes": [
     {
      "role": "早餐",
-     "name": "鸡蛋菠菜燕麦饼",
+     "name": "玉米鸡蛋菠菜碗",
      "cook_min": 8,
      "camera": false,
      "kid_ok": false,
      "ing": [
       {
-       "name": "燕麦",
-       "qty": 37.1,
+       "name": "玉米粒",
+       "qty": 143.6,
        "unit": "g",
-       "buy": 37.1,
+       "buy": 143.6,
        "whole": null
       },
       {
        "name": "鸡蛋",
-       "qty": 98.9,
+       "qty": 114.9,
        "unit": "g",
-       "buy": 98.9,
-       "whole": "买2个，本餐用99g，余21g 冷藏下次用"
+       "buy": 114.9,
+       "whole": "买2个，本餐用115g，余5g 冷藏下次用"
       },
       {
        "name": "菠菜",
-       "qty": 82.4,
+       "qty": 114.9,
        "unit": "g",
-       "buy": 82.4,
+       "buy": 114.9,
        "whole": null
       },
       {
        "name": "橄榄油",
-       "qty": 3.3,
+       "qty": 3.8,
        "unit": "g",
-       "buy": 3.3,
+       "buy": 3.8,
        "whole": null
       }
      ],
@@ -1800,67 +1805,139 @@
       "盐"
      ],
      "nutrition": {
-      "kcal_total": 334.4,
-      "protein_total": 21.3,
-      "fat_total": 14.6,
-      "carb_total": 30.7,
-      "fiber_total": 5.4,
-      "sodium_total": 201.0,
-      "sat_fat_total": 4.0
+      "kcal_total": 335.5,
+      "protein_total": 21.4,
+      "fat_total": 15.3,
+      "carb_total": 28.1,
+      "fiber_total": 4.8,
+      "sodium_total": 256.1,
+      "sat_fat_total": 4.4
      },
-     "edible_grams": 221.7,
+     "edible_grams": 377.2,
      "per100g": {
-      "kcal_total": 150.8,
-      "protein_total": 9.6,
-      "fat_total": 6.6,
-      "carb_total": 13.8,
-      "fiber_total": 2.4,
-      "sodium_total": 90.7,
-      "sat_fat_total": 1.8
+      "kcal_total": 88.9,
+      "protein_total": 5.7,
+      "fat_total": 4.1,
+      "carb_total": 7.4,
+      "fiber_total": 1.3,
+      "sodium_total": 67.9,
+      "sat_fat_total": 1.2
      },
      "nutrition_known": true,
      "steps": [
-      "燕麦37.1g用少量热水泡5分钟",
-      "鸡蛋98.9g打散拌入燕麦和切碎的菠菜82.4g，加盐",
-      "平底锅橄榄油3.3g中火两面各煎3分钟。"
+      "玉米粒143.6g沥干，橄榄油2g翻炒3分钟",
+      "鸡蛋114.9g打散倒入炒成蛋块",
+      "菠菜114.9g下锅炒软1分钟",
+      "余油加盐0.4g拌匀装碗。"
      ],
-     "serving_g": 221.7,
-     "recipe_id": "R003",
-     "portion_multiplier": 0.824
+     "serving_g": 377.3,
+     "recipe_id": "R023",
+     "portion_multiplier": 0.9575
     },
     {
      "role": "午餐",
-     "name": "鸡胸扁豆罐头菠菜碗",
+     "name": "羊肉菠菜土豆",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "羊肉",
+       "qty": 95.8,
+       "unit": "g",
+       "buy": 95.8,
+       "whole": null
+      },
+      {
+       "name": "菠菜",
+       "qty": 143.6,
+       "unit": "g",
+       "buy": 143.6,
+       "whole": null
+      },
+      {
+       "name": "土豆",
+       "qty": 95.8,
+       "unit": "g",
+       "buy": 95.8,
+       "whole": null
+      },
+      {
+       "name": "橄榄油",
+       "qty": 2.9,
+       "unit": "g",
+       "buy": 2.9,
+       "whole": null
+      }
+     ],
+     "pantry": [
+      "盐",
+      "大蒜",
+      "孜然"
+     ],
+     "nutrition": {
+      "kcal_total": 276.7,
+      "protein_total": 23.9,
+      "fat_total": 9.7,
+      "carb_total": 25.1,
+      "fiber_total": 3.5,
+      "sodium_total": 214.1,
+      "sat_fat_total": 3.1
+     },
+     "edible_grams": 338.1,
+     "per100g": {
+      "kcal_total": 81.8,
+      "protein_total": 7.1,
+      "fat_total": 2.9,
+      "carb_total": 7.4,
+      "fiber_total": 1.0,
+      "sodium_total": 63.3,
+      "sat_fat_total": 0.9
+     },
+     "nutrition_known": true,
+     "steps": [
+      "土豆95.8g切块煮8分钟",
+      "蒜5g爆香，羊肉95.8g炒变色",
+      "加扁豆60g+孜然1g+水143.6ml炖8分钟",
+      "菠菜143.6g最后1分钟，加盐。"
+     ],
+     "serving_g": 338.0,
+     "recipe_id": "R018",
+     "portion_multiplier": 0.9575
+    },
+    {
+     "role": "晚餐",
+     "name": "鸡胸扁豆菠菜碗",
      "cook_min": 12,
      "camera": false,
      "kid_ok": false,
      "ing": [
       {
        "name": "鸡胸肉",
-       "qty": 164.8,
+       "qty": 191.5,
        "unit": "g",
-       "buy": 164.8,
+       "buy": 191.5,
        "whole": null
       },
       {
-       "name": "扁豆罐头",
-       "qty": 197.8,
+       "name": "扁豆",
+       "qty": 229.8,
        "unit": "g",
-       "buy": 197.8,
-       "whole": null
+       "buy": 229.8,
+       "whole": "买1罐，本餐用230g，余10g 冷藏下次用"
       },
       {
        "name": "菠菜",
-       "qty": 164.8,
+       "qty": 191.5,
        "unit": "g",
-       "buy": 164.8,
+       "buy": 191.5,
        "whole": null
       },
       {
        "name": "橄榄油",
-       "qty": 1.6,
+       "qty": 1.9,
        "unit": "g",
-       "buy": 1.6,
+       "buy": 1.9,
        "whole": null
       }
      ],
@@ -1870,15 +1947,15 @@
       "黑胡椒"
      ],
      "nutrition": {
-      "kcal_total": 417.6,
-      "protein_total": 56.9,
-      "fat_total": 6.4,
-      "carb_total": 30.0,
-      "fiber_total": 11.5,
-      "sodium_total": 238.1,
-      "sat_fat_total": 1.1
+      "kcal_total": 485.3,
+      "protein_total": 66.2,
+      "fat_total": 7.5,
+      "carb_total": 34.9,
+      "fiber_total": 13.3,
+      "sodium_total": 276.5,
+      "sat_fat_total": 1.2
      },
-     "edible_grams": 529.0,
+     "edible_grams": 614.7,
      "per100g": {
       "kcal_total": 78.9,
       "protein_total": 10.8,
@@ -1890,92 +1967,13 @@
      },
      "nutrition_known": true,
      "steps": [
-      "鸡胸肉164.8g切条用盐0.5g和黑胡椒1g腌5分钟",
-      "扁豆罐头197.8g开罐沥干，直接备用（罐头已熟，无需煮）",
-      "热锅橄榄油1.6g下蒜5g炒香，鸡胸煎4分钟，加扁豆罐头和菠菜164.8g翻炒2分钟，补盐0.3g。"
+      "鸡胸肉191.5g切条用盐0.5g和黑胡椒1g腌5分钟",
+      "扁豆229.8g开罐沥干，直接备用（罐头已熟，无需煮）",
+      "热锅橄榄油1.9g下蒜5g炒香，鸡胸煎4分钟，加扁豆和菠菜191.5g翻炒2分钟，补盐0.3g。"
      ],
-     "serving_g": 534.8,
-     "recipe_id": "R100",
-     "portion_multiplier": 0.824
-    },
-    {
-     "role": "晚餐",
-     "name": "鸡腿蘑菇藜麦饭",
-     "cook_min": 15,
-     "camera": false,
-     "kid_ok": false,
-     "ing": [
-      {
-       "name": "鸡腿肉",
-       "qty": 90.6,
-       "unit": "g",
-       "buy": 90.6,
-       "whole": null
-      },
-      {
-       "name": "藜麦",
-       "qty": 81.6,
-       "unit": "g",
-       "buy": 81.6,
-       "whole": null
-      },
-      {
-       "name": "蘑菇",
-       "qty": 98.9,
-       "unit": "g",
-       "buy": 98.9,
-       "whole": null
-      },
-      {
-       "name": "羽衣甘蓝",
-       "qty": 49.4,
-       "unit": "g",
-       "buy": 49.4,
-       "whole": null
-      },
-      {
-       "name": "橄榄油",
-       "qty": 4.1,
-       "unit": "g",
-       "buy": 4.1,
-       "whole": null
-      }
-     ],
-     "pantry": [
-      "盐",
-      "姜",
-      "大蒜"
-     ],
-     "nutrition": {
-      "kcal_total": 359.8,
-      "protein_total": 28.9,
-      "fat_total": 13.2,
-      "carb_total": 29.3,
-      "fiber_total": 5.2,
-      "sodium_total": 120.0,
-      "sat_fat_total": 2.4
-     },
-     "edible_grams": 324.6,
-     "per100g": {
-      "kcal_total": 110.8,
-      "protein_total": 8.9,
-      "fat_total": 4.1,
-      "carb_total": 9.0,
-      "fiber_total": 1.6,
-      "sodium_total": 37.0,
-      "sat_fat_total": 0.7
-     },
-     "nutrition_known": true,
-     "steps": [
-      "熟藜麦81.6g（预熟袋装）微波高火1分钟",
-      "鸡腿90.6g切块，姜3g蒜4.1g爆香煎5分钟",
-      "蘑菇98.9g切片炒出水",
-      "羽衣甘蓝49.4g最后2分钟",
-      "拌入熟藜麦，加盐。"
-     ],
-     "serving_g": 324.7,
-     "recipe_id": "R011",
-     "portion_multiplier": 0.824
+     "serving_g": 614.7,
+     "recipe_id": "R024",
+     "portion_multiplier": 0.9575
     },
     {
      "role": "加餐",
@@ -1986,47 +1984,47 @@
      "ing": [
       {
        "name": "半脱脂奶",
-       "qty": 123.6,
+       "qty": 143.6,
        "unit": "g",
-       "buy": 123.6,
+       "buy": 143.6,
        "whole": null
       },
       {
        "name": "草莓",
-       "qty": 82.4,
+       "qty": 95.8,
        "unit": "g",
-       "buy": 82.4,
+       "buy": 95.8,
        "whole": null
       }
      ],
      "pantry": [],
      "nutrition": {
-      "kcal_total": 88.2,
-      "protein_total": 5.3,
-      "fat_total": 2.4,
-      "carb_total": 11.8,
-      "fiber_total": 0.9,
-      "sodium_total": 52.9,
-      "sat_fat_total": 1.3
+      "kcal_total": 102.5,
+      "protein_total": 6.1,
+      "fat_total": 2.8,
+      "carb_total": 13.7,
+      "fiber_total": 1.1,
+      "sodium_total": 61.5,
+      "sat_fat_total": 1.5
      },
-     "edible_grams": 206.0,
+     "edible_grams": 239.4,
      "per100g": {
       "kcal_total": 42.8,
-      "protein_total": 2.6,
+      "protein_total": 2.5,
       "fat_total": 1.2,
       "carb_total": 5.7,
-      "fiber_total": 0.4,
+      "fiber_total": 0.5,
       "sodium_total": 25.7,
       "sat_fat_total": 0.6
      },
      "nutrition_known": true,
      "steps": [
-      "半脱脂奶123.6ml倒杯",
-      "草莓82.4g洗净对半切。"
+      "半脱脂奶143.6ml倒杯",
+      "草莓95.8g洗净对半切。"
      ],
-     "serving_g": 206.0,
+     "serving_g": 239.4,
      "recipe_id": "R020",
-     "portion_multiplier": 0.824
+     "portion_multiplier": 0.9575
     }
    ],
    "prep": {
@@ -2035,14 +2033,14 @@
       "zone": "冷冻",
       "items": [
        {
-        "name": "鸡胸肉",
-        "qty": 164.8,
+        "name": "玉米粒",
+        "qty": 143.6,
         "unit": "g",
-        "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
+        "hint": ""
        },
        {
-        "name": "鸡腿肉",
-        "qty": 90.6,
+        "name": "鸡胸肉",
+        "qty": 191.5,
         "unit": "g",
         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
        }
@@ -2053,37 +2051,25 @@
       "items": [
        {
         "name": "鸡蛋",
-        "qty": 98.9,
+        "qty": 114.9,
         "unit": "g",
         "hint": ""
        },
        {
         "name": "菠菜",
-        "qty": 247.2,
-        "unit": "g",
-        "hint": "易坏，3 天内吃完"
-       },
-       {
-        "name": "蘑菇",
-        "qty": 98.9,
-        "unit": "g",
-        "hint": "易坏，3 天内吃完"
-       },
-       {
-        "name": "羽衣甘蓝",
-        "qty": 49.4,
+        "qty": 450.0,
         "unit": "g",
         "hint": "易坏，3 天内吃完"
        },
        {
         "name": "半脱脂奶",
-        "qty": 123.6,
+        "qty": 143.6,
         "unit": "g",
         "hint": ""
        },
        {
         "name": "草莓",
-        "qty": 82.4,
+        "qty": 95.8,
         "unit": "g",
         "hint": "易坏，3 天内吃完"
        }
@@ -2093,28 +2079,28 @@
       "zone": "室温",
       "items": [
        {
-        "name": "燕麦",
-        "qty": 37.1,
-        "unit": "g",
-        "hint": ""
-       },
-       {
         "name": "橄榄油",
-        "qty": 9.0,
+        "qty": 8.6,
         "unit": "g",
         "hint": ""
        },
        {
-        "name": "扁豆罐头",
-        "qty": 197.8,
+        "name": "羊肉",
+        "qty": 95.8,
         "unit": "g",
         "hint": ""
        },
        {
-        "name": "藜麦",
-        "qty": 81.6,
+        "name": "土豆",
+        "qty": 95.8,
         "unit": "g",
         "hint": ""
+       },
+       {
+        "name": "扁豆",
+        "qty": 229.8,
+        "unit": "g",
+        "hint": "罐头已熟，开罐沥干即可；冷藏 3 天内吃完"
        }
       ]
      }
@@ -2122,11 +2108,11 @@
     "pantry": [
      "盐",
      "大蒜",
-     "黑胡椒",
-     "姜"
+     "孜然",
+     "黑胡椒"
     ],
     "missing_pantry": [
-     "姜"
+     "孜然"
     ]
    },
    "take_order": [
@@ -2137,15 +2123,9 @@
        "zone": "室温",
        "items": [
         {
-         "name": "燕麦",
-         "hint": "",
-         "qty": 37.1,
-         "unit": "g"
-        },
-        {
          "name": "橄榄油",
          "hint": "",
-         "qty": 3.3,
+         "qty": 3.8,
          "unit": "g"
         }
        ]
@@ -2156,15 +2136,27 @@
         {
          "name": "鸡蛋",
          "hint": "",
-         "qty": 1.6,
+         "qty": 1.9,
          "unit": "个",
-         "note": "99g"
+         "note": "115g"
         },
         {
          "name": "菠菜",
          "hint": "易坏，3 天内吃完",
-         "qty": 82.4,
+         "qty": 114.9,
          "unit": "g"
+        }
+       ]
+      },
+      {
+       "zone": "冷冻",
+       "items": [
+        {
+         "name": "玉米粒",
+         "hint": "",
+         "qty": 143.6,
+         "unit": "g",
+         "note": "沥干重 · 约 0.8 罐（每罐 285g 毛重 / 沥干 175g）"
         }
        ]
       }
@@ -2177,22 +2169,29 @@
        "zone": "室温",
        "items": [
         {
-         "name": "扁豆罐头",
+         "name": "羊肉",
          "hint": "",
-         "qty": 197.8,
+         "qty": 95.8,
+         "unit": "g"
+        },
+        {
+         "name": "土豆",
+         "hint": "",
+         "qty": 95.8,
          "unit": "g"
         },
         {
          "name": "橄榄油",
          "hint": "",
-         "qty": 5.7,
+         "qty": 4.8,
          "unit": "g"
         },
         {
-         "name": "藜麦",
-         "hint": "",
-         "qty": 81.6,
-         "unit": "g"
+         "name": "扁豆",
+         "hint": "罐头已熟，开罐沥干即可；冷藏 3 天内吃完",
+         "qty": 229.8,
+         "unit": "g",
+         "note": "沥干重 · 约 1.0 罐（每罐 400g 毛重 / 沥干 240g）"
         }
        ]
       },
@@ -2202,31 +2201,19 @@
         {
          "name": "菠菜",
          "hint": "易坏，3 天内吃完",
-         "qty": 164.8,
-         "unit": "g"
-        },
-        {
-         "name": "蘑菇",
-         "hint": "易坏，3 天内吃完",
-         "qty": 98.9,
-         "unit": "g"
-        },
-        {
-         "name": "羽衣甘蓝",
-         "hint": "易坏，3 天内吃完",
-         "qty": 49.4,
+         "qty": 335.1,
          "unit": "g"
         },
         {
          "name": "半脱脂奶",
          "hint": "",
-         "qty": 123.6,
+         "qty": 143.6,
          "unit": "g"
         },
         {
          "name": "草莓",
          "hint": "易坏，3 天内吃完",
-         "qty": 82.4,
+         "qty": 95.8,
          "unit": "g"
         }
        ]
@@ -2237,13 +2224,7 @@
         {
          "name": "鸡胸肉",
          "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
-         "qty": 164.8,
-         "unit": "g"
-        },
-        {
-         "name": "鸡腿肉",
-         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
-         "qty": 90.6,
+         "qty": 191.5,
          "unit": "g"
         }
        ]
@@ -2252,12 +2233,12 @@
     }
    ],
    "cook": {
-    "span_min": 28,
-    "hands_min": 28,
+    "span_min": 22,
+    "hands_min": 18,
     "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
     "merged_dishes": [
-     "鸡胸扁豆罐头菠菜碗",
-     "鸡腿蘑菇藜麦饭",
+     "鸡胸扁豆菠菜碗",
+     "羊肉菠菜土豆",
      "牛奶草莓"
     ],
     "timeline": [
@@ -2265,76 +2246,23 @@
       "t": 0.0,
       "dur": 5.0,
       "kind": "soak",
-      "dish": "鸡胸扁豆罐头菠菜碗",
-      "role": "午餐",
-      "text": "鸡胸肉164.8g切条用盐0.5g和黑胡椒1g腌5分钟",
+      "dish": "鸡胸扁豆菠菜碗",
+      "role": "提前",
+      "text": "提前：鸡胸肉191.5g切条用盐0.5g和黑胡椒1g腌5分钟（回温期间做午餐）",
       "hands": 1.0
+     },
+     {
+      "t": 0.0,
+      "dur": 8.0,
+      "kind": "free",
+      "dish": "羊肉菠菜土豆",
+      "role": "晚餐",
+      "text": "土豆95.75g切块煮8分钟",
+      "hands": 0.0,
+      "device": "hob"
      },
      {
       "t": 1.0,
-      "dur": 1.0,
-      "kind": "prep",
-      "dish": "鸡腿蘑菇藜麦饭",
-      "role": "午餐",
-      "text": "熟藜麦81.576g（预熟袋装）微波高火1分钟",
-      "hands": 1.0
-     },
-     {
-      "t": 2.0,
-      "dur": 5.0,
-      "kind": "watch",
-      "dish": "鸡腿蘑菇藜麦饭",
-      "role": "午餐",
-      "text": "鸡腿90.64g切块，姜3g蒜5g爆香煎5分钟",
-      "hands": 5.0
-     },
-     {
-      "t": 7.0,
-      "dur": 3.5,
-      "kind": "prep",
-      "dish": "鸡胸扁豆罐头菠菜碗",
-      "role": "午餐",
-      "text": "扁豆罐头197.76g开罐沥干，直接备用（罐头已熟，无需煮）",
-      "hands": 3.5
-     },
-     {
-      "t": 10.5,
-      "dur": 4.0,
-      "kind": "watch",
-      "dish": "鸡胸扁豆罐头菠菜碗",
-      "role": "午餐",
-      "text": "热锅橄榄油1.648g下蒜5g炒香，鸡胸煎4分钟，加扁豆罐头和菠菜164.8g翻炒2分钟，补盐0.3g。",
-      "hands": 4.0
-     },
-     {
-      "t": 14.5,
-      "dur": 4.0,
-      "kind": "watch",
-      "dish": "鸡腿蘑菇藜麦饭",
-      "role": "午餐",
-      "text": "蘑菇98.88g切片炒出水",
-      "hands": 4.0
-     },
-     {
-      "t": 18.5,
-      "dur": 2.0,
-      "kind": "prep",
-      "dish": "鸡腿蘑菇藜麦饭",
-      "role": "午餐",
-      "text": "羽衣甘蓝49.44g最后2分钟",
-      "hands": 2.0
-     },
-     {
-      "t": 20.5,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "鸡腿蘑菇藜麦饭",
-      "role": "午餐",
-      "text": "拌入熟藜麦，加盐。",
-      "hands": 2.5
-     },
-     {
-      "t": 23.0,
       "dur": 2.5,
       "kind": "prep",
       "dish": "牛奶草莓",
@@ -2343,13 +2271,59 @@
       "hands": 2.5
      },
      {
-      "t": 25.5,
+      "t": 3.5,
       "dur": 2.5,
       "kind": "prep",
       "dish": "牛奶草莓",
       "role": "加餐",
-      "text": "草莓82.4g洗净对半切。",
+      "text": "草莓95.75g洗净对半切。",
       "hands": 2.5
+     },
+     {
+      "t": 6.0,
+      "dur": 3.5,
+      "kind": "prep",
+      "dish": "鸡胸扁豆菠菜碗",
+      "role": "午餐",
+      "text": "扁豆229.8g开罐沥干，直接备用（罐头已熟，无需煮）",
+      "hands": 3.5
+     },
+     {
+      "t": 9.5,
+      "dur": 4.0,
+      "kind": "watch",
+      "dish": "羊肉菠菜土豆",
+      "role": "晚餐",
+      "text": "蒜5g爆香，羊肉95.75g炒变色",
+      "hands": 4.0
+     },
+     {
+      "t": 13.5,
+      "dur": 8.0,
+      "kind": "free",
+      "dish": "羊肉菠菜土豆",
+      "role": "晚餐",
+      "text": "加扁豆60g+孜然1g+水150ml炖8分钟",
+      "hands": 0.0,
+      "device": "hob"
+     },
+     {
+      "t": 14.5,
+      "dur": 4.0,
+      "kind": "watch",
+      "dish": "鸡胸扁豆菠菜碗",
+      "role": "午餐",
+      "text": "热锅橄榄油1.915g下蒜5g炒香，鸡胸煎4分钟，加扁豆和菠菜191.5g翻炒2分钟，补盐0.3g。",
+      "hands": 4.0
+     },
+     {
+      "t": 21.5,
+      "dur": 1.0,
+      "kind": "prep",
+      "dish": "羊肉菠菜土豆",
+      "role": "晚餐",
+      "text": "菠菜143.625g最后1分钟，加盐。",
+      "hands": 1.0
      }
     ]
    }
@@ -3484,156 +3458,156 @@
    "weekday": "周六",
    "iso_date": "2026-11-14",
    "theme": "休息日",
-   "active_min": 38,
-   "total_min": 53,
+   "active_min": 40,
+   "total_min": 55,
    "dishes": [
     {
      "role": "早餐",
-     "name": "玉米鸡蛋菠菜碗",
-     "cook_min": 8,
+     "name": "燕麦鸡腿咸粥",
+     "cook_min": 10,
      "camera": false,
      "kid_ok": false,
      "ing": [
       {
-       "name": "玉米粒",
-       "qty": 149.1,
+       "name": "燕麦",
+       "qty": 33.3,
        "unit": "g",
-       "buy": 149.1,
+       "buy": 33.3,
        "whole": null
       },
       {
-       "name": "鸡蛋",
-       "qty": 119.3,
+       "name": "半脱脂奶",
+       "qty": 142.8,
        "unit": "g",
-       "buy": 119.3,
-       "whole": "2个≈119g"
+       "buy": 142.8,
+       "whole": null
+      },
+      {
+       "name": "鸡腿肉",
+       "qty": 85.7,
+       "unit": "g",
+       "buy": 85.7,
+       "whole": null
       },
       {
        "name": "菠菜",
-       "qty": 119.3,
+       "qty": 57.1,
        "unit": "g",
-       "buy": 119.3,
-       "whole": null
-      },
-      {
-       "name": "橄榄油",
-       "qty": 4.0,
-       "unit": "g",
-       "buy": 4.0,
-       "whole": null
-      }
-     ],
-     "pantry": [
-      "盐"
-     ],
-     "nutrition": {
-      "kcal_total": 348.3,
-      "protein_total": 22.3,
-      "fat_total": 15.9,
-      "carb_total": 29.1,
-      "fiber_total": 5.0,
-      "sodium_total": 265.9,
-      "sat_fat_total": 4.6
-     },
-     "edible_grams": 391.7,
-     "per100g": {
-      "kcal_total": 88.9,
-      "protein_total": 5.7,
-      "fat_total": 4.1,
-      "carb_total": 7.4,
-      "fiber_total": 1.3,
-      "sodium_total": 67.9,
-      "sat_fat_total": 1.2
-     },
-     "nutrition_known": true,
-     "steps": [
-      "玉米粒149.1g沥干，橄榄油2g翻炒3分钟",
-      "鸡蛋119.3g打散倒入炒成蛋块",
-      "菠菜119.3g下锅炒软1分钟",
-      "余油加盐0.4g拌匀装碗。"
-     ],
-     "serving_g": 391.6,
-     "recipe_id": "R023",
-     "portion_multiplier": 0.9939
-    },
-    {
-     "role": "午餐",
-     "name": "鸡腿蘑菇藜麦饭",
-     "cook_min": 15,
-     "camera": false,
-     "kid_ok": false,
-     "ing": [
-      {
-       "name": "鸡腿肉",
-       "qty": 109.3,
-       "unit": "g",
-       "buy": 109.3,
-       "whole": null
-      },
-      {
-       "name": "藜麦",
-       "qty": 98.4,
-       "unit": "g",
-       "buy": 98.4,
-       "whole": null
-      },
-      {
-       "name": "蘑菇",
-       "qty": 119.3,
-       "unit": "g",
-       "buy": 119.3,
+       "buy": 57.1,
        "whole": null
       },
       {
        "name": "羽衣甘蓝",
-       "qty": 59.6,
+       "qty": 57.1,
        "unit": "g",
-       "buy": 59.6,
-       "whole": null
-      },
-      {
-       "name": "橄榄油",
-       "qty": 5.0,
-       "unit": "g",
-       "buy": 5.0,
+       "buy": 57.1,
        "whole": null
       }
      ],
      "pantry": [
       "盐",
-      "姜",
-      "大蒜"
+      "姜"
      ],
      "nutrition": {
-      "kcal_total": 434.0,
-      "protein_total": 34.9,
-      "fat_total": 15.9,
-      "carb_total": 35.3,
-      "fiber_total": 6.3,
-      "sodium_total": 144.7,
-      "sat_fat_total": 2.9
+      "kcal_total": 381.7,
+      "protein_total": 32.5,
+      "fat_total": 11.4,
+      "carb_total": 34.8,
+      "fiber_total": 6.4,
+      "sodium_total": 207.7,
+      "sat_fat_total": 3.6
      },
-     "edible_grams": 391.6,
+     "edible_grams": 376.0,
      "per100g": {
-      "kcal_total": 110.8,
-      "protein_total": 8.9,
-      "fat_total": 4.1,
-      "carb_total": 9.0,
-      "fiber_total": 1.6,
-      "sodium_total": 37.0,
+      "kcal_total": 101.5,
+      "protein_total": 8.6,
+      "fat_total": 3.0,
+      "carb_total": 9.3,
+      "fiber_total": 1.7,
+      "sodium_total": 55.2,
+      "sat_fat_total": 1.0
+     },
+     "nutrition_known": true,
+     "steps": [
+      "鸡腿肉85.7g切丁、姜2g切丝，少油炒2分钟",
+      "加燕麦33.3g+奶142.8g+水200ml小火煮8分钟",
+      "最后下菠菜57.1g+羽衣甘蓝57.1g煮1分钟，加盐。"
+     ],
+     "serving_g": 376.2,
+     "recipe_id": "R004",
+     "portion_multiplier": 0.9523
+    },
+    {
+     "role": "午餐",
+     "name": "意式蛋花汤",
+     "cook_min": 15,
+     "camera": false,
+     "kid_ok": false,
+     "ing": [
+      {
+       "name": "鸡蛋",
+       "qty": 187.6,
+       "unit": "g",
+       "buy": 187.6,
+       "whole": "买4个，本餐用188g，余52g 冷藏下次用"
+      },
+      {
+       "name": "帕玛森干酪",
+       "qty": 16.2,
+       "unit": "g",
+       "buy": 16.2,
+       "whole": null
+      },
+      {
+       "name": "菠菜",
+       "qty": 19.0,
+       "unit": "g",
+       "buy": 19.0,
+       "whole": null
+      },
+      {
+       "name": "四季豆",
+       "qty": 219.0,
+       "unit": "g",
+       "buy": 219.0,
+       "whole": null
+      }
+     ],
+     "pantry": [
+      "鸡高汤",
+      "柠檬皮屑",
+      "肉豆蔻粉"
+     ],
+     "nutrition": {
+      "kcal_total": 418.1,
+      "protein_total": 36.7,
+      "fat_total": 22.2,
+      "carb_total": 20.0,
+      "fiber_total": 3.7,
+      "sodium_total": 1154.2,
+      "sat_fat_total": 3.0
+     },
+     "edible_grams": 441.8,
+     "per100g": {
+      "kcal_total": 94.6,
+      "protein_total": 8.3,
+      "fat_total": 5.0,
+      "carb_total": 4.5,
+      "fiber_total": 0.8,
+      "sodium_total": 261.2,
       "sat_fat_total": 0.7
      },
      "nutrition_known": true,
      "steps": [
-      "熟藜麦98.4g（预熟袋装）微波高火1分钟",
-      "鸡腿109.3g切块，姜3g蒜5g爆香煎5分钟",
-      "蘑菇119.3g切片炒出水",
-      "羽衣甘蓝59.6g最后2分钟",
-      "拌入熟藜麦，加盐。"
+      "小火慢煮高汤：在 2 夸脱（约 1.9 升）的锅或汤锅中，中火将高汤煮至微沸。",
+      "搅打鸡蛋：将鸡蛋与 3/4 杯 Parmigiano 奶酪搅打均匀，留出剩余 1/4 杯奶酪，上桌前撒在汤上。如使用肉豆蔻，擦入少量——约一少许——搅打均匀。暂置一旁。",
+      "将菠菜和柠檬皮屑加入高汤：将切碎的菠菜拌入微沸的鸡高汤中，煮至菠菜热透、高汤再次微沸，约 5 分钟。不要被菠菜的量吓到，它会缩至汤中仅约 1 杯。如使用，拌入柠檬皮屑。",
+      "加入鸡蛋：将蛋液缓缓倒入汤中。用木勺或叉子轻轻搅拌一两次。不加盖小火慢煮几分钟，不搅拌，至鸡蛋蓬松凝固。它们会以柔软的一团浮在高汤上。轻轻将鸡蛋拨成柔软的小块。",
+      "上桌：将汤舀入温热的碗中，撒上剩余的 Parmigiano-Reggiano。趁热上桌。"
      ],
-     "serving_g": 391.6,
-     "recipe_id": "R011",
-     "portion_multiplier": 0.9939
+     "serving_g": 650.4,
+     "recipe_id": "R039",
+     "portion_multiplier": 0.9523
     },
     {
      "role": "晚餐",
@@ -3644,37 +3618,37 @@
      "ing": [
       {
        "name": "鳕鱼",
-       "qty": 169.0,
+       "qty": 161.9,
        "unit": "g",
-       "buy": 169.0,
+       "buy": 161.9,
        "whole": null
       },
       {
        "name": "西葫芦",
-       "qty": 178.9,
+       "qty": 171.4,
        "unit": "g",
-       "buy": 178.9,
-       "whole": "买1根，本餐用179g，余321g 冷藏下次用"
+       "buy": 171.4,
+       "whole": "买1根，本餐用171g，余329g 冷藏下次用"
       },
       {
        "name": "蘑菇",
-       "qty": 99.4,
+       "qty": 95.2,
        "unit": "g",
-       "buy": 99.4,
+       "buy": 95.2,
        "whole": null
       },
       {
        "name": "鹰嘴豆",
-       "qty": 129.2,
+       "qty": 123.8,
        "unit": "g",
-       "buy": 129.2,
-       "whole": "买1罐，本餐用129g，余136g 冷藏下次用"
+       "buy": 123.8,
+       "whole": "买1罐，本餐用124g，余141g 冷藏下次用"
       },
       {
        "name": "橄榄油",
-       "qty": 6.0,
+       "qty": 5.7,
        "unit": "g",
-       "buy": 6.0,
+       "buy": 5.7,
        "whole": null
       }
      ],
@@ -3684,19 +3658,19 @@
       "黑胡椒"
      ],
      "nutrition": {
-      "kcal_total": 417.7,
-      "protein_total": 48.5,
-      "fat_total": 9.0,
-      "carb_total": 33.0,
-      "fiber_total": 11.0,
-      "sodium_total": 252.8,
+      "kcal_total": 400.3,
+      "protein_total": 46.5,
+      "fat_total": 8.7,
+      "carb_total": 31.6,
+      "fiber_total": 10.6,
+      "sodium_total": 242.3,
       "sat_fat_total": 1.0
      },
-     "edible_grams": 582.5,
+     "edible_grams": 558.0,
      "per100g": {
       "kcal_total": 71.7,
       "protein_total": 8.3,
-      "fat_total": 1.5,
+      "fat_total": 1.6,
       "carb_total": 5.7,
       "fiber_total": 1.9,
       "sodium_total": 43.4,
@@ -3704,14 +3678,14 @@
      },
      "nutrition_known": true,
      "steps": [
-      "蒜5g爆香，西葫芦178.9g切块炒3分钟",
-      "蘑菇99.4g下锅",
+      "蒜5g爆香，西葫芦171.4g切块炒3分钟",
+      "蘑菇95.2g下锅",
       "加鹰嘴豆45g+水80ml",
-      "鳕鱼169g切块铺面盖盖焖6分钟，盐黑胡椒。"
+      "鳕鱼161.9g切块铺面盖盖焖6分钟，盐黑胡椒。"
      ],
-     "serving_g": 582.4,
+     "serving_g": 558.0,
      "recipe_id": "R015",
-     "portion_multiplier": 0.9939
+     "portion_multiplier": 0.9523
     }
    ],
    "prep": {
@@ -3720,20 +3694,14 @@
       "zone": "冷冻",
       "items": [
        {
-        "name": "玉米粒",
-        "qty": 149.1,
-        "unit": "g",
-        "hint": ""
-       },
-       {
         "name": "鸡腿肉",
-        "qty": 109.3,
+        "qty": 85.7,
         "unit": "g",
         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
        },
        {
         "name": "鳕鱼",
-        "qty": 169.0,
+        "qty": 161.9,
         "unit": "g",
         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
        }
@@ -3743,38 +3711,44 @@
       "zone": "冷藏",
       "items": [
        {
-        "name": "鸡蛋",
-        "qty": 119.3,
+        "name": "半脱脂奶",
+        "qty": 142.8,
         "unit": "g",
         "hint": ""
        },
        {
         "name": "菠菜",
-        "qty": 119.3,
-        "unit": "g",
-        "hint": "易坏，3 天内吃完"
-       },
-       {
-        "name": "蘑菇",
-        "qty": 218.7,
+        "qty": 76.1,
         "unit": "g",
         "hint": "易坏，3 天内吃完"
        },
        {
         "name": "羽衣甘蓝",
-        "qty": 59.6,
+        "qty": 57.1,
         "unit": "g",
         "hint": "易坏，3 天内吃完"
        },
        {
+        "name": "鸡蛋",
+        "qty": 187.6,
+        "unit": "g",
+        "hint": ""
+       },
+       {
         "name": "西葫芦",
-        "qty": 178.9,
+        "qty": 171.4,
         "unit": "g",
         "hint": "冷藏，一周内吃完"
        },
        {
+        "name": "蘑菇",
+        "qty": 95.2,
+        "unit": "g",
+        "hint": "易坏，3 天内吃完"
+       },
+       {
         "name": "鹰嘴豆",
-        "qty": 129.2,
+        "qty": 123.8,
         "unit": "g",
         "hint": "罐头已熟，开罐沥干即可；冷藏 3 天内吃完"
        }
@@ -3784,14 +3758,26 @@
       "zone": "室温",
       "items": [
        {
-        "name": "橄榄油",
-        "qty": 15.0,
+        "name": "燕麦",
+        "qty": 33.3,
         "unit": "g",
         "hint": ""
        },
        {
-        "name": "藜麦",
-        "qty": 98.4,
+        "name": "帕玛森干酪",
+        "qty": 16.2,
+        "unit": "g",
+        "hint": ""
+       },
+       {
+        "name": "四季豆",
+        "qty": 219.0,
+        "unit": "g",
+        "hint": ""
+       },
+       {
+        "name": "橄榄油",
+        "qty": 5.7,
         "unit": "g",
         "hint": ""
        }
@@ -3801,11 +3787,17 @@
     "pantry": [
      "盐",
      "姜",
+     "鸡高汤",
+     "柠檬皮屑",
+     "肉豆蔻粉",
      "大蒜",
      "黑胡椒"
     ],
     "missing_pantry": [
-     "姜"
+     "姜",
+     "鸡高汤",
+     "柠檬皮屑",
+     "肉豆蔻粉"
     ]
    },
    "take_order": [
@@ -3816,9 +3808,9 @@
        "zone": "室温",
        "items": [
         {
-         "name": "橄榄油",
+         "name": "燕麦",
          "hint": "",
-         "qty": 4.0,
+         "qty": 33.3,
          "unit": "g"
         }
        ]
@@ -3827,16 +3819,21 @@
        "zone": "冷藏",
        "items": [
         {
-         "name": "鸡蛋",
+         "name": "半脱脂奶",
          "hint": "",
-         "qty": 2.0,
-         "unit": "个",
-         "note": "119g"
+         "qty": 142.8,
+         "unit": "g"
         },
         {
          "name": "菠菜",
          "hint": "易坏，3 天内吃完",
-         "qty": 119.3,
+         "qty": 57.1,
+         "unit": "g"
+        },
+        {
+         "name": "羽衣甘蓝",
+         "hint": "易坏，3 天内吃完",
+         "qty": 57.1,
          "unit": "g"
         }
        ]
@@ -3845,11 +3842,10 @@
        "zone": "冷冻",
        "items": [
         {
-         "name": "玉米粒",
-         "hint": "",
-         "qty": 149.1,
-         "unit": "g",
-         "note": "沥干重 · 约 0.9 罐（每罐 285g 毛重 / 沥干 175g）"
+         "name": "鸡腿肉",
+         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
+         "qty": 85.7,
+         "unit": "g"
         }
        ]
       }
@@ -3862,15 +3858,21 @@
        "zone": "室温",
        "items": [
         {
-         "name": "藜麦",
+         "name": "帕玛森干酪",
          "hint": "",
-         "qty": 98.4,
+         "qty": 16.2,
+         "unit": "g"
+        },
+        {
+         "name": "四季豆",
+         "hint": "",
+         "qty": 219.0,
          "unit": "g"
         },
         {
          "name": "橄榄油",
          "hint": "",
-         "qty": 11.0,
+         "qty": 5.7,
          "unit": "g"
         }
        ]
@@ -3879,27 +3881,34 @@
        "zone": "冷藏",
        "items": [
         {
-         "name": "蘑菇",
-         "hint": "易坏，3 天内吃完",
-         "qty": 218.7,
-         "unit": "g"
+         "name": "鸡蛋",
+         "hint": "",
+         "qty": 3.1,
+         "unit": "个",
+         "note": "188g"
         },
         {
-         "name": "羽衣甘蓝",
+         "name": "菠菜",
          "hint": "易坏，3 天内吃完",
-         "qty": 59.6,
+         "qty": 19.0,
          "unit": "g"
         },
         {
          "name": "西葫芦",
          "hint": "冷藏，一周内吃完",
-         "qty": 178.9,
+         "qty": 171.4,
+         "unit": "g"
+        },
+        {
+         "name": "蘑菇",
+         "hint": "易坏，3 天内吃完",
+         "qty": 95.2,
          "unit": "g"
         },
         {
          "name": "鹰嘴豆",
          "hint": "罐头已熟，开罐沥干即可；冷藏 3 天内吃完",
-         "qty": 129.2,
+         "qty": 123.8,
          "unit": "g",
          "note": "沥干重 · 约 0.5 罐（每罐 400g 毛重 / 沥干 265g）"
         }
@@ -3909,15 +3918,9 @@
        "zone": "冷冻",
        "items": [
         {
-         "name": "鸡腿肉",
-         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
-         "qty": 109.3,
-         "unit": "g"
-        },
-        {
          "name": "鳕鱼",
          "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
-         "qty": 169.0,
+         "qty": 161.9,
          "unit": "g"
         }
        ]
@@ -3926,95 +3929,98 @@
     }
    ],
    "cook": {
-    "span_min": 30,
-    "hands_min": 24,
+    "span_min": 26,
+    "hands_min": 10,
     "note": "午+晚合并：先起要炖/焖/烤的，等火候时切配下一道",
     "merged_dishes": [
-     "鸡腿蘑菇藜麦饭",
+     "意式蛋花汤",
      "鳕鱼西葫芦鹰嘴豆"
     ],
     "timeline": [
      {
       "t": 0.0,
-      "dur": 1.0,
-      "kind": "prep",
-      "dish": "鸡腿蘑菇藜麦饭",
+      "dur": 10.0,
+      "kind": "free",
+      "dish": "意式蛋花汤",
       "role": "午餐",
-      "text": "熟藜麦98.3961g（预熟袋装）微波高火1分钟",
-      "hands": 1.0
+      "text": "小火慢煮高汤：在 2 夸脱（约 1.9 升）的锅或汤锅中，中火将高汤煮至微沸。",
+      "hands": 0.0,
+      "device": "hob"
      },
      {
       "t": 1.0,
-      "dur": 5.0,
-      "kind": "watch",
-      "dish": "鸡腿蘑菇藜麦饭",
-      "role": "午餐",
-      "text": "鸡腿109.329g切块，姜3g蒜5g爆香煎5分钟",
-      "hands": 5.0
-     },
-     {
-      "t": 6.0,
-      "dur": 4.0,
-      "kind": "watch",
-      "dish": "鸡腿蘑菇藜麦饭",
-      "role": "午餐",
-      "text": "蘑菇119.268g切片炒出水",
-      "hands": 4.0
-     },
-     {
-      "t": 10.0,
-      "dur": 2.0,
-      "kind": "prep",
-      "dish": "鸡腿蘑菇藜麦饭",
-      "role": "午餐",
-      "text": "羽衣甘蓝59.634g最后2分钟",
-      "hands": 2.0
-     },
-     {
-      "t": 12.0,
-      "dur": 2.5,
-      "kind": "prep",
-      "dish": "鸡腿蘑菇藜麦饭",
-      "role": "午餐",
-      "text": "拌入熟藜麦，加盐。",
-      "hands": 2.5
-     },
-     {
-      "t": 14.5,
       "dur": 3.0,
       "kind": "watch",
       "dish": "鳕鱼西葫芦鹰嘴豆",
       "role": "晚餐",
-      "text": "蒜5g爆香，西葫芦178.902g切块炒3分钟",
+      "text": "蒜5g爆香，西葫芦171.414g切块炒3分钟",
       "hands": 3.0
      },
      {
-      "t": 17.5,
+      "t": 4.0,
       "dur": 4.0,
       "kind": "watch",
       "dish": "鳕鱼西葫芦鹰嘴豆",
       "role": "晚餐",
-      "text": "蘑菇99.39g下锅",
+      "text": "蘑菇95.23g下锅",
       "hands": 4.0
      },
      {
-      "t": 21.5,
+      "t": 8.0,
       "dur": 2.5,
       "kind": "prep",
       "dish": "鳕鱼西葫芦鹰嘴豆",
       "role": "晚餐",
-      "text": "加鹰嘴豆129.207g+水80ml",
+      "text": "加鹰嘴豆123.799g+水80ml",
       "hands": 2.5
      },
      {
-      "t": 24.0,
+      "t": 10.5,
+      "dur": 0.5,
+      "kind": "finish",
+      "dish": "意式蛋花汤",
+      "role": "午餐",
+      "text": "搅打鸡蛋：将鸡蛋与 3/4 杯 Parmigiano 奶酪搅打均匀，留出剩余 1/4 杯奶酪，上桌前撒在汤上。如使用肉豆蔻，擦入少量——约一少许——搅打均匀。暂置一旁。",
+      "hands": 0.5
+     },
+     {
+      "t": 11.0,
+      "dur": 5.0,
+      "kind": "free",
+      "dish": "意式蛋花汤",
+      "role": "午餐",
+      "text": "将菠菜和柠檬皮屑加入高汤：将切碎的菠菜拌入微沸的鸡高汤中，煮至菠菜热透、高汤再次微沸，约 5 分钟。不要被菠菜的量吓到，它会缩至汤中仅约 1 杯。如使用，拌入柠檬皮屑。",
+      "hands": 0.0,
+      "device": "hob"
+     },
+     {
+      "t": 12.0,
       "dur": 6.0,
       "kind": "free",
       "dish": "鳕鱼西葫芦鹰嘴豆",
       "role": "晚餐",
-      "text": "鳕鱼168.963g切块铺面盖盖焖6分钟，盐黑胡椒。",
+      "text": "鳕鱼161.891g切块铺面盖盖焖6分钟，盐黑胡椒。",
       "hands": 0.0,
       "device": "hob"
+     },
+     {
+      "t": 16.0,
+      "dur": 10.0,
+      "kind": "free",
+      "dish": "意式蛋花汤",
+      "role": "午餐",
+      "text": "加入鸡蛋：将蛋液缓缓倒入汤中。用木勺或叉子轻轻搅拌一两次。不加盖小火慢煮几分钟，不搅拌，至鸡蛋蓬松凝固。它们会以柔软的一团浮在高汤上。轻轻将鸡蛋拨成柔软的小块。",
+      "hands": 0.0,
+      "device": "hob"
+     },
+     {
+      "t": 26.0,
+      "dur": 0.5,
+      "kind": "finish",
+      "dish": "意式蛋花汤",
+      "role": "午餐",
+      "text": "上桌：将汤舀入温热的碗中，撒上剩余的 Parmigiano-Reggiano。趁热上桌。",
+      "hands": 0.5
      }
     ]
    }
