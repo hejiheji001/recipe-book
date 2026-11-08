@@ -782,6 +782,22 @@
       schedule(docKey);
     },
     state: function () { return { on: !!syncState.fam, fam: ls(FAM_KEY, null) }; },
+    changeLog: function (opt) {
+      var fam = ls(FAM_KEY, null);
+      if (!fam || !fam.fam || !fam.pw) return Promise.reject(new Error('还没进入任何一家'));
+      var o = opt || {};
+      return call('get_change_log', {
+        p_family: fam.fam,
+        p_token: fam.pw,
+        p_doc: o.doc || null,
+        p_target: o.target || null,
+        p_limit: o.limit || 200,
+        p_before: o.before || null
+      }).then(function (r) {
+        if (!r.ok) throw new Error((r.body && (r.body.message || r.body.code)) || '读取失败');
+        return r.body;
+      });
+    },
     switchFamily: function () {
       setSwitching(true);
       picker(function () { setSwitching(false); location.reload(); });
