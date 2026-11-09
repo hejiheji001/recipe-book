@@ -81,7 +81,13 @@
   }
 
   var SWITCH_KEY = 'rb_switching';
-  function isSwitching() { return ls(SWITCH_KEY, false) === true; }
+  // 一次性标记：读到就清。原先只靠 picker 回调里的 setSwitching(false) 复位，
+  // 中途关页面/返回就会永久停在 true，导致之后每次登录 pull 完立刻 purgeLocal。
+  function isSwitching() {
+    var v = ls(SWITCH_KEY, false) === true;
+    if (v) lss(SWITCH_KEY, false);
+    return v;
+  }
   function setSwitching(v) { lss(SWITCH_KEY, !!v); }
 
   function call(fn, body) {
@@ -572,6 +578,9 @@
 
       var nb = NBS.filter(function (n) { return n.id === picked; })[0] || NBS[0];
       var famId = nb.fam;
+      // 切换家庭要清的是「上一家」的残留，必须在 pull 之前清；
+      // 放在 pull 之后会把刚下载的 40 项一起删掉（已实际发生）。
+      if (isSwitching()) purgeLocal();
 
       call('put_family', { p_family: famId, p_token: pw, p_label: nb.name, p_actor: 'user' })
         .then(function (reg) {
@@ -597,7 +606,6 @@
             return pull(pw, famId).then(function () { return n; });
           });
         }).then(function (n) {
-          if (isSwitching()) purgeLocal();
           lss(FAM_KEY, { id: nb.id, name: nb.name, pw: pw, fam: famId });
           try { window.dispatchEvent(new Event('rb:family')); } catch (e) {}
           syncState.pw = pw;
@@ -805,6 +813,7 @@
     logout: function () {
       lss(GATE_KEY, false);
       lss(FAM_KEY, null);
+      setSwitching(false);
       purgeLocal();
       location.reload();
     }
