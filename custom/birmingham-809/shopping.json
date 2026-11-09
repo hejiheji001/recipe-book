@@ -1,43 +1,14 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-09T10:10:49",
+ "generated": "2026-11-09T10:30:05",
  "quantity_basis": "单人 8 天份 · 11/08 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/08",
  "shop_plan": {
   "buy_date": "11/08",
   "span_days": 8,
-  "leafy": [
-   {
-    "name": "芝麻菜",
-    "shelf": "叶菜·保鲜2-3天",
-    "days": [
-     "11/13"
-    ],
-    "last_idx": 5
-   },
-   {
-    "name": "比布生菜",
-    "shelf": "叶菜·保鲜2-3天",
-    "days": [
-     "11/14"
-    ],
-    "last_idx": 6
-   },
-   {
-    "name": "羽衣甘蓝",
-    "shelf": "叶菜·保鲜2-3天",
-    "days": [
-     "11/08",
-     "11/10",
-     "11/12",
-     "11/14",
-     "11/15"
-    ],
-    "last_idx": 7
-   }
-  ],
+  "leafy": [],
   "mid": [
    {
     "name": "芹菜",
@@ -111,6 +82,27 @@
     "last_idx": -1
    },
    {
+    "name": "卷心菜",
+    "shelf": "根茎·耐放7天+",
+    "days": [
+     "11/13",
+     "11/14"
+    ],
+    "last_idx": 6
+   },
+   {
+    "name": "羽衣甘蓝",
+    "shelf": "根茎·耐放7天+",
+    "days": [
+     "11/08",
+     "11/10",
+     "11/12",
+     "11/14",
+     "11/15"
+    ],
+    "last_idx": 7
+   },
+   {
     "name": "小土豆",
     "shelf": "根茎·耐放7天+",
     "days": [
@@ -121,11 +113,7 @@
     "last_idx": 7
    }
   ],
-  "leafy_conflicts": [
-   "芝麻菜",
-   "比布生菜",
-   "羽衣甘蓝"
-  ]
+  "leafy_conflicts": []
  },
  "columns": [
   {
@@ -459,6 +447,32 @@
   },
   {
    "category": "蔬菜",
+   "name": "卷心菜",
+   "packs": 1,
+   "pack_size": "440 g",
+   "name_en": "Red Cabbage",
+   "name_short": "Red Cabbage",
+   "brand": "THE DELI",
+   "unit_price_gbp": 1.19,
+   "line_total_gbp": 1.19,
+   "buy_qty": 440.0,
+   "buy_unit": "g",
+   "used_on": [
+    "11/13",
+    "11/14"
+   ],
+   "note": "",
+   "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515",
+   "product": {
+    "name": "Red Cabbage",
+    "brand": "THE DELI",
+    "size": "440 g",
+    "price_gbp": 1.19,
+    "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515"
+   }
+  },
+  {
+   "category": "蔬菜",
    "name": "四季豆",
    "packs": 1,
    "pack_size": "1 kg",
@@ -608,31 +622,6 @@
   },
   {
    "category": "蔬菜",
-   "name": "比布生菜",
-   "packs": 1,
-   "pack_size": "80 g",
-   "name_en": "Butterhead Salad",
-   "name_short": "Butterhead Salad",
-   "brand": "NATURE'S PICK",
-   "unit_price_gbp": 0.85,
-   "line_total_gbp": 0.85,
-   "buy_qty": 80.0,
-   "buy_unit": "g",
-   "used_on": [
-    "11/14"
-   ],
-   "note": "",
-   "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002",
-   "product": {
-    "name": "Butterhead Salad",
-    "brand": "NATURE'S PICK",
-    "size": "80 g",
-    "price_gbp": 0.85,
-    "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002"
-   }
-  },
-  {
-   "category": "蔬菜",
    "name": "玉米粒",
    "packs": 1,
    "pack_size": "1 kg",
@@ -706,31 +695,6 @@
     "size": "250 g",
     "price_gbp": 0.62,
     "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259"
-   }
-  },
-  {
-   "category": "蔬菜",
-   "name": "芝麻菜",
-   "packs": 1,
-   "pack_size": "80 g",
-   "name_en": "Watercress Spinach & Rocket Salad",
-   "name_short": "Watercress Spinach & Rocket Salad",
-   "brand": "NATURE'S PICK",
-   "unit_price_gbp": 0.75,
-   "line_total_gbp": 0.75,
-   "buy_qty": 80.0,
-   "buy_unit": "g",
-   "used_on": [
-    "11/13"
-   ],
-   "note": "",
-   "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022",
-   "product": {
-    "name": "Watercress Spinach & Rocket Salad",
-    "brand": "NATURE'S PICK",
-    "size": "80 g",
-    "price_gbp": 0.75,
-    "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022"
    }
   },
   {
@@ -812,7 +776,7 @@
   }
  ],
  "batches": [],
- "total_gbp": 48.84,
+ "total_gbp": 48.43,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -1090,6 +1054,32 @@
     },
     {
      "category": "蔬菜",
+     "name": "卷心菜",
+     "packs": 1,
+     "pack_size": "440 g",
+     "name_en": "Red Cabbage",
+     "name_short": "Red Cabbage",
+     "brand": "THE DELI",
+     "unit_price_gbp": 1.19,
+     "line_total_gbp": 1.19,
+     "buy_qty": 440.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/13",
+      "11/14"
+     ],
+     "note": "",
+     "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515",
+     "product": {
+      "name": "Red Cabbage",
+      "brand": "THE DELI",
+      "size": "440 g",
+      "price_gbp": 1.19,
+      "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515"
+     }
+    },
+    {
+     "category": "蔬菜",
      "name": "四季豆",
      "packs": 1,
      "pack_size": "1 kg",
@@ -1239,31 +1229,6 @@
     },
     {
      "category": "蔬菜",
-     "name": "比布生菜",
-     "packs": 1,
-     "pack_size": "80 g",
-     "name_en": "Butterhead Salad",
-     "name_short": "Butterhead Salad",
-     "brand": "NATURE'S PICK",
-     "unit_price_gbp": 0.85,
-     "line_total_gbp": 0.85,
-     "buy_qty": 80.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/14"
-     ],
-     "note": "",
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002",
-     "product": {
-      "name": "Butterhead Salad",
-      "brand": "NATURE'S PICK",
-      "size": "80 g",
-      "price_gbp": 0.85,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002"
-     }
-    },
-    {
-     "category": "蔬菜",
      "name": "玉米粒",
      "packs": 1,
      "pack_size": "1 kg",
@@ -1337,31 +1302,6 @@
       "size": "250 g",
       "price_gbp": 0.62,
       "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "芝麻菜",
-     "packs": 1,
-     "pack_size": "80 g",
-     "name_en": "Watercress Spinach & Rocket Salad",
-     "name_short": "Watercress Spinach & Rocket Salad",
-     "brand": "NATURE'S PICK",
-     "unit_price_gbp": 0.75,
-     "line_total_gbp": 0.75,
-     "buy_qty": 80.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/13"
-     ],
-     "note": "",
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022",
-     "product": {
-      "name": "Watercress Spinach & Rocket Salad",
-      "brand": "NATURE'S PICK",
-      "size": "80 g",
-      "price_gbp": 0.75,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022"
      }
     },
     {
@@ -1443,7 +1383,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 48.84,
+   "total_gbp": 48.43,
    "missing": [
     "茄子",
     "白芸豆"
@@ -1452,7 +1392,7 @@
     "茄子",
     "白芸豆"
    ],
-   "coverage": 0.9231,
+   "coverage": 0.92,
    "vs_recommend_gbp": -1.87,
    "vs_recommend_missing": 2
   },
@@ -1729,6 +1669,32 @@
     },
     {
      "category": "蔬菜",
+     "name": "卷心菜",
+     "packs": 1,
+     "pack_size": "500g",
+     "name_en": "Sainsbury's Sliced Savoy Cabbage 500g",
+     "name_short": "Sainsbury's Sliced Savoy Cabbage",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 2.0,
+     "line_total_gbp": 2.0,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/13",
+      "11/14"
+     ],
+     "note": "",
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-savoy-cabbage-500g",
+     "product": {
+      "name": "Sainsbury's Sliced Savoy Cabbage 500g",
+      "brand": "Sainsbury's",
+      "size": "500g",
+      "price_gbp": 2.0,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-savoy-cabbage-500g"
+     }
+    },
+    {
+     "category": "蔬菜",
      "name": "四季豆",
      "packs": 1,
      "pack_size": "900g",
@@ -1826,31 +1792,6 @@
       "size": "210g",
       "price_gbp": 3.84,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/new-england-seafood-210g-sea-bass-fillets"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "比布生菜",
-     "packs": 1,
-     "pack_size": "nan",
-     "name_en": "Sainsbury's Little Gem Lettuce, SO Organic x2",
-     "name_short": "Sainsbury's Little Gem Lettuce, SO Organic x2",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 1.6,
-     "line_total_gbp": 1.6,
-     "buy_qty": "",
-     "buy_unit": "个",
-     "used_on": [
-      "11/14"
-     ],
-     "note": "",
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-gem-lettuce-so-organic-x2",
-     "product": {
-      "name": "Sainsbury's Little Gem Lettuce, SO Organic x2",
-      "brand": "Sainsbury's",
-      "size": "nan",
-      "price_gbp": 1.6,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-gem-lettuce-so-organic-x2"
      }
     },
     {
@@ -1956,31 +1897,6 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "芝麻菜",
-     "packs": 1,
-     "pack_size": "100g",
-     "name_en": "Sainsbury's Spinach Watercress & Rocket 100g",
-     "name_short": "Sainsbury's Spinach Watercress & Rocket",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 1.4,
-     "line_total_gbp": 1.4,
-     "buy_qty": 100.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/13"
-     ],
-     "note": "",
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-spinach-watercress-rocket-100g",
-     "product": {
-      "name": "Sainsbury's Spinach Watercress & Rocket 100g",
-      "brand": "Sainsbury's",
-      "size": "100g",
-      "price_gbp": 1.4,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-spinach-watercress-rocket-100g"
-     }
-    },
-    {
      "category": "主食",
      "name": "菲达奶酪",
      "packs": 1,
@@ -2036,7 +1952,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 55.73,
+   "total_gbp": 54.73,
    "missing": [
     "羽衣甘蓝",
     "大蒜",
@@ -2049,8 +1965,8 @@
     "帕玛森干酪",
     "芹菜"
    ],
-   "coverage": 0.8462,
-   "vs_recommend_gbp": 5.02,
+   "coverage": 0.84,
+   "vs_recommend_gbp": 4.43,
    "vs_recommend_missing": 4
   },
   "ICELAND": {
@@ -2272,6 +2188,32 @@
     },
     {
      "category": "蔬菜",
+     "name": "卷心菜",
+     "packs": 1,
+     "pack_size": "550g",
+     "name_en": "Gilfresh Family Grown Savoy Cabbage 550g",
+     "name_short": "Gilfresh Family Grown Savoy Cabbage",
+     "brand": "Gilfresh",
+     "unit_price_gbp": 1.5,
+     "line_total_gbp": 1.5,
+     "buy_qty": 550.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/13",
+      "11/14"
+     ],
+     "note": "",
+     "link": "https://www.iceland.co.uk/p/gilfresh-family-grown-savoy-cabbage-550g/101882.html",
+     "product": {
+      "name": "Gilfresh Family Grown Savoy Cabbage 550g",
+      "brand": "Gilfresh",
+      "size": "550g",
+      "price_gbp": 1.5,
+      "link": "https://www.iceland.co.uk/p/gilfresh-family-grown-savoy-cabbage-550g/101882.html"
+     }
+    },
+    {
+     "category": "蔬菜",
      "name": "四季豆",
      "packs": 1,
      "pack_size": "1kg",
@@ -2398,31 +2340,6 @@
     },
     {
      "category": "蔬菜",
-     "name": "比布生菜",
-     "packs": 1,
-     "pack_size": "nan",
-     "name_en": "Iceland Little Gem Lettuce",
-     "name_short": "Iceland Little Gem Lettuce",
-     "brand": "Iceland",
-     "unit_price_gbp": 1.0,
-     "line_total_gbp": 1.0,
-     "buy_qty": "",
-     "buy_unit": "个",
-     "used_on": [
-      "11/14"
-     ],
-     "note": "",
-     "link": "https://www.iceland.co.uk/p/iceland-little-gem-lettuce/67736.html",
-     "product": {
-      "name": "Iceland Little Gem Lettuce",
-      "brand": "Iceland",
-      "size": "nan",
-      "price_gbp": 1.0,
-      "link": "https://www.iceland.co.uk/p/iceland-little-gem-lettuce/67736.html"
-     }
-    },
-    {
-     "category": "蔬菜",
      "name": "玉米粒",
      "packs": 1,
      "pack_size": "860g",
@@ -2496,31 +2413,6 @@
       "size": "400g",
       "price_gbp": 0.65,
       "link": "https://www.iceland.co.uk/p/ragu-peeled-plum-tomatoes-in-tomato-juice-400g/107259.html"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "芝麻菜",
-     "packs": 1,
-     "pack_size": "480g",
-     "name_en": "Iceland 8 Rocket Lollies 480g",
-     "name_short": "Iceland 8 Rocket Lollies",
-     "brand": "Iceland",
-     "unit_price_gbp": 1.5,
-     "line_total_gbp": 1.5,
-     "buy_qty": 480.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/13"
-     ],
-     "note": "",
-     "link": "https://www.iceland.co.uk/p/iceland-8-rocket-lollies-480g/39358.html",
-     "product": {
-      "name": "Iceland 8 Rocket Lollies 480g",
-      "brand": "Iceland",
-      "size": "480g",
-      "price_gbp": 1.5,
-      "link": "https://www.iceland.co.uk/p/iceland-8-rocket-lollies-480g/39358.html"
      }
     },
     {
@@ -2602,7 +2494,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 64.6,
+   "total_gbp": 63.6,
    "missing": [
     "羽衣甘蓝",
     "鹰嘴豆",
@@ -2617,8 +2509,8 @@
     "大蒜",
     "白芸豆"
    ],
-   "coverage": 0.8077,
-   "vs_recommend_gbp": 13.89,
+   "coverage": 0.8,
+   "vs_recommend_gbp": 13.3,
    "vs_recommend_missing": 5
   }
  },
@@ -2633,11 +2525,11 @@
   ],
   "coverage": 1.0,
   "missing": [],
-  "cost": 50.71,
+  "cost": 50.3,
   "per_store": {
    "ALDI": {
-    "subtotal": 39.44,
-    "count": 18,
+    "subtotal": 39.03,
+    "count": 17,
     "names": [
      "藜麦",
      "草莓",
@@ -2652,9 +2544,8 @@
      "欧洲鲈鱼",
      "牛肉末",
      "小土豆",
-     "芝麻菜",
+     "卷心菜",
      "帕玛森干酪",
-     "比布生菜",
      "芹菜",
      "扁豆"
     ],
@@ -2902,6 +2793,32 @@
       }
      },
      {
+      "category": "蔬菜",
+      "name": "卷心菜",
+      "packs": 1,
+      "pack_size": "440 g",
+      "name_en": "Red Cabbage",
+      "name_short": "Red Cabbage",
+      "brand": "THE DELI",
+      "unit_price_gbp": 1.19,
+      "line_total_gbp": 1.19,
+      "buy_qty": 440.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/13",
+       "11/14"
+      ],
+      "note": "",
+      "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515",
+      "product": {
+       "name": "Red Cabbage",
+       "brand": "THE DELI",
+       "size": "440 g",
+       "price_gbp": 1.19,
+       "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515"
+      }
+     },
+     {
       "category": "肉类",
       "name": "大蒜",
       "packs": 1,
@@ -2999,56 +2916,6 @@
        "size": "180 g",
        "price_gbp": 3.29,
        "link": "https://www.aldi.co.uk/product/the-fishmonger-boneless-mediterranean-sea-bass-fillets-2-pack-000000000000388008"
-      }
-     },
-     {
-      "category": "蔬菜",
-      "name": "比布生菜",
-      "packs": 1,
-      "pack_size": "80 g",
-      "name_en": "Butterhead Salad",
-      "name_short": "Butterhead Salad",
-      "brand": "NATURE'S PICK",
-      "unit_price_gbp": 0.85,
-      "line_total_gbp": 0.85,
-      "buy_qty": 80.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/14"
-      ],
-      "note": "",
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002",
-      "product": {
-       "name": "Butterhead Salad",
-       "brand": "NATURE'S PICK",
-       "size": "80 g",
-       "price_gbp": 0.85,
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002"
-      }
-     },
-     {
-      "category": "蔬菜",
-      "name": "芝麻菜",
-      "packs": 1,
-      "pack_size": "80 g",
-      "name_en": "Watercress Spinach & Rocket Salad",
-      "name_short": "Watercress Spinach & Rocket Salad",
-      "brand": "NATURE'S PICK",
-      "unit_price_gbp": 0.75,
-      "line_total_gbp": 0.75,
-      "buy_qty": 80.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/13"
-      ],
-      "note": "",
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022",
-      "product": {
-       "name": "Watercress Spinach & Rocket Salad",
-       "brand": "NATURE'S PICK",
-       "size": "80 g",
-       "price_gbp": 0.75,
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022"
       }
      },
      {
@@ -3352,7 +3219,7 @@
     ]
    }
   },
-  "combined_total_gbp": 50.71
+  "combined_total_gbp": 50.3
  },
  "only_at": {
   "羽衣甘蓝": "Aldi",
@@ -3846,6 +3713,51 @@
    }
   },
   {
+   "name": "卷心菜",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.19,
+     "pack_g": 440.0,
+     "size": "440 g",
+     "per100_gbp": 0.2705,
+     "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515",
+     "product_name": "Red Cabbage",
+     "category": "蔬菜"
+    },
+    "SAINSBURYS": {
+     "price": 2.0,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.4,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-savoy-cabbage-500g",
+     "product_name": "Sainsbury's Sliced Savoy Cabbage 500g",
+     "category": "蔬菜"
+    },
+    "ICELAND": {
+     "price": 1.5,
+     "pack_g": 550.0,
+     "size": "550g",
+     "per100_gbp": 0.2727,
+     "link": "https://www.iceland.co.uk/p/gilfresh-family-grown-savoy-cabbage-550g/101882.html",
+     "product_name": "Gilfresh Family Grown Savoy Cabbage 550g",
+     "category": "蔬菜"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Sainsbury's",
+   "diff_per100": 0.1295,
+   "diff_pct": 0.4787,
+   "spread_ratio": 1.48,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 440.0,
+    "SAINSBURYS": 500.0,
+    "ICELAND": 550.0
+   }
+  },
+  {
    "name": "鳕鱼",
    "category": "水产",
    "stores": {
@@ -4182,51 +4094,6 @@
    "sizes_g": {
     "ALDI": 265.0,
     "SAINSBURYS": 540.0
-   }
-  },
-  {
-   "name": "芝麻菜",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 0.75,
-     "pack_g": 80.0,
-     "size": "80 g",
-     "per100_gbp": 0.9375,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022",
-     "product_name": "Watercress Spinach & Rocket Salad",
-     "category": "蔬菜"
-    },
-    "SAINSBURYS": {
-     "price": 1.4,
-     "pack_g": 100.0,
-     "size": "100g",
-     "per100_gbp": 1.4,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-spinach-watercress-rocket-100g",
-     "product_name": "Sainsbury's Spinach Watercress & Rocket 100g",
-     "category": "蔬菜"
-    },
-    "ICELAND": {
-     "price": 1.5,
-     "pack_g": 480.0,
-     "size": "480g",
-     "per100_gbp": 0.3125,
-     "link": "https://www.iceland.co.uk/p/iceland-8-rocket-lollies-480g/39358.html",
-     "product_name": "Iceland 8 Rocket Lollies 480g",
-     "category": "蔬菜"
-    }
-   },
-   "cheapest": "ICELAND",
-   "cheapest_label": "Iceland",
-   "expensive_label": "Sainsbury's",
-   "diff_per100": 1.0875,
-   "diff_pct": 3.48,
-   "spread_ratio": 4.48,
-   "suspect": true,
-   "sizes_g": {
-    "ALDI": 80.0,
-    "SAINSBURYS": 100.0,
-    "ICELAND": 480.0
    }
   },
   {

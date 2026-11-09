@@ -3,7 +3,7 @@
  "code": "H1-11-05",
  "week": "2026-11-08 – 2026-11-15",
  "family": "伯明翰809",
- "generated": "2026-11-09T10:10:49",
+ "generated": "2026-11-09T10:30:05",
  "source": "健康减肥/01-事实/饮食/餐单.csv + 食谱库.csv",
  "nutrition_basis": "整份（一餐全部食材，非家庭整锅）",
  "servings_hint": 1.0,
@@ -3032,7 +3032,7 @@
     },
     {
      "role": "午餐",
-     "name": "意式切片牛排配芝麻菜与帕玛森",
+     "name": "意式切片牛排配卷心菜与帕玛森",
      "cook_min": 18,
      "camera": false,
      "kid_ok": false,
@@ -3045,7 +3045,7 @@
        "whole": null
       },
       {
-       "name": "芝麻菜",
+       "name": "卷心菜",
        "qty": 15.8,
        "unit": "g",
        "buy": 15.8,
@@ -3073,35 +3073,28 @@
       "食盐"
      ],
      "nutrition": {
-      "kcal_total": 521.2,
-      "protein_total": 50.4,
-      "fat_total": 29.4,
-      "carb_total": 16.2,
+      "kcal_total": 519.6,
+      "protein_total": 50.1,
+      "fat_total": 29.3,
+      "carb_total": 16.3,
       "fiber_total": 4.1,
-      "sodium_total": 343.2,
+      "sodium_total": 345.6,
       "sat_fat_total": 8.8
      },
      "edible_grams": 404.2,
      "per100g": {
-      "kcal_total": 128.9,
-      "protein_total": 12.5,
-      "fat_total": 7.3,
+      "kcal_total": 128.6,
+      "protein_total": 12.4,
+      "fat_total": 7.2,
       "carb_total": 4.0,
       "fiber_total": 1.0,
-      "sodium_total": 84.9,
+      "sodium_total": 85.5,
       "sat_fat_total": 2.2
      },
      "nutrition_known": true,
-     "steps": [
-      "准备烧烤。牛排静置室温 30 分钟后再处理。同时将户外烤架加热至 500 华氏度（约 260 摄氏度）。",
-      "给牛排调味。用刷子或手指将橄榄油刷遍牛排各面，然后在上下两面撒上 1 大匙海盐。",
-      "将牛排置于直火上（若用炭火烤炉则置于热源上）并盖上盖子。烤至一面充分焦化，约 3 至 4 分钟。翻面、盖盖，再烤另一面 3 至 4 分钟。（或至内部温度达到 140 华氏度（约 60 摄氏度）。其他熟度选项见备注。）",
-      "静置。牛排烤好后移至砧板，覆锡纸，静置 5 至 10 分钟，再切成 1/2 英寸（约 1.3 厘米）厚的片。",
-      "同时制作柠檬芝麻菜沙拉。牛排静置时，将芝麻菜、特级初榨橄榄油、柠檬汁和 1/2 小匙片状盐在碗中拌匀，然后移至餐盘。（若不介意餐盘稍显凌乱，也可直接在餐盘中拌。）",
-      "上桌。将牛排片铺在芝麻菜上，撒上剩余的 1/2 小匙片状盐和帕玛森干酪。立即上桌。"
-     ],
+     "steps": [],
      "serving_g": 408.8,
-     "recipe_id": "R027",
+     "recipe_id": "R306",
      "portion_multiplier": 0.7543
     },
     {
@@ -3280,7 +3273,7 @@
         "hint": ""
        },
        {
-        "name": "芝麻菜",
+        "name": "卷心菜",
         "qty": 15.8,
         "unit": "g",
         "hint": ""
@@ -3368,7 +3361,7 @@
        "zone": "室温",
        "items": [
         {
-         "name": "芝麻菜",
+         "name": "卷心菜",
          "hint": "",
          "qty": 15.8,
          "unit": "g"
@@ -3607,7 +3600,7 @@
        "whole": "买2罐，本餐用113g，余91g 冷藏下次用"
       },
       {
-       "name": "比布生菜",
+       "name": "卷心菜",
        "qty": 77.3,
        "unit": "g",
        "buy": 77.3,
@@ -3615,9 +3608,9 @@
       },
       {
        "name": "白芸豆",
-       "qty": 33.8,
+       "qty": 29.0,
        "unit": "g",
-       "buy": 33.8,
+       "buy": 29.0,
        "whole": null
       },
       {
@@ -3639,32 +3632,28 @@
       "卡拉马塔橄榄"
      ],
      "nutrition": {
-      "kcal_total": 391.1,
-      "protein_total": 46.1,
-      "fat_total": 3.6,
-      "carb_total": 52.5,
-      "fiber_total": 11.3,
-      "sodium_total": 1731.7,
+      "kcal_total": 381.1,
+      "protein_total": 44.5,
+      "fat_total": 3.4,
+      "carb_total": 52.2,
+      "fiber_total": 10.4,
+      "sodium_total": 1751.2,
       "sat_fat_total": 0.1
      },
-     "edible_grams": 388.3,
+     "edible_grams": 383.5,
      "per100g": {
-      "kcal_total": 100.7,
-      "protein_total": 11.9,
+      "kcal_total": 99.4,
+      "protein_total": 11.6,
       "fat_total": 0.9,
-      "carb_total": 13.5,
-      "fiber_total": 2.9,
-      "sodium_total": 446.0,
+      "carb_total": 13.6,
+      "fiber_total": 2.7,
+      "sodium_total": 456.6,
       "sat_fat_total": 0.0
      },
      "nutrition_known": true,
-     "steps": [
-      "将小洋葱、大蒜、芥末、柠檬汁、盐和胡椒在碗中搅打均匀。一边不停搅打，一边缓缓淋入日晒番茄干油至混合均匀",
-      "暂置一旁 5 分钟。",
-      "将日晒番茄干和金枪鱼与 ½ 大匙油醋汁拌匀裹匀。另取一碗，将生菜与 ½ 大匙油醋汁拌匀裹匀，再用盐和胡椒调味。铺上金枪鱼混合物、白芸豆、芹菜片和橄榄。淋上剩余的 1 大匙油醋汁，撒上芹菜叶。上桌。"
-     ],
-     "serving_g": 815.1,
-     "recipe_id": "R036",
+     "steps": [],
+     "serving_g": 810.3,
+     "recipe_id": "R307",
      "portion_multiplier": 0.9658
     },
     {
@@ -3854,14 +3843,14 @@
         "hint": "罐头已熟，开罐沥干即可；冷藏 3 天内吃完"
        },
        {
-        "name": "比布生菜",
+        "name": "卷心菜",
         "qty": 77.3,
         "unit": "g",
         "hint": ""
        },
        {
         "name": "白芸豆",
-        "qty": 33.8,
+        "qty": 29.0,
         "unit": "g",
         "hint": ""
        },
@@ -3956,7 +3945,7 @@
          "note": "沥干重 · 约 1.1 罐（每罐 145g 毛重 / 沥干 102g）"
         },
         {
-         "name": "比布生菜",
+         "name": "卷心菜",
          "hint": "",
          "qty": 77.3,
          "unit": "g"
@@ -3964,7 +3953,7 @@
         {
          "name": "白芸豆",
          "hint": "",
-         "qty": 33.8,
+         "qty": 29.0,
          "unit": "g"
         },
         {
