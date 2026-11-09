@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-09T19:01:05",
- "quantity_basis": "单人 8 天份 · 11/08 一次买齐",
+ "generated": "2026-11-09T19:03:43",
+ "quantity_basis": "单人 7 天份 · 11/09 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
- "buy_date": "11/08",
+ "buy_date": "11/09",
  "shop_plan": {
-  "buy_date": "11/08",
-  "span_days": 8,
+  "buy_date": "11/09",
+  "span_days": 7,
   "leafy": [
    {
     "name": "比布生菜",
@@ -15,7 +15,7 @@
     "days": [
      "11/10"
     ],
-    "last_idx": 2
+    "last_idx": 1
    },
    {
     "name": "芝麻菜",
@@ -23,7 +23,7 @@
     "days": [
      "11/14"
     ],
-    "last_idx": 6
+    "last_idx": 5
    }
   ],
   "mid": [
@@ -42,7 +42,7 @@
      "11/13",
      "11/14"
     ],
-    "last_idx": 6
+    "last_idx": 5
    },
    {
     "name": "甜椒",
@@ -51,7 +51,7 @@
      "11/11",
      "11/15"
     ],
-    "last_idx": 7
+    "last_idx": 6
    },
    {
     "name": "西兰花",
@@ -61,7 +61,7 @@
      "11/13",
      "11/15"
     ],
-    "last_idx": 7
+    "last_idx": 6
    },
    {
     "name": "黄瓜",
@@ -72,7 +72,7 @@
      "11/12",
      "11/15"
     ],
-    "last_idx": 7
+    "last_idx": 6
    }
   ],
   "hardy": [
@@ -85,7 +85,7 @@
      "11/12",
      "11/14"
     ],
-    "last_idx": 6
+    "last_idx": 5
    },
    {
     "name": "卷心菜",
@@ -94,7 +94,7 @@
      "11/09",
      "11/15"
     ],
-    "last_idx": 7
+    "last_idx": 6
    }
   ],
   "leafy_conflicts": [
