@@ -1,14 +1,31 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-09T16:50:36",
+ "generated": "2026-11-09T18:52:50",
  "quantity_basis": "单人 8 天份 · 11/08 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/08",
  "shop_plan": {
   "buy_date": "11/08",
   "span_days": 8,
-  "leafy": [],
+  "leafy": [
+   {
+    "name": "比布生菜",
+    "shelf": "叶菜·保鲜2-3天",
+    "days": [
+     "11/10"
+    ],
+    "last_idx": 2
+   },
+   {
+    "name": "芝麻菜",
+    "shelf": "叶菜·保鲜2-3天",
+    "days": [
+     "11/14"
+    ],
+    "last_idx": 6
+   }
+  ],
   "mid": [
    {
     "name": "芹菜",
@@ -20,24 +37,6 @@
     "name": "番茄",
     "shelf": "中·保鲜5-7天",
     "days": [
-     "11/09",
-     "11/11"
-    ],
-    "last_idx": 3
-   },
-   {
-    "name": "四季豆",
-    "shelf": "中·保鲜5-7天",
-    "days": [
-     "11/10",
-     "11/13"
-    ],
-    "last_idx": 5
-   },
-   {
-    "name": "甜椒",
-    "shelf": "中·保鲜5-7天",
-    "days": [
      "11/13"
     ],
     "last_idx": 5
@@ -47,28 +46,38 @@
     "shelf": "中·保鲜5-7天",
     "days": [
      "11/09",
-     "11/12",
+     "11/11",
+     "11/13",
      "11/14"
     ],
     "last_idx": 6
    },
    {
-    "name": "玉米粒",
+    "name": "甜椒",
     "shelf": "中·保鲜5-7天",
     "days": [
-     "11/10",
-     "11/14"
+     "11/11",
+     "11/15"
     ],
-    "last_idx": 6
+    "last_idx": 7
    },
    {
     "name": "西兰花",
     "shelf": "中·保鲜5-7天",
     "days": [
-     "11/09",
-     "11/11",
+     "11/10",
      "11/13",
-     "11/14",
+     "11/15"
+    ],
+    "last_idx": 7
+   },
+   {
+    "name": "黄瓜",
+    "shelf": "中·保鲜5-7天",
+    "days": [
+     "11/08",
+     "11/10",
+     "11/12",
      "11/15"
     ],
     "last_idx": 7
@@ -82,38 +91,29 @@
     "last_idx": -1
    },
    {
-    "name": "卷心菜",
-    "shelf": "根茎·耐放7天+",
-    "days": [
-     "11/13",
-     "11/14"
-    ],
-    "last_idx": 6
-   },
-   {
     "name": "羽衣甘蓝",
     "shelf": "根茎·耐放7天+",
     "days": [
      "11/08",
      "11/10",
      "11/12",
-     "11/14",
-     "11/15"
+     "11/14"
     ],
-    "last_idx": 7
+    "last_idx": 6
    },
    {
-    "name": "小土豆",
+    "name": "卷心菜",
     "shelf": "根茎·耐放7天+",
     "days": [
-     "11/11",
-     "11/14",
+     "11/09",
      "11/15"
     ],
     "last_idx": 7
    }
   ],
-  "leafy_conflicts": []
+  "leafy_conflicts": [
+   "芝麻菜"
+  ]
  },
  "columns": [
   {
@@ -179,13 +179,13 @@
    "category": "水果",
    "name": "草莓",
    "name_display": "草莓",
-   "packs": 2,
+   "packs": 1,
    "pack_size": "600 g",
    "name_en": "Strawberries",
    "name_short": "Strawberries",
    "brand": "NATURE'S PICK",
    "unit_price_gbp": 2.99,
-   "line_total_gbp": 5.98,
+   "line_total_gbp": 2.99,
    "buy_qty": 600.0,
    "buy_unit": "g",
    "used_on": [
@@ -211,21 +211,20 @@
    "category": "蔬菜",
    "name": "羽衣甘蓝",
    "name_display": "羽衣甘蓝",
-   "packs": 5,
+   "packs": 4,
    "pack_size": "200 g",
    "name_en": "Scottish Shredded Kale",
    "name_short": "Shredded Kale",
    "brand": "NATURE'S PICK",
    "unit_price_gbp": 0.89,
-   "line_total_gbp": 4.45,
+   "line_total_gbp": 3.56,
    "buy_qty": 200.0,
    "buy_unit": "g",
    "used_on": [
     "11/08",
     "11/10",
     "11/12",
-    "11/14",
-    "11/15"
+    "11/14"
    ],
    "note": "易坏，分批",
    "bean_form": null,
@@ -255,7 +254,9 @@
     "11/08",
     "11/09",
     "11/10",
-    "11/12"
+    "11/12",
+    "11/13",
+    "11/15"
    ],
    "note": "开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
    "bean_form": "canned",
@@ -281,11 +282,9 @@
    "line_total_gbp": 0.45,
    "buy_qty": 400.0,
    "buy_unit": "g",
-   "used_on": [
-    "11/15"
-   ],
-   "note": "开罐沥干即用；一次 ≈ 1 罐（240g 沥干）刚好，不剩。",
-   "bean_form": "canned",
+   "used_on": [],
+   "note": "耐存",
+   "bean_form": null,
    "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
    "product": {
     "name": "Tinned Lentils",
@@ -310,8 +309,9 @@
    "buy_unit": "g",
    "used_on": [
     "11/08",
+    "11/10",
     "11/12",
-    "11/14"
+    "11/15"
    ],
    "note": "耐存，一次买够",
    "bean_form": null,
@@ -339,7 +339,8 @@
    "buy_unit": "g",
    "used_on": [
     "11/09",
-    "11/12",
+    "11/11",
+    "11/13",
     "11/14"
    ],
    "note": "易坏，分批",
@@ -367,8 +368,7 @@
    "buy_qty": 500.0,
    "buy_unit": "g",
    "used_on": [
-    "11/11",
-    "11/14"
+    "11/12"
    ],
    "note": "120g 库存已有",
    "bean_form": null,
@@ -385,21 +385,22 @@
    "category": "主食",
    "name": "藜麦",
    "name_display": "藜麦",
-   "packs": 1,
+   "packs": 2,
    "pack_size": "250 g",
    "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
    "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
    "brand": "WORLDWIDE FOODS",
    "unit_price_gbp": 0.85,
-   "line_total_gbp": 0.85,
+   "line_total_gbp": 1.7,
    "buy_qty": 250.0,
    "buy_unit": "g",
    "used_on": [
     "11/08",
-    "11/09",
     "11/10",
-    "11/12",
-    "11/13"
+    "11/11",
+    "11/13",
+    "11/14",
+    "11/15"
    ],
    "note": "耐存",
    "bean_form": null,
@@ -451,8 +452,8 @@
    "buy_qty": 360.0,
    "buy_unit": "g",
    "used_on": [
-    "11/10",
-    "11/12"
+    "11/11",
+    "11/13"
    ],
    "note": "300g 库存已有",
    "bean_form": null,
@@ -479,8 +480,8 @@
    "buy_qty": 440.0,
    "buy_unit": "g",
    "used_on": [
-    "11/13",
-    "11/14"
+    "11/09",
+    "11/15"
    ],
    "note": "",
    "bean_form": null,
@@ -491,34 +492,6 @@
     "size": "440 g",
     "price_gbp": 1.19,
     "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515"
-   }
-  },
-  {
-   "category": "蔬菜",
-   "name": "四季豆",
-   "name_display": "四季豆",
-   "packs": 1,
-   "pack_size": "1 kg",
-   "name_en": "Whole Green Beans",
-   "name_short": "Whole Green Beans",
-   "brand": "FOUR SEASONS",
-   "unit_price_gbp": 1.19,
-   "line_total_gbp": 1.19,
-   "buy_qty": 1000.0,
-   "buy_unit": "g",
-   "used_on": [
-    "11/10",
-    "11/13"
-   ],
-   "note": "",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/four-seasons-whole-green-beans-000000000275878001",
-   "product": {
-    "name": "Whole Green Beans",
-    "brand": "FOUR SEASONS",
-    "size": "1 kg",
-    "price_gbp": 1.19,
-    "link": "https://www.aldi.co.uk/product/four-seasons-whole-green-beans-000000000275878001"
    }
   },
   {
@@ -547,87 +520,6 @@
    }
   },
   {
-   "category": "蔬菜",
-   "name": "小土豆",
-   "name_display": "小土豆",
-   "packs": 1,
-   "pack_size": "1 kg",
-   "name_en": "British Baby Potatoes",
-   "name_short": "Baby Potatoes",
-   "brand": "NATURE'S PICK",
-   "unit_price_gbp": 0.99,
-   "line_total_gbp": 0.99,
-   "buy_qty": 1000.0,
-   "buy_unit": "g",
-   "used_on": [
-    "11/11",
-    "11/14",
-    "11/15"
-   ],
-   "note": "",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748",
-   "product": {
-    "name": "British Baby Potatoes",
-    "brand": "NATURE'S PICK",
-    "size": "1 kg",
-    "price_gbp": 0.99,
-    "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748"
-   }
-  },
-  {
-   "category": "乳制品",
-   "name": "希腊酸奶",
-   "name_display": "希腊酸奶",
-   "packs": 1,
-   "pack_size": "1 kg",
-   "name_en": "Authentic Greek Yogurt",
-   "name_short": "Authentic Greek Yogurt",
-   "brand": "BROOKLEA",
-   "unit_price_gbp": 3.69,
-   "line_total_gbp": 3.69,
-   "buy_qty": 1000.0,
-   "buy_unit": "g",
-   "used_on": [],
-   "note": "",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/brooklea-authentic-greek-yogurt-000000000656970001",
-   "product": {
-    "name": "Authentic Greek Yogurt",
-    "brand": "BROOKLEA",
-    "size": "1 kg",
-    "price_gbp": 3.69,
-    "link": "https://www.aldi.co.uk/product/brooklea-authentic-greek-yogurt-000000000656970001"
-   }
-  },
-  {
-   "category": "乳制品",
-   "name": "帕玛森干酪",
-   "name_display": "帕玛森干酪",
-   "packs": 1,
-   "pack_size": "170 g",
-   "name_en": "Parmigiano Reggiano PDO",
-   "name_short": "Parmigiano Reggiano PDO",
-   "brand": "SPECIALLY SELECTED",
-   "unit_price_gbp": 3.29,
-   "line_total_gbp": 3.29,
-   "buy_qty": 170.0,
-   "buy_unit": "g",
-   "used_on": [
-    "11/13"
-   ],
-   "note": "",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638",
-   "product": {
-    "name": "Parmigiano Reggiano PDO",
-    "brand": "SPECIALLY SELECTED",
-    "size": "170 g",
-    "price_gbp": 3.29,
-    "link": "https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638"
-   }
-  },
-  {
    "category": "水产",
    "name": "欧洲鲈鱼",
    "name_display": "欧洲鲈鱼",
@@ -641,7 +533,7 @@
    "buy_qty": 180.0,
    "buy_unit": "g",
    "used_on": [
-    "11/11"
+    "11/13"
    ],
    "note": "",
    "bean_form": null,
@@ -656,30 +548,29 @@
   },
   {
    "category": "蔬菜",
-   "name": "玉米粒",
-   "name_display": "玉米粒",
-   "packs": 1,
-   "pack_size": "1 kg",
-   "name_en": "Sweetcorn",
-   "name_short": "Sweetcorn",
-   "brand": "FOUR SEASONS",
-   "unit_price_gbp": 1.49,
-   "line_total_gbp": 1.49,
-   "buy_qty": 1000.0,
+   "name": "比布生菜",
+   "name_display": "比布生菜",
+   "packs": 2,
+   "pack_size": "80 g",
+   "name_en": "Butterhead Salad",
+   "name_short": "Butterhead Salad",
+   "brand": "NATURE'S PICK",
+   "unit_price_gbp": 0.85,
+   "line_total_gbp": 1.7,
+   "buy_qty": 80.0,
    "buy_unit": "g",
    "used_on": [
-    "11/10",
-    "11/14"
+    "11/10"
    ],
-   "note": "500g 库存已有",
+   "note": "",
    "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002",
    "product": {
-    "name": "Sweetcorn",
-    "brand": "FOUR SEASONS",
-    "size": "1 kg",
-    "price_gbp": 1.49,
-    "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686"
+    "name": "Butterhead Salad",
+    "brand": "NATURE'S PICK",
+    "size": "80 g",
+    "price_gbp": 0.85,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002"
    }
   },
   {
@@ -696,7 +587,8 @@
    "buy_qty": 600.0,
    "buy_unit": "g",
    "used_on": [
-    "11/13"
+    "11/11",
+    "11/15"
    ],
    "note": "",
    "bean_form": null,
@@ -723,8 +615,7 @@
    "buy_qty": 250.0,
    "buy_unit": "g",
    "used_on": [
-    "11/09",
-    "11/11"
+    "11/13"
    ],
    "note": "",
    "bean_form": null,
@@ -739,15 +630,42 @@
   },
   {
    "category": "蔬菜",
+   "name": "芝麻菜",
+   "name_display": "芝麻菜",
+   "packs": 1,
+   "pack_size": "80 g",
+   "name_en": "Watercress Spinach & Rocket Salad",
+   "name_short": "Watercress Spinach & Rocket Salad",
+   "brand": "NATURE'S PICK",
+   "unit_price_gbp": 0.75,
+   "line_total_gbp": 0.75,
+   "buy_qty": 80.0,
+   "buy_unit": "g",
+   "used_on": [
+    "11/14"
+   ],
+   "note": "",
+   "bean_form": null,
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022",
+   "product": {
+    "name": "Watercress Spinach & Rocket Salad",
+    "brand": "NATURE'S PICK",
+    "size": "80 g",
+    "price_gbp": 0.75,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022"
+   }
+  },
+  {
+   "category": "蔬菜",
    "name": "芹菜",
    "name_display": "芹菜",
-   "packs": 1,
+   "packs": 2,
    "pack_size": "350 g",
    "name_en": "Celery Sticks",
    "name_short": "Celery Sticks",
    "brand": "NATURE'S PICK",
    "unit_price_gbp": 1.19,
-   "line_total_gbp": 1.19,
+   "line_total_gbp": 2.38,
    "buy_qty": 350.0,
    "buy_unit": "g",
    "used_on": [],
@@ -803,10 +721,8 @@
    "buy_qty": 1000.0,
    "buy_unit": "g",
    "used_on": [
-    "11/09",
-    "11/11",
+    "11/10",
     "11/13",
-    "11/14",
     "11/15"
    ],
    "note": "",
@@ -819,10 +735,40 @@
     "price_gbp": 1.19,
     "link": "https://www.aldi.co.uk/product/four-seasons-broccoli-florets-000000000275878002"
    }
+  },
+  {
+   "category": "蔬菜",
+   "name": "黄瓜",
+   "name_display": "黄瓜",
+   "packs": 1,
+   "pack_size": "200 g",
+   "name_en": "Baby Snack Cucumber",
+   "name_short": "Baby Snack Cucumber",
+   "brand": "NATURE'S PICK",
+   "unit_price_gbp": 0.95,
+   "line_total_gbp": 0.95,
+   "buy_qty": 200.0,
+   "buy_unit": "g",
+   "used_on": [
+    "11/08",
+    "11/10",
+    "11/12",
+    "11/15"
+   ],
+   "note": "345g 库存已有",
+   "bean_form": null,
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691",
+   "product": {
+    "name": "Baby Snack Cucumber",
+    "brand": "NATURE'S PICK",
+    "size": "200 g",
+    "price_gbp": 0.95,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691"
+   }
   }
  ],
  "batches": [],
- "total_gbp": 48.43,
+ "total_gbp": 39.34,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -832,13 +778,13 @@
      "category": "水果",
      "name": "草莓",
      "name_display": "草莓",
-     "packs": 2,
+     "packs": 1,
      "pack_size": "600 g",
      "name_en": "Strawberries",
      "name_short": "Strawberries",
      "brand": "NATURE'S PICK",
      "unit_price_gbp": 2.99,
-     "line_total_gbp": 5.98,
+     "line_total_gbp": 2.99,
      "buy_qty": 600.0,
      "buy_unit": "g",
      "used_on": [
@@ -864,21 +810,20 @@
      "category": "蔬菜",
      "name": "羽衣甘蓝",
      "name_display": "羽衣甘蓝",
-     "packs": 5,
+     "packs": 4,
      "pack_size": "200 g",
      "name_en": "Scottish Shredded Kale",
      "name_short": "Shredded Kale",
      "brand": "NATURE'S PICK",
      "unit_price_gbp": 0.89,
-     "line_total_gbp": 4.45,
+     "line_total_gbp": 3.56,
      "buy_qty": 200.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
       "11/10",
       "11/12",
-      "11/14",
-      "11/15"
+      "11/14"
      ],
      "note": "易坏，分批",
      "bean_form": null,
@@ -908,7 +853,9 @@
       "11/08",
       "11/09",
       "11/10",
-      "11/12"
+      "11/12",
+      "11/13",
+      "11/15"
      ],
      "note": "开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
      "bean_form": "canned",
@@ -934,11 +881,9 @@
      "line_total_gbp": 0.45,
      "buy_qty": 400.0,
      "buy_unit": "g",
-     "used_on": [
-      "11/15"
-     ],
-     "note": "开罐沥干即用；一次 ≈ 1 罐（240g 沥干）刚好，不剩。",
-     "bean_form": "canned",
+     "used_on": [],
+     "note": "耐存",
+     "bean_form": null,
      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
      "product": {
       "name": "Tinned Lentils",
@@ -963,8 +908,9 @@
      "buy_unit": "g",
      "used_on": [
       "11/08",
+      "11/10",
       "11/12",
-      "11/14"
+      "11/15"
      ],
      "note": "耐存，一次买够",
      "bean_form": null,
@@ -992,7 +938,8 @@
      "buy_unit": "g",
      "used_on": [
       "11/09",
-      "11/12",
+      "11/11",
+      "11/13",
       "11/14"
      ],
      "note": "易坏，分批",
@@ -1020,8 +967,7 @@
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
-      "11/11",
-      "11/14"
+      "11/12"
      ],
      "note": "120g 库存已有",
      "bean_form": null,
@@ -1038,21 +984,22 @@
      "category": "主食",
      "name": "藜麦",
      "name_display": "藜麦",
-     "packs": 1,
+     "packs": 2,
      "pack_size": "250 g",
      "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
      "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
      "brand": "WORLDWIDE FOODS",
      "unit_price_gbp": 0.85,
-     "line_total_gbp": 0.85,
+     "line_total_gbp": 1.7,
      "buy_qty": 250.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/09",
       "11/10",
-      "11/12",
-      "11/13"
+      "11/11",
+      "11/13",
+      "11/14",
+      "11/15"
      ],
      "note": "耐存",
      "bean_form": null,
@@ -1104,8 +1051,8 @@
      "buy_qty": 360.0,
      "buy_unit": "g",
      "used_on": [
-      "11/10",
-      "11/12"
+      "11/11",
+      "11/13"
      ],
      "note": "300g 库存已有",
      "bean_form": null,
@@ -1132,8 +1079,8 @@
      "buy_qty": 440.0,
      "buy_unit": "g",
      "used_on": [
-      "11/13",
-      "11/14"
+      "11/09",
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -1144,34 +1091,6 @@
       "size": "440 g",
       "price_gbp": 1.19,
       "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "四季豆",
-     "name_display": "四季豆",
-     "packs": 1,
-     "pack_size": "1 kg",
-     "name_en": "Whole Green Beans",
-     "name_short": "Whole Green Beans",
-     "brand": "FOUR SEASONS",
-     "unit_price_gbp": 1.19,
-     "line_total_gbp": 1.19,
-     "buy_qty": 1000.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/10",
-      "11/13"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/four-seasons-whole-green-beans-000000000275878001",
-     "product": {
-      "name": "Whole Green Beans",
-      "brand": "FOUR SEASONS",
-      "size": "1 kg",
-      "price_gbp": 1.19,
-      "link": "https://www.aldi.co.uk/product/four-seasons-whole-green-beans-000000000275878001"
      }
     },
     {
@@ -1200,87 +1119,6 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "小土豆",
-     "name_display": "小土豆",
-     "packs": 1,
-     "pack_size": "1 kg",
-     "name_en": "British Baby Potatoes",
-     "name_short": "Baby Potatoes",
-     "brand": "NATURE'S PICK",
-     "unit_price_gbp": 0.99,
-     "line_total_gbp": 0.99,
-     "buy_qty": 1000.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/11",
-      "11/14",
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748",
-     "product": {
-      "name": "British Baby Potatoes",
-      "brand": "NATURE'S PICK",
-      "size": "1 kg",
-      "price_gbp": 0.99,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "希腊酸奶",
-     "name_display": "希腊酸奶",
-     "packs": 1,
-     "pack_size": "1 kg",
-     "name_en": "Authentic Greek Yogurt",
-     "name_short": "Authentic Greek Yogurt",
-     "brand": "BROOKLEA",
-     "unit_price_gbp": 3.69,
-     "line_total_gbp": 3.69,
-     "buy_qty": 1000.0,
-     "buy_unit": "g",
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/brooklea-authentic-greek-yogurt-000000000656970001",
-     "product": {
-      "name": "Authentic Greek Yogurt",
-      "brand": "BROOKLEA",
-      "size": "1 kg",
-      "price_gbp": 3.69,
-      "link": "https://www.aldi.co.uk/product/brooklea-authentic-greek-yogurt-000000000656970001"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "帕玛森干酪",
-     "name_display": "帕玛森干酪",
-     "packs": 1,
-     "pack_size": "170 g",
-     "name_en": "Parmigiano Reggiano PDO",
-     "name_short": "Parmigiano Reggiano PDO",
-     "brand": "SPECIALLY SELECTED",
-     "unit_price_gbp": 3.29,
-     "line_total_gbp": 3.29,
-     "buy_qty": 170.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/13"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638",
-     "product": {
-      "name": "Parmigiano Reggiano PDO",
-      "brand": "SPECIALLY SELECTED",
-      "size": "170 g",
-      "price_gbp": 3.29,
-      "link": "https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638"
-     }
-    },
-    {
      "category": "水产",
      "name": "欧洲鲈鱼",
      "name_display": "欧洲鲈鱼",
@@ -1294,7 +1132,7 @@
      "buy_qty": 180.0,
      "buy_unit": "g",
      "used_on": [
-      "11/11"
+      "11/13"
      ],
      "note": "",
      "bean_form": null,
@@ -1309,30 +1147,29 @@
     },
     {
      "category": "蔬菜",
-     "name": "玉米粒",
-     "name_display": "玉米粒",
-     "packs": 1,
-     "pack_size": "1 kg",
-     "name_en": "Sweetcorn",
-     "name_short": "Sweetcorn",
-     "brand": "FOUR SEASONS",
-     "unit_price_gbp": 1.49,
-     "line_total_gbp": 1.49,
-     "buy_qty": 1000.0,
+     "name": "比布生菜",
+     "name_display": "比布生菜",
+     "packs": 2,
+     "pack_size": "80 g",
+     "name_en": "Butterhead Salad",
+     "name_short": "Butterhead Salad",
+     "brand": "NATURE'S PICK",
+     "unit_price_gbp": 0.85,
+     "line_total_gbp": 1.7,
+     "buy_qty": 80.0,
      "buy_unit": "g",
      "used_on": [
-      "11/10",
-      "11/14"
+      "11/10"
      ],
-     "note": "500g 库存已有",
+     "note": "",
      "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002",
      "product": {
-      "name": "Sweetcorn",
-      "brand": "FOUR SEASONS",
-      "size": "1 kg",
-      "price_gbp": 1.49,
-      "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686"
+      "name": "Butterhead Salad",
+      "brand": "NATURE'S PICK",
+      "size": "80 g",
+      "price_gbp": 0.85,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002"
      }
     },
     {
@@ -1349,7 +1186,8 @@
      "buy_qty": 600.0,
      "buy_unit": "g",
      "used_on": [
-      "11/13"
+      "11/11",
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -1376,8 +1214,7 @@
      "buy_qty": 250.0,
      "buy_unit": "g",
      "used_on": [
-      "11/09",
-      "11/11"
+      "11/13"
      ],
      "note": "",
      "bean_form": null,
@@ -1392,15 +1229,42 @@
     },
     {
      "category": "蔬菜",
+     "name": "芝麻菜",
+     "name_display": "芝麻菜",
+     "packs": 1,
+     "pack_size": "80 g",
+     "name_en": "Watercress Spinach & Rocket Salad",
+     "name_short": "Watercress Spinach & Rocket Salad",
+     "brand": "NATURE'S PICK",
+     "unit_price_gbp": 0.75,
+     "line_total_gbp": 0.75,
+     "buy_qty": 80.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/14"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022",
+     "product": {
+      "name": "Watercress Spinach & Rocket Salad",
+      "brand": "NATURE'S PICK",
+      "size": "80 g",
+      "price_gbp": 0.75,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022"
+     }
+    },
+    {
+     "category": "蔬菜",
      "name": "芹菜",
      "name_display": "芹菜",
-     "packs": 1,
+     "packs": 2,
      "pack_size": "350 g",
      "name_en": "Celery Sticks",
      "name_short": "Celery Sticks",
      "brand": "NATURE'S PICK",
      "unit_price_gbp": 1.19,
-     "line_total_gbp": 1.19,
+     "line_total_gbp": 2.38,
      "buy_qty": 350.0,
      "buy_unit": "g",
      "used_on": [],
@@ -1456,10 +1320,8 @@
      "buy_qty": 1000.0,
      "buy_unit": "g",
      "used_on": [
-      "11/09",
-      "11/11",
+      "11/10",
       "11/13",
-      "11/14",
       "11/15"
      ],
      "note": "",
@@ -1472,24 +1334,53 @@
       "price_gbp": 1.19,
       "link": "https://www.aldi.co.uk/product/four-seasons-broccoli-florets-000000000275878002"
      }
+    },
+    {
+     "category": "蔬菜",
+     "name": "黄瓜",
+     "name_display": "黄瓜",
+     "packs": 1,
+     "pack_size": "200 g",
+     "name_en": "Baby Snack Cucumber",
+     "name_short": "Baby Snack Cucumber",
+     "brand": "NATURE'S PICK",
+     "unit_price_gbp": 0.95,
+     "line_total_gbp": 0.95,
+     "buy_qty": 200.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/08",
+      "11/10",
+      "11/12",
+      "11/15"
+     ],
+     "note": "345g 库存已有",
+     "bean_form": null,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691",
+     "product": {
+      "name": "Baby Snack Cucumber",
+      "brand": "NATURE'S PICK",
+      "size": "200 g",
+      "price_gbp": 0.95,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691"
+     }
     }
    ],
    "batches": [],
-   "total_gbp": 48.43,
+   "total_gbp": 39.34,
    "missing": [
-    "茄子",
-    "白芸豆"
+    "茄子"
    ],
+   "pantry_missing": [],
    "unavailable": [
-    "茄子",
-    "白芸豆"
+    "茄子"
    ],
-   "coverage": 0.92,
-   "vs_recommend_gbp": 2.4,
-   "vs_recommend_common_n": 23,
-   "vs_recommend_store_gbp": 48.43,
-   "vs_recommend_rec_gbp": 46.03,
-   "vs_recommend_missing": 2
+   "coverage": 0.9545,
+   "vs_recommend_gbp": 0.97,
+   "vs_recommend_common_n": 21,
+   "vs_recommend_store_gbp": 39.34,
+   "vs_recommend_rec_gbp": 38.37,
+   "vs_recommend_missing": 1
   },
   "SAINSBURYS": {
    "store": "SAINSBURYS",
@@ -1544,9 +1435,11 @@
       "11/08",
       "11/09",
       "11/10",
-      "11/12"
+      "11/12",
+      "11/13",
+      "11/15"
      ],
-     "note": "干豆泡 8h、煮 40–50min；约 297g 干豆 ≈ 660g 煮后（餐单按煮后量计）。",
+     "note": "干豆泡 8h、煮 40–50min；约 351g 干豆 ≈ 781g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/laila-chickpeas-1kg",
      "product": {
@@ -1572,7 +1465,7 @@
      "buy_unit": "g",
      "used_on": [
       "11/09",
-      "11/11"
+      "11/12"
      ],
      "note": "",
      "bean_form": null,
@@ -1598,11 +1491,9 @@
      "line_total_gbp": 0.5,
      "buy_qty": 400.0,
      "buy_unit": "g",
-     "used_on": [
-      "11/15"
-     ],
-     "note": "开罐沥干即用；一次 ≈ 1 罐（240g 沥干）刚好，不剩。",
-     "bean_form": "canned",
+     "used_on": [],
+     "note": "耐存",
+     "bean_form": null,
      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-green-lentils-in-water-400g-265g",
      "product": {
       "name": "Sainsbury's Green Lentils In Water 400g (265g*)",
@@ -1627,8 +1518,9 @@
      "buy_unit": "g",
      "used_on": [
       "11/08",
+      "11/10",
       "11/12",
-      "11/14"
+      "11/15"
      ],
      "note": "耐存，一次买够",
      "bean_form": null,
@@ -1656,7 +1548,8 @@
      "buy_unit": "g",
      "used_on": [
       "11/09",
-      "11/12",
+      "11/11",
+      "11/13",
       "11/14"
      ],
      "note": "易坏，分批",
@@ -1684,8 +1577,7 @@
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
-      "11/11",
-      "11/14"
+      "11/12"
      ],
      "note": "120g 库存已有",
      "bean_form": null,
@@ -1702,21 +1594,22 @@
      "category": "主食",
      "name": "藜麦",
      "name_display": "藜麦",
-     "packs": 1,
+     "packs": 2,
      "pack_size": "250g",
      "name_en": "Sainsbury's Red & White Quinoa 250g",
      "name_short": "Sainsbury's Red & White Quinoa",
      "brand": "Sainsbury's",
      "unit_price_gbp": 1.45,
-     "line_total_gbp": 1.45,
+     "line_total_gbp": 2.9,
      "buy_qty": 250.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/09",
       "11/10",
-      "11/12",
-      "11/13"
+      "11/11",
+      "11/13",
+      "11/14",
+      "11/15"
      ],
      "note": "耐存",
      "bean_form": null,
@@ -1768,8 +1661,8 @@
      "buy_qty": 360.0,
      "buy_unit": "g",
      "used_on": [
-      "11/10",
-      "11/12"
+      "11/11",
+      "11/13"
      ],
      "note": "300g 库存已有",
      "bean_form": null,
@@ -1796,8 +1689,8 @@
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
-      "11/13",
-      "11/14"
+      "11/09",
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -1808,88 +1701,6 @@
       "size": "500g",
       "price_gbp": 2.0,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-savoy-cabbage-500g"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "四季豆",
-     "name_display": "四季豆",
-     "packs": 1,
-     "pack_size": "900g",
-     "name_en": "Sainsbury's Whole Green Beans 900g",
-     "name_short": "Sainsbury's Whole Green Beans",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 1.07,
-     "line_total_gbp": 1.07,
-     "buy_qty": 900.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/10",
-      "11/13"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g",
-     "product": {
-      "name": "Sainsbury's Whole Green Beans 900g",
-      "brand": "Sainsbury's",
-      "size": "900g",
-      "price_gbp": 1.07,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "小土豆",
-     "name_display": "小土豆",
-     "packs": 1,
-     "pack_size": "1kg",
-     "name_en": "Sainsbury's 1kg Baby Potatoes",
-     "name_short": "Sainsbury's Baby Potatoes",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 0.99,
-     "line_total_gbp": 0.99,
-     "buy_qty": 1000.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/11",
-      "11/14",
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-1kg-baby-potatoes",
-     "product": {
-      "name": "Sainsbury's 1kg Baby Potatoes",
-      "brand": "Sainsbury's",
-      "size": "1kg",
-      "price_gbp": 0.99,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-1kg-baby-potatoes"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "希腊酸奶",
-     "name_display": "希腊酸奶",
-     "packs": 1,
-     "pack_size": "500g",
-     "name_en": "Sainsbury's Authentic Greek Yogurt, Taste the Difference 500g",
-     "name_short": "Sainsbury's Authentic Greek Yogurt, Taste the Difference",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 2.35,
-     "line_total_gbp": 2.35,
-     "buy_qty": 500.0,
-     "buy_unit": "g",
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-authentic-greek-yogurt-taste-the-difference-500g",
-     "product": {
-      "name": "Sainsbury's Authentic Greek Yogurt, Taste the Difference 500g",
-      "brand": "Sainsbury's",
-      "size": "500g",
-      "price_gbp": 2.35,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-authentic-greek-yogurt-taste-the-difference-500g"
      }
     },
     {
@@ -1906,7 +1717,7 @@
      "buy_qty": 210.0,
      "buy_unit": "g",
      "used_on": [
-      "11/11"
+      "11/13"
      ],
      "note": "",
      "bean_form": null,
@@ -1921,30 +1732,29 @@
     },
     {
      "category": "蔬菜",
-     "name": "玉米粒",
-     "name_display": "玉米粒",
+     "name": "比布生菜",
+     "name_display": "比布生菜",
      "packs": 1,
-     "pack_size": "950g",
-     "name_en": "Stamford Street Co. Sweetcorn 950g",
-     "name_short": "Stamford Street Co. Sweetcorn",
+     "pack_size": "nan",
+     "name_en": "Sainsbury's Little Gem Lettuce, SO Organic x2",
+     "name_short": "Sainsbury's Little Gem Lettuce, SO Organic x2",
      "brand": "Sainsbury's",
-     "unit_price_gbp": 1.42,
-     "line_total_gbp": 1.42,
-     "buy_qty": 950.0,
-     "buy_unit": "g",
+     "unit_price_gbp": 1.6,
+     "line_total_gbp": 1.6,
+     "buy_qty": "",
+     "buy_unit": "个",
      "used_on": [
-      "11/10",
-      "11/14"
+      "11/10"
      ],
-     "note": "500g 库存已有",
+     "note": "",
      "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-sweetcorn-950g",
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-gem-lettuce-so-organic-x2",
      "product": {
-      "name": "Stamford Street Co. Sweetcorn 950g",
+      "name": "Sainsbury's Little Gem Lettuce, SO Organic x2",
       "brand": "Sainsbury's",
-      "size": "950g",
-      "price_gbp": 1.42,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-sweetcorn-950g"
+      "size": "nan",
+      "price_gbp": 1.6,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-gem-lettuce-so-organic-x2"
      }
     },
     {
@@ -1961,7 +1771,8 @@
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
-      "11/13"
+      "11/11",
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -1988,8 +1799,7 @@
      "buy_qty": 400.0,
      "buy_unit": "g",
      "used_on": [
-      "11/09",
-      "11/11"
+      "11/13"
      ],
      "note": "",
      "bean_form": null,
@@ -2003,30 +1813,30 @@
      }
     },
     {
-     "category": "豆制品",
-     "name": "白芸豆",
-     "name_display": "白芸豆",
+     "category": "蔬菜",
+     "name": "芝麻菜",
+     "name_display": "芝麻菜",
      "packs": 1,
-     "pack_size": "250g",
-     "name_en": "Tilda 250g Cannellini Beans",
-     "name_short": "Tilda Cannellini Beans",
+     "pack_size": "100g",
+     "name_en": "Sainsbury's Spinach Watercress & Rocket 100g",
+     "name_short": "Sainsbury's Spinach Watercress & Rocket",
      "brand": "Sainsbury's",
-     "unit_price_gbp": 1.5,
-     "line_total_gbp": 1.5,
-     "buy_qty": 250.0,
+     "unit_price_gbp": 1.4,
+     "line_total_gbp": 1.4,
+     "buy_qty": 100.0,
      "buy_unit": "g",
      "used_on": [
       "11/14"
      ],
-     "note": "量很少（~29g 煮后）：买一罐取少量，剩的分装冷冻（2–3 个月），或少量干豆现煮。",
-     "bean_form": "dry",
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/tilda-250g-cannellini-beans",
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-spinach-watercress-rocket-100g",
      "product": {
-      "name": "Tilda 250g Cannellini Beans",
+      "name": "Sainsbury's Spinach Watercress & Rocket 100g",
       "brand": "Sainsbury's",
-      "size": "250g",
-      "price_gbp": 1.5,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/tilda-250g-cannellini-beans"
+      "size": "100g",
+      "price_gbp": 1.4,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-spinach-watercress-rocket-100g"
      }
     },
     {
@@ -2070,10 +1880,8 @@
      "buy_qty": 900.0,
      "buy_unit": "g",
      "used_on": [
-      "11/09",
-      "11/11",
+      "11/10",
       "11/13",
-      "11/14",
       "11/15"
      ],
      "note": "",
@@ -2086,28 +1894,57 @@
       "price_gbp": 1.5,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-broccoli-cauliflower-florets-900g"
      }
+    },
+    {
+     "category": "待分类",
+     "name": "黄瓜",
+     "name_display": "黄瓜罐头",
+     "packs": 1,
+     "pack_size": "670g",
+     "name_en": "Mrs Elswood Sweet & Sour Cucumbers 670g (360g*)",
+     "name_short": "Mrs Elswood Sweet & Sour Cucumbers (360g*)",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 2.4,
+     "line_total_gbp": 2.4,
+     "buy_qty": 670.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/08",
+      "11/10",
+      "11/12",
+      "11/15"
+     ],
+     "note": "345g 库存已有",
+     "bean_form": null,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/mrs-elswood-sweet-sour-cucumbers-670g-360g",
+     "product": {
+      "name": "Mrs Elswood Sweet & Sour Cucumbers 670g (360g*)",
+      "brand": "Sainsbury's",
+      "size": "670g",
+      "price_gbp": 2.4,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/mrs-elswood-sweet-sour-cucumbers-670g-360g"
+     }
     }
    ],
    "batches": [],
-   "total_gbp": 56.43,
+   "total_gbp": 55.95,
    "missing": [
     "羽衣甘蓝",
     "大蒜",
-    "帕玛森干酪",
     "芹菜"
    ],
+   "pantry_missing": [],
    "unavailable": [
     "羽衣甘蓝",
     "大蒜",
-    "帕玛森干酪",
     "芹菜"
    ],
-   "coverage": 0.84,
-   "vs_recommend_gbp": 15.53,
-   "vs_recommend_common_n": 21,
-   "vs_recommend_store_gbp": 56.43,
-   "vs_recommend_rec_gbp": 40.9,
-   "vs_recommend_missing": 4
+   "coverage": 0.8636,
+   "vs_recommend_gbp": 21.22,
+   "vs_recommend_common_n": 19,
+   "vs_recommend_store_gbp": 55.95,
+   "vs_recommend_rec_gbp": 34.73,
+   "vs_recommend_missing": 3
   },
   "ICELAND": {
    "store": "ICELAND",
@@ -2149,20 +1986,22 @@
      "category": "调料",
      "name": "鹰嘴豆",
      "name_display": "鹰嘴豆罐头",
-     "packs": 3,
+     "packs": 2,
      "pack_size": "240g",
      "name_en": "Napolina Chickpeas in Water 240g",
      "name_short": "Napolina Chickpeas in Water",
      "brand": "Napolina",
      "unit_price_gbp": 1.0,
-     "line_total_gbp": 3.0,
+     "line_total_gbp": 2.0,
      "buy_qty": 240.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
       "11/09",
       "11/10",
-      "11/12"
+      "11/12",
+      "11/13",
+      "11/15"
      ],
      "note": "开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
      "bean_form": "canned",
@@ -2188,11 +2027,9 @@
      "line_total_gbp": 3.5,
      "buy_qty": 2000.0,
      "buy_unit": "g",
-     "used_on": [
-      "11/15"
-     ],
-     "note": "干豆泡 8h、煮 40–50min；约 92g 干豆 ≈ 231g 煮后（餐单按煮后量计）。",
-     "bean_form": "dry",
+     "used_on": [],
+     "note": "耐存",
+     "bean_form": null,
      "link": "https://www.iceland.co.uk/p/heera-red-split-lentils-2kg/93893.html",
      "product": {
       "name": "Heera Red Split Lentils 2KG",
@@ -2206,19 +2043,20 @@
      "category": "水产",
      "name": "金枪鱼",
      "name_display": "金枪鱼罐头",
-     "packs": 2,
+     "packs": 3,
      "pack_size": "160g",
      "name_en": "Osprey Flakes Tuna in Brine 160g",
      "name_short": "Osprey Flakes Tuna in Brine",
      "brand": "Osprey",
      "unit_price_gbp": 0.75,
-     "line_total_gbp": 1.5,
+     "line_total_gbp": 2.25,
      "buy_qty": 160.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
+      "11/10",
       "11/12",
-      "11/14"
+      "11/15"
      ],
      "note": "耐存，一次买够",
      "bean_form": null,
@@ -2246,7 +2084,8 @@
      "buy_unit": "g",
      "used_on": [
       "11/09",
-      "11/12",
+      "11/11",
+      "11/13",
       "11/14"
      ],
      "note": "易坏，分批",
@@ -2274,8 +2113,7 @@
      "buy_qty": 600.0,
      "buy_unit": "g",
      "used_on": [
-      "11/11",
-      "11/14"
+      "11/12"
      ],
      "note": "120g 库存已有",
      "bean_form": null,
@@ -2292,21 +2130,22 @@
      "category": "主食",
      "name": "藜麦",
      "name_display": "藜麦",
-     "packs": 4,
+     "packs": 12,
      "pack_size": "40g",
      "name_en": "Jacobs On The Go Fibre Boost Black Seed & Quinoa 5 x 40g",
      "name_short": "Jacobs On The Go Fibre Boost Black Seed & Quinoa 5 x",
      "brand": "Jacob's",
      "unit_price_gbp": 1.5,
-     "line_total_gbp": 6.0,
+     "line_total_gbp": 18.0,
      "buy_qty": 40.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/09",
       "11/10",
-      "11/12",
-      "11/13"
+      "11/11",
+      "11/13",
+      "11/14",
+      "11/15"
      ],
      "note": "耐存",
      "bean_form": null,
@@ -2358,8 +2197,8 @@
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
-      "11/10",
-      "11/12"
+      "11/11",
+      "11/13"
      ],
      "note": "300g 库存已有",
      "bean_form": null,
@@ -2386,8 +2225,8 @@
      "buy_qty": 550.0,
      "buy_unit": "g",
      "used_on": [
-      "11/13",
-      "11/14"
+      "11/09",
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -2398,115 +2237,6 @@
       "size": "550g",
       "price_gbp": 1.5,
       "link": "https://www.iceland.co.uk/p/gilfresh-family-grown-savoy-cabbage-550g/101882.html"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "四季豆",
-     "name_display": "四季豆",
-     "packs": 1,
-     "pack_size": "1kg",
-     "name_en": "Iceland Very Fine Whole Green Beans 1kg",
-     "name_short": "Iceland Very Fine Whole Green Beans",
-     "brand": "Iceland",
-     "unit_price_gbp": 2.0,
-     "line_total_gbp": 2.0,
-     "buy_qty": 1000.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/10",
-      "11/13"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/iceland-very-fine-whole-green-beans-1kg/17.html",
-     "product": {
-      "name": "Iceland Very Fine Whole Green Beans 1kg",
-      "brand": "Iceland",
-      "size": "1kg",
-      "price_gbp": 2.0,
-      "link": "https://www.iceland.co.uk/p/iceland-very-fine-whole-green-beans-1kg/17.html"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "小土豆",
-     "name_display": "小土豆",
-     "packs": 1,
-     "pack_size": "750g",
-     "name_en": "Wilson's Country Baby Potatoes 750g",
-     "name_short": "Wilson's Country Baby Potatoes",
-     "brand": "Wilson's Country",
-     "unit_price_gbp": 1.15,
-     "line_total_gbp": 1.15,
-     "buy_qty": 750.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/11",
-      "11/14",
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/wilsons-country-baby-potatoes-750g/95482.html",
-     "product": {
-      "name": "Wilson's Country Baby Potatoes 750g",
-      "brand": "Wilson's Country",
-      "size": "750g",
-      "price_gbp": 1.15,
-      "link": "https://www.iceland.co.uk/p/wilsons-country-baby-potatoes-750g/95482.html"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "希腊酸奶",
-     "name_display": "希腊酸奶",
-     "packs": 1,
-     "pack_size": "nan",
-     "name_en": "Muller Bliss Whipped Greek Yogurt with Strawberries & Cream and Biscuits",
-     "name_short": "Muller Bliss Whipped Greek Yogurt with Strawberries & Cream and Biscuits",
-     "brand": "Muller",
-     "unit_price_gbp": 3.0,
-     "line_total_gbp": 3.0,
-     "buy_qty": "",
-     "buy_unit": "个",
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/muller-bliss-whipped-greek-yogurt-with-strawberries-and-cream-and-biscuits/104080.html",
-     "product": {
-      "name": "Muller Bliss Whipped Greek Yogurt with Strawberries & Cream and Biscuits",
-      "brand": "Muller",
-      "size": "nan",
-      "price_gbp": 3.0,
-      "link": "https://www.iceland.co.uk/p/muller-bliss-whipped-greek-yogurt-with-strawberries-and-cream-and-biscuits/104080.html"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "帕玛森干酪",
-     "name_display": "帕玛森干酪",
-     "packs": 1,
-     "pack_size": "400g",
-     "name_en": "Iceland Luxury Parmesan Chicken Pasta Bake With Truffle 400g",
-     "name_short": "Iceland Luxury Parmesan Chicken Pasta Bake With Truffle",
-     "brand": "Iceland",
-     "unit_price_gbp": 4.0,
-     "line_total_gbp": 4.0,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/13"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/iceland-luxury-parmesan-chicken-pasta-bake-with-truffle-400g/51781.html",
-     "product": {
-      "name": "Iceland Luxury Parmesan Chicken Pasta Bake With Truffle 400g",
-      "brand": "Iceland",
-      "size": "400g",
-      "price_gbp": 4.0,
-      "link": "https://www.iceland.co.uk/p/iceland-luxury-parmesan-chicken-pasta-bake-with-truffle-400g/51781.html"
      }
     },
     {
@@ -2523,7 +2253,7 @@
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
-      "11/11"
+      "11/13"
      ],
      "note": "",
      "bean_form": null,
@@ -2538,30 +2268,29 @@
     },
     {
      "category": "蔬菜",
-     "name": "玉米粒",
-     "name_display": "玉米粒",
+     "name": "比布生菜",
+     "name_display": "比布生菜",
      "packs": 1,
-     "pack_size": "860g",
-     "name_en": "Iceland Supersweet Sweetcorn 860g",
-     "name_short": "Iceland Supersweet Sweetcorn",
+     "pack_size": "nan",
+     "name_en": "Iceland Little Gem Lettuce",
+     "name_short": "Iceland Little Gem Lettuce",
      "brand": "Iceland",
-     "unit_price_gbp": 2.0,
-     "line_total_gbp": 2.0,
-     "buy_qty": 860.0,
-     "buy_unit": "g",
+     "unit_price_gbp": 1.0,
+     "line_total_gbp": 1.0,
+     "buy_qty": "",
+     "buy_unit": "个",
      "used_on": [
-      "11/10",
-      "11/14"
+      "11/10"
      ],
-     "note": "500g 库存已有",
+     "note": "",
      "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/iceland-supersweet-sweetcorn-860g/95391.html",
+     "link": "https://www.iceland.co.uk/p/iceland-little-gem-lettuce/67736.html",
      "product": {
-      "name": "Iceland Supersweet Sweetcorn 860g",
+      "name": "Iceland Little Gem Lettuce",
       "brand": "Iceland",
-      "size": "860g",
-      "price_gbp": 2.0,
-      "link": "https://www.iceland.co.uk/p/iceland-supersweet-sweetcorn-860g/95391.html"
+      "size": "nan",
+      "price_gbp": 1.0,
+      "link": "https://www.iceland.co.uk/p/iceland-little-gem-lettuce/67736.html"
      }
     },
     {
@@ -2578,7 +2307,8 @@
      "buy_qty": 650.0,
      "buy_unit": "g",
      "used_on": [
-      "11/13"
+      "11/11",
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -2605,8 +2335,7 @@
      "buy_qty": 400.0,
      "buy_unit": "g",
      "used_on": [
-      "11/09",
-      "11/11"
+      "11/13"
      ],
      "note": "",
      "bean_form": null,
@@ -2621,15 +2350,42 @@
     },
     {
      "category": "蔬菜",
+     "name": "芝麻菜",
+     "name_display": "芝麻菜",
+     "packs": 1,
+     "pack_size": "480g",
+     "name_en": "Iceland 8 Rocket Lollies 480g",
+     "name_short": "Iceland 8 Rocket Lollies",
+     "brand": "Iceland",
+     "unit_price_gbp": 1.5,
+     "line_total_gbp": 1.5,
+     "buy_qty": 480.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/14"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.iceland.co.uk/p/iceland-8-rocket-lollies-480g/39358.html",
+     "product": {
+      "name": "Iceland 8 Rocket Lollies 480g",
+      "brand": "Iceland",
+      "size": "480g",
+      "price_gbp": 1.5,
+      "link": "https://www.iceland.co.uk/p/iceland-8-rocket-lollies-480g/39358.html"
+     }
+    },
+    {
+     "category": "蔬菜",
      "name": "芹菜",
      "name_display": "芹菜",
-     "packs": 2,
+     "packs": 3,
      "pack_size": "250g",
      "name_en": "Iceland Celery Sticks 250g",
      "name_short": "Iceland Celery Sticks",
      "brand": "Iceland",
      "unit_price_gbp": 1.0,
-     "line_total_gbp": 2.0,
+     "line_total_gbp": 3.0,
      "buy_qty": 250.0,
      "buy_unit": "g",
      "used_on": [],
@@ -2685,10 +2441,8 @@
      "buy_qty": 1000.0,
      "buy_unit": "g",
      "used_on": [
-      "11/09",
-      "11/11",
+      "11/10",
       "11/13",
-      "11/14",
       "11/15"
      ],
      "note": "",
@@ -2701,28 +2455,57 @@
       "price_gbp": 2.0,
       "link": "https://www.iceland.co.uk/p/iceland-broccoli-florets-1kg/210.html"
      }
+    },
+    {
+     "category": "蔬菜",
+     "name": "黄瓜",
+     "name_display": "黄瓜",
+     "packs": 1,
+     "pack_size": "200g",
+     "name_en": "Iceland Baby Cucumbers 200g",
+     "name_short": "Iceland Baby Cucumbers",
+     "brand": "Iceland",
+     "unit_price_gbp": 1.5,
+     "line_total_gbp": 1.5,
+     "buy_qty": 200.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/08",
+      "11/10",
+      "11/12",
+      "11/15"
+     ],
+     "note": "345g 库存已有",
+     "bean_form": null,
+     "link": "https://www.iceland.co.uk/p/iceland-baby-cucumbers-200g/53277.html",
+     "product": {
+      "name": "Iceland Baby Cucumbers 200g",
+      "brand": "Iceland",
+      "size": "200g",
+      "price_gbp": 1.5,
+      "link": "https://www.iceland.co.uk/p/iceland-baby-cucumbers-200g/53277.html"
+     }
     }
    ],
    "batches": [],
-   "total_gbp": 66.6,
+   "total_gbp": 71.2,
    "missing": [
     "羽衣甘蓝",
     "茄子",
-    "大蒜",
-    "白芸豆"
+    "大蒜"
    ],
+   "pantry_missing": [],
    "unavailable": [
     "羽衣甘蓝",
     "茄子",
-    "大蒜",
-    "白芸豆"
+    "大蒜"
    ],
-   "coverage": 0.84,
-   "vs_recommend_gbp": 25.51,
-   "vs_recommend_common_n": 21,
-   "vs_recommend_store_gbp": 66.6,
-   "vs_recommend_rec_gbp": 41.09,
-   "vs_recommend_missing": 4
+   "coverage": 0.8636,
+   "vs_recommend_gbp": 36.88,
+   "vs_recommend_common_n": 19,
+   "vs_recommend_store_gbp": 71.2,
+   "vs_recommend_rec_gbp": 34.32,
+   "vs_recommend_missing": 3
   }
  },
  "recommend": {
@@ -2736,10 +2519,11 @@
   ],
   "coverage": 1.0,
   "missing": [],
-  "cost": 50.32,
+  "pantry_missing": [],
+  "cost": 41.16,
   "per_store": {
    "ALDI": {
-    "subtotal": 39.85,
+    "subtotal": 35.43,
     "count": 18,
     "names": [
      "藜麦",
@@ -2748,31 +2532,31 @@
      "羽衣甘蓝",
      "金枪鱼",
      "鹰嘴豆",
+     "黄瓜",
      "柠檬",
-     "蘑菇",
      "大蒜",
-     "西兰花",
-     "鳕鱼",
-     "欧洲鲈鱼",
-     "牛肉末",
-     "小土豆",
      "卷心菜",
-     "帕玛森干酪",
+     "西兰花",
      "芹菜",
-     "扁豆"
+     "欧洲鲈鱼",
+     "芝麻菜",
+     "扁豆",
+     "蘑菇",
+     "牛肉末",
+     "鳕鱼"
     ],
     "items": [
      {
       "category": "水果",
       "name": "草莓",
       "name_display": "草莓",
-      "packs": 2,
+      "packs": 1,
       "pack_size": "600 g",
       "name_en": "Strawberries",
       "name_short": "Strawberries",
       "brand": "NATURE'S PICK",
       "unit_price_gbp": 2.99,
-      "line_total_gbp": 5.98,
+      "line_total_gbp": 2.99,
       "buy_qty": 600.0,
       "buy_unit": "g",
       "used_on": [
@@ -2798,21 +2582,20 @@
       "category": "蔬菜",
       "name": "羽衣甘蓝",
       "name_display": "羽衣甘蓝",
-      "packs": 5,
+      "packs": 4,
       "pack_size": "200 g",
       "name_en": "Scottish Shredded Kale",
       "name_short": "Shredded Kale",
       "brand": "NATURE'S PICK",
       "unit_price_gbp": 0.89,
-      "line_total_gbp": 4.45,
+      "line_total_gbp": 3.56,
       "buy_qty": 200.0,
       "buy_unit": "g",
       "used_on": [
        "11/08",
        "11/10",
        "11/12",
-       "11/14",
-       "11/15"
+       "11/14"
       ],
       "note": "易坏，分批",
       "bean_form": null,
@@ -2842,7 +2625,9 @@
        "11/08",
        "11/09",
        "11/10",
-       "11/12"
+       "11/12",
+       "11/13",
+       "11/15"
       ],
       "note": "开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
       "bean_form": "canned",
@@ -2868,11 +2653,9 @@
       "line_total_gbp": 0.45,
       "buy_qty": 400.0,
       "buy_unit": "g",
-      "used_on": [
-       "11/15"
-      ],
-      "note": "开罐沥干即用；一次 ≈ 1 罐（240g 沥干）刚好，不剩。",
-      "bean_form": "canned",
+      "used_on": [],
+      "note": "耐存",
+      "bean_form": null,
       "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
       "product": {
        "name": "Tinned Lentils",
@@ -2897,8 +2680,9 @@
       "buy_unit": "g",
       "used_on": [
        "11/08",
+       "11/10",
        "11/12",
-       "11/14"
+       "11/15"
       ],
       "note": "耐存，一次买够",
       "bean_form": null,
@@ -2926,7 +2710,8 @@
       "buy_unit": "g",
       "used_on": [
        "11/09",
-       "11/12",
+       "11/11",
+       "11/13",
        "11/14"
       ],
       "note": "易坏，分批",
@@ -2954,8 +2739,7 @@
       "buy_qty": 500.0,
       "buy_unit": "g",
       "used_on": [
-       "11/11",
-       "11/14"
+       "11/12"
       ],
       "note": "120g 库存已有",
       "bean_form": null,
@@ -2972,21 +2756,22 @@
       "category": "主食",
       "name": "藜麦",
       "name_display": "藜麦",
-      "packs": 1,
+      "packs": 2,
       "pack_size": "250 g",
       "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
       "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
       "brand": "WORLDWIDE FOODS",
       "unit_price_gbp": 0.85,
-      "line_total_gbp": 0.85,
+      "line_total_gbp": 1.7,
       "buy_qty": 250.0,
       "buy_unit": "g",
       "used_on": [
        "11/08",
-       "11/09",
        "11/10",
-       "11/12",
-       "11/13"
+       "11/11",
+       "11/13",
+       "11/14",
+       "11/15"
       ],
       "note": "耐存",
       "bean_form": null,
@@ -3038,8 +2823,8 @@
       "buy_qty": 360.0,
       "buy_unit": "g",
       "used_on": [
-       "11/10",
-       "11/12"
+       "11/11",
+       "11/13"
       ],
       "note": "300g 库存已有",
       "bean_form": null,
@@ -3066,8 +2851,8 @@
       "buy_qty": 440.0,
       "buy_unit": "g",
       "used_on": [
-       "11/13",
-       "11/14"
+       "11/09",
+       "11/15"
       ],
       "note": "",
       "bean_form": null,
@@ -3106,62 +2891,6 @@
       }
      },
      {
-      "category": "蔬菜",
-      "name": "小土豆",
-      "name_display": "小土豆",
-      "packs": 1,
-      "pack_size": "1 kg",
-      "name_en": "British Baby Potatoes",
-      "name_short": "Baby Potatoes",
-      "brand": "NATURE'S PICK",
-      "unit_price_gbp": 0.99,
-      "line_total_gbp": 0.99,
-      "buy_qty": 1000.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/11",
-       "11/14",
-       "11/15"
-      ],
-      "note": "",
-      "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748",
-      "product": {
-       "name": "British Baby Potatoes",
-       "brand": "NATURE'S PICK",
-       "size": "1 kg",
-       "price_gbp": 0.99,
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748"
-      }
-     },
-     {
-      "category": "乳制品",
-      "name": "帕玛森干酪",
-      "name_display": "帕玛森干酪",
-      "packs": 1,
-      "pack_size": "170 g",
-      "name_en": "Parmigiano Reggiano PDO",
-      "name_short": "Parmigiano Reggiano PDO",
-      "brand": "SPECIALLY SELECTED",
-      "unit_price_gbp": 3.29,
-      "line_total_gbp": 3.29,
-      "buy_qty": 170.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/13"
-      ],
-      "note": "",
-      "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638",
-      "product": {
-       "name": "Parmigiano Reggiano PDO",
-       "brand": "SPECIALLY SELECTED",
-       "size": "170 g",
-       "price_gbp": 3.29,
-       "link": "https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638"
-      }
-     },
-     {
       "category": "水产",
       "name": "欧洲鲈鱼",
       "name_display": "欧洲鲈鱼",
@@ -3175,7 +2904,7 @@
       "buy_qty": 180.0,
       "buy_unit": "g",
       "used_on": [
-       "11/11"
+       "11/13"
       ],
       "note": "",
       "bean_form": null,
@@ -3190,15 +2919,42 @@
      },
      {
       "category": "蔬菜",
+      "name": "芝麻菜",
+      "name_display": "芝麻菜",
+      "packs": 1,
+      "pack_size": "80 g",
+      "name_en": "Watercress Spinach & Rocket Salad",
+      "name_short": "Watercress Spinach & Rocket Salad",
+      "brand": "NATURE'S PICK",
+      "unit_price_gbp": 0.75,
+      "line_total_gbp": 0.75,
+      "buy_qty": 80.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/14"
+      ],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022",
+      "product": {
+       "name": "Watercress Spinach & Rocket Salad",
+       "brand": "NATURE'S PICK",
+       "size": "80 g",
+       "price_gbp": 0.75,
+       "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022"
+      }
+     },
+     {
+      "category": "蔬菜",
       "name": "芹菜",
       "name_display": "芹菜",
-      "packs": 1,
+      "packs": 2,
       "pack_size": "350 g",
       "name_en": "Celery Sticks",
       "name_short": "Celery Sticks",
       "brand": "NATURE'S PICK",
       "unit_price_gbp": 1.19,
-      "line_total_gbp": 1.19,
+      "line_total_gbp": 2.38,
       "buy_qty": 350.0,
       "buy_unit": "g",
       "used_on": [],
@@ -3254,10 +3010,8 @@
       "buy_qty": 1000.0,
       "buy_unit": "g",
       "used_on": [
-       "11/09",
-       "11/11",
+       "11/10",
        "11/13",
-       "11/14",
        "11/15"
       ],
       "note": "",
@@ -3270,20 +3024,47 @@
        "price_gbp": 1.19,
        "link": "https://www.aldi.co.uk/product/four-seasons-broccoli-florets-000000000275878002"
       }
+     },
+     {
+      "category": "蔬菜",
+      "name": "黄瓜",
+      "name_display": "黄瓜",
+      "packs": 1,
+      "pack_size": "200 g",
+      "name_en": "Baby Snack Cucumber",
+      "name_short": "Baby Snack Cucumber",
+      "brand": "NATURE'S PICK",
+      "unit_price_gbp": 0.95,
+      "line_total_gbp": 0.95,
+      "buy_qty": 200.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/08",
+       "11/10",
+       "11/12",
+       "11/15"
+      ],
+      "note": "345g 库存已有",
+      "bean_form": null,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691",
+      "product": {
+       "name": "Baby Snack Cucumber",
+       "brand": "NATURE'S PICK",
+       "size": "200 g",
+       "price_gbp": 0.95,
+       "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691"
+      }
      }
     ]
    },
    "SAINSBURYS": {
-    "subtotal": 10.47,
-    "count": 7,
+    "subtotal": 5.73,
+    "count": 4,
     "names": [
-     "番茄",
      "茄子",
-     "玉米粒",
-     "四季豆",
-     "希腊酸奶",
+     "比布生菜",
      "甜椒",
-     "白芸豆"
+     "番茄"
     ],
     "items": [
      {
@@ -3301,7 +3082,7 @@
       "buy_unit": "g",
       "used_on": [
        "11/09",
-       "11/11"
+       "11/12"
       ],
       "note": "",
       "bean_form": null,
@@ -3316,83 +3097,29 @@
      },
      {
       "category": "蔬菜",
-      "name": "四季豆",
-      "name_display": "四季豆",
+      "name": "比布生菜",
+      "name_display": "比布生菜",
       "packs": 1,
-      "pack_size": "900g",
-      "name_en": "Sainsbury's Whole Green Beans 900g",
-      "name_short": "Sainsbury's Whole Green Beans",
+      "pack_size": "nan",
+      "name_en": "Sainsbury's Little Gem Lettuce, SO Organic x2",
+      "name_short": "Sainsbury's Little Gem Lettuce, SO Organic x2",
       "brand": "Sainsbury's",
-      "unit_price_gbp": 1.07,
-      "line_total_gbp": 1.07,
-      "buy_qty": 900.0,
-      "buy_unit": "g",
+      "unit_price_gbp": 1.6,
+      "line_total_gbp": 1.6,
+      "buy_qty": "",
+      "buy_unit": "个",
       "used_on": [
-       "11/10",
-       "11/13"
+       "11/10"
       ],
       "note": "",
       "bean_form": null,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g",
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-gem-lettuce-so-organic-x2",
       "product": {
-       "name": "Sainsbury's Whole Green Beans 900g",
+       "name": "Sainsbury's Little Gem Lettuce, SO Organic x2",
        "brand": "Sainsbury's",
-       "size": "900g",
-       "price_gbp": 1.07,
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g"
-      }
-     },
-     {
-      "category": "乳制品",
-      "name": "希腊酸奶",
-      "name_display": "希腊酸奶",
-      "packs": 1,
-      "pack_size": "500g",
-      "name_en": "Sainsbury's Authentic Greek Yogurt, Taste the Difference 500g",
-      "name_short": "Sainsbury's Authentic Greek Yogurt, Taste the Difference",
-      "brand": "Sainsbury's",
-      "unit_price_gbp": 2.35,
-      "line_total_gbp": 2.35,
-      "buy_qty": 500.0,
-      "buy_unit": "g",
-      "used_on": [],
-      "note": "",
-      "bean_form": null,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-authentic-greek-yogurt-taste-the-difference-500g",
-      "product": {
-       "name": "Sainsbury's Authentic Greek Yogurt, Taste the Difference 500g",
-       "brand": "Sainsbury's",
-       "size": "500g",
-       "price_gbp": 2.35,
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-authentic-greek-yogurt-taste-the-difference-500g"
-      }
-     },
-     {
-      "category": "蔬菜",
-      "name": "玉米粒",
-      "name_display": "玉米粒",
-      "packs": 1,
-      "pack_size": "950g",
-      "name_en": "Stamford Street Co. Sweetcorn 950g",
-      "name_short": "Stamford Street Co. Sweetcorn",
-      "brand": "Sainsbury's",
-      "unit_price_gbp": 1.42,
-      "line_total_gbp": 1.42,
-      "buy_qty": 950.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/10",
-       "11/14"
-      ],
-      "note": "500g 库存已有",
-      "bean_form": null,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-sweetcorn-950g",
-      "product": {
-       "name": "Stamford Street Co. Sweetcorn 950g",
-       "brand": "Sainsbury's",
-       "size": "950g",
-       "price_gbp": 1.42,
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-sweetcorn-950g"
+       "size": "nan",
+       "price_gbp": 1.6,
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-gem-lettuce-so-organic-x2"
       }
      },
      {
@@ -3409,7 +3136,8 @@
       "buy_qty": 500.0,
       "buy_unit": "g",
       "used_on": [
-       "11/13"
+       "11/11",
+       "11/15"
       ],
       "note": "",
       "bean_form": null,
@@ -3436,8 +3164,7 @@
       "buy_qty": 400.0,
       "buy_unit": "g",
       "used_on": [
-       "11/09",
-       "11/11"
+       "11/13"
       ],
       "note": "",
       "bean_form": null,
@@ -3449,44 +3176,16 @@
        "price_gbp": 0.35,
        "link": "https://www.sainsburys.co.uk/gol-ui/product/ktc-chopped-tomatoes-400g"
       }
-     },
-     {
-      "category": "豆制品",
-      "name": "白芸豆",
-      "name_display": "白芸豆",
-      "packs": 1,
-      "pack_size": "250g",
-      "name_en": "Tilda 250g Cannellini Beans",
-      "name_short": "Tilda Cannellini Beans",
-      "brand": "Sainsbury's",
-      "unit_price_gbp": 1.5,
-      "line_total_gbp": 1.5,
-      "buy_qty": 250.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/14"
-      ],
-      "note": "量很少（~29g 煮后）：买一罐取少量，剩的分装冷冻（2–3 个月），或少量干豆现煮。",
-      "bean_form": "dry",
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/tilda-250g-cannellini-beans",
-      "product": {
-       "name": "Tilda 250g Cannellini Beans",
-       "brand": "Sainsbury's",
-       "size": "250g",
-       "price_gbp": 1.5,
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/tilda-250g-cannellini-beans"
-      }
      }
     ]
    }
   },
-  "combined_total_gbp": 50.32
+  "combined_total_gbp": 41.16
  },
  "only_at": {
   "羽衣甘蓝": "Aldi",
   "茄子": "Sainsbury's",
-  "大蒜": "Aldi",
-  "白芸豆": "Sainsbury's"
+  "大蒜": "Aldi"
  },
  "price_compare": [
   {
@@ -3737,58 +3436,6 @@
    }
   },
   {
-   "name": "四季豆",
-   "name_display": "四季豆",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 1.19,
-     "pack_g": 1000.0,
-     "size": "1 kg",
-     "per100_gbp": 0.119,
-     "link": "https://www.aldi.co.uk/product/four-seasons-whole-green-beans-000000000275878001",
-     "product_name": "Whole Green Beans",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.07,
-     "pack_g": 900.0,
-     "size": "900g",
-     "per100_gbp": 0.1189,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g",
-     "product_name": "Sainsbury's Whole Green Beans 900g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 2.0,
-     "pack_g": 1000.0,
-     "size": "1kg",
-     "per100_gbp": 0.2,
-     "link": "https://www.iceland.co.uk/p/iceland-very-fine-whole-green-beans-1kg/17.html",
-     "product_name": "Iceland Very Fine Whole Green Beans 1kg",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "cheapest": "SAINSBURYS",
-   "cheapest_label": "Sainsbury's",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.0811,
-   "diff_pct": 0.6821,
-   "spread_ratio": 1.68,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 1000.0,
-    "SAINSBURYS": 900.0,
-    "ICELAND": 1000.0
-   }
-  },
-  {
    "name": "西兰花",
    "name_display": "西兰花",
    "category": "蔬菜",
@@ -3893,39 +3540,28 @@
    }
   },
   {
-   "name": "玉米粒",
-   "name_display": "玉米粒",
+   "name": "黄瓜",
+   "name_display": "黄瓜",
    "category": "蔬菜",
    "stores": {
     "ALDI": {
-     "price": 1.49,
-     "pack_g": 1000.0,
-     "size": "1 kg",
-     "per100_gbp": 0.149,
-     "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
-     "product_name": "Sweetcorn",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.42,
-     "pack_g": 950.0,
-     "size": "950g",
-     "per100_gbp": 0.1495,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-sweetcorn-950g",
-     "product_name": "Stamford Street Co. Sweetcorn 950g",
+     "price": 0.95,
+     "pack_g": 200.0,
+     "size": "200 g",
+     "per100_gbp": 0.475,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691",
+     "product_name": "Baby Snack Cucumber",
      "category": "蔬菜",
      "form": "raw",
      "canned": false
     },
     "ICELAND": {
-     "price": 2.0,
-     "pack_g": 860.0,
-     "size": "860g",
-     "per100_gbp": 0.2326,
-     "link": "https://www.iceland.co.uk/p/iceland-supersweet-sweetcorn-860g/95391.html",
-     "product_name": "Iceland Supersweet Sweetcorn 860g",
+     "price": 1.5,
+     "pack_g": 200.0,
+     "size": "200g",
+     "per100_gbp": 0.75,
+     "link": "https://www.iceland.co.uk/p/iceland-baby-cucumbers-200g/53277.html",
+     "product_name": "Iceland Baby Cucumbers 200g",
      "category": "蔬菜",
      "form": "raw",
      "canned": false
@@ -3934,14 +3570,13 @@
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Iceland",
-   "diff_per100": 0.0836,
-   "diff_pct": 0.5611,
-   "spread_ratio": 1.56,
+   "diff_per100": 0.275,
+   "diff_pct": 0.5789,
+   "spread_ratio": 1.58,
    "suspect": false,
    "sizes_g": {
-    "ALDI": 1000.0,
-    "SAINSBURYS": 950.0,
-    "ICELAND": 860.0
+    "ALDI": 200.0,
+    "ICELAND": 200.0
    }
   },
   {
@@ -3997,58 +3632,6 @@
    }
   },
   {
-   "name": "小土豆",
-   "name_display": "小土豆",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 0.99,
-     "pack_g": 1000.0,
-     "size": "1 kg",
-     "per100_gbp": 0.099,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748",
-     "product_name": "British Baby Potatoes",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 0.99,
-     "pack_g": 1000.0,
-     "size": "1kg",
-     "per100_gbp": 0.099,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-1kg-baby-potatoes",
-     "product_name": "Sainsbury's 1kg Baby Potatoes",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 1.15,
-     "pack_g": 750.0,
-     "size": "750g",
-     "per100_gbp": 0.1533,
-     "link": "https://www.iceland.co.uk/p/wilsons-country-baby-potatoes-750g/95482.html",
-     "product_name": "Wilson's Country Baby Potatoes 750g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.0543,
-   "diff_pct": 0.5485,
-   "spread_ratio": 1.55,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 1000.0,
-    "SAINSBURYS": 1000.0,
-    "ICELAND": 750.0
-   }
-  },
-  {
    "name": "卷心菜",
    "name_display": "卷心菜",
    "category": "蔬菜",
@@ -4098,57 +3681,6 @@
     "ALDI": 440.0,
     "SAINSBURYS": 500.0,
     "ICELAND": 550.0
-   }
-  },
-  {
-   "name": "希腊酸奶",
-   "name_display": "希腊酸奶",
-   "category": "乳制品",
-   "stores": {
-    "ALDI": {
-     "price": 3.69,
-     "pack_g": 1000.0,
-     "size": "1 kg",
-     "per100_gbp": 0.369,
-     "link": "https://www.aldi.co.uk/product/brooklea-authentic-greek-yogurt-000000000656970001",
-     "product_name": "Authentic Greek Yogurt",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 2.35,
-     "pack_g": 500.0,
-     "size": "500g",
-     "per100_gbp": 0.47,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-authentic-greek-yogurt-taste-the-difference-500g",
-     "product_name": "Sainsbury's Authentic Greek Yogurt, Taste the Difference 500g",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 3.0,
-     "pack_g": null,
-     "size": "nan",
-     "per100_gbp": null,
-     "link": "https://www.iceland.co.uk/p/muller-bliss-whipped-greek-yogurt-with-strawberries-and-cream-and-biscuits/104080.html",
-     "product_name": "Muller Bliss Whipped Greek Yogurt with Strawberries & Cream and Biscuits",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Sainsbury's",
-   "diff_per100": 0.101,
-   "diff_pct": 0.2737,
-   "spread_ratio": 1.27,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 1000.0,
-    "SAINSBURYS": 500.0
    }
   },
   {
@@ -4437,6 +3969,58 @@
     "ALDI": 180.0,
     "SAINSBURYS": 210.0,
     "ICELAND": 500.0
+   }
+  },
+  {
+   "name": "芝麻菜",
+   "name_display": "芝麻菜",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 0.75,
+     "pack_g": 80.0,
+     "size": "80 g",
+     "per100_gbp": 0.9375,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022",
+     "product_name": "Watercress Spinach & Rocket Salad",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 1.4,
+     "pack_g": 100.0,
+     "size": "100g",
+     "per100_gbp": 1.4,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-spinach-watercress-rocket-100g",
+     "product_name": "Sainsbury's Spinach Watercress & Rocket 100g",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 1.5,
+     "pack_g": 480.0,
+     "size": "480g",
+     "per100_gbp": 0.3125,
+     "link": "https://www.iceland.co.uk/p/iceland-8-rocket-lollies-480g/39358.html",
+     "product_name": "Iceland 8 Rocket Lollies 480g",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "cheapest": "ICELAND",
+   "cheapest_label": "Iceland",
+   "expensive_label": "Sainsbury's",
+   "diff_per100": 1.0875,
+   "diff_pct": 3.48,
+   "spread_ratio": 4.48,
+   "suspect": true,
+   "sizes_g": {
+    "ALDI": 80.0,
+    "SAINSBURYS": 100.0,
+    "ICELAND": 480.0
    }
   },
   {
