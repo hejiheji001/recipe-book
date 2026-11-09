@@ -47,7 +47,35 @@ SUFFIX = "_stock"
 TOKEN = "809"
 
 COLS = ["名称", "数量", "单位", "估算克数", "克数口径",
-        "存放方式", "是否开封", "入库日期", "剩余天数", "是否过期"]
+        "存放方式", "是否开封", "入库日期", "剩余天数", "是否过期",
+        "来源超市", "溯源明细"]
+
+
+def src_summary(it):
+    """把 item["src"] 压成两列：来源超市（去重） 与 每笔来源明细。
+
+    库存是合并展示的（草莓 200g+200g=400g），但营养要按具体商品算，
+    所以溯源必须保留「哪一段来自哪家哪个 SKU」。
+    """
+    stores, detail = [], []
+    for e in (it.get("src") or []):
+        if not isinstance(e, dict):
+            continue
+        s = (e.get("store") or "").strip()
+        if s and s not in stores:
+            stores.append(s)
+        raw = (e.get("raw") or e.get("sku") or "").strip()
+        q = e.get("qty")
+        u = (e.get("unit") or "").strip()
+        seg = raw
+        if q not in (None, ""):
+            qs = f"{q:g}" if isinstance(q, (int, float)) else str(q)
+            seg = f"{seg} {qs}{u}".strip()
+        if s:
+            seg = f"{s}:{seg}"
+        if seg and seg not in detail:
+            detail.append(seg)
+    return " / ".join(stores), " ; ".join(detail)
 
 
 def fetch_cloud(token=TOKEN, timeout=20):
@@ -150,6 +178,7 @@ def rows_of(doc, today):
             continue
         left = days - used
         qty, unit, grams, gsrc = measure(it, units, name)
+        store_col, src_col = src_summary(it)
         out.append({
             "名称": name,
             "数量": qty,
@@ -161,6 +190,8 @@ def rows_of(doc, today):
             "入库日期": str(it.get("since"))[:10],
             "剩余天数": left,
             "是否过期": "是" if left <= 0 else "否",
+            "来源超市": store_col,
+            "溯源明细": src_col,
         })
     return out
 

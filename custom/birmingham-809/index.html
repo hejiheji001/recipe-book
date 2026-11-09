@@ -522,6 +522,8 @@ th{color:#777;font-weight:600;font-size:12px}
     var m = location.hash.match(/(?:^#|&)open=([^&]+)/);
     if(m && VIEWS.indexOf(m[1]) >= 0) return m[1];
     if(/^#shopping(?:&|$)/.test(location.hash)) return "shopping";
+    // 采购页是独立文件，没有 hash，必须按路径认，否则会被默认值改回「推荐菜谱」
+    if(/shopping\.html$/.test(location.pathname)) return "shopping";
     return "recommend";
   }
   function setActive(view){
