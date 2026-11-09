@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-09T18:52:50",
+ "generated": "2026-11-09T19:01:05",
  "quantity_basis": "单人 8 天份 · 11/08 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/08",
@@ -32,14 +32,6 @@
     "shelf": "中·保鲜5-7天",
     "days": [],
     "last_idx": -1
-   },
-   {
-    "name": "番茄",
-    "shelf": "中·保鲜5-7天",
-    "days": [
-     "11/13"
-    ],
-    "last_idx": 5
    },
    {
     "name": "蘑菇",
@@ -84,12 +76,6 @@
    }
   ],
   "hardy": [
-   {
-    "name": "大蒜",
-    "shelf": "根茎·耐放7天+",
-    "days": [],
-    "last_idx": -1
-   },
    {
     "name": "羽衣甘蓝",
     "shelf": "根茎·耐放7天+",
@@ -270,31 +256,6 @@
    }
   },
   {
-   "category": "豆制品",
-   "name": "扁豆",
-   "name_display": "扁豆罐头",
-   "packs": 1,
-   "pack_size": "400 g",
-   "name_en": "Tinned Lentils",
-   "name_short": "Tinned Lentils",
-   "brand": "FOUR SEASONS",
-   "unit_price_gbp": 0.45,
-   "line_total_gbp": 0.45,
-   "buy_qty": 400.0,
-   "buy_unit": "g",
-   "used_on": [],
-   "note": "耐存",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
-   "product": {
-    "name": "Tinned Lentils",
-    "brand": "FOUR SEASONS",
-    "size": "400 g",
-    "price_gbp": 0.45,
-    "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
-   }
-  },
-  {
    "category": "水产",
    "name": "金枪鱼",
    "name_display": "金枪鱼罐头",
@@ -355,33 +316,6 @@
    }
   },
   {
-   "category": "肉类",
-   "name": "牛肉末",
-   "name_display": "牛肉末",
-   "packs": 1,
-   "pack_size": "500 g",
-   "name_en": "Beef Mince 25% Fat",
-   "name_short": "Beef Mince 25% Fat",
-   "brand": "EVERYDAY ESSENTIALS",
-   "unit_price_gbp": 3.19,
-   "line_total_gbp": 3.19,
-   "buy_qty": 500.0,
-   "buy_unit": "g",
-   "used_on": [
-    "11/12"
-   ],
-   "note": "120g 库存已有",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030",
-   "product": {
-    "name": "Beef Mince 25% Fat",
-    "brand": "EVERYDAY ESSENTIALS",
-    "size": "500 g",
-    "price_gbp": 3.19,
-    "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030"
-   }
-  },
-  {
    "category": "主食",
    "name": "藜麦",
    "name_display": "藜麦",
@@ -439,34 +373,6 @@
    }
   },
   {
-   "category": "水产",
-   "name": "鳕鱼",
-   "name_display": "鳕鱼",
-   "packs": 1,
-   "pack_size": "360 g",
-   "name_en": "Cod Fillets",
-   "name_short": "Cod Fillets",
-   "brand": "THE FISHMONGER",
-   "unit_price_gbp": 3.95,
-   "line_total_gbp": 3.95,
-   "buy_qty": 360.0,
-   "buy_unit": "g",
-   "used_on": [
-    "11/11",
-    "11/13"
-   ],
-   "note": "300g 库存已有",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
-   "product": {
-    "name": "Cod Fillets",
-    "brand": "THE FISHMONGER",
-    "size": "360 g",
-    "price_gbp": 3.95,
-    "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
-   }
-  },
-  {
    "category": "蔬菜",
    "name": "卷心菜",
    "name_display": "卷心菜",
@@ -495,28 +401,34 @@
    }
   },
   {
-   "category": "肉类",
-   "name": "大蒜",
-   "name_display": "大蒜",
+   "category": "干货",
+   "name": "杏仁",
+   "name_display": "杏仁",
    "packs": 1,
-   "pack_size": "240 g",
-   "name_en": "Garlic & Herb Ribs & Skewers",
-   "name_short": "Garlic & Herb Ribs & Skewers",
-   "brand": "PLANT MENU",
-   "unit_price_gbp": 0.49,
-   "line_total_gbp": 0.49,
-   "buy_qty": 240.0,
+   "pack_size": "150 g",
+   "name_en": "Ground Almonds",
+   "name_short": "Ground Almonds",
+   "brand": "THE PANTRY",
+   "unit_price_gbp": 1.19,
+   "line_total_gbp": 1.19,
+   "buy_qty": 150.0,
    "buy_unit": "g",
-   "used_on": [],
+   "used_on": [
+    "11/08",
+    "11/10",
+    "11/12",
+    "11/13",
+    "11/14"
+   ],
    "note": "",
    "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/plant-menu-garlic-herb-ribs-skewers-000000000622607001",
+   "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001",
    "product": {
-    "name": "Garlic & Herb Ribs & Skewers",
-    "brand": "PLANT MENU",
-    "size": "240 g",
-    "price_gbp": 0.49,
-    "link": "https://www.aldi.co.uk/product/plant-menu-garlic-herb-ribs-skewers-000000000622607001"
+    "name": "Ground Almonds",
+    "brand": "THE PANTRY",
+    "size": "150 g",
+    "price_gbp": 1.19,
+    "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001"
    }
   },
   {
@@ -599,33 +511,6 @@
     "size": "600 g",
     "price_gbp": 1.59,
     "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-mixed-peppers-000000000000275381"
-   }
-  },
-  {
-   "category": "蔬菜",
-   "name": "番茄",
-   "name_display": "番茄",
-   "packs": 1,
-   "pack_size": "250 g",
-   "name_en": "Baby Plum Tomatoes",
-   "name_short": "Baby Plum Tomatoes",
-   "brand": "EVERYDAY ESSENTIALS",
-   "unit_price_gbp": 0.62,
-   "line_total_gbp": 0.62,
-   "buy_qty": 250.0,
-   "buy_unit": "g",
-   "used_on": [
-    "11/13"
-   ],
-   "note": "",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259",
-   "product": {
-    "name": "Baby Plum Tomatoes",
-    "brand": "EVERYDAY ESSENTIALS",
-    "size": "250 g",
-    "price_gbp": 0.62,
-    "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259"
    }
   },
   {
@@ -768,7 +653,7 @@
   }
  ],
  "batches": [],
- "total_gbp": 39.34,
+ "total_gbp": 31.83,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -869,31 +754,6 @@
      }
     },
     {
-     "category": "豆制品",
-     "name": "扁豆",
-     "name_display": "扁豆罐头",
-     "packs": 1,
-     "pack_size": "400 g",
-     "name_en": "Tinned Lentils",
-     "name_short": "Tinned Lentils",
-     "brand": "FOUR SEASONS",
-     "unit_price_gbp": 0.45,
-     "line_total_gbp": 0.45,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "used_on": [],
-     "note": "耐存",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
-     "product": {
-      "name": "Tinned Lentils",
-      "brand": "FOUR SEASONS",
-      "size": "400 g",
-      "price_gbp": 0.45,
-      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
-     }
-    },
-    {
      "category": "水产",
      "name": "金枪鱼",
      "name_display": "金枪鱼罐头",
@@ -954,33 +814,6 @@
      }
     },
     {
-     "category": "肉类",
-     "name": "牛肉末",
-     "name_display": "牛肉末",
-     "packs": 1,
-     "pack_size": "500 g",
-     "name_en": "Beef Mince 25% Fat",
-     "name_short": "Beef Mince 25% Fat",
-     "brand": "EVERYDAY ESSENTIALS",
-     "unit_price_gbp": 3.19,
-     "line_total_gbp": 3.19,
-     "buy_qty": 500.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/12"
-     ],
-     "note": "120g 库存已有",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030",
-     "product": {
-      "name": "Beef Mince 25% Fat",
-      "brand": "EVERYDAY ESSENTIALS",
-      "size": "500 g",
-      "price_gbp": 3.19,
-      "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030"
-     }
-    },
-    {
      "category": "主食",
      "name": "藜麦",
      "name_display": "藜麦",
@@ -1038,34 +871,6 @@
      }
     },
     {
-     "category": "水产",
-     "name": "鳕鱼",
-     "name_display": "鳕鱼",
-     "packs": 1,
-     "pack_size": "360 g",
-     "name_en": "Cod Fillets",
-     "name_short": "Cod Fillets",
-     "brand": "THE FISHMONGER",
-     "unit_price_gbp": 3.95,
-     "line_total_gbp": 3.95,
-     "buy_qty": 360.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/11",
-      "11/13"
-     ],
-     "note": "300g 库存已有",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
-     "product": {
-      "name": "Cod Fillets",
-      "brand": "THE FISHMONGER",
-      "size": "360 g",
-      "price_gbp": 3.95,
-      "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
-     }
-    },
-    {
      "category": "蔬菜",
      "name": "卷心菜",
      "name_display": "卷心菜",
@@ -1094,28 +899,34 @@
      }
     },
     {
-     "category": "肉类",
-     "name": "大蒜",
-     "name_display": "大蒜",
+     "category": "干货",
+     "name": "杏仁",
+     "name_display": "杏仁",
      "packs": 1,
-     "pack_size": "240 g",
-     "name_en": "Garlic & Herb Ribs & Skewers",
-     "name_short": "Garlic & Herb Ribs & Skewers",
-     "brand": "PLANT MENU",
-     "unit_price_gbp": 0.49,
-     "line_total_gbp": 0.49,
-     "buy_qty": 240.0,
+     "pack_size": "150 g",
+     "name_en": "Ground Almonds",
+     "name_short": "Ground Almonds",
+     "brand": "THE PANTRY",
+     "unit_price_gbp": 1.19,
+     "line_total_gbp": 1.19,
+     "buy_qty": 150.0,
      "buy_unit": "g",
-     "used_on": [],
+     "used_on": [
+      "11/08",
+      "11/10",
+      "11/12",
+      "11/13",
+      "11/14"
+     ],
      "note": "",
      "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/plant-menu-garlic-herb-ribs-skewers-000000000622607001",
+     "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001",
      "product": {
-      "name": "Garlic & Herb Ribs & Skewers",
-      "brand": "PLANT MENU",
-      "size": "240 g",
-      "price_gbp": 0.49,
-      "link": "https://www.aldi.co.uk/product/plant-menu-garlic-herb-ribs-skewers-000000000622607001"
+      "name": "Ground Almonds",
+      "brand": "THE PANTRY",
+      "size": "150 g",
+      "price_gbp": 1.19,
+      "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001"
      }
     },
     {
@@ -1198,33 +1009,6 @@
       "size": "600 g",
       "price_gbp": 1.59,
       "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-mixed-peppers-000000000000275381"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "番茄",
-     "name_display": "番茄",
-     "packs": 1,
-     "pack_size": "250 g",
-     "name_en": "Baby Plum Tomatoes",
-     "name_short": "Baby Plum Tomatoes",
-     "brand": "EVERYDAY ESSENTIALS",
-     "unit_price_gbp": 0.62,
-     "line_total_gbp": 0.62,
-     "buy_qty": 250.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/13"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259",
-     "product": {
-      "name": "Baby Plum Tomatoes",
-      "brand": "EVERYDAY ESSENTIALS",
-      "size": "250 g",
-      "price_gbp": 0.62,
-      "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259"
      }
     },
     {
@@ -1367,7 +1151,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 39.34,
+   "total_gbp": 31.83,
    "missing": [
     "茄子"
    ],
@@ -1375,11 +1159,11 @@
    "unavailable": [
     "茄子"
    ],
-   "coverage": 0.9545,
-   "vs_recommend_gbp": 0.97,
-   "vs_recommend_common_n": 21,
-   "vs_recommend_store_gbp": 39.34,
-   "vs_recommend_rec_gbp": 38.37,
+   "coverage": 0.9444,
+   "vs_recommend_gbp": 0.7,
+   "vs_recommend_common_n": 17,
+   "vs_recommend_store_gbp": 31.83,
+   "vs_recommend_rec_gbp": 31.13,
    "vs_recommend_missing": 1
   },
   "SAINSBURYS": {
@@ -1479,31 +1263,6 @@
      }
     },
     {
-     "category": "调料",
-     "name": "扁豆",
-     "name_display": "扁豆罐头",
-     "packs": 1,
-     "pack_size": "400g",
-     "name_en": "Sainsbury's Green Lentils In Water 400g (265g*)",
-     "name_short": "Sainsbury's Green Lentils In Water (265g*)",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 0.5,
-     "line_total_gbp": 0.5,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "used_on": [],
-     "note": "耐存",
-     "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-green-lentils-in-water-400g-265g",
-     "product": {
-      "name": "Sainsbury's Green Lentils In Water 400g (265g*)",
-      "brand": "Sainsbury's",
-      "size": "400g",
-      "price_gbp": 0.5,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-green-lentils-in-water-400g-265g"
-     }
-    },
-    {
      "category": "水产",
      "name": "金枪鱼",
      "name_display": "金枪鱼罐头",
@@ -1564,33 +1323,6 @@
      }
     },
     {
-     "category": "肉类",
-     "name": "牛肉末",
-     "name_display": "牛肉末",
-     "packs": 1,
-     "pack_size": "500g",
-     "name_en": "Sainsbury's British or Irish 25% Fat Beef Mince 500g",
-     "name_short": "Sainsbury's 25% Fat Beef Mince",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 3.19,
-     "line_total_gbp": 3.19,
-     "buy_qty": 500.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/12"
-     ],
-     "note": "120g 库存已有",
-     "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-or-irish-25-fat-beef-mince-500g",
-     "product": {
-      "name": "Sainsbury's British or Irish 25% Fat Beef Mince 500g",
-      "brand": "Sainsbury's",
-      "size": "500g",
-      "price_gbp": 3.19,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-or-irish-25-fat-beef-mince-500g"
-     }
-    },
-    {
      "category": "主食",
      "name": "藜麦",
      "name_display": "藜麦",
@@ -1645,34 +1377,6 @@
       "size": "750ml",
       "price_gbp": 2.0,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/innocent-cucumber-lemon-apple-spinach-smoothie-750ml"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "鳕鱼",
-     "name_display": "鳕鱼",
-     "packs": 1,
-     "pack_size": "360g",
-     "name_en": "Sainsbury's Skinless & Boneless Cod Fillets 360g",
-     "name_short": "Sainsbury's Skinless & Boneless Cod Fillets",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 7.0,
-     "line_total_gbp": 7.0,
-     "buy_qty": 360.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/11",
-      "11/13"
-     ],
-     "note": "300g 库存已有",
-     "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-skinless-boneless-cod-fillets-360g",
-     "product": {
-      "name": "Sainsbury's Skinless & Boneless Cod Fillets 360g",
-      "brand": "Sainsbury's",
-      "size": "360g",
-      "price_gbp": 7.0,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-skinless-boneless-cod-fillets-360g"
      }
     },
     {
@@ -1783,33 +1487,6 @@
       "size": "500g",
       "price_gbp": 0.99,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-mixed-peppers-500g"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "番茄",
-     "name_display": "番茄",
-     "packs": 1,
-     "pack_size": "400g",
-     "name_en": "KTC Chopped Tomatoes 400g",
-     "name_short": "KTC Chopped Tomatoes",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 0.35,
-     "line_total_gbp": 0.35,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/13"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/ktc-chopped-tomatoes-400g",
-     "product": {
-      "name": "KTC Chopped Tomatoes 400g",
-      "brand": "Sainsbury's",
-      "size": "400g",
-      "price_gbp": 0.35,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/ktc-chopped-tomatoes-400g"
      }
     },
     {
@@ -1927,23 +1604,23 @@
     }
    ],
    "batches": [],
-   "total_gbp": 55.95,
+   "total_gbp": 44.91,
    "missing": [
+    "杏仁",
     "羽衣甘蓝",
-    "大蒜",
     "芹菜"
    ],
    "pantry_missing": [],
    "unavailable": [
+    "杏仁",
     "羽衣甘蓝",
-    "大蒜",
     "芹菜"
    ],
-   "coverage": 0.8636,
-   "vs_recommend_gbp": 21.22,
-   "vs_recommend_common_n": 19,
-   "vs_recommend_store_gbp": 55.95,
-   "vs_recommend_rec_gbp": 34.73,
+   "coverage": 0.8333,
+   "vs_recommend_gbp": 18.12,
+   "vs_recommend_common_n": 15,
+   "vs_recommend_store_gbp": 44.91,
+   "vs_recommend_rec_gbp": 26.79,
    "vs_recommend_missing": 3
   },
   "ICELAND": {
@@ -2015,31 +1692,6 @@
      }
     },
     {
-     "category": "豆制品",
-     "name": "扁豆",
-     "name_display": "扁豆",
-     "packs": 1,
-     "pack_size": "2KG",
-     "name_en": "Heera Red Split Lentils 2KG",
-     "name_short": "Heera Red Split Lentils",
-     "brand": "Heera",
-     "unit_price_gbp": 3.5,
-     "line_total_gbp": 3.5,
-     "buy_qty": 2000.0,
-     "buy_unit": "g",
-     "used_on": [],
-     "note": "耐存",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/heera-red-split-lentils-2kg/93893.html",
-     "product": {
-      "name": "Heera Red Split Lentils 2KG",
-      "brand": "Heera",
-      "size": "2KG",
-      "price_gbp": 3.5,
-      "link": "https://www.iceland.co.uk/p/heera-red-split-lentils-2kg/93893.html"
-     }
-    },
-    {
      "category": "水产",
      "name": "金枪鱼",
      "name_display": "金枪鱼罐头",
@@ -2100,33 +1752,6 @@
      }
     },
     {
-     "category": "肉类",
-     "name": "牛肉末",
-     "name_display": "牛肉末",
-     "packs": 1,
-     "pack_size": "600g",
-     "name_en": "Iceland Beef Mince 20% Fat 600g",
-     "name_short": "Iceland Beef Mince 20% Fat",
-     "brand": "Iceland",
-     "unit_price_gbp": 4.5,
-     "line_total_gbp": 4.5,
-     "buy_qty": 600.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/12"
-     ],
-     "note": "120g 库存已有",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/iceland-beef-mince-20pct-fat-600g/53893.html",
-     "product": {
-      "name": "Iceland Beef Mince 20% Fat 600g",
-      "brand": "Iceland",
-      "size": "600g",
-      "price_gbp": 4.5,
-      "link": "https://www.iceland.co.uk/p/iceland-beef-mince-20pct-fat-600g/53893.html"
-     }
-    },
-    {
      "category": "主食",
      "name": "藜麦",
      "name_display": "藜麦",
@@ -2184,34 +1809,6 @@
      }
     },
     {
-     "category": "水产",
-     "name": "鳕鱼",
-     "name_display": "鳕鱼",
-     "packs": 1,
-     "pack_size": "500g",
-     "name_en": "Iceland 4 Cod Fillets 500g",
-     "name_short": "Iceland 4 Cod Fillets",
-     "brand": "Iceland",
-     "unit_price_gbp": 7.0,
-     "line_total_gbp": 7.0,
-     "buy_qty": 500.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/11",
-      "11/13"
-     ],
-     "note": "300g 库存已有",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/iceland-4-cod-fillets-500g/49731.html",
-     "product": {
-      "name": "Iceland 4 Cod Fillets 500g",
-      "brand": "Iceland",
-      "size": "500g",
-      "price_gbp": 7.0,
-      "link": "https://www.iceland.co.uk/p/iceland-4-cod-fillets-500g/49731.html"
-     }
-    },
-    {
      "category": "蔬菜",
      "name": "卷心菜",
      "name_display": "卷心菜",
@@ -2237,6 +1834,37 @@
       "size": "550g",
       "price_gbp": 1.5,
       "link": "https://www.iceland.co.uk/p/gilfresh-family-grown-savoy-cabbage-550g/101882.html"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "杏仁",
+     "name_display": "杏仁",
+     "packs": 1,
+     "pack_size": "95g",
+     "name_en": "Whitworths Almonds 95g",
+     "name_short": "Whitworths Almonds",
+     "brand": "Whitworths",
+     "unit_price_gbp": 1.25,
+     "line_total_gbp": 1.25,
+     "buy_qty": 95.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/08",
+      "11/10",
+      "11/12",
+      "11/13",
+      "11/14"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.iceland.co.uk/p/whitworths-almonds-95g/104405.html",
+     "product": {
+      "name": "Whitworths Almonds 95g",
+      "brand": "Whitworths",
+      "size": "95g",
+      "price_gbp": 1.25,
+      "link": "https://www.iceland.co.uk/p/whitworths-almonds-95g/104405.html"
      }
     },
     {
@@ -2319,33 +1947,6 @@
       "size": "650g",
       "price_gbp": 2.0,
       "link": "https://www.iceland.co.uk/p/iceland-mixed-peppers-650g/17684.html"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "番茄",
-     "name_display": "番茄",
-     "packs": 1,
-     "pack_size": "400g",
-     "name_en": "Ragu Peeled Plum Tomatoes in Tomato Juice 400g",
-     "name_short": "Ragu Peeled Plum Tomatoes in Tomato Juice",
-     "brand": "Ragu",
-     "unit_price_gbp": 0.65,
-     "line_total_gbp": 0.65,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/13"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/ragu-peeled-plum-tomatoes-in-tomato-juice-400g/107259.html",
-     "product": {
-      "name": "Ragu Peeled Plum Tomatoes in Tomato Juice 400g",
-      "brand": "Ragu",
-      "size": "400g",
-      "price_gbp": 0.65,
-      "link": "https://www.iceland.co.uk/p/ragu-peeled-plum-tomatoes-in-tomato-juice-400g/107259.html"
      }
     },
     {
@@ -2488,24 +2089,22 @@
     }
    ],
    "batches": [],
-   "total_gbp": 71.2,
+   "total_gbp": 56.8,
    "missing": [
     "羽衣甘蓝",
-    "茄子",
-    "大蒜"
+    "茄子"
    ],
    "pantry_missing": [],
    "unavailable": [
     "羽衣甘蓝",
-    "茄子",
-    "大蒜"
+    "茄子"
    ],
-   "coverage": 0.8636,
-   "vs_recommend_gbp": 36.88,
-   "vs_recommend_common_n": 19,
-   "vs_recommend_store_gbp": 71.2,
-   "vs_recommend_rec_gbp": 34.32,
-   "vs_recommend_missing": 3
+   "coverage": 0.8889,
+   "vs_recommend_gbp": 29.23,
+   "vs_recommend_common_n": 16,
+   "vs_recommend_store_gbp": 56.8,
+   "vs_recommend_rec_gbp": 27.57,
+   "vs_recommend_missing": 2
   }
  },
  "recommend": {
@@ -2520,30 +2119,27 @@
   "coverage": 1.0,
   "missing": [],
   "pantry_missing": [],
-  "cost": 41.16,
+  "cost": 33.92,
   "per_store": {
    "ALDI": {
-    "subtotal": 35.43,
-    "count": 18,
+    "subtotal": 28.54,
+    "count": 15,
     "names": [
      "藜麦",
      "草莓",
+     "杏仁",
      "菲达奶酪",
      "羽衣甘蓝",
      "金枪鱼",
      "鹰嘴豆",
      "黄瓜",
      "柠檬",
-     "大蒜",
+     "蘑菇",
      "卷心菜",
      "西兰花",
      "芹菜",
      "欧洲鲈鱼",
-     "芝麻菜",
-     "扁豆",
-     "蘑菇",
-     "牛肉末",
-     "鳕鱼"
+     "芝麻菜"
     ],
     "items": [
      {
@@ -2641,31 +2237,6 @@
       }
      },
      {
-      "category": "豆制品",
-      "name": "扁豆",
-      "name_display": "扁豆罐头",
-      "packs": 1,
-      "pack_size": "400 g",
-      "name_en": "Tinned Lentils",
-      "name_short": "Tinned Lentils",
-      "brand": "FOUR SEASONS",
-      "unit_price_gbp": 0.45,
-      "line_total_gbp": 0.45,
-      "buy_qty": 400.0,
-      "buy_unit": "g",
-      "used_on": [],
-      "note": "耐存",
-      "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
-      "product": {
-       "name": "Tinned Lentils",
-       "brand": "FOUR SEASONS",
-       "size": "400 g",
-       "price_gbp": 0.45,
-       "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002"
-      }
-     },
-     {
       "category": "水产",
       "name": "金枪鱼",
       "name_display": "金枪鱼罐头",
@@ -2726,33 +2297,6 @@
       }
      },
      {
-      "category": "肉类",
-      "name": "牛肉末",
-      "name_display": "牛肉末",
-      "packs": 1,
-      "pack_size": "500 g",
-      "name_en": "Beef Mince 25% Fat",
-      "name_short": "Beef Mince 25% Fat",
-      "brand": "EVERYDAY ESSENTIALS",
-      "unit_price_gbp": 3.19,
-      "line_total_gbp": 3.19,
-      "buy_qty": 500.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/12"
-      ],
-      "note": "120g 库存已有",
-      "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030",
-      "product": {
-       "name": "Beef Mince 25% Fat",
-       "brand": "EVERYDAY ESSENTIALS",
-       "size": "500 g",
-       "price_gbp": 3.19,
-       "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030"
-      }
-     },
-     {
       "category": "主食",
       "name": "藜麦",
       "name_display": "藜麦",
@@ -2810,34 +2354,6 @@
       }
      },
      {
-      "category": "水产",
-      "name": "鳕鱼",
-      "name_display": "鳕鱼",
-      "packs": 1,
-      "pack_size": "360 g",
-      "name_en": "Cod Fillets",
-      "name_short": "Cod Fillets",
-      "brand": "THE FISHMONGER",
-      "unit_price_gbp": 3.95,
-      "line_total_gbp": 3.95,
-      "buy_qty": 360.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/11",
-       "11/13"
-      ],
-      "note": "300g 库存已有",
-      "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
-      "product": {
-       "name": "Cod Fillets",
-       "brand": "THE FISHMONGER",
-       "size": "360 g",
-       "price_gbp": 3.95,
-       "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
-      }
-     },
-     {
       "category": "蔬菜",
       "name": "卷心菜",
       "name_display": "卷心菜",
@@ -2866,28 +2382,34 @@
       }
      },
      {
-      "category": "肉类",
-      "name": "大蒜",
-      "name_display": "大蒜",
+      "category": "干货",
+      "name": "杏仁",
+      "name_display": "杏仁",
       "packs": 1,
-      "pack_size": "240 g",
-      "name_en": "Garlic & Herb Ribs & Skewers",
-      "name_short": "Garlic & Herb Ribs & Skewers",
-      "brand": "PLANT MENU",
-      "unit_price_gbp": 0.49,
-      "line_total_gbp": 0.49,
-      "buy_qty": 240.0,
+      "pack_size": "150 g",
+      "name_en": "Ground Almonds",
+      "name_short": "Ground Almonds",
+      "brand": "THE PANTRY",
+      "unit_price_gbp": 1.19,
+      "line_total_gbp": 1.19,
+      "buy_qty": 150.0,
       "buy_unit": "g",
-      "used_on": [],
+      "used_on": [
+       "11/08",
+       "11/10",
+       "11/12",
+       "11/13",
+       "11/14"
+      ],
       "note": "",
       "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/plant-menu-garlic-herb-ribs-skewers-000000000622607001",
+      "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001",
       "product": {
-       "name": "Garlic & Herb Ribs & Skewers",
-       "brand": "PLANT MENU",
-       "size": "240 g",
-       "price_gbp": 0.49,
-       "link": "https://www.aldi.co.uk/product/plant-menu-garlic-herb-ribs-skewers-000000000622607001"
+       "name": "Ground Almonds",
+       "brand": "THE PANTRY",
+       "size": "150 g",
+       "price_gbp": 1.19,
+       "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001"
       }
      },
      {
@@ -3058,13 +2580,12 @@
     ]
    },
    "SAINSBURYS": {
-    "subtotal": 5.73,
-    "count": 4,
+    "subtotal": 5.38,
+    "count": 3,
     "names": [
      "茄子",
      "比布生菜",
-     "甜椒",
-     "番茄"
+     "甜椒"
     ],
     "items": [
      {
@@ -3149,97 +2670,17 @@
        "price_gbp": 0.99,
        "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-mixed-peppers-500g"
       }
-     },
-     {
-      "category": "蔬菜",
-      "name": "番茄",
-      "name_display": "番茄",
-      "packs": 1,
-      "pack_size": "400g",
-      "name_en": "KTC Chopped Tomatoes 400g",
-      "name_short": "KTC Chopped Tomatoes",
-      "brand": "Sainsbury's",
-      "unit_price_gbp": 0.35,
-      "line_total_gbp": 0.35,
-      "buy_qty": 400.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/13"
-      ],
-      "note": "",
-      "bean_form": null,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/ktc-chopped-tomatoes-400g",
-      "product": {
-       "name": "KTC Chopped Tomatoes 400g",
-       "brand": "Sainsbury's",
-       "size": "400g",
-       "price_gbp": 0.35,
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/ktc-chopped-tomatoes-400g"
-      }
      }
     ]
    }
   },
-  "combined_total_gbp": 41.16
+  "combined_total_gbp": 33.92
  },
  "only_at": {
   "羽衣甘蓝": "Aldi",
-  "茄子": "Sainsbury's",
-  "大蒜": "Aldi"
+  "茄子": "Sainsbury's"
  },
  "price_compare": [
-  {
-   "name": "番茄",
-   "name_display": "番茄",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 0.62,
-     "pack_g": 250.0,
-     "size": "250 g",
-     "per100_gbp": 0.248,
-     "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259",
-     "product_name": "Baby Plum Tomatoes",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 0.35,
-     "pack_g": 400.0,
-     "size": "400g",
-     "per100_gbp": 0.0875,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/ktc-chopped-tomatoes-400g",
-     "product_name": "KTC Chopped Tomatoes 400g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 0.65,
-     "pack_g": 400.0,
-     "size": "400g",
-     "per100_gbp": 0.1625,
-     "link": "https://www.iceland.co.uk/p/ragu-peeled-plum-tomatoes-in-tomato-juice-400g/107259.html",
-     "product_name": "Ragu Peeled Plum Tomatoes in Tomato Juice 400g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "cheapest": "SAINSBURYS",
-   "cheapest_label": "Sainsbury's",
-   "expensive_label": "Aldi",
-   "diff_per100": 0.1605,
-   "diff_pct": 1.8343,
-   "spread_ratio": 2.83,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 250.0,
-    "SAINSBURYS": 400.0,
-    "ICELAND": 400.0
-   }
-  },
   {
    "name": "鹰嘴豆",
    "name_display": "鹰嘴豆罐头",
@@ -3278,58 +2719,6 @@
    "sizes_g": {
     "ALDI": 265.0,
     "ICELAND": 240.0
-   }
-  },
-  {
-   "name": "鳕鱼",
-   "name_display": "鳕鱼",
-   "category": "水产",
-   "stores": {
-    "ALDI": {
-     "price": 3.95,
-     "pack_g": 360.0,
-     "size": "360 g",
-     "per100_gbp": 1.0972,
-     "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
-     "product_name": "Cod Fillets",
-     "category": "水产",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 7.0,
-     "pack_g": 360.0,
-     "size": "360g",
-     "per100_gbp": 1.9444,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-skinless-boneless-cod-fillets-360g",
-     "product_name": "Sainsbury's Skinless & Boneless Cod Fillets 360g",
-     "category": "水产",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 7.0,
-     "pack_g": 500.0,
-     "size": "500g",
-     "per100_gbp": 1.4,
-     "link": "https://www.iceland.co.uk/p/iceland-4-cod-fillets-500g/49731.html",
-     "product_name": "Iceland 4 Cod Fillets 500g",
-     "category": "水产",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Sainsbury's",
-   "diff_per100": 0.8472,
-   "diff_pct": 0.7721,
-   "spread_ratio": 1.77,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 360.0,
-    "SAINSBURYS": 360.0,
-    "ICELAND": 500.0
    }
   },
   {
@@ -3485,6 +2874,46 @@
     "ALDI": 1000.0,
     "SAINSBURYS": 900.0,
     "ICELAND": 1000.0
+   }
+  },
+  {
+   "name": "杏仁",
+   "name_display": "杏仁",
+   "category": "干货",
+   "stores": {
+    "ALDI": {
+     "price": 1.19,
+     "pack_g": 150.0,
+     "size": "150 g",
+     "per100_gbp": 0.7933,
+     "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001",
+     "product_name": "Ground Almonds",
+     "category": "干货",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 1.25,
+     "pack_g": 95.0,
+     "size": "95g",
+     "per100_gbp": 1.3158,
+     "link": "https://www.iceland.co.uk/p/whitworths-almonds-95g/104405.html",
+     "product_name": "Whitworths Almonds 95g",
+     "category": "干货",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.5225,
+   "diff_pct": 0.6586,
+   "spread_ratio": 1.66,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 150.0,
+    "ICELAND": 95.0
    }
   },
   {
@@ -3724,58 +3153,6 @@
    }
   },
   {
-   "name": "牛肉末",
-   "name_display": "牛肉末",
-   "category": "肉类",
-   "stores": {
-    "ALDI": {
-     "price": 3.19,
-     "pack_g": 500.0,
-     "size": "500 g",
-     "per100_gbp": 0.638,
-     "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030",
-     "product_name": "Beef Mince 25% Fat",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 3.19,
-     "pack_g": 500.0,
-     "size": "500g",
-     "per100_gbp": 0.638,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-or-irish-25-fat-beef-mince-500g",
-     "product_name": "Sainsbury's British or Irish 25% Fat Beef Mince 500g",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 4.5,
-     "pack_g": 600.0,
-     "size": "600g",
-     "per100_gbp": 0.75,
-     "link": "https://www.iceland.co.uk/p/iceland-beef-mince-20pct-fat-600g/53893.html",
-     "product_name": "Iceland Beef Mince 20% Fat 600g",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.112,
-   "diff_pct": 0.1755,
-   "spread_ratio": 1.18,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 500.0,
-    "SAINSBURYS": 500.0,
-    "ICELAND": 600.0
-   }
-  },
-  {
    "name": "金枪鱼",
    "name_display": "金枪鱼罐头",
    "category": "水产",
@@ -3877,46 +3254,6 @@
     "ALDI": 400.0,
     "SAINSBURYS": 500.0,
     "ICELAND": 500.0
-   }
-  },
-  {
-   "name": "扁豆",
-   "name_display": "扁豆罐头",
-   "category": "豆制品",
-   "stores": {
-    "ALDI": {
-     "price": 0.45,
-     "pack_g": 400.0,
-     "size": "400 g",
-     "per100_gbp": 0.1125,
-     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
-     "product_name": "Tinned Lentils",
-     "category": "豆制品",
-     "form": "canned",
-     "canned": true
-    },
-    "SAINSBURYS": {
-     "price": 0.5,
-     "pack_g": 400.0,
-     "size": "400g",
-     "per100_gbp": 0.125,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-green-lentils-in-water-400g-265g",
-     "product_name": "Sainsbury's Green Lentils In Water 400g (265g*)",
-     "category": "调料",
-     "form": "canned",
-     "canned": true
-    }
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Sainsbury's",
-   "diff_per100": 0.0125,
-   "diff_pct": 0.1111,
-   "spread_ratio": 1.11,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 400.0,
-    "SAINSBURYS": 400.0
    }
   },
   {
