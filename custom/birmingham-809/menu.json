@@ -3,7 +3,7 @@
  "code": "H1-11-05",
  "week": "2026-11-08 – 2026-11-15",
  "family": "伯明翰809",
- "generated": "2026-11-09T19:03:43",
+ "generated": "2026-11-09T19:50:04",
  "source": "健康减肥/01-事实/饮食/餐单.csv + 食谱库.csv",
  "nutrition_basis": "整份（一餐全部食材，非家庭整锅）",
  "servings_hint": 1.0,
@@ -64,6 +64,8 @@
      "pantry": [
       "盐"
      ],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 375.0,
       "protein_total": 22.1,
@@ -125,9 +127,12 @@
      "pantry": [
       "黑胡椒",
       "食盐",
-      "黄油",
+      "黄油"
+     ],
+     "pantry_missing": [
       "莳萝"
      ],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 594.4,
       "protein_total": 42.4,
@@ -203,9 +208,12 @@
      ],
      "pantry": [
       "盐",
-      "柠檬",
       "黑胡椒"
      ],
+     "pantry_missing": [
+      "柠檬"
+     ],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 350.6,
       "protein_total": 39.7,
@@ -259,6 +267,8 @@
       }
      ],
      "pantry": [],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 130.0,
       "protein_total": 3.1,
@@ -312,12 +322,6 @@
         "hint": "易坏，3 天内吃完"
        },
        {
-        "name": "杏仁",
-        "qty": 19.5,
-        "unit": "g",
-        "hint": ""
-       },
-       {
         "name": "羽衣甘蓝",
         "qty": 322.6,
         "unit": "g",
@@ -343,6 +347,12 @@
        {
         "name": "藜麦",
         "qty": 86.0,
+        "unit": "g",
+        "hint": ""
+       },
+       {
+        "name": "杏仁",
+        "qty": 19.5,
         "unit": "g",
         "hint": ""
        },
@@ -377,14 +387,10 @@
      "盐",
      "黑胡椒",
      "食盐",
-     "黄油",
-     "莳萝",
-     "柠檬"
+     "黄油"
     ],
     "missing_pantry": [
-     "食盐",
-     "莳萝",
-     "柠檬"
+     "食盐"
     ]
    },
    "take_order": [
@@ -398,6 +404,12 @@
          "name": "藜麦",
          "hint": "",
          "qty": 86.0,
+         "unit": "g"
+        },
+        {
+         "name": "杏仁",
+         "hint": "",
+         "qty": 7.8,
          "unit": "g"
         }
        ]
@@ -422,12 +434,6 @@
          "name": "草莓",
          "hint": "易坏，3 天内吃完",
          "qty": 97.8,
-         "unit": "g"
-        },
-        {
-         "name": "杏仁",
-         "hint": "",
-         "qty": 7.8,
          "unit": "g"
         }
        ]
@@ -465,6 +471,12 @@
          "hint": "",
          "qty": 4.9,
          "unit": "g"
+        },
+        {
+         "name": "杏仁",
+         "hint": "",
+         "qty": 11.7,
+         "unit": "g"
         }
        ]
       },
@@ -494,12 +506,6 @@
          "name": "苹果",
          "hint": "",
          "qty": 117.3,
-         "unit": "g"
-        },
-        {
-         "name": "杏仁",
-         "hint": "",
-         "qty": 11.7,
          "unit": "g"
         }
        ]
@@ -651,6 +657,8 @@
      "pantry": [
       "盐"
      ],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 284.0,
       "protein_total": 19.1,
@@ -724,6 +732,8 @@
       "大蒜",
       "黑胡椒"
      ],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 393.5,
       "protein_total": 43.1,
@@ -792,9 +802,12 @@
      "pantry": [
       "橄榄油",
       "海盐",
-      "柠檬汁",
       "食盐"
      ],
+     "pantry_missing": [
+      "柠檬"
+     ],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 668.6,
       "protein_total": 64.4,
@@ -843,6 +856,8 @@
       }
      ],
      "pantry": [],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 103.9,
       "protein_total": 6.2,
@@ -980,12 +995,10 @@
      "黑胡椒",
      "橄榄油",
      "海盐",
-     "柠檬汁",
      "食盐"
     ],
     "missing_pantry": [
      "海盐",
-     "柠檬汁",
      "食盐"
     ]
    },
@@ -1215,9 +1228,12 @@
       }
      ],
      "pantry": [
-      "盐",
+      "盐"
+     ],
+     "pantry_missing": [
       "柠檬"
      ],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 358.8,
       "protein_total": 24.4,
@@ -1285,9 +1301,12 @@
      ],
      "pantry": [
       "盐",
-      "柠檬",
       "黑胡椒"
      ],
+     "pantry_missing": [
+      "柠檬"
+     ],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 439.0,
       "protein_total": 32.1,
@@ -1356,13 +1375,16 @@
      "pantry": [
       "洋葱",
       "大蒜",
-      "第戎芥末",
-      "柠檬汁",
       "食盐",
-      "黑胡椒",
+      "黑胡椒"
+     ],
+     "pantry_missing": [
+      "第戎芥末",
+      "柠檬",
       "芹菜",
       "卡拉马塔橄榄"
      ],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 415.7,
       "protein_total": 49.0,
@@ -1415,6 +1437,8 @@
       }
      ],
      "pantry": [],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 136.5,
       "protein_total": 3.3,
@@ -1495,12 +1519,6 @@
         "qty": 123.2,
         "unit": "g",
         "hint": ""
-       },
-       {
-        "name": "杏仁",
-        "qty": 12.3,
-        "unit": "g",
-        "hint": ""
        }
       ]
      },
@@ -1536,29 +1554,25 @@
         "qty": 82.1,
         "unit": "g",
         "hint": ""
+       },
+       {
+        "name": "杏仁",
+        "qty": 12.3,
+        "unit": "g",
+        "hint": ""
        }
       ]
      }
     ],
     "pantry": [
      "盐",
-     "柠檬",
      "黑胡椒",
      "洋葱",
      "大蒜",
-     "第戎芥末",
-     "柠檬汁",
-     "食盐",
-     "芹菜",
-     "卡拉马塔橄榄"
+     "食盐"
     ],
     "missing_pantry": [
-     "柠檬",
-     "第戎芥末",
-     "柠檬汁",
-     "食盐",
-     "芹菜",
-     "卡拉马塔橄榄"
+     "食盐"
     ]
    },
    "take_order": [
@@ -1633,6 +1647,12 @@
          "hint": "",
          "qty": 82.1,
          "unit": "g"
+        },
+        {
+         "name": "杏仁",
+         "hint": "",
+         "qty": 12.3,
+         "unit": "g"
         }
        ]
       },
@@ -1655,12 +1675,6 @@
          "name": "苹果",
          "hint": "",
          "qty": 123.2,
-         "unit": "g"
-        },
-        {
-         "name": "杏仁",
-         "hint": "",
-         "qty": 12.3,
          "unit": "g"
         }
        ]
@@ -1792,6 +1806,8 @@
      "pantry": [
       "盐"
      ],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 234.0,
       "protein_total": 23.5,
@@ -1858,6 +1874,8 @@
       "大蒜",
       "黑胡椒"
      ],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 401.5,
       "protein_total": 38.5,
@@ -1924,6 +1942,8 @@
       "大蒜",
       "黑胡椒"
      ],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 469.4,
       "protein_total": 28.0,
@@ -1972,6 +1992,8 @@
       }
      ],
      "pantry": [],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 95.2,
       "protein_total": 5.7,
@@ -2342,6 +2364,8 @@
      "pantry": [
       "盐"
      ],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 425.3,
       "protein_total": 24.1,
@@ -2416,9 +2440,12 @@
      ],
      "pantry": [
       "盐",
-      "柠檬",
       "黑胡椒"
      ],
+     "pantry_missing": [
+      "柠檬"
+     ],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 369.4,
       "protein_total": 41.8,
@@ -2497,6 +2524,8 @@
       "大蒜",
       "黑胡椒"
      ],
+     "pantry_missing": [],
+     "caveat": "牛肉末 134g 你买的是 Aldi Beef Mince 25% Fat 500g £3.19（11-05 买的那包），标签 286 kcal/100g（蛋白 17.7 脂肪 23.8）；本菜单按代表值 113 kcal/100g（蛋白 21.3 脂肪 2.5）→ 这餐真实约 +232 kcal、脂肪 +29g、蛋白 -5g",
      "nutrition": {
       "kcal_total": 418.3,
       "protein_total": 36.2,
@@ -2545,6 +2574,8 @@
       }
      ],
      "pantry": [],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 137.0,
       "protein_total": 3.3,
@@ -2621,12 +2652,6 @@
         "hint": "易坏，3 天内吃完"
        },
        {
-        "name": "杏仁",
-        "qty": 20.6,
-        "unit": "g",
-        "hint": ""
-       },
-       {
         "name": "黄瓜",
         "qty": 123.6,
         "unit": "g",
@@ -2662,6 +2687,12 @@
         "hint": ""
        },
        {
+        "name": "杏仁",
+        "qty": 20.6,
+        "unit": "g",
+        "hint": ""
+       },
+       {
         "name": "金枪鱼",
         "qty": 105.1,
         "unit": "g",
@@ -2684,13 +2715,10 @@
     ],
     "pantry": [
      "盐",
-     "柠檬",
      "黑胡椒",
      "大蒜"
     ],
-    "missing_pantry": [
-     "柠檬"
-    ]
+    "missing_pantry": []
    },
    "take_order": [
     {
@@ -2703,6 +2731,12 @@
          "name": "燕麦",
          "hint": "",
          "qty": 46.4,
+         "unit": "g"
+        },
+        {
+         "name": "杏仁",
+         "hint": "",
+         "qty": 8.2,
          "unit": "g"
         }
        ]
@@ -2727,12 +2761,6 @@
          "name": "草莓",
          "hint": "易坏，3 天内吃完",
          "qty": 103.0,
-         "unit": "g"
-        },
-        {
-         "name": "杏仁",
-         "hint": "",
-         "qty": 8.2,
          "unit": "g"
         }
        ]
@@ -2764,6 +2792,12 @@
          "hint": "",
          "qty": 9.3,
          "unit": "g"
+        },
+        {
+         "name": "杏仁",
+         "hint": "",
+         "qty": 12.4,
+         "unit": "g"
         }
        ]
       },
@@ -2792,12 +2826,6 @@
          "name": "苹果",
          "hint": "",
          "qty": 123.6,
-         "unit": "g"
-        },
-        {
-         "name": "杏仁",
-         "hint": "",
-         "qty": 12.4,
          "unit": "g"
         }
        ]
@@ -2987,6 +3015,8 @@
      "pantry": [
       "盐"
      ],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 364.2,
       "protein_total": 21.5,
@@ -3064,6 +3094,8 @@
       "大蒜",
       "黑胡椒"
      ],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 399.0,
       "protein_total": 46.3,
@@ -3126,11 +3158,14 @@
      "pantry": [
       "橄榄油",
       "食盐",
-      "柠檬",
       "洋葱",
-      "莳萝",
       "希腊酸奶"
      ],
+     "pantry_missing": [
+      "柠檬",
+      "莳萝"
+     ],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 335.1,
       "protein_total": 48.5,
@@ -3186,6 +3221,8 @@
       }
      ],
      "pantry": [],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 101.6,
       "protein_total": 6.1,
@@ -3256,12 +3293,6 @@
         "hint": "易坏，3 天内吃完"
        },
        {
-        "name": "杏仁",
-        "qty": 7.6,
-        "unit": "g",
-        "hint": ""
-       },
-       {
         "name": "西葫芦",
         "qty": 170.9,
         "unit": "g",
@@ -3281,6 +3312,12 @@
        {
         "name": "藜麦",
         "qty": 83.5,
+        "unit": "g",
+        "hint": ""
+       },
+       {
+        "name": "杏仁",
+        "qty": 7.6,
         "unit": "g",
         "hint": ""
        },
@@ -3317,15 +3354,11 @@
      "黑胡椒",
      "橄榄油",
      "食盐",
-     "柠檬",
      "洋葱",
-     "莳萝",
      "希腊酸奶"
     ],
     "missing_pantry": [
-     "食盐",
-     "柠檬",
-     "莳萝"
+     "食盐"
     ]
    },
    "take_order": [
@@ -3339,6 +3372,12 @@
          "name": "藜麦",
          "hint": "",
          "qty": 83.5,
+         "unit": "g"
+        },
+        {
+         "name": "杏仁",
+         "hint": "",
+         "qty": 7.6,
          "unit": "g"
         }
        ]
@@ -3363,12 +3402,6 @@
          "name": "草莓",
          "hint": "易坏，3 天内吃完",
          "qty": 94.9,
-         "unit": "g"
-        },
-        {
-         "name": "杏仁",
-         "hint": "",
-         "qty": 7.6,
          "unit": "g"
         }
        ]
@@ -3582,6 +3615,8 @@
      "pantry": [
       "盐"
      ],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 219.5,
       "protein_total": 14.8,
@@ -3646,9 +3681,12 @@
      "pantry": [
       "橄榄油",
       "海盐",
-      "柠檬汁",
       "食盐"
      ],
+     "pantry_missing": [
+      "柠檬"
+     ],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 518.2,
       "protein_total": 50.1,
@@ -3722,6 +3760,8 @@
       "大蒜",
       "黑胡椒"
      ],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 363.5,
       "protein_total": 37.6,
@@ -3775,6 +3815,8 @@
       }
      ],
      "pantry": [],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 99.8,
       "protein_total": 2.4,
@@ -3867,12 +3909,6 @@
         "qty": 90.0,
         "unit": "g",
         "hint": ""
-       },
-       {
-        "name": "杏仁",
-        "qty": 9.0,
-        "unit": "g",
-        "hint": ""
        }
       ]
      },
@@ -3896,6 +3932,12 @@
         "qty": 3.8,
         "unit": "g",
         "hint": ""
+       },
+       {
+        "name": "杏仁",
+        "qty": 9.0,
+        "unit": "g",
+        "hint": ""
        }
       ]
      }
@@ -3904,14 +3946,12 @@
      "盐",
      "橄榄油",
      "海盐",
-     "柠檬汁",
      "食盐",
      "大蒜",
      "黑胡椒"
     ],
     "missing_pantry": [
      "海盐",
-     "柠檬汁",
      "食盐"
     ]
    },
@@ -3973,6 +4013,12 @@
          "hint": "",
          "qty": 3.8,
          "unit": "g"
+        },
+        {
+         "name": "杏仁",
+         "hint": "",
+         "qty": 9.0,
+         "unit": "g"
         }
        ]
       },
@@ -3995,12 +4041,6 @@
          "name": "苹果",
          "hint": "",
          "qty": 90.0,
-         "unit": "g"
-        },
-        {
-         "name": "杏仁",
-         "hint": "",
-         "qty": 9.0,
          "unit": "g"
         }
        ]
@@ -4171,9 +4211,12 @@
       }
      ],
      "pantry": [
-      "盐",
+      "盐"
+     ],
+     "pantry_missing": [
       "柠檬"
      ],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 367.6,
       "protein_total": 25.0,
@@ -4244,6 +4287,8 @@
       "大蒜",
       "黑胡椒"
      ],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 555.0,
       "protein_total": 33.1,
@@ -4308,13 +4353,16 @@
      "pantry": [
       "洋葱",
       "大蒜",
-      "第戎芥末",
-      "柠檬汁",
       "食盐",
-      "黑胡椒",
+      "黑胡椒"
+     ],
+     "pantry_missing": [
+      "第戎芥末",
+      "柠檬",
       "芹菜",
       "卡拉马塔橄榄"
      ],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 414.9,
       "protein_total": 48.5,
@@ -4363,6 +4411,8 @@
       }
      ],
      "pantry": [],
+     "pantry_missing": [],
+     "caveat": "",
      "nutrition": {
       "kcal_total": 112.5,
       "protein_total": 6.7,
@@ -4490,23 +4540,13 @@
     ],
     "pantry": [
      "盐",
-     "柠檬",
      "大蒜",
      "黑胡椒",
      "洋葱",
-     "第戎芥末",
-     "柠檬汁",
-     "食盐",
-     "芹菜",
-     "卡拉马塔橄榄"
+     "食盐"
     ],
     "missing_pantry": [
-     "柠檬",
-     "第戎芥末",
-     "柠檬汁",
-     "食盐",
-     "芹菜",
-     "卡拉马塔橄榄"
+     "食盐"
     ]
    },
    "take_order": [

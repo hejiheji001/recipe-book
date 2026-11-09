@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-09T19:03:43",
+ "generated": "2026-11-09T19:50:04",
  "quantity_basis": "单人 7 天份 · 11/09 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/09",
@@ -361,7 +361,7 @@
    "buy_qty": "",
    "buy_unit": "个",
    "used_on": [],
-   "note": "家里没有，买不买你定",
+   "note": "",
    "bean_form": null,
    "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
    "product": {
@@ -398,37 +398,6 @@
     "size": "440 g",
     "price_gbp": 1.19,
     "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515"
-   }
-  },
-  {
-   "category": "干货",
-   "name": "杏仁",
-   "name_display": "杏仁",
-   "packs": 1,
-   "pack_size": "150 g",
-   "name_en": "Ground Almonds",
-   "name_short": "Ground Almonds",
-   "brand": "THE PANTRY",
-   "unit_price_gbp": 1.19,
-   "line_total_gbp": 1.19,
-   "buy_qty": 150.0,
-   "buy_unit": "g",
-   "used_on": [
-    "11/08",
-    "11/10",
-    "11/12",
-    "11/13",
-    "11/14"
-   ],
-   "note": "",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001",
-   "product": {
-    "name": "Ground Almonds",
-    "brand": "THE PANTRY",
-    "size": "150 g",
-    "price_gbp": 1.19,
-    "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001"
    }
   },
   {
@@ -554,7 +523,7 @@
    "buy_qty": 350.0,
    "buy_unit": "g",
    "used_on": [],
-   "note": "家里没有，买不买你定",
+   "note": "",
    "bean_form": null,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796",
    "product": {
@@ -650,10 +619,67 @@
     "price_gbp": 0.95,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691"
    }
+  },
+  {
+   "category": "调料",
+   "name": "卡拉马塔橄榄",
+   "name_display": "卡拉马塔橄榄",
+   "packs": 1,
+   "pack_size": "",
+   "buy_qty": null,
+   "buy_unit": "",
+   "buy_text": "按需",
+   "name_en": "",
+   "name_short": "",
+   "brand": "",
+   "unit_price_gbp": null,
+   "line_total_gbp": null,
+   "used_on": [],
+   "note": "三家店都没查到商品，自己挑或家里自备",
+   "link": null,
+   "product": null
+  },
+  {
+   "category": "调料",
+   "name": "第戎芥末",
+   "name_display": "第戎芥末",
+   "packs": 1,
+   "pack_size": "",
+   "buy_qty": null,
+   "buy_unit": "",
+   "buy_text": "按需",
+   "name_en": "",
+   "name_short": "",
+   "brand": "",
+   "unit_price_gbp": null,
+   "line_total_gbp": null,
+   "used_on": [],
+   "note": "三家店都没查到商品，自己挑或家里自备",
+   "link": null,
+   "product": null
+  },
+  {
+   "category": "调料",
+   "name": "莳萝",
+   "name_display": "莳萝",
+   "packs": 1,
+   "pack_size": "",
+   "buy_qty": null,
+   "buy_unit": "",
+   "buy_text": "按需",
+   "name_en": "",
+   "name_short": "",
+   "brand": "",
+   "unit_price_gbp": null,
+   "line_total_gbp": null,
+   "used_on": [],
+   "note": "三家店都没查到商品，自己挑或家里自备",
+   "link": null,
+   "product": null
   }
  ],
  "batches": [],
- "total_gbp": 31.83,
+ "total_gbp": 30.64,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -859,7 +885,7 @@
      "buy_qty": "",
      "buy_unit": "个",
      "used_on": [],
-     "note": "家里没有，买不买你定",
+     "note": "",
      "bean_form": null,
      "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
      "product": {
@@ -896,37 +922,6 @@
       "size": "440 g",
       "price_gbp": 1.19,
       "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515"
-     }
-    },
-    {
-     "category": "干货",
-     "name": "杏仁",
-     "name_display": "杏仁",
-     "packs": 1,
-     "pack_size": "150 g",
-     "name_en": "Ground Almonds",
-     "name_short": "Ground Almonds",
-     "brand": "THE PANTRY",
-     "unit_price_gbp": 1.19,
-     "line_total_gbp": 1.19,
-     "buy_qty": 150.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/08",
-      "11/10",
-      "11/12",
-      "11/13",
-      "11/14"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001",
-     "product": {
-      "name": "Ground Almonds",
-      "brand": "THE PANTRY",
-      "size": "150 g",
-      "price_gbp": 1.19,
-      "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001"
      }
     },
     {
@@ -1052,7 +1047,7 @@
      "buy_qty": 350.0,
      "buy_unit": "g",
      "used_on": [],
-     "note": "家里没有，买不买你定",
+     "note": "",
      "bean_form": null,
      "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796",
      "product": {
@@ -1151,19 +1146,23 @@
     }
    ],
    "batches": [],
-   "total_gbp": 31.83,
+   "total_gbp": 30.64,
    "missing": [
     "茄子"
    ],
-   "pantry_missing": [],
+   "pantry_missing": [
+    "莳萝",
+    "第戎芥末",
+    "卡拉马塔橄榄"
+   ],
    "unavailable": [
     "茄子"
    ],
-   "coverage": 0.9444,
+   "coverage": 0.9412,
    "vs_recommend_gbp": 0.7,
-   "vs_recommend_common_n": 17,
-   "vs_recommend_store_gbp": 31.83,
-   "vs_recommend_rec_gbp": 31.13,
+   "vs_recommend_common_n": 16,
+   "vs_recommend_store_gbp": 30.64,
+   "vs_recommend_rec_gbp": 29.94,
    "vs_recommend_missing": 1
   },
   "SAINSBURYS": {
@@ -1606,22 +1605,24 @@
    "batches": [],
    "total_gbp": 44.91,
    "missing": [
-    "杏仁",
     "羽衣甘蓝",
     "芹菜"
    ],
-   "pantry_missing": [],
+   "pantry_missing": [
+    "莳萝",
+    "第戎芥末",
+    "卡拉马塔橄榄"
+   ],
    "unavailable": [
-    "杏仁",
     "羽衣甘蓝",
     "芹菜"
    ],
-   "coverage": 0.8333,
+   "coverage": 0.8824,
    "vs_recommend_gbp": 18.12,
    "vs_recommend_common_n": 15,
    "vs_recommend_store_gbp": 44.91,
    "vs_recommend_rec_gbp": 26.79,
-   "vs_recommend_missing": 3
+   "vs_recommend_missing": 2
   },
   "ICELAND": {
    "store": "ICELAND",
@@ -1834,37 +1835,6 @@
       "size": "550g",
       "price_gbp": 1.5,
       "link": "https://www.iceland.co.uk/p/gilfresh-family-grown-savoy-cabbage-550g/101882.html"
-     }
-    },
-    {
-     "category": "干货",
-     "name": "杏仁",
-     "name_display": "杏仁",
-     "packs": 1,
-     "pack_size": "95g",
-     "name_en": "Whitworths Almonds 95g",
-     "name_short": "Whitworths Almonds",
-     "brand": "Whitworths",
-     "unit_price_gbp": 1.25,
-     "line_total_gbp": 1.25,
-     "buy_qty": 95.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/08",
-      "11/10",
-      "11/12",
-      "11/13",
-      "11/14"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/whitworths-almonds-95g/104405.html",
-     "product": {
-      "name": "Whitworths Almonds 95g",
-      "brand": "Whitworths",
-      "size": "95g",
-      "price_gbp": 1.25,
-      "link": "https://www.iceland.co.uk/p/whitworths-almonds-95g/104405.html"
      }
     },
     {
@@ -2089,21 +2059,25 @@
     }
    ],
    "batches": [],
-   "total_gbp": 56.8,
+   "total_gbp": 55.55,
    "missing": [
     "羽衣甘蓝",
     "茄子"
    ],
-   "pantry_missing": [],
+   "pantry_missing": [
+    "莳萝",
+    "第戎芥末",
+    "卡拉马塔橄榄"
+   ],
    "unavailable": [
     "羽衣甘蓝",
     "茄子"
    ],
-   "coverage": 0.8889,
-   "vs_recommend_gbp": 29.23,
-   "vs_recommend_common_n": 16,
-   "vs_recommend_store_gbp": 56.8,
-   "vs_recommend_rec_gbp": 27.57,
+   "coverage": 0.8824,
+   "vs_recommend_gbp": 29.17,
+   "vs_recommend_common_n": 15,
+   "vs_recommend_store_gbp": 55.55,
+   "vs_recommend_rec_gbp": 26.38,
    "vs_recommend_missing": 2
   }
  },
@@ -2117,17 +2091,24 @@
    "Sainsbury's"
   ],
   "coverage": 1.0,
-  "missing": [],
-  "pantry_missing": [],
-  "cost": 33.92,
+  "missing": [
+   "莳萝",
+   "第戎芥末",
+   "卡拉马塔橄榄"
+  ],
+  "pantry_missing": [
+   "莳萝",
+   "第戎芥末",
+   "卡拉马塔橄榄"
+  ],
+  "cost": 32.73,
   "per_store": {
    "ALDI": {
-    "subtotal": 28.54,
-    "count": 15,
+    "subtotal": 27.35,
+    "count": 14,
     "names": [
      "藜麦",
      "草莓",
-     "杏仁",
      "菲达奶酪",
      "羽衣甘蓝",
      "金枪鱼",
@@ -2342,7 +2323,7 @@
       "buy_qty": "",
       "buy_unit": "个",
       "used_on": [],
-      "note": "家里没有，买不买你定",
+      "note": "",
       "bean_form": null,
       "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
       "product": {
@@ -2379,37 +2360,6 @@
        "size": "440 g",
        "price_gbp": 1.19,
        "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515"
-      }
-     },
-     {
-      "category": "干货",
-      "name": "杏仁",
-      "name_display": "杏仁",
-      "packs": 1,
-      "pack_size": "150 g",
-      "name_en": "Ground Almonds",
-      "name_short": "Ground Almonds",
-      "brand": "THE PANTRY",
-      "unit_price_gbp": 1.19,
-      "line_total_gbp": 1.19,
-      "buy_qty": 150.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/08",
-       "11/10",
-       "11/12",
-       "11/13",
-       "11/14"
-      ],
-      "note": "",
-      "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001",
-      "product": {
-       "name": "Ground Almonds",
-       "brand": "THE PANTRY",
-       "size": "150 g",
-       "price_gbp": 1.19,
-       "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001"
       }
      },
      {
@@ -2480,7 +2430,7 @@
       "buy_qty": 350.0,
       "buy_unit": "g",
       "used_on": [],
-      "note": "家里没有，买不买你定",
+      "note": "",
       "bean_form": null,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796",
       "product": {
@@ -2674,7 +2624,7 @@
     ]
    }
   },
-  "combined_total_gbp": 33.92
+  "combined_total_gbp": 32.73
  },
  "only_at": {
   "羽衣甘蓝": "Aldi",
@@ -2874,46 +2824,6 @@
     "ALDI": 1000.0,
     "SAINSBURYS": 900.0,
     "ICELAND": 1000.0
-   }
-  },
-  {
-   "name": "杏仁",
-   "name_display": "杏仁",
-   "category": "干货",
-   "stores": {
-    "ALDI": {
-     "price": 1.19,
-     "pack_g": 150.0,
-     "size": "150 g",
-     "per100_gbp": 0.7933,
-     "link": "https://www.aldi.co.uk/product/the-pantry-ground-almonds-000000000496633001",
-     "product_name": "Ground Almonds",
-     "category": "干货",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 1.25,
-     "pack_g": 95.0,
-     "size": "95g",
-     "per100_gbp": 1.3158,
-     "link": "https://www.iceland.co.uk/p/whitworths-almonds-95g/104405.html",
-     "product_name": "Whitworths Almonds 95g",
-     "category": "干货",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.5225,
-   "diff_pct": 0.6586,
-   "spread_ratio": 1.66,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 150.0,
-    "ICELAND": 95.0
    }
   },
   {
