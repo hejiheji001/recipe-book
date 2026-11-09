@@ -47,7 +47,7 @@ SUFFIX = "_stock"
 TOKEN = "809"
 
 COLS = ["名称", "数量", "单位", "估算克数", "克数口径",
-        "存放方式", "是否开封", "入库日期", "剩余天数", "是否过期",
+        "存放方式", "是否开封", "入库日期", "剩余天数", "是否过期", "批次",
         "来源超市", "溯源明细"]
 
 
@@ -159,9 +159,12 @@ def rows_of(doc, today):
     raw = doc.get("items") or {}
     if isinstance(raw, dict) and isinstance(raw.get("items"), dict):
         raw = raw["items"]
-    for name, it in sorted(raw.items()):
+    for key, it in sorted(raw.items()):
         if not isinstance(it, dict):
             it = {"d": it}
+        # 键名带 #2 表示同名不同批次；货架表只认食材名，必须用基名查
+        base = str(key).split("#")[0]
+        name = (it.get("n") or base)
         spec = table.get(name) or {}
         mode = it.get("mode")
         if mode not in spec:
@@ -188,6 +191,7 @@ def rows_of(doc, today):
             "存放方式": mode,
             "是否开封": "是" if opened else "否",
             "入库日期": str(it.get("since"))[:10],
+            "批次": str(key).split("#")[1] if "#" in str(key) else "",
             "剩余天数": left,
             "是否过期": "是" if left <= 0 else "否",
             "来源超市": store_col,
