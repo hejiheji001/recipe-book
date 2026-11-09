@@ -47,7 +47,8 @@ SUFFIX = "_stock"
 TOKEN = "809"
 
 COLS = ["名称", "数量", "单位", "估算克数", "克数口径",
-        "存放方式", "是否开封", "入库日期", "剩余天数", "是否过期", "批次",
+        "存放方式", "是否开封", "入库日期", "剩余天数", "是否过期",
+        "批次", "条目ID",
         "来源超市", "溯源明细"]
 
 
@@ -155,6 +156,19 @@ def rows_of(doc, today):
     table = storage_days.shelf_table()
     units = stock_units.build(pool.keys(), pool)
 
+    # 展示序号：同名条目按入库日+内部 id 排序，1..N；只有一份时不编号（删掉 1 号后 2 号自动变 1 号）
+    raw_all = doc.get("items") or {}
+    groups = {}
+    for _k, _it in raw_all.items():
+        if not isinstance(_it, dict):
+            _it = {"d": _it}
+        groups.setdefault(str(_k).split("#")[0], []).append((str(_k), _it))
+    batchno = {}
+    for _base, arr in groups.items():
+        arr.sort(key=lambda kv: (str(kv[1].get("since") or ""), int(kv[1].get("id") or 0)))
+        for _i, (_k, _it) in enumerate(arr, 1):
+            batchno[_k] = "" if len(arr) == 1 else str(_i)
+
     out = []
     raw = doc.get("items") or {}
     if isinstance(raw, dict) and isinstance(raw.get("items"), dict):
@@ -191,7 +205,8 @@ def rows_of(doc, today):
             "存放方式": mode,
             "是否开封": "是" if opened else "否",
             "入库日期": str(it.get("since"))[:10],
-            "批次": str(key).split("#")[1] if "#" in str(key) else "",
+            "批次": batchno.get(str(key), ""),
+            "条目ID": it.get("id") or "",
             "剩余天数": left,
             "是否过期": "是" if left <= 0 else "否",
             "来源超市": store_col,

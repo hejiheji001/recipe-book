@@ -184,7 +184,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
 .note b{color:var(--accent);}
 .foot{text-align:center;color:#b0b0b0;font-size:12.5px;padding:22px 0 0;}
 
-
+.crf{font-size:12px;color:#8a7f70;background:#f4f2ee;border:1px solid #e2e2de;border-radius:8px;padding:7px 9px;cursor:pointer;white-space:nowrap;font-weight:500;}
 .wrap{max-width:920px;margin:0 auto;padding:8px 14px 40px}
 .dishrow{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line,#eee)}
 .dishrow .nm{font-weight:600;font-size:14px}
@@ -314,6 +314,7 @@ th{color:#777;font-weight:600;font-size:12px}
   <a href='./shopping.html' class='on hot' data-view='shopping'>推荐采购</a>
   <a href='../../#open=mylist' data-view='mylist'>我的菜谱</a>
   <a href='../../#open=stock' data-view='stock'>库存</a>
+
 </div>
 <div class=stamp>更新 11-09 21:46</div>
 </div><div class=wrap>
@@ -370,6 +371,15 @@ th{color:#777;font-weight:600;font-size:12px}
     }
   }
   function apply(){ setActive(viewNow()); }
+  var rf = document.querySelector("[data-rf='page']");
+  if(rf){
+    rf.addEventListener("click", function(){
+      if(!window.RBSYNC || !RBSYNC.pullNow){ rf.textContent = "未开启同步"; return; }
+      rf.textContent = "刷新中…";
+      RBSYNC.pullNow().then(function(){ location.reload(); })
+        .catch(function(){ rf.textContent = "刷新失败"; setTimeout(function(){ rf.textContent = "↻ 刷新"; }, 1500); });
+    });
+  }
   window.addEventListener("hashchange", apply);
   document.addEventListener("click", function(e){
     var a = e.target && e.target.closest ? e.target.closest("[data-view]") : null;

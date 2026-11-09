@@ -823,6 +823,11 @@
       schedule(docKey);
     },
     state: function () { return { on: !!syncState.fam, fam: ls(FAM_KEY, null) }; },
+    pullNow: function () {
+      var f = ls(FAM_KEY, null);
+      if (!f || !f.fam || !f.pw) return Promise.reject(new Error('未开启同步'));
+      return pull(f.pw, f.fam);
+    },
     changeLog: function (opt) {
       var fam = ls(FAM_KEY, null);
       if (!fam || !fam.fam || !fam.pw) return Promise.reject(new Error('还没进入任何一家'));
