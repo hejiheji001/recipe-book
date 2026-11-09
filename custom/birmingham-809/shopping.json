@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-09T08:34:27",
+ "generated": "2026-11-09T08:55:13",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "columns": [
@@ -1325,7 +1325,9 @@
     "茄子",
     "白芸豆"
    ],
-   "coverage": 0.9231
+   "coverage": 0.9231,
+   "vs_recommend_gbp": -1.87,
+   "vs_recommend_missing": 2
   },
   "SAINSBURYS": {
    "store": "SAINSBURYS",
@@ -1919,7 +1921,9 @@
     "帕玛森干酪",
     "芹菜"
    ],
-   "coverage": 0.8462
+   "coverage": 0.8462,
+   "vs_recommend_gbp": 5.02,
+   "vs_recommend_missing": 4
   },
   "ICELAND": {
    "store": "ICELAND",
@@ -2484,7 +2488,9 @@
     "大蒜",
     "白芸豆"
    ],
-   "coverage": 0.8077
+   "coverage": 0.8077,
+   "vs_recommend_gbp": 13.89,
+   "vs_recommend_missing": 5
   }
  },
  "recommend": {
@@ -3223,5 +3229,919 @@
   "大蒜": "Aldi",
   "白芸豆": "Sainsbury's"
  },
+ "price_compare": [
+  {
+   "name": "番茄",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 0.62,
+     "pack_g": 250.0,
+     "size": "250 g",
+     "per100_gbp": 0.248,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259",
+     "product_name": "Baby Plum Tomatoes",
+     "category": "蔬菜"
+    },
+    "SAINSBURYS": {
+     "price": 0.35,
+     "pack_g": 400.0,
+     "size": "400g",
+     "per100_gbp": 0.0875,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/ktc-chopped-tomatoes-400g",
+     "product_name": "KTC Chopped Tomatoes 400g",
+     "category": "蔬菜"
+    },
+    "ICELAND": {
+     "price": 0.65,
+     "pack_g": 400.0,
+     "size": "400g",
+     "per100_gbp": 0.1625,
+     "link": "https://www.iceland.co.uk/p/ragu-peeled-plum-tomatoes-in-tomato-juice-400g/107259.html",
+     "product_name": "Ragu Peeled Plum Tomatoes in Tomato Juice 400g",
+     "category": "蔬菜"
+    }
+   },
+   "cheapest": "SAINSBURYS",
+   "cheapest_label": "Sainsbury's",
+   "expensive_label": "Aldi",
+   "diff_per100": 0.1605,
+   "diff_pct": 1.8343,
+   "spread_ratio": 2.83,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 250.0,
+    "SAINSBURYS": 400.0,
+    "ICELAND": 400.0
+   }
+  },
+  {
+   "name": "帕玛森干酪",
+   "category": "乳制品",
+   "stores": {
+    "ALDI": {
+     "price": 3.29,
+     "pack_g": 170.0,
+     "size": "170 g",
+     "per100_gbp": 1.9353,
+     "link": "https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638",
+     "product_name": "Parmigiano Reggiano PDO",
+     "category": "乳制品"
+    },
+    "ICELAND": {
+     "price": 4.0,
+     "pack_g": 400.0,
+     "size": "400g",
+     "per100_gbp": 1.0,
+     "link": "https://www.iceland.co.uk/p/iceland-luxury-parmesan-chicken-pasta-bake-with-truffle-400g/51781.html",
+     "product_name": "Iceland Luxury Parmesan Chicken Pasta Bake With Truffle 400g",
+     "category": "乳制品"
+    }
+   },
+   "cheapest": "ICELAND",
+   "cheapest_label": "Iceland",
+   "expensive_label": "Aldi",
+   "diff_per100": 0.9353,
+   "diff_pct": 0.9353,
+   "spread_ratio": 1.94,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 170.0,
+    "ICELAND": 400.0
+   }
+  },
+  {
+   "name": "草莓",
+   "category": "水果",
+   "stores": {
+    "ALDI": {
+     "price": 2.99,
+     "pack_g": 600.0,
+     "size": "600 g",
+     "per100_gbp": 0.4983,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
+     "product_name": "Strawberries",
+     "category": "水果"
+    },
+    "SAINSBURYS": {
+     "price": 3.25,
+     "pack_g": 400.0,
+     "size": "400g",
+     "per100_gbp": 0.8125,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-strawberries-400g",
+     "product_name": "Sainsbury's Strawberries 400g",
+     "category": "水果"
+    },
+    "ICELAND": {
+     "price": 3.0,
+     "pack_g": 350.0,
+     "size": "350g",
+     "per100_gbp": 0.8571,
+     "link": "https://www.iceland.co.uk/p/iceland-strawberries-350g/77224.html",
+     "product_name": "Iceland Strawberries 350g",
+     "category": "水果"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.3588,
+   "diff_pct": 0.72,
+   "spread_ratio": 1.72,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 600.0,
+    "SAINSBURYS": 400.0,
+    "ICELAND": 350.0
+   }
+  },
+  {
+   "name": "藜麦",
+   "category": "主食",
+   "stores": {
+    "ALDI": {
+     "price": 0.85,
+     "pack_g": 250.0,
+     "size": "250 g",
+     "per100_gbp": 0.34,
+     "link": "https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001",
+     "product_name": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
+     "category": "主食"
+    },
+    "SAINSBURYS": {
+     "price": 1.45,
+     "pack_g": 250.0,
+     "size": "250g",
+     "per100_gbp": 0.58,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-red-white-quinoa-250g",
+     "product_name": "Sainsbury's Red & White Quinoa 250g",
+     "category": "主食"
+    },
+    "ICELAND": {
+     "price": 1.5,
+     "pack_g": 40.0,
+     "size": "40g",
+     "per100_gbp": 3.75,
+     "link": "https://www.iceland.co.uk/p/jacobs-on-the-go-fibre-boost-black-seed-and-quinoa-5-x-40g-/106524.html",
+     "product_name": "Jacobs On The Go Fibre Boost Black Seed & Quinoa 5 x 40g",
+     "category": "主食"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Sainsbury's",
+   "diff_per100": 0.24,
+   "diff_pct": 0.7059,
+   "spread_ratio": 1.71,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 250.0,
+    "SAINSBURYS": 250.0
+   }
+  },
+  {
+   "name": "四季豆",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.19,
+     "pack_g": 1000.0,
+     "size": "1 kg",
+     "per100_gbp": 0.119,
+     "link": "https://www.aldi.co.uk/product/four-seasons-whole-green-beans-000000000275878001",
+     "product_name": "Whole Green Beans",
+     "category": "蔬菜"
+    },
+    "SAINSBURYS": {
+     "price": 1.07,
+     "pack_g": 900.0,
+     "size": "900g",
+     "per100_gbp": 0.1189,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g",
+     "product_name": "Sainsbury's Whole Green Beans 900g",
+     "category": "蔬菜"
+    },
+    "ICELAND": {
+     "price": 2.0,
+     "pack_g": 1000.0,
+     "size": "1kg",
+     "per100_gbp": 0.2,
+     "link": "https://www.iceland.co.uk/p/iceland-very-fine-whole-green-beans-1kg/17.html",
+     "product_name": "Iceland Very Fine Whole Green Beans 1kg",
+     "category": "蔬菜"
+    }
+   },
+   "cheapest": "SAINSBURYS",
+   "cheapest_label": "Sainsbury's",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.0811,
+   "diff_pct": 0.6821,
+   "spread_ratio": 1.68,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 1000.0,
+    "SAINSBURYS": 900.0,
+    "ICELAND": 1000.0
+   }
+  },
+  {
+   "name": "西兰花",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.19,
+     "pack_g": 1000.0,
+     "size": "1 kg",
+     "per100_gbp": 0.119,
+     "link": "https://www.aldi.co.uk/product/four-seasons-broccoli-florets-000000000275878002",
+     "product_name": "Broccoli Florets",
+     "category": "蔬菜"
+    },
+    "SAINSBURYS": {
+     "price": 1.5,
+     "pack_g": 900.0,
+     "size": "900g",
+     "per100_gbp": 0.1667,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-broccoli-cauliflower-florets-900g",
+     "product_name": "Sainsbury's Broccoli & Cauliflower Florets 900g",
+     "category": "蔬菜"
+    },
+    "ICELAND": {
+     "price": 2.0,
+     "pack_g": 1000.0,
+     "size": "1kg",
+     "per100_gbp": 0.2,
+     "link": "https://www.iceland.co.uk/p/iceland-broccoli-florets-1kg/210.html",
+     "product_name": "Iceland Broccoli Florets 1kg",
+     "category": "蔬菜"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.081,
+   "diff_pct": 0.6807,
+   "spread_ratio": 1.68,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 1000.0,
+    "SAINSBURYS": 900.0,
+    "ICELAND": 1000.0
+   }
+  },
+  {
+   "name": "菲达奶酪",
+   "category": "乳制品",
+   "stores": {
+    "ALDI": {
+     "price": 1.69,
+     "pack_g": 200.0,
+     "size": "200 g",
+     "per100_gbp": 0.845,
+     "link": "https://www.aldi.co.uk/product/emporium-greek-feta-000000000000557625",
+     "product_name": "Greek Feta",
+     "category": "乳制品"
+    },
+    "SAINSBURYS": {
+     "price": 2.5,
+     "pack_g": 250.0,
+     "size": "250g",
+     "per100_gbp": 1.0,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-250g-green-olive-feta-oregano-focaccia-bread-taste-the-difference",
+     "product_name": "Sainsbury's 250g Green Olive, Feta & Oregano Focaccia Bread, Taste the Difference",
+     "category": "主食"
+    },
+    "ICELAND": {
+     "price": 2.8,
+     "pack_g": 200.0,
+     "size": "200g",
+     "per100_gbp": 1.4,
+     "link": "https://www.iceland.co.uk/p/olympus-feta-original-200g/88836.html",
+     "product_name": "Olympus Feta Original 200g",
+     "category": "乳制品"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.555,
+   "diff_pct": 0.6568,
+   "spread_ratio": 1.66,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 200.0,
+    "SAINSBURYS": 250.0,
+    "ICELAND": 200.0
+   }
+  },
+  {
+   "name": "玉米粒",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.49,
+     "pack_g": 1000.0,
+     "size": "1 kg",
+     "per100_gbp": 0.149,
+     "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
+     "product_name": "Sweetcorn",
+     "category": "蔬菜"
+    },
+    "SAINSBURYS": {
+     "price": 1.42,
+     "pack_g": 950.0,
+     "size": "950g",
+     "per100_gbp": 0.1495,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-sweetcorn-950g",
+     "product_name": "Stamford Street Co. Sweetcorn 950g",
+     "category": "蔬菜"
+    },
+    "ICELAND": {
+     "price": 2.0,
+     "pack_g": 860.0,
+     "size": "860g",
+     "per100_gbp": 0.2326,
+     "link": "https://www.iceland.co.uk/p/iceland-supersweet-sweetcorn-860g/95391.html",
+     "product_name": "Iceland Supersweet Sweetcorn 860g",
+     "category": "蔬菜"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.0836,
+   "diff_pct": 0.5611,
+   "spread_ratio": 1.56,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 1000.0,
+    "SAINSBURYS": 950.0,
+    "ICELAND": 860.0
+   }
+  },
+  {
+   "name": "扁豆",
+   "category": "豆制品",
+   "stores": {
+    "ALDI": {
+     "price": 0.45,
+     "pack_g": 400.0,
+     "size": "400 g",
+     "per100_gbp": 0.1125,
+     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002",
+     "product_name": "Tinned Lentils",
+     "category": "豆制品"
+    },
+    "SAINSBURYS": {
+     "price": 6.5,
+     "pack_g": 5000.0,
+     "size": "5kg",
+     "per100_gbp": 0.13,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/laila-red-split-lentils-5kg",
+     "product_name": "Laila Red Split Lentils 5kg",
+     "category": "豆制品"
+    },
+    "ICELAND": {
+     "price": 3.5,
+     "pack_g": 2000.0,
+     "size": "2KG",
+     "per100_gbp": 0.175,
+     "link": "https://www.iceland.co.uk/p/heera-red-split-lentils-2kg/93893.html",
+     "product_name": "Heera Red Split Lentils 2KG",
+     "category": "豆制品"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.0625,
+   "diff_pct": 0.5556,
+   "spread_ratio": 1.56,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 400.0,
+    "SAINSBURYS": 5000.0,
+    "ICELAND": 2000.0
+   }
+  },
+  {
+   "name": "甜椒",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.59,
+     "pack_g": 600.0,
+     "size": "600 g",
+     "per100_gbp": 0.265,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-mixed-peppers-000000000000275381",
+     "product_name": "Wonky Mixed Peppers",
+     "category": "蔬菜"
+    },
+    "SAINSBURYS": {
+     "price": 0.99,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.198,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-mixed-peppers-500g",
+     "product_name": "Sainsbury's Sliced Mixed Peppers 500g",
+     "category": "蔬菜"
+    },
+    "ICELAND": {
+     "price": 2.0,
+     "pack_g": 650.0,
+     "size": "650g",
+     "per100_gbp": 0.3077,
+     "link": "https://www.iceland.co.uk/p/iceland-mixed-peppers-650g/17684.html",
+     "product_name": "Iceland Mixed Peppers 650g",
+     "category": "蔬菜"
+    }
+   },
+   "cheapest": "SAINSBURYS",
+   "cheapest_label": "Sainsbury's",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.1097,
+   "diff_pct": 0.554,
+   "spread_ratio": 1.55,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 600.0,
+    "SAINSBURYS": 500.0,
+    "ICELAND": 650.0
+   }
+  },
+  {
+   "name": "小土豆",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 0.99,
+     "pack_g": 1000.0,
+     "size": "1 kg",
+     "per100_gbp": 0.099,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748",
+     "product_name": "British Baby Potatoes",
+     "category": "蔬菜"
+    },
+    "SAINSBURYS": {
+     "price": 0.99,
+     "pack_g": 1000.0,
+     "size": "1kg",
+     "per100_gbp": 0.099,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-1kg-baby-potatoes",
+     "product_name": "Sainsbury's 1kg Baby Potatoes",
+     "category": "蔬菜"
+    },
+    "ICELAND": {
+     "price": 1.15,
+     "pack_g": 750.0,
+     "size": "750g",
+     "per100_gbp": 0.1533,
+     "link": "https://www.iceland.co.uk/p/wilsons-country-baby-potatoes-750g/95482.html",
+     "product_name": "Wilson's Country Baby Potatoes 750g",
+     "category": "蔬菜"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.0543,
+   "diff_pct": 0.5485,
+   "spread_ratio": 1.55,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 1000.0,
+    "SAINSBURYS": 1000.0,
+    "ICELAND": 750.0
+   }
+  },
+  {
+   "name": "鳕鱼",
+   "category": "水产",
+   "stores": {
+    "ALDI": {
+     "price": 3.95,
+     "pack_g": 360.0,
+     "size": "360 g",
+     "per100_gbp": 1.0972,
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
+     "product_name": "Cod Fillets",
+     "category": "水产"
+    },
+    "SAINSBURYS": {
+     "price": 6.0,
+     "pack_g": 400.0,
+     "size": "400g",
+     "per100_gbp": 1.5,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/young-s-chip-shop-large-cod-fillets-400g",
+     "product_name": "Young's Chip Shop Large Cod Fillets 400g",
+     "category": "水产"
+    },
+    "ICELAND": {
+     "price": 7.0,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 1.4,
+     "link": "https://www.iceland.co.uk/p/iceland-4-cod-fillets-500g/49731.html",
+     "product_name": "Iceland 4 Cod Fillets 500g",
+     "category": "水产"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Sainsbury's",
+   "diff_per100": 0.4028,
+   "diff_pct": 0.3671,
+   "spread_ratio": 1.37,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 360.0,
+    "SAINSBURYS": 400.0,
+    "ICELAND": 500.0
+   }
+  },
+  {
+   "name": "希腊酸奶",
+   "category": "乳制品",
+   "stores": {
+    "ALDI": {
+     "price": 3.69,
+     "pack_g": 1000.0,
+     "size": "1 kg",
+     "per100_gbp": 0.369,
+     "link": "https://www.aldi.co.uk/product/brooklea-authentic-greek-yogurt-000000000656970001",
+     "product_name": "Authentic Greek Yogurt",
+     "category": "乳制品"
+    },
+    "SAINSBURYS": {
+     "price": 2.35,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.47,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-authentic-greek-yogurt-taste-the-difference-500g",
+     "product_name": "Sainsbury's Authentic Greek Yogurt, Taste the Difference 500g",
+     "category": "乳制品"
+    },
+    "ICELAND": {
+     "price": 3.0,
+     "pack_g": null,
+     "size": "nan",
+     "per100_gbp": null,
+     "link": "https://www.iceland.co.uk/p/muller-bliss-whipped-greek-yogurt-with-strawberries-and-cream-and-biscuits/104080.html",
+     "product_name": "Muller Bliss Whipped Greek Yogurt with Strawberries & Cream and Biscuits",
+     "category": "乳制品"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Sainsbury's",
+   "diff_per100": 0.101,
+   "diff_pct": 0.2737,
+   "spread_ratio": 1.27,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 1000.0,
+    "SAINSBURYS": 500.0
+   }
+  },
+  {
+   "name": "芹菜",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.19,
+     "pack_g": 350.0,
+     "size": "350 g",
+     "per100_gbp": 0.34,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796",
+     "product_name": "Celery Sticks",
+     "category": "蔬菜"
+    },
+    "ICELAND": {
+     "price": 1.0,
+     "pack_g": 250.0,
+     "size": "250g",
+     "per100_gbp": 0.4,
+     "link": "https://www.iceland.co.uk/p/iceland-celery-sticks-250g/53719.html",
+     "product_name": "Iceland Celery Sticks 250g",
+     "category": "蔬菜"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.06,
+   "diff_pct": 0.1765,
+   "spread_ratio": 1.18,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 350.0,
+    "ICELAND": 250.0
+   }
+  },
+  {
+   "name": "牛肉末",
+   "category": "肉类",
+   "stores": {
+    "ALDI": {
+     "price": 3.19,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.638,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030",
+     "product_name": "Beef Mince 25% Fat",
+     "category": "肉类"
+    },
+    "SAINSBURYS": {
+     "price": 3.19,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.638,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-or-irish-25-fat-beef-mince-500g",
+     "product_name": "Sainsbury's British or Irish 25% Fat Beef Mince 500g",
+     "category": "肉类"
+    },
+    "ICELAND": {
+     "price": 4.5,
+     "pack_g": 600.0,
+     "size": "600g",
+     "per100_gbp": 0.75,
+     "link": "https://www.iceland.co.uk/p/iceland-beef-mince-20pct-fat-600g/53893.html",
+     "product_name": "Iceland Beef Mince 20% Fat 600g",
+     "category": "肉类"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.112,
+   "diff_pct": 0.1755,
+   "spread_ratio": 1.18,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 500.0,
+    "SAINSBURYS": 500.0,
+    "ICELAND": 600.0
+   }
+  },
+  {
+   "name": "金枪鱼",
+   "category": "水产",
+   "stores": {
+    "ALDI": {
+     "price": 0.59,
+     "pack_g": 145.0,
+     "size": "145 g",
+     "per100_gbp": 0.4069,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-tuna-chunks-in-brine-000000000000227713",
+     "product_name": "Tuna Chunks In Brine",
+     "category": "水产"
+    },
+    "SAINSBURYS": {
+     "price": 0.65,
+     "pack_g": 145.0,
+     "size": "145g",
+     "per100_gbp": 0.4483,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tuna-chunks-in-spring-water-145g",
+     "product_name": "Sainsbury's Tuna Chunks in Spring Water 145g",
+     "category": "水产"
+    },
+    "ICELAND": {
+     "price": 0.75,
+     "pack_g": 160.0,
+     "size": "160g",
+     "per100_gbp": 0.4688,
+     "link": "https://www.iceland.co.uk/p/osprey-flakes-tuna-in-brine-160g/100655.html",
+     "product_name": "Osprey Flakes Tuna in Brine 160g",
+     "category": "水产"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.0619,
+   "diff_pct": 0.1521,
+   "spread_ratio": 1.15,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 145.0,
+    "SAINSBURYS": 145.0,
+    "ICELAND": 160.0
+   }
+  },
+  {
+   "name": "蘑菇",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 0.89,
+     "pack_g": 400.0,
+     "size": "400 g",
+     "per100_gbp": 0.2225,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-closed-cup-mushrooms-000000000000340015",
+     "product_name": "British Closed Cup Mushrooms",
+     "category": "蔬菜"
+    },
+    "SAINSBURYS": {
+     "price": 1.2,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.24,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-mushrooms-inspired-to-cook-500g",
+     "product_name": "Sainsbury's Sliced Mushrooms, Inspired to Cook 500g",
+     "category": "蔬菜"
+    },
+    "ICELAND": {
+     "price": 1.25,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.25,
+     "link": "https://www.iceland.co.uk/p/iceland-sliced-mushrooms-500g/83685.html",
+     "product_name": "Iceland Sliced Mushrooms 500g",
+     "category": "蔬菜"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.0275,
+   "diff_pct": 0.1236,
+   "spread_ratio": 1.12,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 400.0,
+    "SAINSBURYS": 500.0,
+    "ICELAND": 500.0
+   }
+  },
+  {
+   "name": "欧洲鲈鱼",
+   "category": "水产",
+   "stores": {
+    "ALDI": {
+     "price": 3.29,
+     "pack_g": 180.0,
+     "size": "180 g",
+     "per100_gbp": 1.8278,
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-boneless-mediterranean-sea-bass-fillets-2-pack-000000000000388008",
+     "product_name": "Boneless Mediterranean Sea Bass Fillets 2 Pack",
+     "category": "水产"
+    },
+    "SAINSBURYS": {
+     "price": 3.84,
+     "pack_g": 210.0,
+     "size": "210g",
+     "per100_gbp": 1.8286,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/new-england-seafood-210g-sea-bass-fillets",
+     "product_name": "New England Seafood 210g Sea Bass Fillets",
+     "category": "水产"
+    },
+    "ICELAND": {
+     "price": 10.0,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 2.0,
+     "link": "https://www.iceland.co.uk/p/iceland-4-large-sea-bass-fillets-500g/49715.html",
+     "product_name": "Iceland 4 Large Sea Bass Fillets 500g",
+     "category": "水产"
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.1722,
+   "diff_pct": 0.0942,
+   "spread_ratio": 1.09,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 180.0,
+    "SAINSBURYS": 210.0,
+    "ICELAND": 500.0
+   }
+  },
+  {
+   "name": "鹰嘴豆",
+   "category": "豆制品",
+   "stores": {
+    "ALDI": {
+     "price": 0.41,
+     "pack_g": 265.0,
+     "size": "0.265 Kg drained",
+     "per100_gbp": 0.1547,
+     "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
+     "product_name": "Chickpeas",
+     "category": "豆制品"
+    },
+    "SAINSBURYS": {
+     "price": 0.8,
+     "pack_g": 540.0,
+     "size": "540g",
+     "per100_gbp": 0.1481,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/village-quality-products-chickpeas-in-brine-540g",
+     "product_name": "Village Quality Products Chickpeas in Brine 540g",
+     "category": "豆制品"
+    }
+   },
+   "cheapest": "SAINSBURYS",
+   "cheapest_label": "Sainsbury's",
+   "expensive_label": "Aldi",
+   "diff_per100": 0.0066,
+   "diff_pct": 0.0446,
+   "spread_ratio": 1.04,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 265.0,
+    "SAINSBURYS": 540.0
+   }
+  },
+  {
+   "name": "芝麻菜",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 0.75,
+     "pack_g": 80.0,
+     "size": "80 g",
+     "per100_gbp": 0.9375,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022",
+     "product_name": "Watercress Spinach & Rocket Salad",
+     "category": "蔬菜"
+    },
+    "SAINSBURYS": {
+     "price": 1.4,
+     "pack_g": 100.0,
+     "size": "100g",
+     "per100_gbp": 1.4,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-spinach-watercress-rocket-100g",
+     "product_name": "Sainsbury's Spinach Watercress & Rocket 100g",
+     "category": "蔬菜"
+    },
+    "ICELAND": {
+     "price": 1.5,
+     "pack_g": 480.0,
+     "size": "480g",
+     "per100_gbp": 0.3125,
+     "link": "https://www.iceland.co.uk/p/iceland-8-rocket-lollies-480g/39358.html",
+     "product_name": "Iceland 8 Rocket Lollies 480g",
+     "category": "蔬菜"
+    }
+   },
+   "cheapest": "ICELAND",
+   "cheapest_label": "Iceland",
+   "expensive_label": "Sainsbury's",
+   "diff_per100": 1.0875,
+   "diff_pct": 3.48,
+   "spread_ratio": 4.48,
+   "suspect": true,
+   "sizes_g": {
+    "ALDI": 80.0,
+    "SAINSBURYS": 100.0,
+    "ICELAND": 480.0
+   }
+  },
+  {
+   "name": "柠檬",
+   "category": "水果",
+   "stores": {
+    "ALDI": {
+     "price": 0.89,
+     "pack_g": null,
+     "size": "4 Each",
+     "per100_gbp": null,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
+     "product_name": "Wonky Lemons",
+     "category": "水果"
+    },
+    "SAINSBURYS": {
+     "price": 2.0,
+     "pack_g": 750.0,
+     "size": "750ml",
+     "per100_gbp": 0.2667,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/innocent-cucumber-lemon-apple-spinach-smoothie-750ml",
+     "product_name": "Innocent Cucumber, Lemon, Apple & Spinach Smoothie 750ml",
+     "category": "水果"
+    },
+    "ICELAND": {
+     "price": 0.75,
+     "pack_g": 1000.0,
+     "size": "1L",
+     "per100_gbp": 0.075,
+     "link": "https://www.iceland.co.uk/p/aquaroma-lemon-and-lime-flavour-sparkling-1l/78889.html",
+     "product_name": "Aquaroma Lemon & Lime Flavour Sparkling 1L",
+     "category": "水果"
+    }
+   },
+   "cheapest": "ICELAND",
+   "cheapest_label": "Iceland",
+   "expensive_label": "Sainsbury's",
+   "diff_per100": 0.1917,
+   "diff_pct": 2.556,
+   "spread_ratio": 3.56,
+   "suspect": true,
+   "sizes_g": {
+    "SAINSBURYS": 750.0,
+    "ICELAND": 1000.0
+   }
+  }
+ ],
  "optional_items": []
 }
