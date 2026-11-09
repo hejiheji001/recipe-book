@@ -1,0 +1,475 @@
+<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8>
+<meta name=viewport content='width=device-width,initial-scale=1'>
+<title>推荐采购 · birmingham-809</title>
+<style>
+
+:root{--ink:#111;--dim:#6b6b6b;--line:#e0e0dc;--soft:#f5f5f2;--accent:#b5342a;}
+*{box-sizing:border-box;-webkit-text-size-adjust:100%;}
+body{margin:0;background:#fff;color:var(--ink);
+  font:18px/1.5 "PingFang SC","Hiragino Sans GB","Heiti SC",sans-serif;}
+a{color:var(--ink);}
+
+/* 站点导航（上层）*/
+.sitenav{display:flex;padding:0 4px;background:#fff;border-bottom:1px solid #f0f0ec;}
+.sitenav a{flex:1;text-align:center;font-size:13px;padding:11px 2px;
+ color:#666;text-decoration:none;font-weight:500;white-space:nowrap;
+ -webkit-tap-highlight-color:transparent;}
+.sitenav a.on{color:#111;font-weight:700;box-shadow:inset 0 -2px 0 #111;}
+.sitenav a.hot{color:#b5342a;font-weight:600;}
+.stickytop{position:-webkit-sticky;position:sticky;top:0;z-index:9;
+ background:#fff;border-bottom:1px solid var(--line);}
+.stamp{text-align:right;font-size:10.5px;color:#c0c0bc;padding:0 12px 5px;}
+.bottombar{position:-webkit-sticky;position:sticky;bottom:0;z-index:30;display:flex;gap:6px;
+ padding:8px 10px calc(8px + env(safe-area-inset-bottom));
+ background:#fff;border-top:1px solid #e6e6e2;box-shadow:0 -3px 12px rgba(0,0,0,.07);}
+.bottombar a{flex:1;text-align:center;text-decoration:none;font-size:13px;font-weight:600;
+ padding:10px 0;border-radius:9px;background:#fff;color:#444;border:1px solid #e0e0dc;}
+
+nav{position:static;z-index:auto;
+  display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;
+  padding:8px 9px;background:#fff;border-bottom:1px solid var(--line);}
+nav::-webkit-scrollbar{display:none;}
+nav a{flex:0 0 auto;display:flex;align-items:center;justify-content:center;
+  text-align:center;text-decoration:none;color:var(--dim);font-size:15px;
+  line-height:1;padding:8px 15px;border:1px solid var(--line);border-radius:20px;}
+.sitenav a{display:flex;align-items:center;justify-content:center;}
+nav a.on{background:var(--ink);color:#fff;border-color:var(--ink);font-weight:600;}
+nav a.shop{border-color:var(--ink);font-weight:600;}
+
+body{min-height:100vh;display:flex;flex-direction:column;}
+.wrap{max-width:560px;margin:0 auto;padding:0 14px 92px;flex:1 0 auto;width:100%;}
+
+.day{padding-top:14px;scroll-margin-top:122px;}
+.dh{border-bottom:2.5px solid var(--ink);padding-bottom:7px;margin-bottom:11px;}
+.dh h2{margin:0;font-size:22px;letter-spacing:.4px;}
+.dh .sub{margin-top:4px;font-size:14.5px;color:var(--dim);line-height:1.42;}
+.dh .sub b{color:var(--accent);font-weight:700;}
+
+h3{font-size:14.5px;margin:12px 0 6px;color:var(--dim);font-weight:600;letter-spacing:1px;}
+
+/* ===== 打印 ===== */
+.dh{position:relative;}
+.pdflink{display:inline-block;margin-left:8px;padding:1px 7px;border:1px solid #d8d8d2;
+ border-radius:7px;color:#b5342a;font-weight:700;text-decoration:none;
+ font-size:10.5px;line-height:1.5;vertical-align:middle;transition:opacity .2s;}
+.pdflink.loading{opacity:.65;pointer-events:none;}
+.pdflink .sp{display:none;width:10px;height:10px;margin-right:4px;vertical-align:-1px;
+ border:2px solid #e0b8b2;border-top-color:#b5342a;border-radius:50%;animation:spin .7s linear infinite;}
+.pdflink.loading .sp{display:inline-block;}
+@keyframes spin{to{transform:rotate(360deg);}}
+
+@media print{
+  @page { size:A4; margin:6mm 6mm 5mm 6mm; }
+  html,body{ background:#fff !important; color:#000; }
+  .stickytop,.bottombar,.daynav,.pdflink,.day.off,.pempty{ display:none !important; }
+  .wrap{ padding:0 !important; margin:0 !important; }
+  /* 屏幕上的多列/大边距全部清零，按 A4 重排 */
+  body{ font-size:11pt; line-height:1.32; }
+  .day{ page-break-before:always; margin:0 !important; padding:0 !important;
+         border:none !important; box-shadow:none !important; background:#fff !important; }
+  .day:first-of-type{ page-break-before:avoid; }
+  .dh{ border-bottom:1.6px solid #000; padding-bottom:5px; margin-bottom:7px; }
+  .dh h2{ font-size:1.55em !important; margin:0; }
+  .dh .sub{ font-size:.86em !important; }
+  h3{ font-size:.92em !important; margin:7px 0 3px !important; letter-spacing:1px; }
+  .tl{ background:#f4f4f1 !important; border-radius:5px; padding:1px 7px !important;
+        -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .tl .it{ padding:3px 0 !important; }
+  .tl .t{ flex:0 0 46px !important; font-size:.88em !important; }
+  .tl .c{ font-size:.95em !important; line-height:1.3 !important; }
+  .tl .tag{ font-size:.72em !important; padding:0 4px !important; }
+  .tl .free{ font-size:.8em !important; margin-top:1px !important; }
+  .prep{ margin-top:4px !important; }
+  .psec{ font-size:.78em !important; margin:5px 0 2px !important; }
+  .pr{ padding:4px 7px !important; margin-bottom:3px !important; border-radius:5px;
+       -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .pr .pn{ font-size:.92em !important; }
+  .pr .pn em{ font-size:.72em !important; }
+  .pr ul{ margin:2px 0 0 !important; padding-left:13px !important; }
+  .pr li{ font-size:.8em !important; line-height:1.28 !important; }
+  .dish{ border:1px solid #ccc !important; border-radius:5px; margin-bottom:4px !important;
+         overflow:visible !important; page-break-inside:avoid; }
+  .dish>summary{ padding:4px 8px !important; background:#f2f2ee !important;
+                 -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .dish>summary::after{ display:none !important; }
+  .dish .dchip{ font-size:.7em !important; padding:0 4px !important; }
+  .dish .role{ font-size:.7em !important; }
+  .dish .nm{ font-size:1em !important; }
+  .dish .meta{ font-size:.72em !important; }
+  .dish .body{ padding:3px 8px 5px !important; }
+  .dish .row{ margin:1px 0 !important; }
+  .dish .k{ flex:0 0 34px !important; font-size:.78em !important; }
+  .dish .v{ font-size:.82em !important; }
+  .dish ol{ margin:0 !important; padding-left:15px !important; }
+  .dish li{ font-size:.82em !important; line-height:1.28 !important; }
+  .dn{margin:10px 0 4px;padding:10px 14px;background:var(--soft);border-radius:10px;font-size:.9em;line-height:1.7;}
+.dn .nk{font-weight:700;}
+.nwarn{color:#b5342a;font-size:.9em;margin-top:4px;}
+.dish .nk{font-weight:700;}
+.dish .nbad{font-style:normal;color:#b5342a;font-size:.86em;}
+.dish .nsub{color:#9a9a95;font-size:.86em;}
+.dish .tip{ font-size:.78em !important; padding:3px 6px !important; }
+}}
+
+
+.tl .free{display:block;font-style:normal;font-size:13.5px;color:#b57c1f;
+ margin-top:3px;line-height:1.35;}
+.prep{margin-top:9px;}
+.psec{font-size:12.5px;font-weight:700;color:#8a8a85;letter-spacing:.6px;
+ margin:10px 0 5px;}
+.pr{background:#f4f9f5;border:1px solid #dfeee3;border-radius:10px;
+ padding:9px 12px;margin-bottom:6px;}
+.pr .pn{font-size:14.5px;font-weight:700;color:#1f5c33;}
+.pr .pn em{float:right;font-style:normal;font-size:11.5px;
+ color:#2f7a45;background:#e3f2e7;padding:1px 7px;border-radius:5px;}
+.pr ul{margin:5px 0 0;padding-left:17px;}
+.pr li{font-size:13px;color:#5e7a66;line-height:1.45;margin:1px 0;}
+
+.tl{background:var(--soft);border-radius:12px;padding:2px 14px;}
+.tl .it{display:flex;gap:11px;padding:7px 0;border-bottom:1px dashed var(--line);}
+.tl .it:last-child{border-bottom:0;}
+.tl .t{flex:0 0 78px;font-size:14.5px;font-weight:700;color:var(--accent);
+  font-variant-numeric:tabular-nums;padding-top:1px;line-height:1.35;}
+.tl .c{flex:1;font-size:17px;line-height:1.4;}
+.tl .tag{display:inline-block;font-size:12px;padding:1px 7px;border-radius:5px;
+  background:#e6e6e1;color:#3a3a3a;margin-right:6px;vertical-align:2px;font-weight:600;}
+
+.dish{border:1px solid var(--line);border-radius:14px;margin-bottom:9px;overflow:hidden;}
+.dish>summary{list-style:none;padding:10px 15px;background:var(--soft);cursor:pointer;
+  position:relative;padding-right:38px;}
+.dish>summary::-webkit-details-marker{display:none;}
+.dish>summary::after{content:"›";position:absolute;right:17px;top:50%;
+  transform:translateY(-50%) rotate(90deg);font-size:22px;color:#999;transition:.2s;}
+.dish[open]>summary::after{transform:translateY(-50%) rotate(-90deg);}
+.dchip{display:inline-block;font-size:12px;font-weight:700;color:#fff;background:#333;
+  padding:2px 7px;border-radius:5px;margin-right:7px;vertical-align:2px;}
+.role{font-size:12.5px;color:#fff;background:var(--ink);padding:3px 8px;border-radius:5px;
+  margin-right:9px;vertical-align:2px;font-weight:600;white-space:nowrap;}
+.role.cam{background:var(--accent);}
+.nm{font-size:19px;font-weight:700;}
+.meta{margin-top:4px;font-size:13px;color:var(--dim);}
+.meta i{display:inline-block;margin-right:12px;font-style:normal;}
+.meta i:first-child{color:var(--accent);font-weight:600;}
+
+.body{padding:0 15px 11px;}
+.row{margin-top:9px;}
+.row .k{font-size:12px;color:var(--dim);letter-spacing:1px;margin-bottom:2px;}
+.row .v{font-size:17.5px;line-height:1.48;}
+.row .v.dim{font-size:15.5px;color:#3d3d3d;line-height:1.42;}
+ol{margin:2px 0 0;padding-left:21px;}
+ol li{margin-bottom:5px;line-height:1.5;}
+.tip{background:#fff4f2;border-left:4px solid var(--accent);padding:7px 12px;
+  border-radius:0 8px 8px 0;font-size:16px;line-height:1.45;}
+
+.daynav{display:flex;gap:10px;margin:14px 0 0;}
+.daynav a{flex:1;text-align:center;text-decoration:none;font-size:15px;
+  border:1px solid var(--line);border-radius:12px;padding:11px 0;background:var(--soft);}
+
+
+.shop{padding-top:14px;scroll-margin-top:122px;}
+.scat{margin-top:16px;}
+.scn{font-size:14px;color:#fff;background:var(--ink);display:inline-block;
+  padding:3px 11px;border-radius:6px;font-weight:600;letter-spacing:1px;}
+.scn span{background:rgba(255,255,255,.25);border-radius:4px;padding:0 6px;
+  margin-left:8px;font-size:12px;font-weight:400;}
+.si{display:flex;align-items:baseline;gap:10px;padding:10px 2px;
+  border-bottom:1px solid var(--line);}
+.sn{flex:1;font-size:17px;font-weight:600;}
+.sb{flex:0 0 auto;font-size:15px;color:#333;white-space:nowrap;}
+.sb b{font-size:17px;color:var(--accent);}
+.sp{font-size:12.5px;color:#888;margin-left:3px;}
+.sd{flex:0 0 76px;text-align:right;font-size:12.5px;color:#999;}
+.note{background:var(--soft);border-radius:14px;padding:14px 16px;font-size:15.5px;
+  line-height:1.7;color:#2c2c2c;margin-top:14px;}
+.note b{color:var(--accent);}
+.foot{text-align:center;color:#b0b0b0;font-size:12.5px;padding:22px 0 0;}
+
+
+.wrap{max-width:920px;margin:0 auto;padding:8px 14px 40px}
+.dishrow{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line,#eee)}
+.dishrow .nm{font-weight:600;font-size:14px}
+.dishrow .rl{color:#8a7f66;font-size:11px;margin-left:6px;font-weight:400}
+.dishrow .nt{color:#666;font-size:12px;text-align:right;white-space:nowrap}
+.cook{margin:10px 0 14px;padding:10px 12px;border:1px solid #eceae2;border-radius:8px;background:#fcfcfa}
+.cookhd{font-size:13px;font-weight:700;color:#3c3a33}
+.cooknote{font-size:11px;color:#8a7f66;margin-top:3px}
+.cookwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:7px}
+.cooktab{width:100%;min-width:430px;border-collapse:collapse;font-size:12.5px}
+.cooktab th{text-align:left;color:#8a7f66;font-weight:600;font-size:11px;padding:4px 6px;border-bottom:1px solid #e6e4dc}
+.cooktab td{padding:5px 6px;border-bottom:1px solid #eee;vertical-align:top}
+.cooktab td:first-child{white-space:nowrap;color:#555;font-variant-numeric:tabular-nums}
+.cooktab td.k{white-space:nowrap;color:#8a7f66}
+.cooktab .meal{display:inline-block;min-width:20px;text-align:center;font-size:11px;font-weight:700;
+ border-radius:3px;padding:0 4px;margin-right:5px;color:#fff;vertical-align:1px}
+.cooktab .meal.m-lunch{background:#d98c2b}
+.cooktab .meal.m-dinner{background:#5b8c4a}
+.cooktab .meal.m-breakfast{background:#7a8fa6}
+.cooktab .meal.m-snack{background:#a68a7a}
+.cooktab .meal.m-prep{background:#8a7f66}
+.cooktab tr.freerow td{background:#f3f7ef}
+.cooktab .dev{display:inline-block;font-size:10px;color:#6b7f5a;border:1px solid #cfdcc4;
+ border-radius:3px;padding:0 4px;margin-right:5px;vertical-align:1px}
+.dishcard{border:1px solid #eceae2;border-radius:8px;padding:10px 12px;margin:10px 0;background:#fff}
+.prep{margin:0 0 12px;padding:11px 12px;border:1px solid #dfe8d5;border-radius:8px;background:#f8fbf4}
+.mealhd{margin:8px 0 4px;font-weight:700;color:#2f5d3a;font-size:13px}
+.mealhd:first-of-type{margin-top:2px}
+.prephd{font-size:13px;font-weight:700;color:#3f5a2e;margin-bottom:6px}
+.prepzone{display:flex;gap:8px;padding:5px 0;border-top:1px dashed #e3ead9;font-size:12.5px;line-height:1.6}
+.prepzone:first-of-type{border-top:0}
+.prepzone b{flex:0 0 62px;color:#5d7448;font-weight:700}
+.prepitems{flex:1;color:#333}
+.miss{display:inline-block;margin-left:3px;padding:0 4px;border:1px solid #e0b74a;border-radius:3px;color:#8a641f;font-size:10px;vertical-align:1px}
+.optional{margin:12px 0 0;padding:10px 12px;border:1px dashed #e0d2a8;border-radius:6px;background:#fffdf5;font-size:12.5px;color:#5f4c22;line-height:1.7}
+.optional b{color:#6b5218}
+.dhead{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+.dhead b{font-size:15px}
+.dmeta{color:#666;font-size:12px;margin-top:3px}
+.ding,.dpant{font-size:13px;margin-top:6px;line-height:1.6}
+.ding i,.dpant i{font-style:normal;color:#8a7f66;margin-right:6px;font-size:11px}
+.dsteps{margin:7px 0 0;padding-left:20px;font-size:13px;line-height:1.7;color:#333}
+.shopwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid #eee;border-radius:6px}
+.shoptab{min-width:0;table-layout:fixed;border-collapse:separate;border-spacing:0}
+.shoptab th,.shoptab td{padding:2px 1px;background:#fff;border-bottom:1px solid #eee;
+ font-size:11px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.shoptab thead th{background:#f7f6f1;position:sticky;top:0;z-index:4}
+/* 冻结前两列：品类 / 中文名 */
+.shoptab th:nth-child(1),.shoptab td:nth-child(1){position:sticky;left:0;z-index:3;width:34px}
+.shoptab th:nth-child(2),.shoptab td:nth-child(2){position:sticky;left:34px;z-index:3;width:54px;
+ box-shadow:2px 0 5px rgba(0,0,0,.07)}
+.shoptab thead th:nth-child(-n+2){z-index:5}
+.shoptab td:nth-child(5){white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#555;font-size:12px}
+.shoptab tr.catstart td{border-top:2px solid #d8d4c6}
+.shoptab tr.catstart td:first-child{font-weight:700;color:#3c3a33}
+.shoptab tbody tr.g0 td{background:#ffffff}
+.shoptab tbody tr.g1 td{background:#f7f6f0}
+.shoptab tbody tr.g2 td{background:#fdf8ee}
+.shoptab tbody tr.g3 td{background:#f2f6f3}
+.shoptab tbody tr.g4 td{background:#f6f2f8}
+.shoptab tbody tr.g5 td{background:#f1f6fa}
+.shoptab tr.sumrow td{font-weight:700;border-top:2px solid #ddd;background:#faf9f5}
+.batch{margin:14px 0 0}
+.batchhd{display:flex;justify-content:space-between;align-items:baseline;gap:10px;
+ margin-top:4px;padding:7px 2px 5px;border-bottom:1px solid #d9d5c8}
+.batchhd b{font-size:14px;color:#3c3a33}
+.batchhd span{font-size:11px;color:#8a7f66;white-space:nowrap}
+.shoptotal{margin:10px 2px 0;text-align:right;font-size:13px;color:#3c3a33}
+.shoptotal b{font-size:15px}
+.shopnote{margin:16px 0 0;padding:10px 12px;background:#fff8e6;border-left:3px solid #e0b74a;
+ font-size:12px;color:#6b5a2e;border-radius:3px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+th,td{text-align:left;padding:2px 2px;border-bottom:1px solid #eee;vertical-align:top}
+th{color:#777;font-weight:600;font-size:12px}
+.storehint{margin:0 0 9px;padding:9px 11px;border:1px solid #d9e6cc;border-radius:8px;
+ background:#f6faf1;font-size:12.5px;color:#3f5a2e;line-height:1.65}
+.storehint b{color:#2f6f4e}
+.storepick{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 10px}
+.storepick a{padding:4px 12px;border:1px solid #ddd;border-radius:14px;background:#fff;
+ font-size:13px;color:#555;cursor:pointer;text-decoration:none;white-space:nowrap}
+.storepick a.on{background:#2f6f4e;border-color:#2f6f4e;color:#fff}
+.storepick a .cov{font-size:11px;opacity:.75;margin-left:4px}
+.storemiss{margin:8px 2px 0;padding:7px 10px;border-left:3px solid #e0b74a;
+ background:#fffdf5;font-size:12px;color:#6b5a2e;border-radius:3px}
+.storetab{display:none}
+.storetab.on{display:block}
+.reclayer,.onelayer,.cmplayer{margin:0 0 20px;padding-top:6px;border-top:1px dashed #e6e6e6}
+.reclayer h3,.onelayer h3,.cmplayer h3{font-size:14px;margin:10px 0 8px;color:#2f6f4e}
+.daypick{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 10px}
+.daypick a{padding:3px 10px;border:1px solid #e2e2e2;border-radius:12px;background:#fafafa;
+ font-size:12.5px;color:#555;cursor:pointer;text-decoration:none;white-space:nowrap}
+.daypick a.on{background:#e8f0e3;border-color:#2f6f4e;color:#2f6f4e;font-weight:600}
+.shopday{margin:8px 0 4px;font-size:13px;color:#2f6f4e;background:#eef5ea;
+  border-left:3px solid #2f6f4e;padding:6px 10px;border-radius:4px}
+.shelfplan{font-size:12px;line-height:1.7;margin:4px 0 8px;padding-left:2px}
+.shelfline{margin:1px 0}
+.shelfconf{margin:4px 0 8px;font-size:12px;color:#b23b3b;background:#fdeaea;
+  border-left:3px solid #b23b3b;padding:5px 9px;border-radius:4px}
+.recbody{display:none}.recbody.on{display:block}
+.daysum{font-size:12px;color:#2f6f4e;padding:6px 4px}
+.vsrec{margin:8px 2px 0;padding:7px 10px;border-left:3px solid #2f6f4e;background:#f3f8ef;
+ font-size:12.5px;color:#2f6f4e;border-radius:3px}
+.dates{font-size:11.5px;color:#888}
+.cmphint{margin:0 0 8px;font-size:11.5px;color:#888}
+.cmpwrap{overflow-x:auto;border:1px solid #eee;border-radius:6px}
+.cmptab{width:100%;border-collapse:collapse;font-size:11.5px}
+.cmptab th,.cmptab td{padding:2px 5px;border-bottom:1px solid #eee;text-align:left;
+ vertical-align:middle;white-space:nowrap}
+.cmptab thead th{background:#f7f6f1;font-size:11px;color:#777}
+.cmptab td.cn{font-weight:600;color:#3c3a33;max-width:76px;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.cmptab td .p1{display:block;font-size:11.5px;color:#333;line-height:1.3}
+.cmptab td .p2{display:block;font-size:11px;color:#2f6f4e;line-height:1.3}
+.cmptab td.cheap{background:#fdeaea}
+.cmptab td.cheap .p1,.cmptab td.cheap .p2{color:#c0392b;font-weight:700}
+.cmptab td.na{color:#bbb;text-align:center}
+.cmptab td.concl{font-size:11px;white-space:nowrap;text-align:right;padding-right:6px;line-height:1.35}
+.cmptab .save{color:#c0392b;font-weight:700}
+.cmptab .abs{color:#999;font-size:10px;margin-left:2px}
+.cmptab .suspect{color:#b8860b}
+
+</style></head><body>
+<a id=top></a>
+<div class=stickytop><div class=sitenav>
+  <a href='../../#open=catalog' data-view='catalog'>总菜谱</a>
+  <a href='./' data-view='recommend'>推荐菜谱</a>
+  <a href='./shopping.html' class='on hot' data-view='shopping'>推荐采购</a>
+  <a href='../../#open=mylist' data-view='mylist'>我的菜谱</a>
+  <a href='../../#open=stock' data-view='stock'>库存</a>
+</div>
+<div class=stamp>更新 11-09 16:50</div>
+</div><div class=wrap>
+<section class=day id=shopping><div class=dh><h2>推荐采购</h2><div class=sub>共 23 项 · 合计 £48.43 · 单人 8 天份 · 11/08 一次买齐</div></div>
+<div class=reclayer><h3>① 推荐买齐方案</h3>
+<div class=shopday><b>采购日 11/08</b> · 本周 8 天一次买齐（鲜货按下单顺序吃）</div><div class=shelfplan><div class=shelfline><b>中间 · 一般鲜货</b>：芹菜、番茄（11/09/11/11）、四季豆（11/10/11/13）、甜椒（11/13）、蘑菇（11/09/11/12/11/14）、玉米粒（11/10/11/14）、西兰花（11/09/11/11/11/13/11/14/11/15）</div><div class=shelfline><b>可放整周 · 根茎/耐放</b>：大蒜、卷心菜（11/13/11/14）、羽衣甘蓝（11/08/11/10/11/12/11/14/11/15）、小土豆（11/11/11/14/11/15）</div></div>
+<div class=storehint>💡 推荐去 <b>Aldi</b> + <b>Sainsbury&#x27;s</b>，可买齐 <b>100%</b>，去重合计 <b>£50.32</b></div>
+<div class='storepick recpick'>
+<a data-recstore='ALDI' class=on>Aldi<span class=cov>£39.85</span></a>
+<a data-recstore='SAINSBURYS'>Sainsbury&#x27;s<span class=cov>£10.47</span></a>
+</div>
+<div class='recbody on' data-recstore='ALDI'>
+<div class=shopwrap><table class=shoptab><colgroup><col style='width:34px'><col style='width:54px'><col style='width:22px'><col style='width:56px'><col style='width:96px'><col style='width:42px'><col style='width:42px'><col style='width:48px'></colgroup><thead><tr><th>品类</th><th>中文名</th><th>件</th><th>量/份</th><th>链接</th><th>单价£</th><th>本批£</th><th>总量</th></tr></thead><tbody><tr class="g0 catstart"><td>肉类</td><td>大蒜</td><td>1</td><td>240 g</td><td class=en><a href='https://www.aldi.co.uk/product/plant-menu-garlic-herb-ribs-skewers-000000000622607001' target=_blank rel=noopener>Garlic &amp; Herb Ribs &amp; Skewers</a></td><td>0.49</td><td>0.49</td><td>240g</td></tr><tr class="g0"><td>肉类</td><td>牛肉末</td><td>1</td><td>500 g</td><td class=en><a href='https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030' target=_blank rel=noopener>Beef Mince 25% Fat</a></td><td>3.19</td><td>3.19</td><td>500g</td></tr><tr class="g1 catstart"><td>水产</td><td>欧洲鲈鱼</td><td>2</td><td>180 g</td><td class=en><a href='https://www.aldi.co.uk/product/the-fishmonger-boneless-mediterranean-sea-bass-fillets-2-pack-000000000000388008' target=_blank rel=noopener>Boneless Mediterranean Sea Bass Fillets</a></td><td>3.29</td><td>6.58</td><td>180g</td></tr><tr class="g1"><td>水产</td><td>金枪鱼罐头</td><td>3</td><td>145 g</td><td class=en><a href='https://www.aldi.co.uk/product/everyday-essentials-tuna-chunks-in-brine-000000000000227713' target=_blank rel=noopener>Tuna Chunks In Brine</a></td><td>0.59</td><td>1.77</td><td>145g</td></tr><tr class="g1"><td>水产</td><td>鳕鱼</td><td>1</td><td>360 g</td><td class=en><a href='https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002' target=_blank rel=noopener>Cod Fillets</a></td><td>3.95</td><td>3.95</td><td>360g</td></tr><tr class="g2 catstart"><td>乳制品</td><td>帕玛森干酪</td><td>1</td><td>170 g</td><td class=en><a href='https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638' target=_blank rel=noopener>Parmigiano Reggiano PDO</a></td><td>3.29</td><td>3.29</td><td>170g</td></tr><tr class="g2"><td>乳制品</td><td>菲达奶酪</td><td>1</td><td>200 g</td><td class=en><a href='https://www.aldi.co.uk/product/emporium-greek-feta-000000000000557625' target=_blank rel=noopener>Greek Feta</a></td><td>1.69</td><td>1.69</td><td>200g</td></tr><tr class="g3 catstart"><td>豆制品</td><td>扁豆罐头</td><td>1</td><td>400 g</td><td class=en><a href='https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002' target=_blank rel=noopener>Tinned Lentils</a></td><td>0.45</td><td>0.45</td><td>400g</td></tr><tr class="g3"><td>豆制品</td><td>鹰嘴豆罐头</td><td>2</td><td>0.265 Kg</td><td class=en><a href='https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258' target=_blank rel=noopener>Chickpeas</a></td><td>0.41</td><td>0.82</td><td>265g</td></tr><tr class="g4 catstart"><td>蔬菜</td><td>卷心菜</td><td>1</td><td>440 g</td><td class=en><a href='https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515' target=_blank rel=noopener>Red Cabbage</a></td><td>1.19</td><td>1.19</td><td>440g</td></tr><tr class="g4"><td>蔬菜</td><td>小土豆</td><td>1</td><td>1 kg</td><td class=en><a href='https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748' target=_blank rel=noopener>Baby Potatoes</a></td><td>0.99</td><td>0.99</td><td>1000g</td></tr><tr class="g4"><td>蔬菜</td><td>羽衣甘蓝</td><td>5</td><td>200 g</td><td class=en><a href='https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974' target=_blank rel=noopener>Shredded Kale</a></td><td>0.89</td><td>4.45</td><td>200g</td></tr><tr class="g4"><td>蔬菜</td><td>芹菜</td><td>1</td><td>350 g</td><td class=en><a href='https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796' target=_blank rel=noopener>Celery Sticks</a></td><td>1.19</td><td>1.19</td><td>350g</td></tr><tr class="g4"><td>蔬菜</td><td>蘑菇</td><td>1</td><td>400 g</td><td class=en><a href='https://www.aldi.co.uk/product/nature-s-pick-british-closed-cup-mushrooms-000000000000340015' target=_blank rel=noopener>Mushrooms</a></td><td>0.89</td><td>0.89</td><td>400g</td></tr><tr class="g4"><td>蔬菜</td><td>西兰花</td><td>1</td><td>1 kg</td><td class=en><a href='https://www.aldi.co.uk/product/four-seasons-broccoli-florets-000000000275878002' target=_blank rel=noopener>Broccoli Florets</a></td><td>1.19</td><td>1.19</td><td>1000g</td></tr><tr class="g5 catstart"><td>水果</td><td>柠檬</td><td>1</td><td>4 个</td><td class=en><a href='https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496' target=_blank rel=noopener>Lemons</a></td><td>0.89</td><td>0.89</td><td>—</td></tr><tr class="g5"><td>水果</td><td>草莓</td><td>2</td><td>600 g</td><td class=en><a href='https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981' target=_blank rel=noopener>Strawberries</a></td><td>2.99</td><td>5.98</td><td>600g</td></tr><tr class="g0 catstart"><td>主食</td><td>藜麦</td><td>1</td><td>250 g</td><td class=en><a href='https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001' target=_blank rel=noopener>Quinoa, Pumpkin &amp; Sunflower Seeds Pouch</a></td><td>0.85</td><td>0.85</td><td>250g</td></tr><tr class=sumrow><td colspan=2 class=sumlabel>小计</td><td></td><td></td><td></td><td></td><td>£39.85</td><td></td></tr></tbody></table></div>
+</div>
+<div class='recbody' data-recstore='SAINSBURYS'>
+<div class=shopwrap><table class=shoptab><colgroup><col style='width:34px'><col style='width:54px'><col style='width:22px'><col style='width:56px'><col style='width:96px'><col style='width:42px'><col style='width:42px'><col style='width:48px'></colgroup><thead><tr><th>品类</th><th>中文名</th><th>件</th><th>量/份</th><th>链接</th><th>单价£</th><th>本批£</th><th>总量</th></tr></thead><tbody><tr class="g0 catstart"><td>乳制品</td><td>希腊酸奶</td><td>1</td><td>500g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-authentic-greek-yogurt-taste-the-difference-500g' target=_blank rel=noopener>Sainsbury&#x27;s Authentic Greek Yogurt, Taste the Difference</a></td><td>2.35</td><td>2.35</td><td>500g</td></tr><tr class="g1 catstart"><td>豆制品</td><td>白芸豆</td><td>1</td><td>250g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/tilda-250g-cannellini-beans' target=_blank rel=noopener>Tilda Cannellini Beans</a></td><td>1.50</td><td>1.50</td><td>250g</td></tr><tr class="g2 catstart"><td>蔬菜</td><td>四季豆</td><td>1</td><td>900g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g' target=_blank rel=noopener>Sainsbury&#x27;s Whole Green Beans</a></td><td>1.07</td><td>1.07</td><td>900g</td></tr><tr class="g2"><td>蔬菜</td><td>玉米粒</td><td>1</td><td>950g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-sweetcorn-950g' target=_blank rel=noopener>Stamford Street Co. Sweetcorn</a></td><td>1.42</td><td>1.42</td><td>950g</td></tr><tr class="g2"><td>蔬菜</td><td>甜椒</td><td>1</td><td>500g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-mixed-peppers-500g' target=_blank rel=noopener>Sainsbury&#x27;s Sliced Mixed Peppers</a></td><td>0.99</td><td>0.99</td><td>500g</td></tr><tr class="g2"><td>蔬菜</td><td>番茄</td><td>1</td><td>400g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/ktc-chopped-tomatoes-400g' target=_blank rel=noopener>KTC Chopped Tomatoes</a></td><td>0.35</td><td>0.35</td><td>400g</td></tr><tr class="g2"><td>蔬菜</td><td>茄子</td><td>1</td><td>500g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-chargrilled-mediterranean-vegetables-aubergine-courgette-red-yellow-peppers-500g' target=_blank rel=noopener>Sainsbury&#x27;s Chargrilled Mediterranean Vegetables (Aubergine, Courgette, Red &amp; Yellow Peppers)</a></td><td>2.79</td><td>2.79</td><td>500g</td></tr><tr class=sumrow><td colspan=2 class=sumlabel>小计</td><td></td><td></td><td></td><td></td><td>£10.47</td><td></td></tr></tbody></table></div>
+</div>
+</div>
+<div class=onelayer><h3>② 单店方案</h3>
+<div class=storepick>
+<a data-store='ALDI' class=on>Aldi<span class=cov>92%</span></a>
+<a data-store='SAINSBURYS'>Sainsbury&#x27;s<span class=cov>84%</span></a>
+<a data-store='ICELAND'>Iceland<span class=cov>84%</span></a>
+</div>
+<div class='storetab on' data-store='ALDI'>
+<div class=shopwrap><table class=shoptab><colgroup><col style='width:34px'><col style='width:54px'><col style='width:22px'><col style='width:56px'><col style='width:96px'><col style='width:42px'><col style='width:42px'><col style='width:48px'></colgroup><thead><tr><th>品类</th><th>中文名</th><th>件</th><th>量/份</th><th>链接</th><th>单价£</th><th>本批£</th><th>总量</th></tr></thead><tbody><tr class="g0 catstart"><td>肉类</td><td>大蒜</td><td>1</td><td>240 g</td><td class=en><a href='https://www.aldi.co.uk/product/plant-menu-garlic-herb-ribs-skewers-000000000622607001' target=_blank rel=noopener>Garlic &amp; Herb Ribs &amp; Skewers</a></td><td>0.49</td><td>0.49</td><td>240g</td></tr><tr class="g0"><td>肉类</td><td>牛肉末</td><td>1</td><td>500 g</td><td class=en><a href='https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030' target=_blank rel=noopener>Beef Mince 25% Fat</a></td><td>3.19</td><td>3.19</td><td>500g</td></tr><tr class="g1 catstart"><td>水产</td><td>欧洲鲈鱼</td><td>2</td><td>180 g</td><td class=en><a href='https://www.aldi.co.uk/product/the-fishmonger-boneless-mediterranean-sea-bass-fillets-2-pack-000000000000388008' target=_blank rel=noopener>Boneless Mediterranean Sea Bass Fillets</a></td><td>3.29</td><td>6.58</td><td>180g</td></tr><tr class="g1"><td>水产</td><td>金枪鱼罐头</td><td>3</td><td>145 g</td><td class=en><a href='https://www.aldi.co.uk/product/everyday-essentials-tuna-chunks-in-brine-000000000000227713' target=_blank rel=noopener>Tuna Chunks In Brine</a></td><td>0.59</td><td>1.77</td><td>145g</td></tr><tr class="g1"><td>水产</td><td>鳕鱼</td><td>1</td><td>360 g</td><td class=en><a href='https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002' target=_blank rel=noopener>Cod Fillets</a></td><td>3.95</td><td>3.95</td><td>360g</td></tr><tr class="g2 catstart"><td>乳制品</td><td>希腊酸奶</td><td>1</td><td>1 kg</td><td class=en><a href='https://www.aldi.co.uk/product/brooklea-authentic-greek-yogurt-000000000656970001' target=_blank rel=noopener>Authentic Greek Yogurt</a></td><td>3.69</td><td>3.69</td><td>1000g</td></tr><tr class="g2"><td>乳制品</td><td>帕玛森干酪</td><td>1</td><td>170 g</td><td class=en><a href='https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638' target=_blank rel=noopener>Parmigiano Reggiano PDO</a></td><td>3.29</td><td>3.29</td><td>170g</td></tr><tr class="g2"><td>乳制品</td><td>菲达奶酪</td><td>1</td><td>200 g</td><td class=en><a href='https://www.aldi.co.uk/product/emporium-greek-feta-000000000000557625' target=_blank rel=noopener>Greek Feta</a></td><td>1.69</td><td>1.69</td><td>200g</td></tr><tr class="g3 catstart"><td>豆制品</td><td>扁豆罐头</td><td>1</td><td>400 g</td><td class=en><a href='https://www.aldi.co.uk/product/four-seasons-tinned-lentils-000000000627180002' target=_blank rel=noopener>Tinned Lentils</a></td><td>0.45</td><td>0.45</td><td>400g</td></tr><tr class="g3"><td>豆制品</td><td>鹰嘴豆罐头</td><td>2</td><td>0.265 Kg</td><td class=en><a href='https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258' target=_blank rel=noopener>Chickpeas</a></td><td>0.41</td><td>0.82</td><td>265g</td></tr><tr class="g4 catstart"><td>蔬菜</td><td>卷心菜</td><td>1</td><td>440 g</td><td class=en><a href='https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515' target=_blank rel=noopener>Red Cabbage</a></td><td>1.19</td><td>1.19</td><td>440g</td></tr><tr class="g4"><td>蔬菜</td><td>四季豆</td><td>1</td><td>1 kg</td><td class=en><a href='https://www.aldi.co.uk/product/four-seasons-whole-green-beans-000000000275878001' target=_blank rel=noopener>Whole Green Beans</a></td><td>1.19</td><td>1.19</td><td>1000g</td></tr><tr class="g4"><td>蔬菜</td><td>小土豆</td><td>1</td><td>1 kg</td><td class=en><a href='https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748' target=_blank rel=noopener>Baby Potatoes</a></td><td>0.99</td><td>0.99</td><td>1000g</td></tr><tr class="g4"><td>蔬菜</td><td>玉米粒</td><td>1</td><td>1 kg</td><td class=en><a href='https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686' target=_blank rel=noopener>Sweetcorn</a></td><td>1.49</td><td>1.49</td><td>1000g</td></tr><tr class="g4"><td>蔬菜</td><td>甜椒</td><td>1</td><td>600 g</td><td class=en><a href='https://www.aldi.co.uk/product/everyday-essentials-wonky-mixed-peppers-000000000000275381' target=_blank rel=noopener>Mixed Peppers</a></td><td>1.59</td><td>1.59</td><td>600g</td></tr><tr class="g4"><td>蔬菜</td><td>番茄</td><td>1</td><td>250 g</td><td class=en><a href='https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259' target=_blank rel=noopener>Baby Plum Tomatoes</a></td><td>0.62</td><td>0.62</td><td>250g</td></tr><tr class="g4"><td>蔬菜</td><td>羽衣甘蓝</td><td>5</td><td>200 g</td><td class=en><a href='https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974' target=_blank rel=noopener>Shredded Kale</a></td><td>0.89</td><td>4.45</td><td>200g</td></tr><tr class="g4"><td>蔬菜</td><td>芹菜</td><td>1</td><td>350 g</td><td class=en><a href='https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796' target=_blank rel=noopener>Celery Sticks</a></td><td>1.19</td><td>1.19</td><td>350g</td></tr><tr class="g4"><td>蔬菜</td><td>蘑菇</td><td>1</td><td>400 g</td><td class=en><a href='https://www.aldi.co.uk/product/nature-s-pick-british-closed-cup-mushrooms-000000000000340015' target=_blank rel=noopener>Mushrooms</a></td><td>0.89</td><td>0.89</td><td>400g</td></tr><tr class="g4"><td>蔬菜</td><td>西兰花</td><td>1</td><td>1 kg</td><td class=en><a href='https://www.aldi.co.uk/product/four-seasons-broccoli-florets-000000000275878002' target=_blank rel=noopener>Broccoli Florets</a></td><td>1.19</td><td>1.19</td><td>1000g</td></tr><tr class="g5 catstart"><td>水果</td><td>柠檬</td><td>1</td><td>4 个</td><td class=en><a href='https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496' target=_blank rel=noopener>Lemons</a></td><td>0.89</td><td>0.89</td><td>—</td></tr><tr class="g5"><td>水果</td><td>草莓</td><td>2</td><td>600 g</td><td class=en><a href='https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981' target=_blank rel=noopener>Strawberries</a></td><td>2.99</td><td>5.98</td><td>600g</td></tr><tr class="g0 catstart"><td>主食</td><td>藜麦</td><td>1</td><td>250 g</td><td class=en><a href='https://www.aldi.co.uk/product/worldwide-foods-special-quinoa-pumpkin-sunflower-seeds-pouch-000000000336151001' target=_blank rel=noopener>Quinoa, Pumpkin &amp; Sunflower Seeds Pouch</a></td><td>0.85</td><td>0.85</td><td>250g</td></tr><tr class=sumrow><td colspan=2 class=sumlabel>合计</td><td></td><td></td><td></td><td></td><td>£48.43</td><td></td></tr></tbody></table></div><div class=vsrec>同样的 23 项，比推荐方案贵 £2.40（另有 2 项这家买不到，未计入）</div><div class=storemiss>这家没有：茄子、白芸豆</div>
+</div>
+<div class='storetab' data-store='SAINSBURYS'>
+<div class=shopwrap><table class=shoptab><colgroup><col style='width:34px'><col style='width:54px'><col style='width:22px'><col style='width:56px'><col style='width:96px'><col style='width:42px'><col style='width:42px'><col style='width:48px'></colgroup><thead><tr><th>品类</th><th>中文名</th><th>件</th><th>量/份</th><th>链接</th><th>单价£</th><th>本批£</th><th>总量</th></tr></thead><tbody><tr class="g0 catstart"><td>肉类</td><td>牛肉末</td><td>1</td><td>500g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-or-irish-25-fat-beef-mince-500g' target=_blank rel=noopener>Sainsbury&#x27;s 25% Fat Beef Mince</a></td><td>3.19</td><td>3.19</td><td>500g</td></tr><tr class="g1 catstart"><td>水产</td><td>欧洲鲈鱼</td><td>2</td><td>210g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/new-england-seafood-210g-sea-bass-fillets' target=_blank rel=noopener>New England Seafood Sea Bass Fillets</a></td><td>3.84</td><td>7.68</td><td>210g</td></tr><tr class="g1"><td>水产</td><td>金枪鱼罐头</td><td>3</td><td>145g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tuna-chunks-in-brine-145g' target=_blank rel=noopener>Sainsbury&#x27;s Tuna Chunks in Brine</a></td><td>0.65</td><td>1.95</td><td>145g</td></tr><tr class="g1"><td>水产</td><td>鳕鱼</td><td>1</td><td>360g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-skinless-boneless-cod-fillets-360g' target=_blank rel=noopener>Sainsbury&#x27;s Skinless &amp; Boneless Cod Fillets</a></td><td>7.00</td><td>7.00</td><td>360g</td></tr><tr class="g2 catstart"><td>乳制品</td><td>希腊酸奶</td><td>1</td><td>500g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-authentic-greek-yogurt-taste-the-difference-500g' target=_blank rel=noopener>Sainsbury&#x27;s Authentic Greek Yogurt, Taste the Difference</a></td><td>2.35</td><td>2.35</td><td>500g</td></tr><tr class="g3 catstart"><td>豆制品</td><td>白芸豆</td><td>1</td><td>250g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/tilda-250g-cannellini-beans' target=_blank rel=noopener>Tilda Cannellini Beans</a></td><td>1.50</td><td>1.50</td><td>250g</td></tr><tr class="g3"><td>豆制品</td><td>鹰嘴豆</td><td>1</td><td>1kg</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/laila-chickpeas-1kg' target=_blank rel=noopener>Laila Chickpeas</a></td><td>2.00</td><td>2.00</td><td>1000g</td></tr><tr class="g4 catstart"><td>蔬菜</td><td>卷心菜</td><td>1</td><td>500g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-savoy-cabbage-500g' target=_blank rel=noopener>Sainsbury&#x27;s Sliced Savoy Cabbage</a></td><td>2.00</td><td>2.00</td><td>500g</td></tr><tr class="g4"><td>蔬菜</td><td>四季豆</td><td>1</td><td>900g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g' target=_blank rel=noopener>Sainsbury&#x27;s Whole Green Beans</a></td><td>1.07</td><td>1.07</td><td>900g</td></tr><tr class="g4"><td>蔬菜</td><td>小土豆</td><td>1</td><td>1kg</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-1kg-baby-potatoes' target=_blank rel=noopener>Sainsbury&#x27;s Baby Potatoes</a></td><td>0.99</td><td>0.99</td><td>1000g</td></tr><tr class="g4"><td>蔬菜</td><td>玉米粒</td><td>1</td><td>950g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-sweetcorn-950g' target=_blank rel=noopener>Stamford Street Co. Sweetcorn</a></td><td>1.42</td><td>1.42</td><td>950g</td></tr><tr class="g4"><td>蔬菜</td><td>甜椒</td><td>1</td><td>500g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-mixed-peppers-500g' target=_blank rel=noopener>Sainsbury&#x27;s Sliced Mixed Peppers</a></td><td>0.99</td><td>0.99</td><td>500g</td></tr><tr class="g4"><td>蔬菜</td><td>番茄</td><td>1</td><td>400g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/ktc-chopped-tomatoes-400g' target=_blank rel=noopener>KTC Chopped Tomatoes</a></td><td>0.35</td><td>0.35</td><td>400g</td></tr><tr class="g4"><td>蔬菜</td><td>茄子</td><td>1</td><td>500g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-chargrilled-mediterranean-vegetables-aubergine-courgette-red-yellow-peppers-500g' target=_blank rel=noopener>Sainsbury&#x27;s Chargrilled Mediterranean Vegetables (Aubergine, Courgette, Red &amp; Yellow Peppers)</a></td><td>2.79</td><td>2.79</td><td>500g</td></tr><tr class="g4"><td>蔬菜</td><td>蘑菇</td><td>1</td><td>500g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-mushrooms-inspired-to-cook-500g' target=_blank rel=noopener>Sainsbury&#x27;s Sliced Mushrooms, Inspired to Cook</a></td><td>1.20</td><td>1.20</td><td>500g</td></tr><tr class="g4"><td>蔬菜</td><td>西兰花</td><td>1</td><td>900g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-broccoli-cauliflower-florets-900g' target=_blank rel=noopener>Sainsbury&#x27;s Broccoli &amp; Cauliflower Florets</a></td><td>1.50</td><td>1.50</td><td>900g</td></tr><tr class="g5 catstart"><td>水果</td><td>柠檬</td><td>1</td><td>750ml</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/innocent-cucumber-lemon-apple-spinach-smoothie-750ml' target=_blank rel=noopener>Innocent Cucumber, Lemon, Apple &amp; Spinach Smoothie</a></td><td>2.00</td><td>2.00</td><td>750g</td></tr><tr class="g5"><td>水果</td><td>草莓</td><td>2</td><td>400g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-strawberries-400g' target=_blank rel=noopener>Sainsbury&#x27;s Strawberries</a></td><td>3.25</td><td>6.50</td><td>400g</td></tr><tr class="g0 catstart"><td>主食</td><td>藜麦</td><td>1</td><td>250g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-red-white-quinoa-250g' target=_blank rel=noopener>Sainsbury&#x27;s Red &amp; White Quinoa</a></td><td>1.45</td><td>1.45</td><td>250g</td></tr><tr class="g1 catstart"><td>调料</td><td>扁豆罐头</td><td>1</td><td>400g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-green-lentils-in-water-400g-265g' target=_blank rel=noopener>Sainsbury&#x27;s Green Lentils In Water (265g*)</a></td><td>0.50</td><td>0.50</td><td>400g</td></tr><tr class="g2 catstart"><td>待分类</td><td>菲达奶酪</td><td>1</td><td>800g</td><td class=en><a href='https://www.sainsburys.co.uk/gol-ui/product/sainsburys-800g-giant-couscous-chickpea-feta-sharing-salad-taste-the-difference' target=_blank rel=noopener>Sainsbury&#x27;s Giant Couscous, Chickpea &amp; Feta Sharing Salad, Taste the Difference</a></td><td>8.00</td><td>8.00</td><td>800g</td></tr><tr class=sumrow><td colspan=2 class=sumlabel>合计</td><td></td><td></td><td></td><td></td><td>£56.43</td><td></td></tr></tbody></table></div><div class=vsrec>同样的 21 项，比推荐方案贵 £15.53（另有 4 项这家买不到，未计入）</div><div class=storemiss>这家没有：羽衣甘蓝、大蒜、帕玛森干酪、芹菜</div>
+</div>
+<div class='storetab' data-store='ICELAND'>
+<div class=shopwrap><table class=shoptab><colgroup><col style='width:34px'><col style='width:54px'><col style='width:22px'><col style='width:56px'><col style='width:96px'><col style='width:42px'><col style='width:42px'><col style='width:48px'></colgroup><thead><tr><th>品类</th><th>中文名</th><th>件</th><th>量/份</th><th>链接</th><th>单价£</th><th>本批£</th><th>总量</th></tr></thead><tbody><tr class="g0 catstart"><td>肉类</td><td>牛肉末</td><td>1</td><td>600g</td><td class=en><a href='https://www.iceland.co.uk/p/iceland-beef-mince-20pct-fat-600g/53893.html' target=_blank rel=noopener>Iceland Beef Mince 20% Fat</a></td><td>4.50</td><td>4.50</td><td>600g</td></tr><tr class="g1 catstart"><td>水产</td><td>欧洲鲈鱼</td><td>1</td><td>500g</td><td class=en><a href='https://www.iceland.co.uk/p/iceland-4-large-sea-bass-fillets-500g/49715.html' target=_blank rel=noopener>Iceland 4 Large Sea Bass Fillets</a></td><td>10.00</td><td>10.00</td><td>500g</td></tr><tr class="g1"><td>水产</td><td>金枪鱼罐头</td><td>2</td><td>160g</td><td class=en><a href='https://www.iceland.co.uk/p/osprey-flakes-tuna-in-brine-160g/100655.html' target=_blank rel=noopener>Osprey Flakes Tuna in Brine</a></td><td>0.75</td><td>1.50</td><td>160g</td></tr><tr class="g1"><td>水产</td><td>鳕鱼</td><td>1</td><td>500g</td><td class=en><a href='https://www.iceland.co.uk/p/iceland-4-cod-fillets-500g/49731.html' target=_blank rel=noopener>Iceland 4 Cod Fillets</a></td><td>7.00</td><td>7.00</td><td>500g</td></tr><tr class="g2 catstart"><td>乳制品</td><td>希腊酸奶</td><td>1</td><td>nan</td><td class=en><a href='https://www.iceland.co.uk/p/muller-bliss-whipped-greek-yogurt-with-strawberries-and-cream-and-biscuits/104080.html' target=_blank rel=noopener>Muller Bliss Whipped Greek Yogurt with Strawberries &amp; Cream and Biscuits</a></td><td>3.00</td><td>3.00</td><td>—</td></tr><tr class="g2"><td>乳制品</td><td>帕玛森干酪</td><td>1</td><td>400g</td><td class=en><a href='https://www.iceland.co.uk/p/iceland-luxury-parmesan-chicken-pasta-bake-with-truffle-400g/51781.html' target=_blank rel=noopener>Iceland Luxury Parmesan Chicken Pasta Bake With Truffle</a></td><td>4.00</td><td>4.00</td><td>400g</td></tr><tr class="g2"><td>乳制品</td><td>菲达奶酪</td><td>1</td><td>200g</td><td class=en><a href='https://www.iceland.co.uk/p/olympus-feta-original-200g/88836.html' target=_blank rel=noopener>Olympus Feta Original</a></td><td>2.80</td><td>2.80</td><td>200g</td></tr><tr class="g3 catstart"><td>豆制品</td><td>扁豆</td><td>1</td><td>2KG</td><td class=en><a href='https://www.iceland.co.uk/p/heera-red-split-lentils-2kg/93893.html' target=_blank rel=noopener>Heera Red Split Lentils</a></td><td>3.50</td><td>3.50</td><td>2000g</td></tr><tr class="g4 catstart"><td>蔬菜</td><td>卷心菜</td><td>1</td><td>550g</td><td class=en><a href='https://www.iceland.co.uk/p/gilfresh-family-grown-savoy-cabbage-550g/101882.html' target=_blank rel=noopener>Gilfresh Family Grown Savoy Cabbage</a></td><td>1.50</td><td>1.50</td><td>550g</td></tr><tr class="g4"><td>蔬菜</td><td>四季豆</td><td>1</td><td>1kg</td><td class=en><a href='https://www.iceland.co.uk/p/iceland-very-fine-whole-green-beans-1kg/17.html' target=_blank rel=noopener>Iceland Very Fine Whole Green Beans</a></td><td>2.00</td><td>2.00</td><td>1000g</td></tr><tr class="g4"><td>蔬菜</td><td>小土豆</td><td>1</td><td>750g</td><td class=en><a href='https://www.iceland.co.uk/p/wilsons-country-baby-potatoes-750g/95482.html' target=_blank rel=noopener>Wilson&#x27;s Country Baby Potatoes</a></td><td>1.15</td><td>1.15</td><td>750g</td></tr><tr class="g4"><td>蔬菜</td><td>玉米粒</td><td>1</td><td>860g</td><td class=en><a href='https://www.iceland.co.uk/p/iceland-supersweet-sweetcorn-860g/95391.html' target=_blank rel=noopener>Iceland Supersweet Sweetcorn</a></td><td>2.00</td><td>2.00</td><td>860g</td></tr><tr class="g4"><td>蔬菜</td><td>甜椒</td><td>1</td><td>650g</td><td class=en><a href='https://www.iceland.co.uk/p/iceland-mixed-peppers-650g/17684.html' target=_blank rel=noopener>Iceland Mixed Peppers</a></td><td>2.00</td><td>2.00</td><td>650g</td></tr><tr class="g4"><td>蔬菜</td><td>番茄</td><td>1</td><td>400g</td><td class=en><a href='https://www.iceland.co.uk/p/ragu-peeled-plum-tomatoes-in-tomato-juice-400g/107259.html' target=_blank rel=noopener>Ragu Peeled Plum Tomatoes in Tomato Juice</a></td><td>0.65</td><td>0.65</td><td>400g</td></tr><tr class="g4"><td>蔬菜</td><td>芹菜</td><td>2</td><td>250g</td><td class=en><a href='https://www.iceland.co.uk/p/iceland-celery-sticks-250g/53719.html' target=_blank rel=noopener>Iceland Celery Sticks</a></td><td>1.00</td><td>2.00</td><td>250g</td></tr><tr class="g4"><td>蔬菜</td><td>蘑菇</td><td>1</td><td>500g</td><td class=en><a href='https://www.iceland.co.uk/p/iceland-sliced-mushrooms-500g/83685.html' target=_blank rel=noopener>Iceland Sliced Mushrooms</a></td><td>1.25</td><td>1.25</td><td>500g</td></tr><tr class="g4"><td>蔬菜</td><td>西兰花</td><td>1</td><td>1kg</td><td class=en><a href='https://www.iceland.co.uk/p/iceland-broccoli-florets-1kg/210.html' target=_blank rel=noopener>Iceland Broccoli Florets</a></td><td>2.00</td><td>2.00</td><td>1000g</td></tr><tr class="g5 catstart"><td>水果</td><td>柠檬</td><td>1</td><td>1L</td><td class=en><a href='https://www.iceland.co.uk/p/aquaroma-lemon-and-lime-flavour-sparkling-1l/78889.html' target=_blank rel=noopener>Aquaroma Lemon &amp; Lime Flavour Sparkling</a></td><td>0.75</td><td>0.75</td><td>1000g</td></tr><tr class="g5"><td>水果</td><td>草莓</td><td>2</td><td>350g</td><td class=en><a href='https://www.iceland.co.uk/p/iceland-strawberries-350g/77224.html' target=_blank rel=noopener>Iceland Strawberries</a></td><td>3.00</td><td>6.00</td><td>350g</td></tr><tr class="g0 catstart"><td>主食</td><td>藜麦</td><td>4</td><td>40g</td><td class=en><a href='https://www.iceland.co.uk/p/jacobs-on-the-go-fibre-boost-black-seed-and-quinoa-5-x-40g-/106524.html' target=_blank rel=noopener>Jacobs On The Go Fibre Boost Black Seed &amp; Quinoa 5 x</a></td><td>1.50</td><td>6.00</td><td>40g</td></tr><tr class="g1 catstart"><td>调料</td><td>鹰嘴豆罐头</td><td>3</td><td>240g</td><td class=en><a href='https://www.iceland.co.uk/p/napolina-chickpeas-in-water-240g/70349.html' target=_blank rel=noopener>Napolina Chickpeas in Water</a></td><td>1.00</td><td>3.00</td><td>240g</td></tr><tr class=sumrow><td colspan=2 class=sumlabel>合计</td><td></td><td></td><td></td><td></td><td>£66.60</td><td></td></tr></tbody></table></div><div class=vsrec>同样的 21 项，比推荐方案贵 £25.51（另有 4 项这家买不到，未计入）</div><div class=storemiss>这家没有：羽衣甘蓝、茄子、大蒜、白芸豆</div>
+</div>
+</div>
+<div class=cmplayer><h3>③ 比价板块</h3><div class=cmphint>每100g单价 · 红底=最便宜 · ⚠=规格差异大</div><div class=cmpwrap><table class=cmptab><colgroup><col style='width:76px'><col><col><col><col style='width:58px'></colgroup><thead><tr><th>商品</th><th>Aldi</th><th>Sainsbury&#x27;s</th><th>Iceland</th><th>省</th></tr></thead><tbody><tr><td class=cn title='番茄'>番茄</td><td><span class=p1>£0.62 /250 g</span><span class=p2>0.25</span></td><td class=cheap><span class=p1>£0.35 /400g</span><span class=p2>0.09</span></td><td><span class=p1>£0.65 /400g</span><span class=p2>0.16</span></td><td class=concl><span class=save>-65%</span><span class=abs>£0.16</span></td></tr><tr><td class=cn title='鹰嘴豆罐头'>鹰嘴豆罐头</td><td class=cheap><span class=p1>£0.41 /0.265 Kg</span><span class=p2>0.15</span></td><td class=na>—</td><td><span class=p1>£1.00 /240g</span><span class=p2>0.42</span></td><td class=concl><span class=save>-63%</span><span class=abs>£0.26</span></td></tr><tr><td class=cn title='鳕鱼'>鳕鱼</td><td class=cheap><span class=p1>£3.95 /360 g</span><span class=p2>1.10</span></td><td><span class=p1>£7.00 /360g</span><span class=p2>1.94</span></td><td><span class=p1>£7.00 /500g</span><span class=p2>1.40</span></td><td class=concl><span class=save>-44%</span><span class=abs>£0.84</span></td></tr><tr><td class=cn title='草莓'>草莓</td><td class=cheap><span class=p1>£2.99 /600 g</span><span class=p2>0.50</span></td><td><span class=p1>£3.25 /400g</span><span class=p2>0.81</span></td><td><span class=p1>£3.00 /350g</span><span class=p2>0.86</span></td><td class=concl><span class=save>-42%</span><span class=abs>£0.36</span></td></tr><tr><td class=cn title='藜麦'>藜麦</td><td class=cheap><span class=p1>£0.85 /250 g</span><span class=p2>0.34</span></td><td><span class=p1>£1.45 /250g</span><span class=p2>0.58</span></td><td><span class=p1>£1.50 /40g</span><span class=p2>3.75</span></td><td class=concl><span class=save>-42%</span><span class=abs>£0.24</span></td></tr><tr><td class=cn title='四季豆'>四季豆</td><td><span class=p1>£1.19 /1 kg</span><span class=p2>0.12</span></td><td class=cheap><span class=p1>£1.07 /900g</span><span class=p2>0.12</span></td><td><span class=p1>£2.00 /1kg</span><span class=p2>0.20</span></td><td class=concl><span class=save>-40%</span><span class=abs>£0.08</span></td></tr><tr><td class=cn title='西兰花'>西兰花</td><td class=cheap><span class=p1>£1.19 /1 kg</span><span class=p2>0.12</span></td><td><span class=p1>£1.50 /900g</span><span class=p2>0.17</span></td><td><span class=p1>£2.00 /1kg</span><span class=p2>0.20</span></td><td class=concl><span class=save>-40%</span><span class=abs>£0.08</span></td></tr><tr><td class=cn title='菲达奶酪'>菲达奶酪</td><td class=cheap><span class=p1>£1.69 /200 g</span><span class=p2>0.84</span></td><td><span class=p1>£8.00 /800g</span><span class=p2>1.00</span></td><td><span class=p1>£2.80 /200g</span><span class=p2>1.40</span></td><td class=concl><span class=save>-40%</span><span class=abs>£0.56</span></td></tr><tr><td class=cn title='玉米粒'>玉米粒</td><td class=cheap><span class=p1>£1.49 /1 kg</span><span class=p2>0.15</span></td><td><span class=p1>£1.42 /950g</span><span class=p2>0.15</span></td><td><span class=p1>£2.00 /860g</span><span class=p2>0.23</span></td><td class=concl><span class=save>-36%</span><span class=abs>£0.08</span></td></tr><tr><td class=cn title='甜椒'>甜椒</td><td><span class=p1>£1.59 /600 g</span><span class=p2>0.27</span></td><td class=cheap><span class=p1>£0.99 /500g</span><span class=p2>0.20</span></td><td><span class=p1>£2.00 /650g</span><span class=p2>0.31</span></td><td class=concl><span class=save>-35%</span><span class=abs>£0.11</span></td></tr><tr><td class=cn title='小土豆'>小土豆</td><td class=cheap><span class=p1>£0.99 /1 kg</span><span class=p2>0.10</span></td><td><span class=p1>£0.99 /1kg</span><span class=p2>0.10</span></td><td><span class=p1>£1.15 /750g</span><span class=p2>0.15</span></td><td class=concl><span class=save>-35%</span><span class=abs>£0.05</span></td></tr><tr><td class=cn title='卷心菜'>卷心菜</td><td class=cheap><span class=p1>£1.19 /440 g</span><span class=p2>0.27</span></td><td><span class=p1>£2.00 /500g</span><span class=p2>0.40</span></td><td><span class=p1>£1.50 /550g</span><span class=p2>0.27</span></td><td class=concl><span class=save>-32%</span><span class=abs>£0.13</span></td></tr><tr><td class=cn title='希腊酸奶'>希腊酸奶</td><td class=cheap><span class=p1>£3.69 /1 kg</span><span class=p2>0.37</span></td><td><span class=p1>£2.35 /500g</span><span class=p2>0.47</span></td><td><span class=p1>£3.00 /nan</span><span class=p2>—</span></td><td class=concl><span class=save>-21%</span><span class=abs>£0.10</span></td></tr><tr><td class=cn title='芹菜'>芹菜</td><td class=cheap><span class=p1>£1.19 /350 g</span><span class=p2>0.34</span></td><td class=na>—</td><td><span class=p1>£1.00 /250g</span><span class=p2>0.40</span></td><td class=concl><span class=save>-15%</span><span class=abs>£0.06</span></td></tr><tr><td class=cn title='牛肉末'>牛肉末</td><td class=cheap><span class=p1>£3.19 /500 g</span><span class=p2>0.64</span></td><td><span class=p1>£3.19 /500g</span><span class=p2>0.64</span></td><td><span class=p1>£4.50 /600g</span><span class=p2>0.75</span></td><td class=concl><span class=save>-15%</span><span class=abs>£0.11</span></td></tr><tr><td class=cn title='金枪鱼罐头'>金枪鱼罐头</td><td class=cheap><span class=p1>£0.59 /145 g</span><span class=p2>0.41</span></td><td><span class=p1>£0.65 /145g</span><span class=p2>0.45</span></td><td><span class=p1>£0.75 /160g</span><span class=p2>0.47</span></td><td class=concl><span class=save>-13%</span><span class=abs>£0.06</span></td></tr><tr><td class=cn title='蘑菇'>蘑菇</td><td class=cheap><span class=p1>£0.89 /400 g</span><span class=p2>0.22</span></td><td><span class=p1>£1.20 /500g</span><span class=p2>0.24</span></td><td><span class=p1>£1.25 /500g</span><span class=p2>0.25</span></td><td class=concl><span class=save>-11%</span><span class=abs>£0.03</span></td></tr><tr><td class=cn title='扁豆罐头'>扁豆罐头</td><td class=cheap><span class=p1>£0.45 /400 g</span><span class=p2>0.11</span></td><td><span class=p1>£0.50 /400g</span><span class=p2>0.12</span></td><td class=na>—</td><td class=concl><span class=save>-10%</span><span class=abs>£0.01</span></td></tr><tr><td class=cn title='欧洲鲈鱼'>欧洲鲈鱼</td><td class=cheap><span class=p1>£3.29 /180 g</span><span class=p2>1.83</span></td><td><span class=p1>£3.84 /210g</span><span class=p2>1.83</span></td><td><span class=p1>£10.00 /500g</span><span class=p2>2.00</span></td><td class=concl><span class=save>-8%</span><span class=abs>£0.16</span></td></tr><tr><td class=cn title='柠檬'>柠檬</td><td><span class=p1>£0.89 /4 Each</span><span class=p2>—</span></td><td><span class=p1>£2.00 /750ml</span><span class=p2>0.27</span></td><td class=cheap><span class=p1>£0.75 /1L</span><span class=p2>0.07</span></td><td class=concl><span class=save>-72%</span><span class=abs>£0.19</span><span class=suspect>⚠</span></td></tr></tbody></table></div></div>
+<div class=shopnote><b>🫘 豆类怎么用</b><br>鹰嘴豆罐头：开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。<br>扁豆罐头：开罐沥干即用；一次 ≈ 1 罐（240g 沥干）刚好，不剩。<br>鹰嘴豆（干豆）：干豆泡 8h、煮 40–50min；约 297g 干豆 ≈ 660g 煮后（餐单按煮后量计）。<br>白芸豆（干豆）：量很少（~29g 煮后）：买一罐取少量，剩的分装冷冻（2–3 个月），或少量干豆现煮。<br>扁豆（干豆）：干豆泡 8h、煮 40–50min；约 92g 干豆 ≈ 231g 煮后（餐单按煮后量计）。</div>
+</section>
+<div class=shopnote>营养口径：整份（一餐全部食材，非家庭整锅）；采购：这是她自己一周的量，不是家庭量。内容由该户维护者更新。</div></div>
+<script>
+(function(){
+  var VIEWS = ["catalog", "mylist", "recommend", "shopping", "stock"];
+  function viewNow(){
+    var m = location.hash.match(/(?:^#|&)open=([^&]+)/);
+    if(m && VIEWS.indexOf(m[1]) >= 0) return m[1];
+    if(/^#shopping(?:&|$)/.test(location.hash)) return "shopping";
+    return "recommend";
+  }
+  function setActive(view){
+    var els = document.querySelectorAll("[data-view]");
+    for(var i = 0; i < els.length; i++){
+      els[i].classList.toggle("on", els[i].getAttribute("data-view") === view);
+    }
+  }
+  function apply(){ setActive(viewNow()); }
+  window.addEventListener("hashchange", apply);
+  document.addEventListener("click", function(e){
+    var a = e.target && e.target.closest ? e.target.closest("[data-view]") : null;
+    if(!a) return;
+    var v = a.getAttribute("data-view");
+    if(v === "shopping" || v === "recommend"){
+      setTimeout(apply, 0);
+      setTimeout(apply, 60);
+    }
+  }, true);
+  apply();
+})();
+</script>
+
+<script>
+(function(){
+  function valid(s){
+    return !!(s && document.querySelector('.storetab[data-store="' + s + '"]'));
+  }
+  function pick(s, save){
+    var tabs = document.querySelectorAll(".storetab");
+    for(var i = 0; i < tabs.length; i++){
+      tabs[i].classList.toggle("on", tabs[i].getAttribute("data-store") === s);
+    }
+    var links = document.querySelectorAll(".storepick:not(.recpick) a");
+    for(var j = 0; j < links.length; j++){
+      links[j].classList.toggle("on", links[j].getAttribute("data-store") === s);
+    }
+    if(save){
+      try { localStorage.setItem("rb_store", s); } catch(e){}
+      try { history.replaceState(null, "", "#shopping&store=" + s); } catch(e){}
+    }
+  }
+  function init(){
+    var first = document.querySelector(".storepick:not(.recpick) a");
+    if(!first) return;
+    var m = location.hash.match(/[?&]store=([A-Za-z0-9_]+)/);
+    var s = m ? m[1] : null;
+    if(!valid(s)){
+      try { s = localStorage.getItem("rb_store"); } catch(e){ s = null; }
+    }
+    if(!valid(s)) s = first.getAttribute("data-store");
+    pick(s, false);
+  }
+  document.addEventListener("click", function(e){
+    var a = e.target && e.target.closest ? e.target.closest(".storepick:not(.recpick) a") : null;
+    if(!a) return;
+    e.preventDefault();
+    pick(a.getAttribute("data-store"), true);
+  });
+  if(document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+<script>
+(function(){
+  function activeBody(){ return document.querySelector('.recbody.on'); }
+  function applyDay(day){
+    var links = document.querySelectorAll('.daypick a');
+    for(var i=0;i<links.length;i++){ links[i].classList.toggle('on', (links[i].getAttribute('data-day')||'')===day); }
+    var body = activeBody(); if(!body) return;
+    var rows = body.querySelectorAll('tr[data-days]');
+    var sum=0, cnt=0;
+    for(var j=0;j<rows.length;j++){
+      var raw = rows[j].getAttribute('data-days')||'';
+      var ds = raw ? raw.split(',') : [];
+      var show = !day || ds.length===0 || ds.indexOf(day)>=0;
+      rows[j].style.display = show ? '' : 'none';
+      if(show){ cnt++; sum += parseFloat(rows[j].getAttribute('data-lt')||'0')||0; }
+    }
+    var lbl = body.querySelector('.daysum');
+    if(lbl) lbl.textContent = day ? ('该日 '+cnt+' 项 · 小计 £'+sum.toFixed(2)) : '';
+  }
+  function setRec(s){
+    var bodies = document.querySelectorAll('.recbody');
+    for(var i=0;i<bodies.length;i++){ bodies[i].classList.toggle('on', bodies[i].getAttribute('data-recstore')===s); }
+    var links = document.querySelectorAll('.recpick a');
+    for(var j=0;j<links.length;j++){ links[j].classList.toggle('on', links[j].getAttribute('data-recstore')===s); }
+  }
+  document.addEventListener('click', function(e){
+    var a = e.target && e.target.closest ? e.target.closest('.daypick a') : null;
+    if(!a) return; e.preventDefault(); applyDay(a.getAttribute('data-day')||'');
+  });
+  document.addEventListener('click', function(e){
+    var a = e.target && e.target.closest ? e.target.closest('.recpick a') : null;
+    if(!a) return; e.preventDefault();
+    var s = a.getAttribute('data-recstore'); setRec(s);
+    var act = document.querySelector('.daypick a.on');
+    applyDay(act ? (act.getAttribute('data-day')||'') : '');
+    try{ localStorage.setItem('rb_store_rec', s); } catch(err){}
+  });
+  function initRec(){
+    var first = document.querySelector('.recpick a'); if(!first) return;
+    var s = null; try{ s = localStorage.getItem('rb_store_rec'); } catch(e){}
+    if(!s || !document.querySelector('.recbody[data-recstore="'+s+'"]')) s = first.getAttribute('data-recstore');
+    setRec(s);
+  }
+  if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', initRec); } else { initRec(); }
+})();
+</script>
+</body></html>
