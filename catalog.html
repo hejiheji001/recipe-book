@@ -1844,8 +1844,13 @@ window.__ABOUT__ = {app_version:"1.2.0", author:"Suri Chen", changelog:[{"v":"1.
   function storSpec(n){ n = baseName(n);
     var s = STOR[n];
     if(s) return s;
-    var d = ((window.__POOL__ || {})[n] || {}).d || 30;
-    var o = { "室温": {"闭": d, "开": d}, "冷藏": {"闭": d, "开": d} };
+    var p = (window.__POOL__ || {})[n] || {};
+    var d = p.d || 90;
+    // 兜底必须给全三种方式。原先只给室温/冷藏，导致池外生鲜（鲈鱼柳、巴沙鱼柳）
+    // 既不能选冷冻，连已经写进数据的冷冻也会被当成非法值退回默认。
+    var o = { "室温": {"闭": 30, "开": 3}, "冷藏": {"闭": 5, "开": 3},
+              "冷冻": {"闭": d, "开": d} };
+    if(p.g === "罐头" || /罐头|罐装/.test(n)) o["冷藏"] = {"闭": 60, "开": 3};
     o._open = 1;
     return o;
   }
@@ -1870,6 +1875,9 @@ window.__ABOUT__ = {app_version:"1.2.0", author:"Suri Chen", changelog:[{"v":"1.
       if(/蕉/.test(n) && ms.indexOf("室温") >= 0) return "室温";
       if(ms.indexOf("冷藏") >= 0) return "冷藏";
     }
+    // 水产品（罐头除外）默认冷冻：鱼虾蟹贝这类买回来不进冷冻就是错的
+    if(/鱼|虾|蟹|贝|蛤|蜊|蚝|鱿|章鱼|扇贝/.test(n) && !/罐头|罐装/.test(n)
+       && ms.indexOf("冷冻") >= 0) return "冷冻";
     if(ms.indexOf("室温") >= 0) return "室温";
     if(ms.indexOf("冷藏") >= 0) return "冷藏";
     return ms[0] || "室温";
