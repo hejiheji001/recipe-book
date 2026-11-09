@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-09T16:09:31",
+ "generated": "2026-11-09T16:50:36",
  "quantity_basis": "单人 8 天份 · 11/08 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/08",
@@ -257,7 +257,7 @@
     "11/10",
     "11/12"
    ],
-   "note": "开罐沥干即用；每次 ~137g，剩约 128g，密封冷藏 3 天内或冷冻。",
+   "note": "开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
    "bean_form": "canned",
    "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
    "product": {
@@ -910,7 +910,7 @@
       "11/10",
       "11/12"
      ],
-     "note": "开罐沥干即用；每次 ~137g，剩约 128g，密封冷藏 3 天内或冷冻。",
+     "note": "开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
      "bean_form": "canned",
      "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
      "product": {
@@ -2018,7 +2018,7 @@
      "used_on": [
       "11/14"
      ],
-     "note": "量很少（~29g 煮后）：可买一罐取少量，或少量干豆现煮。",
+     "note": "量很少（~29g 煮后）：买一罐取少量，剩的分装冷冻（2–3 个月），或少量干豆现煮。",
      "bean_form": "dry",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/tilda-250g-cannellini-beans",
      "product": {
@@ -2164,7 +2164,7 @@
       "11/10",
       "11/12"
      ],
-     "note": "开罐沥干即用；每次 ~137g，剩约 128g，密封冷藏 3 天内或冷冻。",
+     "note": "开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
      "bean_form": "canned",
      "link": "https://www.iceland.co.uk/p/napolina-chickpeas-in-water-240g/70349.html",
      "product": {
@@ -2844,7 +2844,7 @@
        "11/10",
        "11/12"
       ],
-      "note": "开罐沥干即用；每次 ~137g，剩约 128g，密封冷藏 3 天内或冷冻。",
+      "note": "开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
       "bean_form": "canned",
       "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258",
       "product": {
@@ -3466,7 +3466,7 @@
       "used_on": [
        "11/14"
       ],
-      "note": "量很少（~29g 煮后）：可买一罐取少量，或少量干豆现煮。",
+      "note": "量很少（~29g 煮后）：买一罐取少量，剩的分装冷冻（2–3 个月），或少量干豆现煮。",
       "bean_form": "dry",
       "link": "https://www.sainsburys.co.uk/gol-ui/product/tilda-250g-cannellini-beans",
       "product": {
