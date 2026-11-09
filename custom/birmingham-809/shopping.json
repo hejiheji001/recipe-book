@@ -1,55 +1,74 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-09T19:50:04",
- "quantity_basis": "单人 7 天份 · 11/09 一次买齐",
+ "generated": "2026-11-09T20:14:37",
+ "quantity_basis": "单人 7 天份 · 11/15 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
- "buy_date": "11/09",
+ "buy_date": "11/15",
  "shop_plan": {
-  "buy_date": "11/09",
+  "buy_date": "11/15",
   "span_days": 7,
   "leafy": [
-   {
-    "name": "比布生菜",
-    "shelf": "叶菜·保鲜2-3天",
-    "days": [
-     "11/10"
-    ],
-    "last_idx": 1
-   },
    {
     "name": "芝麻菜",
     "shelf": "叶菜·保鲜2-3天",
     "days": [
-     "11/14"
+     "11/16"
     ],
-    "last_idx": 5
+    "last_idx": 1
    }
   ],
   "mid": [
    {
-    "name": "芹菜",
-    "shelf": "中·保鲜5-7天",
-    "days": [],
-    "last_idx": -1
-   },
-   {
-    "name": "蘑菇",
+    "name": "西葫芦",
     "shelf": "中·保鲜5-7天",
     "days": [
-     "11/09",
-     "11/11",
-     "11/13",
-     "11/14"
+     "11/16",
+     "11/18"
     ],
-    "last_idx": 5
+    "last_idx": 3
    },
    {
     "name": "甜椒",
     "shelf": "中·保鲜5-7天",
     "days": [
      "11/11",
-     "11/15"
+     "11/15",
+     "11/19"
+    ],
+    "last_idx": 4
+   },
+   {
+    "name": "四季豆",
+    "shelf": "中·保鲜5-7天",
+    "days": [
+     "11/09",
+     "11/10",
+     "11/13",
+     "11/14",
+     "11/16",
+     "11/20"
+    ],
+    "last_idx": 5
+   },
+   {
+    "name": "黄瓜",
+    "shelf": "中·保鲜5-7天",
+    "days": [
+     "11/08",
+     "11/15",
+     "11/17",
+     "11/20"
+    ],
+    "last_idx": 5
+   },
+   {
+    "name": "蘑菇",
+    "shelf": "中·保鲜5-7天",
+    "days": [
+     "11/16",
+     "11/18",
+     "11/21"
     ],
     "last_idx": 6
    },
@@ -57,49 +76,57 @@
     "name": "西兰花",
     "shelf": "中·保鲜5-7天",
     "days": [
+     "11/09",
      "11/10",
-     "11/13",
-     "11/15"
-    ],
-    "last_idx": 6
-   },
-   {
-    "name": "黄瓜",
-    "shelf": "中·保鲜5-7天",
-    "days": [
-     "11/08",
-     "11/10",
+     "11/11",
      "11/12",
-     "11/15"
+     "11/13",
+     "11/14",
+     "11/17",
+     "11/19",
+     "11/21"
     ],
     "last_idx": 6
    }
   ],
   "hardy": [
    {
-    "name": "羽衣甘蓝",
+    "name": "洋葱",
     "shelf": "根茎·耐放7天+",
     "days": [
-     "11/08",
+     "11/09",
      "11/10",
+     "11/11",
      "11/12",
-     "11/14"
+     "11/13",
+     "11/14",
+     "11/17",
+     "11/19"
     ],
-    "last_idx": 5
+    "last_idx": 4
    },
    {
     "name": "卷心菜",
     "shelf": "根茎·耐放7天+",
     "days": [
-     "11/09",
-     "11/15"
+     "11/20"
+    ],
+    "last_idx": 5
+   },
+   {
+    "name": "羽衣甘蓝",
+    "shelf": "根茎·耐放7天+",
+    "days": [
+     "11/08",
+     "11/15",
+     "11/18",
+     "11/20",
+     "11/21"
     ],
     "last_idx": 6
    }
   ],
-  "leafy_conflicts": [
-   "芝麻菜"
-  ]
+  "leafy_conflicts": []
  },
  "columns": [
   {
@@ -176,13 +203,11 @@
    "buy_unit": "g",
    "used_on": [
     "11/08",
-    "11/09",
-    "11/11",
     "11/12",
-    "11/13",
-    "11/15"
+    "11/16",
+    "11/18"
    ],
-   "note": "140g 库存已有",
+   "note": "易坏，分批",
    "bean_form": null,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
    "product": {
@@ -197,20 +222,21 @@
    "category": "蔬菜",
    "name": "羽衣甘蓝",
    "name_display": "羽衣甘蓝",
-   "packs": 4,
+   "packs": 5,
    "pack_size": "200 g",
    "name_en": "Scottish Shredded Kale",
    "name_short": "Shredded Kale",
    "brand": "NATURE'S PICK",
    "unit_price_gbp": 0.89,
-   "line_total_gbp": 3.56,
+   "line_total_gbp": 4.45,
    "buy_qty": 200.0,
    "buy_unit": "g",
    "used_on": [
     "11/08",
-    "11/10",
-    "11/12",
-    "11/14"
+    "11/15",
+    "11/18",
+    "11/20",
+    "11/21"
    ],
    "note": "易坏，分批",
    "bean_form": null,
@@ -238,11 +264,10 @@
    "buy_unit": "g",
    "used_on": [
     "11/08",
-    "11/09",
-    "11/10",
-    "11/12",
-    "11/13",
-    "11/15"
+    "11/14",
+    "11/17",
+    "11/18",
+    "11/19"
    ],
    "note": "开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
    "bean_form": "canned",
@@ -253,36 +278,6 @@
     "size": "0.265 Kg drained",
     "price_gbp": 0.41,
     "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
-   }
-  },
-  {
-   "category": "水产",
-   "name": "金枪鱼",
-   "name_display": "金枪鱼罐头",
-   "packs": 3,
-   "pack_size": "145 g",
-   "name_en": "Tuna Chunks In Brine",
-   "name_short": "Tuna Chunks In Brine",
-   "brand": "EVERYDAY ESSENTIALS",
-   "unit_price_gbp": 0.59,
-   "line_total_gbp": 1.77,
-   "buy_qty": 145.0,
-   "buy_unit": "g",
-   "used_on": [
-    "11/08",
-    "11/10",
-    "11/12",
-    "11/15"
-   ],
-   "note": "耐存，一次买够",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/everyday-essentials-tuna-chunks-in-brine-000000000000227713",
-   "product": {
-    "name": "Tuna Chunks In Brine",
-    "brand": "EVERYDAY ESSENTIALS",
-    "size": "145 g",
-    "price_gbp": 0.59,
-    "link": "https://www.aldi.co.uk/product/everyday-essentials-tuna-chunks-in-brine-000000000000227713"
    }
   },
   {
@@ -299,10 +294,9 @@
    "buy_qty": 400.0,
    "buy_unit": "g",
    "used_on": [
-    "11/09",
-    "11/11",
-    "11/13",
-    "11/14"
+    "11/16",
+    "11/18",
+    "11/21"
    ],
    "note": "易坏，分批",
    "bean_form": null,
@@ -316,25 +310,59 @@
    }
   },
   {
+   "category": "肉类",
+   "name": "牛肉末",
+   "name_display": "牛肉末",
+   "packs": 1,
+   "pack_size": "500 g",
+   "name_en": "Beef Mince 25% Fat",
+   "name_short": "Beef Mince 25% Fat",
+   "brand": "EVERYDAY ESSENTIALS",
+   "unit_price_gbp": 3.19,
+   "line_total_gbp": 3.19,
+   "buy_qty": 500.0,
+   "buy_unit": "g",
+   "used_on": [
+    "11/10",
+    "11/12",
+    "11/15",
+    "11/18",
+    "11/20"
+   ],
+   "note": "",
+   "bean_form": null,
+   "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030",
+   "product": {
+    "name": "Beef Mince 25% Fat",
+    "brand": "EVERYDAY ESSENTIALS",
+    "size": "500 g",
+    "price_gbp": 3.19,
+    "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030"
+   }
+  },
+  {
    "category": "主食",
    "name": "藜麦",
    "name_display": "藜麦",
-   "packs": 2,
+   "packs": 3,
    "pack_size": "250 g",
    "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
    "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
    "brand": "WORLDWIDE FOODS",
    "unit_price_gbp": 0.85,
-   "line_total_gbp": 1.7,
+   "line_total_gbp": 2.55,
    "buy_qty": 250.0,
    "buy_unit": "g",
    "used_on": [
     "11/08",
+    "11/09",
     "11/10",
     "11/11",
     "11/13",
     "11/14",
-    "11/15"
+    "11/15",
+    "11/18",
+    "11/19"
    ],
    "note": "耐存",
    "bean_form": null,
@@ -373,6 +401,38 @@
    }
   },
   {
+   "category": "水产",
+   "name": "鳕鱼",
+   "name_display": "鳕鱼",
+   "packs": 2,
+   "pack_size": "360 g",
+   "name_en": "Cod Fillets",
+   "name_short": "Cod Fillets",
+   "brand": "THE FISHMONGER",
+   "unit_price_gbp": 3.95,
+   "line_total_gbp": 7.9,
+   "buy_qty": 360.0,
+   "buy_unit": "g",
+   "used_on": [
+    "11/09",
+    "11/10",
+    "11/13",
+    "11/14",
+    "11/16",
+    "11/18"
+   ],
+   "note": "",
+   "bean_form": null,
+   "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
+   "product": {
+    "name": "Cod Fillets",
+    "brand": "THE FISHMONGER",
+    "size": "360 g",
+    "price_gbp": 3.95,
+    "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
+   }
+  },
+  {
    "category": "蔬菜",
    "name": "卷心菜",
    "name_display": "卷心菜",
@@ -386,8 +446,7 @@
    "buy_qty": 440.0,
    "buy_unit": "g",
    "used_on": [
-    "11/09",
-    "11/15"
+    "11/20"
    ],
    "note": "",
    "bean_form": null,
@@ -401,57 +460,69 @@
    }
   },
   {
-   "category": "水产",
-   "name": "欧洲鲈鱼",
-   "name_display": "欧洲鲈鱼",
-   "packs": 2,
-   "pack_size": "180 g",
-   "name_en": "Boneless Mediterranean Sea Bass Fillets 2 Pack",
-   "name_short": "Boneless Mediterranean Sea Bass Fillets",
-   "brand": "THE FISHMONGER",
-   "unit_price_gbp": 3.29,
-   "line_total_gbp": 6.58,
-   "buy_qty": 180.0,
+   "category": "蔬菜",
+   "name": "四季豆",
+   "name_display": "四季豆",
+   "packs": 1,
+   "pack_size": "1 kg",
+   "name_en": "Whole Green Beans",
+   "name_short": "Whole Green Beans",
+   "brand": "FOUR SEASONS",
+   "unit_price_gbp": 1.19,
+   "line_total_gbp": 1.19,
+   "buy_qty": 1000.0,
    "buy_unit": "g",
    "used_on": [
-    "11/13"
+    "11/09",
+    "11/10",
+    "11/13",
+    "11/14",
+    "11/16",
+    "11/20"
    ],
    "note": "",
    "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/the-fishmonger-boneless-mediterranean-sea-bass-fillets-2-pack-000000000000388008",
+   "link": "https://www.aldi.co.uk/product/four-seasons-whole-green-beans-000000000275878001",
    "product": {
-    "name": "Boneless Mediterranean Sea Bass Fillets 2 Pack",
-    "brand": "THE FISHMONGER",
-    "size": "180 g",
-    "price_gbp": 3.29,
-    "link": "https://www.aldi.co.uk/product/the-fishmonger-boneless-mediterranean-sea-bass-fillets-2-pack-000000000000388008"
+    "name": "Whole Green Beans",
+    "brand": "FOUR SEASONS",
+    "size": "1 kg",
+    "price_gbp": 1.19,
+    "link": "https://www.aldi.co.uk/product/four-seasons-whole-green-beans-000000000275878001"
    }
   },
   {
    "category": "蔬菜",
-   "name": "比布生菜",
-   "name_display": "比布生菜",
-   "packs": 2,
-   "pack_size": "80 g",
-   "name_en": "Butterhead Salad",
-   "name_short": "Butterhead Salad",
+   "name": "洋葱",
+   "name_display": "洋葱",
+   "packs": 1,
+   "pack_size": "1 kg",
+   "name_en": "Brown Onions",
+   "name_short": "Brown Onions",
    "brand": "NATURE'S PICK",
-   "unit_price_gbp": 0.85,
-   "line_total_gbp": 1.7,
-   "buy_qty": 80.0,
+   "unit_price_gbp": 0.47,
+   "line_total_gbp": 0.47,
+   "buy_qty": 1000.0,
    "buy_unit": "g",
    "used_on": [
-    "11/10"
+    "11/09",
+    "11/10",
+    "11/11",
+    "11/12",
+    "11/13",
+    "11/14",
+    "11/17",
+    "11/19"
    ],
    "note": "",
    "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002",
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-brown-onions-000000000000339777",
    "product": {
-    "name": "Butterhead Salad",
+    "name": "Brown Onions",
     "brand": "NATURE'S PICK",
-    "size": "80 g",
-    "price_gbp": 0.85,
-    "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002"
+    "size": "1 kg",
+    "price_gbp": 0.47,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-brown-onions-000000000000339777"
    }
   },
   {
@@ -469,7 +540,8 @@
    "buy_unit": "g",
    "used_on": [
     "11/11",
-    "11/15"
+    "11/15",
+    "11/19"
    ],
    "note": "",
    "bean_form": null,
@@ -496,7 +568,7 @@
    "buy_qty": 80.0,
    "buy_unit": "g",
    "used_on": [
-    "11/14"
+    "11/16"
    ],
    "note": "",
    "bean_form": null,
@@ -507,31 +579,6 @@
     "size": "80 g",
     "price_gbp": 0.75,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022"
-   }
-  },
-  {
-   "category": "蔬菜",
-   "name": "芹菜",
-   "name_display": "芹菜",
-   "packs": 2,
-   "pack_size": "350 g",
-   "name_en": "Celery Sticks",
-   "name_short": "Celery Sticks",
-   "brand": "NATURE'S PICK",
-   "unit_price_gbp": 1.19,
-   "line_total_gbp": 2.38,
-   "buy_qty": 350.0,
-   "buy_unit": "g",
-   "used_on": [],
-   "note": "",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796",
-   "product": {
-    "name": "Celery Sticks",
-    "brand": "NATURE'S PICK",
-    "size": "350 g",
-    "price_gbp": 1.19,
-    "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796"
    }
   },
   {
@@ -565,19 +612,25 @@
    "category": "蔬菜",
    "name": "西兰花",
    "name_display": "西兰花",
-   "packs": 1,
+   "packs": 2,
    "pack_size": "1 kg",
    "name_en": "Broccoli Florets",
    "name_short": "Broccoli Florets",
    "brand": "FOUR SEASONS",
    "unit_price_gbp": 1.19,
-   "line_total_gbp": 1.19,
+   "line_total_gbp": 2.38,
    "buy_qty": 1000.0,
    "buy_unit": "g",
    "used_on": [
+    "11/09",
     "11/10",
+    "11/11",
+    "11/12",
     "11/13",
-    "11/15"
+    "11/14",
+    "11/17",
+    "11/19",
+    "11/21"
    ],
    "note": "",
    "bean_form": null,
@@ -592,24 +645,86 @@
   },
   {
    "category": "蔬菜",
+   "name": "西葫芦",
+   "name_display": "西葫芦",
+   "packs": 1,
+   "pack_size": "500 g",
+   "name_en": "Courgettes",
+   "name_short": "Courgettes",
+   "brand": "NATURE'S PICK",
+   "unit_price_gbp": 1.39,
+   "line_total_gbp": 1.39,
+   "buy_qty": 500.0,
+   "buy_unit": "g",
+   "used_on": [
+    "11/16",
+    "11/18"
+   ],
+   "note": "",
+   "bean_form": null,
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+   "product": {
+    "name": "Courgettes",
+    "brand": "NATURE'S PICK",
+    "size": "500 g",
+    "price_gbp": 1.39,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
+   }
+  },
+  {
+   "category": "肉类",
+   "name": "鸡胸肉",
+   "name_display": "鸡胸肉",
+   "packs": 1,
+   "pack_size": "1 kg",
+   "name_en": "Chicken Breast Fillets",
+   "name_short": "Chicken Breast Fillets",
+   "brand": "EVERYDAY ESSENTIALS",
+   "unit_price_gbp": 4.25,
+   "line_total_gbp": 4.25,
+   "buy_qty": 1000.0,
+   "buy_unit": "g",
+   "used_on": [
+    "11/09",
+    "11/10",
+    "11/11",
+    "11/13",
+    "11/14",
+    "11/17",
+    "11/19",
+    "11/21"
+   ],
+   "note": "",
+   "bean_form": null,
+   "link": "https://www.aldi.co.uk/product/everyday-essentials-chicken-breast-fillets-000000000000365448",
+   "product": {
+    "name": "Chicken Breast Fillets",
+    "brand": "EVERYDAY ESSENTIALS",
+    "size": "1 kg",
+    "price_gbp": 4.25,
+    "link": "https://www.aldi.co.uk/product/everyday-essentials-chicken-breast-fillets-000000000000365448"
+   }
+  },
+  {
+   "category": "蔬菜",
    "name": "黄瓜",
    "name_display": "黄瓜",
-   "packs": 1,
+   "packs": 3,
    "pack_size": "200 g",
    "name_en": "Baby Snack Cucumber",
    "name_short": "Baby Snack Cucumber",
    "brand": "NATURE'S PICK",
    "unit_price_gbp": 0.95,
-   "line_total_gbp": 0.95,
+   "line_total_gbp": 2.85,
    "buy_qty": 200.0,
    "buy_unit": "g",
    "used_on": [
     "11/08",
-    "11/10",
-    "11/12",
-    "11/15"
+    "11/15",
+    "11/17",
+    "11/20"
    ],
-   "note": "345g 库存已有",
+   "note": "",
    "bean_form": null,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691",
    "product": {
@@ -619,44 +734,6 @@
     "price_gbp": 0.95,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691"
    }
-  },
-  {
-   "category": "调料",
-   "name": "卡拉马塔橄榄",
-   "name_display": "卡拉马塔橄榄",
-   "packs": 1,
-   "pack_size": "",
-   "buy_qty": null,
-   "buy_unit": "",
-   "buy_text": "按需",
-   "name_en": "",
-   "name_short": "",
-   "brand": "",
-   "unit_price_gbp": null,
-   "line_total_gbp": null,
-   "used_on": [],
-   "note": "三家店都没查到商品，自己挑或家里自备",
-   "link": null,
-   "product": null
-  },
-  {
-   "category": "调料",
-   "name": "第戎芥末",
-   "name_display": "第戎芥末",
-   "packs": 1,
-   "pack_size": "",
-   "buy_qty": null,
-   "buy_unit": "",
-   "buy_text": "按需",
-   "name_en": "",
-   "name_short": "",
-   "brand": "",
-   "unit_price_gbp": null,
-   "line_total_gbp": null,
-   "used_on": [],
-   "note": "三家店都没查到商品，自己挑或家里自备",
-   "link": null,
-   "product": null
   },
   {
    "category": "调料",
@@ -679,7 +756,7 @@
   }
  ],
  "batches": [],
- "total_gbp": 30.64,
+ "total_gbp": 41.43,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -700,13 +777,11 @@
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/09",
-      "11/11",
       "11/12",
-      "11/13",
-      "11/15"
+      "11/16",
+      "11/18"
      ],
-     "note": "140g 库存已有",
+     "note": "易坏，分批",
      "bean_form": null,
      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
      "product": {
@@ -721,20 +796,21 @@
      "category": "蔬菜",
      "name": "羽衣甘蓝",
      "name_display": "羽衣甘蓝",
-     "packs": 4,
+     "packs": 5,
      "pack_size": "200 g",
      "name_en": "Scottish Shredded Kale",
      "name_short": "Shredded Kale",
      "brand": "NATURE'S PICK",
      "unit_price_gbp": 0.89,
-     "line_total_gbp": 3.56,
+     "line_total_gbp": 4.45,
      "buy_qty": 200.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/10",
-      "11/12",
-      "11/14"
+      "11/15",
+      "11/18",
+      "11/20",
+      "11/21"
      ],
      "note": "易坏，分批",
      "bean_form": null,
@@ -762,11 +838,10 @@
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/09",
-      "11/10",
-      "11/12",
-      "11/13",
-      "11/15"
+      "11/14",
+      "11/17",
+      "11/18",
+      "11/19"
      ],
      "note": "开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
      "bean_form": "canned",
@@ -777,36 +852,6 @@
       "size": "0.265 Kg drained",
       "price_gbp": 0.41,
       "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "金枪鱼",
-     "name_display": "金枪鱼罐头",
-     "packs": 3,
-     "pack_size": "145 g",
-     "name_en": "Tuna Chunks In Brine",
-     "name_short": "Tuna Chunks In Brine",
-     "brand": "EVERYDAY ESSENTIALS",
-     "unit_price_gbp": 0.59,
-     "line_total_gbp": 1.77,
-     "buy_qty": 145.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/08",
-      "11/10",
-      "11/12",
-      "11/15"
-     ],
-     "note": "耐存，一次买够",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/everyday-essentials-tuna-chunks-in-brine-000000000000227713",
-     "product": {
-      "name": "Tuna Chunks In Brine",
-      "brand": "EVERYDAY ESSENTIALS",
-      "size": "145 g",
-      "price_gbp": 0.59,
-      "link": "https://www.aldi.co.uk/product/everyday-essentials-tuna-chunks-in-brine-000000000000227713"
      }
     },
     {
@@ -823,10 +868,9 @@
      "buy_qty": 400.0,
      "buy_unit": "g",
      "used_on": [
-      "11/09",
-      "11/11",
-      "11/13",
-      "11/14"
+      "11/16",
+      "11/18",
+      "11/21"
      ],
      "note": "易坏，分批",
      "bean_form": null,
@@ -840,25 +884,59 @@
      }
     },
     {
+     "category": "肉类",
+     "name": "牛肉末",
+     "name_display": "牛肉末",
+     "packs": 1,
+     "pack_size": "500 g",
+     "name_en": "Beef Mince 25% Fat",
+     "name_short": "Beef Mince 25% Fat",
+     "brand": "EVERYDAY ESSENTIALS",
+     "unit_price_gbp": 3.19,
+     "line_total_gbp": 3.19,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/10",
+      "11/12",
+      "11/15",
+      "11/18",
+      "11/20"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030",
+     "product": {
+      "name": "Beef Mince 25% Fat",
+      "brand": "EVERYDAY ESSENTIALS",
+      "size": "500 g",
+      "price_gbp": 3.19,
+      "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030"
+     }
+    },
+    {
      "category": "主食",
      "name": "藜麦",
      "name_display": "藜麦",
-     "packs": 2,
+     "packs": 3,
      "pack_size": "250 g",
      "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
      "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
      "brand": "WORLDWIDE FOODS",
      "unit_price_gbp": 0.85,
-     "line_total_gbp": 1.7,
+     "line_total_gbp": 2.55,
      "buy_qty": 250.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
+      "11/09",
       "11/10",
       "11/11",
       "11/13",
       "11/14",
-      "11/15"
+      "11/15",
+      "11/18",
+      "11/19"
      ],
      "note": "耐存",
      "bean_form": null,
@@ -897,6 +975,38 @@
      }
     },
     {
+     "category": "水产",
+     "name": "鳕鱼",
+     "name_display": "鳕鱼",
+     "packs": 2,
+     "pack_size": "360 g",
+     "name_en": "Cod Fillets",
+     "name_short": "Cod Fillets",
+     "brand": "THE FISHMONGER",
+     "unit_price_gbp": 3.95,
+     "line_total_gbp": 7.9,
+     "buy_qty": 360.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/09",
+      "11/10",
+      "11/13",
+      "11/14",
+      "11/16",
+      "11/18"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
+     "product": {
+      "name": "Cod Fillets",
+      "brand": "THE FISHMONGER",
+      "size": "360 g",
+      "price_gbp": 3.95,
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "卷心菜",
      "name_display": "卷心菜",
@@ -910,8 +1020,7 @@
      "buy_qty": 440.0,
      "buy_unit": "g",
      "used_on": [
-      "11/09",
-      "11/15"
+      "11/20"
      ],
      "note": "",
      "bean_form": null,
@@ -925,57 +1034,69 @@
      }
     },
     {
-     "category": "水产",
-     "name": "欧洲鲈鱼",
-     "name_display": "欧洲鲈鱼",
-     "packs": 2,
-     "pack_size": "180 g",
-     "name_en": "Boneless Mediterranean Sea Bass Fillets 2 Pack",
-     "name_short": "Boneless Mediterranean Sea Bass Fillets",
-     "brand": "THE FISHMONGER",
-     "unit_price_gbp": 3.29,
-     "line_total_gbp": 6.58,
-     "buy_qty": 180.0,
+     "category": "蔬菜",
+     "name": "四季豆",
+     "name_display": "四季豆",
+     "packs": 1,
+     "pack_size": "1 kg",
+     "name_en": "Whole Green Beans",
+     "name_short": "Whole Green Beans",
+     "brand": "FOUR SEASONS",
+     "unit_price_gbp": 1.19,
+     "line_total_gbp": 1.19,
+     "buy_qty": 1000.0,
      "buy_unit": "g",
      "used_on": [
-      "11/13"
+      "11/09",
+      "11/10",
+      "11/13",
+      "11/14",
+      "11/16",
+      "11/20"
      ],
      "note": "",
      "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/the-fishmonger-boneless-mediterranean-sea-bass-fillets-2-pack-000000000000388008",
+     "link": "https://www.aldi.co.uk/product/four-seasons-whole-green-beans-000000000275878001",
      "product": {
-      "name": "Boneless Mediterranean Sea Bass Fillets 2 Pack",
-      "brand": "THE FISHMONGER",
-      "size": "180 g",
-      "price_gbp": 3.29,
-      "link": "https://www.aldi.co.uk/product/the-fishmonger-boneless-mediterranean-sea-bass-fillets-2-pack-000000000000388008"
+      "name": "Whole Green Beans",
+      "brand": "FOUR SEASONS",
+      "size": "1 kg",
+      "price_gbp": 1.19,
+      "link": "https://www.aldi.co.uk/product/four-seasons-whole-green-beans-000000000275878001"
      }
     },
     {
      "category": "蔬菜",
-     "name": "比布生菜",
-     "name_display": "比布生菜",
-     "packs": 2,
-     "pack_size": "80 g",
-     "name_en": "Butterhead Salad",
-     "name_short": "Butterhead Salad",
+     "name": "洋葱",
+     "name_display": "洋葱",
+     "packs": 1,
+     "pack_size": "1 kg",
+     "name_en": "Brown Onions",
+     "name_short": "Brown Onions",
      "brand": "NATURE'S PICK",
-     "unit_price_gbp": 0.85,
-     "line_total_gbp": 1.7,
-     "buy_qty": 80.0,
+     "unit_price_gbp": 0.47,
+     "line_total_gbp": 0.47,
+     "buy_qty": 1000.0,
      "buy_unit": "g",
      "used_on": [
-      "11/10"
+      "11/09",
+      "11/10",
+      "11/11",
+      "11/12",
+      "11/13",
+      "11/14",
+      "11/17",
+      "11/19"
      ],
      "note": "",
      "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002",
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-brown-onions-000000000000339777",
      "product": {
-      "name": "Butterhead Salad",
+      "name": "Brown Onions",
       "brand": "NATURE'S PICK",
-      "size": "80 g",
-      "price_gbp": 0.85,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002"
+      "size": "1 kg",
+      "price_gbp": 0.47,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-brown-onions-000000000000339777"
      }
     },
     {
@@ -993,7 +1114,8 @@
      "buy_unit": "g",
      "used_on": [
       "11/11",
-      "11/15"
+      "11/15",
+      "11/19"
      ],
      "note": "",
      "bean_form": null,
@@ -1020,7 +1142,7 @@
      "buy_qty": 80.0,
      "buy_unit": "g",
      "used_on": [
-      "11/14"
+      "11/16"
      ],
      "note": "",
      "bean_form": null,
@@ -1031,31 +1153,6 @@
       "size": "80 g",
       "price_gbp": 0.75,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "芹菜",
-     "name_display": "芹菜",
-     "packs": 2,
-     "pack_size": "350 g",
-     "name_en": "Celery Sticks",
-     "name_short": "Celery Sticks",
-     "brand": "NATURE'S PICK",
-     "unit_price_gbp": 1.19,
-     "line_total_gbp": 2.38,
-     "buy_qty": 350.0,
-     "buy_unit": "g",
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796",
-     "product": {
-      "name": "Celery Sticks",
-      "brand": "NATURE'S PICK",
-      "size": "350 g",
-      "price_gbp": 1.19,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796"
      }
     },
     {
@@ -1089,19 +1186,25 @@
      "category": "蔬菜",
      "name": "西兰花",
      "name_display": "西兰花",
-     "packs": 1,
+     "packs": 2,
      "pack_size": "1 kg",
      "name_en": "Broccoli Florets",
      "name_short": "Broccoli Florets",
      "brand": "FOUR SEASONS",
      "unit_price_gbp": 1.19,
-     "line_total_gbp": 1.19,
+     "line_total_gbp": 2.38,
      "buy_qty": 1000.0,
      "buy_unit": "g",
      "used_on": [
+      "11/09",
       "11/10",
+      "11/11",
+      "11/12",
       "11/13",
-      "11/15"
+      "11/14",
+      "11/17",
+      "11/19",
+      "11/21"
      ],
      "note": "",
      "bean_form": null,
@@ -1116,24 +1219,86 @@
     },
     {
      "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "500 g",
+     "name_en": "Courgettes",
+     "name_short": "Courgettes",
+     "brand": "NATURE'S PICK",
+     "unit_price_gbp": 1.39,
+     "line_total_gbp": 1.39,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/16",
+      "11/18"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+     "product": {
+      "name": "Courgettes",
+      "brand": "NATURE'S PICK",
+      "size": "500 g",
+      "price_gbp": 1.39,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "鸡胸肉",
+     "name_display": "鸡胸肉",
+     "packs": 1,
+     "pack_size": "1 kg",
+     "name_en": "Chicken Breast Fillets",
+     "name_short": "Chicken Breast Fillets",
+     "brand": "EVERYDAY ESSENTIALS",
+     "unit_price_gbp": 4.25,
+     "line_total_gbp": 4.25,
+     "buy_qty": 1000.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/09",
+      "11/10",
+      "11/11",
+      "11/13",
+      "11/14",
+      "11/17",
+      "11/19",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-chicken-breast-fillets-000000000000365448",
+     "product": {
+      "name": "Chicken Breast Fillets",
+      "brand": "EVERYDAY ESSENTIALS",
+      "size": "1 kg",
+      "price_gbp": 4.25,
+      "link": "https://www.aldi.co.uk/product/everyday-essentials-chicken-breast-fillets-000000000000365448"
+     }
+    },
+    {
+     "category": "蔬菜",
      "name": "黄瓜",
      "name_display": "黄瓜",
-     "packs": 1,
+     "packs": 3,
      "pack_size": "200 g",
      "name_en": "Baby Snack Cucumber",
      "name_short": "Baby Snack Cucumber",
      "brand": "NATURE'S PICK",
      "unit_price_gbp": 0.95,
-     "line_total_gbp": 0.95,
+     "line_total_gbp": 2.85,
      "buy_qty": 200.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/10",
-      "11/12",
-      "11/15"
+      "11/15",
+      "11/17",
+      "11/20"
      ],
-     "note": "345g 库存已有",
+     "note": "",
      "bean_form": null,
      "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691",
      "product": {
@@ -1146,24 +1311,24 @@
     }
    ],
    "batches": [],
-   "total_gbp": 30.64,
+   "total_gbp": 41.43,
    "missing": [
-    "茄子"
+    "茄子",
+    "白芸豆"
    ],
    "pantry_missing": [
-    "莳萝",
-    "第戎芥末",
-    "卡拉马塔橄榄"
+    "莳萝"
    ],
    "unavailable": [
-    "茄子"
+    "茄子",
+    "白芸豆"
    ],
-   "coverage": 0.9412,
-   "vs_recommend_gbp": 0.7,
-   "vs_recommend_common_n": 16,
-   "vs_recommend_store_gbp": 30.64,
-   "vs_recommend_rec_gbp": 29.94,
-   "vs_recommend_missing": 1
+   "coverage": 0.9,
+   "vs_recommend_gbp": 0.57,
+   "vs_recommend_common_n": 18,
+   "vs_recommend_store_gbp": 41.43,
+   "vs_recommend_rec_gbp": 40.86,
+   "vs_recommend_missing": 2
   },
   "SAINSBURYS": {
    "store": "SAINSBURYS",
@@ -1173,24 +1338,22 @@
      "category": "水果",
      "name": "草莓",
      "name_display": "草莓",
-     "packs": 2,
+     "packs": 1,
      "pack_size": "400g",
      "name_en": "Sainsbury's Strawberries 400g",
      "name_short": "Sainsbury's Strawberries",
      "brand": "Sainsbury's",
      "unit_price_gbp": 3.25,
-     "line_total_gbp": 6.5,
+     "line_total_gbp": 3.25,
      "buy_qty": 400.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/09",
-      "11/11",
       "11/12",
-      "11/13",
-      "11/15"
+      "11/16",
+      "11/18"
      ],
-     "note": "140g 库存已有",
+     "note": "易坏，分批",
      "bean_form": null,
      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-strawberries-400g",
      "product": {
@@ -1216,13 +1379,12 @@
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/09",
-      "11/10",
-      "11/12",
-      "11/13",
-      "11/15"
+      "11/14",
+      "11/17",
+      "11/18",
+      "11/19"
      ],
-     "note": "干豆泡 8h、煮 40–50min；约 351g 干豆 ≈ 781g 煮后（餐单按煮后量计）。",
+     "note": "干豆泡 8h、煮 40–50min；约 294g 干豆 ≈ 653g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
      "link": "https://www.sainsburys.co.uk/gol-ui/product/laila-chickpeas-1kg",
      "product": {
@@ -1237,18 +1399,22 @@
      "category": "蔬菜",
      "name": "茄子",
      "name_display": "茄子",
-     "packs": 1,
+     "packs": 3,
      "pack_size": "500g",
      "name_en": "Sainsbury's Chargrilled Mediterranean Vegetables (Aubergine, Courgette, Red & Yellow Peppers) 500g",
      "name_short": "Sainsbury's Chargrilled Mediterranean Vegetables (Aubergine, Courgette, Red & Yellow Peppers)",
      "brand": "Sainsbury's",
      "unit_price_gbp": 2.79,
-     "line_total_gbp": 2.79,
+     "line_total_gbp": 8.37,
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
       "11/09",
-      "11/12"
+      "11/10",
+      "11/13",
+      "11/14",
+      "11/17",
+      "11/19"
      ],
      "note": "",
      "bean_form": null,
@@ -1259,36 +1425,6 @@
       "size": "500g",
       "price_gbp": 2.79,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-chargrilled-mediterranean-vegetables-aubergine-courgette-red-yellow-peppers-500g"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "金枪鱼",
-     "name_display": "金枪鱼罐头",
-     "packs": 3,
-     "pack_size": "145g",
-     "name_en": "Sainsbury's Tuna Chunks in Brine 145g",
-     "name_short": "Sainsbury's Tuna Chunks in Brine",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 0.65,
-     "line_total_gbp": 1.95,
-     "buy_qty": 145.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/08",
-      "11/10",
-      "11/12",
-      "11/15"
-     ],
-     "note": "耐存，一次买够",
-     "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tuna-chunks-in-brine-145g",
-     "product": {
-      "name": "Sainsbury's Tuna Chunks in Brine 145g",
-      "brand": "Sainsbury's",
-      "size": "145g",
-      "price_gbp": 0.65,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tuna-chunks-in-brine-145g"
      }
     },
     {
@@ -1305,10 +1441,9 @@
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
-      "11/09",
-      "11/11",
-      "11/13",
-      "11/14"
+      "11/16",
+      "11/18",
+      "11/21"
      ],
      "note": "易坏，分批",
      "bean_form": null,
@@ -1322,25 +1457,59 @@
      }
     },
     {
+     "category": "肉类",
+     "name": "牛肉末",
+     "name_display": "牛肉末",
+     "packs": 1,
+     "pack_size": "500g",
+     "name_en": "Sainsbury's British or Irish 25% Fat Beef Mince 500g",
+     "name_short": "Sainsbury's 25% Fat Beef Mince",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 3.19,
+     "line_total_gbp": 3.19,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/10",
+      "11/12",
+      "11/15",
+      "11/18",
+      "11/20"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-or-irish-25-fat-beef-mince-500g",
+     "product": {
+      "name": "Sainsbury's British or Irish 25% Fat Beef Mince 500g",
+      "brand": "Sainsbury's",
+      "size": "500g",
+      "price_gbp": 3.19,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-or-irish-25-fat-beef-mince-500g"
+     }
+    },
+    {
      "category": "主食",
      "name": "藜麦",
      "name_display": "藜麦",
-     "packs": 2,
+     "packs": 3,
      "pack_size": "250g",
      "name_en": "Sainsbury's Red & White Quinoa 250g",
      "name_short": "Sainsbury's Red & White Quinoa",
      "brand": "Sainsbury's",
      "unit_price_gbp": 1.45,
-     "line_total_gbp": 2.9,
+     "line_total_gbp": 4.35,
      "buy_qty": 250.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
+      "11/09",
       "11/10",
       "11/11",
       "11/13",
       "11/14",
-      "11/15"
+      "11/15",
+      "11/18",
+      "11/19"
      ],
      "note": "耐存",
      "bean_form": null,
@@ -1379,6 +1548,38 @@
      }
     },
     {
+     "category": "水产",
+     "name": "鳕鱼",
+     "name_display": "鳕鱼",
+     "packs": 2,
+     "pack_size": "360g",
+     "name_en": "Sainsbury's Skinless & Boneless Cod Fillets 360g",
+     "name_short": "Sainsbury's Skinless & Boneless Cod Fillets",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 7.0,
+     "line_total_gbp": 14.0,
+     "buy_qty": 360.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/09",
+      "11/10",
+      "11/13",
+      "11/14",
+      "11/16",
+      "11/18"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-skinless-boneless-cod-fillets-360g",
+     "product": {
+      "name": "Sainsbury's Skinless & Boneless Cod Fillets 360g",
+      "brand": "Sainsbury's",
+      "size": "360g",
+      "price_gbp": 7.0,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-skinless-boneless-cod-fillets-360g"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "卷心菜",
      "name_display": "卷心菜",
@@ -1392,8 +1593,7 @@
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
-      "11/09",
-      "11/15"
+      "11/20"
      ],
      "note": "",
      "bean_form": null,
@@ -1407,75 +1607,88 @@
      }
     },
     {
-     "category": "水产",
-     "name": "欧洲鲈鱼",
-     "name_display": "欧洲鲈鱼",
-     "packs": 2,
-     "pack_size": "210g",
-     "name_en": "New England Seafood 210g Sea Bass Fillets",
-     "name_short": "New England Seafood Sea Bass Fillets",
+     "category": "蔬菜",
+     "name": "四季豆",
+     "name_display": "四季豆",
+     "packs": 1,
+     "pack_size": "900g",
+     "name_en": "Sainsbury's Whole Green Beans 900g",
+     "name_short": "Sainsbury's Whole Green Beans",
      "brand": "Sainsbury's",
-     "unit_price_gbp": 3.84,
-     "line_total_gbp": 7.68,
-     "buy_qty": 210.0,
+     "unit_price_gbp": 1.07,
+     "line_total_gbp": 1.07,
+     "buy_qty": 900.0,
      "buy_unit": "g",
      "used_on": [
-      "11/13"
+      "11/09",
+      "11/10",
+      "11/13",
+      "11/14",
+      "11/16",
+      "11/20"
      ],
      "note": "",
      "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/new-england-seafood-210g-sea-bass-fillets",
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g",
      "product": {
-      "name": "New England Seafood 210g Sea Bass Fillets",
+      "name": "Sainsbury's Whole Green Beans 900g",
       "brand": "Sainsbury's",
-      "size": "210g",
-      "price_gbp": 3.84,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/new-england-seafood-210g-sea-bass-fillets"
+      "size": "900g",
+      "price_gbp": 1.07,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g"
      }
     },
     {
      "category": "蔬菜",
-     "name": "比布生菜",
-     "name_display": "比布生菜",
+     "name": "洋葱",
+     "name_display": "洋葱",
      "packs": 1,
-     "pack_size": "nan",
-     "name_en": "Sainsbury's Little Gem Lettuce, SO Organic x2",
-     "name_short": "Sainsbury's Little Gem Lettuce, SO Organic x2",
+     "pack_size": "1kg",
+     "name_en": "Sainsbury's Onions 1kg",
+     "name_short": "Sainsbury's Onions",
      "brand": "Sainsbury's",
-     "unit_price_gbp": 1.6,
-     "line_total_gbp": 1.6,
-     "buy_qty": "",
-     "buy_unit": "个",
+     "unit_price_gbp": 0.95,
+     "line_total_gbp": 0.95,
+     "buy_qty": 1000.0,
+     "buy_unit": "g",
      "used_on": [
-      "11/10"
+      "11/09",
+      "11/10",
+      "11/11",
+      "11/12",
+      "11/13",
+      "11/14",
+      "11/17",
+      "11/19"
      ],
      "note": "",
      "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-gem-lettuce-so-organic-x2",
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-onions-1kg",
      "product": {
-      "name": "Sainsbury's Little Gem Lettuce, SO Organic x2",
+      "name": "Sainsbury's Onions 1kg",
       "brand": "Sainsbury's",
-      "size": "nan",
-      "price_gbp": 1.6,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-gem-lettuce-so-organic-x2"
+      "size": "1kg",
+      "price_gbp": 0.95,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-onions-1kg"
      }
     },
     {
      "category": "蔬菜",
      "name": "甜椒",
      "name_display": "甜椒",
-     "packs": 1,
+     "packs": 2,
      "pack_size": "500g",
      "name_en": "Sainsbury's Sliced Mixed Peppers 500g",
      "name_short": "Sainsbury's Sliced Mixed Peppers",
      "brand": "Sainsbury's",
      "unit_price_gbp": 0.99,
-     "line_total_gbp": 0.99,
+     "line_total_gbp": 1.98,
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
       "11/11",
-      "11/15"
+      "11/15",
+      "11/19"
      ],
      "note": "",
      "bean_form": null,
@@ -1486,6 +1699,38 @@
       "size": "500g",
       "price_gbp": 0.99,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-mixed-peppers-500g"
+     }
+    },
+    {
+     "category": "豆制品",
+     "name": "白芸豆",
+     "name_display": "白芸豆",
+     "packs": 2,
+     "pack_size": "250g",
+     "name_en": "Tilda 250g Cannellini Beans",
+     "name_short": "Tilda Cannellini Beans",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 1.5,
+     "line_total_gbp": 3.0,
+     "buy_qty": 250.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/09",
+      "11/13",
+      "11/15",
+      "11/16",
+      "11/17",
+      "11/20"
+     ],
+     "note": "干豆泡 8h、煮 40–50min；约 363g 干豆 ≈ 808g 煮后（餐单按煮后量计）。",
+     "bean_form": "dry",
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/tilda-250g-cannellini-beans",
+     "product": {
+      "name": "Tilda 250g Cannellini Beans",
+      "brand": "Sainsbury's",
+      "size": "250g",
+      "price_gbp": 1.5,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/tilda-250g-cannellini-beans"
      }
     },
     {
@@ -1502,7 +1747,7 @@
      "buy_qty": 100.0,
      "buy_unit": "g",
      "used_on": [
-      "11/14"
+      "11/16"
      ],
      "note": "",
      "bean_form": null,
@@ -1546,19 +1791,25 @@
      "category": "蔬菜",
      "name": "西兰花",
      "name_display": "西兰花",
-     "packs": 1,
+     "packs": 2,
      "pack_size": "900g",
      "name_en": "Sainsbury's Broccoli & Cauliflower Florets 900g",
      "name_short": "Sainsbury's Broccoli & Cauliflower Florets",
      "brand": "Sainsbury's",
      "unit_price_gbp": 1.5,
-     "line_total_gbp": 1.5,
+     "line_total_gbp": 3.0,
      "buy_qty": 900.0,
      "buy_unit": "g",
      "used_on": [
+      "11/09",
       "11/10",
+      "11/11",
+      "11/12",
       "11/13",
-      "11/15"
+      "11/14",
+      "11/17",
+      "11/19",
+      "11/21"
      ],
      "note": "",
      "bean_form": null,
@@ -1569,6 +1820,68 @@
       "size": "900g",
       "price_gbp": 1.5,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-broccoli-cauliflower-florets-900g"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "nan",
+     "name_en": "Sainsbury's Courgettes Loose",
+     "name_short": "Sainsbury's Courgettes Loose",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 2.78,
+     "line_total_gbp": 2.78,
+     "buy_qty": "",
+     "buy_unit": "个",
+     "used_on": [
+      "11/16",
+      "11/18"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-courgettes-loose",
+     "product": {
+      "name": "Sainsbury's Courgettes Loose",
+      "brand": "Sainsbury's",
+      "size": "nan",
+      "price_gbp": 2.78,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-courgettes-loose"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "鸡胸肉",
+     "name_display": "鸡胸肉",
+     "packs": 1,
+     "pack_size": "1kg",
+     "name_en": "Humza Quick Frozen Chicken Breast Fillets 1kg",
+     "name_short": "Humza Quick Frozen Chicken Breast Fillets",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 6.0,
+     "line_total_gbp": 6.0,
+     "buy_qty": 1000.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/09",
+      "11/10",
+      "11/11",
+      "11/13",
+      "11/14",
+      "11/17",
+      "11/19",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/humza-quick-frozen-chicken-breast-fillets-1kg",
+     "product": {
+      "name": "Humza Quick Frozen Chicken Breast Fillets 1kg",
+      "brand": "Sainsbury's",
+      "size": "1kg",
+      "price_gbp": 6.0,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/humza-quick-frozen-chicken-breast-fillets-1kg"
      }
     },
     {
@@ -1586,11 +1899,11 @@
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/10",
-      "11/12",
-      "11/15"
+      "11/15",
+      "11/17",
+      "11/20"
      ],
-     "note": "345g 库存已有",
+     "note": "",
      "bean_form": null,
      "link": "https://www.sainsburys.co.uk/gol-ui/product/mrs-elswood-sweet-sour-cucumbers-670g-360g",
      "product": {
@@ -1603,26 +1916,22 @@
     }
    ],
    "batches": [],
-   "total_gbp": 44.91,
+   "total_gbp": 70.94,
    "missing": [
-    "羽衣甘蓝",
-    "芹菜"
+    "羽衣甘蓝"
    ],
    "pantry_missing": [
-    "莳萝",
-    "第戎芥末",
-    "卡拉马塔橄榄"
+    "莳萝"
    ],
    "unavailable": [
-    "羽衣甘蓝",
-    "芹菜"
+    "羽衣甘蓝"
    ],
-   "coverage": 0.8824,
-   "vs_recommend_gbp": 18.12,
-   "vs_recommend_common_n": 15,
-   "vs_recommend_store_gbp": 44.91,
-   "vs_recommend_rec_gbp": 26.79,
-   "vs_recommend_missing": 2
+   "coverage": 0.95,
+   "vs_recommend_gbp": 23.16,
+   "vs_recommend_common_n": 19,
+   "vs_recommend_store_gbp": 70.94,
+   "vs_recommend_rec_gbp": 47.78,
+   "vs_recommend_missing": 1
   },
   "ICELAND": {
    "store": "ICELAND",
@@ -1632,24 +1941,22 @@
      "category": "水果",
      "name": "草莓",
      "name_display": "草莓",
-     "packs": 2,
+     "packs": 1,
      "pack_size": "350g",
      "name_en": "Iceland Strawberries 350g",
      "name_short": "Iceland Strawberries",
      "brand": "Iceland",
      "unit_price_gbp": 3.0,
-     "line_total_gbp": 6.0,
+     "line_total_gbp": 3.0,
      "buy_qty": 350.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/09",
-      "11/11",
       "11/12",
-      "11/13",
-      "11/15"
+      "11/16",
+      "11/18"
      ],
-     "note": "140g 库存已有",
+     "note": "易坏，分批",
      "bean_form": null,
      "link": "https://www.iceland.co.uk/p/iceland-strawberries-350g/77224.html",
      "product": {
@@ -1675,11 +1982,10 @@
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/09",
-      "11/10",
-      "11/12",
-      "11/13",
-      "11/15"
+      "11/14",
+      "11/17",
+      "11/18",
+      "11/19"
      ],
      "note": "开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
      "bean_form": "canned",
@@ -1690,36 +1996,6 @@
       "size": "240g",
       "price_gbp": 1.0,
       "link": "https://www.iceland.co.uk/p/napolina-chickpeas-in-water-240g/70349.html"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "金枪鱼",
-     "name_display": "金枪鱼罐头",
-     "packs": 3,
-     "pack_size": "160g",
-     "name_en": "Osprey Flakes Tuna in Brine 160g",
-     "name_short": "Osprey Flakes Tuna in Brine",
-     "brand": "Osprey",
-     "unit_price_gbp": 0.75,
-     "line_total_gbp": 2.25,
-     "buy_qty": 160.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/08",
-      "11/10",
-      "11/12",
-      "11/15"
-     ],
-     "note": "耐存，一次买够",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/osprey-flakes-tuna-in-brine-160g/100655.html",
-     "product": {
-      "name": "Osprey Flakes Tuna in Brine 160g",
-      "brand": "Osprey",
-      "size": "160g",
-      "price_gbp": 0.75,
-      "link": "https://www.iceland.co.uk/p/osprey-flakes-tuna-in-brine-160g/100655.html"
      }
     },
     {
@@ -1736,10 +2012,9 @@
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
-      "11/09",
-      "11/11",
-      "11/13",
-      "11/14"
+      "11/16",
+      "11/18",
+      "11/21"
      ],
      "note": "易坏，分批",
      "bean_form": null,
@@ -1753,25 +2028,59 @@
      }
     },
     {
+     "category": "肉类",
+     "name": "牛肉末",
+     "name_display": "牛肉末",
+     "packs": 1,
+     "pack_size": "600g",
+     "name_en": "Iceland Beef Mince 20% Fat 600g",
+     "name_short": "Iceland Beef Mince 20% Fat",
+     "brand": "Iceland",
+     "unit_price_gbp": 4.5,
+     "line_total_gbp": 4.5,
+     "buy_qty": 600.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/10",
+      "11/12",
+      "11/15",
+      "11/18",
+      "11/20"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.iceland.co.uk/p/iceland-beef-mince-20pct-fat-600g/53893.html",
+     "product": {
+      "name": "Iceland Beef Mince 20% Fat 600g",
+      "brand": "Iceland",
+      "size": "600g",
+      "price_gbp": 4.5,
+      "link": "https://www.iceland.co.uk/p/iceland-beef-mince-20pct-fat-600g/53893.html"
+     }
+    },
+    {
      "category": "主食",
      "name": "藜麦",
      "name_display": "藜麦",
-     "packs": 12,
+     "packs": 17,
      "pack_size": "40g",
      "name_en": "Jacobs On The Go Fibre Boost Black Seed & Quinoa 5 x 40g",
      "name_short": "Jacobs On The Go Fibre Boost Black Seed & Quinoa 5 x",
      "brand": "Jacob's",
      "unit_price_gbp": 1.5,
-     "line_total_gbp": 18.0,
+     "line_total_gbp": 25.5,
      "buy_qty": 40.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
+      "11/09",
       "11/10",
       "11/11",
       "11/13",
       "11/14",
-      "11/15"
+      "11/15",
+      "11/18",
+      "11/19"
      ],
      "note": "耐存",
      "bean_form": null,
@@ -1810,6 +2119,38 @@
      }
     },
     {
+     "category": "水产",
+     "name": "鳕鱼",
+     "name_display": "鳕鱼",
+     "packs": 2,
+     "pack_size": "500g",
+     "name_en": "Iceland 4 Cod Fillets 500g",
+     "name_short": "Iceland 4 Cod Fillets",
+     "brand": "Iceland",
+     "unit_price_gbp": 7.0,
+     "line_total_gbp": 14.0,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/09",
+      "11/10",
+      "11/13",
+      "11/14",
+      "11/16",
+      "11/18"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.iceland.co.uk/p/iceland-4-cod-fillets-500g/49731.html",
+     "product": {
+      "name": "Iceland 4 Cod Fillets 500g",
+      "brand": "Iceland",
+      "size": "500g",
+      "price_gbp": 7.0,
+      "link": "https://www.iceland.co.uk/p/iceland-4-cod-fillets-500g/49731.html"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "卷心菜",
      "name_display": "卷心菜",
@@ -1823,8 +2164,7 @@
      "buy_qty": 550.0,
      "buy_unit": "g",
      "used_on": [
-      "11/09",
-      "11/15"
+      "11/20"
      ],
      "note": "",
      "bean_form": null,
@@ -1838,57 +2178,69 @@
      }
     },
     {
-     "category": "水产",
-     "name": "欧洲鲈鱼",
-     "name_display": "欧洲鲈鱼",
+     "category": "蔬菜",
+     "name": "四季豆",
+     "name_display": "四季豆",
      "packs": 1,
-     "pack_size": "500g",
-     "name_en": "Iceland 4 Large Sea Bass Fillets 500g",
-     "name_short": "Iceland 4 Large Sea Bass Fillets",
+     "pack_size": "1kg",
+     "name_en": "Iceland Very Fine Whole Green Beans 1kg",
+     "name_short": "Iceland Very Fine Whole Green Beans",
      "brand": "Iceland",
-     "unit_price_gbp": 10.0,
-     "line_total_gbp": 10.0,
-     "buy_qty": 500.0,
+     "unit_price_gbp": 2.0,
+     "line_total_gbp": 2.0,
+     "buy_qty": 1000.0,
      "buy_unit": "g",
      "used_on": [
-      "11/13"
+      "11/09",
+      "11/10",
+      "11/13",
+      "11/14",
+      "11/16",
+      "11/20"
      ],
      "note": "",
      "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/iceland-4-large-sea-bass-fillets-500g/49715.html",
+     "link": "https://www.iceland.co.uk/p/iceland-very-fine-whole-green-beans-1kg/17.html",
      "product": {
-      "name": "Iceland 4 Large Sea Bass Fillets 500g",
+      "name": "Iceland Very Fine Whole Green Beans 1kg",
       "brand": "Iceland",
-      "size": "500g",
-      "price_gbp": 10.0,
-      "link": "https://www.iceland.co.uk/p/iceland-4-large-sea-bass-fillets-500g/49715.html"
+      "size": "1kg",
+      "price_gbp": 2.0,
+      "link": "https://www.iceland.co.uk/p/iceland-very-fine-whole-green-beans-1kg/17.html"
      }
     },
     {
      "category": "蔬菜",
-     "name": "比布生菜",
-     "name_display": "比布生菜",
+     "name": "洋葱",
+     "name_display": "洋葱",
      "packs": 1,
-     "pack_size": "nan",
-     "name_en": "Iceland Little Gem Lettuce",
-     "name_short": "Iceland Little Gem Lettuce",
+     "pack_size": "1kg",
+     "name_en": "Iceland Onions 1kg",
+     "name_short": "Iceland Onions",
      "brand": "Iceland",
-     "unit_price_gbp": 1.0,
-     "line_total_gbp": 1.0,
-     "buy_qty": "",
-     "buy_unit": "个",
+     "unit_price_gbp": 1.25,
+     "line_total_gbp": 1.25,
+     "buy_qty": 1000.0,
+     "buy_unit": "g",
      "used_on": [
-      "11/10"
+      "11/09",
+      "11/10",
+      "11/11",
+      "11/12",
+      "11/13",
+      "11/14",
+      "11/17",
+      "11/19"
      ],
      "note": "",
      "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/iceland-little-gem-lettuce/67736.html",
+     "link": "https://www.iceland.co.uk/p/iceland-onions-1kg/19711.html",
      "product": {
-      "name": "Iceland Little Gem Lettuce",
+      "name": "Iceland Onions 1kg",
       "brand": "Iceland",
-      "size": "nan",
-      "price_gbp": 1.0,
-      "link": "https://www.iceland.co.uk/p/iceland-little-gem-lettuce/67736.html"
+      "size": "1kg",
+      "price_gbp": 1.25,
+      "link": "https://www.iceland.co.uk/p/iceland-onions-1kg/19711.html"
      }
     },
     {
@@ -1906,7 +2258,8 @@
      "buy_unit": "g",
      "used_on": [
       "11/11",
-      "11/15"
+      "11/15",
+      "11/19"
      ],
      "note": "",
      "bean_form": null,
@@ -1933,7 +2286,7 @@
      "buy_qty": 480.0,
      "buy_unit": "g",
      "used_on": [
-      "11/14"
+      "11/16"
      ],
      "note": "",
      "bean_form": null,
@@ -1944,31 +2297,6 @@
       "size": "480g",
       "price_gbp": 1.5,
       "link": "https://www.iceland.co.uk/p/iceland-8-rocket-lollies-480g/39358.html"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "芹菜",
-     "name_display": "芹菜",
-     "packs": 3,
-     "pack_size": "250g",
-     "name_en": "Iceland Celery Sticks 250g",
-     "name_short": "Iceland Celery Sticks",
-     "brand": "Iceland",
-     "unit_price_gbp": 1.0,
-     "line_total_gbp": 3.0,
-     "buy_qty": 250.0,
-     "buy_unit": "g",
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/iceland-celery-sticks-250g/53719.html",
-     "product": {
-      "name": "Iceland Celery Sticks 250g",
-      "brand": "Iceland",
-      "size": "250g",
-      "price_gbp": 1.0,
-      "link": "https://www.iceland.co.uk/p/iceland-celery-sticks-250g/53719.html"
      }
     },
     {
@@ -2002,19 +2330,25 @@
      "category": "蔬菜",
      "name": "西兰花",
      "name_display": "西兰花",
-     "packs": 1,
+     "packs": 2,
      "pack_size": "1kg",
      "name_en": "Iceland Broccoli Florets 1kg",
      "name_short": "Iceland Broccoli Florets",
      "brand": "Iceland",
      "unit_price_gbp": 2.0,
-     "line_total_gbp": 2.0,
+     "line_total_gbp": 4.0,
      "buy_qty": 1000.0,
      "buy_unit": "g",
      "used_on": [
+      "11/09",
       "11/10",
+      "11/11",
+      "11/12",
       "11/13",
-      "11/15"
+      "11/14",
+      "11/17",
+      "11/19",
+      "11/21"
      ],
      "note": "",
      "bean_form": null,
@@ -2028,25 +2362,59 @@
      }
     },
     {
+     "category": "肉类",
+     "name": "鸡胸肉",
+     "name_display": "鸡胸肉",
+     "packs": 1,
+     "pack_size": "1.2kg",
+     "name_en": "Iceland Chicken Breast Fillets 1.2kg",
+     "name_short": "Iceland Chicken Breast Fillets",
+     "brand": "Iceland",
+     "unit_price_gbp": 5.0,
+     "line_total_gbp": 5.0,
+     "buy_qty": 1200.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/09",
+      "11/10",
+      "11/11",
+      "11/13",
+      "11/14",
+      "11/17",
+      "11/19",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.iceland.co.uk/p/iceland-chicken-breast-fillets-1.2kg/54329.html",
+     "product": {
+      "name": "Iceland Chicken Breast Fillets 1.2kg",
+      "brand": "Iceland",
+      "size": "1.2kg",
+      "price_gbp": 5.0,
+      "link": "https://www.iceland.co.uk/p/iceland-chicken-breast-fillets-1.2kg/54329.html"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "黄瓜",
      "name_display": "黄瓜",
-     "packs": 1,
+     "packs": 3,
      "pack_size": "200g",
      "name_en": "Iceland Baby Cucumbers 200g",
      "name_short": "Iceland Baby Cucumbers",
      "brand": "Iceland",
      "unit_price_gbp": 1.5,
-     "line_total_gbp": 1.5,
+     "line_total_gbp": 4.5,
      "buy_qty": 200.0,
      "buy_unit": "g",
      "used_on": [
       "11/08",
-      "11/10",
-      "11/12",
-      "11/15"
+      "11/15",
+      "11/17",
+      "11/20"
      ],
-     "note": "345g 库存已有",
+     "note": "",
      "bean_form": null,
      "link": "https://www.iceland.co.uk/p/iceland-baby-cucumbers-200g/53277.html",
      "product": {
@@ -2059,26 +2427,28 @@
     }
    ],
    "batches": [],
-   "total_gbp": 55.55,
+   "total_gbp": 75.55,
    "missing": [
     "羽衣甘蓝",
-    "茄子"
+    "茄子",
+    "白芸豆",
+    "西葫芦"
    ],
    "pantry_missing": [
-    "莳萝",
-    "第戎芥末",
-    "卡拉马塔橄榄"
+    "莳萝"
    ],
    "unavailable": [
     "羽衣甘蓝",
-    "茄子"
+    "茄子",
+    "白芸豆",
+    "西葫芦"
    ],
-   "coverage": 0.8824,
-   "vs_recommend_gbp": 29.17,
-   "vs_recommend_common_n": 15,
-   "vs_recommend_store_gbp": 55.55,
-   "vs_recommend_rec_gbp": 26.38,
-   "vs_recommend_missing": 2
+   "coverage": 0.8,
+   "vs_recommend_gbp": 40.53,
+   "vs_recommend_common_n": 16,
+   "vs_recommend_store_gbp": 75.55,
+   "vs_recommend_rec_gbp": 35.02,
+   "vs_recommend_missing": 4
   }
  },
  "recommend": {
@@ -2092,35 +2462,33 @@
   ],
   "coverage": 1.0,
   "missing": [
-   "莳萝",
-   "第戎芥末",
-   "卡拉马塔橄榄"
+   "莳萝"
   ],
   "pantry_missing": [
-   "莳萝",
-   "第戎芥末",
-   "卡拉马塔橄榄"
+   "莳萝"
   ],
-  "cost": 32.73,
+  "cost": 52.23,
   "per_store": {
    "ALDI": {
-    "subtotal": 27.35,
-    "count": 14,
+    "subtotal": 37.39,
+    "count": 16,
     "names": [
      "藜麦",
      "草莓",
      "菲达奶酪",
      "羽衣甘蓝",
-     "金枪鱼",
      "鹰嘴豆",
-     "黄瓜",
      "柠檬",
-     "蘑菇",
-     "卷心菜",
+     "鸡胸肉",
      "西兰花",
-     "芹菜",
-     "欧洲鲈鱼",
-     "芝麻菜"
+     "鳕鱼",
+     "洋葱",
+     "牛肉末",
+     "甜椒",
+     "芝麻菜",
+     "西葫芦",
+     "蘑菇",
+     "卷心菜"
     ],
     "items": [
      {
@@ -2138,13 +2506,11 @@
       "buy_unit": "g",
       "used_on": [
        "11/08",
-       "11/09",
-       "11/11",
        "11/12",
-       "11/13",
-       "11/15"
+       "11/16",
+       "11/18"
       ],
-      "note": "140g 库存已有",
+      "note": "易坏，分批",
       "bean_form": null,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
       "product": {
@@ -2159,20 +2525,21 @@
       "category": "蔬菜",
       "name": "羽衣甘蓝",
       "name_display": "羽衣甘蓝",
-      "packs": 4,
+      "packs": 5,
       "pack_size": "200 g",
       "name_en": "Scottish Shredded Kale",
       "name_short": "Shredded Kale",
       "brand": "NATURE'S PICK",
       "unit_price_gbp": 0.89,
-      "line_total_gbp": 3.56,
+      "line_total_gbp": 4.45,
       "buy_qty": 200.0,
       "buy_unit": "g",
       "used_on": [
        "11/08",
-       "11/10",
-       "11/12",
-       "11/14"
+       "11/15",
+       "11/18",
+       "11/20",
+       "11/21"
       ],
       "note": "易坏，分批",
       "bean_form": null,
@@ -2200,11 +2567,10 @@
       "buy_unit": "g",
       "used_on": [
        "11/08",
-       "11/09",
-       "11/10",
-       "11/12",
-       "11/13",
-       "11/15"
+       "11/14",
+       "11/17",
+       "11/18",
+       "11/19"
       ],
       "note": "开罐沥干即用；每次 ~137g，剩约 128g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
       "bean_form": "canned",
@@ -2215,36 +2581,6 @@
        "size": "0.265 Kg drained",
        "price_gbp": 0.41,
        "link": "https://www.aldi.co.uk/product/four-seasons-chickpeas-000000000000625258"
-      }
-     },
-     {
-      "category": "水产",
-      "name": "金枪鱼",
-      "name_display": "金枪鱼罐头",
-      "packs": 3,
-      "pack_size": "145 g",
-      "name_en": "Tuna Chunks In Brine",
-      "name_short": "Tuna Chunks In Brine",
-      "brand": "EVERYDAY ESSENTIALS",
-      "unit_price_gbp": 0.59,
-      "line_total_gbp": 1.77,
-      "buy_qty": 145.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/08",
-       "11/10",
-       "11/12",
-       "11/15"
-      ],
-      "note": "耐存，一次买够",
-      "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/everyday-essentials-tuna-chunks-in-brine-000000000000227713",
-      "product": {
-       "name": "Tuna Chunks In Brine",
-       "brand": "EVERYDAY ESSENTIALS",
-       "size": "145 g",
-       "price_gbp": 0.59,
-       "link": "https://www.aldi.co.uk/product/everyday-essentials-tuna-chunks-in-brine-000000000000227713"
       }
      },
      {
@@ -2261,10 +2597,9 @@
       "buy_qty": 400.0,
       "buy_unit": "g",
       "used_on": [
-       "11/09",
-       "11/11",
-       "11/13",
-       "11/14"
+       "11/16",
+       "11/18",
+       "11/21"
       ],
       "note": "易坏，分批",
       "bean_form": null,
@@ -2278,25 +2613,59 @@
       }
      },
      {
+      "category": "肉类",
+      "name": "牛肉末",
+      "name_display": "牛肉末",
+      "packs": 1,
+      "pack_size": "500 g",
+      "name_en": "Beef Mince 25% Fat",
+      "name_short": "Beef Mince 25% Fat",
+      "brand": "EVERYDAY ESSENTIALS",
+      "unit_price_gbp": 3.19,
+      "line_total_gbp": 3.19,
+      "buy_qty": 500.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/10",
+       "11/12",
+       "11/15",
+       "11/18",
+       "11/20"
+      ],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030",
+      "product": {
+       "name": "Beef Mince 25% Fat",
+       "brand": "EVERYDAY ESSENTIALS",
+       "size": "500 g",
+       "price_gbp": 3.19,
+       "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030"
+      }
+     },
+     {
       "category": "主食",
       "name": "藜麦",
       "name_display": "藜麦",
-      "packs": 2,
+      "packs": 3,
       "pack_size": "250 g",
       "name_en": "Special Quinoa, Pumpkin & Sunflower Seeds Pouch",
       "name_short": "Quinoa, Pumpkin & Sunflower Seeds Pouch",
       "brand": "WORLDWIDE FOODS",
       "unit_price_gbp": 0.85,
-      "line_total_gbp": 1.7,
+      "line_total_gbp": 2.55,
       "buy_qty": 250.0,
       "buy_unit": "g",
       "used_on": [
        "11/08",
+       "11/09",
        "11/10",
        "11/11",
        "11/13",
        "11/14",
-       "11/15"
+       "11/15",
+       "11/18",
+       "11/19"
       ],
       "note": "耐存",
       "bean_form": null,
@@ -2335,6 +2704,38 @@
       }
      },
      {
+      "category": "水产",
+      "name": "鳕鱼",
+      "name_display": "鳕鱼",
+      "packs": 2,
+      "pack_size": "360 g",
+      "name_en": "Cod Fillets",
+      "name_short": "Cod Fillets",
+      "brand": "THE FISHMONGER",
+      "unit_price_gbp": 3.95,
+      "line_total_gbp": 7.9,
+      "buy_qty": 360.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/09",
+       "11/10",
+       "11/13",
+       "11/14",
+       "11/16",
+       "11/18"
+      ],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
+      "product": {
+       "name": "Cod Fillets",
+       "brand": "THE FISHMONGER",
+       "size": "360 g",
+       "price_gbp": 3.95,
+       "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002"
+      }
+     },
+     {
       "category": "蔬菜",
       "name": "卷心菜",
       "name_display": "卷心菜",
@@ -2348,8 +2749,7 @@
       "buy_qty": 440.0,
       "buy_unit": "g",
       "used_on": [
-       "11/09",
-       "11/15"
+       "11/20"
       ],
       "note": "",
       "bean_form": null,
@@ -2363,30 +2763,66 @@
       }
      },
      {
-      "category": "水产",
-      "name": "欧洲鲈鱼",
-      "name_display": "欧洲鲈鱼",
-      "packs": 2,
-      "pack_size": "180 g",
-      "name_en": "Boneless Mediterranean Sea Bass Fillets 2 Pack",
-      "name_short": "Boneless Mediterranean Sea Bass Fillets",
-      "brand": "THE FISHMONGER",
-      "unit_price_gbp": 3.29,
-      "line_total_gbp": 6.58,
-      "buy_qty": 180.0,
+      "category": "蔬菜",
+      "name": "洋葱",
+      "name_display": "洋葱",
+      "packs": 1,
+      "pack_size": "1 kg",
+      "name_en": "Brown Onions",
+      "name_short": "Brown Onions",
+      "brand": "NATURE'S PICK",
+      "unit_price_gbp": 0.47,
+      "line_total_gbp": 0.47,
+      "buy_qty": 1000.0,
       "buy_unit": "g",
       "used_on": [
-       "11/13"
+       "11/09",
+       "11/10",
+       "11/11",
+       "11/12",
+       "11/13",
+       "11/14",
+       "11/17",
+       "11/19"
       ],
       "note": "",
       "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/the-fishmonger-boneless-mediterranean-sea-bass-fillets-2-pack-000000000000388008",
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-brown-onions-000000000000339777",
       "product": {
-       "name": "Boneless Mediterranean Sea Bass Fillets 2 Pack",
-       "brand": "THE FISHMONGER",
-       "size": "180 g",
-       "price_gbp": 3.29,
-       "link": "https://www.aldi.co.uk/product/the-fishmonger-boneless-mediterranean-sea-bass-fillets-2-pack-000000000000388008"
+       "name": "Brown Onions",
+       "brand": "NATURE'S PICK",
+       "size": "1 kg",
+       "price_gbp": 0.47,
+       "link": "https://www.aldi.co.uk/product/nature-s-pick-brown-onions-000000000000339777"
+      }
+     },
+     {
+      "category": "蔬菜",
+      "name": "甜椒",
+      "name_display": "甜椒",
+      "packs": 1,
+      "pack_size": "600 g",
+      "name_en": "Wonky Mixed Peppers",
+      "name_short": "Mixed Peppers",
+      "brand": "EVERYDAY ESSENTIALS",
+      "unit_price_gbp": 1.59,
+      "line_total_gbp": 1.59,
+      "buy_qty": 600.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/11",
+       "11/15",
+       "11/19"
+      ],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-mixed-peppers-000000000000275381",
+      "product": {
+       "name": "Wonky Mixed Peppers",
+       "brand": "EVERYDAY ESSENTIALS",
+       "size": "600 g",
+       "price_gbp": 1.59,
+       "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-mixed-peppers-000000000000275381"
       }
      },
      {
@@ -2403,7 +2839,7 @@
       "buy_qty": 80.0,
       "buy_unit": "g",
       "used_on": [
-       "11/14"
+       "11/16"
       ],
       "note": "",
       "bean_form": null,
@@ -2414,31 +2850,6 @@
        "size": "80 g",
        "price_gbp": 0.75,
        "link": "https://www.aldi.co.uk/product/nature-s-pick-watercress-spinach-rocket-salad-000000000000340022"
-      }
-     },
-     {
-      "category": "蔬菜",
-      "name": "芹菜",
-      "name_display": "芹菜",
-      "packs": 2,
-      "pack_size": "350 g",
-      "name_en": "Celery Sticks",
-      "name_short": "Celery Sticks",
-      "brand": "NATURE'S PICK",
-      "unit_price_gbp": 1.19,
-      "line_total_gbp": 2.38,
-      "buy_qty": 350.0,
-      "buy_unit": "g",
-      "used_on": [],
-      "note": "",
-      "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796",
-      "product": {
-       "name": "Celery Sticks",
-       "brand": "NATURE'S PICK",
-       "size": "350 g",
-       "price_gbp": 1.19,
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796"
       }
      },
      {
@@ -2472,19 +2883,25 @@
       "category": "蔬菜",
       "name": "西兰花",
       "name_display": "西兰花",
-      "packs": 1,
+      "packs": 2,
       "pack_size": "1 kg",
       "name_en": "Broccoli Florets",
       "name_short": "Broccoli Florets",
       "brand": "FOUR SEASONS",
       "unit_price_gbp": 1.19,
-      "line_total_gbp": 1.19,
+      "line_total_gbp": 2.38,
       "buy_qty": 1000.0,
       "buy_unit": "g",
       "used_on": [
+       "11/09",
        "11/10",
+       "11/11",
+       "11/12",
        "11/13",
-       "11/15"
+       "11/14",
+       "11/17",
+       "11/19",
+       "11/21"
       ],
       "note": "",
       "bean_form": null,
@@ -2499,61 +2916,98 @@
      },
      {
       "category": "蔬菜",
-      "name": "黄瓜",
-      "name_display": "黄瓜",
+      "name": "西葫芦",
+      "name_display": "西葫芦",
       "packs": 1,
-      "pack_size": "200 g",
-      "name_en": "Baby Snack Cucumber",
-      "name_short": "Baby Snack Cucumber",
+      "pack_size": "500 g",
+      "name_en": "Courgettes",
+      "name_short": "Courgettes",
       "brand": "NATURE'S PICK",
-      "unit_price_gbp": 0.95,
-      "line_total_gbp": 0.95,
-      "buy_qty": 200.0,
+      "unit_price_gbp": 1.39,
+      "line_total_gbp": 1.39,
+      "buy_qty": 500.0,
       "buy_unit": "g",
       "used_on": [
-       "11/08",
-       "11/10",
-       "11/12",
-       "11/15"
+       "11/16",
+       "11/18"
       ],
-      "note": "345g 库存已有",
+      "note": "",
       "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691",
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
       "product": {
-       "name": "Baby Snack Cucumber",
+       "name": "Courgettes",
        "brand": "NATURE'S PICK",
-       "size": "200 g",
-       "price_gbp": 0.95,
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber-000000000000273691"
+       "size": "500 g",
+       "price_gbp": 1.39,
+       "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
+      }
+     },
+     {
+      "category": "肉类",
+      "name": "鸡胸肉",
+      "name_display": "鸡胸肉",
+      "packs": 1,
+      "pack_size": "1 kg",
+      "name_en": "Chicken Breast Fillets",
+      "name_short": "Chicken Breast Fillets",
+      "brand": "EVERYDAY ESSENTIALS",
+      "unit_price_gbp": 4.25,
+      "line_total_gbp": 4.25,
+      "buy_qty": 1000.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/09",
+       "11/10",
+       "11/11",
+       "11/13",
+       "11/14",
+       "11/17",
+       "11/19",
+       "11/21"
+      ],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.aldi.co.uk/product/everyday-essentials-chicken-breast-fillets-000000000000365448",
+      "product": {
+       "name": "Chicken Breast Fillets",
+       "brand": "EVERYDAY ESSENTIALS",
+       "size": "1 kg",
+       "price_gbp": 4.25,
+       "link": "https://www.aldi.co.uk/product/everyday-essentials-chicken-breast-fillets-000000000000365448"
       }
      }
     ]
    },
    "SAINSBURYS": {
-    "subtotal": 5.38,
-    "count": 3,
+    "subtotal": 14.84,
+    "count": 4,
     "names": [
+     "黄瓜",
+     "四季豆",
      "茄子",
-     "比布生菜",
-     "甜椒"
+     "白芸豆"
     ],
     "items": [
      {
       "category": "蔬菜",
       "name": "茄子",
       "name_display": "茄子",
-      "packs": 1,
+      "packs": 3,
       "pack_size": "500g",
       "name_en": "Sainsbury's Chargrilled Mediterranean Vegetables (Aubergine, Courgette, Red & Yellow Peppers) 500g",
       "name_short": "Sainsbury's Chargrilled Mediterranean Vegetables (Aubergine, Courgette, Red & Yellow Peppers)",
       "brand": "Sainsbury's",
       "unit_price_gbp": 2.79,
-      "line_total_gbp": 2.79,
+      "line_total_gbp": 8.37,
       "buy_qty": 500.0,
       "buy_unit": "g",
       "used_on": [
        "11/09",
-       "11/12"
+       "11/10",
+       "11/13",
+       "11/14",
+       "11/17",
+       "11/19"
       ],
       "note": "",
       "bean_form": null,
@@ -2568,67 +3022,107 @@
      },
      {
       "category": "蔬菜",
-      "name": "比布生菜",
-      "name_display": "比布生菜",
+      "name": "四季豆",
+      "name_display": "四季豆",
       "packs": 1,
-      "pack_size": "nan",
-      "name_en": "Sainsbury's Little Gem Lettuce, SO Organic x2",
-      "name_short": "Sainsbury's Little Gem Lettuce, SO Organic x2",
+      "pack_size": "900g",
+      "name_en": "Sainsbury's Whole Green Beans 900g",
+      "name_short": "Sainsbury's Whole Green Beans",
       "brand": "Sainsbury's",
-      "unit_price_gbp": 1.6,
-      "line_total_gbp": 1.6,
-      "buy_qty": "",
-      "buy_unit": "个",
+      "unit_price_gbp": 1.07,
+      "line_total_gbp": 1.07,
+      "buy_qty": 900.0,
+      "buy_unit": "g",
       "used_on": [
-       "11/10"
+       "11/09",
+       "11/10",
+       "11/13",
+       "11/14",
+       "11/16",
+       "11/20"
       ],
       "note": "",
       "bean_form": null,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-gem-lettuce-so-organic-x2",
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g",
       "product": {
-       "name": "Sainsbury's Little Gem Lettuce, SO Organic x2",
+       "name": "Sainsbury's Whole Green Beans 900g",
        "brand": "Sainsbury's",
-       "size": "nan",
-       "price_gbp": 1.6,
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-gem-lettuce-so-organic-x2"
+       "size": "900g",
+       "price_gbp": 1.07,
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g"
       }
      },
      {
-      "category": "蔬菜",
-      "name": "甜椒",
-      "name_display": "甜椒",
-      "packs": 1,
-      "pack_size": "500g",
-      "name_en": "Sainsbury's Sliced Mixed Peppers 500g",
-      "name_short": "Sainsbury's Sliced Mixed Peppers",
+      "category": "豆制品",
+      "name": "白芸豆",
+      "name_display": "白芸豆",
+      "packs": 2,
+      "pack_size": "250g",
+      "name_en": "Tilda 250g Cannellini Beans",
+      "name_short": "Tilda Cannellini Beans",
       "brand": "Sainsbury's",
-      "unit_price_gbp": 0.99,
-      "line_total_gbp": 0.99,
-      "buy_qty": 500.0,
+      "unit_price_gbp": 1.5,
+      "line_total_gbp": 3.0,
+      "buy_qty": 250.0,
       "buy_unit": "g",
       "used_on": [
-       "11/11",
-       "11/15"
+       "11/09",
+       "11/13",
+       "11/15",
+       "11/16",
+       "11/17",
+       "11/20"
+      ],
+      "note": "干豆泡 8h、煮 40–50min；约 363g 干豆 ≈ 808g 煮后（餐单按煮后量计）。",
+      "bean_form": "dry",
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/tilda-250g-cannellini-beans",
+      "product": {
+       "name": "Tilda 250g Cannellini Beans",
+       "brand": "Sainsbury's",
+       "size": "250g",
+       "price_gbp": 1.5,
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/tilda-250g-cannellini-beans"
+      }
+     },
+     {
+      "category": "待分类",
+      "name": "黄瓜",
+      "name_display": "黄瓜罐头",
+      "packs": 1,
+      "pack_size": "670g",
+      "name_en": "Mrs Elswood Sweet & Sour Cucumbers 670g (360g*)",
+      "name_short": "Mrs Elswood Sweet & Sour Cucumbers (360g*)",
+      "brand": "Sainsbury's",
+      "unit_price_gbp": 2.4,
+      "line_total_gbp": 2.4,
+      "buy_qty": 670.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/08",
+       "11/15",
+       "11/17",
+       "11/20"
       ],
       "note": "",
       "bean_form": null,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-mixed-peppers-500g",
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/mrs-elswood-sweet-sour-cucumbers-670g-360g",
       "product": {
-       "name": "Sainsbury's Sliced Mixed Peppers 500g",
+       "name": "Mrs Elswood Sweet & Sour Cucumbers 670g (360g*)",
        "brand": "Sainsbury's",
-       "size": "500g",
-       "price_gbp": 0.99,
-       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sliced-mixed-peppers-500g"
+       "size": "670g",
+       "price_gbp": 2.4,
+       "link": "https://www.sainsburys.co.uk/gol-ui/product/mrs-elswood-sweet-sour-cucumbers-670g-360g"
       }
      }
     ]
    }
   },
-  "combined_total_gbp": 32.73
+  "combined_total_gbp": 52.23
  },
  "only_at": {
   "羽衣甘蓝": "Aldi",
-  "茄子": "Sainsbury's"
+  "茄子": "Sainsbury's",
+  "白芸豆": "Sainsbury's"
  },
  "price_compare": [
   {
@@ -2669,6 +3163,110 @@
    "sizes_g": {
     "ALDI": 265.0,
     "ICELAND": 240.0
+   }
+  },
+  {
+   "name": "洋葱",
+   "name_display": "洋葱",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 0.47,
+     "pack_g": 1000.0,
+     "size": "1 kg",
+     "per100_gbp": 0.047,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-brown-onions-000000000000339777",
+     "product_name": "Brown Onions",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 0.95,
+     "pack_g": 1000.0,
+     "size": "1kg",
+     "per100_gbp": 0.095,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-onions-1kg",
+     "product_name": "Sainsbury's Onions 1kg",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 1.25,
+     "pack_g": 1000.0,
+     "size": "1kg",
+     "per100_gbp": 0.125,
+     "link": "https://www.iceland.co.uk/p/iceland-onions-1kg/19711.html",
+     "product_name": "Iceland Onions 1kg",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.078,
+   "diff_pct": 1.6596,
+   "spread_ratio": 2.66,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 1000.0,
+    "SAINSBURYS": 1000.0,
+    "ICELAND": 1000.0
+   }
+  },
+  {
+   "name": "鳕鱼",
+   "name_display": "鳕鱼",
+   "category": "水产",
+   "stores": {
+    "ALDI": {
+     "price": 3.95,
+     "pack_g": 360.0,
+     "size": "360 g",
+     "per100_gbp": 1.0972,
+     "link": "https://www.aldi.co.uk/product/the-fishmonger-cod-fillets-000000000275439002",
+     "product_name": "Cod Fillets",
+     "category": "水产",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 7.0,
+     "pack_g": 360.0,
+     "size": "360g",
+     "per100_gbp": 1.9444,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-skinless-boneless-cod-fillets-360g",
+     "product_name": "Sainsbury's Skinless & Boneless Cod Fillets 360g",
+     "category": "水产",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 7.0,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 1.4,
+     "link": "https://www.iceland.co.uk/p/iceland-4-cod-fillets-500g/49731.html",
+     "product_name": "Iceland 4 Cod Fillets 500g",
+     "category": "水产",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Sainsbury's",
+   "diff_per100": 0.8472,
+   "diff_pct": 0.7721,
+   "spread_ratio": 1.77,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 360.0,
+    "SAINSBURYS": 360.0,
+    "ICELAND": 500.0
    }
   },
   {
@@ -2772,6 +3370,58 @@
    "sizes_g": {
     "ALDI": 250.0,
     "SAINSBURYS": 250.0
+   }
+  },
+  {
+   "name": "四季豆",
+   "name_display": "四季豆",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.19,
+     "pack_g": 1000.0,
+     "size": "1 kg",
+     "per100_gbp": 0.119,
+     "link": "https://www.aldi.co.uk/product/four-seasons-whole-green-beans-000000000275878001",
+     "product_name": "Whole Green Beans",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 1.07,
+     "pack_g": 900.0,
+     "size": "900g",
+     "per100_gbp": 0.1189,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-green-beans-900g",
+     "product_name": "Sainsbury's Whole Green Beans 900g",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 2.0,
+     "pack_g": 1000.0,
+     "size": "1kg",
+     "per100_gbp": 0.2,
+     "link": "https://www.iceland.co.uk/p/iceland-very-fine-whole-green-beans-1kg/17.html",
+     "product_name": "Iceland Very Fine Whole Green Beans 1kg",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "cheapest": "SAINSBURYS",
+   "cheapest_label": "Sainsbury's",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.0811,
+   "diff_pct": 0.6821,
+   "spread_ratio": 1.68,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 1000.0,
+    "SAINSBURYS": 900.0,
+    "ICELAND": 1000.0
    }
   },
   {
@@ -3023,95 +3673,107 @@
    }
   },
   {
-   "name": "芹菜",
-   "name_display": "芹菜",
-   "category": "蔬菜",
+   "name": "鸡胸肉",
+   "name_display": "鸡胸肉",
+   "category": "肉类",
    "stores": {
     "ALDI": {
-     "price": 1.19,
-     "pack_g": 350.0,
-     "size": "350 g",
-     "per100_gbp": 0.34,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-sticks-000000000000339796",
-     "product_name": "Celery Sticks",
-     "category": "蔬菜",
+     "price": 4.25,
+     "pack_g": 1000.0,
+     "size": "1 kg",
+     "per100_gbp": 0.425,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-chicken-breast-fillets-000000000000365448",
+     "product_name": "Chicken Breast Fillets",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 6.0,
+     "pack_g": 1000.0,
+     "size": "1kg",
+     "per100_gbp": 0.6,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/humza-quick-frozen-chicken-breast-fillets-1kg",
+     "product_name": "Humza Quick Frozen Chicken Breast Fillets 1kg",
+     "category": "肉类",
      "form": "raw",
      "canned": false
     },
     "ICELAND": {
-     "price": 1.0,
-     "pack_g": 250.0,
-     "size": "250g",
-     "per100_gbp": 0.4,
-     "link": "https://www.iceland.co.uk/p/iceland-celery-sticks-250g/53719.html",
-     "product_name": "Iceland Celery Sticks 250g",
-     "category": "蔬菜",
+     "price": 5.0,
+     "pack_g": 1200.0,
+     "size": "1.2kg",
+     "per100_gbp": 0.4167,
+     "link": "https://www.iceland.co.uk/p/iceland-chicken-breast-fillets-1.2kg/54329.html",
+     "product_name": "Iceland Chicken Breast Fillets 1.2kg",
+     "category": "肉类",
      "form": "raw",
      "canned": false
     }
    },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.06,
-   "diff_pct": 0.1765,
-   "spread_ratio": 1.18,
+   "cheapest": "ICELAND",
+   "cheapest_label": "Iceland",
+   "expensive_label": "Sainsbury's",
+   "diff_per100": 0.1833,
+   "diff_pct": 0.4399,
+   "spread_ratio": 1.44,
    "suspect": false,
    "sizes_g": {
-    "ALDI": 350.0,
-    "ICELAND": 250.0
+    "ALDI": 1000.0,
+    "SAINSBURYS": 1000.0,
+    "ICELAND": 1200.0
    }
   },
   {
-   "name": "金枪鱼",
-   "name_display": "金枪鱼罐头",
-   "category": "水产",
+   "name": "牛肉末",
+   "name_display": "牛肉末",
+   "category": "肉类",
    "stores": {
     "ALDI": {
-     "price": 0.59,
-     "pack_g": 145.0,
-     "size": "145 g",
-     "per100_gbp": 0.4069,
-     "link": "https://www.aldi.co.uk/product/everyday-essentials-tuna-chunks-in-brine-000000000000227713",
-     "product_name": "Tuna Chunks In Brine",
-     "category": "水产",
-     "form": "canned",
-     "canned": true
+     "price": 3.19,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.638,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030",
+     "product_name": "Beef Mince 25% Fat",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
     },
     "SAINSBURYS": {
-     "price": 0.65,
-     "pack_g": 145.0,
-     "size": "145g",
-     "per100_gbp": 0.4483,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tuna-chunks-in-brine-145g",
-     "product_name": "Sainsbury's Tuna Chunks in Brine 145g",
-     "category": "水产",
-     "form": "canned",
-     "canned": true
+     "price": 3.19,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.638,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-or-irish-25-fat-beef-mince-500g",
+     "product_name": "Sainsbury's British or Irish 25% Fat Beef Mince 500g",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
     },
     "ICELAND": {
-     "price": 0.75,
-     "pack_g": 160.0,
-     "size": "160g",
-     "per100_gbp": 0.4688,
-     "link": "https://www.iceland.co.uk/p/osprey-flakes-tuna-in-brine-160g/100655.html",
-     "product_name": "Osprey Flakes Tuna in Brine 160g",
-     "category": "水产",
-     "form": "canned",
-     "canned": true
+     "price": 4.5,
+     "pack_g": 600.0,
+     "size": "600g",
+     "per100_gbp": 0.75,
+     "link": "https://www.iceland.co.uk/p/iceland-beef-mince-20pct-fat-600g/53893.html",
+     "product_name": "Iceland Beef Mince 20% Fat 600g",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
     }
    },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Iceland",
-   "diff_per100": 0.0619,
-   "diff_pct": 0.1521,
-   "spread_ratio": 1.15,
+   "diff_per100": 0.112,
+   "diff_pct": 0.1755,
+   "spread_ratio": 1.18,
    "suspect": false,
    "sizes_g": {
-    "ALDI": 145.0,
-    "SAINSBURYS": 145.0,
-    "ICELAND": 160.0
+    "ALDI": 500.0,
+    "SAINSBURYS": 500.0,
+    "ICELAND": 600.0
    }
   },
   {
@@ -3163,58 +3825,6 @@
    "sizes_g": {
     "ALDI": 400.0,
     "SAINSBURYS": 500.0,
-    "ICELAND": 500.0
-   }
-  },
-  {
-   "name": "欧洲鲈鱼",
-   "name_display": "欧洲鲈鱼",
-   "category": "水产",
-   "stores": {
-    "ALDI": {
-     "price": 3.29,
-     "pack_g": 180.0,
-     "size": "180 g",
-     "per100_gbp": 1.8278,
-     "link": "https://www.aldi.co.uk/product/the-fishmonger-boneless-mediterranean-sea-bass-fillets-2-pack-000000000000388008",
-     "product_name": "Boneless Mediterranean Sea Bass Fillets 2 Pack",
-     "category": "水产",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 3.84,
-     "pack_g": 210.0,
-     "size": "210g",
-     "per100_gbp": 1.8286,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/new-england-seafood-210g-sea-bass-fillets",
-     "product_name": "New England Seafood 210g Sea Bass Fillets",
-     "category": "水产",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 10.0,
-     "pack_g": 500.0,
-     "size": "500g",
-     "per100_gbp": 2.0,
-     "link": "https://www.iceland.co.uk/p/iceland-4-large-sea-bass-fillets-500g/49715.html",
-     "product_name": "Iceland 4 Large Sea Bass Fillets 500g",
-     "category": "水产",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.1722,
-   "diff_pct": 0.0942,
-   "spread_ratio": 1.09,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 180.0,
-    "SAINSBURYS": 210.0,
     "ICELAND": 500.0
    }
   },
