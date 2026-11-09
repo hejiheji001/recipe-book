@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-09T06:18:43",
+ "generated": "2026-11-09T08:07:25",
  "quantity_basis": "单人 11 天，分两批买",
  "portion_hint": "这是她自己 11 天的量，不是家庭量",
  "columns": [
@@ -382,6 +382,33 @@
    }
   },
   {
+   "category": "蔬菜",
+   "name": "小土豆",
+   "packs": 1,
+   "pack_size": "1 kg",
+   "name_en": "British Baby Potatoes",
+   "name_short": "Baby Potatoes",
+   "brand": "NATURE'S PICK",
+   "unit_price_gbp": 0.99,
+   "line_total_gbp": 0.99,
+   "buy_qty": 1000.0,
+   "buy_unit": "g",
+   "used_on": [
+    "周三",
+    "周六",
+    "周日"
+   ],
+   "note": "",
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748",
+   "product": {
+    "name": "British Baby Potatoes",
+    "brand": "NATURE'S PICK",
+    "size": "1 kg",
+    "price_gbp": 0.99,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748"
+   }
+  },
+  {
    "category": "乳制品",
    "name": "希腊酸奶",
    "packs": 1,
@@ -402,6 +429,31 @@
     "size": "1 kg",
     "price_gbp": 3.69,
     "link": "https://www.aldi.co.uk/product/brooklea-authentic-greek-yogurt-000000000656970001"
+   }
+  },
+  {
+   "category": "乳制品",
+   "name": "帕玛森干酪",
+   "packs": 1,
+   "pack_size": "170 g",
+   "name_en": "Parmigiano Reggiano PDO",
+   "name_short": "Parmigiano Reggiano PDO",
+   "brand": "SPECIALLY SELECTED",
+   "unit_price_gbp": 3.29,
+   "line_total_gbp": 3.29,
+   "buy_qty": 170.0,
+   "buy_unit": "g",
+   "used_on": [
+    "周五"
+   ],
+   "note": "",
+   "link": "https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638",
+   "product": {
+    "name": "Parmigiano Reggiano PDO",
+    "brand": "SPECIALLY SELECTED",
+    "size": "170 g",
+    "price_gbp": 3.29,
+    "link": "https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638"
    }
   },
   {
@@ -635,7 +687,7 @@
   }
  ],
  "batches": [],
- "total_gbp": 44.56,
+ "total_gbp": 48.84,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -959,6 +1011,33 @@
      }
     },
     {
+     "category": "蔬菜",
+     "name": "小土豆",
+     "packs": 1,
+     "pack_size": "1 kg",
+     "name_en": "British Baby Potatoes",
+     "name_short": "Baby Potatoes",
+     "brand": "NATURE'S PICK",
+     "unit_price_gbp": 0.99,
+     "line_total_gbp": 0.99,
+     "buy_qty": 1000.0,
+     "buy_unit": "g",
+     "used_on": [
+      "周三",
+      "周六",
+      "周日"
+     ],
+     "note": "",
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748",
+     "product": {
+      "name": "British Baby Potatoes",
+      "brand": "NATURE'S PICK",
+      "size": "1 kg",
+      "price_gbp": 0.99,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748"
+     }
+    },
+    {
      "category": "乳制品",
      "name": "希腊酸奶",
      "packs": 1,
@@ -979,6 +1058,31 @@
       "size": "1 kg",
       "price_gbp": 3.69,
       "link": "https://www.aldi.co.uk/product/brooklea-authentic-greek-yogurt-000000000656970001"
+     }
+    },
+    {
+     "category": "乳制品",
+     "name": "帕玛森干酪",
+     "packs": 1,
+     "pack_size": "170 g",
+     "name_en": "Parmigiano Reggiano PDO",
+     "name_short": "Parmigiano Reggiano PDO",
+     "brand": "SPECIALLY SELECTED",
+     "unit_price_gbp": 3.29,
+     "line_total_gbp": 3.29,
+     "buy_qty": 170.0,
+     "buy_unit": "g",
+     "used_on": [
+      "周五"
+     ],
+     "note": "",
+     "link": "https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638",
+     "product": {
+      "name": "Parmigiano Reggiano PDO",
+      "brand": "SPECIALLY SELECTED",
+      "size": "170 g",
+      "price_gbp": 3.29,
+      "link": "https://www.aldi.co.uk/product/specially-selected-parmigiano-reggiano-pdo-000000000000504638"
      }
     },
     {
@@ -1212,20 +1316,16 @@
     }
    ],
    "batches": [],
-   "total_gbp": 44.56,
+   "total_gbp": 48.84,
    "missing": [
     "茄子",
-    "小土豆",
-    "帕玛森干酪",
     "白芸豆"
    ],
    "unavailable": [
     "茄子",
-    "小土豆",
-    "帕玛森干酪",
     "白芸豆"
    ],
-   "coverage": 0.8462
+   "coverage": 0.9231
   },
   "SAINSBURYS": {
    "store": "SAINSBURYS",
@@ -1524,6 +1624,33 @@
      }
     },
     {
+     "category": "蔬菜",
+     "name": "小土豆",
+     "packs": 1,
+     "pack_size": "1kg",
+     "name_en": "Sainsbury's 1kg Baby Potatoes",
+     "name_short": "Sainsbury's Baby Potatoes",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 0.99,
+     "line_total_gbp": 0.99,
+     "buy_qty": 1000.0,
+     "buy_unit": "g",
+     "used_on": [
+      "周三",
+      "周六",
+      "周日"
+     ],
+     "note": "",
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-1kg-baby-potatoes",
+     "product": {
+      "name": "Sainsbury's 1kg Baby Potatoes",
+      "brand": "Sainsbury's",
+      "size": "1kg",
+      "price_gbp": 0.99,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-1kg-baby-potatoes"
+     }
+    },
+    {
      "category": "乳制品",
      "name": "希腊酸奶",
      "packs": 1,
@@ -1779,22 +1906,20 @@
     }
    ],
    "batches": [],
-   "total_gbp": 54.74,
+   "total_gbp": 55.73,
    "missing": [
     "羽衣甘蓝",
     "大蒜",
-    "小土豆",
     "帕玛森干酪",
     "芹菜"
    ],
    "unavailable": [
     "羽衣甘蓝",
     "大蒜",
-    "小土豆",
     "帕玛森干酪",
     "芹菜"
    ],
-   "coverage": 0.8077
+   "coverage": 0.8462
   },
   "ICELAND": {
    "store": "ICELAND",
@@ -2039,6 +2164,33 @@
      }
     },
     {
+     "category": "蔬菜",
+     "name": "小土豆",
+     "packs": 1,
+     "pack_size": "750g",
+     "name_en": "Wilson's Country Baby Potatoes 750g",
+     "name_short": "Wilson's Country Baby Potatoes",
+     "brand": "Wilson's Country",
+     "unit_price_gbp": 1.15,
+     "line_total_gbp": 1.15,
+     "buy_qty": 750.0,
+     "buy_unit": "g",
+     "used_on": [
+      "周三",
+      "周六",
+      "周日"
+     ],
+     "note": "",
+     "link": "https://www.iceland.co.uk/p/wilsons-country-baby-potatoes-750g/95482.html",
+     "product": {
+      "name": "Wilson's Country Baby Potatoes 750g",
+      "brand": "Wilson's Country",
+      "size": "750g",
+      "price_gbp": 1.15,
+      "link": "https://www.iceland.co.uk/p/wilsons-country-baby-potatoes-750g/95482.html"
+     }
+    },
+    {
      "category": "乳制品",
      "name": "希腊酸奶",
      "packs": 1,
@@ -2059,6 +2211,31 @@
       "size": "nan",
       "price_gbp": 3.0,
       "link": "https://www.iceland.co.uk/p/muller-bliss-whipped-greek-yogurt-with-strawberries-and-cream-and-biscuits/104080.html"
+     }
+    },
+    {
+     "category": "乳制品",
+     "name": "帕玛森干酪",
+     "packs": 1,
+     "pack_size": "400g",
+     "name_en": "Iceland Luxury Parmesan Chicken Pasta Bake With Truffle 400g",
+     "name_short": "Iceland Luxury Parmesan Chicken Pasta Bake With Truffle",
+     "brand": "Iceland",
+     "unit_price_gbp": 4.0,
+     "line_total_gbp": 4.0,
+     "buy_qty": 400.0,
+     "buy_unit": "g",
+     "used_on": [
+      "周五"
+     ],
+     "note": "",
+     "link": "https://www.iceland.co.uk/p/iceland-luxury-parmesan-chicken-pasta-bake-with-truffle-400g/51781.html",
+     "product": {
+      "name": "Iceland Luxury Parmesan Chicken Pasta Bake With Truffle 400g",
+      "brand": "Iceland",
+      "size": "400g",
+      "price_gbp": 4.0,
+      "link": "https://www.iceland.co.uk/p/iceland-luxury-parmesan-chicken-pasta-bake-with-truffle-400g/51781.html"
      }
     },
     {
@@ -2292,14 +2469,12 @@
     }
    ],
    "batches": [],
-   "total_gbp": 59.45,
+   "total_gbp": 64.6,
    "missing": [
     "羽衣甘蓝",
     "鹰嘴豆",
     "茄子",
     "大蒜",
-    "小土豆",
-    "帕玛森干酪",
     "白芸豆"
    ],
    "unavailable": [
@@ -2307,11 +2482,9 @@
     "鹰嘴豆",
     "茄子",
     "大蒜",
-    "小土豆",
-    "帕玛森干酪",
     "白芸豆"
    ],
-   "coverage": 0.7308
+   "coverage": 0.8077
   }
  },
  "recommend": {
@@ -2323,12 +2496,9 @@
    "Aldi",
    "Sainsbury's"
   ],
-  "coverage": 0.9230769230769231,
-  "missing": [
-   "小土豆",
-   "帕玛森干酪"
-  ],
-  "cost": 99.3
+  "coverage": 1.0,
+  "missing": [],
+  "cost": 104.57
  },
  "only_at": {
   "羽衣甘蓝": "Aldi",
