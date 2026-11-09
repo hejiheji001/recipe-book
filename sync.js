@@ -200,10 +200,19 @@
     lss(doc.key, data);
   }
 
+  // 云端历史文档有两种形态：裸 {食材:{...}} 与 {v,items,del}。
+  // 2026-11-08 那次「写空」用的是裸 map，pull 回来后页面 loadStock() 读不到
+  // o.items 就显示「共 0 项」。这里统一补成文档形态，两种都能吃。
+  function normDoc(v) {
+    if (!v || typeof v !== 'object') return null;
+    if (v.items && typeof v.items === 'object' && !Array.isArray(v.items)) return v;
+    return { v: 3, items: v, del: {} };
+  }
+
   function pack(doc, local) {
     if (doc.week) return { v: 1, week: weekCode(), items: local || {} };
     if (doc.wrap) return { v: 1, list: Array.isArray(local) ? local : [] };
-    return local && typeof local === 'object' ? local : { v: 1, items: {} };
+    return normDoc(local) || { v: 3, items: {}, del: {} };
   }
 
   function unpack(doc, items) {
@@ -213,7 +222,7 @@
       return items.items || {};
     }
     if (doc.wrap) return Array.isArray(items.list) ? items.list : null;
-    return items;
+    return normDoc(items);
   }
 
   function localHas(doc) {
@@ -239,8 +248,8 @@
       Object.keys(lc).forEach(function (k) { out[k] = 1; });
       return out;
     }
-    var r = (remote && remote.items) || {};
-    var l = (local && local.items) || {};
+    var r = (normDoc(remote) || {}).items || {};
+    var l = (normDoc(local) || {}).items || {};
     var merged = {};
     // 键即实体：油 / 油#2 各自独立，不会被同名合并掉
     Object.keys(r).forEach(function (k) { merged[k] = r[k]; });
