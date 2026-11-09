@@ -223,6 +223,12 @@
     return !!(v && v.items && Object.keys(v.items).length);
   }
 
+  function hasAny(doc, v) {
+    if (doc.week) return !!(v && Object.keys(v).length);
+    if (doc.wrap) return !!(v && v.length);
+    return !!(v && v.items && Object.keys(v.items).length);
+  }
+
   function mergeByKey(doc, remote, local) {
     if (!remote || typeof remote !== 'object') return local;
     if (doc.week) {
@@ -325,6 +331,12 @@
     var local = readLocal(doc);
     var revs = ls(REV_KEY, {});
     var rev = revs[doc.suffix] || 0;
+    // 本地既无条目也无删除墓碑、云端却已有版本 → 本地不完整（被系统回收/尚未 pull 完），
+    // 此时写回等于清空云端。放弃这次推送，等 pull 补齐后再推。
+    if (doc.mergeKeys && rev > 0 && !hasAny(doc, local)
+        && !(local && local.del && Object.keys(local.del).length)) {
+      return Promise.resolve('fail');
+    }
 
     return call('put_stock', {
       p_family: fam + doc.suffix,
@@ -345,9 +357,21 @@
             if (!g.ok) return 'fail';
             revs[doc.suffix] = g.body.rev || 0;
             lss(REV_KEY, revs);
+            // 只改 rev 号却仍写旧 local，等于绕过乐观锁用旧数据覆盖云端（曾把 41 项写成 1 项）。
+            // 能按键合并的文档先合并；不能合并的，本地为空就放弃，绝不清空云端。
+            var remote = unpack(doc, g.body.items);
+            var toWrite;
+            if (doc.mergeKeys && remote) {
+              toWrite = mergeByKey(doc, remote, local);
+              writeLocal(doc, toWrite);
+            } else if (remote && !hasAny(doc, local)) {
+              return 'fail';
+            } else {
+              toWrite = local;
+            }
             return call('put_stock', {
               p_family: fam + doc.suffix,
-              p_items: pack(doc, local),
+              p_items: pack(doc, toWrite),
               p_rev: g.body.rev,
               p_token: pw,
               p_actor: 'user'
