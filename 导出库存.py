@@ -190,7 +190,17 @@ def rows_of(doc, today):
         days = shelf.get("开" if opened else "闭")
         if not days:
             continue
-        used = days_between(it.get("since"), today)
+        # 用户手动指定的「这批按几天算」优先，与页面 itemDays 同一口径：
+        # item.days > 0 时直接用它，否则退回保质期表。
+        try:
+            manual = float(it.get("days") or 0)
+        except (TypeError, ValueError):
+            manual = 0.0
+        if manual > 0:
+            days = int(round(manual))
+        # 起点须与页面 leftOf 一致：开封后从开封日算，否则导出天数会比页面少几天
+        start = (it.get("open_since") or it.get("since")) if opened else it.get("since")
+        used = days_between(start, today)
         if used is None:
             continue
         left = days - used
