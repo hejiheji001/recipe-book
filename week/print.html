@@ -8,7 +8,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="菜谱">
-<meta name="rb-build" content="20261110203005">
+<meta name="rb-build" content="20261110205213">
 <title>打印清单 · W1-11-02</title>
 <style>
 #delAsk{position:fixed;inset:0;z-index:999;background:rgba(0,0,0,.45);
@@ -36,6 +36,23 @@ body{min-height:100vh;display:flex;flex-direction:column;}
  text-decoration:none;font-weight:500;white-space:nowrap;}
 .sitenav a.on{color:#111;font-weight:700;box-shadow:inset 0 -2px 0 #111;}
 .sitenav a.hot{color:#b5342a;font-weight:600;}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:8px;
+ padding:5px 12px;border-bottom:1px solid #f0f0ec;background:#fff;}
+.tb-l{display:flex;align-items:center;gap:5px;min-width:0;font-size:12px;}
+.tb-lbl{font-size:11px;color:#a8a8a3;font-weight:600;flex:0 0 auto;}
+#tbFam{font-weight:700;color:#444;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:34vw;}
+#tbDot{width:6px;height:6px;border-radius:50%;background:#c4c4be;flex:0 0 auto;}
+#tbDot.on{background:#2f7a45;}
+#tbDot.doing{background:#d99b3d;}
+#tbSw{font-size:11px;font-weight:600;color:#333;border:1px solid #dcdcd6;
+ border-radius:7px;padding:3px 9px;background:#fff;flex:0 0 auto;
+ cursor:pointer;-webkit-tap-highlight-color:transparent;box-shadow:0 1px 2px rgba(0,0,0,.05);}
+#tbSw:active{background:#f2f2ee;}
+.rf{font-size:12px;line-height:1;color:#8a7f70;background:#f4f2ee;
+ border:1px solid #e2e2de;border-radius:8px;padding:7px 10px;cursor:pointer;
+ -webkit-user-select:none;user-select:none;white-space:nowrap;font-weight:500;}
+.rf.busy{opacity:.55;}
+.rf:active{background:#eae7e1;}
 .head{padding:8px 14px 5px;display:flex;justify-content:space-between;
  align-items:center;font-size:11.5px;color:#6b6b64;}
 .hact{display:flex;align-items:center;gap:8px;}
@@ -99,10 +116,14 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     <a href="../catalog.html#open=mylist">我的菜谱</a>
     <a href="../catalog.html#open=stock">库存</a>
   </div>
+  <div class="topbar">
+    <span class="tb-l"><i id="tbDot"></i><span class="tb-lbl">当前小区</span><b id="tbFam"></b><u id="tbSw" role="button">切换</u></span>
+    <b class="rf" id="tbRf" role="button" title="从云端拉取最新数据并重绘">↻ 刷新</b>
+  </div>
 </div>
 
-<div class="head"><span>更新 11-10 20:30</span>
-  <span class="hact"><b id="reload">刷新</b> <em>W1-11-02</em></span></div>
+<div class="head"><span>更新 11-10 20:52</span>
+  <span class="hact"><em>W1-11-02</em></span></div>
 
 <div class="main">
   <div class="sec">
@@ -161,8 +182,17 @@ body{min-height:100vh;display:flex;flex-direction:column;}
     window.scrollTo(0,0);
   }
 
-  document.getElementById("reload").onclick = function(){
-    location.reload();
+  var tbRf = document.getElementById("tbRf");
+  if(tbRf) tbRf.onclick = function(){
+    if(window.RBSYNC && RBSYNC.pullNow){
+      tbRf.classList.add("busy"); tbRf.textContent = "刷新中…";
+      RBSYNC.pullNow().then(function(){ location.reload(); }).catch(function(){
+        tbRf.classList.remove("busy"); tbRf.textContent = "刷新失败";
+        setTimeout(function(){ tbRf.textContent = "↻ 刷新"; }, 1500);
+      });
+    } else {
+      location.reload();
+    }
   };
 
   // ===== 自定义打印（读 localStorage 元数据）=====

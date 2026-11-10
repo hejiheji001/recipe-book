@@ -428,13 +428,24 @@
   function paint(tone) {
     if (!dot) return;
     var fam = ls(FAM_KEY, null);
-    if (!fam) { dot.style.display = 'none'; return; }
-    dot.style.display = 'inline-block';
+    if (!fam) {
+      dot.textContent = '未连接';
+      var dl = document.getElementById('tbDot');
+      if (dl) dl.className = '';
+      return;
+    }
     var label = fam.name;
     var state = tone === 'doing' ? '同步中' : (tone === 'ok' ? '已同步' : '仅本机');
-    dot.className = tone === 'doing' ? 'doing' : (tone === 'ok' ? 'on' : '');
-    dot.innerHTML = '<i></i><b>' + label + '</b><u>切换</u>';
+    dot.textContent = label;
     dot.title = label + ' · ' + state;
+    var led = document.getElementById('tbDot');
+    if (led) led.className = tone === 'doing' ? 'doing' : (tone === 'ok' ? 'on' : '');
+    var old = document.getElementById('rbd');
+    if (old) {
+      old.className = tone === 'doing' ? 'doing' : (tone === 'ok' ? 'on' : '');
+      old.innerHTML = '<i></i><b>' + label + '</b><u>切换</u>';
+      old.title = label + ' · ' + state;
+    }
   }
 
   function css() {
@@ -741,6 +752,17 @@
   }
 
   function mountDot() {
+    // 页面自带统一顶栏（#tbFam 小区名 / #tbSw 切换）时直接用，不再另插一条，
+    // 否则每个板块会多出一条只有小区名的窄栏，刷新按钮也和它分家。
+    var fm = document.getElementById('tbFam');
+    if (fm) {
+      dot = fm;
+      var sw = document.getElementById('tbSw');
+      if (sw) { sw.onclick = sheet; }
+      if (fm.parentNode) fm.parentNode.onclick = sheet;
+      return;
+    }
+
     var nav = document.querySelector('.sitenav') || document.querySelector('.nav') || document.querySelector('.nav2');
     if (!nav) return;
 

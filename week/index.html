@@ -2,7 +2,7 @@
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#ffffff">
-<meta name="rb-build" content="20261107070159">
+<meta name="rb-build" content="20261110205213">
 <link rel="manifest" href="../manifest.json">
 <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -24,6 +24,23 @@ a{color:var(--ink);}
  -webkit-tap-highlight-color:transparent;}
 .sitenav a.on{color:#111;font-weight:700;box-shadow:inset 0 -2px 0 #111;}
 .sitenav a.hot{color:#b5342a;font-weight:600;}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:8px;
+ padding:5px 12px;border-bottom:1px solid #f0f0ec;background:#fff;}
+.tb-l{display:flex;align-items:center;gap:5px;min-width:0;font-size:12px;}
+.tb-lbl{font-size:11px;color:#a8a8a3;font-weight:600;flex:0 0 auto;}
+#tbFam{font-weight:700;color:#444;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:34vw;}
+#tbDot{width:6px;height:6px;border-radius:50%;background:#c4c4be;flex:0 0 auto;}
+#tbDot.on{background:#2f7a45;}
+#tbDot.doing{background:#d99b3d;}
+#tbSw{font-size:11px;font-weight:600;color:#333;border:1px solid #dcdcd6;
+ border-radius:7px;padding:3px 9px;background:#fff;flex:0 0 auto;
+ cursor:pointer;-webkit-tap-highlight-color:transparent;box-shadow:0 1px 2px rgba(0,0,0,.05);}
+#tbSw:active{background:#f2f2ee;}
+.rf{font-size:12px;line-height:1;color:#8a7f70;background:#f4f2ee;
+ border:1px solid #e2e2de;border-radius:8px;padding:7px 10px;cursor:pointer;
+ -webkit-user-select:none;user-select:none;white-space:nowrap;font-weight:500;}
+.rf.busy{opacity:.55;}
+.rf:active{background:#eae7e1;}
 .stickytop{position:-webkit-sticky;position:sticky;top:0;z-index:9;
  background:#fff;border-bottom:1px solid var(--line);}
 .stamp{text-align:right;font-size:10.5px;color:#c0c0bc;padding:0 12px 5px;}
@@ -203,8 +220,12 @@ ol li{margin-bottom:5px;line-height:1.5;}
   <a href="../catalog.html#open=stock">库存</a>
   <a href="../catalog.html#open=about">关于</a>
 </div>
+  <div class="topbar">
+    <span class="tb-l"><i id="tbDot"></i><span class="tb-lbl">当前小区</span><b id="tbFam"></b><u id="tbSw" role="button">切换</u></span>
+    <b class="rf" id="tbRf" role="button" title="从云端拉取最新数据并重绘">↻ 刷新</b>
+  </div>
 <nav><a href="#d1">周一</a><a href="#d2">周二</a><a href="#d3">周三</a><a href="#d4">周四</a><a href="#d5">周五</a><a href="#d6">周六</a><a href="#d7">周日</a></nav>
-<div class="stamp">更新 11-07 07:01<a class="pdflink" id="pdfDl" href="print.pdf" download="本周菜谱-11.02-11.08.pdf"><i class="sp"></i>下载 PDF</a></div>
+<div class="stamp">更新 11-10 20:52<a class="pdflink" id="pdfDl" href="print.pdf" download="本周菜谱-11.02-11.08.pdf"><i class="sp"></i>下载 PDF</a></div>
 </div>
 <div class="wrap">
 
@@ -250,7 +271,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
         <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼A</i><i>15min</i></div>
       </summary>
       <div class="body">
-        <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 200个</div></div><div class="row"><div class="k">调 料</div><div class="v dim">盐、生抽、香油、葱、温水</div></div><div class="row"><div class="k">营 养</div><div class="v"><span class="nk">90 kcal</span> · 蛋白 7.9g · 脂肪 5.7g · 碳水 1.6g · 纤维 0.0g · 钠 250mg<span class="nsub">（每人，整锅÷3.35）</span></div></div>
+        <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 200g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">盐、生抽、香油、葱、温水</div></div><div class="row"><div class="k">营 养</div><div class="v"><span class="nk">90 kcal</span> · 蛋白 7.9g · 脂肪 5.7g · 碳水 1.6g · 纤维 0.0g · 钠 250mg<span class="nsub">（每人，整锅÷3.35）</span></div></div>
         <div class="row"><div class="k">做 法</div><div class="v"><ol><li>鸡蛋打散，加1.5倍温水（约40℃）搅匀</li><li>过筛去掉泡沫</li><li>碗口盖保鲜膜或盘子</li><li>水开后上锅，中小火蒸10分钟</li><li>关火焖2分钟</li><li>淋生抽香油，撒葱花</li></ol></div></div>
         <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">水温40℃左右，加冷水蛋羹不嫩；必须盖膜，不然表面起蜂窝</div></div></div>
       </div>
@@ -262,7 +283,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
         <div class="meta"><i>3岁可吃</i><i>炖</i><i>灶眼A</i><i>8min</i></div>
       </summary>
       <div class="body">
-        <div class="row"><div class="k">主 料</div><div class="v">紫菜 5g　鸡蛋 100个</div></div><div class="row"><div class="k">调 料</div><div class="v dim">盐、香油、白胡椒、葱、水</div></div><div class="row"><div class="k">营 养</div><div class="v"><span class="nk">52 kcal</span> · 蛋白 4.4g · 脂肪 3.2g · 碳水 1.7g · 纤维 0.4g · 钠 172mg<span class="nsub">（每人，整锅÷3.35）</span></div></div>
+        <div class="row"><div class="k">主 料</div><div class="v">紫菜 5g　鸡蛋 100g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">盐、香油、白胡椒、葱、水</div></div><div class="row"><div class="k">营 养</div><div class="v"><span class="nk">52 kcal</span> · 蛋白 4.4g · 脂肪 3.2g · 碳水 1.7g · 纤维 0.4g · 钠 172mg<span class="nsub">（每人，整锅÷3.35）</span></div></div>
         <div class="row"><div class="k">做 法</div><div class="v"><ol><li>紫菜撕小块</li><li>水沸下紫菜</li><li>鸡蛋打散，转最小火，沿锅边细流倒入</li><li>静置10秒再轻轻推散</li><li>盐、香油、葱花</li></ol></div></div>
         <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">火大蛋就成块，火小才是蛋花</div></div></div>
       </div>
@@ -312,7 +333,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
         <div class="meta"><i>3岁可吃</i><i>蒸</i><i>灶眼B</i><i>20min</i></div>
       </summary>
       <div class="body">
-        <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 250个　香菇 100g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">温水、盐、生抽、香油、葱</div></div><div class="row"><div class="k">营 养</div><div class="v"><span class="nk">123 kcal</span> · 蛋白 10.7g · 脂肪 7.4g · 碳水 3.9g · 纤维 1.0g · 钠 441mg<span class="nsub">（每人，整锅÷3.35）</span></div></div>
+        <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 250g　香菇 100g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">温水、盐、生抽、香油、葱</div></div><div class="row"><div class="k">营 养</div><div class="v"><span class="nk">123 kcal</span> · 蛋白 10.7g · 脂肪 7.4g · 碳水 3.9g · 纤维 1.0g · 钠 441mg<span class="nsub">（每人，整锅÷3.35）</span></div></div>
         <div class="row"><div class="k">做 法</div><div class="v"><ol><li>鸡蛋打散，加温水 300ml 和盐 2g，过筛 1 次</li><li>香菇切薄片，铺在蛋液表面</li><li>盘子盖保鲜膜并扎 4 个小孔</li><li>水开后中小火蒸 10min，关火焖 3min</li><li>淋蒸鱼豉油 8ml，撒葱花</li></ol></div></div>
         <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">蛋液过筛并盖膜，表面才平整细嫩</div></div></div>
       </div>
@@ -472,7 +493,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
         <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼A</i><i>12min</i></div>
       </summary>
       <div class="body">
-        <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 300个　菜脯 100g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">油、葱、白胡椒</div></div><div class="row"><div class="k">营 养</div><div class="v"><span class="nk">152 kcal</span> · 蛋白 12.3g · 脂肪 9.3g · 碳水 5.1g · 纤维 0.6g · 钠 656mg<span class="nsub">（每人，整锅÷3.35）</span></div></div>
+        <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 300g　菜脯 100g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">油、葱、白胡椒</div></div><div class="row"><div class="k">营 养</div><div class="v"><span class="nk">152 kcal</span> · 蛋白 12.3g · 脂肪 9.3g · 碳水 5.1g · 纤维 0.6g · 钠 656mg<span class="nsub">（每人，整锅÷3.35）</span></div></div>
         <div class="row"><div class="k">做 法</div><div class="v"><ol><li>菜脯泡10分钟挤干切碎</li><li>鸡蛋打散，加菜脯碎搅匀</li><li>热锅下油（油要比炒菜多）</li><li>倒入蛋液，中火不动煎1分钟定型</li><li>翻面再煎1分钟至金黄</li><li>出锅切块</li></ol></div></div>
         <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">油要够，蛋才蓬；火不能大，大了外焦里生</div></div></div>
       </div>
@@ -608,7 +629,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
         <div class="meta"><i>3岁可吃</i><i>做</i><i>灶眼B</i><i>20min</i></div>
       </summary>
       <div class="body">
-        <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 200个　老豆腐 400g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">卤汁</div></div><div class="row"><div class="k">营 养</div><div class="v"><span class="nk">183 kcal</span> · 蛋白 15.7g · 脂肪 11.5g · 碳水 5.5g · 纤维 0.0g · 钠 85mg<span class="nsub">（每人，整锅÷3.35）</span></div></div>
+        <div class="row"><div class="k">主 料</div><div class="v">鸡蛋 200g　老豆腐 400g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">卤汁</div></div><div class="row"><div class="k">营 养</div><div class="v"><span class="nk">183 kcal</span> · 蛋白 15.7g · 脂肪 11.5g · 碳水 5.5g · 纤维 0.0g · 钠 85mg<span class="nsub">（每人，整锅÷3.35）</span></div></div>
         <div class="row"><div class="k">做 法</div><div class="v"><ol><li>鸡蛋提前冷水下锅煮 8min，过冷水剥壳</li><li>豆腐切 2cm 厚片，厨房纸吸干（可先煎一下更不易散）</li><li>卤汁烧开后下二者，小火 15min</li><li>关火后继续泡着，越泡越入味</li></ol></div></div>
         <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">与卤鹅同锅，零额外成本；卤蛋是 3 岁的保底菜</div></div></div>
       </div>
@@ -620,7 +641,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
         <div class="meta"><i>炒</i><i>灶眼B</i><i>15min</i></div>
       </summary>
       <div class="body">
-        <div class="row"><div class="k">主 料</div><div class="v">虾仁 300g　鸡蛋 300个</div></div><div class="row"><div class="k">调 料</div><div class="v dim">油、盐、白胡椒、葱、生粉</div></div><div class="row"><div class="k">营 养</div><div class="v"><span class="nk">327 kcal</span> · 蛋白 30.5g · 脂肪 9.8g · 碳水 29.5g · 纤维 0.1g · 钠 525mg<span class="nsub">（每人，整锅÷3.35）</span></div></div>
+        <div class="row"><div class="k">主 料</div><div class="v">虾仁 300g　鸡蛋 300g</div></div><div class="row"><div class="k">调 料</div><div class="v dim">油、盐、白胡椒、葱、生粉</div></div><div class="row"><div class="k">营 养</div><div class="v"><span class="nk">327 kcal</span> · 蛋白 30.5g · 脂肪 9.8g · 碳水 29.5g · 纤维 0.1g · 钠 525mg<span class="nsub">（每人，整锅÷3.35）</span></div></div>
         <div class="row"><div class="k">做 法</div><div class="v"><ol><li>虾仁用生粉 5g 和水 10ml 抓匀腌 8min</li><li>番茄切块，热锅下油炒 3min 至出汁</li><li>虾仁下锅炒 90 秒至刚变红，推到锅边</li><li>鸡蛋打散加盐 2g，倒入后用锅铲推 60 秒至半凝固</li><li>与番茄虾仁合炒 30 秒，撒葱花</li></ol></div></div>
         <div class="row"><div class="k">关 键</div><div class="v"><div class="tip">蛋液半凝固就关火，余温会把滑蛋收熟</div></div></div>
       </div>
@@ -727,7 +748,7 @@ ol li{margin-bottom:5px;line-height:1.5;}
     <div class="daynav"><a href="#d6">← 周六</a></div>
   </section>
   <div class="foot">点菜品标题可收起 / 展开　·　青菜永远是最后 3 分钟做<br>
-  <span style="color:#d0d0cc">更新于 2026-11-07 07:01</span></div>
+  <span style="color:#d0d0cc">更新于 2026-11-10 20:52</span></div>
 </div>
 
 <script>
@@ -789,6 +810,25 @@ ol li{margin-bottom:5px;line-height:1.5;}
 if('serviceWorker' in navigator){
   navigator.serviceWorker.register('../sw.js', {updateViaCache:'none'}).catch(function(){});
 }
+</script>
+<script>
+/* 顶栏刷新：这一页是静态生成的，刷新即重新拉取云端并重载 */
+(function(){
+  var b = document.getElementById('tbRf');
+  if(!b) return;
+  b.onclick = function(ev){
+    ev.preventDefault();
+    if(window.RBSYNC && RBSYNC.pullNow){
+      b.classList.add('busy'); b.textContent = '刷新中…';
+      RBSYNC.pullNow().then(function(){ location.reload(); }).catch(function(){
+        b.classList.remove('busy'); b.textContent = '刷新失败';
+        setTimeout(function(){ b.textContent = '↻ 刷新'; }, 1500);
+      });
+    } else {
+      location.reload();
+    }
+  };
+})();
 </script>
 <script>
 /* 下载 PDF：点击后转圈；浏览器开始下载就恢复（无法精确感知，用超时兜底） */
