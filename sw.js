@@ -1,4 +1,4 @@
-const VER = '20261109101139';
+const VER = '20261110101158';
 const CACHE = 'rb-' + VER;
 
 const PRECACHE = [
