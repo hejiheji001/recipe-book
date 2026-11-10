@@ -136,7 +136,7 @@ def measure(it, units, name):
     try:
         pv = it.get("per")
         if pv not in ("", None):
-            per, src = float(pv), "自填每包"
+            per, src = float(pv), "自填每" + str(it.get("unit") or "包")
     except (TypeError, ValueError):
         per = None
     if not per:
