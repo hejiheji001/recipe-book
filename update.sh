@@ -55,7 +55,10 @@ mkdir -p "$HERE/week"
 [ -n "$OVER" ]  && cp "$OVER"  "$HERE/week/overview.pdf"
 [ -n "$SHOP" ]  && cp "$SHOP"  "$HERE/week/shopping.csv"
 # 采购清单页（含本周调料，按本机库存现场计算）
-WY="$ROOT/recipes/W$(echo $CODE | sed -E 's/^W([0-9]+)-.*/\1/').yaml"
+# 周代号两种：W1-11-02（手写 W1.yaml） / auto-D1116-11-16（build_all --roll 生成 auto-D1116.yaml）
+STEM=$(echo "$CODE" | sed -E 's/-[0-9]{2}-[0-9]{2}$//')
+WY="$ROOT/recipes/$STEM.yaml"
+
 [ -n "$SHOP" ] && python3 "$ROOT/scripts/build_shopping_html.py" \
     "$SHOP" "$HERE/week/shopping.html" "$CODE" "$WY"
 
