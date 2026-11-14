@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-14T18:35:00",
+ "generated": "2026-11-14T18:44:21",
  "quantity_basis": "单人 8 天份 · 11/15 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/15",
@@ -172,12 +172,12 @@
  ],
  "default_store": "ALDI",
  "stores": [
-  "ICELAND",
-  "WAITROSE",
-  "TESCO",
-  "SAINSBURYS",
+  "ALDI",
   "MORRISONS",
-  "ALDI"
+  "TESCO",
+  "ICELAND",
+  "SAINSBURYS",
+  "WAITROSE"
  ],
  "store_labels": {
   "ALDI": "Aldi",
@@ -1149,13 +1149,13 @@
    "name": "火鸡肉",
    "name_display": "火鸡肉",
    "packs": 1,
-   "pack_size": "6.3 kg",
-   "name_en": "Large British Turkey",
-   "name_short": "Large Turkey",
+   "pack_size": "375 g",
+   "name_en": "British Turkey Breast Steaks 2% Fat",
+   "name_short": "Turkey Breast Steaks 2% Fat",
    "brand": "ASHFIELDS",
-   "unit_price_gbp": 18.99,
-   "line_total_gbp": 18.99,
-   "buy_qty": 6300.0,
+   "unit_price_gbp": 3.69,
+   "line_total_gbp": 3.69,
+   "buy_qty": 375.0,
    "buy_unit": "g",
    "used_on": [
     "11/19",
@@ -1163,13 +1163,13 @@
    ],
    "note": "",
    "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/ashfields-large-british-turkey-000000000000468455",
+   "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-breast-steaks-2-fat-000000000000387722",
    "product": {
-    "name": "Large British Turkey",
+    "name": "British Turkey Breast Steaks 2% Fat",
     "brand": "ASHFIELDS",
-    "size": "6.3 kg",
-    "price_gbp": 18.99,
-    "link": "https://www.aldi.co.uk/product/ashfields-large-british-turkey-000000000000468455"
+    "size": "375 g",
+    "price_gbp": 3.69,
+    "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-breast-steaks-2-fat-000000000000387722"
    }
   },
   {
@@ -1418,7 +1418,7 @@
   }
  ],
  "batches": [],
- "total_gbp": 109.56,
+ "total_gbp": 94.26,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -2292,13 +2292,13 @@
      "name": "火鸡肉",
      "name_display": "火鸡肉",
      "packs": 1,
-     "pack_size": "6.3 kg",
-     "name_en": "Large British Turkey",
-     "name_short": "Large Turkey",
+     "pack_size": "375 g",
+     "name_en": "British Turkey Breast Steaks 2% Fat",
+     "name_short": "Turkey Breast Steaks 2% Fat",
      "brand": "ASHFIELDS",
-     "unit_price_gbp": 18.99,
-     "line_total_gbp": 18.99,
-     "buy_qty": 6300.0,
+     "unit_price_gbp": 3.69,
+     "line_total_gbp": 3.69,
+     "buy_qty": 375.0,
      "buy_unit": "g",
      "used_on": [
       "11/19",
@@ -2306,13 +2306,13 @@
      ],
      "note": "",
      "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/ashfields-large-british-turkey-000000000000468455",
+     "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-breast-steaks-2-fat-000000000000387722",
      "product": {
-      "name": "Large British Turkey",
+      "name": "British Turkey Breast Steaks 2% Fat",
       "brand": "ASHFIELDS",
-      "size": "6.3 kg",
-      "price_gbp": 18.99,
-      "link": "https://www.aldi.co.uk/product/ashfields-large-british-turkey-000000000000468455"
+      "size": "375 g",
+      "price_gbp": 3.69,
+      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-breast-steaks-2-fat-000000000000387722"
      }
     },
     {
@@ -2534,7 +2534,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 101.91,
+   "total_gbp": 86.61,
    "missing": [
     "火龙果",
     "肉桂粉",
@@ -2549,10 +2549,10 @@
     "番茄丁"
    ],
    "coverage": 0.9048,
-   "vs_recommend_gbp": 35.51,
+   "vs_recommend_gbp": 21.07,
    "vs_recommend_common_n": 39,
-   "vs_recommend_store_gbp": 101.91,
-   "vs_recommend_rec_gbp": 66.4,
+   "vs_recommend_store_gbp": 86.61,
+   "vs_recommend_rec_gbp": 65.54,
    "vs_recommend_missing": 4
   },
   "SAINSBURYS": {
@@ -3485,13 +3485,13 @@
      "name": "火鸡肉",
      "name_display": "火鸡肉",
      "packs": 1,
-     "pack_size": "250g",
-     "name_en": "Sainsbury's British Turkey Breast Fillets 250g",
-     "name_short": "Sainsbury's Turkey Breast Fillets",
+     "pack_size": "600g",
+     "name_en": "Sainsbury's British Turkey Breast Steaks 600g",
+     "name_short": "Sainsbury's Turkey Breast Steaks",
      "brand": "Sainsbury's",
-     "unit_price_gbp": 3.5,
-     "line_total_gbp": 3.5,
-     "buy_qty": 250.0,
+     "unit_price_gbp": 6.5,
+     "line_total_gbp": 6.5,
+     "buy_qty": 600.0,
      "buy_unit": "g",
      "used_on": [
       "11/19",
@@ -3499,13 +3499,13 @@
      ],
      "note": "",
      "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-turkey-breast-fillets-250g",
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-turkey-breast-steaks-600g",
      "product": {
-      "name": "Sainsbury's British Turkey Breast Fillets 250g",
+      "name": "Sainsbury's British Turkey Breast Steaks 600g",
       "brand": "Sainsbury's",
-      "size": "250g",
-      "price_gbp": 3.5,
-      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-turkey-breast-fillets-250g"
+      "size": "600g",
+      "price_gbp": 6.5,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-turkey-breast-steaks-600g"
      }
     },
     {
@@ -3754,7 +3754,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 118.35,
+   "total_gbp": 121.35,
    "missing": [
     "火龙果"
    ],
@@ -3763,10 +3763,10 @@
     "火龙果"
    ],
    "coverage": 0.9762,
-   "vs_recommend_gbp": 43.45,
+   "vs_recommend_gbp": 50.03,
    "vs_recommend_common_n": 42,
-   "vs_recommend_store_gbp": 118.35,
-   "vs_recommend_rec_gbp": 74.9,
+   "vs_recommend_store_gbp": 121.35,
+   "vs_recommend_rec_gbp": 71.32,
    "vs_recommend_missing": 1
   },
   "ICELAND": {
@@ -4470,34 +4470,6 @@
     },
     {
      "category": "肉类",
-     "name": "火鸡肉",
-     "name_display": "火鸡肉",
-     "packs": 1,
-     "pack_size": "2.8kg",
-     "name_en": "Iceland Luxury Perfect Turkey 2.8kg",
-     "name_short": "Iceland Luxury Perfect Turkey",
-     "brand": "Iceland",
-     "unit_price_gbp": 40.0,
-     "line_total_gbp": 40.0,
-     "buy_qty": 2800.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/19",
-      "11/21"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/iceland-luxury-perfect-turkey-2.8kg/81725.html",
-     "product": {
-      "name": "Iceland Luxury Perfect Turkey 2.8kg",
-      "brand": "Iceland",
-      "size": "2.8kg",
-      "price_gbp": 40.0,
-      "link": "https://www.iceland.co.uk/p/iceland-luxury-perfect-turkey-2.8kg/81725.html"
-     }
-    },
-    {
-     "category": "肉类",
      "name": "鸡肉",
      "name_display": "鸡肉",
      "packs": 1,
@@ -4688,7 +4660,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 153.63,
+   "total_gbp": 113.63,
    "missing": [
     "火龙果",
     "烘焙麦片",
@@ -4699,6 +4671,7 @@
     "罗勒",
     "亚麻籽粉",
     "欧芹",
+    "火鸡肉",
     "椰蓉",
     "番茄丁"
    ],
@@ -4713,15 +4686,16 @@
     "罗勒",
     "亚麻籽粉",
     "欧芹",
+    "火鸡肉",
     "椰蓉",
     "番茄丁"
    ],
-   "coverage": 0.7381,
-   "vs_recommend_gbp": 104.7,
-   "vs_recommend_common_n": 32,
-   "vs_recommend_store_gbp": 153.63,
-   "vs_recommend_rec_gbp": 48.93,
-   "vs_recommend_missing": 11
+   "coverage": 0.7143,
+   "vs_recommend_gbp": 69.41,
+   "vs_recommend_common_n": 31,
+   "vs_recommend_store_gbp": 113.63,
+   "vs_recommend_rec_gbp": 44.22,
+   "vs_recommend_missing": 12
   },
   "TESCO": {
    "store": "TESCO",
@@ -5680,13 +5654,13 @@
      "name": "火鸡肉",
      "name_display": "火鸡肉",
      "packs": 1,
-     "pack_size": "6kg",
-     "name_en": "Grove Farm Air Frozen Turkey 6Kg",
-     "name_short": "Grove Farm Air Frozen Turkey",
-     "brand": "GROVE FARM",
-     "unit_price_gbp": 26.5,
-     "line_total_gbp": 26.5,
-     "buy_qty": 6000.0,
+     "pack_size": "380g",
+     "name_en": "Tesco British Turkey Breast Steaks 380G",
+     "name_short": "Tesco Turkey Breast Steaks",
+     "brand": "TESCO",
+     "unit_price_gbp": 4.75,
+     "line_total_gbp": 4.75,
+     "buy_qty": 380.0,
      "buy_unit": "g",
      "used_on": [
       "11/19",
@@ -5694,13 +5668,13 @@
      ],
      "note": "",
      "bean_form": null,
-     "link": "https://www.tesco.com/shop/en-GB/products/268555192",
+     "link": "https://www.tesco.com/shop/en-GB/products/313609695",
      "product": {
-      "name": "Grove Farm Air Frozen Turkey 6Kg",
-      "brand": "GROVE FARM",
-      "size": "6kg",
-      "price_gbp": 26.5,
-      "link": "https://www.tesco.com/shop/en-GB/products/268555192"
+      "name": "Tesco British Turkey Breast Steaks 380G",
+      "brand": "TESCO",
+      "size": "380g",
+      "price_gbp": 4.75,
+      "link": "https://www.tesco.com/shop/en-GB/products/313609695"
      }
     },
     {
@@ -5949,15 +5923,15 @@
     }
    ],
    "batches": [],
-   "total_gbp": 135.32,
+   "total_gbp": 113.57,
    "missing": [],
    "pantry_missing": [],
    "unavailable": [],
    "coverage": 1.0,
-   "vs_recommend_gbp": 56.42,
+   "vs_recommend_gbp": 39.1,
    "vs_recommend_common_n": 43,
-   "vs_recommend_store_gbp": 135.32,
-   "vs_recommend_rec_gbp": 78.9,
+   "vs_recommend_store_gbp": 113.57,
+   "vs_recommend_rec_gbp": 74.47,
    "vs_recommend_missing": 0
   },
   "MORRISONS": {
@@ -6917,13 +6891,13 @@
      "name": "火鸡肉",
      "name_display": "火鸡肉",
      "packs": 1,
-     "pack_size": "1.6kg",
-     "name_en": "Morrisons Britsh Turkey Leg 1.6kg",
-     "name_short": "Morrisons Britsh Turkey Leg",
+     "pack_size": "300g",
+     "name_en": "Morrisons British Turkey Breast Steaks 300g",
+     "name_short": "Morrisons Turkey Breast Steaks",
      "brand": "Morrisons",
-     "unit_price_gbp": 6.5,
-     "line_total_gbp": 6.5,
-     "buy_qty": 1600.0,
+     "unit_price_gbp": 4.5,
+     "line_total_gbp": 4.5,
+     "buy_qty": 300.0,
      "buy_unit": "g",
      "used_on": [
       "11/19",
@@ -6931,13 +6905,13 @@
      ],
      "note": "",
      "bean_form": null,
-     "link": "https://groceries.morrisons.com/products/115276904",
+     "link": "https://groceries.morrisons.com/products/115316831",
      "product": {
-      "name": "Morrisons Britsh Turkey Leg 1.6kg",
+      "name": "Morrisons British Turkey Breast Steaks 300g",
       "brand": "Morrisons",
-      "size": "1.6kg",
-      "price_gbp": 6.5,
-      "link": "https://groceries.morrisons.com/products/115276904"
+      "size": "300g",
+      "price_gbp": 4.5,
+      "link": "https://groceries.morrisons.com/products/115316831"
      }
     },
     {
@@ -7186,15 +7160,15 @@
     }
    ],
    "batches": [],
-   "total_gbp": 111.97,
+   "total_gbp": 109.97,
    "missing": [],
    "pantry_missing": [],
    "unavailable": [],
    "coverage": 1.0,
-   "vs_recommend_gbp": 33.07,
+   "vs_recommend_gbp": 35.5,
    "vs_recommend_common_n": 43,
-   "vs_recommend_store_gbp": 111.97,
-   "vs_recommend_rec_gbp": 78.9,
+   "vs_recommend_store_gbp": 109.97,
+   "vs_recommend_rec_gbp": 74.47,
    "vs_recommend_missing": 0
   },
   "WAITROSE": {
@@ -8150,34 +8124,6 @@
      }
     },
     {
-     "category": "肉类",
-     "name": "火鸡肉",
-     "name_display": "火鸡肉罐头",
-     "packs": 1,
-     "pack_size": "350g",
-     "name_en": "Gilbert's Turkey Hot Dogs",
-     "name_short": "Gilbert's Turkey Hot Dogs",
-     "brand": "Gilbert's",
-     "unit_price_gbp": 6.35,
-     "line_total_gbp": 6.35,
-     "buy_qty": 350.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/19",
-      "11/21"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.waitrose.com/ecom/products/gilberts-turkey-hot-dogs/830166-736012-736013",
-     "product": {
-      "name": "Gilbert's Turkey Hot Dogs",
-      "brand": "Gilbert's",
-      "size": "350g",
-      "price_gbp": 6.35,
-      "link": "https://www.waitrose.com/ecom/products/gilberts-turkey-hot-dogs/830166-736012-736013"
-     }
-    },
-    {
      "category": "干货",
      "name": "椰蓉",
      "name_display": "椰蓉",
@@ -8423,42 +8369,46 @@
     }
    ],
    "batches": [],
-   "total_gbp": 143.3,
-   "missing": [],
+   "total_gbp": 136.95,
+   "missing": [
+    "火鸡肉"
+   ],
    "pantry_missing": [],
-   "unavailable": [],
-   "coverage": 1.0,
-   "vs_recommend_gbp": 64.4,
-   "vs_recommend_common_n": 43,
-   "vs_recommend_store_gbp": 143.3,
-   "vs_recommend_rec_gbp": 78.9,
-   "vs_recommend_missing": 0
+   "unavailable": [
+    "火鸡肉"
+   ],
+   "coverage": 0.9762,
+   "vs_recommend_gbp": 66.17,
+   "vs_recommend_common_n": 42,
+   "vs_recommend_store_gbp": 136.95,
+   "vs_recommend_rec_gbp": 70.78,
+   "vs_recommend_missing": 1
   }
  },
  "recommend": {
   "stores": [
    "ALDI",
-   "WAITROSE"
+   "TESCO"
   ],
   "labels": [
    "Aldi",
-   "Waitrose"
+   "Tesco"
   ],
   "coverage": 1.0,
   "missing": [],
   "pantry_missing": [],
-  "cost": 78.9,
+  "cost": 74.47,
   "per_store": {
    "ALDI": {
-    "subtotal": 51.15,
-    "count": 34,
+    "subtotal": 54.25,
+    "count": 33,
     "names": [
      "烘焙麦片",
      "花生酱",
      "生菜",
-     "紫甘蓝",
      "金枪鱼",
      "橄榄",
+     "大虾",
      "意大利面",
      "羽衣甘蓝",
      "柠檬",
@@ -8466,7 +8416,6 @@
      "意面",
      "鹰嘴豆泥",
      "土豆",
-     "牛肉末",
      "芦笋",
      "醋",
      "茅屋奶酪",
@@ -8475,12 +8424,12 @@
      "菲达奶酪",
      "番茄",
      "罗勒",
-     "亚麻籽粉",
      "核桃",
      "黄瓜",
      "沙拉酱",
      "菜花",
      "欧芹",
+     "火鸡肉",
      "椰蓉",
      "鸡肉",
      "薄荷",
@@ -8577,35 +8526,6 @@
       }
      },
      {
-      "category": "蔬菜",
-      "name": "紫甘蓝",
-      "name_display": "紫甘蓝罐头",
-      "packs": 1,
-      "pack_size": "440 g",
-      "name_en": "Red Cabbage",
-      "name_short": "Red Cabbage",
-      "brand": "THE DELI",
-      "unit_price_gbp": 1.19,
-      "line_total_gbp": 1.19,
-      "buy_qty": 440.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/15",
-       "11/16",
-       "11/19"
-      ],
-      "note": "",
-      "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515",
-      "product": {
-       "name": "Red Cabbage",
-       "brand": "THE DELI",
-       "size": "440 g",
-       "price_gbp": 1.19,
-       "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515"
-      }
-     },
-     {
       "category": "水产",
       "name": "金枪鱼",
       "name_display": "金枪鱼罐头",
@@ -8660,6 +8580,34 @@
        "size": "170 g",
        "price_gbp": 0.89,
        "link": "https://www.aldi.co.uk/product/the-deli-green-spanish-olives-pitted-320g-000000000658174001"
+      }
+     },
+     {
+      "category": "水产",
+      "name": "大虾",
+      "name_display": "大虾",
+      "packs": 2,
+      "pack_size": "250 g",
+      "name_en": "Frozen Deepwater Prawns",
+      "name_short": "Frozen Deepwater Prawns",
+      "brand": "THE FISHMONGER",
+      "unit_price_gbp": 2.79,
+      "line_total_gbp": 5.58,
+      "buy_qty": 250.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/15",
+       "11/19"
+      ],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.aldi.co.uk/product/the-fishmonger-frozen-deepwater-prawns-000000000000677403",
+      "product": {
+       "name": "Frozen Deepwater Prawns",
+       "brand": "THE FISHMONGER",
+       "size": "250 g",
+       "price_gbp": 2.79,
+       "link": "https://www.aldi.co.uk/product/the-fishmonger-frozen-deepwater-prawns-000000000000677403"
       }
      },
      {
@@ -8869,36 +8817,6 @@
        "size": "1 kg",
        "price_gbp": 0.49,
        "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748"
-      }
-     },
-     {
-      "category": "肉类",
-      "name": "牛肉末",
-      "name_display": "牛肉末",
-      "packs": 1,
-      "pack_size": "500 g",
-      "name_en": "Beef Mince 25% Fat",
-      "name_short": "Beef Mince 25% Fat",
-      "brand": "EVERYDAY ESSENTIALS",
-      "unit_price_gbp": 3.19,
-      "line_total_gbp": 3.19,
-      "buy_qty": 500.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/09",
-       "11/13",
-       "11/16",
-       "11/21"
-      ],
-      "note": "",
-      "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030",
-      "product": {
-       "name": "Beef Mince 25% Fat",
-       "brand": "EVERYDAY ESSENTIALS",
-       "size": "500 g",
-       "price_gbp": 3.19,
-       "link": "https://www.aldi.co.uk/product/everyday-essentials-beef-mince-25-fat-000000000000576030"
       }
      },
      {
@@ -9134,34 +9052,6 @@
      },
      {
       "category": "干货",
-      "name": "亚麻籽粉",
-      "name_display": "亚麻籽粉",
-      "packs": 1,
-      "pack_size": "200 g",
-      "name_en": "Flaxseed",
-      "name_short": "Flaxseed",
-      "brand": "THE FOODIE MARKET",
-      "unit_price_gbp": 1.79,
-      "line_total_gbp": 1.79,
-      "buy_qty": 200.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/18",
-       "11/22"
-      ],
-      "note": "",
-      "bean_form": null,
-      "link": "https://www.aldi.co.uk/product/the-foodie-market-flaxseed-000000000386021002",
-      "product": {
-       "name": "Flaxseed",
-       "brand": "THE FOODIE MARKET",
-       "size": "200 g",
-       "price_gbp": 1.79,
-       "link": "https://www.aldi.co.uk/product/the-foodie-market-flaxseed-000000000386021002"
-      }
-     },
-     {
-      "category": "干货",
       "name": "核桃",
       "name_display": "核桃",
       "packs": 1,
@@ -9297,6 +9187,34 @@
        "size": "30 g",
        "price_gbp": 0.5,
        "link": "https://www.aldi.co.uk/product/ready-set-cook-cut-parsley-000000000000339820"
+      }
+     },
+     {
+      "category": "肉类",
+      "name": "火鸡肉",
+      "name_display": "火鸡肉",
+      "packs": 1,
+      "pack_size": "375 g",
+      "name_en": "British Turkey Breast Steaks 2% Fat",
+      "name_short": "Turkey Breast Steaks 2% Fat",
+      "brand": "ASHFIELDS",
+      "unit_price_gbp": 3.69,
+      "line_total_gbp": 3.69,
+      "buy_qty": 375.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/19",
+       "11/21"
+      ],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-breast-steaks-2-fat-000000000000387722",
+      "product": {
+       "name": "British Turkey Breast Steaks 2% Fat",
+       "brand": "ASHFIELDS",
+       "size": "375 g",
+       "price_gbp": 3.69,
+       "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-breast-steaks-2-fat-000000000000387722"
       }
      },
      {
@@ -9464,16 +9382,17 @@
      }
     ]
    },
-   "WAITROSE": {
-    "subtotal": 27.75,
-    "count": 9,
+   "TESCO": {
+    "subtotal": 20.22,
+    "count": 10,
     "names": [
      "火龙果",
      "肉桂粉",
+     "紫甘蓝",
      "芝麻酱",
-     "大虾",
      "高汤",
-     "火鸡肉",
+     "牛肉末",
+     "亚麻籽粉",
      "番茄丁",
      "牛奶",
      "半脱脂奶"
@@ -9484,12 +9403,12 @@
       "name": "火龙果",
       "name_display": "火龙果",
       "packs": 1,
-      "pack_size": "个",
-      "name_en": "Waitrose Dragon Fruit",
-      "name_short": "Waitrose Dragon Fruit",
-      "brand": "Waitrose Ltd",
-      "unit_price_gbp": 4.0,
-      "line_total_gbp": 4.0,
+      "pack_size": "nan",
+      "name_en": "Tesco Dragon Fruit Each",
+      "name_short": "Tesco Dragon Fruit Each",
+      "brand": "TESCO",
+      "unit_price_gbp": 3.15,
+      "line_total_gbp": 3.15,
       "buy_qty": "",
       "buy_unit": "个",
       "used_on": [
@@ -9497,13 +9416,13 @@
       ],
       "note": "",
       "bean_form": null,
-      "link": "https://www.waitrose.com/ecom/products/waitrose-dragon-fruit/807731-745996-745997",
+      "link": "https://www.tesco.com/shop/en-GB/products/251627813",
       "product": {
-       "name": "Waitrose Dragon Fruit",
-       "brand": "Waitrose Ltd",
-       "size": "Each",
-       "price_gbp": 4.0,
-       "link": "https://www.waitrose.com/ecom/products/waitrose-dragon-fruit/807731-745996-745997"
+       "name": "Tesco Dragon Fruit Each",
+       "brand": "TESCO",
+       "size": "nan",
+       "price_gbp": 3.15,
+       "link": "https://www.tesco.com/shop/en-GB/products/251627813"
       }
      },
      {
@@ -9511,13 +9430,13 @@
       "name": "肉桂粉",
       "name_display": "肉桂粉",
       "packs": 1,
-      "pack_size": "39g",
-      "name_en": "Bart Ground Cinnamon",
-      "name_short": "Bart Ground Cinnamon",
-      "brand": "Bart",
-      "unit_price_gbp": 1.65,
-      "line_total_gbp": 1.65,
-      "buy_qty": 39.0,
+      "pack_size": "36g",
+      "name_en": "Tesco Ground Sweet Cinnamon 36g",
+      "name_short": "Tesco Ground Sweet Cinnamon",
+      "brand": "TESCO",
+      "unit_price_gbp": 1.0,
+      "line_total_gbp": 1.0,
+      "buy_qty": 36.0,
       "buy_unit": "g",
       "used_on": [
        "11/15",
@@ -9527,13 +9446,42 @@
       ],
       "note": "",
       "bean_form": null,
-      "link": "https://www.waitrose.com/ecom/products/bart-ground-cinnamon/415484-810362-810363",
+      "link": "https://www.tesco.com/shop/en-GB/products/316308522",
       "product": {
-       "name": "Bart Ground Cinnamon",
-       "brand": "Bart",
-       "size": "39g",
-       "price_gbp": 1.65,
-       "link": "https://www.waitrose.com/ecom/products/bart-ground-cinnamon/415484-810362-810363"
+       "name": "Tesco Ground Sweet Cinnamon 36g",
+       "brand": "TESCO",
+       "size": "36g",
+       "price_gbp": 1.0,
+       "link": "https://www.tesco.com/shop/en-GB/products/316308522"
+      }
+     },
+     {
+      "category": "蔬菜",
+      "name": "紫甘蓝",
+      "name_display": "紫甘蓝",
+      "packs": 1,
+      "pack_size": "nan",
+      "name_en": "Tesco Red Cabbage Each",
+      "name_short": "Tesco Red Cabbage Each",
+      "brand": "TESCO",
+      "unit_price_gbp": 0.89,
+      "line_total_gbp": 0.89,
+      "buy_qty": "",
+      "buy_unit": "个",
+      "used_on": [
+       "11/15",
+       "11/16",
+       "11/19"
+      ],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.tesco.com/shop/en-GB/products/294070184",
+      "product": {
+       "name": "Tesco Red Cabbage Each",
+       "brand": "TESCO",
+       "size": "nan",
+       "price_gbp": 0.89,
+       "link": "https://www.tesco.com/shop/en-GB/products/294070184"
       }
      },
      {
@@ -9541,13 +9489,13 @@
       "name": "芝麻酱",
       "name_display": "芝麻酱",
       "packs": 1,
-      "pack_size": "300g",
-      "name_en": "Cooks' Ingredients Tahini",
-      "name_short": "Cooks' Ingredients Tahini",
-      "brand": "Waitrose Ltd",
-      "unit_price_gbp": 3.35,
-      "line_total_gbp": 3.35,
-      "buy_qty": 300.0,
+      "pack_size": "500g",
+      "name_en": "Baracke Tahini 500G",
+      "name_short": "Baracke Tahini",
+      "brand": "Baracke",
+      "unit_price_gbp": 4.35,
+      "line_total_gbp": 4.35,
+      "buy_qty": 500.0,
       "buy_unit": "g",
       "used_on": [
        "11/15",
@@ -9555,41 +9503,13 @@
       ],
       "note": "",
       "bean_form": null,
-      "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-tahini/644929-312347-312348",
+      "link": "https://www.tesco.com/shop/en-GB/products/297412219",
       "product": {
-       "name": "Cooks' Ingredients Tahini",
-       "brand": "Waitrose Ltd",
-       "size": "300g",
-       "price_gbp": 3.35,
-       "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-tahini/644929-312347-312348"
-      }
-     },
-     {
-      "category": "水产",
-      "name": "大虾",
-      "name_display": "大虾",
-      "packs": 1,
-      "pack_size": "250g",
-      "name_en": "Waitrose Essential ASC Raw King Prawns",
-      "name_short": "Waitrose Essential ASC Raw King Prawns",
-      "brand": "Waitrose Ltd",
-      "unit_price_gbp": 4.5,
-      "line_total_gbp": 4.5,
-      "buy_qty": 250.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/15",
-       "11/19"
-      ],
-      "note": "",
-      "bean_form": null,
-      "link": "https://www.waitrose.com/ecom/products/waitrose-essential-asc-raw-king-prawns/556370-827320-827321",
-      "product": {
-       "name": "Waitrose Essential ASC Raw King Prawns",
-       "brand": "Waitrose Ltd",
-       "size": "250g",
-       "price_gbp": 4.5,
-       "link": "https://www.waitrose.com/ecom/products/waitrose-essential-asc-raw-king-prawns/556370-827320-827321"
+       "name": "Baracke Tahini 500G",
+       "brand": "Baracke",
+       "size": "500g",
+       "price_gbp": 4.35,
+       "link": "https://www.tesco.com/shop/en-GB/products/297412219"
       }
      },
      {
@@ -9598,51 +9518,81 @@
       "name_display": "高汤",
       "packs": 1,
       "pack_size": "500ml",
-      "name_en": "Oxo Signature Chicken Stock",
-      "name_short": "Oxo Signature Chicken Stock",
-      "brand": "Oxo",
-      "unit_price_gbp": 2.0,
-      "line_total_gbp": 2.0,
+      "name_en": "Potts Chicken Stock 500Ml",
+      "name_short": "Potts Chicken Stock",
+      "brand": "POTTS",
+      "unit_price_gbp": 2.3,
+      "line_total_gbp": 2.3,
       "buy_qty": 500.0,
       "buy_unit": "g",
       "used_on": [],
       "note": "",
       "bean_form": null,
-      "link": "https://www.waitrose.com/ecom/products/oxo-signature-chicken-stock/328672-1-2",
+      "link": "https://www.tesco.com/shop/en-GB/products/304380585",
       "product": {
-       "name": "Oxo Signature Chicken Stock",
-       "brand": "Oxo",
+       "name": "Potts Chicken Stock 500Ml",
+       "brand": "POTTS",
        "size": "500ml",
-       "price_gbp": 2.0,
-       "link": "https://www.waitrose.com/ecom/products/oxo-signature-chicken-stock/328672-1-2"
+       "price_gbp": 2.3,
+       "link": "https://www.tesco.com/shop/en-GB/products/304380585"
       }
      },
      {
       "category": "肉类",
-      "name": "火鸡肉",
-      "name_display": "火鸡肉罐头",
+      "name": "牛肉末",
+      "name_display": "牛肉末",
       "packs": 1,
-      "pack_size": "350g",
-      "name_en": "Gilbert's Turkey Hot Dogs",
-      "name_short": "Gilbert's Turkey Hot Dogs",
-      "brand": "Gilbert's",
-      "unit_price_gbp": 6.35,
-      "line_total_gbp": 6.35,
-      "buy_qty": 350.0,
+      "pack_size": "500g",
+      "name_en": "Tesco British Beef Mince 500G",
+      "name_short": "Tesco Beef Mince",
+      "brand": "TESCO REGIONAL",
+      "unit_price_gbp": 3.0,
+      "line_total_gbp": 3.0,
+      "buy_qty": 500.0,
       "buy_unit": "g",
       "used_on": [
-       "11/19",
+       "11/09",
+       "11/13",
+       "11/16",
        "11/21"
       ],
       "note": "",
       "bean_form": null,
-      "link": "https://www.waitrose.com/ecom/products/gilberts-turkey-hot-dogs/830166-736012-736013",
+      "link": "https://www.tesco.com/shop/en-GB/products/252820755",
       "product": {
-       "name": "Gilbert's Turkey Hot Dogs",
-       "brand": "Gilbert's",
-       "size": "350g",
-       "price_gbp": 6.35,
-       "link": "https://www.waitrose.com/ecom/products/gilberts-turkey-hot-dogs/830166-736012-736013"
+       "name": "Tesco British Beef Mince 500G",
+       "brand": "TESCO REGIONAL",
+       "size": "500g",
+       "price_gbp": 3.0,
+       "link": "https://www.tesco.com/shop/en-GB/products/252820755"
+      }
+     },
+     {
+      "category": "干货",
+      "name": "亚麻籽粉",
+      "name_display": "亚麻籽粉",
+      "packs": 1,
+      "pack_size": "250g",
+      "name_en": "Tesco Golden Flaxseeds 250G",
+      "name_short": "Tesco Golden Flaxseeds",
+      "brand": "TESCO",
+      "unit_price_gbp": 1.6,
+      "line_total_gbp": 1.6,
+      "buy_qty": 250.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/18",
+       "11/22"
+      ],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.tesco.com/shop/en-GB/products/276377684",
+      "product": {
+       "name": "Tesco Golden Flaxseeds 250G",
+       "brand": "TESCO",
+       "size": "250g",
+       "price_gbp": 1.6,
+       "link": "https://www.tesco.com/shop/en-GB/products/276377684"
       }
      },
      {
@@ -9650,12 +9600,12 @@
       "name": "番茄丁",
       "name_display": "番茄丁罐头",
       "packs": 1,
-      "pack_size": "4x400g",
-      "name_en": "Waitrose Finely Chopped Tomatoes",
-      "name_short": "Waitrose Finely Chopped Tomatoes",
-      "brand": "Waitrose Ltd",
-      "unit_price_gbp": 3.5,
-      "line_total_gbp": 3.5,
+      "pack_size": "400g",
+      "name_en": "Grower's Harvest Chopped Tomatoes 400G",
+      "name_short": "Grower's Harvest Chopped Tomatoes",
+      "brand": "GROWER'S HARVEST",
+      "unit_price_gbp": 0.43,
+      "line_total_gbp": 0.43,
       "buy_qty": 400.0,
       "buy_unit": "g",
       "used_on": [
@@ -9663,13 +9613,13 @@
       ],
       "note": "",
       "bean_form": null,
-      "link": "https://www.waitrose.com/ecom/products/waitrose-finely-chopped-tomatoes/955227-1-2",
+      "link": "https://www.tesco.com/shop/en-GB/products/299768716",
       "product": {
-       "name": "Waitrose Finely Chopped Tomatoes",
-       "brand": "Waitrose Ltd",
-       "size": "4x400g",
-       "price_gbp": 3.5,
-       "link": "https://www.waitrose.com/ecom/products/waitrose-finely-chopped-tomatoes/955227-1-2"
+       "name": "Grower's Harvest Chopped Tomatoes 400G",
+       "brand": "GROWER'S HARVEST",
+       "size": "400g",
+       "price_gbp": 0.43,
+       "link": "https://www.tesco.com/shop/en-GB/products/299768716"
       }
      },
      {
@@ -9677,26 +9627,26 @@
       "name": "牛奶",
       "name_display": "牛奶",
       "packs": 1,
-      "pack_size": "568ml",
-      "name_en": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-      "name_short": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-      "brand": "Waitrose Ltd",
-      "unit_price_gbp": 1.2,
-      "line_total_gbp": 1.2,
-      "buy_qty": 568.0,
+      "pack_size": "2.272l",
+      "name_en": "Tesco British Whole Milk 2.272L, 4 Pints",
+      "name_short": "Tesco Whole Milk, 4 Pints",
+      "brand": "TESCO",
+      "unit_price_gbp": 1.75,
+      "line_total_gbp": 1.75,
+      "buy_qty": 2272.0,
       "buy_unit": "g",
       "used_on": [
        "11/22"
       ],
       "note": "",
       "bean_form": null,
-      "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443",
+      "link": "https://www.tesco.com/shop/en-GB/products/254656399",
       "product": {
-       "name": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-       "brand": "Waitrose Ltd",
-       "size": "568ml",
-       "price_gbp": 1.2,
-       "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443"
+       "name": "Tesco British Whole Milk 2.272L, 4 Pints",
+       "brand": "TESCO",
+       "size": "2.272l",
+       "price_gbp": 1.75,
+       "link": "https://www.tesco.com/shop/en-GB/products/254656399"
       }
      },
      {
@@ -9704,32 +9654,32 @@
       "name": "半脱脂奶",
       "name_display": "半脱脂奶",
       "packs": 1,
-      "pack_size": "568ml",
-      "name_en": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-      "name_short": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-      "brand": "Waitrose Ltd",
-      "unit_price_gbp": 1.2,
-      "line_total_gbp": 1.2,
-      "buy_qty": 568.0,
+      "pack_size": "2.272l",
+      "name_en": "Tesco British Semi Skimmed Milk 2.272L, 4 Pints",
+      "name_short": "Tesco Semi Skimmed Milk, 4 Pints",
+      "brand": "TESCO",
+      "unit_price_gbp": 1.75,
+      "line_total_gbp": 1.75,
+      "buy_qty": 2272.0,
       "buy_unit": "g",
       "used_on": [
        "11/08"
       ],
       "note": "",
       "bean_form": null,
-      "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443",
+      "link": "https://www.tesco.com/shop/en-GB/products/254656543",
       "product": {
-       "name": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-       "brand": "Waitrose Ltd",
-       "size": "568ml",
-       "price_gbp": 1.2,
-       "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443"
+       "name": "Tesco British Semi Skimmed Milk 2.272L, 4 Pints",
+       "brand": "TESCO",
+       "size": "2.272l",
+       "price_gbp": 1.75,
+       "link": "https://www.tesco.com/shop/en-GB/products/254656543"
       }
      }
     ]
    }
   },
-  "combined_total_gbp": 78.9
+  "combined_total_gbp": 74.47
  },
  "only_at": {},
  "price_compare": [
@@ -10891,6 +10841,73 @@
     "TESCO": 500.0,
     "MORRISONS": 500.0,
     "WAITROSE": 500.0
+   }
+  },
+  {
+   "name": "火鸡肉",
+   "name_display": "火鸡肉",
+   "category": "肉类",
+   "stores": {
+    "ALDI": {
+     "price": 3.69,
+     "pack_g": 375.0,
+     "size": "375 g",
+     "per100_gbp": 0.984,
+     "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-breast-steaks-2-fat-000000000000387722",
+     "product_name": "British Turkey Breast Steaks 2% Fat",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 6.5,
+     "pack_g": 600.0,
+     "size": "600g",
+     "per100_gbp": 1.0833,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-turkey-breast-steaks-600g",
+     "product_name": "Sainsbury's British Turkey Breast Steaks 600g",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 4.75,
+     "pack_g": 380.0,
+     "size": "380g",
+     "per100_gbp": 1.25,
+     "link": "https://www.tesco.com/shop/en-GB/products/313609695",
+     "product_name": "Tesco British Turkey Breast Steaks 380G",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 4.5,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 1.5,
+     "link": "https://groceries.morrisons.com/products/115316831",
+     "product_name": "Morrisons British Turkey Breast Steaks 300g",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Morrisons",
+   "diff_per100": 0.516,
+   "diff_pct": 0.5244,
+   "spread_ratio": 1.52,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 375.0,
+    "SAINSBURYS": 600.0,
+    "TESCO": 380.0,
+    "MORRISONS": 300.0
    }
   },
   {
@@ -12346,97 +12363,6 @@
     "TESCO": 1140.0,
     "MORRISONS": 568.0,
     "WAITROSE": 568.0
-   }
-  },
-  {
-   "name": "火鸡肉",
-   "name_display": "火鸡肉",
-   "category": "肉类",
-   "stores": {
-    "ALDI": {
-     "price": 18.99,
-     "pack_g": 6300.0,
-     "size": "6.3 kg",
-     "per100_gbp": 0.3014,
-     "link": "https://www.aldi.co.uk/product/ashfields-large-british-turkey-000000000000468455",
-     "product_name": "Large British Turkey",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 3.5,
-     "pack_g": 250.0,
-     "size": "250g",
-     "per100_gbp": 1.4,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-turkey-breast-fillets-250g",
-     "product_name": "Sainsbury's British Turkey Breast Fillets 250g",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 40.0,
-     "pack_g": 2800.0,
-     "size": "2.8kg",
-     "per100_gbp": 1.4286,
-     "link": "https://www.iceland.co.uk/p/iceland-luxury-perfect-turkey-2.8kg/81725.html",
-     "product_name": "Iceland Luxury Perfect Turkey 2.8kg",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 26.5,
-     "pack_g": 6000.0,
-     "size": "6kg",
-     "per100_gbp": 0.4417,
-     "link": "https://www.tesco.com/shop/en-GB/products/268555192",
-     "product_name": "Grove Farm Air Frozen Turkey 6Kg",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 6.5,
-     "pack_g": 1600.0,
-     "size": "1.6kg",
-     "per100_gbp": 0.4062,
-     "link": "https://groceries.morrisons.com/products/115276904",
-     "product_name": "Morrisons Britsh Turkey Leg 1.6kg",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 6.35,
-     "pack_g": 350.0,
-     "size": "350g",
-     "per100_gbp": 1.8143,
-     "link": "https://www.waitrose.com/ecom/products/gilberts-turkey-hot-dogs/830166-736012-736013",
-     "product_name": "Gilbert's Turkey Hot Dogs",
-     "category": "肉类",
-     "form": "raw",
-     "canned": true
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Waitrose",
-   "diff_per100": 1.5129,
-   "diff_pct": 5.0196,
-   "spread_ratio": 6.02,
-   "suspect": true,
-   "sizes_g": {
-    "ALDI": 6300.0,
-    "SAINSBURYS": 250.0,
-    "ICELAND": 2800.0,
-    "TESCO": 6000.0,
-    "MORRISONS": 1600.0,
-    "WAITROSE": 350.0
    }
   },
   {
