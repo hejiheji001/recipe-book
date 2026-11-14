@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-14T18:44:21",
+ "generated": "2026-11-14T19:08:00",
  "quantity_basis": "单人 8 天份 · 11/15 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/15",
@@ -177,7 +177,8 @@
   "TESCO",
   "ICELAND",
   "SAINSBURYS",
-  "WAITROSE"
+  "WAITROSE",
+  "MARKS & SPENCER"
  ],
  "store_labels": {
   "ALDI": "Aldi",
@@ -185,14 +186,11 @@
   "ICELAND": "Iceland",
   "TESCO": "Tesco",
   "MORRISONS": "Morrisons",
-  "WAITROSE": "Waitrose"
- },
- "unpriced_stores": [
-  "MARKS & SPENCER"
- ],
- "unpriced_labels": {
+  "WAITROSE": "Waitrose",
   "MARKS & SPENCER": "M&S"
  },
+ "unpriced_stores": [],
+ "unpriced_labels": {},
  "exclusive": [],
  "exclusive_note": "",
  "items": [
@@ -8383,6 +8381,1216 @@
    "vs_recommend_store_gbp": 136.95,
    "vs_recommend_rec_gbp": 70.78,
    "vs_recommend_missing": 1
+  },
+  "MARKS & SPENCER": {
+   "store": "MARKS & SPENCER",
+   "store_label": "M&S",
+   "items": [
+    {
+     "category": "水果",
+     "name": "火龙果",
+     "name_display": "火龙果",
+     "packs": 1,
+     "pack_size": "300 g",
+     "name_en": "Dragon Fruit",
+     "name_short": "Dragon Fruit",
+     "brand": NaN,
+     "unit_price_gbp": 4.25,
+     "line_total_gbp": 4.25,
+     "buy_qty": 300.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/dragon-fruit/p/fdp21005916",
+     "product": {
+      "name": "Dragon Fruit",
+      "brand": NaN,
+      "size": "300 g",
+      "price_gbp": 4.25,
+      "link": "https://www.marksandspencer.com/food/dragon-fruit/p/fdp21005916"
+     }
+    },
+    {
+     "category": "主食",
+     "name": "烘焙麦片",
+     "name_display": "烘焙麦片",
+     "packs": 1,
+     "pack_size": "1 kg",
+     "name_en": "Raisin and Almond Granola",
+     "name_short": "Raisin and Almond Granola",
+     "brand": NaN,
+     "unit_price_gbp": 2.95,
+     "line_total_gbp": 2.95,
+     "buy_qty": 1000.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15",
+      "11/18",
+      "11/20",
+      "11/22"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/raisin-and-almond-granola/p/fdp60589781",
+     "product": {
+      "name": "Raisin and Almond Granola",
+      "brand": NaN,
+      "size": "1 kg",
+      "price_gbp": 2.95,
+      "link": "https://www.marksandspencer.com/food/raisin-and-almond-granola/p/fdp60589781"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "肉桂粉",
+     "name_display": "肉桂粉",
+     "packs": 1,
+     "pack_size": "39 g",
+     "name_en": "Ground Cinnamon",
+     "name_short": "Ground Cinnamon",
+     "brand": NaN,
+     "unit_price_gbp": 1.6,
+     "line_total_gbp": 1.6,
+     "buy_qty": 39.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15",
+      "11/17",
+      "11/20",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/ground-cinnamon/p/fdp20059581",
+     "product": {
+      "name": "Ground Cinnamon",
+      "brand": NaN,
+      "size": "39 g",
+      "price_gbp": 1.6,
+      "link": "https://www.marksandspencer.com/food/ground-cinnamon/p/fdp20059581"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "花生酱",
+     "name_display": "花生酱",
+     "packs": 1,
+     "pack_size": "340 g",
+     "name_en": "Crunchy Peanut Butter",
+     "name_short": "Crunchy Peanut Butter",
+     "brand": NaN,
+     "unit_price_gbp": 1.45,
+     "line_total_gbp": 1.45,
+     "buy_qty": 340.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15",
+      "11/22"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/crunchy-peanut-butter/p/fdp60014919",
+     "product": {
+      "name": "Crunchy Peanut Butter",
+      "brand": NaN,
+      "size": "340 g",
+      "price_gbp": 1.45,
+      "link": "https://www.marksandspencer.com/food/crunchy-peanut-butter/p/fdp60014919"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "生菜",
+     "name_display": "生菜",
+     "packs": 3,
+     "pack_size": "229 g",
+     "name_en": "Little Gem Lettuce",
+     "name_short": "Little Gem Lettuce",
+     "brand": NaN,
+     "unit_price_gbp": 0.8,
+     "line_total_gbp": 2.4,
+     "buy_qty": 229.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15",
+      "11/17",
+      "11/19"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/little-gem-lettuce/p/fdp21007258",
+     "product": {
+      "name": "Little Gem Lettuce",
+      "brand": NaN,
+      "size": "229 g",
+      "price_gbp": 0.8,
+      "link": "https://www.marksandspencer.com/food/little-gem-lettuce/p/fdp21007258"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "紫甘蓝",
+     "name_display": "紫甘蓝",
+     "packs": 1,
+     "pack_size": "1200 g",
+     "name_en": "Organic Red Cabbage",
+     "name_short": "Organic Red Cabbage",
+     "brand": NaN,
+     "unit_price_gbp": 0.95,
+     "line_total_gbp": 0.95,
+     "buy_qty": 1200.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15",
+      "11/16",
+      "11/19"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/organic-red-cabbage/p/fdp60038615",
+     "product": {
+      "name": "Organic Red Cabbage",
+      "brand": NaN,
+      "size": "1200 g",
+      "price_gbp": 0.95,
+      "link": "https://www.marksandspencer.com/food/organic-red-cabbage/p/fdp60038615"
+     }
+    },
+    {
+     "category": "水产",
+     "name": "金枪鱼",
+     "name_display": "金枪鱼罐头",
+     "packs": 1,
+     "pack_size": "640 g",
+     "name_en": "Tuna Chunks in Spring Water",
+     "name_short": "Tuna Chunks in Spring Water",
+     "brand": NaN,
+     "unit_price_gbp": 2.8,
+     "line_total_gbp": 2.8,
+     "buy_qty": 640.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/08",
+      "11/15",
+      "11/19"
+     ],
+     "note": "耐存，1 包 640g 可覆盖多次",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/tuna-chunks-in-spring-water/p/fdp60467051",
+     "product": {
+      "name": "Tuna Chunks in Spring Water",
+      "brand": NaN,
+      "size": "640 g",
+      "price_gbp": 2.8,
+      "link": "https://www.marksandspencer.com/food/tuna-chunks-in-spring-water/p/fdp60467051"
+     }
+    },
+    {
+     "category": "水果",
+     "name": "橄榄",
+     "name_display": "橄榄",
+     "packs": 63,
+     "pack_size": "340 g",
+     "name_en": "Pitted Black Hojiblanca Olives",
+     "name_short": "Pitted Black Hojiblanca Olives",
+     "brand": NaN,
+     "unit_price_gbp": 1.6,
+     "line_total_gbp": 100.8,
+     "buy_qty": 340.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15",
+      "11/19"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/pitted-black-hojiblanca-olives/p/fdp60458811",
+     "product": {
+      "name": "Pitted Black Hojiblanca Olives",
+      "brand": NaN,
+      "size": "340 g",
+      "price_gbp": 1.6,
+      "link": "https://www.marksandspencer.com/food/pitted-black-hojiblanca-olives/p/fdp60458811"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "芝麻酱",
+     "name_display": "芝麻酱",
+     "packs": 1,
+     "pack_size": "300 g",
+     "name_en": "Tahini",
+     "name_short": "Tahini",
+     "brand": NaN,
+     "unit_price_gbp": 3.4,
+     "line_total_gbp": 3.4,
+     "buy_qty": 300.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15",
+      "11/19"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/tahini/p/fdp60464952",
+     "product": {
+      "name": "Tahini",
+      "brand": NaN,
+      "size": "300 g",
+      "price_gbp": 3.4,
+      "link": "https://www.marksandspencer.com/food/tahini/p/fdp60464952"
+     }
+    },
+    {
+     "category": "待分类",
+     "name": "大虾",
+     "name_display": "大虾",
+     "packs": 4,
+     "pack_size": "130 g",
+     "name_en": "Chilli and Coriander King Prawns",
+     "name_short": "Chilli and Coriander King Prawns",
+     "brand": "High Protein",
+     "unit_price_gbp": 2.95,
+     "line_total_gbp": 11.8,
+     "buy_qty": 130.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15",
+      "11/19"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/chilli-and-coriander-king-prawns/p/fdp60272836",
+     "product": {
+      "name": "Chilli and Coriander King Prawns",
+      "brand": "High Protein",
+      "size": "130 g",
+      "price_gbp": 2.95,
+      "link": "https://www.marksandspencer.com/food/chilli-and-coriander-king-prawns/p/fdp60272836"
+     }
+    },
+    {
+     "category": "主食",
+     "name": "意大利面",
+     "name_display": "意大利面",
+     "packs": 1,
+     "pack_size": "500 g",
+     "name_en": "Italian Alphabet Pasta",
+     "name_short": "Italian Alphabet Pasta",
+     "brand": NaN,
+     "unit_price_gbp": 0.7,
+     "line_total_gbp": 0.7,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/09",
+      "11/12",
+      "11/13",
+      "11/15",
+      "11/17",
+      "11/19"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/italian-alphabet-pasta/p/fdp60495410",
+     "product": {
+      "name": "Italian Alphabet Pasta",
+      "brand": NaN,
+      "size": "500 g",
+      "price_gbp": 0.7,
+      "link": "https://www.marksandspencer.com/food/italian-alphabet-pasta/p/fdp60495410"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "羽衣甘蓝",
+     "name_display": "羽衣甘蓝",
+     "packs": 16,
+     "pack_size": "200 g",
+     "name_en": "Cavolo Nero Kale",
+     "name_short": "Cavolo Nero Kale",
+     "brand": NaN,
+     "unit_price_gbp": 1.75,
+     "line_total_gbp": 28.0,
+     "buy_qty": 200.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/08",
+      "11/15",
+      "11/17",
+      "11/19",
+      "11/20"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/cavolo-nero-kale/p/fdp60075308",
+     "product": {
+      "name": "Cavolo Nero Kale",
+      "brand": NaN,
+      "size": "200 g",
+      "price_gbp": 1.75,
+      "link": "https://www.marksandspencer.com/food/cavolo-nero-kale/p/fdp60075308"
+     }
+    },
+    {
+     "category": "水果",
+     "name": "柠檬",
+     "name_display": "柠檬",
+     "packs": 1,
+     "pack_size": "685 g",
+     "name_en": "Lemons",
+     "name_short": "Lemons",
+     "brand": NaN,
+     "unit_price_gbp": 1.6,
+     "line_total_gbp": 1.6,
+     "buy_qty": 685.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/20"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/lemons/p/fdp21007170",
+     "product": {
+      "name": "Lemons",
+      "brand": NaN,
+      "size": "685 g",
+      "price_gbp": 1.6,
+      "link": "https://www.marksandspencer.com/food/lemons/p/fdp21007170"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "高汤",
+     "name_display": "高汤",
+     "packs": 1,
+     "pack_size": "500 g",
+     "name_en": "Chicken Stock",
+     "name_short": "Chicken Stock",
+     "brand": NaN,
+     "unit_price_gbp": 3.4,
+     "line_total_gbp": 3.4,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/chicken-stock/p/fdp60536097",
+     "product": {
+      "name": "Chicken Stock",
+      "brand": NaN,
+      "size": "500 g",
+      "price_gbp": 3.4,
+      "link": "https://www.marksandspencer.com/food/chicken-stock/p/fdp60536097"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "甜椒",
+     "name_display": "甜椒",
+     "packs": 1,
+     "pack_size": "750 g",
+     "name_en": "Mixed Peppers",
+     "name_short": "Mixed Peppers",
+     "brand": NaN,
+     "unit_price_gbp": 2.8,
+     "line_total_gbp": 2.8,
+     "buy_qty": 750.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/10",
+      "11/12",
+      "11/16",
+      "11/17",
+      "11/20"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/mixed-peppers/p/fdp60483366",
+     "product": {
+      "name": "Mixed Peppers",
+      "brand": NaN,
+      "size": "750 g",
+      "price_gbp": 2.8,
+      "link": "https://www.marksandspencer.com/food/mixed-peppers/p/fdp60483366"
+     }
+    },
+    {
+     "category": "主食",
+     "name": "意面",
+     "name_display": "意面",
+     "packs": 1,
+     "pack_size": "1000 g",
+     "name_en": "Fusilli",
+     "name_short": "Fusilli",
+     "brand": NaN,
+     "unit_price_gbp": 1.35,
+     "line_total_gbp": 1.35,
+     "buy_qty": 1000.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/16",
+      "11/18"
+     ],
+     "note": "耐存，1 包 1000g 可覆盖多次",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/fusilli/p/fdp60468089",
+     "product": {
+      "name": "Fusilli",
+      "brand": NaN,
+      "size": "1000 g",
+      "price_gbp": 1.35,
+      "link": "https://www.marksandspencer.com/food/fusilli/p/fdp60468089"
+     }
+    },
+    {
+     "category": "豆制品",
+     "name": "鹰嘴豆泥",
+     "name_display": "鹰嘴豆泥",
+     "packs": 1,
+     "pack_size": "300 g",
+     "name_en": "Classic Houmous",
+     "name_short": "Classic Houmous",
+     "brand": NaN,
+     "unit_price_gbp": 1.85,
+     "line_total_gbp": 1.85,
+     "buy_qty": 300.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/16",
+      "11/17",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/classic-houmous/p/fdp60524944",
+     "product": {
+      "name": "Classic Houmous",
+      "brand": NaN,
+      "size": "300 g",
+      "price_gbp": 1.85,
+      "link": "https://www.marksandspencer.com/food/classic-houmous/p/fdp60524944"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "土豆",
+     "name_display": "土豆",
+     "packs": 1,
+     "pack_size": "2 kg",
+     "name_en": "White All-Rounder Potatoes",
+     "name_short": "White All-Rounder Potatoes",
+     "brand": NaN,
+     "unit_price_gbp": 1.4,
+     "line_total_gbp": 1.4,
+     "buy_qty": 2000.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/09",
+      "11/12",
+      "11/13",
+      "11/16",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/white-all-rounder-potatoes/p/fdp60028171",
+     "product": {
+      "name": "White All-Rounder Potatoes",
+      "brand": NaN,
+      "size": "2 kg",
+      "price_gbp": 1.4,
+      "link": "https://www.marksandspencer.com/food/white-all-rounder-potatoes/p/fdp60028171"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "牛肉末",
+     "name_display": "牛肉末",
+     "packs": 1,
+     "pack_size": "500 g",
+     "name_en": "British Beef Mince 20% Fat",
+     "name_short": "Beef Mince 20% Fat",
+     "brand": NaN,
+     "unit_price_gbp": 3.5,
+     "line_total_gbp": 3.5,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/09",
+      "11/13",
+      "11/16",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/british-beef-mince-20-fat/p/fdp21060204",
+     "product": {
+      "name": "British Beef Mince 20% Fat",
+      "brand": NaN,
+      "size": "500 g",
+      "price_gbp": 3.5,
+      "link": "https://www.marksandspencer.com/food/british-beef-mince-20-fat/p/fdp21060204"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "芦笋",
+     "name_display": "芦笋",
+     "packs": 4,
+     "pack_size": "190 g",
+     "name_en": "Tenderstem Broccoli and Asparagus",
+     "name_short": "Tenderstem Broccoli and Asparagus",
+     "brand": NaN,
+     "unit_price_gbp": 2.65,
+     "line_total_gbp": 10.6,
+     "buy_qty": 190.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/16",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/tenderstem-broccoli-and-asparagus/p/fdp60916911",
+     "product": {
+      "name": "Tenderstem Broccoli and Asparagus",
+      "brand": NaN,
+      "size": "190 g",
+      "price_gbp": 2.65,
+      "link": "https://www.marksandspencer.com/food/tenderstem-broccoli-and-asparagus/p/fdp60916911"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "醋",
+     "name_display": "醋",
+     "packs": 1,
+     "pack_size": "568 ml",
+     "name_en": "Distilled Malt Vinegar",
+     "name_short": "Distilled Malt Vinegar",
+     "brand": NaN,
+     "unit_price_gbp": 0.55,
+     "line_total_gbp": 0.55,
+     "buy_qty": 568.0,
+     "buy_unit": "g",
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/distilled-malt-vinegar/p/fdp60489796",
+     "product": {
+      "name": "Distilled Malt Vinegar",
+      "brand": NaN,
+      "size": "568 ml",
+      "price_gbp": 0.55,
+      "link": "https://www.marksandspencer.com/food/distilled-malt-vinegar/p/fdp60489796"
+     }
+    },
+    {
+     "category": "水果",
+     "name": "草莓",
+     "name_display": "草莓",
+     "packs": 1,
+     "pack_size": "500 g",
+     "name_en": "Frozen Strawberries",
+     "name_short": "Frozen Strawberries",
+     "brand": NaN,
+     "unit_price_gbp": 4.35,
+     "line_total_gbp": 4.35,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/08",
+      "11/17",
+      "11/18",
+      "11/21",
+      "11/22"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/frozen-strawberries/p/fdp60712445",
+     "product": {
+      "name": "Frozen Strawberries",
+      "brand": NaN,
+      "size": "500 g",
+      "price_gbp": 4.35,
+      "link": "https://www.marksandspencer.com/food/frozen-strawberries/p/fdp60712445"
+     }
+    },
+    {
+     "category": "蛋类",
+     "name": "鸡蛋",
+     "name_display": "鸡蛋",
+     "packs": 1,
+     "pack_size": "328 g",
+     "name_en": "British Free Range Mixed Size Eggs",
+     "name_short": "Free Range Mixed Size Eggs",
+     "brand": NaN,
+     "unit_price_gbp": 1.4,
+     "line_total_gbp": 1.4,
+     "buy_qty": 328.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/08",
+      "11/12",
+      "11/14",
+      "11/17"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/british-free-range-mixed-size-eggs/p/fdp60065487",
+     "product": {
+      "name": "British Free Range Mixed Size Eggs",
+      "brand": NaN,
+      "size": "328 g",
+      "price_gbp": 1.4,
+      "link": "https://www.marksandspencer.com/food/british-free-range-mixed-size-eggs/p/fdp60065487"
+     }
+    },
+    {
+     "category": "乳制品",
+     "name": "菲达奶酪",
+     "name_display": "菲达奶酪",
+     "packs": 1,
+     "pack_size": "200 g",
+     "name_en": "Greek Feta",
+     "name_short": "Greek Feta",
+     "brand": NaN,
+     "unit_price_gbp": 2.25,
+     "line_total_gbp": 2.25,
+     "buy_qty": 200.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/08",
+      "11/17",
+      "11/19"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/greek-feta/p/fdp60048027",
+     "product": {
+      "name": "Greek Feta",
+      "brand": NaN,
+      "size": "200 g",
+      "price_gbp": 2.25,
+      "link": "https://www.marksandspencer.com/food/greek-feta/p/fdp60048027"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "番茄",
+     "name_display": "番茄",
+     "packs": 1,
+     "pack_size": "360 g",
+     "name_en": "Round Tomatoes",
+     "name_short": "Round Tomatoes",
+     "brand": NaN,
+     "unit_price_gbp": 1.1,
+     "line_total_gbp": 1.1,
+     "buy_qty": 360.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/09",
+      "11/12",
+      "11/13",
+      "11/17",
+      "11/18",
+      "11/22"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/round-tomatoes/p/fdp21007232",
+     "product": {
+      "name": "Round Tomatoes",
+      "brand": NaN,
+      "size": "360 g",
+      "price_gbp": 1.1,
+      "link": "https://www.marksandspencer.com/food/round-tomatoes/p/fdp21007232"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "罗勒",
+     "name_display": "罗勒",
+     "packs": 1,
+     "pack_size": "220 g",
+     "name_en": "British Basil",
+     "name_short": "Basil",
+     "brand": NaN,
+     "unit_price_gbp": 1.9,
+     "line_total_gbp": 1.9,
+     "buy_qty": 220.0,
+     "buy_unit": "g",
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/british-basil/p/fdp21003144",
+     "product": {
+      "name": "British Basil",
+      "brand": NaN,
+      "size": "220 g",
+      "price_gbp": 1.9,
+      "link": "https://www.marksandspencer.com/food/british-basil/p/fdp21003144"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "亚麻籽粉",
+     "name_display": "亚麻籽粉",
+     "packs": 1,
+     "pack_size": "200 g",
+     "name_en": "Milled Flaxseeds",
+     "name_short": "Milled Flaxseeds",
+     "brand": NaN,
+     "unit_price_gbp": 2.4,
+     "line_total_gbp": 2.4,
+     "buy_qty": 200.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/18",
+      "11/22"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/milled-flaxseeds/p/fdp60724164",
+     "product": {
+      "name": "Milled Flaxseeds",
+      "brand": NaN,
+      "size": "200 g",
+      "price_gbp": 2.4,
+      "link": "https://www.marksandspencer.com/food/milled-flaxseeds/p/fdp60724164"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "核桃",
+     "name_display": "核桃",
+     "packs": 1,
+     "pack_size": "180 g",
+     "name_en": "Organic Walnuts",
+     "name_short": "Organic Walnuts",
+     "brand": "Organic",
+     "unit_price_gbp": 3.5,
+     "line_total_gbp": 3.5,
+     "buy_qty": 180.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/18",
+      "11/22"
+     ],
+     "note": "耐存",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/organic-walnuts/p/fdp60751149",
+     "product": {
+      "name": "Organic Walnuts",
+      "brand": "Organic",
+      "size": "180 g",
+      "price_gbp": 3.5,
+      "link": "https://www.marksandspencer.com/food/organic-walnuts/p/fdp60751149"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "黄瓜",
+     "name_display": "黄瓜",
+     "packs": 1,
+     "pack_size": "500 g",
+     "name_en": "Whole Cucumber",
+     "name_short": "Whole Cucumber",
+     "brand": NaN,
+     "unit_price_gbp": 1.0,
+     "line_total_gbp": 1.0,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/08",
+      "11/18",
+      "11/21"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/whole-cucumber/p/fdp21007311",
+     "product": {
+      "name": "Whole Cucumber",
+      "brand": NaN,
+      "size": "500 g",
+      "price_gbp": 1.0,
+      "link": "https://www.marksandspencer.com/food/whole-cucumber/p/fdp21007311"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "沙拉酱",
+     "name_display": "沙拉酱",
+     "packs": 1,
+     "pack_size": "500 ml",
+     "name_en": "Classic Mayo",
+     "name_short": "Classic Mayo",
+     "brand": NaN,
+     "unit_price_gbp": 1.45,
+     "line_total_gbp": 1.45,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/18"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/classic-mayo/p/fdp60701496",
+     "product": {
+      "name": "Classic Mayo",
+      "brand": NaN,
+      "size": "500 ml",
+      "price_gbp": 1.45,
+      "link": "https://www.marksandspencer.com/food/classic-mayo/p/fdp60701496"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "菜花",
+     "name_display": "菜花",
+     "packs": 1,
+     "pack_size": "1 kg",
+     "name_en": "Organic Cauliflower",
+     "name_short": "Organic Cauliflower",
+     "brand": "Organic",
+     "unit_price_gbp": 2.0,
+     "line_total_gbp": 2.0,
+     "buy_qty": 1000.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/18",
+      "11/22"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/organic-cauliflower/p/fdp21003089",
+     "product": {
+      "name": "Organic Cauliflower",
+      "brand": "Organic",
+      "size": "1 kg",
+      "price_gbp": 2.0,
+      "link": "https://www.marksandspencer.com/food/organic-cauliflower/p/fdp21003089"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "欧芹",
+     "name_display": "欧芹",
+     "packs": 1,
+     "pack_size": "220 g",
+     "name_en": "British Flat Leaf Parsley",
+     "name_short": "Flat Leaf Parsley",
+     "brand": NaN,
+     "unit_price_gbp": 1.9,
+     "line_total_gbp": 1.9,
+     "buy_qty": 220.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/20"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/british-flat-leaf-parsley/p/fdp60018168",
+     "product": {
+      "name": "British Flat Leaf Parsley",
+      "brand": NaN,
+      "size": "220 g",
+      "price_gbp": 1.9,
+      "link": "https://www.marksandspencer.com/food/british-flat-leaf-parsley/p/fdp60018168"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "火鸡肉",
+     "name_display": "火鸡肉",
+     "packs": 1,
+     "pack_size": "219 g",
+     "name_en": "Made Without Wheat Gluten Free Turkey Feast",
+     "name_short": "Made Without Wheat Gluten Free Turkey Feast",
+     "brand": "Made Without",
+     "unit_price_gbp": 4.45,
+     "line_total_gbp": 4.45,
+     "buy_qty": 219.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/19",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/made-without-wheat-gluten-free-turkey-feast/p/fdp60074071",
+     "product": {
+      "name": "Made Without Wheat Gluten Free Turkey Feast",
+      "brand": "Made Without",
+      "size": "219 g",
+      "price_gbp": 4.45,
+      "link": "https://www.marksandspencer.com/food/made-without-wheat-gluten-free-turkey-feast/p/fdp60074071"
+     }
+    },
+    {
+     "category": "干货",
+     "name": "椰蓉",
+     "name_display": "椰蓉",
+     "packs": 1,
+     "pack_size": "250 g",
+     "name_en": "Desiccated Coconut",
+     "name_short": "Desiccated Coconut",
+     "brand": NaN,
+     "unit_price_gbp": 2.9,
+     "line_total_gbp": 2.9,
+     "buy_qty": 250.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/20"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/desiccated-coconut/p/fdp20059553",
+     "product": {
+      "name": "Desiccated Coconut",
+      "brand": NaN,
+      "size": "250 g",
+      "price_gbp": 2.9,
+      "link": "https://www.marksandspencer.com/food/desiccated-coconut/p/fdp20059553"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "鸡肉",
+     "name_display": "鸡肉",
+     "packs": 1,
+     "pack_size": "600 g",
+     "name_en": "Chicken Leg Portions",
+     "name_short": "Chicken Leg Portions",
+     "brand": NaN,
+     "unit_price_gbp": 1.5,
+     "line_total_gbp": 1.5,
+     "buy_qty": 600.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/20"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/chicken-leg-portions/p/fdp60584836",
+     "product": {
+      "name": "Chicken Leg Portions",
+      "brand": NaN,
+      "size": "600 g",
+      "price_gbp": 1.5,
+      "link": "https://www.marksandspencer.com/food/chicken-leg-portions/p/fdp60584836"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "番茄丁",
+     "name_display": "番茄丁罐头",
+     "packs": 1,
+     "pack_size": "400 g",
+     "name_en": "Organic Italian Chopped Tomatoes",
+     "name_short": "Organic Italian Chopped Tomatoes",
+     "brand": "Organic",
+     "unit_price_gbp": 1.25,
+     "line_total_gbp": 1.25,
+     "buy_qty": 400.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/20"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/organic-italian-chopped-tomatoes/p/fdp60465728",
+     "product": {
+      "name": "Organic Italian Chopped Tomatoes",
+      "brand": "Organic",
+      "size": "400 g",
+      "price_gbp": 1.25,
+      "link": "https://www.marksandspencer.com/food/organic-italian-chopped-tomatoes/p/fdp60465728"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "薄荷",
+     "name_display": "薄荷",
+     "packs": 1,
+     "pack_size": "385 g",
+     "name_en": "Minted Baby Potatoes",
+     "name_short": "Minted Baby Potatoes",
+     "brand": NaN,
+     "unit_price_gbp": 2.65,
+     "line_total_gbp": 2.65,
+     "buy_qty": 385.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/20"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/minted-baby-potatoes/p/fdp60073658",
+     "product": {
+      "name": "Minted Baby Potatoes",
+      "brand": NaN,
+      "size": "385 g",
+      "price_gbp": 2.65,
+      "link": "https://www.marksandspencer.com/food/minted-baby-potatoes/p/fdp60073658"
+     }
+    },
+    {
+     "category": "主食",
+     "name": "酸种面包",
+     "name_display": "酸种面包",
+     "packs": 1,
+     "pack_size": "500 g",
+     "name_en": "Organic White Sourdough",
+     "name_short": "Organic White Sourdough",
+     "brand": "Organic",
+     "unit_price_gbp": 2.65,
+     "line_total_gbp": 2.65,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/organic-white-sourdough/p/fdp61266419",
+     "product": {
+      "name": "Organic White Sourdough",
+      "brand": "Organic",
+      "size": "500 g",
+      "price_gbp": 2.65,
+      "link": "https://www.marksandspencer.com/food/organic-white-sourdough/p/fdp61266419"
+     }
+    },
+    {
+     "category": "水果",
+     "name": "牛油果",
+     "name_display": "牛油果",
+     "packs": 1,
+     "pack_size": "569 g",
+     "name_en": "Ripen at Home Hass Avocados",
+     "name_short": "Ripen at Home Hass Avocados",
+     "brand": NaN,
+     "unit_price_gbp": 2.1,
+     "line_total_gbp": 2.1,
+     "buy_qty": 569.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/ripen-at-home-hass-avocados/p/fdp60060081",
+     "product": {
+      "name": "Ripen at Home Hass Avocados",
+      "brand": NaN,
+      "size": "569 g",
+      "price_gbp": 2.1,
+      "link": "https://www.marksandspencer.com/food/ripen-at-home-hass-avocados/p/fdp60060081"
+     }
+    },
+    {
+     "category": "乳制品",
+     "name": "牛奶",
+     "name_display": "牛奶",
+     "packs": 1,
+     "pack_size": "3.408 l",
+     "name_en": "Semi Skimmed Milk",
+     "name_short": "Semi Skimmed Milk",
+     "brand": NaN,
+     "unit_price_gbp": 2.4,
+     "line_total_gbp": 2.4,
+     "buy_qty": 3408.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/22"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727",
+     "product": {
+      "name": "Semi Skimmed Milk",
+      "brand": NaN,
+      "size": "3.408 l",
+      "price_gbp": 2.4,
+      "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727"
+     }
+    },
+    {
+     "category": "乳制品",
+     "name": "半脱脂奶",
+     "name_display": "半脱脂奶",
+     "packs": 1,
+     "pack_size": "3.408 l",
+     "name_en": "Semi Skimmed Milk",
+     "name_short": "Semi Skimmed Milk",
+     "brand": NaN,
+     "unit_price_gbp": 2.4,
+     "line_total_gbp": 2.4,
+     "buy_qty": 3408.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/08"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727",
+     "product": {
+      "name": "Semi Skimmed Milk",
+      "brand": NaN,
+      "size": "3.408 l",
+      "price_gbp": 2.4,
+      "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "蘑菇",
+     "name_display": "蘑菇",
+     "packs": 1,
+     "pack_size": "300 g",
+     "name_en": "British White Mushrooms",
+     "name_short": "White Mushrooms",
+     "brand": NaN,
+     "unit_price_gbp": 1.0,
+     "line_total_gbp": 1.0,
+     "buy_qty": 300.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/12",
+      "11/14"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/british-white-mushrooms/p/fdp21003386",
+     "product": {
+      "name": "British White Mushrooms",
+      "brand": NaN,
+      "size": "300 g",
+      "price_gbp": 1.0,
+      "link": "https://www.marksandspencer.com/food/british-white-mushrooms/p/fdp21003386"
+     }
+    }
+   ],
+   "batches": [],
+   "total_gbp": 234.7,
+   "missing": [
+    "茅屋奶酪"
+   ],
+   "pantry_missing": [],
+   "unavailable": [
+    "茅屋奶酪"
+   ],
+   "coverage": 0.9762,
+   "vs_recommend_gbp": 162.78,
+   "vs_recommend_common_n": 42,
+   "vs_recommend_store_gbp": 234.7,
+   "vs_recommend_rec_gbp": 71.92,
+   "vs_recommend_missing": 1
   }
  },
  "recommend": {
@@ -9731,11 +10939,20 @@
      "category": "主食",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.35,
+     "pack_g": 1000.0,
+     "size": "1000 g",
+     "per100_gbp": 0.135,
+     "link": "https://www.marksandspencer.com/food/fusilli/p/fdp60468089",
+     "product_name": "Fusilli",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Waitrose",
@@ -9747,85 +10964,8 @@
     "ALDI": 400.0,
     "SAINSBURYS": 500.0,
     "MORRISONS": 3000.0,
-    "WAITROSE": 1000.0
-   }
-  },
-  {
-   "name": "紫甘蓝",
-   "name_display": "紫甘蓝",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 1.19,
-     "pack_g": 440.0,
-     "size": "440 g",
-     "per100_gbp": 0.2705,
-     "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515",
-     "product_name": "Red Cabbage",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": true
-    },
-    "SAINSBURYS": {
-     "price": 2.5,
-     "pack_g": 500.0,
-     "size": "500g",
-     "per100_gbp": 0.5,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-500g-red-cabbage-taste-the-difference",
-     "product_name": "Sainsbury's 500g Red Cabbage, Taste the Difference",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 0.89,
-     "pack_g": null,
-     "size": "nan",
-     "per100_gbp": null,
-     "link": "https://www.tesco.com/shop/en-GB/products/294070184",
-     "product_name": "Tesco Red Cabbage Each",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 1.45,
-     "pack_g": 200.0,
-     "size": "200g",
-     "per100_gbp": 0.725,
-     "link": "https://groceries.morrisons.com/products/105127243",
-     "product_name": "Morrisons Red Cabbage (440g)",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": true
-    },
-    "WAITROSE": {
-     "price": 2.25,
-     "pack_g": 500.0,
-     "size": "500g",
-     "per100_gbp": 0.45,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-winter-red-cabbage/466861-807871-807872",
-     "product_name": "Waitrose Winter Red Cabbage",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Morrisons",
-   "diff_per100": 0.4545,
-   "diff_pct": 1.6802,
-   "spread_ratio": 2.68,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 440.0,
-    "SAINSBURYS": 500.0,
-    "MORRISONS": 200.0,
-    "WAITROSE": 500.0
+    "WAITROSE": 1000.0,
+    "MARKS & SPENCER": 1000.0
    }
   },
   {
@@ -9887,11 +11027,20 @@
      "category": "调料",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.9,
+     "pack_g": 220.0,
+     "size": "220 g",
+     "per100_gbp": 0.8636,
+     "link": "https://www.marksandspencer.com/food/british-basil/p/fdp21003144",
+     "product_name": "British Basil",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
    "expensive_label": "Waitrose",
@@ -9902,96 +11051,8 @@
    "sizes_g": {
     "SAINSBURYS": 100.0,
     "TESCO": 340.0,
-    "WAITROSE": 100.0
-   }
-  },
-  {
-   "name": "黄瓜",
-   "name_display": "黄瓜",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 0.99,
-     "pack_g": null,
-     "size": "1 Each",
-     "per100_gbp": null,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
-     "product_name": "Cucumber",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 0.8,
-     "pack_g": null,
-     "size": "nan",
-     "per100_gbp": null,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-small-whole-cucumber",
-     "product_name": "Sainsbury's Small Whole Cucumber",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 1.5,
-     "pack_g": 200.0,
-     "size": "200g",
-     "per100_gbp": 0.75,
-     "link": "https://www.iceland.co.uk/p/iceland-baby-cucumbers-200g/53277.html",
-     "product_name": "Iceland Baby Cucumbers 200g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 2.85,
-     "pack_g": 670.0,
-     "size": "670g",
-     "per100_gbp": 0.4254,
-     "link": "https://www.tesco.com/shop/en-GB/products/273482385",
-     "product_name": "Mrs Elswood Haimisha Cucumbers 670G",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 2.5,
-     "pack_g": 800.0,
-     "size": "800g",
-     "per100_gbp": 0.3125,
-     "link": "https://groceries.morrisons.com/products/112557364",
-     "product_name": "Polish Special Cucumber",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 3.1,
-     "pack_g": 670.0,
-     "size": "670g",
-     "per100_gbp": 0.4627,
-     "link": "https://www.waitrose.com/ecom/products/mrs-elswood-haimisha-cucumbers/034470-17297-17298",
-     "product_name": "Mrs Elswood Haimisha Cucumbers",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "MORRISONS",
-   "cheapest_label": "Morrisons",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.4375,
-   "diff_pct": 1.4,
-   "spread_ratio": 2.4,
-   "suspect": false,
-   "sizes_g": {
-    "ICELAND": 200.0,
-    "TESCO": 670.0,
-    "MORRISONS": 800.0,
-    "WAITROSE": 670.0
+    "WAITROSE": 100.0,
+    "MARKS & SPENCER": 220.0
    }
   },
   {
@@ -10066,9 +11127,7 @@
      "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": false
-   },
+   "no_price_stores": {},
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Iceland",
@@ -10083,503 +11142,6 @@
     "TESCO": 300.0,
     "MORRISONS": 300.0,
     "WAITROSE": 450.0
-   }
-  },
-  {
-   "name": "甜椒",
-   "name_display": "甜椒",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 1.59,
-     "pack_g": 600.0,
-     "size": "600 g",
-     "per100_gbp": 0.265,
-     "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-mixed-peppers-000000000000275381",
-     "product_name": "Wonky Mixed Peppers",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.69,
-     "pack_g": 600.0,
-     "size": "600g",
-     "per100_gbp": 0.2817,
-     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-peppers-600g",
-     "product_name": "Stamford Street Co. Peppers 600g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 2.0,
-     "pack_g": 650.0,
-     "size": "650g",
-     "per100_gbp": 0.3077,
-     "link": "https://www.iceland.co.uk/p/iceland-mixed-peppers-650g/17684.html",
-     "product_name": "Iceland Mixed Peppers 650g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.59,
-     "pack_g": 600.0,
-     "size": "600g",
-     "per100_gbp": 0.265,
-     "link": "https://www.tesco.com/shop/en-GB/products/301052719",
-     "product_name": "Nightingale Peppers 600G",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 1.85,
-     "pack_g": 320.0,
-     "size": "320g",
-     "per100_gbp": 0.5781,
-     "link": "https://groceries.morrisons.com/products/115759367",
-     "product_name": "Blue Dragon Mixed Pepper Stir Fry Veg",
-     "category": "水果",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 2.0,
-     "pack_g": 750.0,
-     "size": "750g",
-     "per100_gbp": 0.2667,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-wonderfully-wonky-peppers/073116-37102-37103",
-     "product_name": "Waitrose Wonderfully Wonky Peppers",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Morrisons",
-   "diff_per100": 0.3131,
-   "diff_pct": 1.1815,
-   "spread_ratio": 2.18,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 600.0,
-    "SAINSBURYS": 600.0,
-    "ICELAND": 650.0,
-    "TESCO": 600.0,
-    "MORRISONS": 320.0,
-    "WAITROSE": 750.0
-   }
-  },
-  {
-   "name": "椰蓉",
-   "name_display": "椰蓉",
-   "category": "干货",
-   "stores": {
-    "ALDI": {
-     "price": 1.19,
-     "pack_g": 150.0,
-     "size": "150 g",
-     "per100_gbp": 0.7933,
-     "link": "https://www.aldi.co.uk/product/the-pantry-desiccated-coconut-000000000496633005",
-     "product_name": "Desiccated Coconut",
-     "category": "干货",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 2.7,
-     "pack_g": 250.0,
-     "size": "250g",
-     "per100_gbp": 1.08,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-desiccated-coconut-250g",
-     "product_name": "Sainsbury's Desiccated Coconut 250g",
-     "category": "干货",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.9,
-     "pack_g": 300.0,
-     "size": "300g",
-     "per100_gbp": 0.6333,
-     "link": "https://www.tesco.com/shop/en-GB/products/322637371",
-     "product_name": "SHANA Shredded Coconut 300g",
-     "category": "干货",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 1.1,
-     "pack_g": 200.0,
-     "size": "200g",
-     "per100_gbp": 0.55,
-     "link": "https://groceries.morrisons.com/products/113150857",
-     "product_name": "Indus Medium Desiccated Coconut 200g",
-     "category": "干货",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 2.85,
-     "pack_g": 250.0,
-     "size": "250g",
-     "per100_gbp": 1.14,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-desiccated-coconut/411920-778916-778917",
-     "product_name": "Waitrose Desiccated Coconut",
-     "category": "干货",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "MORRISONS",
-   "cheapest_label": "Morrisons",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.59,
-   "diff_pct": 1.0727,
-   "spread_ratio": 2.07,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 150.0,
-    "SAINSBURYS": 250.0,
-    "TESCO": 300.0,
-    "MORRISONS": 200.0,
-    "WAITROSE": 250.0
-   }
-  },
-  {
-   "name": "菲达奶酪",
-   "name_display": "菲达奶酪",
-   "category": "乳制品",
-   "stores": {
-    "ALDI": {
-     "price": 1.89,
-     "pack_g": 200.0,
-     "size": "200 g",
-     "per100_gbp": 0.945,
-     "link": "https://www.aldi.co.uk/product/emporium-greek-feta-000000000000557625",
-     "product_name": "Greek Feta",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 2.8,
-     "pack_g": 200.0,
-     "size": "200g",
-     "per100_gbp": 1.4,
-     "link": "https://www.iceland.co.uk/p/olympus-feta-original-200g/88836.html",
-     "product_name": "Olympus Feta Original 200g",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.89,
-     "pack_g": 200.0,
-     "size": "200g",
-     "per100_gbp": 0.945,
-     "link": "https://www.tesco.com/shop/en-GB/products/278857608",
-     "product_name": "Tranos Greek Feta 200G",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 2.91,
-     "pack_g": 410.0,
-     "size": "410g",
-     "per100_gbp": 0.7098,
-     "link": "https://groceries.morrisons.com/products/109755706",
-     "product_name": "Morrisons Feta Cubes",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": true
-    },
-    "WAITROSE": {
-     "price": 3.8,
-     "pack_g": 430.0,
-     "size": "430g",
-     "per100_gbp": 0.8837,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-greek-feta-pdo-cubes/396305-1-2",
-     "product_name": "Waitrose Greek Feta PDO Cubes",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "MORRISONS",
-   "cheapest_label": "Morrisons",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.6902,
-   "diff_pct": 0.9724,
-   "spread_ratio": 1.97,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 200.0,
-    "ICELAND": 200.0,
-    "TESCO": 200.0,
-    "MORRISONS": 410.0,
-    "WAITROSE": 430.0
-   }
-  },
-  {
-   "name": "花生酱",
-   "name_display": "花生酱",
-   "category": "调料",
-   "stores": {
-    "ALDI": {
-     "price": 0.95,
-     "pack_g": 340.0,
-     "size": "340 g",
-     "per100_gbp": 0.2794,
-     "link": "https://www.aldi.co.uk/product/grandessa-crunchy-peanut-butter-000000000283841002",
-     "product_name": "Crunchy Peanut Butter",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.0,
-     "pack_g": null,
-     "size": "340gram",
-     "per100_gbp": null,
-     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-crunchy-peanut-butter-340g",
-     "product_name": "Stamford Street Co. Crunchy Peanut Butter 340g",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 5.5,
-     "pack_g": 1000.0,
-     "size": "1Kg",
-     "per100_gbp": 0.55,
-     "link": "https://www.iceland.co.uk/p/meridian-smooth-peanut-butter-palm-oil-free-1kg/107282.html",
-     "product_name": "Meridian Smooth Peanut Butter Palm Oil Free 1Kg",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 0.95,
-     "pack_g": 340.0,
-     "size": "340g",
-     "per100_gbp": 0.2794,
-     "link": "https://www.tesco.com/shop/en-GB/products/264769626",
-     "product_name": "Tesco Smooth Peanut Butter 340G",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 2.25,
-     "pack_g": 700.0,
-     "size": "700g",
-     "per100_gbp": 0.3214,
-     "link": "https://groceries.morrisons.com/products/104423104",
-     "product_name": "Morrisons Smooth Peanut Butter",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.8,
-     "pack_g": 500.0,
-     "size": "500g",
-     "per100_gbp": 0.36,
-     "link": "https://www.waitrose.com/ecom/products/essential-smooth-peanut-butter/894225-781087-781088",
-     "product_name": "Essential Smooth Peanut Butter",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.2706,
-   "diff_pct": 0.9685,
-   "spread_ratio": 1.97,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 340.0,
-    "ICELAND": 1000.0,
-    "TESCO": 340.0,
-    "MORRISONS": 700.0,
-    "WAITROSE": 500.0
-   }
-  },
-  {
-   "name": "亚麻籽粉",
-   "name_display": "亚麻籽粉",
-   "category": "干货",
-   "stores": {
-    "ALDI": {
-     "price": 1.79,
-     "pack_g": 200.0,
-     "size": "200 g",
-     "per100_gbp": 0.895,
-     "link": "https://www.aldi.co.uk/product/the-foodie-market-flaxseed-000000000386021002",
-     "product_name": "Flaxseed",
-     "category": "干货",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.25,
-     "pack_g": 100.0,
-     "size": "100g",
-     "per100_gbp": 1.25,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-100g-flaxseed",
-     "product_name": "Sainsbury's 100g Flaxseed",
-     "category": "干货",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.6,
-     "pack_g": 250.0,
-     "size": "250g",
-     "per100_gbp": 0.64,
-     "link": "https://www.tesco.com/shop/en-GB/products/276377684",
-     "product_name": "Tesco Golden Flaxseeds 250G",
-     "category": "干货",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 2.0,
-     "pack_g": 200.0,
-     "size": "200g",
-     "per100_gbp": 1.0,
-     "link": "https://groceries.morrisons.com/products/115673310",
-     "product_name": "Morrisons Milled Flaxseeds 200G",
-     "category": "干货",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 2.5,
-     "pack_g": 375.0,
-     "size": "375g",
-     "per100_gbp": 0.6667,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-golden-linseed/558759-772515-772516",
-     "product_name": "Waitrose Golden Linseed",
-     "category": "干货",
-     "form": "raw",
-     "canned": true
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "TESCO",
-   "cheapest_label": "Tesco",
-   "expensive_label": "Sainsbury's",
-   "diff_per100": 0.61,
-   "diff_pct": 0.9531,
-   "spread_ratio": 1.95,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 200.0,
-    "SAINSBURYS": 100.0,
-    "TESCO": 250.0,
-    "MORRISONS": 200.0,
-    "WAITROSE": 375.0
-   }
-  },
-  {
-   "name": "芦笋",
-   "name_display": "芦笋",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 1.4,
-     "pack_g": 100.0,
-     "size": "100 g",
-     "per100_gbp": 1.4,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166",
-     "product_name": "Asparagus Tips",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 2.0,
-     "pack_g": 250.0,
-     "size": "250g",
-     "per100_gbp": 0.8,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-250g-asparagus-spears",
-     "product_name": "Sainsbury's 250g Asparagus Spears",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.7,
-     "pack_g": 180.0,
-     "size": "180g",
-     "per100_gbp": 0.9444,
-     "link": "https://www.tesco.com/shop/en-GB/products/313732922",
-     "product_name": "Tesco Asparagus 180G",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 2.35,
-     "pack_g": 250.0,
-     "size": "250g",
-     "per100_gbp": 0.94,
-     "link": "https://groceries.morrisons.com/products/108467331",
-     "product_name": "Morrisons Asparagus ",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 2.75,
-     "pack_g": 230.0,
-     "size": "230g",
-     "per100_gbp": 1.1957,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-asparagus/085482-43550-43551",
-     "product_name": "Waitrose Asparagus",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "SAINSBURYS",
-   "cheapest_label": "Sainsbury's",
-   "expensive_label": "Aldi",
-   "diff_per100": 0.6,
-   "diff_pct": 0.75,
-   "spread_ratio": 1.75,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 100.0,
-    "SAINSBURYS": 250.0,
-    "TESCO": 180.0,
-    "MORRISONS": 250.0,
-    "WAITROSE": 230.0
    }
   },
   {
@@ -10652,17 +11214,26 @@
      "category": "干货",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 3.5,
+     "pack_g": 180.0,
+     "size": "180 g",
+     "per100_gbp": 1.9444,
+     "link": "https://www.marksandspencer.com/food/organic-walnuts/p/fdp60751149",
+     "product_name": "Organic Walnuts",
+     "category": "干货",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.5639,
-   "diff_pct": 0.6835,
-   "spread_ratio": 1.68,
+   "expensive_label": "M&S",
+   "diff_per100": 1.1194,
+   "diff_pct": 1.3568,
+   "spread_ratio": 2.36,
    "suspect": false,
    "sizes_g": {
     "ALDI": 200.0,
@@ -10670,7 +11241,205 @@
     "ICELAND": 90.0,
     "TESCO": 500.0,
     "MORRISONS": 180.0,
-    "WAITROSE": 350.0
+    "WAITROSE": 350.0,
+    "MARKS & SPENCER": 180.0
+   }
+  },
+  {
+   "name": "甜椒",
+   "name_display": "甜椒",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.59,
+     "pack_g": 600.0,
+     "size": "600 g",
+     "per100_gbp": 0.265,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-mixed-peppers-000000000000275381",
+     "product_name": "Wonky Mixed Peppers",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 1.69,
+     "pack_g": 600.0,
+     "size": "600g",
+     "per100_gbp": 0.2817,
+     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-peppers-600g",
+     "product_name": "Stamford Street Co. Peppers 600g",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 2.0,
+     "pack_g": 650.0,
+     "size": "650g",
+     "per100_gbp": 0.3077,
+     "link": "https://www.iceland.co.uk/p/iceland-mixed-peppers-650g/17684.html",
+     "product_name": "Iceland Mixed Peppers 650g",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.59,
+     "pack_g": 600.0,
+     "size": "600g",
+     "per100_gbp": 0.265,
+     "link": "https://www.tesco.com/shop/en-GB/products/301052719",
+     "product_name": "Nightingale Peppers 600G",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 1.85,
+     "pack_g": 320.0,
+     "size": "320g",
+     "per100_gbp": 0.5781,
+     "link": "https://groceries.morrisons.com/products/115759367",
+     "product_name": "Blue Dragon Mixed Pepper Stir Fry Veg",
+     "category": "水果",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 2.0,
+     "pack_g": 750.0,
+     "size": "750g",
+     "per100_gbp": 0.2667,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-wonderfully-wonky-peppers/073116-37102-37103",
+     "product_name": "Waitrose Wonderfully Wonky Peppers",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 2.8,
+     "pack_g": 750.0,
+     "size": "750 g",
+     "per100_gbp": 0.3733,
+     "link": "https://www.marksandspencer.com/food/mixed-peppers/p/fdp60483366",
+     "product_name": "Mixed Peppers",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Morrisons",
+   "diff_per100": 0.3131,
+   "diff_pct": 1.1815,
+   "spread_ratio": 2.18,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 600.0,
+    "SAINSBURYS": 600.0,
+    "ICELAND": 650.0,
+    "TESCO": 600.0,
+    "MORRISONS": 320.0,
+    "WAITROSE": 750.0,
+    "MARKS & SPENCER": 750.0
+   }
+  },
+  {
+   "name": "柠檬",
+   "name_display": "柠檬",
+   "category": "水果",
+   "stores": {
+    "ALDI": {
+     "price": 0.89,
+     "pack_g": null,
+     "size": "4 Each",
+     "per100_gbp": null,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons-000000000000268496",
+     "product_name": "Wonky Lemons",
+     "category": "水果",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 0.37,
+     "pack_g": null,
+     "size": "nan",
+     "per100_gbp": null,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-lemons",
+     "product_name": "Sainsbury's Lemons",
+     "category": "水果",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 1.0,
+     "pack_g": null,
+     "size": "3pk",
+     "per100_gbp": null,
+     "link": "https://www.iceland.co.uk/p/iceland-lemons-3pk/17270.html",
+     "product_name": "Iceland Lemons 3pk",
+     "category": "水果",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.55,
+     "pack_g": 310.0,
+     "size": "310g",
+     "per100_gbp": 0.5,
+     "link": "https://www.tesco.com/shop/en-GB/products/330745582",
+     "product_name": "Howell's 6 Lemon Joeys 310g",
+     "category": "水果",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 0.89,
+     "pack_g": null,
+     "size": "4 per pack",
+     "per100_gbp": null,
+     "link": "https://groceries.morrisons.com/products/113742641",
+     "product_name": "Morrisons Savers Lemons  4 Pack",
+     "category": "水果",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.4,
+     "pack_g": null,
+     "size": "5s",
+     "per100_gbp": null,
+     "link": "https://www.waitrose.com/ecom/products/essential-lemons/088413-45363-45364",
+     "product_name": "Essential Lemons",
+     "category": "水果",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.6,
+     "pack_g": 685.0,
+     "size": "685 g",
+     "per100_gbp": 0.2336,
+     "link": "https://www.marksandspencer.com/food/lemons/p/fdp21007170",
+     "product_name": "Lemons",
+     "category": "水果",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "MARKS & SPENCER",
+   "cheapest_label": "M&S",
+   "expensive_label": "Tesco",
+   "diff_per100": 0.2664,
+   "diff_pct": 1.1404,
+   "spread_ratio": 2.14,
+   "suspect": false,
+   "sizes_g": {
+    "TESCO": 310.0,
+    "MARKS & SPENCER": 685.0
    }
   },
   {
@@ -10732,791 +11501,123 @@
      "category": "水产",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 2.95,
+     "pack_g": 130.0,
+     "size": "130 g",
+     "per100_gbp": 2.2692,
+     "link": "https://www.marksandspencer.com/food/chilli-and-coriander-king-prawns/p/fdp60272836",
+     "product_name": "Chilli and Coriander King Prawns",
+     "category": "待分类",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "MORRISONS",
    "cheapest_label": "Morrisons",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.725,
-   "diff_pct": 0.6744,
-   "spread_ratio": 1.67,
+   "expensive_label": "M&S",
+   "diff_per100": 1.1942,
+   "diff_pct": 1.1109,
+   "spread_ratio": 2.11,
    "suspect": false,
    "sizes_g": {
     "ALDI": 250.0,
     "SAINSBURYS": 250.0,
     "TESCO": 250.0,
     "MORRISONS": 200.0,
-    "WAITROSE": 250.0
+    "WAITROSE": 250.0,
+    "MARKS & SPENCER": 130.0
    }
   },
   {
-   "name": "沙拉酱",
-   "name_display": "沙拉酱",
-   "category": "乳制品",
+   "name": "椰蓉",
+   "name_display": "椰蓉",
+   "category": "干货",
    "stores": {
     "ALDI": {
-     "price": 0.89,
-     "pack_g": 520.0,
-     "size": "520 g",
-     "per100_gbp": 0.1712,
-     "link": "https://www.aldi.co.uk/product/bramwells-squeezy-salad-cream-000000000279911001",
-     "product_name": "Squeezy Salad Cream",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 0.85,
-     "pack_g": 480.0,
-     "size": "480ml",
-     "per100_gbp": 0.1771,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-reduced-fat-mayonnaise-480ml",
-     "product_name": "Sainsbury's Reduced Fat Mayonnaise 480ml",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 1.0,
-     "pack_g": 430.0,
-     "size": "430ml",
-     "per100_gbp": 0.2326,
-     "link": "https://www.iceland.co.uk/p/hellmanns-delicious-low-fat-mayo-430-ml/80181.html",
-     "product_name": "Hellmann's Delicious Low Fat Mayo 430 ml",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 0.89,
-     "pack_g": 500.0,
-     "size": "500ml",
-     "per100_gbp": 0.178,
-     "link": "https://www.tesco.com/shop/en-GB/products/305249769",
-     "product_name": "Tesco Light Mayonnaise 500Ml",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 0.95,
-     "pack_g": 500.0,
-     "size": "500ml",
-     "per100_gbp": 0.19,
-     "link": "https://groceries.morrisons.com/products/113133483",
-     "product_name": "Morrisons Mayonnaise 500ml",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.4,
-     "pack_g": 500.0,
-     "size": "500ml",
-     "per100_gbp": 0.28,
-     "link": "https://www.waitrose.com/ecom/products/essential-half-fat-mayonnaise/034543-17355-17356",
-     "product_name": "Essential Half Fat Mayonnaise",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.1088,
-   "diff_pct": 0.6355,
-   "spread_ratio": 1.64,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 520.0,
-    "SAINSBURYS": 480.0,
-    "ICELAND": 430.0,
-    "TESCO": 500.0,
-    "MORRISONS": 500.0,
-    "WAITROSE": 500.0
-   }
-  },
-  {
-   "name": "火鸡肉",
-   "name_display": "火鸡肉",
-   "category": "肉类",
-   "stores": {
-    "ALDI": {
-     "price": 3.69,
-     "pack_g": 375.0,
-     "size": "375 g",
-     "per100_gbp": 0.984,
-     "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-breast-steaks-2-fat-000000000000387722",
-     "product_name": "British Turkey Breast Steaks 2% Fat",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 6.5,
-     "pack_g": 600.0,
-     "size": "600g",
-     "per100_gbp": 1.0833,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-turkey-breast-steaks-600g",
-     "product_name": "Sainsbury's British Turkey Breast Steaks 600g",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 4.75,
-     "pack_g": 380.0,
-     "size": "380g",
-     "per100_gbp": 1.25,
-     "link": "https://www.tesco.com/shop/en-GB/products/313609695",
-     "product_name": "Tesco British Turkey Breast Steaks 380G",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 4.5,
-     "pack_g": 300.0,
-     "size": "300g",
-     "per100_gbp": 1.5,
-     "link": "https://groceries.morrisons.com/products/115316831",
-     "product_name": "Morrisons British Turkey Breast Steaks 300g",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Morrisons",
-   "diff_per100": 0.516,
-   "diff_pct": 0.5244,
-   "spread_ratio": 1.52,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 375.0,
-    "SAINSBURYS": 600.0,
-    "TESCO": 380.0,
-    "MORRISONS": 300.0
-   }
-  },
-  {
-   "name": "鹰嘴豆泥",
-   "name_display": "鹰嘴豆泥",
-   "category": "豆制品",
-   "stores": {
-    "ALDI": {
-     "price": 0.95,
-     "pack_g": 200.0,
-     "size": "200 g",
-     "per100_gbp": 0.475,
-     "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
-     "product_name": "Houmous",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.0,
-     "pack_g": 200.0,
-     "size": "200g",
-     "per100_gbp": 0.5,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-houmous-200g",
-     "product_name": "Sainsbury's Houmous 200g",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 3.6,
-     "pack_g": 500.0,
-     "size": "500g",
-     "per100_gbp": 0.72,
-     "link": "https://www.iceland.co.uk/p/ramonas-original-heavenly-houmous-500g/107190.html",
-     "product_name": "Ramona's Original Heavenly Houmous 500g",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.65,
-     "pack_g": 300.0,
-     "size": "300g",
-     "per100_gbp": 0.55,
-     "link": "https://www.tesco.com/shop/en-GB/products/320967265",
-     "product_name": "Tesco Houmous 300g",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 1.49,
-     "pack_g": 300.0,
-     "size": "300g",
-     "per100_gbp": 0.4967,
-     "link": "https://groceries.morrisons.com/products/104263999",
-     "product_name": "Morrisons Classic Houmous 300g",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.45,
-     "pack_g": 300.0,
-     "size": "300g",
-     "per100_gbp": 0.4833,
-     "link": "https://www.waitrose.com/ecom/products/essential-reduced-fat-houmous/046201-22747-22748",
-     "product_name": "Essential Reduced Fat Houmous",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.245,
-   "diff_pct": 0.5158,
-   "spread_ratio": 1.52,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 200.0,
-    "SAINSBURYS": 200.0,
-    "ICELAND": 500.0,
-    "TESCO": 300.0,
-    "MORRISONS": 300.0,
-    "WAITROSE": 300.0
-   }
-  },
-  {
-   "name": "羽衣甘蓝",
-   "name_display": "羽衣甘蓝",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 0.89,
-     "pack_g": 200.0,
-     "size": "200 g",
-     "per100_gbp": 0.445,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
-     "product_name": "Scottish Shredded Kale",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 0.89,
-     "pack_g": 200.0,
-     "size": "200g",
-     "per100_gbp": 0.445,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-kale-200g",
-     "product_name": "Sainsbury's Kale 200g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 0.8,
-     "pack_g": 180.0,
-     "size": "180g",
-     "per100_gbp": 0.4444,
-     "link": "https://www.tesco.com/shop/en-GB/products/301219155",
-     "product_name": "Tesco Curly Kale 180G",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 0.66,
+     "price": 1.19,
      "pack_g": 150.0,
-     "size": "150g",
-     "per100_gbp": 0.44,
-     "link": "https://groceries.morrisons.com/products/112941551",
-     "product_name": "Morrisons British Sliced Kale  150g",
-     "category": "蔬菜",
+     "size": "150 g",
+     "per100_gbp": 0.7933,
+     "link": "https://www.aldi.co.uk/product/the-pantry-desiccated-coconut-000000000496633005",
+     "product_name": "Desiccated Coconut",
+     "category": "干货",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 2.7,
+     "pack_g": 250.0,
+     "size": "250g",
+     "per100_gbp": 1.08,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-desiccated-coconut-250g",
+     "product_name": "Sainsbury's Desiccated Coconut 250g",
+     "category": "干货",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.9,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 0.6333,
+     "link": "https://www.tesco.com/shop/en-GB/products/322637371",
+     "product_name": "SHANA Shredded Coconut 300g",
+     "category": "干货",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 1.1,
+     "pack_g": 200.0,
+     "size": "200g",
+     "per100_gbp": 0.55,
+     "link": "https://groceries.morrisons.com/products/113150857",
+     "product_name": "Indus Medium Desiccated Coconut 200g",
+     "category": "干货",
      "form": "raw",
      "canned": false
     },
     "WAITROSE": {
-     "price": 1.4,
-     "pack_g": 210.0,
-     "size": "210g",
-     "per100_gbp": 0.6667,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-whole-leaf-kale/686452-97503-97504",
-     "product_name": "Waitrose Whole Leaf Kale",
-     "category": "蔬菜",
+     "price": 2.85,
+     "pack_g": 250.0,
+     "size": "250g",
+     "per100_gbp": 1.14,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-desiccated-coconut/411920-778916-778917",
+     "product_name": "Waitrose Desiccated Coconut",
+     "category": "干货",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 2.9,
+     "pack_g": 250.0,
+     "size": "250 g",
+     "per100_gbp": 1.16,
+     "link": "https://www.marksandspencer.com/food/desiccated-coconut/p/fdp20059553",
+     "product_name": "Desiccated Coconut",
+     "category": "干货",
      "form": "raw",
      "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "MORRISONS",
    "cheapest_label": "Morrisons",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.2267,
-   "diff_pct": 0.5152,
-   "spread_ratio": 1.52,
+   "expensive_label": "M&S",
+   "diff_per100": 0.61,
+   "diff_pct": 1.1091,
+   "spread_ratio": 2.11,
    "suspect": false,
    "sizes_g": {
-    "ALDI": 200.0,
-    "SAINSBURYS": 200.0,
-    "TESCO": 180.0,
-    "MORRISONS": 150.0,
-    "WAITROSE": 210.0
-   }
-  },
-  {
-   "name": "烘焙麦片",
-   "name_display": "烘焙麦片",
-   "category": "主食",
-   "stores": {
-    "ALDI": {
-     "price": 1.99,
-     "pack_g": 1000.0,
-     "size": "1 kg",
-     "per100_gbp": 0.199,
-     "link": "https://www.aldi.co.uk/product/harvest-morn-tropical-fruits-granola-000000000335670002",
-     "product_name": "Tropical Fruits Granola",
-     "category": "主食",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 2.4,
-     "pack_g": 1000.0,
-     "size": "1kg",
-     "per100_gbp": 0.24,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-granola-strawberry-1kg",
-     "product_name": "Sainsbury's Granola, Strawberry 1kg",
-     "category": "主食",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 2.5,
-     "pack_g": 1000.0,
-     "size": "1000g",
-     "per100_gbp": 0.25,
-     "link": "https://www.tesco.com/shop/en-GB/products/262580389",
-     "product_name": "Tesco Tropical Fruits Granola 1Kg",
-     "category": "主食",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 2.0,
-     "pack_g": 1000.0,
-     "size": "1kg",
-     "per100_gbp": 0.2,
-     "link": "https://groceries.morrisons.com/products/112997634",
-     "product_name": "Morrisons Savers Granola",
-     "category": "主食",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 3.0,
-     "pack_g": 1000.0,
-     "size": "1Kg",
-     "per100_gbp": 0.3,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-berry-granola/811721-772666-772667",
-     "product_name": "Waitrose Berry Granola",
-     "category": "主食",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.101,
-   "diff_pct": 0.5075,
-   "spread_ratio": 1.51,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 1000.0,
-    "SAINSBURYS": 1000.0,
-    "TESCO": 1000.0,
-    "MORRISONS": 1000.0,
-    "WAITROSE": 1000.0
-   }
-  },
-  {
-   "name": "土豆",
-   "name_display": "土豆",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 0.49,
-     "pack_g": 1000.0,
-     "size": "1 kg",
-     "per100_gbp": 0.049,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748",
-     "product_name": "British Baby Potatoes",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.32,
-     "pack_g": 2000.0,
-     "size": "2 kg",
-     "per100_gbp": 0.066,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-2kg-white-potatoes",
-     "product_name": "Sainsbury's 2kg White Potatoes",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 5.5,
-     "pack_g": 7500.0,
-     "size": "7.5kg",
-     "per100_gbp": 0.0733,
-     "link": "https://www.iceland.co.uk/p/wilsons-country-farm-value-potatoes-7.5kg/95499.html",
-     "product_name": "Wilson's Country Farm Value Potatoes 7.5kg",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.32,
-     "pack_g": 2000.0,
-     "size": "2kg",
-     "per100_gbp": 0.066,
-     "link": "https://www.tesco.com/shop/en-GB/products/295593295",
-     "product_name": "Tesco White Potatoes 2Kg",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 1.49,
-     "pack_g": 2500.0,
-     "size": "2.5kg",
-     "per100_gbp": 0.0596,
-     "link": "https://groceries.morrisons.com/products/108502061",
-     "product_name": "Morrisons British Naturally Wonky Potatoes 2.5Kg",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.85,
-     "pack_g": 3000.0,
-     "size": "3kg",
-     "per100_gbp": 0.0617,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-british-wonderfully-wonky-potatoes/704974-486934-486935",
-     "product_name": "Waitrose British Wonderfully Wonky Potatoes",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.0243,
-   "diff_pct": 0.4959,
-   "spread_ratio": 1.5,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 1000.0,
-    "SAINSBURYS": 2000.0,
-    "ICELAND": 7500.0,
-    "TESCO": 2000.0,
-    "MORRISONS": 2500.0,
-    "WAITROSE": 3000.0
-   }
-  },
-  {
-   "name": "番茄",
-   "name_display": "番茄",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 1.29,
-     "pack_g": 500.0,
-     "size": "500 g",
-     "per100_gbp": 0.258,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-vine-ripened-tomatoes-000000000000275557",
-     "product_name": "Vine Ripened Tomatoes",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.9,
-     "pack_g": null,
-     "size": "nan",
-     "per100_gbp": null,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-tomatoes-loose",
-     "product_name": "Sainsbury's Tomatoes Loose",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 1.75,
-     "pack_g": 500.0,
-     "size": "500g",
-     "per100_gbp": 0.35,
-     "link": "https://www.iceland.co.uk/p/iceland-large-vine-tomatoes-500g/63121.html",
-     "product_name": "Iceland Large Vine Tomatoes 500g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.55,
-     "pack_g": 650.0,
-     "size": "650g",
-     "per100_gbp": 0.2385,
-     "link": "https://www.tesco.com/shop/en-GB/products/296056918",
-     "product_name": "Tesco Salad Tomatoes 650G",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 1.79,
-     "pack_g": 750.0,
-     "size": "750g",
-     "per100_gbp": 0.2387,
-     "link": "https://groceries.morrisons.com/products/108388941",
-     "product_name": "Morrisons Salad Tomatoes 750g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.5,
-     "pack_g": 450.0,
-     "size": "450g",
-     "per100_gbp": 0.3333,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-classic-vine-tomatoes/005274-2275-2276",
-     "product_name": "Waitrose Classic Vine Tomatoes",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "TESCO",
-   "cheapest_label": "Tesco",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.1115,
-   "diff_pct": 0.4675,
-   "spread_ratio": 1.47,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 500.0,
-    "ICELAND": 500.0,
-    "TESCO": 650.0,
-    "MORRISONS": 750.0,
-    "WAITROSE": 450.0
-   }
-  },
-  {
-   "name": "鸡蛋",
-   "name_display": "鸡蛋",
-   "category": "蛋类",
-   "stores": {
-    "ALDI": {
-     "price": 0.99,
-     "pack_g": null,
-     "size": "6 Each",
-     "per100_gbp": null,
-     "link": "https://www.aldi.co.uk/product/merevale-free-range-eggs-6-pack-000000000000548465",
-     "product_name": "Free Range Eggs 6 Pack",
-     "category": "蛋类",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 3.6,
-     "pack_g": 805.0,
-     "size": "6 x Large ;6 x Medium ;12 x Large ;12 x Medium ;6 x Very Large ;805g ;6 mixed weight minimum net 328g",
-     "per100_gbp": 0.4472,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-free-range-british-eggs-medium-x15",
-     "product_name": "Sainsbury's Free Range British Eggs Medium x15",
-     "category": "蛋类",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 1.29,
-     "pack_g": 420.0,
-     "size": "420g",
-     "per100_gbp": 0.3071,
-     "link": "https://www.iceland.co.uk/p/ballygarvey-6-big-and-healthy-fresh-eggs-420g/104139.html",
-     "product_name": "Ballygarvey 6 Big & Healthy Fresh Eggs 420g",
-     "category": "蛋类",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 2.85,
-     "pack_g": 805.0,
-     "size": "805g",
-     "per100_gbp": 0.354,
-     "link": "https://www.tesco.com/shop/en-GB/products/265422924",
-     "product_name": "Tesco Mixed Sized Free Range Eggs 15 Pack",
-     "category": "蛋类",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 2.95,
-     "pack_g": null,
-     "size": "12 per pack",
-     "per100_gbp": null,
-     "link": "https://groceries.morrisons.com/products/110250449",
-     "product_name": "Morrisons Medium Free Range Eggs 12 Pack",
-     "category": "蛋类",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 3.2,
-     "pack_g": null,
-     "size": "12s",
-     "per100_gbp": null,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-fr-mixed-size-eggs-british-blacktail/082926-42143-42144",
-     "product_name": "Waitrose FR Mixed Size Eggs British Blacktail",
-     "category": "蛋类",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "ICELAND",
-   "cheapest_label": "Iceland",
-   "expensive_label": "Sainsbury's",
-   "diff_per100": 0.1401,
-   "diff_pct": 0.4562,
-   "spread_ratio": 1.46,
-   "suspect": false,
-   "sizes_g": {
-    "SAINSBURYS": 805.0,
-    "ICELAND": 420.0,
-    "TESCO": 805.0
-   }
-  },
-  {
-   "name": "高汤",
-   "name_display": "高汤",
-   "category": "肉类",
-   "stores": {
-    "ALDI": {
-     "price": 0.69,
-     "pack_g": 120.0,
-     "size": "120 g",
-     "per100_gbp": 0.575,
-     "link": "https://www.aldi.co.uk/product/bramwells-chicken-stock-cubes-000000000000633943",
-     "product_name": "Chicken Stock Cubes",
-     "category": "肉类",
-     "form": "processed",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 2.9,
-     "pack_g": 500.0,
-     "size": "500ml",
-     "per100_gbp": 0.58,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-beef-stock-inspired-to-cook-500ml",
-     "product_name": "Sainsbury's Beef Stock, Inspired to Cook 500ml",
-     "category": "肉类",
-     "form": "processed",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 5.0,
-     "pack_g": 1000.0,
-     "size": "1kg",
-     "per100_gbp": 0.5,
-     "link": "https://www.iceland.co.uk/p/jumbo-chicken-stock-1kg/92994.html",
-     "product_name": "Jumbo Chicken Stock 1kg",
-     "category": "肉类",
-     "form": "processed",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 2.3,
-     "pack_g": 500.0,
-     "size": "500ml",
-     "per100_gbp": 0.46,
-     "link": "https://www.tesco.com/shop/en-GB/products/304380585",
-     "product_name": "Potts Chicken Stock 500Ml",
-     "category": "肉类",
-     "form": "processed",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 2.3,
-     "pack_g": 500.0,
-     "size": "500ml",
-     "per100_gbp": 0.46,
-     "link": "https://groceries.morrisons.com/products/111838025",
-     "product_name": "Potts' Beef Stock Can ",
-     "category": "肉类",
-     "form": "processed",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 2.0,
-     "pack_g": 500.0,
-     "size": "500ml",
-     "per100_gbp": 0.4,
-     "link": "https://www.waitrose.com/ecom/products/oxo-signature-chicken-stock/328672-1-2",
-     "product_name": "Oxo Signature Chicken Stock",
-     "category": "肉类",
-     "form": "processed",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "WAITROSE",
-   "cheapest_label": "Waitrose",
-   "expensive_label": "Sainsbury's",
-   "diff_per100": 0.18,
-   "diff_pct": 0.45,
-   "spread_ratio": 1.45,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 120.0,
-    "SAINSBURYS": 500.0,
-    "ICELAND": 1000.0,
-    "TESCO": 500.0,
-    "MORRISONS": 500.0,
-    "WAITROSE": 500.0
+    "ALDI": 150.0,
+    "SAINSBURYS": 250.0,
+    "TESCO": 300.0,
+    "MORRISONS": 200.0,
+    "WAITROSE": 250.0,
+    "MARKS & SPENCER": 250.0
    }
   },
   {
@@ -11578,114 +11679,477 @@
      "category": "调料",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.9,
+     "pack_g": 220.0,
+     "size": "220 g",
+     "per100_gbp": 0.8636,
+     "link": "https://www.marksandspencer.com/food/british-flat-leaf-parsley/p/fdp60018168",
+     "product_name": "British Flat Leaf Parsley",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "MORRISONS",
-   "cheapest_label": "Morrisons",
+   "no_price_stores": {},
+   "cheapest": "MARKS & SPENCER",
+   "cheapest_label": "M&S",
    "expensive_label": "Waitrose",
-   "diff_per100": 0.55,
-   "diff_pct": 0.44,
-   "spread_ratio": 1.44,
+   "diff_per100": 0.9364,
+   "diff_pct": 1.0843,
+   "spread_ratio": 2.08,
    "suspect": false,
    "sizes_g": {
     "SAINSBURYS": 100.0,
     "TESCO": 100.0,
     "MORRISONS": 100.0,
-    "WAITROSE": 100.0
+    "WAITROSE": 100.0,
+    "MARKS & SPENCER": 220.0
    }
   },
   {
-   "name": "蘑菇",
-   "name_display": "蘑菇",
+   "name": "火鸡肉",
+   "name_display": "火鸡肉",
+   "category": "肉类",
+   "stores": {
+    "ALDI": {
+     "price": 3.69,
+     "pack_g": 375.0,
+     "size": "375 g",
+     "per100_gbp": 0.984,
+     "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-breast-steaks-2-fat-000000000000387722",
+     "product_name": "British Turkey Breast Steaks 2% Fat",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 6.5,
+     "pack_g": 600.0,
+     "size": "600g",
+     "per100_gbp": 1.0833,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-turkey-breast-steaks-600g",
+     "product_name": "Sainsbury's British Turkey Breast Steaks 600g",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 4.75,
+     "pack_g": 380.0,
+     "size": "380g",
+     "per100_gbp": 1.25,
+     "link": "https://www.tesco.com/shop/en-GB/products/313609695",
+     "product_name": "Tesco British Turkey Breast Steaks 380G",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 4.5,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 1.5,
+     "link": "https://groceries.morrisons.com/products/115316831",
+     "product_name": "Morrisons British Turkey Breast Steaks 300g",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 4.45,
+     "pack_g": 219.0,
+     "size": "219 g",
+     "per100_gbp": 2.032,
+     "link": "https://www.marksandspencer.com/food/made-without-wheat-gluten-free-turkey-feast/p/fdp60074071",
+     "product_name": "Made Without Wheat Gluten Free Turkey Feast",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "M&S",
+   "diff_per100": 1.048,
+   "diff_pct": 1.065,
+   "spread_ratio": 2.07,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 375.0,
+    "SAINSBURYS": 600.0,
+    "TESCO": 380.0,
+    "MORRISONS": 300.0,
+    "MARKS & SPENCER": 219.0
+   }
+  },
+  {
+   "name": "羽衣甘蓝",
+   "name_display": "羽衣甘蓝",
    "category": "蔬菜",
    "stores": {
     "ALDI": {
-     "price": 0.59,
-     "pack_g": 250.0,
-     "size": "250 g",
-     "per100_gbp": 0.236,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
-     "product_name": "British Chestnut Mushrooms",
+     "price": 0.89,
+     "pack_g": 200.0,
+     "size": "200 g",
+     "per100_gbp": 0.445,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
+     "product_name": "Scottish Shredded Kale",
      "category": "蔬菜",
      "form": "raw",
      "canned": false
     },
     "SAINSBURYS": {
-     "price": 1.85,
-     "pack_g": 625.0,
-     "size": "625g",
-     "per100_gbp": 0.296,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-closed-cup-mushrooms-vitamin-d-625g",
-     "product_name": "Sainsbury's Closed Cup Mushrooms Vitamin D 625g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 1.39,
-     "pack_g": 433.0,
-     "size": "433g",
-     "per100_gbp": 0.321,
-     "link": "https://www.iceland.co.uk/p/gilfresh-family-grown-closed-cup-mushrooms-433g/101892.html",
-     "product_name": "Gilfresh Family Grown Closed Cup Mushrooms 433g",
+     "price": 0.89,
+     "pack_g": 200.0,
+     "size": "200g",
+     "per100_gbp": 0.445,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-kale-200g",
+     "product_name": "Sainsbury's Kale 200g",
      "category": "蔬菜",
      "form": "raw",
      "canned": false
     },
     "TESCO": {
-     "price": 1.95,
-     "pack_g": 625.0,
-     "size": "625g",
-     "per100_gbp": 0.312,
-     "link": "https://www.tesco.com/shop/en-GB/products/279316390",
-     "product_name": "Tesco Family Pack Mushrooms 625G",
+     "price": 0.8,
+     "pack_g": 180.0,
+     "size": "180g",
+     "per100_gbp": 0.4444,
+     "link": "https://www.tesco.com/shop/en-GB/products/301219155",
+     "product_name": "Tesco Curly Kale 180G",
      "category": "蔬菜",
      "form": "raw",
      "canned": false
     },
     "MORRISONS": {
-     "price": 1.49,
-     "pack_g": 465.0,
-     "size": "465g",
-     "per100_gbp": 0.3204,
-     "link": "https://groceries.morrisons.com/products/115267952",
-     "product_name": "Morrisons British Closed Cup Mushrooms 465g",
+     "price": 0.66,
+     "pack_g": 150.0,
+     "size": "150g",
+     "per100_gbp": 0.44,
+     "link": "https://groceries.morrisons.com/products/112941551",
+     "product_name": "Morrisons British Sliced Kale  150g",
      "category": "蔬菜",
      "form": "raw",
      "canned": false
     },
     "WAITROSE": {
-     "price": 1.35,
-     "pack_g": 400.0,
-     "size": "400g",
-     "per100_gbp": 0.3375,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-essential-british-cup-mushrooms/396147-847639-847640",
-     "product_name": "Waitrose Essential British Cup Mushrooms",
+     "price": 1.4,
+     "pack_g": 210.0,
+     "size": "210g",
+     "per100_gbp": 0.6667,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-whole-leaf-kale/686452-97503-97504",
+     "product_name": "Waitrose Whole Leaf Kale",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.75,
+     "pack_g": 200.0,
+     "size": "200 g",
+     "per100_gbp": 0.875,
+     "link": "https://www.marksandspencer.com/food/cavolo-nero-kale/p/fdp60075308",
+     "product_name": "Cavolo Nero Kale",
      "category": "蔬菜",
      "form": "raw",
      "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.1015,
-   "diff_pct": 0.4301,
-   "spread_ratio": 1.43,
+   "no_price_stores": {},
+   "cheapest": "MORRISONS",
+   "cheapest_label": "Morrisons",
+   "expensive_label": "M&S",
+   "diff_per100": 0.435,
+   "diff_pct": 0.9886,
+   "spread_ratio": 1.99,
    "suspect": false,
    "sizes_g": {
-    "ALDI": 250.0,
-    "SAINSBURYS": 625.0,
-    "ICELAND": 433.0,
-    "TESCO": 625.0,
-    "MORRISONS": 465.0,
-    "WAITROSE": 400.0
+    "ALDI": 200.0,
+    "SAINSBURYS": 200.0,
+    "TESCO": 180.0,
+    "MORRISONS": 150.0,
+    "WAITROSE": 210.0,
+    "MARKS & SPENCER": 200.0
+   }
+  },
+  {
+   "name": "菲达奶酪",
+   "name_display": "菲达奶酪",
+   "category": "乳制品",
+   "stores": {
+    "ALDI": {
+     "price": 1.89,
+     "pack_g": 200.0,
+     "size": "200 g",
+     "per100_gbp": 0.945,
+     "link": "https://www.aldi.co.uk/product/emporium-greek-feta-000000000000557625",
+     "product_name": "Greek Feta",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 2.8,
+     "pack_g": 200.0,
+     "size": "200g",
+     "per100_gbp": 1.4,
+     "link": "https://www.iceland.co.uk/p/olympus-feta-original-200g/88836.html",
+     "product_name": "Olympus Feta Original 200g",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.89,
+     "pack_g": 200.0,
+     "size": "200g",
+     "per100_gbp": 0.945,
+     "link": "https://www.tesco.com/shop/en-GB/products/278857608",
+     "product_name": "Tranos Greek Feta 200G",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 2.91,
+     "pack_g": 410.0,
+     "size": "410g",
+     "per100_gbp": 0.7098,
+     "link": "https://groceries.morrisons.com/products/109755706",
+     "product_name": "Morrisons Feta Cubes",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": true
+    },
+    "WAITROSE": {
+     "price": 3.8,
+     "pack_g": 430.0,
+     "size": "430g",
+     "per100_gbp": 0.8837,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-greek-feta-pdo-cubes/396305-1-2",
+     "product_name": "Waitrose Greek Feta PDO Cubes",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 2.25,
+     "pack_g": 200.0,
+     "size": "200 g",
+     "per100_gbp": 1.125,
+     "link": "https://www.marksandspencer.com/food/greek-feta/p/fdp60048027",
+     "product_name": "Greek Feta",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "MORRISONS",
+   "cheapest_label": "Morrisons",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.6902,
+   "diff_pct": 0.9724,
+   "spread_ratio": 1.97,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 200.0,
+    "ICELAND": 200.0,
+    "TESCO": 200.0,
+    "MORRISONS": 410.0,
+    "WAITROSE": 430.0,
+    "MARKS & SPENCER": 200.0
+   }
+  },
+  {
+   "name": "花生酱",
+   "name_display": "花生酱",
+   "category": "调料",
+   "stores": {
+    "ALDI": {
+     "price": 0.95,
+     "pack_g": 340.0,
+     "size": "340 g",
+     "per100_gbp": 0.2794,
+     "link": "https://www.aldi.co.uk/product/grandessa-crunchy-peanut-butter-000000000283841002",
+     "product_name": "Crunchy Peanut Butter",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 1.0,
+     "pack_g": null,
+     "size": "340gram",
+     "per100_gbp": null,
+     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-crunchy-peanut-butter-340g",
+     "product_name": "Stamford Street Co. Crunchy Peanut Butter 340g",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 5.5,
+     "pack_g": 1000.0,
+     "size": "1Kg",
+     "per100_gbp": 0.55,
+     "link": "https://www.iceland.co.uk/p/meridian-smooth-peanut-butter-palm-oil-free-1kg/107282.html",
+     "product_name": "Meridian Smooth Peanut Butter Palm Oil Free 1Kg",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 0.95,
+     "pack_g": 340.0,
+     "size": "340g",
+     "per100_gbp": 0.2794,
+     "link": "https://www.tesco.com/shop/en-GB/products/264769626",
+     "product_name": "Tesco Smooth Peanut Butter 340G",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 2.25,
+     "pack_g": 700.0,
+     "size": "700g",
+     "per100_gbp": 0.3214,
+     "link": "https://groceries.morrisons.com/products/104423104",
+     "product_name": "Morrisons Smooth Peanut Butter",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.8,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.36,
+     "link": "https://www.waitrose.com/ecom/products/essential-smooth-peanut-butter/894225-781087-781088",
+     "product_name": "Essential Smooth Peanut Butter",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.45,
+     "pack_g": 340.0,
+     "size": "340 g",
+     "per100_gbp": 0.4265,
+     "link": "https://www.marksandspencer.com/food/crunchy-peanut-butter/p/fdp60014919",
+     "product_name": "Crunchy Peanut Butter",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.2706,
+   "diff_pct": 0.9685,
+   "spread_ratio": 1.97,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 340.0,
+    "ICELAND": 1000.0,
+    "TESCO": 340.0,
+    "MORRISONS": 700.0,
+    "WAITROSE": 500.0,
+    "MARKS & SPENCER": 340.0
+   }
+  },
+  {
+   "name": "亚麻籽粉",
+   "name_display": "亚麻籽粉",
+   "category": "干货",
+   "stores": {
+    "ALDI": {
+     "price": 1.79,
+     "pack_g": 200.0,
+     "size": "200 g",
+     "per100_gbp": 0.895,
+     "link": "https://www.aldi.co.uk/product/the-foodie-market-flaxseed-000000000386021002",
+     "product_name": "Flaxseed",
+     "category": "干货",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 1.25,
+     "pack_g": 100.0,
+     "size": "100g",
+     "per100_gbp": 1.25,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-100g-flaxseed",
+     "product_name": "Sainsbury's 100g Flaxseed",
+     "category": "干货",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.6,
+     "pack_g": 250.0,
+     "size": "250g",
+     "per100_gbp": 0.64,
+     "link": "https://www.tesco.com/shop/en-GB/products/276377684",
+     "product_name": "Tesco Golden Flaxseeds 250G",
+     "category": "干货",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 2.0,
+     "pack_g": 200.0,
+     "size": "200g",
+     "per100_gbp": 1.0,
+     "link": "https://groceries.morrisons.com/products/115673310",
+     "product_name": "Morrisons Milled Flaxseeds 200G",
+     "category": "干货",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 2.5,
+     "pack_g": 375.0,
+     "size": "375g",
+     "per100_gbp": 0.6667,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-golden-linseed/558759-772515-772516",
+     "product_name": "Waitrose Golden Linseed",
+     "category": "干货",
+     "form": "raw",
+     "canned": true
+    },
+    "MARKS & SPENCER": {
+     "price": 2.4,
+     "pack_g": 200.0,
+     "size": "200 g",
+     "per100_gbp": 1.2,
+     "link": "https://www.marksandspencer.com/food/milled-flaxseeds/p/fdp60724164",
+     "product_name": "Milled Flaxseeds",
+     "category": "干货",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "TESCO",
+   "cheapest_label": "Tesco",
+   "expensive_label": "Sainsbury's",
+   "diff_per100": 0.61,
+   "diff_pct": 0.9531,
+   "spread_ratio": 1.95,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 200.0,
+    "SAINSBURYS": 100.0,
+    "TESCO": 250.0,
+    "MORRISONS": 200.0,
+    "WAITROSE": 375.0,
+    "MARKS & SPENCER": 200.0
    }
   },
   {
@@ -11758,24 +12222,915 @@
      "category": "主食",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 2.65,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.53,
+     "link": "https://www.marksandspencer.com/food/organic-white-sourdough/p/fdp61266419",
+     "product_name": "Organic White Sourdough",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "ICELAND",
    "cheapest_label": "Iceland",
-   "expensive_label": "Morrisons",
-   "diff_per100": 0.0944,
-   "diff_pct": 0.3398,
-   "spread_ratio": 1.34,
+   "expensive_label": "M&S",
+   "diff_per100": 0.2522,
+   "diff_pct": 0.9078,
+   "spread_ratio": 1.91,
    "suspect": false,
    "sizes_g": {
     "ALDI": 500.0,
     "ICELAND": 720.0,
     "TESCO": 650.0,
     "MORRISONS": 900.0,
-    "WAITROSE": 1000.0
+    "WAITROSE": 1000.0,
+    "MARKS & SPENCER": 500.0
+   }
+  },
+  {
+   "name": "芦笋",
+   "name_display": "芦笋",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.4,
+     "pack_g": 100.0,
+     "size": "100 g",
+     "per100_gbp": 1.4,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166",
+     "product_name": "Asparagus Tips",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 2.0,
+     "pack_g": 250.0,
+     "size": "250g",
+     "per100_gbp": 0.8,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-250g-asparagus-spears",
+     "product_name": "Sainsbury's 250g Asparagus Spears",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.7,
+     "pack_g": 180.0,
+     "size": "180g",
+     "per100_gbp": 0.9444,
+     "link": "https://www.tesco.com/shop/en-GB/products/313732922",
+     "product_name": "Tesco Asparagus 180G",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 2.35,
+     "pack_g": 250.0,
+     "size": "250g",
+     "per100_gbp": 0.94,
+     "link": "https://groceries.morrisons.com/products/108467331",
+     "product_name": "Morrisons Asparagus ",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 2.75,
+     "pack_g": 230.0,
+     "size": "230g",
+     "per100_gbp": 1.1957,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-asparagus/085482-43550-43551",
+     "product_name": "Waitrose Asparagus",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 2.65,
+     "pack_g": 190.0,
+     "size": "190 g",
+     "per100_gbp": 1.3947,
+     "link": "https://www.marksandspencer.com/food/tenderstem-broccoli-and-asparagus/p/fdp60916911",
+     "product_name": "Tenderstem Broccoli and Asparagus",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "SAINSBURYS",
+   "cheapest_label": "Sainsbury's",
+   "expensive_label": "Aldi",
+   "diff_per100": 0.6,
+   "diff_pct": 0.75,
+   "spread_ratio": 1.75,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 100.0,
+    "SAINSBURYS": 250.0,
+    "TESCO": 180.0,
+    "MORRISONS": 250.0,
+    "WAITROSE": 230.0,
+    "MARKS & SPENCER": 190.0
+   }
+  },
+  {
+   "name": "高汤",
+   "name_display": "高汤",
+   "category": "肉类",
+   "stores": {
+    "ALDI": {
+     "price": 0.69,
+     "pack_g": 120.0,
+     "size": "120 g",
+     "per100_gbp": 0.575,
+     "link": "https://www.aldi.co.uk/product/bramwells-chicken-stock-cubes-000000000000633943",
+     "product_name": "Chicken Stock Cubes",
+     "category": "肉类",
+     "form": "processed",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 2.9,
+     "pack_g": 500.0,
+     "size": "500ml",
+     "per100_gbp": 0.58,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-beef-stock-inspired-to-cook-500ml",
+     "product_name": "Sainsbury's Beef Stock, Inspired to Cook 500ml",
+     "category": "肉类",
+     "form": "processed",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 5.0,
+     "pack_g": 1000.0,
+     "size": "1kg",
+     "per100_gbp": 0.5,
+     "link": "https://www.iceland.co.uk/p/jumbo-chicken-stock-1kg/92994.html",
+     "product_name": "Jumbo Chicken Stock 1kg",
+     "category": "肉类",
+     "form": "processed",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 2.3,
+     "pack_g": 500.0,
+     "size": "500ml",
+     "per100_gbp": 0.46,
+     "link": "https://www.tesco.com/shop/en-GB/products/304380585",
+     "product_name": "Potts Chicken Stock 500Ml",
+     "category": "肉类",
+     "form": "processed",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 2.3,
+     "pack_g": 500.0,
+     "size": "500ml",
+     "per100_gbp": 0.46,
+     "link": "https://groceries.morrisons.com/products/111838025",
+     "product_name": "Potts' Beef Stock Can ",
+     "category": "肉类",
+     "form": "processed",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 2.0,
+     "pack_g": 500.0,
+     "size": "500ml",
+     "per100_gbp": 0.4,
+     "link": "https://www.waitrose.com/ecom/products/oxo-signature-chicken-stock/328672-1-2",
+     "product_name": "Oxo Signature Chicken Stock",
+     "category": "肉类",
+     "form": "processed",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 3.4,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.68,
+     "link": "https://www.marksandspencer.com/food/chicken-stock/p/fdp60536097",
+     "product_name": "Chicken Stock",
+     "category": "肉类",
+     "form": "processed",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "WAITROSE",
+   "cheapest_label": "Waitrose",
+   "expensive_label": "M&S",
+   "diff_per100": 0.28,
+   "diff_pct": 0.7,
+   "spread_ratio": 1.7,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 120.0,
+    "SAINSBURYS": 500.0,
+    "ICELAND": 1000.0,
+    "TESCO": 500.0,
+    "MORRISONS": 500.0,
+    "WAITROSE": 500.0,
+    "MARKS & SPENCER": 500.0
+   }
+  },
+  {
+   "name": "沙拉酱",
+   "name_display": "沙拉酱",
+   "category": "乳制品",
+   "stores": {
+    "ALDI": {
+     "price": 0.89,
+     "pack_g": 520.0,
+     "size": "520 g",
+     "per100_gbp": 0.1712,
+     "link": "https://www.aldi.co.uk/product/bramwells-squeezy-salad-cream-000000000279911001",
+     "product_name": "Squeezy Salad Cream",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 0.85,
+     "pack_g": 480.0,
+     "size": "480ml",
+     "per100_gbp": 0.1771,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-reduced-fat-mayonnaise-480ml",
+     "product_name": "Sainsbury's Reduced Fat Mayonnaise 480ml",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 1.0,
+     "pack_g": 430.0,
+     "size": "430ml",
+     "per100_gbp": 0.2326,
+     "link": "https://www.iceland.co.uk/p/hellmanns-delicious-low-fat-mayo-430-ml/80181.html",
+     "product_name": "Hellmann's Delicious Low Fat Mayo 430 ml",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 0.89,
+     "pack_g": 500.0,
+     "size": "500ml",
+     "per100_gbp": 0.178,
+     "link": "https://www.tesco.com/shop/en-GB/products/305249769",
+     "product_name": "Tesco Light Mayonnaise 500Ml",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 0.95,
+     "pack_g": 500.0,
+     "size": "500ml",
+     "per100_gbp": 0.19,
+     "link": "https://groceries.morrisons.com/products/113133483",
+     "product_name": "Morrisons Mayonnaise 500ml",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.4,
+     "pack_g": 500.0,
+     "size": "500ml",
+     "per100_gbp": 0.28,
+     "link": "https://www.waitrose.com/ecom/products/essential-half-fat-mayonnaise/034543-17355-17356",
+     "product_name": "Essential Half Fat Mayonnaise",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.45,
+     "pack_g": 500.0,
+     "size": "500 ml",
+     "per100_gbp": 0.29,
+     "link": "https://www.marksandspencer.com/food/classic-mayo/p/fdp60701496",
+     "product_name": "Classic Mayo",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "M&S",
+   "diff_per100": 0.1188,
+   "diff_pct": 0.6939,
+   "spread_ratio": 1.69,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 520.0,
+    "SAINSBURYS": 480.0,
+    "ICELAND": 430.0,
+    "TESCO": 500.0,
+    "MORRISONS": 500.0,
+    "WAITROSE": 500.0,
+    "MARKS & SPENCER": 500.0
+   }
+  },
+  {
+   "name": "鹰嘴豆泥",
+   "name_display": "鹰嘴豆泥",
+   "category": "豆制品",
+   "stores": {
+    "ALDI": {
+     "price": 0.95,
+     "pack_g": 200.0,
+     "size": "200 g",
+     "per100_gbp": 0.475,
+     "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
+     "product_name": "Houmous",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 1.0,
+     "pack_g": 200.0,
+     "size": "200g",
+     "per100_gbp": 0.5,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-houmous-200g",
+     "product_name": "Sainsbury's Houmous 200g",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 3.6,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.72,
+     "link": "https://www.iceland.co.uk/p/ramonas-original-heavenly-houmous-500g/107190.html",
+     "product_name": "Ramona's Original Heavenly Houmous 500g",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.65,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 0.55,
+     "link": "https://www.tesco.com/shop/en-GB/products/320967265",
+     "product_name": "Tesco Houmous 300g",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 1.49,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 0.4967,
+     "link": "https://groceries.morrisons.com/products/104263999",
+     "product_name": "Morrisons Classic Houmous 300g",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.45,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 0.4833,
+     "link": "https://www.waitrose.com/ecom/products/essential-reduced-fat-houmous/046201-22747-22748",
+     "product_name": "Essential Reduced Fat Houmous",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.85,
+     "pack_g": 300.0,
+     "size": "300 g",
+     "per100_gbp": 0.6167,
+     "link": "https://www.marksandspencer.com/food/classic-houmous/p/fdp60524944",
+     "product_name": "Classic Houmous",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.245,
+   "diff_pct": 0.5158,
+   "spread_ratio": 1.52,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 200.0,
+    "SAINSBURYS": 200.0,
+    "ICELAND": 500.0,
+    "TESCO": 300.0,
+    "MORRISONS": 300.0,
+    "WAITROSE": 300.0,
+    "MARKS & SPENCER": 300.0
+   }
+  },
+  {
+   "name": "烘焙麦片",
+   "name_display": "烘焙麦片",
+   "category": "主食",
+   "stores": {
+    "ALDI": {
+     "price": 1.99,
+     "pack_g": 1000.0,
+     "size": "1 kg",
+     "per100_gbp": 0.199,
+     "link": "https://www.aldi.co.uk/product/harvest-morn-tropical-fruits-granola-000000000335670002",
+     "product_name": "Tropical Fruits Granola",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 2.4,
+     "pack_g": 1000.0,
+     "size": "1kg",
+     "per100_gbp": 0.24,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-granola-strawberry-1kg",
+     "product_name": "Sainsbury's Granola, Strawberry 1kg",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 2.5,
+     "pack_g": 1000.0,
+     "size": "1000g",
+     "per100_gbp": 0.25,
+     "link": "https://www.tesco.com/shop/en-GB/products/262580389",
+     "product_name": "Tesco Tropical Fruits Granola 1Kg",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 2.0,
+     "pack_g": 1000.0,
+     "size": "1kg",
+     "per100_gbp": 0.2,
+     "link": "https://groceries.morrisons.com/products/112997634",
+     "product_name": "Morrisons Savers Granola",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 3.0,
+     "pack_g": 1000.0,
+     "size": "1Kg",
+     "per100_gbp": 0.3,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-berry-granola/811721-772666-772667",
+     "product_name": "Waitrose Berry Granola",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 2.95,
+     "pack_g": 1000.0,
+     "size": "1 kg",
+     "per100_gbp": 0.295,
+     "link": "https://www.marksandspencer.com/food/raisin-and-almond-granola/p/fdp60589781",
+     "product_name": "Raisin and Almond Granola",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Waitrose",
+   "diff_per100": 0.101,
+   "diff_pct": 0.5075,
+   "spread_ratio": 1.51,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 1000.0,
+    "SAINSBURYS": 1000.0,
+    "TESCO": 1000.0,
+    "MORRISONS": 1000.0,
+    "WAITROSE": 1000.0,
+    "MARKS & SPENCER": 1000.0
+   }
+  },
+  {
+   "name": "土豆",
+   "name_display": "土豆",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 0.49,
+     "pack_g": 1000.0,
+     "size": "1 kg",
+     "per100_gbp": 0.049,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-baby-potatoes-000000000000339748",
+     "product_name": "British Baby Potatoes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 1.32,
+     "pack_g": 2000.0,
+     "size": "2 kg",
+     "per100_gbp": 0.066,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-2kg-white-potatoes",
+     "product_name": "Sainsbury's 2kg White Potatoes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 5.5,
+     "pack_g": 7500.0,
+     "size": "7.5kg",
+     "per100_gbp": 0.0733,
+     "link": "https://www.iceland.co.uk/p/wilsons-country-farm-value-potatoes-7.5kg/95499.html",
+     "product_name": "Wilson's Country Farm Value Potatoes 7.5kg",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.32,
+     "pack_g": 2000.0,
+     "size": "2kg",
+     "per100_gbp": 0.066,
+     "link": "https://www.tesco.com/shop/en-GB/products/295593295",
+     "product_name": "Tesco White Potatoes 2Kg",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 1.49,
+     "pack_g": 2500.0,
+     "size": "2.5kg",
+     "per100_gbp": 0.0596,
+     "link": "https://groceries.morrisons.com/products/108502061",
+     "product_name": "Morrisons British Naturally Wonky Potatoes 2.5Kg",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.85,
+     "pack_g": 3000.0,
+     "size": "3kg",
+     "per100_gbp": 0.0617,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-british-wonderfully-wonky-potatoes/704974-486934-486935",
+     "product_name": "Waitrose British Wonderfully Wonky Potatoes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.4,
+     "pack_g": 2000.0,
+     "size": "2 kg",
+     "per100_gbp": 0.07,
+     "link": "https://www.marksandspencer.com/food/white-all-rounder-potatoes/p/fdp60028171",
+     "product_name": "White All-Rounder Potatoes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.0243,
+   "diff_pct": 0.4959,
+   "spread_ratio": 1.5,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 1000.0,
+    "SAINSBURYS": 2000.0,
+    "ICELAND": 7500.0,
+    "TESCO": 2000.0,
+    "MORRISONS": 2500.0,
+    "WAITROSE": 3000.0,
+    "MARKS & SPENCER": 2000.0
+   }
+  },
+  {
+   "name": "番茄",
+   "name_display": "番茄",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.29,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.258,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-vine-ripened-tomatoes-000000000000275557",
+     "product_name": "Vine Ripened Tomatoes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 1.9,
+     "pack_g": null,
+     "size": "nan",
+     "per100_gbp": null,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-tomatoes-loose",
+     "product_name": "Sainsbury's Tomatoes Loose",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 1.75,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.35,
+     "link": "https://www.iceland.co.uk/p/iceland-large-vine-tomatoes-500g/63121.html",
+     "product_name": "Iceland Large Vine Tomatoes 500g",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.55,
+     "pack_g": 650.0,
+     "size": "650g",
+     "per100_gbp": 0.2385,
+     "link": "https://www.tesco.com/shop/en-GB/products/296056918",
+     "product_name": "Tesco Salad Tomatoes 650G",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 1.79,
+     "pack_g": 750.0,
+     "size": "750g",
+     "per100_gbp": 0.2387,
+     "link": "https://groceries.morrisons.com/products/108388941",
+     "product_name": "Morrisons Salad Tomatoes 750g",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.5,
+     "pack_g": 450.0,
+     "size": "450g",
+     "per100_gbp": 0.3333,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-classic-vine-tomatoes/005274-2275-2276",
+     "product_name": "Waitrose Classic Vine Tomatoes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.1,
+     "pack_g": 360.0,
+     "size": "360 g",
+     "per100_gbp": 0.3056,
+     "link": "https://www.marksandspencer.com/food/round-tomatoes/p/fdp21007232",
+     "product_name": "Round Tomatoes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "TESCO",
+   "cheapest_label": "Tesco",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.1115,
+   "diff_pct": 0.4675,
+   "spread_ratio": 1.47,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 500.0,
+    "ICELAND": 500.0,
+    "TESCO": 650.0,
+    "MORRISONS": 750.0,
+    "WAITROSE": 450.0,
+    "MARKS & SPENCER": 360.0
+   }
+  },
+  {
+   "name": "鸡蛋",
+   "name_display": "鸡蛋",
+   "category": "蛋类",
+   "stores": {
+    "ALDI": {
+     "price": 0.99,
+     "pack_g": null,
+     "size": "6 Each",
+     "per100_gbp": null,
+     "link": "https://www.aldi.co.uk/product/merevale-free-range-eggs-6-pack-000000000000548465",
+     "product_name": "Free Range Eggs 6 Pack",
+     "category": "蛋类",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 3.6,
+     "pack_g": 805.0,
+     "size": "6 x Large ;6 x Medium ;12 x Large ;12 x Medium ;6 x Very Large ;805g ;6 mixed weight minimum net 328g",
+     "per100_gbp": 0.4472,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-free-range-british-eggs-medium-x15",
+     "product_name": "Sainsbury's Free Range British Eggs Medium x15",
+     "category": "蛋类",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 1.29,
+     "pack_g": 420.0,
+     "size": "420g",
+     "per100_gbp": 0.3071,
+     "link": "https://www.iceland.co.uk/p/ballygarvey-6-big-and-healthy-fresh-eggs-420g/104139.html",
+     "product_name": "Ballygarvey 6 Big & Healthy Fresh Eggs 420g",
+     "category": "蛋类",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 2.85,
+     "pack_g": 805.0,
+     "size": "805g",
+     "per100_gbp": 0.354,
+     "link": "https://www.tesco.com/shop/en-GB/products/265422924",
+     "product_name": "Tesco Mixed Sized Free Range Eggs 15 Pack",
+     "category": "蛋类",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 2.95,
+     "pack_g": null,
+     "size": "12 per pack",
+     "per100_gbp": null,
+     "link": "https://groceries.morrisons.com/products/110250449",
+     "product_name": "Morrisons Medium Free Range Eggs 12 Pack",
+     "category": "蛋类",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 3.2,
+     "pack_g": null,
+     "size": "12s",
+     "per100_gbp": null,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-fr-mixed-size-eggs-british-blacktail/082926-42143-42144",
+     "product_name": "Waitrose FR Mixed Size Eggs British Blacktail",
+     "category": "蛋类",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.4,
+     "pack_g": 328.0,
+     "size": "328 g",
+     "per100_gbp": 0.4268,
+     "link": "https://www.marksandspencer.com/food/british-free-range-mixed-size-eggs/p/fdp60065487",
+     "product_name": "British Free Range Mixed Size Eggs",
+     "category": "蛋类",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "ICELAND",
+   "cheapest_label": "Iceland",
+   "expensive_label": "Sainsbury's",
+   "diff_per100": 0.1401,
+   "diff_pct": 0.4562,
+   "spread_ratio": 1.46,
+   "suspect": false,
+   "sizes_g": {
+    "SAINSBURYS": 805.0,
+    "ICELAND": 420.0,
+    "TESCO": 805.0,
+    "MARKS & SPENCER": 328.0
+   }
+  },
+  {
+   "name": "蘑菇",
+   "name_display": "蘑菇",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 0.59,
+     "pack_g": 250.0,
+     "size": "250 g",
+     "per100_gbp": 0.236,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-british-chestnut-mushrooms-000000000000339800",
+     "product_name": "British Chestnut Mushrooms",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 1.85,
+     "pack_g": 625.0,
+     "size": "625g",
+     "per100_gbp": 0.296,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-closed-cup-mushrooms-vitamin-d-625g",
+     "product_name": "Sainsbury's Closed Cup Mushrooms Vitamin D 625g",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 1.39,
+     "pack_g": 433.0,
+     "size": "433g",
+     "per100_gbp": 0.321,
+     "link": "https://www.iceland.co.uk/p/gilfresh-family-grown-closed-cup-mushrooms-433g/101892.html",
+     "product_name": "Gilfresh Family Grown Closed Cup Mushrooms 433g",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.95,
+     "pack_g": 625.0,
+     "size": "625g",
+     "per100_gbp": 0.312,
+     "link": "https://www.tesco.com/shop/en-GB/products/279316390",
+     "product_name": "Tesco Family Pack Mushrooms 625G",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 1.49,
+     "pack_g": 465.0,
+     "size": "465g",
+     "per100_gbp": 0.3204,
+     "link": "https://groceries.morrisons.com/products/115267952",
+     "product_name": "Morrisons British Closed Cup Mushrooms 465g",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.35,
+     "pack_g": 400.0,
+     "size": "400g",
+     "per100_gbp": 0.3375,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-essential-british-cup-mushrooms/396147-847639-847640",
+     "product_name": "Waitrose Essential British Cup Mushrooms",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.0,
+     "pack_g": 300.0,
+     "size": "300 g",
+     "per100_gbp": 0.3333,
+     "link": "https://www.marksandspencer.com/food/british-white-mushrooms/p/fdp21003386",
+     "product_name": "British White Mushrooms",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Waitrose",
+   "diff_per100": 0.1015,
+   "diff_pct": 0.4301,
+   "spread_ratio": 1.43,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 250.0,
+    "SAINSBURYS": 625.0,
+    "ICELAND": 433.0,
+    "TESCO": 625.0,
+    "MORRISONS": 465.0,
+    "WAITROSE": 400.0,
+    "MARKS & SPENCER": 300.0
    }
   },
   {
@@ -11826,23 +13181,33 @@
      "category": "调料",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 3.4,
+     "pack_g": 300.0,
+     "size": "300 g",
+     "per100_gbp": 1.1333,
+     "link": "https://www.marksandspencer.com/food/tahini/p/fdp60464952",
+     "product_name": "Tahini",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.2467,
-   "diff_pct": 0.2836,
-   "spread_ratio": 1.28,
+   "expensive_label": "M&S",
+   "diff_per100": 0.2633,
+   "diff_pct": 0.3026,
+   "spread_ratio": 1.3,
    "suspect": false,
    "sizes_g": {
     "SAINSBURYS": 300.0,
     "TESCO": 500.0,
     "MORRISONS": 300.0,
-    "WAITROSE": 300.0
+    "WAITROSE": 300.0,
+    "MARKS & SPENCER": 300.0
    }
   },
   {
@@ -11915,11 +13280,20 @@
      "category": "肉类",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 3.5,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.7,
+     "link": "https://www.marksandspencer.com/food/british-beef-mince-20-fat/p/fdp21060204",
+     "product_name": "British Beef Mince 20% Fat",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
    "expensive_label": "Iceland",
@@ -11933,96 +13307,8 @@
     "ICELAND": 600.0,
     "TESCO": 500.0,
     "MORRISONS": 500.0,
-    "WAITROSE": 500.0
-   }
-  },
-  {
-   "name": "生菜",
-   "name_display": "生菜",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 0.85,
-     "pack_g": 80.0,
-     "size": "80 g",
-     "per100_gbp": 1.0625,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002",
-     "product_name": "Butterhead Salad",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.6,
-     "pack_g": null,
-     "size": "nan",
-     "per100_gbp": null,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-little-gem-lettuce-so-organic-x2",
-     "product_name": "Sainsbury's Little Gem Lettuce, SO Organic x2",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 1.0,
-     "pack_g": null,
-     "size": "nan",
-     "per100_gbp": null,
-     "link": "https://www.iceland.co.uk/p/iceland-little-gem-lettuce/67736.html",
-     "product_name": "Iceland Little Gem Lettuce",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.0,
-     "pack_g": 80.0,
-     "size": "80g",
-     "per100_gbp": 1.25,
-     "link": "https://www.tesco.com/shop/en-GB/products/312225758",
-     "product_name": "Tesco Butterhead Salad 80G",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 1.0,
-     "pack_g": 80.0,
-     "size": "80g",
-     "per100_gbp": 1.25,
-     "link": "https://groceries.morrisons.com/products/112846473",
-     "product_name": "Morrisons Butterhead Salad 80g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.55,
-     "pack_g": 120.0,
-     "size": "120g",
-     "per100_gbp": 1.2917,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-butterhead-salad/819223-350085-350086",
-     "product_name": "Waitrose Butterhead Salad",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.2292,
-   "diff_pct": 0.2157,
-   "spread_ratio": 1.22,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 80.0,
-    "TESCO": 80.0,
-    "MORRISONS": 80.0,
-    "WAITROSE": 120.0
+    "WAITROSE": 500.0,
+    "MARKS & SPENCER": 500.0
    }
   },
   {
@@ -12095,11 +13381,20 @@
      "category": "调料",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 2.65,
+     "pack_g": 385.0,
+     "size": "385 g",
+     "per100_gbp": 0.6883,
+     "link": "https://www.marksandspencer.com/food/minted-baby-potatoes/p/fdp60073658",
+     "product_name": "Minted Baby Potatoes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
    "expensive_label": "Morrisons",
@@ -12113,7 +13408,8 @@
     "ICELAND": 165.0,
     "TESCO": 2000.0,
     "MORRISONS": 73.0,
-    "WAITROSE": 200.0
+    "WAITROSE": 200.0,
+    "MARKS & SPENCER": 385.0
    }
   },
   {
@@ -12164,11 +13460,20 @@
      "category": "蔬菜",
      "form": "raw",
      "canned": true
+    },
+    "MARKS & SPENCER": {
+     "price": 1.25,
+     "pack_g": 400.0,
+     "size": "400 g",
+     "per100_gbp": 0.3125,
+     "link": "https://www.marksandspencer.com/food/organic-italian-chopped-tomatoes/p/fdp60465728",
+     "product_name": "Organic Italian Chopped Tomatoes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": true
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
    "expensive_label": "Morrisons",
@@ -12180,7 +13485,96 @@
     "SAINSBURYS": 400.0,
     "TESCO": 400.0,
     "MORRISONS": 400.0,
-    "WAITROSE": 400.0
+    "WAITROSE": 400.0,
+    "MARKS & SPENCER": 400.0
+   }
+  },
+  {
+   "name": "紫甘蓝",
+   "name_display": "紫甘蓝",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.19,
+     "pack_g": 440.0,
+     "size": "440 g",
+     "per100_gbp": 0.2705,
+     "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515",
+     "product_name": "Red Cabbage",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": true
+    },
+    "SAINSBURYS": {
+     "price": 2.5,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.5,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-500g-red-cabbage-taste-the-difference",
+     "product_name": "Sainsbury's 500g Red Cabbage, Taste the Difference",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 0.89,
+     "pack_g": null,
+     "size": "nan",
+     "per100_gbp": null,
+     "link": "https://www.tesco.com/shop/en-GB/products/294070184",
+     "product_name": "Tesco Red Cabbage Each",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 1.45,
+     "pack_g": 200.0,
+     "size": "200g",
+     "per100_gbp": 0.725,
+     "link": "https://groceries.morrisons.com/products/105127243",
+     "product_name": "Morrisons Red Cabbage (440g)",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": true
+    },
+    "WAITROSE": {
+     "price": 2.25,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.45,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-winter-red-cabbage/466861-807871-807872",
+     "product_name": "Waitrose Winter Red Cabbage",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 0.95,
+     "pack_g": 1200.0,
+     "size": "1200 g",
+     "per100_gbp": 0.0792,
+     "link": "https://www.marksandspencer.com/food/organic-red-cabbage/p/fdp60038615",
+     "product_name": "Organic Red Cabbage",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "MARKS & SPENCER",
+   "cheapest_label": "M&S",
+   "expensive_label": "Morrisons",
+   "diff_per100": 0.6458,
+   "diff_pct": 8.154,
+   "spread_ratio": 9.15,
+   "suspect": true,
+   "sizes_g": {
+    "ALDI": 440.0,
+    "SAINSBURYS": 500.0,
+    "MORRISONS": 200.0,
+    "WAITROSE": 500.0,
+    "MARKS & SPENCER": 1200.0
    }
   },
   {
@@ -12253,11 +13647,20 @@
      "category": "水产",
      "form": "canned",
      "canned": true
+    },
+    "MARKS & SPENCER": {
+     "price": 2.8,
+     "pack_g": 640.0,
+     "size": "640 g",
+     "per100_gbp": 0.4375,
+     "link": "https://www.marksandspencer.com/food/tuna-chunks-in-spring-water/p/fdp60467051",
+     "product_name": "Tuna Chunks in Spring Water",
+     "category": "水产",
+     "form": "canned",
+     "canned": true
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Waitrose",
@@ -12271,7 +13674,8 @@
     "ICELAND": 160.0,
     "TESCO": 408.0,
     "MORRISONS": 102.0,
-    "WAITROSE": 160.0
+    "WAITROSE": 160.0,
+    "MARKS & SPENCER": 640.0
    }
   },
   {
@@ -12344,11 +13748,20 @@
      "category": "调料",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 0.55,
+     "pack_g": 568.0,
+     "size": "568 ml",
+     "per100_gbp": 0.0968,
+     "link": "https://www.marksandspencer.com/food/distilled-malt-vinegar/p/fdp60489796",
+     "product_name": "Distilled Malt Vinegar",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
    "expensive_label": "Iceland",
@@ -12362,7 +13775,8 @@
     "ICELAND": 400.0,
     "TESCO": 1140.0,
     "MORRISONS": 568.0,
-    "WAITROSE": 568.0
+    "WAITROSE": 568.0,
+    "MARKS & SPENCER": 568.0
    }
   },
   {
@@ -12435,11 +13849,20 @@
      "category": "水果",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 4.35,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.87,
+     "link": "https://www.marksandspencer.com/food/frozen-strawberries/p/fdp60712445",
+     "product_name": "Frozen Strawberries",
+     "category": "水果",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "ICELAND",
    "cheapest_label": "Iceland",
    "expensive_label": "Morrisons",
@@ -12453,7 +13876,8 @@
     "ICELAND": 510.0,
     "TESCO": 340.0,
     "MORRISONS": 90.0,
-    "WAITROSE": 115.0
+    "WAITROSE": 115.0,
+    "MARKS & SPENCER": 500.0
    }
   },
   {
@@ -12526,11 +13950,20 @@
      "category": "蔬菜",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 2.0,
+     "pack_g": 1000.0,
+     "size": "1 kg",
+     "per100_gbp": 0.2,
+     "link": "https://www.marksandspencer.com/food/organic-cauliflower/p/fdp21003089",
+     "product_name": "Organic Cauliflower",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Tesco",
@@ -12541,7 +13974,8 @@
    "sizes_g": {
     "ALDI": 900.0,
     "TESCO": 350.0,
-    "MORRISONS": 500.0
+    "MORRISONS": 500.0,
+    "MARKS & SPENCER": 1000.0
    }
   },
   {
@@ -12603,11 +14037,20 @@
      "category": "调料",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.6,
+     "pack_g": 340.0,
+     "size": "340 g",
+     "per100_gbp": 0.4706,
+     "link": "https://www.marksandspencer.com/food/pitted-black-hojiblanca-olives/p/fdp60458811",
+     "product_name": "Pitted Black Hojiblanca Olives",
+     "category": "水果",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "WAITROSE",
    "cheapest_label": "Waitrose",
    "expensive_label": "Iceland",
@@ -12620,7 +14063,206 @@
     "ICELAND": 150.0,
     "TESCO": 720.0,
     "MORRISONS": 340.0,
-    "WAITROSE": 900.0
+    "WAITROSE": 900.0,
+    "MARKS & SPENCER": 340.0
+   }
+  },
+  {
+   "name": "黄瓜",
+   "name_display": "黄瓜",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 0.99,
+     "pack_g": null,
+     "size": "1 Each",
+     "per100_gbp": null,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
+     "product_name": "Cucumber",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 0.8,
+     "pack_g": null,
+     "size": "nan",
+     "per100_gbp": null,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-small-whole-cucumber",
+     "product_name": "Sainsbury's Small Whole Cucumber",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 1.5,
+     "pack_g": 200.0,
+     "size": "200g",
+     "per100_gbp": 0.75,
+     "link": "https://www.iceland.co.uk/p/iceland-baby-cucumbers-200g/53277.html",
+     "product_name": "Iceland Baby Cucumbers 200g",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 2.85,
+     "pack_g": 670.0,
+     "size": "670g",
+     "per100_gbp": 0.4254,
+     "link": "https://www.tesco.com/shop/en-GB/products/273482385",
+     "product_name": "Mrs Elswood Haimisha Cucumbers 670G",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 2.5,
+     "pack_g": 800.0,
+     "size": "800g",
+     "per100_gbp": 0.3125,
+     "link": "https://groceries.morrisons.com/products/112557364",
+     "product_name": "Polish Special Cucumber",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 3.1,
+     "pack_g": 670.0,
+     "size": "670g",
+     "per100_gbp": 0.4627,
+     "link": "https://www.waitrose.com/ecom/products/mrs-elswood-haimisha-cucumbers/034470-17297-17298",
+     "product_name": "Mrs Elswood Haimisha Cucumbers",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.0,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.2,
+     "link": "https://www.marksandspencer.com/food/whole-cucumber/p/fdp21007311",
+     "product_name": "Whole Cucumber",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "MARKS & SPENCER",
+   "cheapest_label": "M&S",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.55,
+   "diff_pct": 2.75,
+   "spread_ratio": 3.75,
+   "suspect": true,
+   "sizes_g": {
+    "ICELAND": 200.0,
+    "TESCO": 670.0,
+    "MORRISONS": 800.0,
+    "WAITROSE": 670.0,
+    "MARKS & SPENCER": 500.0
+   }
+  },
+  {
+   "name": "生菜",
+   "name_display": "生菜",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 0.85,
+     "pack_g": 80.0,
+     "size": "80 g",
+     "per100_gbp": 1.0625,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-butterhead-salad-000000000496415002",
+     "product_name": "Butterhead Salad",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 1.6,
+     "pack_g": null,
+     "size": "nan",
+     "per100_gbp": null,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-little-gem-lettuce-so-organic-x2",
+     "product_name": "Sainsbury's Little Gem Lettuce, SO Organic x2",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 1.0,
+     "pack_g": null,
+     "size": "nan",
+     "per100_gbp": null,
+     "link": "https://www.iceland.co.uk/p/iceland-little-gem-lettuce/67736.html",
+     "product_name": "Iceland Little Gem Lettuce",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.0,
+     "pack_g": 80.0,
+     "size": "80g",
+     "per100_gbp": 1.25,
+     "link": "https://www.tesco.com/shop/en-GB/products/312225758",
+     "product_name": "Tesco Butterhead Salad 80G",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 1.0,
+     "pack_g": 80.0,
+     "size": "80g",
+     "per100_gbp": 1.25,
+     "link": "https://groceries.morrisons.com/products/112846473",
+     "product_name": "Morrisons Butterhead Salad 80g",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.55,
+     "pack_g": 120.0,
+     "size": "120g",
+     "per100_gbp": 1.2917,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-butterhead-salad/819223-350085-350086",
+     "product_name": "Waitrose Butterhead Salad",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 0.8,
+     "pack_g": 229.0,
+     "size": "229 g",
+     "per100_gbp": 0.3493,
+     "link": "https://www.marksandspencer.com/food/little-gem-lettuce/p/fdp21007258",
+     "product_name": "Little Gem Lettuce",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "MARKS & SPENCER",
+   "cheapest_label": "M&S",
+   "expensive_label": "Waitrose",
+   "diff_per100": 0.9424,
+   "diff_pct": 2.698,
+   "spread_ratio": 3.7,
+   "suspect": true,
+   "sizes_g": {
+    "ALDI": 80.0,
+    "TESCO": 80.0,
+    "MORRISONS": 80.0,
+    "WAITROSE": 120.0,
+    "MARKS & SPENCER": 229.0
    }
   },
   {
@@ -12693,11 +14335,20 @@
      "category": "乳制品",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 2.4,
+     "pack_g": 3408.0,
+     "size": "3.408 l",
+     "per100_gbp": 0.0704,
+     "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727",
+     "product_name": "Semi Skimmed Milk",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "MORRISONS",
    "cheapest_label": "Morrisons",
    "expensive_label": "Waitrose",
@@ -12711,7 +14362,8 @@
     "ICELAND": 3000.0,
     "TESCO": 2272.0,
     "MORRISONS": 1000.0,
-    "WAITROSE": 568.0
+    "WAITROSE": 568.0,
+    "MARKS & SPENCER": 3408.0
    }
   },
   {
@@ -12784,11 +14436,20 @@
      "category": "肉类",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.5,
+     "pack_g": 600.0,
+     "size": "600 g",
+     "per100_gbp": 0.25,
+     "link": "https://www.marksandspencer.com/food/chicken-leg-portions/p/fdp60584836",
+     "product_name": "Chicken Leg Portions",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Waitrose",
@@ -12802,7 +14463,8 @@
     "ICELAND": 2500.0,
     "TESCO": 1000.0,
     "MORRISONS": 1350.0,
-    "WAITROSE": 250.0
+    "WAITROSE": 250.0,
+    "MARKS & SPENCER": 600.0
    }
   },
   {
@@ -12875,11 +14537,20 @@
      "category": "主食",
      "form": "processed",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 0.7,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.14,
+     "link": "https://www.marksandspencer.com/food/italian-alphabet-pasta/p/fdp60495410",
+     "product_name": "Italian Alphabet Pasta",
+     "category": "主食",
+     "form": "processed",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Waitrose",
@@ -12893,7 +14564,8 @@
     "ICELAND": 3000.0,
     "TESCO": 500.0,
     "MORRISONS": 1000.0,
-    "WAITROSE": 1000.0
+    "WAITROSE": 1000.0,
+    "MARKS & SPENCER": 500.0
    }
   },
   {
@@ -12966,11 +14638,20 @@
      "category": "乳制品",
      "form": "raw",
      "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 2.4,
+     "pack_g": 3408.0,
+     "size": "3.408 l",
+     "per100_gbp": 0.0704,
+     "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727",
+     "product_name": "Semi Skimmed Milk",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
     }
    },
-   "no_price_stores": {
-    "MARKS & SPENCER": true
-   },
+   "no_price_stores": {},
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Waitrose",
@@ -12984,7 +14665,8 @@
     "ICELAND": 2000.0,
     "TESCO": 2272.0,
     "MORRISONS": 3408.0,
-    "WAITROSE": 568.0
+    "WAITROSE": 568.0,
+    "MARKS & SPENCER": 3408.0
    }
   }
  ],
