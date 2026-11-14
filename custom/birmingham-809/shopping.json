@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-14T18:19:50",
+ "generated": "2026-11-14T18:29:20",
  "quantity_basis": "单人 8 天份 · 11/15 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/15",
@@ -174,10 +174,10 @@
  "stores": [
   "ALDI",
   "SAINSBURYS",
-  "ICELAND",
   "TESCO",
   "MORRISONS",
-  "WAITROSE"
+  "WAITROSE",
+  "ICELAND"
  ],
  "store_labels": {
   "ALDI": "Aldi",
@@ -186,6 +186,12 @@
   "TESCO": "Tesco",
   "MORRISONS": "Morrisons",
   "WAITROSE": "Waitrose"
+ },
+ "unpriced_stores": [
+  "MARKS & SPENCER"
+ ],
+ "unpriced_labels": {
+  "MARKS & SPENCER": "M&S"
  },
  "exclusive": [],
  "exclusive_note": "",
@@ -9777,6 +9783,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Waitrose",
@@ -9852,6 +9861,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Morrisons",
@@ -9926,6 +9938,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
@@ -10012,6 +10027,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "MORRISONS",
    "cheapest_label": "Morrisons",
    "expensive_label": "Iceland",
@@ -10097,6 +10115,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": false
    },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
@@ -10186,6 +10207,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Morrisons",
@@ -10263,6 +10287,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "MORRISONS",
    "cheapest_label": "Morrisons",
    "expensive_label": "Waitrose",
@@ -10338,6 +10365,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "MORRISONS",
    "cheapest_label": "Morrisons",
@@ -10426,6 +10456,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Iceland",
@@ -10502,6 +10535,9 @@
      "canned": true
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
    "expensive_label": "Sainsbury's",
@@ -10577,6 +10613,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "SAINSBURYS",
    "cheapest_label": "Sainsbury's",
@@ -10665,6 +10704,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Iceland",
@@ -10741,6 +10783,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "MORRISONS",
    "cheapest_label": "Morrisons",
@@ -10828,6 +10873,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
@@ -10917,6 +10965,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Iceland",
@@ -10994,6 +11045,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "MORRISONS",
    "cheapest_label": "Morrisons",
    "expensive_label": "Waitrose",
@@ -11069,6 +11123,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
@@ -11156,6 +11213,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
@@ -11245,6 +11305,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
    "expensive_label": "Iceland",
@@ -11332,6 +11395,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ICELAND",
    "cheapest_label": "Iceland",
    "expensive_label": "Sainsbury's",
@@ -11417,6 +11483,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "WAITROSE",
    "cheapest_label": "Waitrose",
    "expensive_label": "Sainsbury's",
@@ -11493,6 +11562,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "MORRISONS",
    "cheapest_label": "Morrisons",
@@ -11579,6 +11651,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
@@ -11668,6 +11743,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ICELAND",
    "cheapest_label": "Iceland",
    "expensive_label": "Morrisons",
@@ -11732,6 +11810,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
@@ -11818,6 +11899,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
@@ -11907,6 +11991,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Waitrose",
@@ -11993,6 +12080,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
    "expensive_label": "Morrisons",
@@ -12058,6 +12148,9 @@
      "form": "raw",
      "canned": true
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
@@ -12144,6 +12237,9 @@
      "form": "canned",
      "canned": true
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
@@ -12233,6 +12329,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "TESCO",
    "cheapest_label": "Tesco",
    "expensive_label": "Iceland",
@@ -12320,6 +12419,9 @@
      "form": "raw",
      "canned": true
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
@@ -12409,6 +12511,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ICELAND",
    "cheapest_label": "Iceland",
    "expensive_label": "Morrisons",
@@ -12497,6 +12602,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Tesco",
@@ -12570,6 +12678,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "WAITROSE",
    "cheapest_label": "Waitrose",
@@ -12657,6 +12768,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "MORRISONS",
    "cheapest_label": "Morrisons",
@@ -12746,6 +12860,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Waitrose",
@@ -12834,6 +12951,9 @@
      "canned": false
     }
    },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
+   },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
    "expensive_label": "Waitrose",
@@ -12921,6 +13041,9 @@
      "form": "raw",
      "canned": false
     }
+   },
+   "no_price_stores": {
+    "MARKS & SPENCER": true
    },
    "cheapest": "ALDI",
    "cheapest_label": "Aldi",
