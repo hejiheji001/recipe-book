@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-14T16:00:00",
+ "generated": "2026-11-14T18:19:50",
  "quantity_basis": "单人 8 天份 · 11/15 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/15",
@@ -421,23 +421,32 @@
    }
   },
   {
-   "category": "其他",
+   "category": "调料",
    "name": "芝麻酱",
    "name_display": "芝麻酱",
    "packs": 1,
-   "pack_size": "",
-   "buy_qty": null,
-   "buy_unit": "",
-   "buy_text": "按需",
-   "name_en": "",
-   "name_short": "",
-   "brand": "",
-   "unit_price_gbp": null,
-   "line_total_gbp": null,
-   "used_on": [],
-   "note": "三家店都没查到商品，自己挑或家里自备",
-   "link": null,
-   "product": null
+   "pack_size": "300g",
+   "name_en": "Sainsbury's Tahini, Inspired to Cook 300g",
+   "name_short": "Sainsbury's Tahini, Inspired to Cook",
+   "brand": "Sainsbury's",
+   "unit_price_gbp": 3.0,
+   "line_total_gbp": 3.0,
+   "buy_qty": 300.0,
+   "buy_unit": "g",
+   "used_on": [
+    "11/15",
+    "11/19"
+   ],
+   "note": "（ALDI 没有，去 Sainsbury's 买）",
+   "bean_form": null,
+   "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-tahini-inspired-to-cook-300g",
+   "product": {
+    "name": "Sainsbury's Tahini, Inspired to Cook 300g",
+    "brand": "Sainsbury's",
+    "size": "300g",
+    "price_gbp": 3.0,
+    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-tahini-inspired-to-cook-300g"
+   }
   },
   {
    "category": "水产",
@@ -642,23 +651,33 @@
    }
   },
   {
-   "category": "其他",
+   "category": "豆制品",
    "name": "鹰嘴豆泥",
    "name_display": "鹰嘴豆泥",
    "packs": 1,
-   "pack_size": "",
-   "buy_qty": null,
-   "buy_unit": "",
-   "buy_text": "按需",
-   "name_en": "",
-   "name_short": "",
-   "brand": "",
-   "unit_price_gbp": null,
-   "line_total_gbp": null,
-   "used_on": [],
-   "note": "三家店都没查到商品，自己挑或家里自备",
-   "link": null,
-   "product": null
+   "pack_size": "200 g",
+   "name_en": "Houmous",
+   "name_short": "Houmous",
+   "brand": "THE DELI",
+   "unit_price_gbp": 0.95,
+   "line_total_gbp": 0.95,
+   "buy_qty": 200.0,
+   "buy_unit": "g",
+   "used_on": [
+    "11/16",
+    "11/17",
+    "11/21"
+   ],
+   "note": "",
+   "bean_form": null,
+   "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
+   "product": {
+    "name": "Houmous",
+    "brand": "THE DELI",
+    "size": "200 g",
+    "price_gbp": 0.95,
+    "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001"
+   }
   },
   {
    "category": "蔬菜",
@@ -754,19 +773,25 @@
    "name": "醋",
    "name_display": "醋",
    "packs": 1,
-   "pack_size": "",
-   "buy_qty": null,
-   "buy_unit": "",
-   "buy_text": "按需",
-   "name_en": "",
-   "name_short": "",
-   "brand": "",
-   "unit_price_gbp": null,
-   "line_total_gbp": null,
+   "pack_size": "568 ml",
+   "name_en": "Malt Vinegar",
+   "name_short": "Malt Vinegar",
+   "brand": "BRAMWELLS",
+   "unit_price_gbp": 0.35,
+   "line_total_gbp": 0.35,
+   "buy_qty": 568.0,
+   "buy_unit": "g",
    "used_on": [],
-   "note": "三家店都没查到商品，自己挑或家里自备",
-   "link": null,
-   "product": null
+   "note": "",
+   "bean_form": null,
+   "link": "https://www.aldi.co.uk/product/bramwells-malt-vinegar-000000000336016003",
+   "product": {
+    "name": "Malt Vinegar",
+    "brand": "BRAMWELLS",
+    "size": "568 ml",
+    "price_gbp": 0.35,
+    "link": "https://www.aldi.co.uk/product/bramwells-malt-vinegar-000000000336016003"
+   }
   },
   {
    "category": "乳制品",
@@ -1032,23 +1057,31 @@
    }
   },
   {
-   "category": "其他",
+   "category": "乳制品",
    "name": "沙拉酱",
    "name_display": "沙拉酱",
    "packs": 1,
-   "pack_size": "",
-   "buy_qty": null,
-   "buy_unit": "",
-   "buy_text": "按需",
-   "name_en": "",
-   "name_short": "",
-   "brand": "",
-   "unit_price_gbp": null,
-   "line_total_gbp": null,
-   "used_on": [],
-   "note": "三家店都没查到商品，自己挑或家里自备",
-   "link": null,
-   "product": null
+   "pack_size": "520 g",
+   "name_en": "Squeezy Salad Cream",
+   "name_short": "Squeezy Salad Cream",
+   "brand": "BRAMWELLS",
+   "unit_price_gbp": 0.89,
+   "line_total_gbp": 0.89,
+   "buy_qty": 520.0,
+   "buy_unit": "g",
+   "used_on": [
+    "11/18"
+   ],
+   "note": "",
+   "bean_form": null,
+   "link": "https://www.aldi.co.uk/product/bramwells-squeezy-salad-cream-000000000279911001",
+   "product": {
+    "name": "Squeezy Salad Cream",
+    "brand": "BRAMWELLS",
+    "size": "520 g",
+    "price_gbp": 0.89,
+    "link": "https://www.aldi.co.uk/product/bramwells-squeezy-salad-cream-000000000279911001"
+   }
   },
   {
    "category": "蔬菜",
@@ -1379,7 +1412,7 @@
   }
  ],
  "batches": [],
- "total_gbp": 104.37,
+ "total_gbp": 109.56,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -1761,6 +1794,35 @@
      }
     },
     {
+     "category": "豆制品",
+     "name": "鹰嘴豆泥",
+     "name_display": "鹰嘴豆泥",
+     "packs": 1,
+     "pack_size": "200 g",
+     "name_en": "Houmous",
+     "name_short": "Houmous",
+     "brand": "THE DELI",
+     "unit_price_gbp": 0.95,
+     "line_total_gbp": 0.95,
+     "buy_qty": 200.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/16",
+      "11/17",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
+     "product": {
+      "name": "Houmous",
+      "brand": "THE DELI",
+      "size": "200 g",
+      "price_gbp": 0.95,
+      "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "土豆",
      "name_display": "土豆",
@@ -1847,6 +1909,31 @@
       "size": "100 g",
       "price_gbp": 1.4,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "醋",
+     "name_display": "醋",
+     "packs": 1,
+     "pack_size": "568 ml",
+     "name_en": "Malt Vinegar",
+     "name_short": "Malt Vinegar",
+     "brand": "BRAMWELLS",
+     "unit_price_gbp": 0.35,
+     "line_total_gbp": 0.35,
+     "buy_qty": 568.0,
+     "buy_unit": "g",
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.aldi.co.uk/product/bramwells-malt-vinegar-000000000336016003",
+     "product": {
+      "name": "Malt Vinegar",
+      "brand": "BRAMWELLS",
+      "size": "568 ml",
+      "price_gbp": 0.35,
+      "link": "https://www.aldi.co.uk/product/bramwells-malt-vinegar-000000000336016003"
      }
     },
     {
@@ -2110,6 +2197,33 @@
       "size": "1 Each",
       "price_gbp": 0.99,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659"
+     }
+    },
+    {
+     "category": "乳制品",
+     "name": "沙拉酱",
+     "name_display": "沙拉酱",
+     "packs": 1,
+     "pack_size": "520 g",
+     "name_en": "Squeezy Salad Cream",
+     "name_short": "Squeezy Salad Cream",
+     "brand": "BRAMWELLS",
+     "unit_price_gbp": 0.89,
+     "line_total_gbp": 0.89,
+     "buy_qty": 520.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/18"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.aldi.co.uk/product/bramwells-squeezy-salad-cream-000000000279911001",
+     "product": {
+      "name": "Squeezy Salad Cream",
+      "brand": "BRAMWELLS",
+      "size": "520 g",
+      "price_gbp": 0.89,
+      "link": "https://www.aldi.co.uk/product/bramwells-squeezy-salad-cream-000000000279911001"
      }
     },
     {
@@ -2414,32 +2528,26 @@
     }
    ],
    "batches": [],
-   "total_gbp": 99.72,
+   "total_gbp": 101.91,
    "missing": [
     "火龙果",
     "肉桂粉",
     "芝麻酱",
-    "鹰嘴豆泥",
-    "沙拉酱",
     "番茄丁"
    ],
-   "pantry_missing": [
-    "醋"
-   ],
+   "pantry_missing": [],
    "unavailable": [
     "火龙果",
     "肉桂粉",
     "芝麻酱",
-    "鹰嘴豆泥",
-    "沙拉酱",
     "番茄丁"
    ],
-   "coverage": 0.8571,
+   "coverage": 0.9048,
    "vs_recommend_gbp": 35.51,
-   "vs_recommend_common_n": 36,
-   "vs_recommend_store_gbp": 99.72,
-   "vs_recommend_rec_gbp": 64.21,
-   "vs_recommend_missing": 3
+   "vs_recommend_common_n": 39,
+   "vs_recommend_store_gbp": 101.91,
+   "vs_recommend_rec_gbp": 66.4,
+   "vs_recommend_missing": 4
   },
   "SAINSBURYS": {
    "store": "SAINSBURYS",
@@ -2649,6 +2757,34 @@
      }
     },
     {
+     "category": "调料",
+     "name": "芝麻酱",
+     "name_display": "芝麻酱",
+     "packs": 1,
+     "pack_size": "300g",
+     "name_en": "Sainsbury's Tahini, Inspired to Cook 300g",
+     "name_short": "Sainsbury's Tahini, Inspired to Cook",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 3.0,
+     "line_total_gbp": 3.0,
+     "buy_qty": 300.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15",
+      "11/19"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-tahini-inspired-to-cook-300g",
+     "product": {
+      "name": "Sainsbury's Tahini, Inspired to Cook 300g",
+      "brand": "Sainsbury's",
+      "size": "300g",
+      "price_gbp": 3.0,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-tahini-inspired-to-cook-300g"
+     }
+    },
+    {
      "category": "水产",
      "name": "大虾",
      "name_display": "大虾",
@@ -2851,6 +2987,35 @@
      }
     },
     {
+     "category": "豆制品",
+     "name": "鹰嘴豆泥",
+     "name_display": "鹰嘴豆泥",
+     "packs": 1,
+     "pack_size": "200g",
+     "name_en": "Sainsbury's Houmous 200g",
+     "name_short": "Sainsbury's Houmous",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 1.0,
+     "line_total_gbp": 1.0,
+     "buy_qty": 200.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/16",
+      "11/17",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-houmous-200g",
+     "product": {
+      "name": "Sainsbury's Houmous 200g",
+      "brand": "Sainsbury's",
+      "size": "200g",
+      "price_gbp": 1.0,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-houmous-200g"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "土豆",
      "name_display": "土豆",
@@ -2937,6 +3102,31 @@
       "size": "250g",
       "price_gbp": 2.0,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-250g-asparagus-spears"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "醋",
+     "name_display": "醋",
+     "packs": 1,
+     "pack_size": "568ml",
+     "name_en": "Sainsbury's Distilled Malt Vinegar 568ml",
+     "name_short": "Sainsbury's Distilled Malt Vinegar",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 0.45,
+     "line_total_gbp": 0.45,
+     "buy_qty": 568.0,
+     "buy_unit": "g",
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-distilled-malt-vinegar-568ml",
+     "product": {
+      "name": "Sainsbury's Distilled Malt Vinegar 568ml",
+      "brand": "Sainsbury's",
+      "size": "568ml",
+      "price_gbp": 0.45,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-distilled-malt-vinegar-568ml"
      }
     },
     {
@@ -3200,6 +3390,33 @@
       "size": "nan",
       "price_gbp": 0.8,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-small-whole-cucumber"
+     }
+    },
+    {
+     "category": "乳制品",
+     "name": "沙拉酱",
+     "name_display": "沙拉酱",
+     "packs": 1,
+     "pack_size": "480ml",
+     "name_en": "Sainsbury's Reduced Fat Mayonnaise 480ml",
+     "name_short": "Sainsbury's Reduced Fat Mayonnaise",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 0.85,
+     "line_total_gbp": 0.85,
+     "buy_qty": 480.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/18"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-reduced-fat-mayonnaise-480ml",
+     "product": {
+      "name": "Sainsbury's Reduced Fat Mayonnaise 480ml",
+      "brand": "Sainsbury's",
+      "size": "480ml",
+      "price_gbp": 0.85,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-reduced-fat-mayonnaise-480ml"
      }
     },
     {
@@ -3531,27 +3748,19 @@
     }
    ],
    "batches": [],
-   "total_gbp": 113.05,
+   "total_gbp": 118.35,
    "missing": [
-    "火龙果",
-    "芝麻酱",
-    "鹰嘴豆泥",
-    "沙拉酱"
+    "火龙果"
    ],
-   "pantry_missing": [
-    "醋"
-   ],
+   "pantry_missing": [],
    "unavailable": [
-    "火龙果",
-    "芝麻酱",
-    "鹰嘴豆泥",
-    "沙拉酱"
+    "火龙果"
    ],
-   "coverage": 0.9048,
-   "vs_recommend_gbp": 43.69,
-   "vs_recommend_common_n": 38,
-   "vs_recommend_store_gbp": 113.05,
-   "vs_recommend_rec_gbp": 69.36,
+   "coverage": 0.9762,
+   "vs_recommend_gbp": 43.45,
+   "vs_recommend_common_n": 42,
+   "vs_recommend_store_gbp": 118.35,
+   "vs_recommend_rec_gbp": 74.9,
    "vs_recommend_missing": 1
   },
   "ICELAND": {
@@ -3874,6 +4083,35 @@
      }
     },
     {
+     "category": "豆制品",
+     "name": "鹰嘴豆泥",
+     "name_display": "鹰嘴豆泥",
+     "packs": 1,
+     "pack_size": "500g",
+     "name_en": "Ramona's Original Heavenly Houmous 500g",
+     "name_short": "Ramona's Original Heavenly Houmous",
+     "brand": "Ramona's",
+     "unit_price_gbp": 3.6,
+     "line_total_gbp": 3.6,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/16",
+      "11/17",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.iceland.co.uk/p/ramonas-original-heavenly-houmous-500g/107190.html",
+     "product": {
+      "name": "Ramona's Original Heavenly Houmous 500g",
+      "brand": "Ramona's",
+      "size": "500g",
+      "price_gbp": 3.6,
+      "link": "https://www.iceland.co.uk/p/ramonas-original-heavenly-houmous-500g/107190.html"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "土豆",
      "name_display": "土豆",
@@ -3932,6 +4170,31 @@
       "size": "600g",
       "price_gbp": 4.5,
       "link": "https://www.iceland.co.uk/p/iceland-beef-mince-20pct-fat-600g/53893.html"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "醋",
+     "name_display": "醋",
+     "packs": 1,
+     "pack_size": "400ml",
+     "name_en": "Sarson's Malt Vinegar 400ml",
+     "name_short": "Sarson's Malt Vinegar",
+     "brand": "Sarson's",
+     "unit_price_gbp": 1.65,
+     "line_total_gbp": 1.65,
+     "buy_qty": 400.0,
+     "buy_unit": "g",
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.iceland.co.uk/p/sarsons-malt-vinegar-400ml/40638.html",
+     "product": {
+      "name": "Sarson's Malt Vinegar 400ml",
+      "brand": "Sarson's",
+      "size": "400ml",
+      "price_gbp": 1.65,
+      "link": "https://www.iceland.co.uk/p/sarsons-malt-vinegar-400ml/40638.html"
      }
     },
     {
@@ -4142,6 +4405,33 @@
       "size": "200g",
       "price_gbp": 1.5,
       "link": "https://www.iceland.co.uk/p/iceland-baby-cucumbers-200g/53277.html"
+     }
+    },
+    {
+     "category": "乳制品",
+     "name": "沙拉酱",
+     "name_display": "沙拉酱",
+     "packs": 1,
+     "pack_size": "430ml",
+     "name_en": "Hellmann's Delicious Low Fat Mayo 430 ml",
+     "name_short": "Hellmann's Delicious Low Fat Mayo",
+     "brand": "Hellmann's",
+     "unit_price_gbp": 1.0,
+     "line_total_gbp": 1.0,
+     "buy_qty": 430.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/18"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.iceland.co.uk/p/hellmanns-delicious-low-fat-mayo-430-ml/80181.html",
+     "product": {
+      "name": "Hellmann's Delicious Low Fat Mayo 430 ml",
+      "brand": "Hellmann's",
+      "size": "430ml",
+      "price_gbp": 1.0,
+      "link": "https://www.iceland.co.uk/p/hellmanns-delicious-low-fat-mayo-430-ml/80181.html"
      }
     },
     {
@@ -4392,46 +4682,40 @@
     }
    ],
    "batches": [],
-   "total_gbp": 147.38,
+   "total_gbp": 153.63,
    "missing": [
     "火龙果",
     "烘焙麦片",
     "紫甘蓝",
     "芝麻酱",
     "羽衣甘蓝",
-    "鹰嘴豆泥",
     "芦笋",
     "罗勒",
     "亚麻籽粉",
-    "沙拉酱",
     "欧芹",
     "椰蓉",
     "番茄丁"
    ],
-   "pantry_missing": [
-    "醋"
-   ],
+   "pantry_missing": [],
    "unavailable": [
     "火龙果",
     "烘焙麦片",
     "紫甘蓝",
     "芝麻酱",
     "羽衣甘蓝",
-    "鹰嘴豆泥",
     "芦笋",
     "罗勒",
     "亚麻籽粉",
-    "沙拉酱",
     "欧芹",
     "椰蓉",
     "番茄丁"
    ],
-   "coverage": 0.6905,
-   "vs_recommend_gbp": 100.64,
-   "vs_recommend_common_n": 29,
-   "vs_recommend_store_gbp": 147.38,
-   "vs_recommend_rec_gbp": 46.74,
-   "vs_recommend_missing": 10
+   "coverage": 0.7381,
+   "vs_recommend_gbp": 104.7,
+   "vs_recommend_common_n": 32,
+   "vs_recommend_store_gbp": 153.63,
+   "vs_recommend_rec_gbp": 48.93,
+   "vs_recommend_missing": 11
   },
   "TESCO": {
    "store": "TESCO",
@@ -4668,6 +4952,34 @@
      }
     },
     {
+     "category": "调料",
+     "name": "芝麻酱",
+     "name_display": "芝麻酱",
+     "packs": 1,
+     "pack_size": "500g",
+     "name_en": "Baracke Tahini 500G",
+     "name_short": "Baracke Tahini",
+     "brand": "Baracke",
+     "unit_price_gbp": 4.35,
+     "line_total_gbp": 4.35,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15",
+      "11/19"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.tesco.com/shop/en-GB/products/297412219",
+     "product": {
+      "name": "Baracke Tahini 500G",
+      "brand": "Baracke",
+      "size": "500g",
+      "price_gbp": 4.35,
+      "link": "https://www.tesco.com/shop/en-GB/products/297412219"
+     }
+    },
+    {
      "category": "水产",
      "name": "大虾",
      "name_display": "大虾",
@@ -4870,6 +5182,35 @@
      }
     },
     {
+     "category": "豆制品",
+     "name": "鹰嘴豆泥",
+     "name_display": "鹰嘴豆泥",
+     "packs": 1,
+     "pack_size": "300g",
+     "name_en": "Tesco Houmous 300g",
+     "name_short": "Tesco Houmous",
+     "brand": "TESCO",
+     "unit_price_gbp": 1.65,
+     "line_total_gbp": 1.65,
+     "buy_qty": 300.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/16",
+      "11/17",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.tesco.com/shop/en-GB/products/320967265",
+     "product": {
+      "name": "Tesco Houmous 300g",
+      "brand": "TESCO",
+      "size": "300g",
+      "price_gbp": 1.65,
+      "link": "https://www.tesco.com/shop/en-GB/products/320967265"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "土豆",
      "name_display": "土豆",
@@ -4956,6 +5297,31 @@
       "size": "180g",
       "price_gbp": 1.7,
       "link": "https://www.tesco.com/shop/en-GB/products/313732922"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "醋",
+     "name_display": "醋",
+     "packs": 2,
+     "pack_size": "1.14l",
+     "name_en": "Tesco Distilled Vinegar 1.14l",
+     "name_short": "Tesco Distilled Vinegar",
+     "brand": "TESCO",
+     "unit_price_gbp": 0.7,
+     "line_total_gbp": 1.4,
+     "buy_qty": 1140.0,
+     "buy_unit": "g",
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.tesco.com/shop/en-GB/products/315964575",
+     "product": {
+      "name": "Tesco Distilled Vinegar 1.14l",
+      "brand": "TESCO",
+      "size": "1.14l",
+      "price_gbp": 0.7,
+      "link": "https://www.tesco.com/shop/en-GB/products/315964575"
      }
     },
     {
@@ -5219,6 +5585,33 @@
       "size": "670g",
       "price_gbp": 2.85,
       "link": "https://www.tesco.com/shop/en-GB/products/273482385"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "沙拉酱",
+     "name_display": "沙拉酱",
+     "packs": 1,
+     "pack_size": "500ml",
+     "name_en": "Tesco Light Mayonnaise 500Ml",
+     "name_short": "Tesco Light Mayonnaise",
+     "brand": "TESCO",
+     "unit_price_gbp": 0.89,
+     "line_total_gbp": 0.89,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/18"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.tesco.com/shop/en-GB/products/305249769",
+     "product": {
+      "name": "Tesco Light Mayonnaise 500Ml",
+      "brand": "TESCO",
+      "size": "500ml",
+      "price_gbp": 0.89,
+      "link": "https://www.tesco.com/shop/en-GB/products/305249769"
      }
     },
     {
@@ -5550,25 +5943,15 @@
     }
    ],
    "batches": [],
-   "total_gbp": 127.03,
-   "missing": [
-    "芝麻酱",
-    "鹰嘴豆泥",
-    "沙拉酱"
-   ],
-   "pantry_missing": [
-    "醋"
-   ],
-   "unavailable": [
-    "芝麻酱",
-    "鹰嘴豆泥",
-    "沙拉酱"
-   ],
-   "coverage": 0.9286,
-   "vs_recommend_gbp": 53.67,
-   "vs_recommend_common_n": 39,
-   "vs_recommend_store_gbp": 127.03,
-   "vs_recommend_rec_gbp": 73.36,
+   "total_gbp": 135.32,
+   "missing": [],
+   "pantry_missing": [],
+   "unavailable": [],
+   "coverage": 1.0,
+   "vs_recommend_gbp": 56.42,
+   "vs_recommend_common_n": 43,
+   "vs_recommend_store_gbp": 135.32,
+   "vs_recommend_rec_gbp": 78.9,
    "vs_recommend_missing": 0
   },
   "MORRISONS": {
@@ -5806,6 +6189,34 @@
      }
     },
     {
+     "category": "调料",
+     "name": "芝麻酱",
+     "name_display": "芝麻酱",
+     "packs": 1,
+     "pack_size": "300g",
+     "name_en": "Cypressa Tahini",
+     "name_short": "Cypressa Tahini",
+     "brand": "Cypressa",
+     "unit_price_gbp": 3.25,
+     "line_total_gbp": 3.25,
+     "buy_qty": 300.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15",
+      "11/19"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://groceries.morrisons.com/products/110341981",
+     "product": {
+      "name": "Cypressa Tahini",
+      "brand": "Cypressa",
+      "size": "300g",
+      "price_gbp": 3.25,
+      "link": "https://groceries.morrisons.com/products/110341981"
+     }
+    },
+    {
      "category": "水产",
      "name": "大虾",
      "name_display": "大虾",
@@ -6008,6 +6419,35 @@
      }
     },
     {
+     "category": "豆制品",
+     "name": "鹰嘴豆泥",
+     "name_display": "鹰嘴豆泥",
+     "packs": 1,
+     "pack_size": "300g",
+     "name_en": "Morrisons Classic Houmous 300g",
+     "name_short": "Morrisons Classic Houmous",
+     "brand": "Morrisons",
+     "unit_price_gbp": 1.49,
+     "line_total_gbp": 1.49,
+     "buy_qty": 300.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/16",
+      "11/17",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://groceries.morrisons.com/products/104263999",
+     "product": {
+      "name": "Morrisons Classic Houmous 300g",
+      "brand": "Morrisons",
+      "size": "300g",
+      "price_gbp": 1.49,
+      "link": "https://groceries.morrisons.com/products/104263999"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "土豆",
      "name_display": "土豆",
@@ -6094,6 +6534,31 @@
       "size": "250g",
       "price_gbp": 2.35,
       "link": "https://groceries.morrisons.com/products/108467331"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "醋",
+     "name_display": "醋",
+     "packs": 1,
+     "pack_size": "568ml",
+     "name_en": "Morrisons Malt Vinegar          ",
+     "name_short": "Morrisons Malt Vinegar",
+     "brand": "Morrisons",
+     "unit_price_gbp": 0.35,
+     "line_total_gbp": 0.35,
+     "buy_qty": 568.0,
+     "buy_unit": "g",
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "link": "https://groceries.morrisons.com/products/105174200",
+     "product": {
+      "name": "Morrisons Malt Vinegar          ",
+      "brand": "Morrisons",
+      "size": "568ml",
+      "price_gbp": 0.35,
+      "link": "https://groceries.morrisons.com/products/105174200"
      }
     },
     {
@@ -6357,6 +6822,33 @@
       "size": "800g",
       "price_gbp": 2.5,
       "link": "https://groceries.morrisons.com/products/112557364"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "沙拉酱",
+     "name_display": "沙拉酱",
+     "packs": 1,
+     "pack_size": "500ml",
+     "name_en": "Morrisons Mayonnaise 500ml",
+     "name_short": "Morrisons Mayonnaise",
+     "brand": "Morrisons",
+     "unit_price_gbp": 0.95,
+     "line_total_gbp": 0.95,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/18"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://groceries.morrisons.com/products/113133483",
+     "product": {
+      "name": "Morrisons Mayonnaise 500ml",
+      "brand": "Morrisons",
+      "size": "500ml",
+      "price_gbp": 0.95,
+      "link": "https://groceries.morrisons.com/products/113133483"
      }
     },
     {
@@ -6688,25 +7180,15 @@
     }
    ],
    "batches": [],
-   "total_gbp": 105.93,
-   "missing": [
-    "芝麻酱",
-    "鹰嘴豆泥",
-    "沙拉酱"
-   ],
-   "pantry_missing": [
-    "醋"
-   ],
-   "unavailable": [
-    "芝麻酱",
-    "鹰嘴豆泥",
-    "沙拉酱"
-   ],
-   "coverage": 0.9286,
-   "vs_recommend_gbp": 32.57,
-   "vs_recommend_common_n": 39,
-   "vs_recommend_store_gbp": 105.93,
-   "vs_recommend_rec_gbp": 73.36,
+   "total_gbp": 111.97,
+   "missing": [],
+   "pantry_missing": [],
+   "unavailable": [],
+   "coverage": 1.0,
+   "vs_recommend_gbp": 33.07,
+   "vs_recommend_common_n": 43,
+   "vs_recommend_store_gbp": 111.97,
+   "vs_recommend_rec_gbp": 78.9,
    "vs_recommend_missing": 0
   },
   "WAITROSE": {
@@ -6944,6 +7426,34 @@
      }
     },
     {
+     "category": "调料",
+     "name": "芝麻酱",
+     "name_display": "芝麻酱",
+     "packs": 1,
+     "pack_size": "300g",
+     "name_en": "Cooks' Ingredients Tahini",
+     "name_short": "Cooks' Ingredients Tahini",
+     "brand": "Waitrose Ltd",
+     "unit_price_gbp": 3.35,
+     "line_total_gbp": 3.35,
+     "buy_qty": 300.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/15",
+      "11/19"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-tahini/644929-312347-312348",
+     "product": {
+      "name": "Cooks' Ingredients Tahini",
+      "brand": "Waitrose Ltd",
+      "size": "300g",
+      "price_gbp": 3.35,
+      "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-tahini/644929-312347-312348"
+     }
+    },
+    {
      "category": "水产",
      "name": "大虾",
      "name_display": "大虾",
@@ -7146,6 +7656,35 @@
      }
     },
     {
+     "category": "豆制品",
+     "name": "鹰嘴豆泥",
+     "name_display": "鹰嘴豆泥",
+     "packs": 1,
+     "pack_size": "300g",
+     "name_en": "Essential Reduced Fat Houmous",
+     "name_short": "Essential Reduced Fat Houmous",
+     "brand": "Waitrose Ltd",
+     "unit_price_gbp": 1.45,
+     "line_total_gbp": 1.45,
+     "buy_qty": 300.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/16",
+      "11/17",
+      "11/21"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.waitrose.com/ecom/products/essential-reduced-fat-houmous/046201-22747-22748",
+     "product": {
+      "name": "Essential Reduced Fat Houmous",
+      "brand": "Waitrose Ltd",
+      "size": "300g",
+      "price_gbp": 1.45,
+      "link": "https://www.waitrose.com/ecom/products/essential-reduced-fat-houmous/046201-22747-22748"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "土豆",
      "name_display": "土豆",
@@ -7232,6 +7771,31 @@
       "size": "230g",
       "price_gbp": 2.75,
       "link": "https://www.waitrose.com/ecom/products/waitrose-asparagus/085482-43550-43551"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "醋",
+     "name_display": "醋",
+     "packs": 1,
+     "pack_size": "568ml",
+     "name_en": "Sarson's Distilled Malt Vinegar",
+     "name_short": "Sarson's Distilled Malt Vinegar",
+     "brand": "Sarson's",
+     "unit_price_gbp": 2.0,
+     "line_total_gbp": 2.0,
+     "buy_qty": 568.0,
+     "buy_unit": "g",
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.waitrose.com/ecom/products/sarsons-distilled-malt-vinegar/007611-3564-3565",
+     "product": {
+      "name": "Sarson's Distilled Malt Vinegar",
+      "brand": "Sarson's",
+      "size": "568ml",
+      "price_gbp": 2.0,
+      "link": "https://www.waitrose.com/ecom/products/sarsons-distilled-malt-vinegar/007611-3564-3565"
      }
     },
     {
@@ -7495,6 +8059,33 @@
       "size": "670g",
       "price_gbp": 3.1,
       "link": "https://www.waitrose.com/ecom/products/mrs-elswood-haimisha-cucumbers/034470-17297-17298"
+     }
+    },
+    {
+     "category": "调料",
+     "name": "沙拉酱",
+     "name_display": "沙拉酱",
+     "packs": 1,
+     "pack_size": "500ml",
+     "name_en": "Essential Half Fat Mayonnaise",
+     "name_short": "Essential Half Fat Mayonnaise",
+     "brand": "Waitrose Ltd",
+     "unit_price_gbp": 1.4,
+     "line_total_gbp": 1.4,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/18"
+     ],
+     "note": "",
+     "bean_form": null,
+     "link": "https://www.waitrose.com/ecom/products/essential-half-fat-mayonnaise/034543-17355-17356",
+     "product": {
+      "name": "Essential Half Fat Mayonnaise",
+      "brand": "Waitrose Ltd",
+      "size": "500ml",
+      "price_gbp": 1.4,
+      "link": "https://www.waitrose.com/ecom/products/essential-half-fat-mayonnaise/034543-17355-17356"
      }
     },
     {
@@ -7826,25 +8417,15 @@
     }
    ],
    "batches": [],
-   "total_gbp": 135.1,
-   "missing": [
-    "芝麻酱",
-    "鹰嘴豆泥",
-    "沙拉酱"
-   ],
-   "pantry_missing": [
-    "醋"
-   ],
-   "unavailable": [
-    "芝麻酱",
-    "鹰嘴豆泥",
-    "沙拉酱"
-   ],
-   "coverage": 0.9286,
-   "vs_recommend_gbp": 61.74,
-   "vs_recommend_common_n": 39,
-   "vs_recommend_store_gbp": 135.1,
-   "vs_recommend_rec_gbp": 73.36,
+   "total_gbp": 143.3,
+   "missing": [],
+   "pantry_missing": [],
+   "unavailable": [],
+   "coverage": 1.0,
+   "vs_recommend_gbp": 64.4,
+   "vs_recommend_common_n": 43,
+   "vs_recommend_store_gbp": 143.3,
+   "vs_recommend_rec_gbp": 78.9,
    "vs_recommend_missing": 0
   }
  },
@@ -7857,21 +8438,14 @@
    "Aldi",
    "Waitrose"
   ],
-  "coverage": 0.9285714285714286,
-  "missing": [
-   "芝麻酱",
-   "鹰嘴豆泥",
-   "醋",
-   "沙拉酱"
-  ],
-  "pantry_missing": [
-   "醋"
-  ],
-  "cost": 73.36,
+  "coverage": 1.0,
+  "missing": [],
+  "pantry_missing": [],
+  "cost": 78.9,
   "per_store": {
    "ALDI": {
-    "subtotal": 48.96,
-    "count": 31,
+    "subtotal": 51.15,
+    "count": 34,
     "names": [
      "烘焙麦片",
      "花生酱",
@@ -7884,9 +8458,11 @@
      "柠檬",
      "甜椒",
      "意面",
+     "鹰嘴豆泥",
      "土豆",
      "牛肉末",
      "芦笋",
+     "醋",
      "茅屋奶酪",
      "草莓",
      "鸡蛋",
@@ -7896,6 +8472,7 @@
      "亚麻籽粉",
      "核桃",
      "黄瓜",
+     "沙拉酱",
      "菜花",
      "欧芹",
      "椰蓉",
@@ -8229,6 +8806,35 @@
       }
      },
      {
+      "category": "豆制品",
+      "name": "鹰嘴豆泥",
+      "name_display": "鹰嘴豆泥",
+      "packs": 1,
+      "pack_size": "200 g",
+      "name_en": "Houmous",
+      "name_short": "Houmous",
+      "brand": "THE DELI",
+      "unit_price_gbp": 0.95,
+      "line_total_gbp": 0.95,
+      "buy_qty": 200.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/16",
+       "11/17",
+       "11/21"
+      ],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
+      "product": {
+       "name": "Houmous",
+       "brand": "THE DELI",
+       "size": "200 g",
+       "price_gbp": 0.95,
+       "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001"
+      }
+     },
+     {
       "category": "蔬菜",
       "name": "土豆",
       "name_display": "土豆",
@@ -8315,6 +8921,31 @@
        "size": "100 g",
        "price_gbp": 1.4,
        "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166"
+      }
+     },
+     {
+      "category": "调料",
+      "name": "醋",
+      "name_display": "醋",
+      "packs": 1,
+      "pack_size": "568 ml",
+      "name_en": "Malt Vinegar",
+      "name_short": "Malt Vinegar",
+      "brand": "BRAMWELLS",
+      "unit_price_gbp": 0.35,
+      "line_total_gbp": 0.35,
+      "buy_qty": 568.0,
+      "buy_unit": "g",
+      "used_on": [],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.aldi.co.uk/product/bramwells-malt-vinegar-000000000336016003",
+      "product": {
+       "name": "Malt Vinegar",
+       "brand": "BRAMWELLS",
+       "size": "568 ml",
+       "price_gbp": 0.35,
+       "link": "https://www.aldi.co.uk/product/bramwells-malt-vinegar-000000000336016003"
       }
      },
      {
@@ -8581,6 +9212,33 @@
       }
      },
      {
+      "category": "乳制品",
+      "name": "沙拉酱",
+      "name_display": "沙拉酱",
+      "packs": 1,
+      "pack_size": "520 g",
+      "name_en": "Squeezy Salad Cream",
+      "name_short": "Squeezy Salad Cream",
+      "brand": "BRAMWELLS",
+      "unit_price_gbp": 0.89,
+      "line_total_gbp": 0.89,
+      "buy_qty": 520.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/18"
+      ],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.aldi.co.uk/product/bramwells-squeezy-salad-cream-000000000279911001",
+      "product": {
+       "name": "Squeezy Salad Cream",
+       "brand": "BRAMWELLS",
+       "size": "520 g",
+       "price_gbp": 0.89,
+       "link": "https://www.aldi.co.uk/product/bramwells-squeezy-salad-cream-000000000279911001"
+      }
+     },
+     {
       "category": "蔬菜",
       "name": "菜花",
       "name_display": "菜花",
@@ -8801,11 +9459,12 @@
     ]
    },
    "WAITROSE": {
-    "subtotal": 24.4,
-    "count": 8,
+    "subtotal": 27.75,
+    "count": 9,
     "names": [
      "火龙果",
      "肉桂粉",
+     "芝麻酱",
      "大虾",
      "高汤",
      "火鸡肉",
@@ -8869,6 +9528,34 @@
        "size": "39g",
        "price_gbp": 1.65,
        "link": "https://www.waitrose.com/ecom/products/bart-ground-cinnamon/415484-810362-810363"
+      }
+     },
+     {
+      "category": "调料",
+      "name": "芝麻酱",
+      "name_display": "芝麻酱",
+      "packs": 1,
+      "pack_size": "300g",
+      "name_en": "Cooks' Ingredients Tahini",
+      "name_short": "Cooks' Ingredients Tahini",
+      "brand": "Waitrose Ltd",
+      "unit_price_gbp": 3.35,
+      "line_total_gbp": 3.35,
+      "buy_qty": 300.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/15",
+       "11/19"
+      ],
+      "note": "",
+      "bean_form": null,
+      "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-tahini/644929-312347-312348",
+      "product": {
+       "name": "Cooks' Ingredients Tahini",
+       "brand": "Waitrose Ltd",
+       "size": "300g",
+       "price_gbp": 3.35,
+       "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-tahini/644929-312347-312348"
       }
      },
      {
@@ -9036,7 +9723,7 @@
     ]
    }
   },
-  "combined_total_gbp": 73.36
+  "combined_total_gbp": 78.9
  },
  "only_at": {},
  "price_compare": [
@@ -10071,6 +10758,182 @@
    }
   },
   {
+   "name": "沙拉酱",
+   "name_display": "沙拉酱",
+   "category": "乳制品",
+   "stores": {
+    "ALDI": {
+     "price": 0.89,
+     "pack_g": 520.0,
+     "size": "520 g",
+     "per100_gbp": 0.1712,
+     "link": "https://www.aldi.co.uk/product/bramwells-squeezy-salad-cream-000000000279911001",
+     "product_name": "Squeezy Salad Cream",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 0.85,
+     "pack_g": 480.0,
+     "size": "480ml",
+     "per100_gbp": 0.1771,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-reduced-fat-mayonnaise-480ml",
+     "product_name": "Sainsbury's Reduced Fat Mayonnaise 480ml",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 1.0,
+     "pack_g": 430.0,
+     "size": "430ml",
+     "per100_gbp": 0.2326,
+     "link": "https://www.iceland.co.uk/p/hellmanns-delicious-low-fat-mayo-430-ml/80181.html",
+     "product_name": "Hellmann's Delicious Low Fat Mayo 430 ml",
+     "category": "乳制品",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 0.89,
+     "pack_g": 500.0,
+     "size": "500ml",
+     "per100_gbp": 0.178,
+     "link": "https://www.tesco.com/shop/en-GB/products/305249769",
+     "product_name": "Tesco Light Mayonnaise 500Ml",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 0.95,
+     "pack_g": 500.0,
+     "size": "500ml",
+     "per100_gbp": 0.19,
+     "link": "https://groceries.morrisons.com/products/113133483",
+     "product_name": "Morrisons Mayonnaise 500ml",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.4,
+     "pack_g": 500.0,
+     "size": "500ml",
+     "per100_gbp": 0.28,
+     "link": "https://www.waitrose.com/ecom/products/essential-half-fat-mayonnaise/034543-17355-17356",
+     "product_name": "Essential Half Fat Mayonnaise",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Waitrose",
+   "diff_per100": 0.1088,
+   "diff_pct": 0.6355,
+   "spread_ratio": 1.64,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 520.0,
+    "SAINSBURYS": 480.0,
+    "ICELAND": 430.0,
+    "TESCO": 500.0,
+    "MORRISONS": 500.0,
+    "WAITROSE": 500.0
+   }
+  },
+  {
+   "name": "鹰嘴豆泥",
+   "name_display": "鹰嘴豆泥",
+   "category": "豆制品",
+   "stores": {
+    "ALDI": {
+     "price": 0.95,
+     "pack_g": 200.0,
+     "size": "200 g",
+     "per100_gbp": 0.475,
+     "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
+     "product_name": "Houmous",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 1.0,
+     "pack_g": 200.0,
+     "size": "200g",
+     "per100_gbp": 0.5,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-houmous-200g",
+     "product_name": "Sainsbury's Houmous 200g",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 3.6,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.72,
+     "link": "https://www.iceland.co.uk/p/ramonas-original-heavenly-houmous-500g/107190.html",
+     "product_name": "Ramona's Original Heavenly Houmous 500g",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.65,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 0.55,
+     "link": "https://www.tesco.com/shop/en-GB/products/320967265",
+     "product_name": "Tesco Houmous 300g",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 1.49,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 0.4967,
+     "link": "https://groceries.morrisons.com/products/104263999",
+     "product_name": "Morrisons Classic Houmous 300g",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.45,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 0.4833,
+     "link": "https://www.waitrose.com/ecom/products/essential-reduced-fat-houmous/046201-22747-22748",
+     "product_name": "Essential Reduced Fat Houmous",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.245,
+   "diff_pct": 0.5158,
+   "spread_ratio": 1.52,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 200.0,
+    "SAINSBURYS": 200.0,
+    "ICELAND": 500.0,
+    "TESCO": 300.0,
+    "MORRISONS": 300.0,
+    "WAITROSE": 300.0
+   }
+  },
+  {
    "name": "羽衣甘蓝",
    "name_display": "羽衣甘蓝",
    "category": "蔬菜",
@@ -10821,6 +11684,70 @@
    }
   },
   {
+   "name": "芝麻酱",
+   "name_display": "芝麻酱",
+   "category": "调料",
+   "stores": {
+    "SAINSBURYS": {
+     "price": 3.0,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 1.0,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-tahini-inspired-to-cook-300g",
+     "product_name": "Sainsbury's Tahini, Inspired to Cook 300g",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 4.35,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.87,
+     "link": "https://www.tesco.com/shop/en-GB/products/297412219",
+     "product_name": "Baracke Tahini 500G",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 3.25,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 1.0833,
+     "link": "https://groceries.morrisons.com/products/110341981",
+     "product_name": "Cypressa Tahini",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 3.35,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 1.1167,
+     "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-tahini/644929-312347-312348",
+     "product_name": "Cooks' Ingredients Tahini",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "cheapest": "TESCO",
+   "cheapest_label": "Tesco",
+   "expensive_label": "Waitrose",
+   "diff_per100": 0.2467,
+   "diff_pct": 0.2836,
+   "spread_ratio": 1.28,
+   "suspect": false,
+   "sizes_g": {
+    "SAINSBURYS": 300.0,
+    "TESCO": 500.0,
+    "MORRISONS": 300.0,
+    "WAITROSE": 300.0
+   }
+  },
+  {
    "name": "牛肉末",
    "name_display": "牛肉末",
    "category": "肉类",
@@ -11232,6 +12159,94 @@
     "TESCO": 408.0,
     "MORRISONS": 102.0,
     "WAITROSE": 160.0
+   }
+  },
+  {
+   "name": "醋",
+   "name_display": "醋",
+   "category": "调料",
+   "stores": {
+    "ALDI": {
+     "price": 0.35,
+     "pack_g": 568.0,
+     "size": "568 ml",
+     "per100_gbp": 0.0616,
+     "link": "https://www.aldi.co.uk/product/bramwells-malt-vinegar-000000000336016003",
+     "product_name": "Malt Vinegar",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 0.45,
+     "pack_g": 568.0,
+     "size": "568ml",
+     "per100_gbp": 0.0792,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-distilled-malt-vinegar-568ml",
+     "product_name": "Sainsbury's Distilled Malt Vinegar 568ml",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 1.65,
+     "pack_g": 400.0,
+     "size": "400ml",
+     "per100_gbp": 0.4125,
+     "link": "https://www.iceland.co.uk/p/sarsons-malt-vinegar-400ml/40638.html",
+     "product_name": "Sarson's Malt Vinegar 400ml",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 0.7,
+     "pack_g": 1140.0,
+     "size": "1.14l",
+     "per100_gbp": 0.0614,
+     "link": "https://www.tesco.com/shop/en-GB/products/315964575",
+     "product_name": "Tesco Distilled Vinegar 1.14l",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 0.35,
+     "pack_g": 568.0,
+     "size": "568ml",
+     "per100_gbp": 0.0616,
+     "link": "https://groceries.morrisons.com/products/105174200",
+     "product_name": "Morrisons Malt Vinegar          ",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 2.0,
+     "pack_g": 568.0,
+     "size": "568ml",
+     "per100_gbp": 0.3521,
+     "link": "https://www.waitrose.com/ecom/products/sarsons-distilled-malt-vinegar/007611-3564-3565",
+     "product_name": "Sarson's Distilled Malt Vinegar",
+     "category": "调料",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "cheapest": "TESCO",
+   "cheapest_label": "Tesco",
+   "expensive_label": "Iceland",
+   "diff_per100": 0.3511,
+   "diff_pct": 5.7182,
+   "spread_ratio": 6.72,
+   "suspect": true,
+   "sizes_g": {
+    "ALDI": 568.0,
+    "SAINSBURYS": 568.0,
+    "ICELAND": 400.0,
+    "TESCO": 1140.0,
+    "MORRISONS": 568.0,
+    "WAITROSE": 568.0
    }
   },
   {
