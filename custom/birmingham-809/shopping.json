@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-15T13:31:44",
+ "generated": "2026-11-15T13:45:27",
  "quantity_basis": "单人 8 天份 · 11/15 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/15",
@@ -11,18 +11,21 @@
   "leafy": [],
   "mid": [
    {
-    "name": "姜",
-    "shelf": "中·保鲜5-7天",
-    "days": [],
-    "last_idx": -1
-   },
-   {
     "name": "罗马番茄",
     "shelf": "中·保鲜5-7天",
     "days": [
      "11/17"
     ],
     "last_idx": 2
+   },
+   {
+    "name": "西葫芦",
+    "shelf": "中·保鲜5-7天",
+    "days": [
+     "11/14",
+     "11/18"
+    ],
+    "last_idx": 3
    },
    {
     "name": "黄瓜",
@@ -151,8 +154,8 @@
   "ALDI",
   "ICELAND",
   "SAINSBURYS",
-  "MARKS & SPENCER",
   "TESCO",
+  "MARKS & SPENCER",
   "MORRISONS",
   "WAITROSE"
  ],
@@ -426,7 +429,8 @@
    "used_on": [
     "11/08",
     "11/15",
-    "11/19"
+    "11/19",
+    "11/22"
    ],
    "note": "",
    "bean_form": null,
@@ -992,6 +996,34 @@
    }
   },
   {
+   "category": "蔬菜",
+   "name": "西葫芦",
+   "name_display": "西葫芦",
+   "packs": 1,
+   "pack_size": "500 g",
+   "name_en": "Courgettes",
+   "name_short": "Courgettes",
+   "brand": "NATURE'S PICK",
+   "unit_price_gbp": 1.39,
+   "line_total_gbp": 1.39,
+   "buy_qty": 500.0,
+   "buy_unit": "g",
+   "used_on": [
+    "11/14",
+    "11/18"
+   ],
+   "note": "易坏，分批",
+   "bean_form": null,
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+   "product": {
+    "name": "Courgettes",
+    "brand": "NATURE'S PICK",
+    "size": "500 g",
+    "price_gbp": 1.39,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
+   }
+  },
+  {
    "category": "乳制品",
    "name": "脱脂牛奶",
    "name_display": "脱脂牛奶",
@@ -1466,6 +1498,34 @@
    }
   },
   {
+   "category": "调料",
+   "name": "白芸豆",
+   "name_display": "白芸豆罐头",
+   "packs": 1,
+   "pack_size": "400g",
+   "name_en": "Sainsbury's Cannellini Beans In Water 400g (235g*)",
+   "name_short": "Sainsbury's Cannellini Beans In Water (235g*)",
+   "brand": "Sainsbury's",
+   "unit_price_gbp": 0.45,
+   "line_total_gbp": 0.45,
+   "buy_qty": 400.0,
+   "buy_unit": "g",
+   "used_on": [
+    "11/14",
+    "11/21"
+   ],
+   "note": "开罐沥干即用；每次 ~173g，剩约 62g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。（ALDI 没有，去 Sainsbury's 买）",
+   "bean_form": "canned",
+   "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-cannellini-beans-in-water-400g-235g",
+   "product": {
+    "name": "Sainsbury's Cannellini Beans In Water 400g (235g*)",
+    "brand": "Sainsbury's",
+    "size": "400g",
+    "price_gbp": 0.45,
+    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-cannellini-beans-in-water-400g-235g"
+   }
+  },
+  {
    "category": "蔬菜",
    "name": "茄子",
    "name_display": "茄子",
@@ -1647,41 +1707,41 @@
    }
   },
   {
-   "category": "蔬菜",
-   "name": "姜",
-   "name_display": "姜",
+   "category": "调料",
+   "name": "莳萝",
+   "name_display": "莳萝",
    "packs": 1,
-   "pack_size": "125 g",
-   "name_en": "Ginger",
-   "name_short": "Ginger",
-   "brand": "NATURE'S PICK",
-   "unit_price_gbp": 0.99,
-   "line_total_gbp": 0.99,
-   "buy_qty": 125.0,
-   "buy_unit": "g",
+   "pack_size": "13gram",
+   "name_en": "Sainsbury's Dill 13g",
+   "name_short": "Sainsbury's Dill",
+   "brand": "Sainsbury's",
+   "unit_price_gbp": 1.15,
+   "line_total_gbp": 1.15,
+   "buy_qty": "",
+   "buy_unit": "个",
    "used_on": [],
-   "note": "",
+   "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
+   "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-dill-13g",
    "product": {
-    "name": "Ginger",
-    "brand": "NATURE'S PICK",
-    "size": "125 g",
-    "price_gbp": 0.99,
-    "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
+    "name": "Sainsbury's Dill 13g",
+    "brand": "Sainsbury's",
+    "size": "13gram",
+    "price_gbp": 1.15,
+    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-dill-13g"
    }
   },
   {
    "category": "蔬菜",
    "name": "西洋菜",
    "name_display": "西洋菜",
-   "packs": 4,
+   "packs": 3,
    "pack_size": "80g",
    "name_en": "Sainsbury's 80g Watercress",
    "name_short": "Sainsbury's Watercress",
    "brand": "Sainsbury's",
    "unit_price_gbp": 1.45,
-   "line_total_gbp": 5.8,
+   "line_total_gbp": 4.35,
    "buy_qty": 80.0,
    "buy_unit": "g",
    "used_on": [
@@ -1727,7 +1787,7 @@
   }
  ],
  "batches": [],
- "total_gbp": 132.82,
+ "total_gbp": 133.37,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -1901,7 +1961,8 @@
      "used_on": [
       "11/08",
       "11/15",
-      "11/19"
+      "11/19",
+      "11/22"
      ],
      "note": "",
      "bean_form": null,
@@ -2385,6 +2446,34 @@
      }
     },
     {
+     "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "500 g",
+     "name_en": "Courgettes",
+     "name_short": "Courgettes",
+     "brand": "NATURE'S PICK",
+     "unit_price_gbp": 1.39,
+     "line_total_gbp": 1.39,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/14",
+      "11/18"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+     "product": {
+      "name": "Courgettes",
+      "brand": "NATURE'S PICK",
+      "size": "500 g",
+      "price_gbp": 1.39,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
+     }
+    },
+    {
      "category": "乳制品",
      "name": "脱脂牛奶",
      "name_display": "脱脂牛奶",
@@ -2828,35 +2917,10 @@
       "price_gbp": 0.7,
       "link": "https://www.aldi.co.uk/product/the-pantry-plain-flour-000000000000382617"
      }
-    },
-    {
-     "category": "蔬菜",
-     "name": "姜",
-     "name_display": "姜",
-     "packs": 1,
-     "pack_size": "125 g",
-     "name_en": "Ginger",
-     "name_short": "Ginger",
-     "brand": "NATURE'S PICK",
-     "unit_price_gbp": 0.99,
-     "line_total_gbp": 0.99,
-     "buy_qty": 125.0,
-     "buy_unit": "g",
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
-     "product": {
-      "name": "Ginger",
-      "brand": "NATURE'S PICK",
-      "size": "125 g",
-      "price_gbp": 0.99,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261"
-     }
     }
    ],
    "batches": [],
-   "total_gbp": 82.18,
+   "total_gbp": 82.58,
    "missing": [
     "藜麦",
     "青柠汁",
@@ -2868,12 +2932,15 @@
     "鼠尾草",
     "肉桂粉",
     "青辣椒",
+    "白芸豆",
     "茄子",
     "羊肉（代表值，fat7g）",
     "牛至",
     "西洋菜"
    ],
-   "pantry_missing": [],
+   "pantry_missing": [
+    "莳萝"
+   ],
    "unavailable": [
     "藜麦",
     "青柠汁",
@@ -2885,17 +2952,18 @@
     "鼠尾草",
     "肉桂粉",
     "青辣椒",
+    "白芸豆",
     "茄子",
     "羊肉（代表值，fat7g）",
     "牛至",
     "西洋菜"
    ],
-   "coverage": 0.7407,
-   "vs_recommend_gbp": -20.46,
+   "coverage": 0.7273,
+   "vs_recommend_gbp": -22.75,
    "vs_recommend_common_n": 41,
-   "vs_recommend_store_gbp": 82.18,
-   "vs_recommend_rec_gbp": 102.64,
-   "vs_recommend_missing": 14
+   "vs_recommend_store_gbp": 82.58,
+   "vs_recommend_rec_gbp": 105.33,
+   "vs_recommend_missing": 16
   },
   "SAINSBURYS": {
    "store": "SAINSBURYS",
@@ -3125,7 +3193,8 @@
      "used_on": [
       "11/08",
       "11/15",
-      "11/19"
+      "11/19",
+      "11/22"
      ],
      "note": "",
      "bean_form": null,
@@ -3501,13 +3570,13 @@
      "category": "蔬菜",
      "name": "羽衣甘蓝",
      "name_display": "羽衣甘蓝",
-     "packs": 15,
+     "packs": 18,
      "pack_size": "200g",
      "name_en": "Sainsbury's Kale 200g",
      "name_short": "Sainsbury's Kale",
      "brand": "Sainsbury's",
      "unit_price_gbp": 0.89,
-     "line_total_gbp": 13.35,
+     "line_total_gbp": 16.02,
      "buy_qty": 200.0,
      "buy_unit": "g",
      "used_on": [
@@ -3688,6 +3757,34 @@
       "size": "nan",
       "price_gbp": 4.0,
       "link": "https://www.sainsburys.co.uk/groceries/product/naturya-organic-chia-seeds-175g"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "nan",
+     "name_en": "Sainsbury's Courgettes Loose",
+     "name_short": "Sainsbury's Courgettes Loose",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 2.78,
+     "line_total_gbp": 2.78,
+     "buy_qty": "",
+     "buy_unit": "个",
+     "used_on": [
+      "11/14",
+      "11/18"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-courgettes-loose",
+     "product": {
+      "name": "Sainsbury's Courgettes Loose",
+      "brand": "Sainsbury's",
+      "size": "nan",
+      "price_gbp": 2.78,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-courgettes-loose"
      }
     },
     {
@@ -4165,6 +4262,34 @@
      }
     },
     {
+     "category": "调料",
+     "name": "白芸豆",
+     "name_display": "白芸豆罐头",
+     "packs": 1,
+     "pack_size": "400g",
+     "name_en": "Sainsbury's Cannellini Beans In Water 400g (235g*)",
+     "name_short": "Sainsbury's Cannellini Beans In Water (235g*)",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 0.45,
+     "line_total_gbp": 0.45,
+     "buy_qty": 400.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/14",
+      "11/21"
+     ],
+     "note": "开罐沥干即用；每次 ~173g，剩约 62g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
+     "bean_form": "canned",
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-cannellini-beans-in-water-400g-235g",
+     "product": {
+      "name": "Sainsbury's Cannellini Beans In Water 400g (235g*)",
+      "brand": "Sainsbury's",
+      "size": "400g",
+      "price_gbp": 0.45,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-cannellini-beans-in-water-400g-235g"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "茄子",
      "name_display": "茄子",
@@ -4321,41 +4446,41 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "姜",
-     "name_display": "姜",
+     "category": "调料",
+     "name": "莳萝",
+     "name_display": "莳萝",
      "packs": 1,
-     "pack_size": "454g",
-     "name_en": "Sainsbury's Ginger Preserve 454g",
-     "name_short": "Sainsbury's Ginger Preserve",
+     "pack_size": "13gram",
+     "name_en": "Sainsbury's Dill 13g",
+     "name_short": "Sainsbury's Dill",
      "brand": "Sainsbury's",
-     "unit_price_gbp": 1.45,
-     "line_total_gbp": 1.45,
-     "buy_qty": 454.0,
-     "buy_unit": "g",
+     "unit_price_gbp": 1.15,
+     "line_total_gbp": 1.15,
+     "buy_qty": "",
+     "buy_unit": "个",
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-ginger-preserve-454g",
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-dill-13g",
      "product": {
-      "name": "Sainsbury's Ginger Preserve 454g",
+      "name": "Sainsbury's Dill 13g",
       "brand": "Sainsbury's",
-      "size": "454g",
-      "price_gbp": 1.45,
-      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-ginger-preserve-454g"
+      "size": "13gram",
+      "price_gbp": 1.15,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-dill-13g"
      }
     },
     {
      "category": "蔬菜",
      "name": "西洋菜",
      "name_display": "西洋菜",
-     "packs": 4,
+     "packs": 3,
      "pack_size": "80g",
      "name_en": "Sainsbury's 80g Watercress",
      "name_short": "Sainsbury's Watercress",
      "brand": "Sainsbury's",
      "unit_price_gbp": 1.45,
-     "line_total_gbp": 5.8,
+     "line_total_gbp": 4.35,
      "buy_qty": 80.0,
      "buy_unit": "g",
      "used_on": [
@@ -4374,7 +4499,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 167.72,
+   "total_gbp": 171.87,
    "missing": [
     "羊肉（代表值，fat7g）"
    ],
@@ -4382,11 +4507,11 @@
    "unavailable": [
     "羊肉（代表值，fat7g）"
    ],
-   "coverage": 0.9815,
-   "vs_recommend_gbp": 41.91,
-   "vs_recommend_common_n": 54,
-   "vs_recommend_store_gbp": 167.72,
-   "vs_recommend_rec_gbp": 125.81,
+   "coverage": 0.9818,
+   "vs_recommend_gbp": 43.74,
+   "vs_recommend_common_n": 56,
+   "vs_recommend_store_gbp": 171.87,
+   "vs_recommend_rec_gbp": 128.13,
    "vs_recommend_missing": 1
   },
   "ICELAND": {
@@ -4533,7 +4658,8 @@
      "used_on": [
       "11/08",
       "11/15",
-      "11/19"
+      "11/19",
+      "11/22"
      ],
      "note": "",
      "bean_form": null,
@@ -5185,35 +5311,10 @@
       "price_gbp": 1.85,
       "link": "https://www.iceland.co.uk/p/be-ro-plain-flour-1.5kg/100885.html"
      }
-    },
-    {
-     "category": "蔬菜",
-     "name": "姜",
-     "name_display": "姜",
-     "packs": 1,
-     "pack_size": "285g",
-     "name_en": "Gullón Zero Zingy Dark Choc Ginger Oaties 285g",
-     "name_short": "Gullón Zero Zingy Dark Choc Ginger Oaties",
-     "brand": "Gullón",
-     "unit_price_gbp": 1.8,
-     "line_total_gbp": 1.8,
-     "buy_qty": 285.0,
-     "buy_unit": "g",
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/gullon-zero-zingy-dark-choc-ginger-oaties-285g/100406.html",
-     "product": {
-      "name": "Gullón Zero Zingy Dark Choc Ginger Oaties 285g",
-      "brand": "Gullón",
-      "size": "285g",
-      "price_gbp": 1.8,
-      "link": "https://www.iceland.co.uk/p/gullon-zero-zingy-dark-choc-ginger-oaties-285g/100406.html"
-     }
     }
    ],
    "batches": [],
-   "total_gbp": 101.74,
+   "total_gbp": 99.94,
    "missing": [
     "藜麦",
     "紫甘蓝",
@@ -5228,6 +5329,7 @@
     "面包糠",
     "可可粉",
     "奇亚籽",
+    "西葫芦",
     "糙米",
     "酸奶油",
     "欧芹",
@@ -5236,12 +5338,14 @@
     "玉米淀粉",
     "火鸡肉末",
     "青辣椒",
+    "白芸豆",
     "茄子",
     "羊肉（代表值，fat7g）",
     "西洋菜"
    ],
    "pantry_missing": [
-    "第戎芥末"
+    "第戎芥末",
+    "莳萝"
    ],
    "unavailable": [
     "藜麦",
@@ -5257,6 +5361,7 @@
     "面包糠",
     "可可粉",
     "奇亚籽",
+    "西葫芦",
     "糙米",
     "酸奶油",
     "欧芹",
@@ -5265,16 +5370,17 @@
     "玉米淀粉",
     "火鸡肉末",
     "青辣椒",
+    "白芸豆",
     "茄子",
     "羊肉（代表值，fat7g）",
     "西洋菜"
    ],
-   "coverage": 0.5556,
-   "vs_recommend_gbp": 52.94,
-   "vs_recommend_common_n": 30,
-   "vs_recommend_store_gbp": 101.74,
-   "vs_recommend_rec_gbp": 48.8,
-   "vs_recommend_missing": 25
+   "coverage": 0.5273,
+   "vs_recommend_gbp": 52.24,
+   "vs_recommend_common_n": 29,
+   "vs_recommend_store_gbp": 99.94,
+   "vs_recommend_rec_gbp": 47.7,
+   "vs_recommend_missing": 28
   },
   "TESCO": {
    "store": "TESCO",
@@ -5477,7 +5583,8 @@
      "used_on": [
       "11/08",
       "11/15",
-      "11/19"
+      "11/19",
+      "11/22"
      ],
      "note": "",
      "bean_form": null,
@@ -5853,13 +5960,13 @@
      "category": "蔬菜",
      "name": "羽衣甘蓝",
      "name_display": "羽衣甘蓝",
-     "packs": 15,
+     "packs": 18,
      "pack_size": "180g",
      "name_en": "Tesco Curly Kale 180G",
      "name_short": "Tesco Curly Kale",
      "brand": "TESCO",
      "unit_price_gbp": 0.8,
-     "line_total_gbp": 12.0,
+     "line_total_gbp": 14.4,
      "buy_qty": 180.0,
      "buy_unit": "g",
      "used_on": [
@@ -6040,6 +6147,34 @@
       "size": "500g",
       "price_gbp": 3.95,
       "link": "https://www.tesco.com/shop/en-GB/products/311792248"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "500g",
+     "name_en": "Tesco Courgettes 500G (C)",
+     "name_short": "Tesco Courgettes (C)",
+     "brand": "TESCO",
+     "unit_price_gbp": 1.39,
+     "line_total_gbp": 1.39,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/14",
+      "11/18"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "link": "https://www.tesco.com/shop/en-GB/products/290361468",
+     "product": {
+      "name": "Tesco Courgettes 500G (C)",
+      "brand": "TESCO",
+      "size": "500g",
+      "price_gbp": 1.39,
+      "link": "https://www.tesco.com/shop/en-GB/products/290361468"
      }
     },
     {
@@ -6517,6 +6652,34 @@
      }
     },
     {
+     "category": "豆制品",
+     "name": "白芸豆",
+     "name_display": "白芸豆",
+     "packs": 1,
+     "pack_size": "540g",
+     "name_en": "Village White beans 540g",
+     "name_short": "Village White beans",
+     "brand": "Village",
+     "unit_price_gbp": 1.5,
+     "line_total_gbp": 1.5,
+     "buy_qty": 540.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/14",
+      "11/21"
+     ],
+     "note": "干豆泡 8h、煮 40–50min；约 172g 干豆 ≈ 383g 煮后（餐单按煮后量计）。",
+     "bean_form": "dry",
+     "link": "https://www.tesco.com/shop/en-GB/products/317662937",
+     "product": {
+      "name": "Village White beans 540g",
+      "brand": "Village",
+      "size": "540g",
+      "price_gbp": 1.5,
+      "link": "https://www.tesco.com/shop/en-GB/products/317662937"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "茄子",
      "name_display": "茄子",
@@ -6698,41 +6861,41 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "姜",
-     "name_display": "姜",
+     "category": "调料",
+     "name": "莳萝",
+     "name_display": "莳萝",
      "packs": 1,
-     "pack_size": "340g",
-     "name_en": "Tesco Ginger Preserve 340G",
-     "name_short": "Tesco Ginger Preserve",
+     "pack_size": "20g",
+     "name_en": "Tesco Fresh Cut Dill 20G",
+     "name_short": "Tesco Fresh Cut Dill",
      "brand": "TESCO",
-     "unit_price_gbp": 1.1,
-     "line_total_gbp": 1.1,
-     "buy_qty": 340.0,
+     "unit_price_gbp": 0.48,
+     "line_total_gbp": 0.48,
+     "buy_qty": 20.0,
      "buy_unit": "g",
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "link": "https://www.tesco.com/shop/en-GB/products/280879009",
+     "link": "https://www.tesco.com/shop/en-GB/products/304404478",
      "product": {
-      "name": "Tesco Ginger Preserve 340G",
+      "name": "Tesco Fresh Cut Dill 20G",
       "brand": "TESCO",
-      "size": "340g",
-      "price_gbp": 1.1,
-      "link": "https://www.tesco.com/shop/en-GB/products/280879009"
+      "size": "20g",
+      "price_gbp": 0.48,
+      "link": "https://www.tesco.com/shop/en-GB/products/304404478"
      }
     },
     {
      "category": "蔬菜",
      "name": "西洋菜",
      "name_display": "西洋菜",
-     "packs": 4,
+     "packs": 3,
      "pack_size": "85g",
      "name_en": "Tesco Watercress 85G (C)",
      "name_short": "Tesco Watercress (C)",
      "brand": "TESCO",
      "unit_price_gbp": 1.3,
-     "line_total_gbp": 5.2,
+     "line_total_gbp": 3.9,
      "buy_qty": 85.0,
      "buy_unit": "g",
      "used_on": [
@@ -6751,7 +6914,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 177.99,
+   "total_gbp": 181.36,
    "missing": [
     "意面南瓜"
    ],
@@ -6759,11 +6922,11 @@
    "unavailable": [
     "意面南瓜"
    ],
-   "coverage": 0.9815,
-   "vs_recommend_gbp": 36.58,
-   "vs_recommend_common_n": 54,
-   "vs_recommend_store_gbp": 177.99,
-   "vs_recommend_rec_gbp": 141.41,
+   "coverage": 0.9818,
+   "vs_recommend_gbp": 37.63,
+   "vs_recommend_common_n": 56,
+   "vs_recommend_store_gbp": 181.36,
+   "vs_recommend_rec_gbp": 143.73,
    "vs_recommend_missing": 1
   },
   "MORRISONS": {
@@ -6967,7 +7130,8 @@
      "used_on": [
       "11/08",
       "11/15",
-      "11/19"
+      "11/19",
+      "11/22"
      ],
      "note": "",
      "bean_form": null,
@@ -7343,13 +7507,13 @@
      "category": "蔬菜",
      "name": "羽衣甘蓝",
      "name_display": "羽衣甘蓝",
-     "packs": 5,
+     "packs": 6,
      "pack_size": "150g",
      "name_en": "Morrisons British Sliced Kale  150g",
      "name_short": "Morrisons Sliced Kale",
      "brand": "Morrisons",
      "unit_price_gbp": 0.66,
-     "line_total_gbp": 3.3,
+     "line_total_gbp": 3.96,
      "buy_qty": 150.0,
      "buy_unit": "g",
      "used_on": [
@@ -7530,6 +7694,34 @@
       "size": "200g",
       "price_gbp": 2.25,
       "link": "https://groceries.morrisons.com/products/108242175"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "500g",
+     "name_en": "Morrisons Courgettes",
+     "name_short": "Morrisons Courgettes",
+     "brand": "Morrisons",
+     "unit_price_gbp": 1.39,
+     "line_total_gbp": 1.39,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/14",
+      "11/18"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "link": "https://groceries.morrisons.com/products/115508998",
+     "product": {
+      "name": "Morrisons Courgettes",
+      "brand": "Morrisons",
+      "size": "500g",
+      "price_gbp": 1.39,
+      "link": "https://groceries.morrisons.com/products/115508998"
      }
     },
     {
@@ -8007,6 +8199,34 @@
      }
     },
     {
+     "category": "调料",
+     "name": "白芸豆",
+     "name_display": "白芸豆罐头",
+     "packs": 1,
+     "pack_size": "240g",
+     "name_en": "Morrisons Cannellini Beans In Water (400g)",
+     "name_short": "Morrisons Cannellini Beans In Water (400g)",
+     "brand": "Morrisons",
+     "unit_price_gbp": 0.45,
+     "line_total_gbp": 0.45,
+     "buy_qty": 240.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/14",
+      "11/21"
+     ],
+     "note": "开罐沥干即用；每次 ~173g，剩约 62g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
+     "bean_form": "canned",
+     "link": "https://groceries.morrisons.com/products/110428067",
+     "product": {
+      "name": "Morrisons Cannellini Beans In Water (400g)",
+      "brand": "Morrisons",
+      "size": "240g",
+      "price_gbp": 0.45,
+      "link": "https://groceries.morrisons.com/products/110428067"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "茄子",
      "name_display": "茄子",
@@ -8188,41 +8408,41 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "姜",
-     "name_display": "姜",
+     "category": "调料",
+     "name": "莳萝",
+     "name_display": "莳萝",
      "packs": 1,
-     "pack_size": "400g",
-     "name_en": "Taj Crushed Ginger 400g",
-     "name_short": "Taj Crushed Ginger",
-     "brand": "Taj",
-     "unit_price_gbp": 1.5,
-     "line_total_gbp": 1.5,
-     "buy_qty": 400.0,
+     "pack_size": "20g",
+     "name_en": "Morrisons Fresh Dill 20g",
+     "name_short": "Morrisons Fresh Dill",
+     "brand": "Morrisons",
+     "unit_price_gbp": 0.48,
+     "line_total_gbp": 0.48,
+     "buy_qty": 20.0,
      "buy_unit": "g",
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "link": "https://groceries.morrisons.com/products/105250233",
+     "link": "https://groceries.morrisons.com/products/110429650",
      "product": {
-      "name": "Taj Crushed Ginger 400g",
-      "brand": "Taj",
-      "size": "400g",
-      "price_gbp": 1.5,
-      "link": "https://groceries.morrisons.com/products/105250233"
+      "name": "Morrisons Fresh Dill 20g",
+      "brand": "Morrisons",
+      "size": "20g",
+      "price_gbp": 0.48,
+      "link": "https://groceries.morrisons.com/products/110429650"
      }
     },
     {
      "category": "蔬菜",
      "name": "西洋菜",
      "name_display": "西洋菜",
-     "packs": 26,
+     "packs": 18,
      "pack_size": "70g",
      "name_en": "Morrisons Watercress 70g",
      "name_short": "Morrisons Watercress",
      "brand": "Morrisons",
      "unit_price_gbp": 1.0,
-     "line_total_gbp": 26.0,
+     "line_total_gbp": 18.0,
      "buy_qty": 70.0,
      "buy_unit": "g",
      "used_on": [
@@ -8241,7 +8461,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 213.99,
+   "total_gbp": 207.47,
    "missing": [
     "意面南瓜"
    ],
@@ -8249,11 +8469,11 @@
    "unavailable": [
     "意面南瓜"
    ],
-   "coverage": 0.9815,
-   "vs_recommend_gbp": 72.58,
-   "vs_recommend_common_n": 54,
-   "vs_recommend_store_gbp": 213.99,
-   "vs_recommend_rec_gbp": 141.41,
+   "coverage": 0.9818,
+   "vs_recommend_gbp": 63.74,
+   "vs_recommend_common_n": 56,
+   "vs_recommend_store_gbp": 207.47,
+   "vs_recommend_rec_gbp": 143.73,
    "vs_recommend_missing": 1
   },
   "WAITROSE": {
@@ -8293,13 +8513,13 @@
      "category": "乳制品",
      "name": "半脱脂奶",
      "name_display": "半脱脂奶",
-     "packs": 2,
+     "packs": 1,
      "pack_size": "568ml",
      "name_en": "Duchy Organic Semi-Skimmed Milk 1 Pint",
      "name_short": "Duchy Organic Semi-Skimmed Milk 1 Pint",
      "brand": "Waitrose Ltd",
      "unit_price_gbp": 1.2,
-     "line_total_gbp": 2.4,
+     "line_total_gbp": 1.2,
      "buy_qty": 568.0,
      "buy_unit": "g",
      "used_on": [
@@ -8457,7 +8677,8 @@
      "used_on": [
       "11/08",
       "11/15",
-      "11/19"
+      "11/19",
+      "11/22"
      ],
      "note": "",
      "bean_form": null,
@@ -8833,13 +9054,13 @@
      "category": "蔬菜",
      "name": "羽衣甘蓝",
      "name_display": "羽衣甘蓝",
-     "packs": 13,
+     "packs": 16,
      "pack_size": "210g",
      "name_en": "Waitrose Whole Leaf Kale",
      "name_short": "Waitrose Whole Leaf Kale",
      "brand": "Waitrose Ltd",
      "unit_price_gbp": 1.4,
-     "line_total_gbp": 18.2,
+     "line_total_gbp": 22.4,
      "buy_qty": 210.0,
      "buy_unit": "g",
      "used_on": [
@@ -9020,6 +9241,34 @@
       "size": "150g",
       "price_gbp": 2.5,
       "link": "https://www.waitrose.com/ecom/products/waitrose-chia-seeds/633030-780097-780098"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "600g",
+     "name_en": "Essential Courgettes",
+     "name_short": "Essential Courgettes",
+     "brand": "Waitrose Ltd",
+     "unit_price_gbp": 1.9,
+     "line_total_gbp": 1.9,
+     "buy_qty": 600.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/14",
+      "11/18"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "link": "https://www.waitrose.com/ecom/products/essential-courgettes/574915-81449-81450",
+     "product": {
+      "name": "Essential Courgettes",
+      "brand": "Waitrose Ltd",
+      "size": "600g",
+      "price_gbp": 1.9,
+      "link": "https://www.waitrose.com/ecom/products/essential-courgettes/574915-81449-81450"
      }
     },
     {
@@ -9443,6 +9692,34 @@
      }
     },
     {
+     "category": "豆制品",
+     "name": "白芸豆",
+     "name_display": "白芸豆",
+     "packs": 1,
+     "pack_size": "500g",
+     "name_en": "Duchy Organic White Beans",
+     "name_short": "Duchy Organic White Beans",
+     "brand": "Waitrose Ltd",
+     "unit_price_gbp": 2.25,
+     "line_total_gbp": 2.25,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/14",
+      "11/21"
+     ],
+     "note": "干豆泡 8h、煮 40–50min；约 172g 干豆 ≈ 383g 煮后（餐单按煮后量计）。",
+     "bean_form": "dry",
+     "link": "https://www.waitrose.com/ecom/products/duchy-organic-white-beans/940756-1-2",
+     "product": {
+      "name": "Duchy Organic White Beans",
+      "brand": "Waitrose Ltd",
+      "size": "500g",
+      "price_gbp": 2.25,
+      "link": "https://www.waitrose.com/ecom/products/duchy-organic-white-beans/940756-1-2"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "茄子",
      "name_display": "茄子",
@@ -9624,41 +9901,41 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "姜",
-     "name_display": "姜",
+     "category": "调料",
+     "name": "莳萝",
+     "name_display": "莳萝",
      "packs": 1,
-     "pack_size": "100g",
-     "name_en": "Cooks' Ingredients Fresh Ginger",
-     "name_short": "Cooks' Ingredients Fresh Ginger",
-     "brand": "Waitrose Ltd",
-     "unit_price_gbp": 1.35,
-     "line_total_gbp": 1.35,
-     "buy_qty": 100.0,
+     "pack_size": "17g",
+     "name_en": "Bart Dill",
+     "name_short": "Bart Dill",
+     "brand": "Bart",
+     "unit_price_gbp": 1.65,
+     "line_total_gbp": 1.65,
+     "buy_qty": 17.0,
      "buy_unit": "g",
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-fresh-ginger/073238-37156-37157",
+     "link": "https://www.waitrose.com/ecom/products/bart-dill/228727-833001-833002",
      "product": {
-      "name": "Cooks' Ingredients Fresh Ginger",
-      "brand": "Waitrose Ltd",
-      "size": "100g",
-      "price_gbp": 1.35,
-      "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-fresh-ginger/073238-37156-37157"
+      "name": "Bart Dill",
+      "brand": "Bart",
+      "size": "17g",
+      "price_gbp": 1.65,
+      "link": "https://www.waitrose.com/ecom/products/bart-dill/228727-833001-833002"
      }
     },
     {
      "category": "蔬菜",
      "name": "西洋菜",
      "name_display": "西洋菜",
-     "packs": 4,
+     "packs": 3,
      "pack_size": "80g",
      "name_en": "Waitrose Watercress",
      "name_short": "Waitrose Watercress",
      "brand": "Waitrose Ltd",
      "unit_price_gbp": 1.5,
-     "line_total_gbp": 6.0,
+     "line_total_gbp": 4.5,
      "buy_qty": 80.0,
      "buy_unit": "g",
      "used_on": [
@@ -9677,7 +9954,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 218.81,
+   "total_gbp": 224.76,
    "missing": [
     "意面南瓜",
     "火鸡胸脯肉",
@@ -9689,11 +9966,11 @@
     "火鸡胸脯肉",
     "火鸡肉末"
    ],
-   "coverage": 0.9444,
-   "vs_recommend_gbp": 88.65,
-   "vs_recommend_common_n": 52,
-   "vs_recommend_store_gbp": 218.81,
-   "vs_recommend_rec_gbp": 130.16,
+   "coverage": 0.9455,
+   "vs_recommend_gbp": 92.28,
+   "vs_recommend_common_n": 54,
+   "vs_recommend_store_gbp": 224.76,
+   "vs_recommend_rec_gbp": 132.48,
    "vs_recommend_missing": 3
   },
   "MARKS & SPENCER": {
@@ -9763,13 +10040,13 @@
      "category": "蛋类",
      "name": "鸡蛋",
      "name_display": "鸡蛋",
-     "packs": 1,
+     "packs": 2,
      "pack_size": "328 g",
      "name_en": "British Free Range Mixed Size Eggs",
      "name_short": "Free Range Mixed Size Eggs",
      "brand": NaN,
      "unit_price_gbp": 1.4,
-     "line_total_gbp": 1.4,
+     "line_total_gbp": 2.8,
      "buy_qty": 328.0,
      "buy_unit": "g",
      "used_on": [
@@ -9897,7 +10174,8 @@
      "used_on": [
       "11/08",
       "11/15",
-      "11/19"
+      "11/19",
+      "11/22"
      ],
      "note": "",
      "bean_form": null,
@@ -10273,13 +10551,13 @@
      "category": "蔬菜",
      "name": "羽衣甘蓝",
      "name_display": "羽衣甘蓝",
-     "packs": 14,
+     "packs": 17,
      "pack_size": "200 g",
      "name_en": "Cavolo Nero Kale",
      "name_short": "Cavolo Nero Kale",
      "brand": NaN,
      "unit_price_gbp": 1.75,
-     "line_total_gbp": 24.5,
+     "line_total_gbp": 29.75,
      "buy_qty": 200.0,
      "buy_unit": "g",
      "used_on": [
@@ -10463,6 +10741,34 @@
      }
     },
     {
+     "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "325 g",
+     "name_en": "Courgettes",
+     "name_short": "Courgettes",
+     "brand": NaN,
+     "unit_price_gbp": 1.45,
+     "line_total_gbp": 1.45,
+     "buy_qty": 325.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/14",
+      "11/18"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "link": "https://www.marksandspencer.com/food/courgettes/p/fdp21007251",
+     "product": {
+      "name": "Courgettes",
+      "brand": NaN,
+      "size": "325 g",
+      "price_gbp": 1.45,
+      "link": "https://www.marksandspencer.com/food/courgettes/p/fdp21007251"
+     }
+    },
+    {
      "category": "乳制品",
      "name": "脱脂牛奶",
      "name_display": "脱脂牛奶",
@@ -10518,13 +10824,13 @@
      "category": "蔬菜",
      "name": "芹菜",
      "name_display": "芹菜",
-     "packs": 3,
+     "packs": 2,
      "pack_size": "450 g",
      "name_en": "Celery",
      "name_short": "Celery",
      "brand": NaN,
      "unit_price_gbp": 0.75,
-     "line_total_gbp": 2.25,
+     "line_total_gbp": 1.5,
      "buy_qty": 450.0,
      "buy_unit": "g",
      "used_on": [
@@ -10802,6 +11108,34 @@
      }
     },
     {
+     "category": "豆制品",
+     "name": "白芸豆",
+     "name_display": "白芸豆",
+     "packs": 1,
+     "pack_size": "430 g",
+     "name_en": "Cannellini Beans",
+     "name_short": "Cannellini Beans",
+     "brand": NaN,
+     "unit_price_gbp": 0.65,
+     "line_total_gbp": 0.65,
+     "buy_qty": 430.0,
+     "buy_unit": "g",
+     "used_on": [
+      "11/14",
+      "11/21"
+     ],
+     "note": "干豆泡 8h、煮 40–50min；约 172g 干豆 ≈ 383g 煮后（餐单按煮后量计）。",
+     "bean_form": "dry",
+     "link": "https://www.marksandspencer.com/food/cannellini-beans/p/fdp60932170",
+     "product": {
+      "name": "Cannellini Beans",
+      "brand": NaN,
+      "size": "430 g",
+      "price_gbp": 0.65,
+      "link": "https://www.marksandspencer.com/food/cannellini-beans/p/fdp60932170"
+     }
+    },
+    {
      "category": "蔬菜",
      "name": "茄子",
      "name_display": "茄子",
@@ -10958,41 +11292,41 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "姜",
-     "name_display": "姜",
+     "category": "调料",
+     "name": "莳萝",
+     "name_display": "莳萝",
      "packs": 1,
-     "pack_size": "250 g",
-     "name_en": "Ginger Snaps",
-     "name_short": "Ginger Snaps",
+     "pack_size": "25 g",
+     "name_en": "Dill",
+     "name_short": "Dill",
      "brand": NaN,
-     "unit_price_gbp": 0.75,
-     "line_total_gbp": 0.75,
-     "buy_qty": 250.0,
+     "unit_price_gbp": 1.05,
+     "line_total_gbp": 1.05,
+     "buy_qty": 25.0,
      "buy_unit": "g",
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "link": "https://www.marksandspencer.com/food/ginger-snaps/p/fdp20001643",
+     "link": "https://www.marksandspencer.com/food/dill/p/fdp21003383",
      "product": {
-      "name": "Ginger Snaps",
+      "name": "Dill",
       "brand": NaN,
-      "size": "250 g",
-      "price_gbp": 0.75,
-      "link": "https://www.marksandspencer.com/food/ginger-snaps/p/fdp20001643"
+      "size": "25 g",
+      "price_gbp": 1.05,
+      "link": "https://www.marksandspencer.com/food/dill/p/fdp21003383"
      }
     },
     {
      "category": "蔬菜",
      "name": "西洋菜",
      "name_display": "西洋菜",
-     "packs": 4,
+     "packs": 3,
      "pack_size": "80 g",
      "name_en": "Watercress",
      "name_short": "Watercress",
      "brand": NaN,
      "unit_price_gbp": 1.7,
-     "line_total_gbp": 6.8,
+     "line_total_gbp": 5.1,
      "buy_qty": 80.0,
      "buy_unit": "g",
      "used_on": [
@@ -11011,7 +11345,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 176.8,
+   "total_gbp": 183.4,
    "missing": [
     "意面南瓜",
     "糙米",
@@ -11031,11 +11365,11 @@
     "青辣椒",
     "羊肉（代表值，fat7g）"
    ],
-   "coverage": 0.8704,
-   "vs_recommend_gbp": 66.43,
-   "vs_recommend_common_n": 48,
-   "vs_recommend_store_gbp": 176.8,
-   "vs_recommend_rec_gbp": 110.37,
+   "coverage": 0.8727,
+   "vs_recommend_gbp": 70.71,
+   "vs_recommend_common_n": 50,
+   "vs_recommend_store_gbp": 183.4,
+   "vs_recommend_rec_gbp": 112.69,
    "vs_recommend_missing": 7
   }
  },
@@ -11051,11 +11385,11 @@
   "coverage": 1.0,
   "missing": [],
   "pantry_missing": [],
-  "cost": 143.31,
+  "cost": 145.63,
   "per_store": {
    "SAINSBURYS": {
-    "subtotal": 58.33,
-    "count": 27,
+    "subtotal": 58.78,
+    "count": 28,
     "names": [
      "黄瓜",
      "鹰嘴豆泥",
@@ -11079,6 +11413,7 @@
      "肉桂粉",
      "火鸡肉末",
      "青辣椒",
+     "白芸豆",
      "茄子",
      "番茄膏",
      "牛至",
@@ -11683,6 +12018,34 @@
       }
      },
      {
+      "category": "调料",
+      "name": "白芸豆",
+      "name_display": "白芸豆罐头",
+      "packs": 1,
+      "pack_size": "400g",
+      "name_en": "Sainsbury's Cannellini Beans In Water 400g (235g*)",
+      "name_short": "Sainsbury's Cannellini Beans In Water (235g*)",
+      "brand": "Sainsbury's",
+      "unit_price_gbp": 0.45,
+      "line_total_gbp": 0.45,
+      "buy_qty": 400.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/14",
+       "11/21"
+      ],
+      "note": "开罐沥干即用；每次 ~173g，剩约 62g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
+      "bean_form": "canned",
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-cannellini-beans-in-water-400g-235g",
+      "product": {
+       "name": "Sainsbury's Cannellini Beans In Water 400g (235g*)",
+       "brand": "Sainsbury's",
+       "size": "400g",
+       "price_gbp": 0.45,
+       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-cannellini-beans-in-water-400g-235g"
+      }
+     },
+     {
       "category": "蔬菜",
       "name": "茄子",
       "name_display": "茄子",
@@ -11816,8 +12179,8 @@
     ]
    },
    "TESCO": {
-    "subtotal": 84.98,
-    "count": 28,
+    "subtotal": 86.85,
+    "count": 29,
     "names": [
      "藜麦",
      "半脱脂奶",
@@ -11836,6 +12199,7 @@
      "牛奶",
      "可可粉",
      "奇亚籽",
+     "西葫芦",
      "辣椒酱",
      "鸡高汤",
      "红薯",
@@ -11845,7 +12209,7 @@
      "茅屋奶酪",
      "羊肉（代表值，fat7g）",
      "白砂糖",
-     "姜",
+     "莳萝",
      "西洋菜"
     ],
     "items": [
@@ -12017,7 +12381,8 @@
       "used_on": [
        "11/08",
        "11/15",
-       "11/19"
+       "11/19",
+       "11/22"
       ],
       "note": "",
       "bean_form": null,
@@ -12172,13 +12537,13 @@
       "category": "蔬菜",
       "name": "羽衣甘蓝",
       "name_display": "羽衣甘蓝",
-      "packs": 15,
+      "packs": 18,
       "pack_size": "180g",
       "name_en": "Tesco Curly Kale 180G",
       "name_short": "Tesco Curly Kale",
       "brand": "TESCO",
       "unit_price_gbp": 0.8,
-      "line_total_gbp": 12.0,
+      "line_total_gbp": 14.4,
       "buy_qty": 180.0,
       "buy_unit": "g",
       "used_on": [
@@ -12332,6 +12697,34 @@
        "size": "500g",
        "price_gbp": 3.95,
        "link": "https://www.tesco.com/shop/en-GB/products/311792248"
+      }
+     },
+     {
+      "category": "蔬菜",
+      "name": "西葫芦",
+      "name_display": "西葫芦",
+      "packs": 1,
+      "pack_size": "500g",
+      "name_en": "Tesco Courgettes 500G (C)",
+      "name_short": "Tesco Courgettes (C)",
+      "brand": "TESCO",
+      "unit_price_gbp": 1.39,
+      "line_total_gbp": 1.39,
+      "buy_qty": 500.0,
+      "buy_unit": "g",
+      "used_on": [
+       "11/14",
+       "11/18"
+      ],
+      "note": "易坏，分批",
+      "bean_form": null,
+      "link": "https://www.tesco.com/shop/en-GB/products/290361468",
+      "product": {
+       "name": "Tesco Courgettes 500G (C)",
+       "brand": "TESCO",
+       "size": "500g",
+       "price_gbp": 1.39,
+       "link": "https://www.tesco.com/shop/en-GB/products/290361468"
       }
      },
      {
@@ -12567,41 +12960,41 @@
       }
      },
      {
-      "category": "蔬菜",
-      "name": "姜",
-      "name_display": "姜",
+      "category": "调料",
+      "name": "莳萝",
+      "name_display": "莳萝",
       "packs": 1,
-      "pack_size": "340g",
-      "name_en": "Tesco Ginger Preserve 340G",
-      "name_short": "Tesco Ginger Preserve",
+      "pack_size": "20g",
+      "name_en": "Tesco Fresh Cut Dill 20G",
+      "name_short": "Tesco Fresh Cut Dill",
       "brand": "TESCO",
-      "unit_price_gbp": 1.1,
-      "line_total_gbp": 1.1,
-      "buy_qty": 340.0,
+      "unit_price_gbp": 0.48,
+      "line_total_gbp": 0.48,
+      "buy_qty": 20.0,
       "buy_unit": "g",
       "used_on": [],
       "note": "",
       "bean_form": null,
-      "link": "https://www.tesco.com/shop/en-GB/products/280879009",
+      "link": "https://www.tesco.com/shop/en-GB/products/304404478",
       "product": {
-       "name": "Tesco Ginger Preserve 340G",
+       "name": "Tesco Fresh Cut Dill 20G",
        "brand": "TESCO",
-       "size": "340g",
-       "price_gbp": 1.1,
-       "link": "https://www.tesco.com/shop/en-GB/products/280879009"
+       "size": "20g",
+       "price_gbp": 0.48,
+       "link": "https://www.tesco.com/shop/en-GB/products/304404478"
       }
      },
      {
       "category": "蔬菜",
       "name": "西洋菜",
       "name_display": "西洋菜",
-      "packs": 4,
+      "packs": 3,
       "pack_size": "85g",
       "name_en": "Tesco Watercress 85G (C)",
       "name_short": "Tesco Watercress (C)",
       "brand": "TESCO",
       "unit_price_gbp": 1.3,
-      "line_total_gbp": 5.2,
+      "line_total_gbp": 3.9,
       "buy_qty": 85.0,
       "buy_unit": "g",
       "used_on": [
@@ -12621,12 +13014,65 @@
     ]
    }
   },
-  "combined_total_gbp": 143.31
+  "combined_total_gbp": 145.63
  },
  "only_at": {
   "意面南瓜": "Sainsbury's"
  },
  "price_compare": [
+  {
+   "name": "白芸豆",
+   "name_display": "白芸豆",
+   "category": "豆制品",
+   "stores": {
+    "TESCO": {
+     "price": 1.5,
+     "pack_g": 540.0,
+     "size": "540g",
+     "per100_gbp": 0.2778,
+     "link": "https://www.tesco.com/shop/en-GB/products/317662937",
+     "product_name": "Village White beans 540g",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 2.25,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.45,
+     "link": "https://www.waitrose.com/ecom/products/duchy-organic-white-beans/940756-1-2",
+     "product_name": "Duchy Organic White Beans",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 0.65,
+     "pack_g": 430.0,
+     "size": "430 g",
+     "per100_gbp": 0.1512,
+     "link": "https://www.marksandspencer.com/food/cannellini-beans/p/fdp60932170",
+     "product_name": "Cannellini Beans",
+     "category": "豆制品",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "MARKS & SPENCER",
+   "cheapest_label": "M&S",
+   "expensive_label": "Waitrose",
+   "diff_per100": 0.2988,
+   "diff_pct": 1.9762,
+   "spread_ratio": 2.98,
+   "suspect": false,
+   "sizes_g": {
+    "TESCO": 540.0,
+    "WAITROSE": 500.0,
+    "MARKS & SPENCER": 430.0
+   }
+  },
   {
    "name": "玉米淀粉",
    "name_display": "玉米淀粉",
@@ -14799,6 +15245,94 @@
    }
   },
   {
+   "name": "西葫芦",
+   "name_display": "西葫芦",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.39,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.278,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+     "product_name": "Courgettes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 2.78,
+     "pack_g": null,
+     "size": "nan",
+     "per100_gbp": null,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-courgettes-loose",
+     "product_name": "Sainsbury's Courgettes Loose",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.39,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.278,
+     "link": "https://www.tesco.com/shop/en-GB/products/290361468",
+     "product_name": "Tesco Courgettes 500G (C)",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 1.39,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.278,
+     "link": "https://groceries.morrisons.com/products/115508998",
+     "product_name": "Morrisons Courgettes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.9,
+     "pack_g": 600.0,
+     "size": "600g",
+     "per100_gbp": 0.3167,
+     "link": "https://www.waitrose.com/ecom/products/essential-courgettes/574915-81449-81450",
+     "product_name": "Essential Courgettes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.45,
+     "pack_g": 325.0,
+     "size": "325 g",
+     "per100_gbp": 0.4462,
+     "link": "https://www.marksandspencer.com/food/courgettes/p/fdp21007251",
+     "product_name": "Courgettes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "M&S",
+   "diff_per100": 0.1682,
+   "diff_pct": 0.605,
+   "spread_ratio": 1.61,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 500.0,
+    "TESCO": 500.0,
+    "MORRISONS": 500.0,
+    "WAITROSE": 600.0,
+    "MARKS & SPENCER": 325.0
+   }
+  },
+  {
    "name": "火鸡肉末",
    "name_display": "火鸡肉末",
    "category": "肉类",
@@ -16053,107 +16587,6 @@
     "MORRISONS": 185.0,
     "WAITROSE": 215.0,
     "MARKS & SPENCER": 185.0
-   }
-  },
-  {
-   "name": "姜",
-   "name_display": "姜",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 0.99,
-     "pack_g": 125.0,
-     "size": "125 g",
-     "per100_gbp": 0.792,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-ginger-000000000000266261",
-     "product_name": "Ginger",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.45,
-     "pack_g": 454.0,
-     "size": "454g",
-     "per100_gbp": 0.3194,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-ginger-preserve-454g",
-     "product_name": "Sainsbury's Ginger Preserve 454g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 1.8,
-     "pack_g": 285.0,
-     "size": "285g",
-     "per100_gbp": 0.6316,
-     "link": "https://www.iceland.co.uk/p/gullon-zero-zingy-dark-choc-ginger-oaties-285g/100406.html",
-     "product_name": "Gullón Zero Zingy Dark Choc Ginger Oaties 285g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.1,
-     "pack_g": 340.0,
-     "size": "340g",
-     "per100_gbp": 0.3235,
-     "link": "https://www.tesco.com/shop/en-GB/products/280879009",
-     "product_name": "Tesco Ginger Preserve 340G",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 1.5,
-     "pack_g": 400.0,
-     "size": "400g",
-     "per100_gbp": 0.375,
-     "link": "https://groceries.morrisons.com/products/105250233",
-     "product_name": "Taj Crushed Ginger 400g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.35,
-     "pack_g": 100.0,
-     "size": "100g",
-     "per100_gbp": 1.35,
-     "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-fresh-ginger/073238-37156-37157",
-     "product_name": "Cooks' Ingredients Fresh Ginger",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "MARKS & SPENCER": {
-     "price": 0.75,
-     "pack_g": 250.0,
-     "size": "250 g",
-     "per100_gbp": 0.3,
-     "link": "https://www.marksandspencer.com/food/ginger-snaps/p/fdp20001643",
-     "product_name": "Ginger Snaps",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "MARKS & SPENCER",
-   "cheapest_label": "M&S",
-   "expensive_label": "Waitrose",
-   "diff_per100": 1.05,
-   "diff_pct": 3.5,
-   "spread_ratio": 4.5,
-   "suspect": true,
-   "sizes_g": {
-    "ALDI": 125.0,
-    "SAINSBURYS": 454.0,
-    "ICELAND": 285.0,
-    "TESCO": 340.0,
-    "MORRISONS": 400.0,
-    "WAITROSE": 100.0,
-    "MARKS & SPENCER": 250.0
    }
   },
   {
