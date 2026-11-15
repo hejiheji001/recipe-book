@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-15T14:15:08",
+ "generated": "2026-11-15T14:29:41",
  "quantity_basis": "单人 8 天份 · 11/15 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/15",
@@ -154,8 +154,8 @@
   "ALDI",
   "ICELAND",
   "SAINSBURYS",
-  "TESCO",
   "MARKS & SPENCER",
+  "TESCO",
   "MORRISONS",
   "WAITROSE"
  ],
@@ -189,6 +189,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 0.0,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-spaghetti-squash-taste-the-difference",
    "product": {
     "name": "Sainsbury's Spaghetti Squash, Taste the Difference",
@@ -221,6 +222,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 0.0,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-spaghetti-squash-taste-the-difference",
    "product": {
     "name": "Sainsbury's Spaghetti Squash, Taste the Difference",
@@ -236,13 +238,13 @@
    "category": "主食",
    "name": "藜麦",
    "name_display": "藜麦罐头",
-   "packs": 3,
+   "packs": 1,
    "pack_size": "300g",
    "name_en": "Sainsbury's Quinoa 300g",
    "name_short": "Sainsbury's Quinoa",
    "brand": "Sainsbury's",
    "unit_price_gbp": 3.1,
-   "line_total_gbp": 9.3,
+   "line_total_gbp": 3.1,
    "buy_qty": 300.0,
    "buy_unit": "g",
    "used_on": [
@@ -250,8 +252,9 @@
     "11/15",
     "11/22"
    ],
-   "note": "耐存，一次买够（ALDI 没有，去 Sainsbury's 买）",
+   "note": "耐存（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 175.99999999999997,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g",
    "product": {
     "name": "Sainsbury's Quinoa 300g",
@@ -259,36 +262,6 @@
     "size": "300g",
     "price_gbp": 3.1,
     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g"
-   }
-  },
-  {
-   "category": "乳制品",
-   "name": "半脱脂奶",
-   "name_display": "半脱脂奶",
-   "packs": 1,
-   "pack_size": "3.408 l",
-   "name_en": "Semi Skimmed Milk 1.7% Fat",
-   "name_short": "Semi Skimmed Milk 1.7% Fat",
-   "brand": "COWBELLE",
-   "unit_price_gbp": 2.4,
-   "line_total_gbp": 2.4,
-   "buy_qty": 3408.0,
-   "buy_unit": "g",
-   "used_on": [
-    "11/08",
-    "11/15",
-    "11/19",
-    "11/22"
-   ],
-   "note": "",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
-   "product": {
-    "name": "Semi Skimmed Milk 1.7% Fat",
-    "brand": "COWBELLE",
-    "size": "3.408 l",
-    "price_gbp": 2.4,
-    "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713"
    }
   },
   {
@@ -316,6 +289,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 0.0,
    "link": "https://www.aldi.co.uk/product/merevale-free-range-eggs-6-pack-000000000000548465",
    "product": {
     "name": "Free Range Eggs 6 Pack",
@@ -347,6 +321,7 @@
    ],
    "note": "易坏，分批",
    "bean_form": null,
+   "_g_need": 400.0,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
    "product": {
     "name": "Strawberries",
@@ -376,6 +351,7 @@
    ],
    "note": "易坏，分批",
    "bean_form": null,
+   "_g_need": 0.0,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
    "product": {
     "name": "Cucumber",
@@ -404,6 +380,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 240.0,
    "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515",
    "product": {
     "name": "Red Cabbage",
@@ -434,6 +411,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 50.0,
    "link": "https://www.aldi.co.uk/product/emporium-greek-feta-000000000000557625",
    "product": {
     "name": "Greek Feta",
@@ -462,6 +440,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 30.0,
    "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
    "product": {
     "name": "Houmous",
@@ -490,6 +469,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 98.70588235294119,
    "link": "https://www.aldi.co.uk/product/everyday-essentials-classic-mozzarella-000000000283052001",
    "product": {
     "name": "Classic Mozzarella",
@@ -518,6 +498,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 98.4180790960452,
    "link": "https://www.aldi.co.uk/product/bramwells-tomato-ketchup-000000000000575453",
    "product": {
     "name": "Tomato Ketchup",
@@ -546,6 +527,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 91.6734,
    "link": "https://www.aldi.co.uk/product/village-bakery-medium-sliced-white-bread-000000000383372001",
    "product": {
     "name": "Medium Sliced White Bread",
@@ -574,6 +556,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 881.4705882352941,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166",
    "product": {
     "name": "Asparagus Tips",
@@ -599,6 +582,7 @@
    "used_on": [],
    "note": "",
    "bean_form": null,
+   "_g_need": 401.95259999999996,
    "link": "https://www.aldi.co.uk/product/ashfields-chicken-legs-000000000000382089",
    "product": {
     "name": "Chicken Legs",
@@ -629,6 +613,7 @@
    ],
    "note": "开罐沥干即用；每次 ~145g，剩约 95g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
    "bean_form": "canned",
+   "_g_need": 294.7777777777778,
    "link": "https://www.aldi.co.uk/product/four-seasons-tinned-black-beans-000000000627180001",
    "product": {
     "name": "Tinned Black Beans",
@@ -657,6 +642,7 @@
    ],
    "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 5.0,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-lime-juice-250ml",
    "product": {
     "name": "Sainsbury's Lime Juice 250ml",
@@ -684,6 +670,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 0.0,
    "link": "https://www.aldi.co.uk/product/ashfields-british-beef-roasting-joint-21-day-matured-000000000000384513",
    "product": {
     "name": "British Beef Roasting Joint 21 Day Matured",
@@ -711,6 +698,7 @@
    ],
    "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 132.3,
    "link": "https://www.sainsburys.co.uk/groceries/product/ktc-chopped-tomatoes-400g",
    "product": {
     "name": "KTC Chopped Tomatoes 400g",
@@ -738,6 +726,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 175.91304347826087,
    "link": "https://www.aldi.co.uk/product/ashfields-british-lamb-chops-000000000661917001",
    "product": {
     "name": "British Lamb Chops",
@@ -765,6 +754,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 7.07070707070707,
    "link": "https://www.aldi.co.uk/product/bramwells-dijon-mustard-000000000335764003",
    "product": {
     "name": "Dijon Mustard",
@@ -793,6 +783,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 23.75178,
    "link": "https://www.aldi.co.uk/product/the-deli-balsamic-vinegar-of-modena-000000000000335643",
    "product": {
     "name": "Balsamic Vinegar of Modena",
@@ -824,6 +815,7 @@
    ],
    "note": "易坏，分批",
    "bean_form": null,
+   "_g_need": 787.5438596491227,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
    "product": {
     "name": "Scottish Shredded Kale",
@@ -851,6 +843,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 340.0,
    "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259",
    "product": {
     "name": "Baby Plum Tomatoes",
@@ -878,6 +871,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 30.000000000000004,
    "link": "https://www.aldi.co.uk/product/everyday-essentials-british-wonky-carrots-000000000000339825",
    "product": {
     "name": "British Wonky Carrots",
@@ -905,6 +899,7 @@
    ],
    "note": "耐存",
    "bean_form": null,
+   "_g_need": 16.833333333333332,
    "link": "https://www.aldi.co.uk/product/quixo-natural-breadcrumbs-000000000335628001",
    "product": {
     "name": "Natural Breadcrumbs",
@@ -932,6 +927,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 1707.6470588235295,
    "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
    "product": {
     "name": "Semi Skimmed Milk 1.7% Fat",
@@ -959,6 +955,7 @@
    ],
    "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 0.0,
    "link": "https://www.sainsburys.co.uk/groceries/product/food-thoughts-organic-cocoa-powder-125g",
    "product": {
     "name": "Food Thoughts Organic Cocoa Powder 125g",
@@ -986,6 +983,7 @@
    ],
    "note": "耐存",
    "bean_form": null,
+   "_g_need": 6.482084690553746,
    "link": "https://www.aldi.co.uk/product/the-foodie-market-whole-chia-seeds-000000000386021001",
    "product": {
     "name": "Whole Chia Seeds",
@@ -1014,6 +1012,7 @@
    ],
    "note": "易坏，分批",
    "bean_form": null,
+   "_g_need": 32.89473684210527,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
    "product": {
     "name": "Courgettes",
@@ -1021,33 +1020,6 @@
     "size": "500 g",
     "price_gbp": 1.39,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
-   }
-  },
-  {
-   "category": "乳制品",
-   "name": "脱脂牛奶",
-   "name_display": "脱脂牛奶",
-   "packs": 1,
-   "pack_size": "3.408 l",
-   "name_en": "Semi Skimmed Milk 1.7% Fat",
-   "name_short": "Semi Skimmed Milk 1.7% Fat",
-   "brand": "COWBELLE",
-   "unit_price_gbp": 2.4,
-   "line_total_gbp": 2.4,
-   "buy_qty": 3408.0,
-   "buy_unit": "g",
-   "used_on": [
-    "11/18"
-   ],
-   "note": "",
-   "bean_form": null,
-   "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
-   "product": {
-    "name": "Semi Skimmed Milk 1.7% Fat",
-    "brand": "COWBELLE",
-    "size": "3.408 l",
-    "price_gbp": 2.4,
-    "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713"
    }
   },
   {
@@ -1068,6 +1040,7 @@
    ],
    "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 48.266666666666666,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-brown-rice-500g",
    "product": {
     "name": "Sainsbury's Brown Rice 500g",
@@ -1093,6 +1066,7 @@
    "used_on": [],
    "note": "",
    "bean_form": null,
+   "_g_need": 31.476,
    "link": "https://www.aldi.co.uk/product/asia-specialities-sriracha-000000000678506001",
    "product": {
     "name": "Sriracha",
@@ -1120,6 +1094,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 145.08264462809916,
    "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-breast-steaks-2-fat-000000000000387722",
    "product": {
     "name": "British Turkey Breast Steaks 2% Fat",
@@ -1148,6 +1123,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 0.0,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-000000000000339795",
    "product": {
     "name": "Celery",
@@ -1175,6 +1151,7 @@
    ],
    "note": "耐存，1 包 1000g 可覆盖多次",
    "bean_form": null,
+   "_g_need": 28.455284552845526,
    "link": "https://www.aldi.co.uk/product/four-seasons-mixed-vegetables-000000000000366028",
    "product": {
     "name": "Mixed Vegetables",
@@ -1188,13 +1165,13 @@
    "category": "肉类",
    "name": "鸡高汤",
    "name_display": "鸡高汤",
-   "packs": 8,
+   "packs": 1,
    "pack_size": "120 g",
    "name_en": "Chicken Stock Cubes",
    "name_short": "Chicken Stock Cubes",
    "brand": "BRAMWELLS",
    "unit_price_gbp": 0.69,
-   "line_total_gbp": 5.52,
+   "line_total_gbp": 0.69,
    "buy_qty": 120.0,
    "buy_unit": "g",
    "used_on": [
@@ -1203,6 +1180,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 16.926006,
    "link": "https://www.aldi.co.uk/product/bramwells-chicken-stock-cubes-000000000000633943",
    "product": {
     "name": "Chicken Stock Cubes",
@@ -1228,6 +1206,7 @@
    "used_on": [],
    "note": "",
    "bean_form": null,
+   "_g_need": 126.52609999999999,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-sweet-potatoes-000000000000272328",
    "product": {
     "name": "Sweet Potatoes",
@@ -1253,6 +1232,7 @@
    "used_on": [],
    "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 45.91549295774648,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-sour-cream-280g",
    "product": {
     "name": "Sainsbury's Sour Cream 280g",
@@ -1278,6 +1258,7 @@
    "used_on": [],
    "note": "",
    "bean_form": null,
+   "_g_need": 3.3333333333333335,
    "link": "https://www.aldi.co.uk/product/ready-set-cook-cut-parsley-000000000000339820",
    "product": {
     "name": "Cut Parsley",
@@ -1303,6 +1284,7 @@
    "used_on": [],
    "note": "",
    "bean_form": null,
+   "_g_need": 1.1267605633802817,
    "link": "https://www.aldi.co.uk/product/ready-set-cook-cut-thyme-000000000000339823",
    "product": {
     "name": "Cut Thyme",
@@ -1328,6 +1310,7 @@
    "used_on": [],
    "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 2.2394,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-fresh-packed-sage-20g",
    "product": {
     "name": "Sainsbury's Fresh Packed Sage 20g",
@@ -1353,6 +1336,7 @@
    "used_on": [],
    "note": "",
    "bean_form": null,
+   "_g_need": 4.482352941176471,
    "link": "https://www.aldi.co.uk/product/the-pantry-cornflour-000000000000675134",
    "product": {
     "name": "Cornflour",
@@ -1380,6 +1364,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 25.03521835379352,
    "link": "https://www.aldi.co.uk/product/grandessa-crunchy-peanut-butter-000000000283841002",
    "product": {
     "name": "Crunchy Peanut Butter",
@@ -1407,6 +1392,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 200.0,
    "link": "https://www.aldi.co.uk/product/everyday-essentials-low-fat-cottage-cheese-000000000000416217",
    "product": {
     "name": "Low Fat Cottage Cheese",
@@ -1434,6 +1420,7 @@
    ],
    "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 8.0,
    "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-ground-cinnamon-38g",
    "product": {
     "name": "Stamford Street Co. Ground Cinnamon 38g",
@@ -1461,6 +1448,7 @@
    ],
    "note": "",
    "bean_form": null,
+   "_g_need": 113.4,
    "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
    "product": {
     "name": "British Turkey Mince 7% Fat",
@@ -1488,6 +1476,7 @@
    ],
    "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 0.0,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-green-chillies-65g",
    "product": {
     "name": "Sainsbury's Green Chillies 65g",
@@ -1516,6 +1505,7 @@
    ],
    "note": "开罐沥干即用；每次 ~173g，剩约 62g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": "canned",
+   "_g_need": 151.3533834586466,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-cannellini-beans-in-water-400g-235g",
    "product": {
     "name": "Sainsbury's Cannellini Beans In Water 400g (235g*)",
@@ -1545,6 +1535,7 @@
    ],
    "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 517.9591836734693,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-baby-aubergines-200g",
    "product": {
     "name": "Sainsbury's Baby Aubergines 200g",
@@ -1572,6 +1563,7 @@
    ],
    "note": "耐存",
    "bean_form": null,
+   "_g_need": 14.232804232804233,
    "link": "https://www.aldi.co.uk/product/cucina-tomato-puree-double-concentrate-000000000000679898",
    "product": {
     "name": "Tomato Puree Double Concentrate",
@@ -1597,6 +1589,7 @@
    "used_on": [],
    "note": "（ALDI 没有，去 TESCO 买）",
    "bean_form": null,
+   "_g_need": 172.44791666666669,
    "link": "https://www.tesco.com/shop/en-GB/products/297186866",
    "product": {
     "name": "Acre Lane Lamb Leg Joint 1.0-1.2Kg",
@@ -1622,6 +1615,7 @@
    "used_on": [],
    "note": "耐存（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 8.45360824742268,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-fresh-oregano-20g",
    "product": {
     "name": "Sainsbury's Fresh Oregano 20g",
@@ -1647,6 +1641,7 @@
    "used_on": [],
    "note": "",
    "bean_form": null,
+   "_g_need": 1.19,
    "link": "https://www.aldi.co.uk/product/the-pantry-granulated-sugar-000000000000386277",
    "product": {
     "name": "Granulated Sugar",
@@ -1672,6 +1667,7 @@
    "used_on": [],
    "note": "",
    "bean_form": null,
+   "_g_need": 49.778400000000005,
    "link": "https://www.aldi.co.uk/product/baron-st-jean-red-wine-000000000000540683",
    "product": {
     "name": "Red Wine",
@@ -1697,6 +1693,7 @@
    "used_on": [],
    "note": "",
    "bean_form": null,
+   "_g_need": 5.923984272608125,
    "link": "https://www.aldi.co.uk/product/the-pantry-plain-flour-000000000000382617",
    "product": {
     "name": "Plain Flour",
@@ -1722,6 +1719,7 @@
    "used_on": [],
    "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 0.0,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-dill-13g",
    "product": {
     "name": "Sainsbury's Dill 13g",
@@ -1749,6 +1747,7 @@
    ],
    "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
+   "_g_need": 197.60000000000002,
    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-80g-watercress",
    "product": {
     "name": "Sainsbury's 80g Watercress",
@@ -1787,42 +1786,12 @@
   }
  ],
  "batches": [],
- "total_gbp": 133.37,
+ "total_gbp": 117.54,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
    "store_label": "Aldi",
    "items": [
-    {
-     "category": "乳制品",
-     "name": "半脱脂奶",
-     "name_display": "半脱脂奶",
-     "packs": 1,
-     "pack_size": "3.408 l",
-     "name_en": "Semi Skimmed Milk 1.7% Fat",
-     "name_short": "Semi Skimmed Milk 1.7% Fat",
-     "brand": "COWBELLE",
-     "unit_price_gbp": 2.4,
-     "line_total_gbp": 2.4,
-     "buy_qty": 3408.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/19",
-      "11/22"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
-     "product": {
-      "name": "Semi Skimmed Milk 1.7% Fat",
-      "brand": "COWBELLE",
-      "size": "3.408 l",
-      "price_gbp": 2.4,
-      "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713"
-     }
-    },
     {
      "category": "蛋类",
      "name": "鸡蛋",
@@ -1848,6 +1817,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.aldi.co.uk/product/merevale-free-range-eggs-6-pack-000000000000548465",
      "product": {
       "name": "Free Range Eggs 6 Pack",
@@ -1879,6 +1849,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 400.0,
      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
      "product": {
       "name": "Strawberries",
@@ -1908,6 +1879,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.aldi.co.uk/product/nature-s-pick-cucumber-000000000000273659",
      "product": {
       "name": "Cucumber",
@@ -1936,6 +1908,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 240.0,
      "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515",
      "product": {
       "name": "Red Cabbage",
@@ -1966,6 +1939,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 50.0,
      "link": "https://www.aldi.co.uk/product/emporium-greek-feta-000000000000557625",
      "product": {
       "name": "Greek Feta",
@@ -1994,6 +1968,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 30.0,
      "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
      "product": {
       "name": "Houmous",
@@ -2022,6 +1997,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 98.70588235294119,
      "link": "https://www.aldi.co.uk/product/everyday-essentials-classic-mozzarella-000000000283052001",
      "product": {
       "name": "Classic Mozzarella",
@@ -2050,6 +2026,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 98.4180790960452,
      "link": "https://www.aldi.co.uk/product/bramwells-tomato-ketchup-000000000000575453",
      "product": {
       "name": "Tomato Ketchup",
@@ -2078,6 +2055,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 91.6734,
      "link": "https://www.aldi.co.uk/product/village-bakery-medium-sliced-white-bread-000000000383372001",
      "product": {
       "name": "Medium Sliced White Bread",
@@ -2106,6 +2084,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 881.4705882352941,
      "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166",
      "product": {
       "name": "Asparagus Tips",
@@ -2131,6 +2110,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 401.95259999999996,
      "link": "https://www.aldi.co.uk/product/ashfields-chicken-legs-000000000000382089",
      "product": {
       "name": "Chicken Legs",
@@ -2161,6 +2141,7 @@
      ],
      "note": "开罐沥干即用；每次 ~145g，剩约 95g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
      "bean_form": "canned",
+     "_g_need": 294.7777777777778,
      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-black-beans-000000000627180001",
      "product": {
       "name": "Tinned Black Beans",
@@ -2188,6 +2169,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.aldi.co.uk/product/ashfields-british-beef-roasting-joint-21-day-matured-000000000000384513",
      "product": {
       "name": "British Beef Roasting Joint 21 Day Matured",
@@ -2215,6 +2197,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 175.91304347826087,
      "link": "https://www.aldi.co.uk/product/ashfields-british-lamb-chops-000000000661917001",
      "product": {
       "name": "British Lamb Chops",
@@ -2242,6 +2225,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 7.07070707070707,
      "link": "https://www.aldi.co.uk/product/bramwells-dijon-mustard-000000000335764003",
      "product": {
       "name": "Dijon Mustard",
@@ -2270,6 +2254,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 23.75178,
      "link": "https://www.aldi.co.uk/product/the-deli-balsamic-vinegar-of-modena-000000000000335643",
      "product": {
       "name": "Balsamic Vinegar of Modena",
@@ -2301,6 +2286,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 787.5438596491227,
      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
      "product": {
       "name": "Scottish Shredded Kale",
@@ -2328,6 +2314,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 340.0,
      "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259",
      "product": {
       "name": "Baby Plum Tomatoes",
@@ -2355,6 +2342,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 30.000000000000004,
      "link": "https://www.aldi.co.uk/product/everyday-essentials-british-wonky-carrots-000000000000339825",
      "product": {
       "name": "British Wonky Carrots",
@@ -2382,6 +2370,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 16.833333333333332,
      "link": "https://www.aldi.co.uk/product/quixo-natural-breadcrumbs-000000000335628001",
      "product": {
       "name": "Natural Breadcrumbs",
@@ -2409,6 +2398,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 1707.6470588235295,
      "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
      "product": {
       "name": "Semi Skimmed Milk 1.7% Fat",
@@ -2436,6 +2426,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 6.482084690553746,
      "link": "https://www.aldi.co.uk/product/the-foodie-market-whole-chia-seeds-000000000386021001",
      "product": {
       "name": "Whole Chia Seeds",
@@ -2464,6 +2455,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 32.89473684210527,
      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
      "product": {
       "name": "Courgettes",
@@ -2471,33 +2463,6 @@
       "size": "500 g",
       "price_gbp": 1.39,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "脱脂牛奶",
-     "name_display": "脱脂牛奶",
-     "packs": 1,
-     "pack_size": "3.408 l",
-     "name_en": "Semi Skimmed Milk 1.7% Fat",
-     "name_short": "Semi Skimmed Milk 1.7% Fat",
-     "brand": "COWBELLE",
-     "unit_price_gbp": 2.4,
-     "line_total_gbp": 2.4,
-     "buy_qty": 3408.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/18"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
-     "product": {
-      "name": "Semi Skimmed Milk 1.7% Fat",
-      "brand": "COWBELLE",
-      "size": "3.408 l",
-      "price_gbp": 2.4,
-      "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713"
      }
     },
     {
@@ -2516,6 +2481,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 31.476,
      "link": "https://www.aldi.co.uk/product/asia-specialities-sriracha-000000000678506001",
      "product": {
       "name": "Sriracha",
@@ -2543,6 +2509,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 145.08264462809916,
      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-breast-steaks-2-fat-000000000000387722",
      "product": {
       "name": "British Turkey Breast Steaks 2% Fat",
@@ -2571,6 +2538,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.aldi.co.uk/product/nature-s-pick-celery-000000000000339795",
      "product": {
       "name": "Celery",
@@ -2598,6 +2566,7 @@
      ],
      "note": "耐存，1 包 1000g 可覆盖多次",
      "bean_form": null,
+     "_g_need": 28.455284552845526,
      "link": "https://www.aldi.co.uk/product/four-seasons-mixed-vegetables-000000000000366028",
      "product": {
       "name": "Mixed Vegetables",
@@ -2611,13 +2580,13 @@
      "category": "肉类",
      "name": "鸡高汤",
      "name_display": "鸡高汤",
-     "packs": 8,
+     "packs": 1,
      "pack_size": "120 g",
      "name_en": "Chicken Stock Cubes",
      "name_short": "Chicken Stock Cubes",
      "brand": "BRAMWELLS",
      "unit_price_gbp": 0.69,
-     "line_total_gbp": 5.52,
+     "line_total_gbp": 0.69,
      "buy_qty": 120.0,
      "buy_unit": "g",
      "used_on": [
@@ -2626,6 +2595,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 16.926006,
      "link": "https://www.aldi.co.uk/product/bramwells-chicken-stock-cubes-000000000000633943",
      "product": {
       "name": "Chicken Stock Cubes",
@@ -2651,6 +2621,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 126.52609999999999,
      "link": "https://www.aldi.co.uk/product/nature-s-pick-sweet-potatoes-000000000000272328",
      "product": {
       "name": "Sweet Potatoes",
@@ -2676,6 +2647,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 3.3333333333333335,
      "link": "https://www.aldi.co.uk/product/ready-set-cook-cut-parsley-000000000000339820",
      "product": {
       "name": "Cut Parsley",
@@ -2701,6 +2673,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 1.1267605633802817,
      "link": "https://www.aldi.co.uk/product/ready-set-cook-cut-thyme-000000000000339823",
      "product": {
       "name": "Cut Thyme",
@@ -2726,6 +2699,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 4.482352941176471,
      "link": "https://www.aldi.co.uk/product/the-pantry-cornflour-000000000000675134",
      "product": {
       "name": "Cornflour",
@@ -2753,6 +2727,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 25.03521835379352,
      "link": "https://www.aldi.co.uk/product/grandessa-crunchy-peanut-butter-000000000283841002",
      "product": {
       "name": "Crunchy Peanut Butter",
@@ -2780,6 +2755,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 200.0,
      "link": "https://www.aldi.co.uk/product/everyday-essentials-low-fat-cottage-cheese-000000000000416217",
      "product": {
       "name": "Low Fat Cottage Cheese",
@@ -2807,6 +2783,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 113.4,
      "link": "https://www.aldi.co.uk/product/ashfields-british-turkey-mince-7-fat-000000000000386144",
      "product": {
       "name": "British Turkey Mince 7% Fat",
@@ -2834,6 +2811,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 14.232804232804233,
      "link": "https://www.aldi.co.uk/product/cucina-tomato-puree-double-concentrate-000000000000679898",
      "product": {
       "name": "Tomato Puree Double Concentrate",
@@ -2859,6 +2837,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 1.19,
      "link": "https://www.aldi.co.uk/product/the-pantry-granulated-sugar-000000000000386277",
      "product": {
       "name": "Granulated Sugar",
@@ -2884,6 +2863,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 49.778400000000005,
      "link": "https://www.aldi.co.uk/product/baron-st-jean-red-wine-000000000000540683",
      "product": {
       "name": "Red Wine",
@@ -2909,6 +2889,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.923984272608125,
      "link": "https://www.aldi.co.uk/product/the-pantry-plain-flour-000000000000382617",
      "product": {
       "name": "Plain Flour",
@@ -2920,7 +2901,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 82.58,
+   "total_gbp": 72.95,
    "missing": [
     "藜麦",
     "青柠汁",
@@ -2958,11 +2939,11 @@
     "牛至",
     "西洋菜"
    ],
-   "coverage": 0.7273,
-   "vs_recommend_gbp": -22.75,
-   "vs_recommend_common_n": 41,
-   "vs_recommend_store_gbp": 82.58,
-   "vs_recommend_rec_gbp": 105.33,
+   "coverage": 0.717,
+   "vs_recommend_gbp": -27.64,
+   "vs_recommend_common_n": 39,
+   "vs_recommend_store_gbp": 72.95,
+   "vs_recommend_rec_gbp": 100.59,
    "vs_recommend_missing": 16
   },
   "SAINSBURYS": {
@@ -2987,6 +2968,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-spaghetti-squash-taste-the-difference",
      "product": {
       "name": "Sainsbury's Spaghetti Squash, Taste the Difference",
@@ -3000,13 +2982,13 @@
      "category": "主食",
      "name": "藜麦",
      "name_display": "藜麦罐头",
-     "packs": 3,
+     "packs": 1,
      "pack_size": "300g",
      "name_en": "Sainsbury's Quinoa 300g",
      "name_short": "Sainsbury's Quinoa",
      "brand": "Sainsbury's",
      "unit_price_gbp": 3.1,
-     "line_total_gbp": 9.3,
+     "line_total_gbp": 3.1,
      "buy_qty": 300.0,
      "buy_unit": "g",
      "used_on": [
@@ -3014,8 +2996,9 @@
       "11/15",
       "11/22"
      ],
-     "note": "耐存，一次买够",
+     "note": "耐存",
      "bean_form": null,
+     "_g_need": 175.99999999999997,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g",
      "product": {
       "name": "Sainsbury's Quinoa 300g",
@@ -3023,36 +3006,6 @@
       "size": "300g",
       "price_gbp": 3.1,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "半脱脂奶",
-     "name_display": "半脱脂奶",
-     "packs": 1,
-     "pack_size": "3.408L (6 pints)",
-     "name_en": "Sainsbury's British Semi Skimmed Milk 3.4L (6 pint)",
-     "name_short": "Sainsbury's Semi Skimmed Milk (6 pint)",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 2.55,
-     "line_total_gbp": 2.55,
-     "buy_qty": 3408.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/19",
-      "11/22"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-semi-skimmed-milk-3-4l-6-pint",
-     "product": {
-      "name": "Sainsbury's British Semi Skimmed Milk 3.4L (6 pint)",
-      "brand": "Sainsbury's",
-      "size": "3.408L (6 pints)",
-      "price_gbp": 2.55,
-      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-semi-skimmed-milk-3-4l-6-pint"
      }
     },
     {
@@ -3080,6 +3033,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 337.70833333333337,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-free-range-british-eggs-medium-x15",
      "product": {
       "name": "Sainsbury's Free Range British Eggs Medium x15",
@@ -3111,6 +3065,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 489.6551724137931,
      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-strawberries-400g",
      "product": {
       "name": "Sainsbury's Strawberries 400g",
@@ -3140,6 +3095,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-small-whole-cucumber",
      "product": {
       "name": "Sainsbury's Small Whole Cucumber",
@@ -3168,6 +3124,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 240.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-500g-red-cabbage-taste-the-difference",
      "product": {
       "name": "Sainsbury's 500g Red Cabbage, Taste the Difference",
@@ -3198,6 +3155,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 49.56896551724138,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-175g-in-brine-greek-feta-cubes",
      "product": {
       "name": "Sainsbury's 175g In Brine Greek Feta Cubes",
@@ -3226,6 +3184,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 30.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-houmous-200g",
      "product": {
       "name": "Sainsbury's Houmous 200g",
@@ -3254,6 +3213,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 645.3846153846154,
      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tomato-mozzarella-filled-tortellini-250g",
      "product": {
       "name": "Sainsbury's Tomato & Mozzarella Filled Tortellini 250g",
@@ -3282,6 +3242,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 164.33962264150946,
      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-spaghetti-rings-in-tomato-sauce-400g",
      "product": {
       "name": "Stamford Street Co. Spaghetti Rings in Tomato Sauce 400g",
@@ -3310,6 +3271,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 91.6734,
      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-medium-wholemeal-bread-800g",
      "product": {
       "name": "Stamford Street Co. Medium Wholemeal Bread 800g",
@@ -3338,6 +3300,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 1577.3684210526317,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-250g-asparagus-spears",
      "product": {
       "name": "Sainsbury's 250g Asparagus Spears",
@@ -3363,6 +3326,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 401.95259999999996,
      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-british-frozen-chicken-portions-2kg",
      "product": {
       "name": "Stamford Street Co. British Frozen Chicken Portions 2kg",
@@ -3393,6 +3357,7 @@
      ],
      "note": "干豆泡 8h、煮 40–50min；约 133g 干豆 ≈ 295g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
+     "_g_need": 2467.9069767441865,
      "link": "https://www.sainsburys.co.uk/gol-ui/product/leon-brazilian-style-black-beans-250g",
      "product": {
       "name": "LEON Brazilian Style Black Beans 250g",
@@ -3421,6 +3386,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-lime-juice-250ml",
      "product": {
       "name": "Sainsbury's Lime Juice 250ml",
@@ -3448,6 +3414,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-beef-tomato-single-taste-the-difference",
      "product": {
       "name": "Sainsbury's Beef Tomato Single, Taste the Difference",
@@ -3475,6 +3442,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 132.3,
      "link": "https://www.sainsburys.co.uk/groceries/product/ktc-chopped-tomatoes-400g",
      "product": {
       "name": "KTC Chopped Tomatoes 400g",
@@ -3502,6 +3470,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 187.3148148148148,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-or-new-zealand-lamb-chops-170g",
      "product": {
       "name": "Sainsbury's British or New Zealand Lamb Chops 170g",
@@ -3529,6 +3498,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 6.93069306930693,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-dijon-mustard-185g",
      "product": {
       "name": "Sainsbury's Dijon Mustard 185g",
@@ -3557,6 +3527,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 23.75178,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-balsamic-vinegar-of-modena-2-leaf-250ml",
      "product": {
       "name": "Sainsbury's Balsamic Vinegar of Modena 2 Leaf 250ml",
@@ -3588,6 +3559,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 3453.076923076923,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-kale-200g",
      "product": {
       "name": "Sainsbury's Kale 200g",
@@ -3615,6 +3587,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 340.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/ktc-peeled-plum-tomatoes-400g",
      "product": {
       "name": "KTC Peeled Plum Tomatoes 400g",
@@ -3642,6 +3615,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 33.28767123287671,
      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-carrots-1kg",
      "product": {
       "name": "Stamford Street Co. Carrots 1kg",
@@ -3669,6 +3643,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 16.833333333333332,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-natural-fine-breadcrumbs-230g",
      "product": {
       "name": "Sainsbury's Natural Fine Breadcrumbs 230g",
@@ -3696,6 +3671,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 784.5945945945946,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-whole-milk-3-4l-6-pint",
      "product": {
       "name": "Sainsbury's British Whole Milk 3.4L (6 pint)",
@@ -3723,6 +3699,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/food-thoughts-organic-cocoa-powder-125g",
      "product": {
       "name": "Food Thoughts Organic Cocoa Powder 125g",
@@ -3750,6 +3727,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/naturya-organic-chia-seeds-175g",
      "product": {
       "name": "Naturya Organic Chia Seeds 175g",
@@ -3778,6 +3756,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-courgettes-loose",
      "product": {
       "name": "Sainsbury's Courgettes Loose",
@@ -3785,33 +3764,6 @@
       "size": "nan",
       "price_gbp": 2.78,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-courgettes-loose"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "脱脂牛奶",
-     "name_display": "脱脂牛奶",
-     "packs": 1,
-     "pack_size": "1L",
-     "name_en": "Dairy Pride UHT Skimmed Milk 1L",
-     "name_short": "Dairy Pride UHT Skimmed Milk",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 0.69,
-     "line_total_gbp": 0.69,
-     "buy_qty": 1000.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/18"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.sainsburys.co.uk/groceries/product/dairy-pride-uht-skimmed-milk-1l",
-     "product": {
-      "name": "Dairy Pride UHT Skimmed Milk 1L",
-      "brand": "Sainsbury's",
-      "size": "1L",
-      "price_gbp": 0.69,
-      "link": "https://www.sainsburys.co.uk/groceries/product/dairy-pride-uht-skimmed-milk-1l"
      }
     },
     {
@@ -3832,6 +3784,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 48.266666666666666,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-brown-rice-500g",
      "product": {
       "name": "Sainsbury's Brown Rice 500g",
@@ -3857,6 +3810,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/cholula-original-hot-sauce-150ml",
      "product": {
       "name": "Cholula Original Hot Sauce 150ml",
@@ -3884,6 +3838,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 111.46031746031746,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-turkey-breast-steaks-600g",
      "product": {
       "name": "Sainsbury's British Turkey Breast Steaks 600g",
@@ -3912,6 +3867,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-celery",
      "product": {
       "name": "Sainsbury's Celery",
@@ -3939,6 +3895,7 @@
      ],
      "note": "耐存，1 包 1000g 可覆盖多次",
      "bean_form": null,
+     "_g_need": 42.00000000000001,
      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-mixed-vegetables-1kg",
      "product": {
       "name": "Stamford Street Mixed Vegetables 1kg",
@@ -3952,13 +3909,13 @@
      "category": "肉类",
      "name": "鸡高汤",
      "name_display": "鸡高汤",
-     "packs": 2,
+     "packs": 1,
      "pack_size": "500ml",
      "name_en": "Sainsbury's Chicken Stock, Inspired to Cook 500ml",
      "name_short": "Sainsbury's Chicken Stock, Inspired to Cook",
      "brand": "Sainsbury's",
      "unit_price_gbp": 2.9,
-     "line_total_gbp": 5.8,
+     "line_total_gbp": 2.9,
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
@@ -3967,6 +3924,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 16.926006,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-chicken-stock-inspired-to-cook-500ml",
      "product": {
       "name": "Sainsbury's Chicken Stock, Inspired to Cook 500ml",
@@ -3992,6 +3950,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 126.52609999999999,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-sweet-potato-1-25kg",
      "product": {
       "name": "Sainsbury's Sweet Potato 1.25kg",
@@ -4017,6 +3976,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 45.91549295774648,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-sour-cream-280g",
      "product": {
       "name": "Sainsbury's Sour Cream 280g",
@@ -4042,6 +4002,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 3.3333333333333335,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-fresh-packed-flat-leaf-parsley-100g",
      "product": {
       "name": "Sainsbury's Fresh Packed Flat Leaf Parsley 100g",
@@ -4067,6 +4028,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 1.1267605633802817,
      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-thyme-15g",
      "product": {
       "name": "Stamford Street Co. Thyme 15g",
@@ -4092,6 +4054,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 2.2394,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-fresh-packed-sage-20g",
      "product": {
       "name": "Sainsbury's Fresh Packed Sage 20g",
@@ -4117,6 +4080,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 4.482352941176471,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-cornflour-500g",
      "product": {
       "name": "Sainsbury's Cornflour 500g",
@@ -4144,6 +4108,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-crunchy-peanut-butter-340g",
      "product": {
       "name": "Stamford Street Co. Crunchy Peanut Butter 340g",
@@ -4171,6 +4136,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 200.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/arla-300g-cottage-cheese",
      "product": {
       "name": "Arla 300g Cottage Cheese",
@@ -4198,6 +4164,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 8.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-ground-cinnamon-38g",
      "product": {
       "name": "Stamford Street Co. Ground Cinnamon 38g",
@@ -4225,6 +4192,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 113.4,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-7-fat-fresh-british-turkey-mince-750g",
      "product": {
       "name": "Sainsbury's 7% Fat Fresh British Turkey Mince 750g",
@@ -4252,6 +4220,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-green-chillies-65g",
      "product": {
       "name": "Sainsbury's Green Chillies 65g",
@@ -4280,6 +4249,7 @@
      ],
      "note": "开罐沥干即用；每次 ~173g，剩约 62g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
      "bean_form": "canned",
+     "_g_need": 151.3533834586466,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-cannellini-beans-in-water-400g-235g",
      "product": {
       "name": "Sainsbury's Cannellini Beans In Water 400g (235g*)",
@@ -4309,6 +4279,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 517.9591836734693,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-baby-aubergines-200g",
      "product": {
       "name": "Sainsbury's Baby Aubergines 200g",
@@ -4336,6 +4307,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 14.232804232804233,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-tomato-puree-double-concentrate-200g",
      "product": {
       "name": "Sainsbury's Tomato Puree, Double Concentrate 200g",
@@ -4361,6 +4333,7 @@
      "used_on": [],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 8.45360824742268,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-fresh-oregano-20g",
      "product": {
       "name": "Sainsbury's Fresh Oregano 20g",
@@ -4386,6 +4359,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 1.19,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-white-granulated-sugar-5kg",
      "product": {
       "name": "Sainsbury's White Granulated Sugar 5kg",
@@ -4411,6 +4385,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/wild-valley-red-wine-75cl",
      "product": {
       "name": "Wild Valley Red Wine 75cl",
@@ -4436,6 +4411,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.923984272608125,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-self-raising-flour-1-5kg",
      "product": {
       "name": "Sainsbury's Self Raising Flour 1.5kg",
@@ -4461,6 +4437,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-dill-13g",
      "product": {
       "name": "Sainsbury's Dill 13g",
@@ -4488,6 +4465,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 197.60000000000002,
      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-80g-watercress",
      "product": {
       "name": "Sainsbury's 80g Watercress",
@@ -4499,7 +4477,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 171.87,
+   "total_gbp": 159.53,
    "missing": [
     "羊肉（代表值，fat7g）"
    ],
@@ -4507,47 +4485,17 @@
    "unavailable": [
     "羊肉（代表值，fat7g）"
    ],
-   "coverage": 0.9818,
-   "vs_recommend_gbp": 43.74,
-   "vs_recommend_common_n": 56,
-   "vs_recommend_store_gbp": 171.87,
-   "vs_recommend_rec_gbp": 128.13,
+   "coverage": 0.9811,
+   "vs_recommend_gbp": 36.14,
+   "vs_recommend_common_n": 54,
+   "vs_recommend_store_gbp": 159.53,
+   "vs_recommend_rec_gbp": 123.39,
    "vs_recommend_missing": 1
   },
   "ICELAND": {
    "store": "ICELAND",
    "store_label": "Iceland",
    "items": [
-    {
-     "category": "乳制品",
-     "name": "半脱脂奶",
-     "name_display": "半脱脂奶",
-     "packs": 1,
-     "pack_size": "2L",
-     "name_en": "Dale Farm Fresh Semi-Skimmed Milk 3.52 Pints 2L",
-     "name_short": "Dale Farm Fresh Semi-Skimmed Milk 3.52 Pints",
-     "brand": "Dale Farm",
-     "unit_price_gbp": 1.65,
-     "line_total_gbp": 1.65,
-     "buy_qty": 2000.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/19",
-      "11/22"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/dale-farm-fresh-semi-skimmed-milk-3.52-pints%2F2l/32024.html",
-     "product": {
-      "name": "Dale Farm Fresh Semi-Skimmed Milk 3.52 Pints 2L",
-      "brand": "Dale Farm",
-      "size": "2L",
-      "price_gbp": 1.65,
-      "link": "https://www.iceland.co.uk/p/dale-farm-fresh-semi-skimmed-milk-3.52-pints%2F2l/32024.html"
-     }
-    },
     {
      "category": "蛋类",
      "name": "鸡蛋",
@@ -4573,6 +4521,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 376.9767441860465,
      "link": "https://www.iceland.co.uk/p/ballygarvey-6-big-and-healthy-fresh-eggs-420g/104139.html",
      "product": {
       "name": "Ballygarvey 6 Big & Healthy Fresh Eggs 420g",
@@ -4604,6 +4553,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 400.0,
      "link": "https://www.iceland.co.uk/p/chooee-strawberry-super-mix-200g/102058.html",
      "product": {
       "name": "Chooee Strawberry Super Mix 200g",
@@ -4633,6 +4583,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 240.0,
      "link": "https://www.iceland.co.uk/p/iceland-baby-cucumbers-200g/53277.html",
      "product": {
       "name": "Iceland Baby Cucumbers 200g",
@@ -4663,6 +4614,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 50.0,
      "link": "https://www.iceland.co.uk/p/olympus-feta-original-200g/88836.html",
      "product": {
       "name": "Olympus Feta Original 200g",
@@ -4691,6 +4643,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 30.0,
      "link": "https://www.iceland.co.uk/p/ramonas-original-heavenly-houmous-500g/107190.html",
      "product": {
       "name": "Ramona's Original Heavenly Houmous 500g",
@@ -4719,6 +4672,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 91.19565217391306,
      "link": "https://www.iceland.co.uk/p/iceland-60-%28approx.%29-mozzarella-sticks-900g/90908.html",
      "product": {
       "name": "Iceland 60 (Approx.) Mozzarella Sticks 900g",
@@ -4747,6 +4701,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 75.08620689655173,
      "link": "https://www.iceland.co.uk/p/heinz-tomato-ketchup-1.35kg/14120.html",
      "product": {
       "name": "Heinz Tomato Ketchup 1.35kg",
@@ -4775,6 +4730,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 91.6734,
      "link": "https://www.iceland.co.uk/p/iceland-thick-white-sliced-bread-800g/68905.html",
      "product": {
       "name": "Iceland Thick White Sliced Bread 800g",
@@ -4800,6 +4756,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 401.95259999999996,
      "link": "https://www.iceland.co.uk/p/crucials-chicken-shop-creamy-ranch-500ml/107408.html",
      "product": {
       "name": "Crucials Chicken Shop Creamy Ranch 500ml",
@@ -4827,6 +4784,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 64.7008547008547,
      "link": "https://www.iceland.co.uk/p/iceland-4-beef-grillsteaks-300g/40068.html",
      "product": {
       "name": "Iceland 4 Beef Grillsteaks 300g",
@@ -4854,6 +4812,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 340.0,
      "link": "https://www.iceland.co.uk/p/iceland-large-vine-tomatoes-500g/63121.html",
      "product": {
       "name": "Iceland Large Vine Tomatoes 500g",
@@ -4881,6 +4840,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 30.000000000000004,
      "link": "https://www.iceland.co.uk/p/iceland-carrots-1kg/77082.html",
      "product": {
       "name": "Iceland Carrots 1kg",
@@ -4908,6 +4868,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 879.6969696969699,
      "link": "https://www.iceland.co.uk/p/dale-farm-fresh-whole-milk-5.28-pints%2F3l/3545.html",
      "product": {
       "name": "Dale Farm Fresh Whole Milk 5.28 Pints/3L",
@@ -4915,33 +4876,6 @@
       "size": "3L",
       "price_gbp": 2.35,
       "link": "https://www.iceland.co.uk/p/dale-farm-fresh-whole-milk-5.28-pints%2F3l/3545.html"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "脱脂牛奶",
-     "name_display": "脱脂牛奶",
-     "packs": 1,
-     "pack_size": "2L",
-     "name_en": "Dale Farm Fresh Semi-Skimmed Milk 3.52 Pints 2L",
-     "name_short": "Dale Farm Fresh Semi-Skimmed Milk 3.52 Pints",
-     "brand": "Dale Farm",
-     "unit_price_gbp": 1.65,
-     "line_total_gbp": 1.65,
-     "buy_qty": 2000.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/18"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.iceland.co.uk/p/dale-farm-fresh-semi-skimmed-milk-3.52-pints%2F2l/32024.html",
-     "product": {
-      "name": "Dale Farm Fresh Semi-Skimmed Milk 3.52 Pints 2L",
-      "brand": "Dale Farm",
-      "size": "2L",
-      "price_gbp": 1.65,
-      "link": "https://www.iceland.co.uk/p/dale-farm-fresh-semi-skimmed-milk-3.52-pints%2F2l/32024.html"
      }
     },
     {
@@ -4960,6 +4894,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 31.476,
      "link": "https://www.iceland.co.uk/p/thai-dragon-thai-hot-chilli-sauce-455ml/100483.html",
      "product": {
       "name": "Thai Dragon Thai Hot Chilli Sauce 455ml",
@@ -4987,6 +4922,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 121.48788927335642,
      "link": "https://www.iceland.co.uk/p/iceland-turkey-breast-joint-1.6kg/40713.html",
      "product": {
       "name": "Iceland Turkey Breast Joint 1.6kg",
@@ -5015,6 +4951,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 559.2857142857143,
      "link": "https://www.iceland.co.uk/p/iceland-celery-sticks-250g/53719.html",
      "product": {
       "name": "Iceland Celery Sticks 250g",
@@ -5042,6 +4979,7 @@
      ],
      "note": "耐存，1 包 1000g 可覆盖多次",
      "bean_form": null,
+     "_g_need": 33.87096774193549,
      "link": "https://www.iceland.co.uk/p/iceland-mixed-vegetables-1kg/95388.html",
      "product": {
       "name": "Iceland Mixed Vegetables 1kg",
@@ -5070,6 +5008,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 16.926006,
      "link": "https://www.iceland.co.uk/p/jumbo-chicken-stock-1kg/92994.html",
      "product": {
       "name": "Jumbo Chicken Stock 1kg",
@@ -5095,6 +5034,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 126.52609999999999,
      "link": "https://www.iceland.co.uk/p/iceland-ridiculously-crispy-sweet-potato-fries-600g/59237.html",
      "product": {
       "name": "Iceland Ridiculously Crispy Sweet Potato Fries 600g",
@@ -5122,6 +5062,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 26.468085106382976,
      "link": "https://www.iceland.co.uk/p/meridian-smooth-peanut-butter-palm-oil-free-1kg/107282.html",
      "product": {
       "name": "Meridian Smooth Peanut Butter Palm Oil Free 1Kg",
@@ -5149,6 +5090,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 200.0,
      "link": "https://www.iceland.co.uk/p/philadelphia-protein-low-fat-cottage-cheese-200g/105877.html",
      "product": {
       "name": "Philadelphia Protein Low Fat Cottage Cheese 200g",
@@ -5176,6 +5118,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 8.0,
      "link": "https://www.iceland.co.uk/p/schwartz-ground-cinnamon-39g/62685.html",
      "product": {
       "name": "Schwartz Ground Cinnamon 39g",
@@ -5203,6 +5146,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 12.80952380952381,
      "link": "https://www.iceland.co.uk/p/rodolfi-double-concentrate-tomato-puree-200g/101062.html",
      "product": {
       "name": "Rodolfi Double Concentrate Tomato Puree 200g",
@@ -5228,6 +5172,7 @@
      "used_on": [],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 1.1884057971014492,
      "link": "https://www.iceland.co.uk/p/schwartz-oregano-7g/62673.html",
      "product": {
       "name": "Schwartz Oregano 7g",
@@ -5253,6 +5198,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 1.19,
      "link": "https://www.iceland.co.uk/p/whitworths-granulated-sugar-5kg/57072.html",
      "product": {
       "name": "Whitworths Granulated Sugar 5kg",
@@ -5278,6 +5224,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 49.778400000000005,
      "link": "https://www.iceland.co.uk/p/penfolds-koonunga-hill-shiraz-cabernet-red-wine-750ml/71621.html",
      "product": {
       "name": "Penfolds Koonunga Hill Shiraz Cabernet Red Wine 750ml",
@@ -5303,6 +5250,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.923984272608125,
      "link": "https://www.iceland.co.uk/p/be-ro-plain-flour-1.5kg/100885.html",
      "product": {
       "name": "Be-Ro Plain Flour 1.5kg",
@@ -5314,7 +5262,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 99.94,
+   "total_gbp": 96.64,
    "missing": [
     "藜麦",
     "紫甘蓝",
@@ -5375,11 +5323,11 @@
     "羊肉（代表值，fat7g）",
     "西洋菜"
    ],
-   "coverage": 0.5273,
-   "vs_recommend_gbp": 52.24,
-   "vs_recommend_common_n": 29,
-   "vs_recommend_store_gbp": 99.94,
-   "vs_recommend_rec_gbp": 47.7,
+   "coverage": 0.5094,
+   "vs_recommend_gbp": 53.68,
+   "vs_recommend_common_n": 27,
+   "vs_recommend_store_gbp": 96.64,
+   "vs_recommend_rec_gbp": 42.96,
    "vs_recommend_missing": 28
   },
   "TESCO": {
@@ -5406,6 +5354,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 175.99999999999997,
      "link": "https://www.tesco.com/shop/en-GB/products/297133405",
      "product": {
       "name": "Buchanans Quinoa 250G",
@@ -5413,36 +5362,6 @@
       "size": "250g",
       "price_gbp": 1.9,
       "link": "https://www.tesco.com/shop/en-GB/products/297133405"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "半脱脂奶",
-     "name_display": "半脱脂奶",
-     "packs": 1,
-     "pack_size": "2.272l",
-     "name_en": "Tesco British Semi Skimmed Milk 2.272L, 4 Pints",
-     "name_short": "Tesco Semi Skimmed Milk, 4 Pints",
-     "brand": "TESCO",
-     "unit_price_gbp": 1.75,
-     "line_total_gbp": 1.75,
-     "buy_qty": 2272.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/19",
-      "11/22"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.tesco.com/shop/en-GB/products/254656543",
-     "product": {
-      "name": "Tesco British Semi Skimmed Milk 2.272L, 4 Pints",
-      "brand": "TESCO",
-      "size": "2.272l",
-      "price_gbp": 1.75,
-      "link": "https://www.tesco.com/shop/en-GB/products/254656543"
      }
     },
     {
@@ -5470,6 +5389,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 360.22222222222223,
      "link": "https://www.tesco.com/shop/en-GB/products/265422924",
      "product": {
       "name": "Tesco Mixed Sized Free Range Eggs 15 Pack",
@@ -5501,6 +5421,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 378.6666666666667,
      "link": "https://www.tesco.com/shop/en-GB/products/312695673",
      "product": {
       "name": "Graham's The Family Dairy Protein 25G Strawberry Pack 200G",
@@ -5530,6 +5451,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 580.0,
      "link": "https://www.tesco.com/shop/en-GB/products/292663718",
      "product": {
       "name": "Tesco Baby Cucumbers 200G",
@@ -5558,6 +5480,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.tesco.com/shop/en-GB/products/294070184",
      "product": {
       "name": "Tesco Red Cabbage Each",
@@ -5588,6 +5511,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 50.0,
      "link": "https://www.tesco.com/shop/en-GB/products/278857608",
      "product": {
       "name": "Tranos Greek Feta 200G",
@@ -5616,6 +5540,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 30.0,
      "link": "https://www.tesco.com/shop/en-GB/products/320967265",
      "product": {
       "name": "Tesco Houmous 300g",
@@ -5644,6 +5569,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 93.22222222222223,
      "link": "https://www.tesco.com/shop/en-GB/products/299914475",
      "product": {
       "name": "Creamfields Mozzarella 210G",
@@ -5672,6 +5598,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 138.25396825396828,
      "link": "https://www.tesco.com/shop/en-GB/products/289055728",
      "product": {
       "name": "Tesco Spaghetti Rings In Tomato Sauce 410G",
@@ -5700,6 +5627,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 91.6734,
      "link": "https://www.tesco.com/shop/en-GB/products/299045570",
      "product": {
       "name": "H.W. Nevill's Medium Sliced White Bread 800g",
@@ -5728,6 +5656,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 1498.5,
      "link": "https://www.tesco.com/shop/en-GB/products/313732922",
      "product": {
       "name": "Tesco Asparagus 180G",
@@ -5753,6 +5682,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 401.95259999999996,
      "link": "https://www.tesco.com/shop/en-GB/products/285210436",
      "product": {
       "name": "Tesco British Chicken Legs 1Kg",
@@ -5783,6 +5713,7 @@
      ],
      "note": "干豆泡 8h、煮 40–50min；约 133g 干豆 ≈ 295g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
+     "_g_need": 1768.6666666666667,
      "link": "https://www.tesco.com/shop/en-GB/products/266870898",
      "product": {
       "name": "Compal Black Beans In Tin/Preto 845G",
@@ -5811,6 +5742,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 42.0,
      "link": "https://www.tesco.com/shop/en-GB/products/301596127",
      "product": {
       "name": "Pride Lime Juice 250Ml",
@@ -5838,6 +5770,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 890.5882352941177,
      "link": "https://www.tesco.com/shop/en-GB/products/309456235",
      "product": {
       "name": "Tesco Beef Suet 200G",
@@ -5865,6 +5798,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 132.3,
      "link": "https://www.tesco.com/shop/en-GB/products/299768716",
      "product": {
       "name": "Grower's Harvest Chopped Tomatoes 400G",
@@ -5892,6 +5826,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 214.07407407407408,
      "link": "https://www.tesco.com/shop/en-GB/products/293467615",
      "product": {
       "name": "Tesco Welsh 8 Lamb Chops 550G",
@@ -5919,6 +5854,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 6.93069306930693,
      "link": "https://www.tesco.com/shop/en-GB/products/260691710",
      "product": {
       "name": "Tesco Dijon Mustard 185G",
@@ -5947,6 +5883,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 23.75178,
      "link": "https://www.tesco.com/shop/en-GB/products/254296718",
      "product": {
       "name": "Tesco Balsamic Vinegar Of Modena 250Ml",
@@ -5978,6 +5915,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 3206.4285714285716,
      "link": "https://www.tesco.com/shop/en-GB/products/301219155",
      "product": {
       "name": "Tesco Curly Kale 180G",
@@ -6005,6 +5943,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 340.0,
      "link": "https://www.tesco.com/shop/en-GB/products/300522822",
      "product": {
       "name": "Grower's Harvest Plum Tomatoes 400G",
@@ -6032,6 +5971,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 31.558441558441558,
      "link": "https://www.tesco.com/shop/en-GB/products/305964008",
      "product": {
       "name": "Tesco Perfectly Imperfect Carrots 1.5Kg",
@@ -6059,6 +5999,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 16.833333333333332,
      "link": "https://www.tesco.com/shop/en-GB/products/263190209",
      "product": {
       "name": "Prymat Breadcrumbs 400G",
@@ -6086,6 +6027,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 784.5945945945946,
      "link": "https://www.tesco.com/shop/en-GB/products/254656399",
      "product": {
       "name": "Tesco British Whole Milk 2.272L, 4 Pints",
@@ -6113,6 +6055,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 3.9032815198618307,
      "link": "https://www.tesco.com/shop/en-GB/products/299585229",
      "product": {
       "name": "Tesco Cocoa Powder 250G",
@@ -6140,6 +6083,7 @@
      ],
      "note": "耐存，1 包 500g 可覆盖多次",
      "bean_form": null,
+     "_g_need": 7.184115523465705,
      "link": "https://www.tesco.com/shop/en-GB/products/311792248",
      "product": {
       "name": "Tesco Chia Seeds 500G",
@@ -6168,6 +6112,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 69.44444444444444,
      "link": "https://www.tesco.com/shop/en-GB/products/290361468",
      "product": {
       "name": "Tesco Courgettes 500G (C)",
@@ -6175,33 +6120,6 @@
       "size": "500g",
       "price_gbp": 1.39,
       "link": "https://www.tesco.com/shop/en-GB/products/290361468"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "脱脂牛奶",
-     "name_display": "脱脂牛奶",
-     "packs": 1,
-     "pack_size": "2.272l",
-     "name_en": "Tesco British Semi Skimmed Milk 2.272L, 4 Pints",
-     "name_short": "Tesco Semi Skimmed Milk, 4 Pints",
-     "brand": "TESCO",
-     "unit_price_gbp": 1.75,
-     "line_total_gbp": 1.75,
-     "buy_qty": 2272.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/18"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.tesco.com/shop/en-GB/products/254656543",
-     "product": {
-      "name": "Tesco British Semi Skimmed Milk 2.272L, 4 Pints",
-      "brand": "TESCO",
-      "size": "2.272l",
-      "price_gbp": 1.75,
-      "link": "https://www.tesco.com/shop/en-GB/products/254656543"
      }
     },
     {
@@ -6222,6 +6140,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 48.266666666666666,
      "link": "https://www.tesco.com/shop/en-GB/products/254877454",
      "product": {
       "name": "Tesco Easy Cook Brown Rice 1Kg",
@@ -6247,6 +6166,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 31.476,
      "link": "https://www.tesco.com/shop/en-GB/products/275477434",
      "product": {
       "name": "Tesco Mild Chilli Sauce 500G",
@@ -6274,6 +6194,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 122.33449477351917,
      "link": "https://www.tesco.com/shop/en-GB/products/268368753",
      "product": {
       "name": "Tesco Frozen Large Turkey Breast Crown 2.4-2.8Kg",
@@ -6302,6 +6223,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 252.58064516129033,
      "link": "https://www.tesco.com/shop/en-GB/products/305943990",
      "product": {
       "name": "Tesco Celery Sticks 250G",
@@ -6329,6 +6251,7 @@
      ],
      "note": "耐存，1 包 1000g 可覆盖多次",
      "bean_form": null,
+     "_g_need": 29.5774647887324,
      "link": "https://www.tesco.com/shop/en-GB/products/302282376",
      "product": {
       "name": "Growers Harvest Mixed Vegetables 1Kg",
@@ -6342,13 +6265,13 @@
      "category": "肉类",
      "name": "鸡高汤",
      "name_display": "鸡高汤",
-     "packs": 2,
+     "packs": 1,
      "pack_size": "500ml",
      "name_en": "Potts Chicken Stock 500Ml",
      "name_short": "Potts Chicken Stock",
      "brand": "POTTS",
      "unit_price_gbp": 2.3,
-     "line_total_gbp": 4.6,
+     "line_total_gbp": 2.3,
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
@@ -6357,6 +6280,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 16.926006,
      "link": "https://www.tesco.com/shop/en-GB/products/304380585",
      "product": {
       "name": "Potts Chicken Stock 500Ml",
@@ -6382,6 +6306,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 126.52609999999999,
      "link": "https://www.tesco.com/shop/en-GB/products/310190037",
      "product": {
       "name": "Tesco Sweet Potatoes 1Kg",
@@ -6407,6 +6332,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 18.11111111111111,
      "link": "https://www.tesco.com/shop/en-GB/products/288568895",
      "product": {
       "name": "Mlekovita 18% Fat Sour Cream 400G",
@@ -6432,6 +6358,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 7.777777777777777,
      "link": "https://www.tesco.com/shop/en-GB/products/257482311",
      "product": {
       "name": "Tesco Flat Leaf Parsley 100G",
@@ -6457,6 +6384,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 4.768211920529801,
      "link": "https://www.tesco.com/shop/en-GB/products/304785930",
      "product": {
       "name": "Tesco Fresh Cut Thyme 20G",
@@ -6482,6 +6410,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 2.2394,
      "link": "https://www.tesco.com/shop/en-GB/products/322740478",
      "product": {
       "name": "NEAT Sage Refillable Bottle for Cleaning Sprays 500ml",
@@ -6507,6 +6436,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 4.482352941176471,
      "link": "https://www.tesco.com/shop/en-GB/products/301576497",
      "product": {
       "name": "Boromir Malai Extra Corn Flour 1Kg",
@@ -6534,6 +6464,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 24.536489151873763,
      "link": "https://www.tesco.com/shop/en-GB/products/264769626",
      "product": {
       "name": "Tesco Smooth Peanut Butter 340G",
@@ -6561,6 +6492,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 200.0,
      "link": "https://www.tesco.com/shop/en-GB/products/300543993",
      "product": {
       "name": "Creamfields Low Fat Cottage Cheese 300g",
@@ -6588,6 +6520,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 8.0,
      "link": "https://www.tesco.com/shop/en-GB/products/316308522",
      "product": {
       "name": "Tesco Ground Sweet Cinnamon 36g",
@@ -6615,6 +6548,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 113.4,
      "link": "https://www.tesco.com/shop/en-GB/products/313618678",
      "product": {
       "name": "Tesco British Turkey Breast Mince 2% Fat 500G",
@@ -6642,6 +6576,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 10.7,
      "link": "https://www.tesco.com/shop/en-GB/products/323005553",
      "product": {
       "name": "Surya Green Chilli 300g",
@@ -6670,6 +6605,7 @@
      ],
      "note": "干豆泡 8h、煮 40–50min；约 172g 干豆 ≈ 383g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
+     "_g_need": 167.75,
      "link": "https://www.tesco.com/shop/en-GB/products/317662937",
      "product": {
       "name": "Village White beans 540g",
@@ -6699,6 +6635,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 1153.6363636363635,
      "link": "https://www.tesco.com/shop/en-GB/products/261089443",
      "product": {
       "name": "Tesco Aubergine Each 250G (C)",
@@ -6726,6 +6663,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 19.214285714285715,
      "link": "https://www.tesco.com/shop/en-GB/products/254879475",
      "product": {
       "name": "Tesco Tomato Puree 200G",
@@ -6751,6 +6689,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 172.44791666666669,
      "link": "https://www.tesco.com/shop/en-GB/products/297186866",
      "product": {
       "name": "Acre Lane Lamb Leg Joint 1.0-1.2Kg",
@@ -6776,6 +6715,7 @@
      "used_on": [],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 1.1884057971014492,
      "link": "https://www.tesco.com/shop/en-GB/products/285645987",
      "product": {
       "name": "Schwartz Oregano 6G",
@@ -6801,6 +6741,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 1.19,
      "link": "https://www.tesco.com/shop/en-GB/products/287206934",
      "product": {
       "name": "Silver Spoon Granulated Sugar 5Kg",
@@ -6826,6 +6767,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.tesco.com/shop/en-GB/products/280117722",
      "product": {
       "name": "Vineyards Fruity Red Wine 75Cl",
@@ -6851,6 +6793,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.923984272608125,
      "link": "https://www.tesco.com/shop/en-GB/products/254917759",
      "product": {
       "name": "Tesco Self Raising Flour 1.5Kg",
@@ -6876,6 +6819,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.0,
      "link": "https://www.tesco.com/shop/en-GB/products/304404478",
      "product": {
       "name": "Tesco Fresh Cut Dill 20G",
@@ -6903,6 +6847,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 197.60000000000002,
      "link": "https://www.tesco.com/shop/en-GB/products/266589293",
      "product": {
       "name": "Tesco Watercress 85G (C)",
@@ -6914,7 +6859,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 181.36,
+   "total_gbp": 175.56,
    "missing": [
     "意面南瓜"
    ],
@@ -6922,11 +6867,11 @@
    "unavailable": [
     "意面南瓜"
    ],
-   "coverage": 0.9818,
-   "vs_recommend_gbp": 37.63,
-   "vs_recommend_common_n": 56,
-   "vs_recommend_store_gbp": 181.36,
-   "vs_recommend_rec_gbp": 143.73,
+   "coverage": 0.9811,
+   "vs_recommend_gbp": 36.57,
+   "vs_recommend_common_n": 54,
+   "vs_recommend_store_gbp": 175.56,
+   "vs_recommend_rec_gbp": 138.99,
    "vs_recommend_missing": 1
   },
   "MORRISONS": {
@@ -6937,13 +6882,13 @@
      "category": "主食",
      "name": "藜麦",
      "name_display": "藜麦罐头",
-     "packs": 3,
+     "packs": 1,
      "pack_size": "400g",
      "name_en": "Biona Organic Chilli Con Quinoa (400g)",
      "name_short": "Biona Organic Chilli Con Quinoa (400g)",
      "brand": "Biona",
      "unit_price_gbp": 3.29,
-     "line_total_gbp": 9.87,
+     "line_total_gbp": 3.29,
      "buy_qty": 400.0,
      "buy_unit": "g",
      "used_on": [
@@ -6951,8 +6896,9 @@
       "11/15",
       "11/22"
      ],
-     "note": "耐存，一次买够",
+     "note": "耐存",
      "bean_form": null,
+     "_g_need": 175.99999999999997,
      "link": "https://groceries.morrisons.com/products/300001639",
      "product": {
       "name": "Biona Organic Chilli Con Quinoa (400g)",
@@ -6960,36 +6906,6 @@
       "size": "400g",
       "price_gbp": 3.29,
       "link": "https://groceries.morrisons.com/products/300001639"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "半脱脂奶",
-     "name_display": "半脱脂奶",
-     "packs": 1,
-     "pack_size": "3.408L",
-     "name_en": "Morrisons British Semi Skimmed Milk 6 Pint",
-     "name_short": "Morrisons Semi Skimmed Milk 6 Pint",
-     "brand": "Morrisons",
-     "unit_price_gbp": 2.4,
-     "line_total_gbp": 2.4,
-     "buy_qty": 3408.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/19",
-      "11/22"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://groceries.morrisons.com/products/113240511",
-     "product": {
-      "name": "Morrisons British Semi Skimmed Milk 6 Pint",
-      "brand": "Morrisons",
-      "size": "3.408L",
-      "price_gbp": 2.4,
-      "link": "https://groceries.morrisons.com/products/113240511"
      }
     },
     {
@@ -7017,6 +6933,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://groceries.morrisons.com/products/110250449",
      "product": {
       "name": "Morrisons Medium Free Range Eggs 12 Pack",
@@ -7048,6 +6965,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 41.5204678362573,
      "link": "https://groceries.morrisons.com/products/105933448",
      "product": {
       "name": "Morrisons Strawberry Crisp   500g",
@@ -7077,6 +6995,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://groceries.morrisons.com/products/108413093",
      "product": {
       "name": "Morrisons Whole Cucumber",
@@ -7105,6 +7024,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 240.0,
      "link": "https://groceries.morrisons.com/products/105127243",
      "product": {
       "name": "Morrisons Red Cabbage (440g)",
@@ -7135,6 +7055,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 44.06130268199234,
      "link": "https://groceries.morrisons.com/products/109755706",
      "product": {
       "name": "Morrisons Feta Cubes",
@@ -7163,6 +7084,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 30.0,
      "link": "https://groceries.morrisons.com/products/104263999",
      "product": {
       "name": "Morrisons Classic Houmous 300g",
@@ -7191,6 +7113,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 93.22222222222223,
      "link": "https://groceries.morrisons.com/products/112565655",
      "product": {
       "name": "Morrisons Savers Mozzarella 125g",
@@ -7219,6 +7142,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 146.38655462184875,
      "link": "https://groceries.morrisons.com/products/105491598",
      "product": {
       "name": "Morrisons Spaghetti Loops in Tomato Sauce",
@@ -7247,6 +7171,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 91.6734,
      "link": "https://groceries.morrisons.com/products/106521058",
      "product": {
       "name": "Sharwood's Indian Sides Peshwari Mini Naan Breads 4 Pack",
@@ -7275,6 +7200,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 881.4705882352941,
      "link": "https://groceries.morrisons.com/products/108467331",
      "product": {
       "name": "Morrisons Asparagus ",
@@ -7300,6 +7226,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 401.95259999999996,
      "link": "https://groceries.morrisons.com/products/106793467",
      "product": {
       "name": "Morrisons British Chicken Legs 1.35kg",
@@ -7330,6 +7257,7 @@
      ],
      "note": "干豆泡 8h、煮 40–50min；约 133g 干豆 ≈ 295g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
+     "_g_need": 2306.956521739131,
      "link": "https://groceries.morrisons.com/products/112495108",
      "product": {
       "name": "Old El Paso Mild Black Beans 425g",
@@ -7358,6 +7286,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.0,
      "link": "https://groceries.morrisons.com/products/115709642",
      "product": {
       "name": "Indus Lime Juice ",
@@ -7385,6 +7314,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 2523.3333333333335,
      "link": "https://groceries.morrisons.com/products/109471640",
      "product": {
       "name": "Morrisons British Beef Marrowbone 650g",
@@ -7412,6 +7342,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 132.3,
      "link": "https://groceries.morrisons.com/products/116152081",
      "product": {
       "name": "Indus Chopped Tomatoes 12 x 400g",
@@ -7439,6 +7370,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 175.91304347826087,
      "link": "https://groceries.morrisons.com/products/113711108",
      "product": {
       "name": "Morrisons Lamb Chops 320g",
@@ -7466,6 +7398,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 6.140350877192982,
      "link": "https://groceries.morrisons.com/products/105461946",
      "product": {
       "name": "Morrisons Dijon Mustard 185g",
@@ -7494,6 +7427,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 23.75178,
      "link": "https://groceries.morrisons.com/products/105167288",
      "product": {
       "name": "Morrisons 25% Balsamic Vinegar For Cold Dishes 250ml",
@@ -7525,6 +7459,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 787.5438596491227,
      "link": "https://groceries.morrisons.com/products/112941551",
      "product": {
       "name": "Morrisons British Sliced Kale  150g",
@@ -7552,6 +7487,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 340.0,
      "link": "https://groceries.morrisons.com/products/105415472",
      "product": {
       "name": "Morrisons Peeled Plum Tomatoes (400g)",
@@ -7579,6 +7515,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 30.000000000000004,
      "link": "https://groceries.morrisons.com/products/115195928",
      "product": {
       "name": "Morrisons Wonky Carrots 1.45kg",
@@ -7606,6 +7543,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 16.833333333333332,
      "link": "https://groceries.morrisons.com/products/111768004",
      "product": {
       "name": "Prymat Breadcrumbs",
@@ -7633,6 +7571,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 1612.7777777777776,
      "link": "https://groceries.morrisons.com/products/113240511",
      "product": {
       "name": "Morrisons British Semi Skimmed Milk 6 Pint",
@@ -7660,6 +7599,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 3.9032815198618307,
      "link": "https://groceries.morrisons.com/products/108867896",
      "product": {
       "name": "Dr. Oetker Fine 100% Dark Cocoa Powder",
@@ -7687,6 +7627,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 7.481203007518797,
      "link": "https://groceries.morrisons.com/products/108242175",
      "product": {
       "name": "Natural Selection Whole Chia Seeds",
@@ -7715,6 +7656,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 32.89473684210527,
      "link": "https://groceries.morrisons.com/products/115508998",
      "product": {
       "name": "Morrisons Courgettes",
@@ -7722,33 +7664,6 @@
       "size": "500g",
       "price_gbp": 1.39,
       "link": "https://groceries.morrisons.com/products/115508998"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "脱脂牛奶",
-     "name_display": "脱脂牛奶",
-     "packs": 1,
-     "pack_size": "1L",
-     "name_en": "Morrisons Savers Long Life Skimmed Milk",
-     "name_short": "Morrisons Savers Long Life Skimmed Milk",
-     "brand": "Morrisons",
-     "unit_price_gbp": 0.65,
-     "line_total_gbp": 0.65,
-     "buy_qty": 1000.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/18"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://groceries.morrisons.com/products/104334259",
-     "product": {
-      "name": "Morrisons Savers Long Life Skimmed Milk",
-      "brand": "Morrisons",
-      "size": "1L",
-      "price_gbp": 0.65,
-      "link": "https://groceries.morrisons.com/products/104334259"
      }
     },
     {
@@ -7769,6 +7684,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 48.266666666666666,
      "link": "https://groceries.morrisons.com/products/113550957",
      "product": {
       "name": "Rude Health Organic Brown Rice 1L",
@@ -7794,6 +7710,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 31.476,
      "link": "https://groceries.morrisons.com/products/116184551",
      "product": {
       "name": "Heera Chilli Sauce 1L",
@@ -7821,6 +7738,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 144.48559670781893,
      "link": "https://groceries.morrisons.com/products/115316831",
      "product": {
       "name": "Morrisons British Turkey Breast Steaks 300g",
@@ -7849,6 +7767,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 252.58064516129033,
      "link": "https://groceries.morrisons.com/products/112227648",
      "product": {
       "name": "Morrisons British Celery Sticks 250g",
@@ -7876,6 +7795,7 @@
      ],
      "note": "耐存，1 包 1000g 可覆盖多次",
      "bean_form": null,
+     "_g_need": 35.59322033898305,
      "link": "https://groceries.morrisons.com/products/104898468",
      "product": {
       "name": "Morrisons Savers Mixed Vegetables 1kg",
@@ -7889,13 +7809,13 @@
      "category": "肉类",
      "name": "鸡高汤",
      "name_display": "鸡高汤",
-     "packs": 2,
+     "packs": 1,
      "pack_size": "500ml",
      "name_en": "Potts Chicken Stock Can",
      "name_short": "Potts Chicken Stock Can",
      "brand": "Potts",
      "unit_price_gbp": 2.3,
-     "line_total_gbp": 4.6,
+     "line_total_gbp": 2.3,
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
@@ -7904,6 +7824,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 16.926006,
      "link": "https://groceries.morrisons.com/products/111837911",
      "product": {
       "name": "Potts Chicken Stock Can",
@@ -7929,6 +7850,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 126.52609999999999,
      "link": "https://groceries.morrisons.com/products/108572051",
      "product": {
       "name": "Morrisons Sweet Potatoes  1kg",
@@ -7954,6 +7876,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 18.11111111111111,
      "link": "https://groceries.morrisons.com/products/115371143",
      "product": {
       "name": "Piatnica Sour Cream 18% Fat 200g",
@@ -7979,6 +7902,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 3.3333333333333335,
      "link": "https://groceries.morrisons.com/products/108429378",
      "product": {
       "name": "Morrisons Flat Leaf Parsley 100g",
@@ -8004,6 +7928,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 1.1267605633802817,
      "link": "https://groceries.morrisons.com/products/110419460",
      "product": {
       "name": "Morrisons Fresh Thyme 20g",
@@ -8029,6 +7954,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 2.2394,
      "link": "https://groceries.morrisons.com/products/110419523",
      "product": {
       "name": "Morrisons Fresh Sage   20g",
@@ -8054,6 +7980,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 4.482352941176471,
      "link": "https://groceries.morrisons.com/products/115774022",
      "product": {
       "name": "Morrisons Cornflour 500G",
@@ -8081,6 +8008,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 23.65019011406844,
      "link": "https://groceries.morrisons.com/products/104423104",
      "product": {
       "name": "Morrisons Smooth Peanut Butter",
@@ -8108,6 +8036,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 200.0,
      "link": "https://groceries.morrisons.com/products/113362809",
      "product": {
       "name": "Morrisons Savers Cottage Cheese 300g",
@@ -8135,6 +8064,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 8.0,
      "link": "https://groceries.morrisons.com/products/106625471",
      "product": {
       "name": "Morrisons Ground Cinnamon  ",
@@ -8162,6 +8092,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 113.4,
      "link": "https://groceries.morrisons.com/products/116227426",
      "product": {
       "name": "Morrisons Turkey Mince 4% 500g",
@@ -8189,6 +8120,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 10.7,
      "link": "https://groceries.morrisons.com/products/107809344",
      "product": {
       "name": "Shana Green Chilli 300g",
@@ -8217,6 +8149,7 @@
      ],
      "note": "开罐沥干即用；每次 ~173g，剩约 62g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
      "bean_form": "canned",
+     "_g_need": 141.7605633802817,
      "link": "https://groceries.morrisons.com/products/110428067",
      "product": {
       "name": "Morrisons Cannellini Beans In Water (400g)",
@@ -8246,6 +8179,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://groceries.morrisons.com/products/108392641",
      "product": {
       "name": "Morrisons Purple Aubergine",
@@ -8273,6 +8207,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 18.053691275167786,
      "link": "https://groceries.morrisons.com/products/105809931",
      "product": {
       "name": "Morrisons Tomato Puree (200g)",
@@ -8298,6 +8233,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 178.97297297297297,
      "link": "https://groceries.morrisons.com/products/114018831",
      "product": {
       "name": "Morrisons British Lamb Leg Roast 2.25kg",
@@ -8323,6 +8259,7 @@
      "used_on": [],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 1.1884057971014492,
      "link": "https://groceries.morrisons.com/products/114604152",
      "product": {
       "name": "Morrisons Market Street Fresh Oregano   20g",
@@ -8348,6 +8285,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 1.19,
      "link": "https://groceries.morrisons.com/products/114502236",
      "product": {
       "name": "Tate And Lyle White Granulated Sugar 2kg",
@@ -8373,6 +8311,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 49.778400000000005,
      "link": "https://groceries.morrisons.com/products/114544090",
      "product": {
       "name": "Felix Solis Smooth Red Wine 3L",
@@ -8398,6 +8337,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.923984272608125,
      "link": "https://groceries.morrisons.com/products/107783471",
      "product": {
       "name": "Morrisons Plain Flour   1.5kg",
@@ -8423,6 +8363,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.0,
      "link": "https://groceries.morrisons.com/products/110429650",
      "product": {
       "name": "Morrisons Fresh Dill 20g",
@@ -8450,6 +8391,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 1235.0,
      "link": "https://groceries.morrisons.com/products/112846828",
      "product": {
       "name": "Morrisons Watercress 70g",
@@ -8461,7 +8403,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 207.47,
+   "total_gbp": 195.54,
    "missing": [
     "意面南瓜"
    ],
@@ -8469,11 +8411,11 @@
    "unavailable": [
     "意面南瓜"
    ],
-   "coverage": 0.9818,
-   "vs_recommend_gbp": 63.74,
-   "vs_recommend_common_n": 56,
-   "vs_recommend_store_gbp": 207.47,
-   "vs_recommend_rec_gbp": 143.73,
+   "coverage": 0.9811,
+   "vs_recommend_gbp": 56.55,
+   "vs_recommend_common_n": 54,
+   "vs_recommend_store_gbp": 195.54,
+   "vs_recommend_rec_gbp": 138.99,
    "vs_recommend_missing": 1
   },
   "WAITROSE": {
@@ -8500,6 +8442,7 @@
      ],
      "note": "耐存，1 包 500g 可覆盖多次",
      "bean_form": null,
+     "_g_need": 175.99999999999997,
      "link": "https://www.waitrose.com/ecom/products/waitrose-quinoa/059324-29873-29874",
      "product": {
       "name": "Waitrose Quinoa",
@@ -8507,36 +8450,6 @@
       "size": "500g",
       "price_gbp": 4.25,
       "link": "https://www.waitrose.com/ecom/products/waitrose-quinoa/059324-29873-29874"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "半脱脂奶",
-     "name_display": "半脱脂奶",
-     "packs": 1,
-     "pack_size": "568ml",
-     "name_en": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-     "name_short": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-     "brand": "Waitrose Ltd",
-     "unit_price_gbp": 1.2,
-     "line_total_gbp": 1.2,
-     "buy_qty": 568.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/19",
-      "11/22"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443",
-     "product": {
-      "name": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-      "brand": "Waitrose Ltd",
-      "size": "568ml",
-      "price_gbp": 1.2,
-      "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443"
      }
     },
     {
@@ -8564,6 +8477,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.waitrose.com/ecom/products/waitrose-fr-mixed-size-eggs-british-blacktail/082926-42143-42144",
      "product": {
       "name": "Waitrose FR Mixed Size Eggs British Blacktail",
@@ -8595,6 +8509,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 465.57377049180326,
      "link": "https://www.waitrose.com/ecom/products/essential-frozen-strawberries/832754-679283-679284",
      "product": {
       "name": "Essential Frozen Strawberries",
@@ -8624,6 +8539,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 463.99999999999994,
      "link": "https://www.waitrose.com/ecom/products/waitrose-baby-cucumber/279693-826926-826927",
      "product": {
       "name": "Waitrose Baby Cucumber",
@@ -8652,6 +8568,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 240.0,
      "link": "https://www.waitrose.com/ecom/products/waitrose-winter-red-cabbage/466861-807871-807872",
      "product": {
       "name": "Waitrose Winter Red Cabbage",
@@ -8682,6 +8599,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 47.13114754098361,
      "link": "https://www.waitrose.com/ecom/products/waitrose-greek-feta-pdo-cubes/396305-1-2",
      "product": {
       "name": "Waitrose Greek Feta PDO Cubes",
@@ -8710,6 +8628,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 30.0,
      "link": "https://www.waitrose.com/ecom/products/essential-reduced-fat-houmous/046201-22747-22748",
      "product": {
       "name": "Essential Reduced Fat Houmous",
@@ -8738,6 +8657,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 97.55813953488374,
      "link": "https://www.waitrose.com/ecom/products/waitrose-italian-mozzarella-strength-1/670304-705290-705291",
      "product": {
       "name": "Waitrose Italian Mozzarella Strength 1",
@@ -8766,6 +8686,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 71.39344262295083,
      "link": "https://www.waitrose.com/ecom/products/essential-tomato-ketchup/932714-847900-847901",
      "product": {
       "name": "Essential Tomato Ketchup",
@@ -8794,6 +8715,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 91.6734,
      "link": "https://www.waitrose.com/ecom/products/essential-strong-white-bread-flour/006217-2734-2735",
      "product": {
       "name": "Essential Strong White Bread Flour",
@@ -8822,6 +8744,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 1498.5,
      "link": "https://www.waitrose.com/ecom/products/waitrose-asparagus/085482-43550-43551",
      "product": {
       "name": "Waitrose Asparagus",
@@ -8847,6 +8770,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 401.95259999999996,
      "link": "https://www.waitrose.com/ecom/products/essential-frozen-chicken-livers/599951-85053-85054",
      "product": {
       "name": "Essential Frozen Chicken Livers",
@@ -8877,6 +8801,7 @@
      ],
      "note": "干豆泡 8h、煮 40–50min；约 133g 干豆 ≈ 295g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
+     "_g_need": 2306.956521739131,
      "link": "https://www.waitrose.com/ecom/products/old-el-paso-mild-black-beans/885072-368534-368535",
      "product": {
       "name": "Old El Paso Mild Black Beans",
@@ -8905,6 +8830,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 24.705882352941178,
      "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-lime-juice/496746-801116-801117",
      "product": {
       "name": "Cooks' Ingredients Lime Juice",
@@ -8932,6 +8858,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 75.7,
      "link": "https://www.waitrose.com/ecom/products/beefsteak-club-malbec-mendoza-argentina/442960-579772-579773",
      "product": {
       "name": "Beefsteak Club Malbec Mendoza Argentina",
@@ -8959,6 +8886,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 132.3,
      "link": "https://www.waitrose.com/ecom/products/waitrose-finely-chopped-tomatoes/955227-1-2",
      "product": {
       "name": "Waitrose Finely Chopped Tomatoes",
@@ -8986,6 +8914,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.waitrose.com/ecom/products/waitrose-2-british-lamb-loin-chops/088583-45471-45472",
      "product": {
       "name": "Waitrose 2 British Lamb Loin Chops",
@@ -9013,6 +8942,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 6.363636363636363,
      "link": "https://www.waitrose.com/ecom/products/maille-original-dijon-mustard/640230-90937-90938",
      "product": {
       "name": "Maille Original Dijon Mustard",
@@ -9041,6 +8971,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 23.75178,
      "link": "https://www.waitrose.com/ecom/products/essential-balsamic-vinegar-of-modena/007184-3299-3300",
      "product": {
       "name": "Essential Balsamic Vinegar of Modena",
@@ -9072,6 +9003,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 3206.4285714285716,
      "link": "https://www.waitrose.com/ecom/products/waitrose-whole-leaf-kale/686452-97503-97504",
      "product": {
       "name": "Waitrose Whole Leaf Kale",
@@ -9099,6 +9031,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 340.0,
      "link": "https://www.waitrose.com/ecom/products/mutti-peeled-whole-plum-tomatoes/878789-805847-805848",
      "product": {
       "name": "Mutti Peeled Whole Plum Tomatoes",
@@ -9126,6 +9059,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 31.558441558441558,
      "link": "https://www.waitrose.com/ecom/products/waitrose-british-wonderfully-wonky-carrots/443824-486918-486919",
      "product": {
       "name": "Waitrose British Wonderfully Wonky Carrots",
@@ -9153,6 +9087,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 16.833333333333332,
      "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-soft-white-bread-crumbs/600851-85187-85188",
      "product": {
       "name": "Cook's ingredients Soft White Bread Crumbs",
@@ -9166,13 +9101,13 @@
      "category": "乳制品",
      "name": "牛奶",
      "name_display": "牛奶",
-     "packs": 2,
+     "packs": 3,
      "pack_size": "568ml",
      "name_en": "Duchy Organic Semi-Skimmed Milk 1 Pint",
      "name_short": "Duchy Organic Semi-Skimmed Milk 1 Pint",
      "brand": "Waitrose Ltd",
      "unit_price_gbp": 1.2,
-     "line_total_gbp": 2.4,
+     "line_total_gbp": 3.6,
      "buy_qty": 568.0,
      "buy_unit": "g",
      "used_on": [
@@ -9180,6 +9115,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 1612.7777777777776,
      "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443",
      "product": {
       "name": "Duchy Organic Semi-Skimmed Milk 1 Pint",
@@ -9207,6 +9143,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 3.9032815198618307,
      "link": "https://www.waitrose.com/ecom/products/menier-100-cocoa-powder/803154-730004-730005",
      "product": {
       "name": "Menier 100% Cocoa Powder",
@@ -9234,6 +9171,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 7.158273381294963,
      "link": "https://www.waitrose.com/ecom/products/waitrose-chia-seeds/633030-780097-780098",
      "product": {
       "name": "Waitrose Chia Seeds",
@@ -9262,6 +9200,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 54.34782608695653,
      "link": "https://www.waitrose.com/ecom/products/essential-courgettes/574915-81449-81450",
      "product": {
       "name": "Essential Courgettes",
@@ -9269,33 +9208,6 @@
       "size": "600g",
       "price_gbp": 1.9,
       "link": "https://www.waitrose.com/ecom/products/essential-courgettes/574915-81449-81450"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "脱脂牛奶",
-     "name_display": "脱脂牛奶",
-     "packs": 1,
-     "pack_size": "568ml",
-     "name_en": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-     "name_short": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-     "brand": "Waitrose Ltd",
-     "unit_price_gbp": 1.2,
-     "line_total_gbp": 1.2,
-     "buy_qty": 568.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/18"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443",
-     "product": {
-      "name": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-      "brand": "Waitrose Ltd",
-      "size": "568ml",
-      "price_gbp": 1.2,
-      "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443"
      }
     },
     {
@@ -9316,6 +9228,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 48.266666666666666,
      "link": "https://www.waitrose.com/ecom/products/clearspring-organic-brown-rice-miso/521421-140160-140161",
      "product": {
       "name": "Clearspring Organic Brown Rice Miso",
@@ -9341,6 +9254,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 31.476,
      "link": "https://www.waitrose.com/ecom/products/linghams-chilli-sauce/087766-44882-44883",
      "product": {
       "name": "Lingham's Chilli Sauce",
@@ -9369,6 +9283,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.waitrose.com/ecom/products/duchy-organic-celery/085556-43648-43649",
      "product": {
       "name": "Duchy Organic Celery",
@@ -9396,6 +9311,7 @@
      ],
      "note": "耐存，1 包 1000g 可覆盖多次",
      "bean_form": null,
+     "_g_need": 29.5774647887324,
      "link": "https://www.waitrose.com/ecom/products/essential-mixed-vegetables/982076-844368-844369",
      "product": {
       "name": "Essential Mixed Vegetables",
@@ -9409,13 +9325,13 @@
      "category": "肉类",
      "name": "鸡高汤",
      "name_display": "鸡高汤",
-     "packs": 2,
+     "packs": 1,
      "pack_size": "500ml",
      "name_en": "Oxo Signature Chicken Stock",
      "name_short": "Oxo Signature Chicken Stock",
      "brand": "Oxo",
      "unit_price_gbp": 2.0,
-     "line_total_gbp": 4.0,
+     "line_total_gbp": 2.0,
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
@@ -9424,6 +9340,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 16.926006,
      "link": "https://www.waitrose.com/ecom/products/oxo-signature-chicken-stock/328672-1-2",
      "product": {
       "name": "Oxo Signature Chicken Stock",
@@ -9449,6 +9366,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 126.52609999999999,
      "link": "https://www.waitrose.com/ecom/products/waitrose-evangeline-sweet-potatoes/755292-752519-752520",
      "product": {
       "name": "Waitrose Evangeline Sweet Potatoes",
@@ -9474,6 +9392,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 12.538461538461537,
      "link": "https://www.waitrose.com/ecom/products/the-good-crisp-co-sour-cream/915099-1-2",
      "product": {
       "name": "The Good Crisp Co Sour Cream",
@@ -9499,6 +9418,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 3.3333333333333335,
      "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-flat-leaf-parsley/045953-22629-22630",
      "product": {
       "name": "Cooks' Ingredients Flat Leaf Parsley",
@@ -9524,6 +9444,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 1.1267605633802817,
      "link": "https://www.waitrose.com/ecom/products/bart-thyme/863652-810488-810489",
      "product": {
       "name": "Bart Thyme",
@@ -9549,6 +9470,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 2.2394,
      "link": "https://www.waitrose.com/ecom/products/bart-sage/900452-833093-833094",
      "product": {
       "name": "Bart Sage",
@@ -9574,6 +9496,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 4.482352941176471,
      "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-cornflour/556126-78638-78639",
      "product": {
       "name": "Cooks' Ingredients Cornflour",
@@ -9601,6 +9524,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 23.83141762452107,
      "link": "https://www.waitrose.com/ecom/products/essential-smooth-peanut-butter/894225-781087-781088",
      "product": {
       "name": "Essential Smooth Peanut Butter",
@@ -9628,6 +9552,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 200.0,
      "link": "https://www.waitrose.com/ecom/products/all-things-cottage-cheese-natural/982541-1-2",
      "product": {
       "name": "All Things Cottage Cheese Natural",
@@ -9655,6 +9580,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 8.0,
      "link": "https://www.waitrose.com/ecom/products/bart-ground-cinnamon/415484-810362-810363",
      "product": {
       "name": "Bart Ground Cinnamon",
@@ -9682,6 +9608,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 10.7,
      "link": "https://www.waitrose.com/ecom/products/ottolenghi-green-chilli-shatta/246069-1-2",
      "product": {
       "name": "Ottolenghi Green Chilli Shatta",
@@ -9710,6 +9637,7 @@
      ],
      "note": "干豆泡 8h、煮 40–50min；约 172g 干豆 ≈ 383g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
+     "_g_need": 133.3112582781457,
      "link": "https://www.waitrose.com/ecom/products/duchy-organic-white-beans/940756-1-2",
      "product": {
       "name": "Duchy Organic White Beans",
@@ -9739,6 +9667,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 422.99999999999994,
      "link": "https://www.waitrose.com/ecom/products/yarden-greek-style-aubergines/887096-229675-229676",
      "product": {
       "name": "Yarden Greek Style Aubergines",
@@ -9766,6 +9695,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 18.551724137931032,
      "link": "https://www.waitrose.com/ecom/products/waitrose-italian-tomato-puree-double-concentrated/473857-828056-828057",
      "product": {
       "name": "Waitrose Italian Tomato Purée Double Concentrated",
@@ -9791,6 +9721,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 178.97297297297297,
      "link": "https://www.waitrose.com/ecom/products/kriek-boon-cherry-lambic-belgium/776684-662345-662346",
      "product": {
       "name": "Kriek Boon Cherry Lambic Belgium",
@@ -9816,6 +9747,7 @@
      "used_on": [],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 3.106060606060606,
      "link": "https://www.waitrose.com/ecom/products/cooks-ingredients-oregano/803128-785142-785143",
      "product": {
       "name": "Cooks' Ingredients Oregano",
@@ -9841,6 +9773,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 1.19,
      "link": "https://www.waitrose.com/ecom/products/silver-spoon-granulated-sugar/008109-3846-3847",
      "product": {
       "name": "Silver Spoon Granulated Sugar",
@@ -9866,6 +9799,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 49.778400000000005,
      "link": "https://www.waitrose.com/ecom/products/waitrose-mulled-red-wine/992264-1-2",
      "product": {
       "name": "Waitrose Mulled Red Wine",
@@ -9873,31 +9807,6 @@
       "size": "2.25L",
       "price_gbp": 16.5,
       "link": "https://www.waitrose.com/ecom/products/waitrose-mulled-red-wine/992264-1-2"
-     }
-    },
-    {
-     "category": "主食",
-     "name": "中筋面粉",
-     "name_display": "中筋面粉",
-     "packs": 1,
-     "pack_size": "1.5kg",
-     "name_en": "Essential Strong White Bread Flour",
-     "name_short": "Essential Strong White Bread Flour",
-     "brand": "Waitrose Ltd",
-     "unit_price_gbp": 1.45,
-     "line_total_gbp": 1.45,
-     "buy_qty": 1500.0,
-     "buy_unit": "g",
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.waitrose.com/ecom/products/essential-strong-white-bread-flour/006217-2734-2735",
-     "product": {
-      "name": "Essential Strong White Bread Flour",
-      "brand": "Waitrose Ltd",
-      "size": "1.5kg",
-      "price_gbp": 1.45,
-      "link": "https://www.waitrose.com/ecom/products/essential-strong-white-bread-flour/006217-2734-2735"
      }
     },
     {
@@ -9916,6 +9825,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.0,
      "link": "https://www.waitrose.com/ecom/products/bart-dill/228727-833001-833002",
      "product": {
       "name": "Bart Dill",
@@ -9943,6 +9853,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 197.60000000000002,
      "link": "https://www.waitrose.com/ecom/products/waitrose-watercress/090899-46817-46818",
      "product": {
       "name": "Waitrose Watercress",
@@ -9954,7 +9865,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 224.76,
+   "total_gbp": 220.11,
    "missing": [
     "意面南瓜",
     "火鸡胸脯肉",
@@ -9966,12 +9877,12 @@
     "火鸡胸脯肉",
     "火鸡肉末"
    ],
-   "coverage": 0.9455,
-   "vs_recommend_gbp": 92.28,
-   "vs_recommend_common_n": 54,
-   "vs_recommend_store_gbp": 224.76,
-   "vs_recommend_rec_gbp": 132.48,
-   "vs_recommend_missing": 3
+   "coverage": 0.9434,
+   "vs_recommend_gbp": 93.07,
+   "vs_recommend_common_n": 51,
+   "vs_recommend_store_gbp": 220.11,
+   "vs_recommend_rec_gbp": 127.04,
+   "vs_recommend_missing": 4
   },
   "MARKS & SPENCER": {
    "store": "MARKS & SPENCER",
@@ -9981,13 +9892,13 @@
      "category": "主食",
      "name": "藜麦",
      "name_display": "藜麦",
-     "packs": 2,
+     "packs": 1,
      "pack_size": "500 g",
      "name_en": "Quinoa",
      "name_short": "Quinoa",
      "brand": NaN,
      "unit_price_gbp": 4.25,
-     "line_total_gbp": 8.5,
+     "line_total_gbp": 4.25,
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
@@ -9995,8 +9906,9 @@
       "11/15",
       "11/22"
      ],
-     "note": "耐存，一次买够",
+     "note": "耐存，1 包 500g 可覆盖多次",
      "bean_form": null,
+     "_g_need": 175.99999999999997,
      "link": "https://www.marksandspencer.com/food/quinoa/p/fdp60604291",
      "product": {
       "name": "Quinoa",
@@ -10004,36 +9916,6 @@
       "size": "500 g",
       "price_gbp": 4.25,
       "link": "https://www.marksandspencer.com/food/quinoa/p/fdp60604291"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "半脱脂奶",
-     "name_display": "半脱脂奶",
-     "packs": 1,
-     "pack_size": "3.408 l",
-     "name_en": "Semi Skimmed Milk",
-     "name_short": "Semi Skimmed Milk",
-     "brand": NaN,
-     "unit_price_gbp": 2.4,
-     "line_total_gbp": 2.4,
-     "buy_qty": 3408.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/19",
-      "11/22"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727",
-     "product": {
-      "name": "Semi Skimmed Milk",
-      "brand": NaN,
-      "size": "3.408 l",
-      "price_gbp": 2.4,
-      "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727"
      }
     },
     {
@@ -10061,6 +9943,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 360.22222222222223,
      "link": "https://www.marksandspencer.com/food/british-free-range-mixed-size-eggs/p/fdp60065487",
      "product": {
       "name": "British Free Range Mixed Size Eggs",
@@ -10092,6 +9975,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 465.57377049180326,
      "link": "https://www.marksandspencer.com/food/frozen-strawberries/p/fdp60712445",
      "product": {
       "name": "Frozen Strawberries",
@@ -10121,6 +10005,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 580.0,
      "link": "https://www.marksandspencer.com/food/whole-cucumber/p/fdp21007311",
      "product": {
       "name": "Whole Cucumber",
@@ -10149,6 +10034,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 240.0,
      "link": "https://www.marksandspencer.com/food/organic-red-cabbage/p/fdp60038615",
      "product": {
       "name": "Organic Red Cabbage",
@@ -10179,6 +10065,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 47.13114754098361,
      "link": "https://www.marksandspencer.com/food/greek-feta/p/fdp60048027",
      "product": {
       "name": "Greek Feta",
@@ -10207,6 +10094,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 30.0,
      "link": "https://www.marksandspencer.com/food/classic-houmous/p/fdp60524944",
      "product": {
       "name": "Classic Houmous",
@@ -10235,6 +10123,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 246.76470588235296,
      "link": "https://www.marksandspencer.com/food/tomato-and-mozzarella-pasta-bake/p/fdp60715016",
      "product": {
       "name": "Tomato and Mozzarella Pasta Bake",
@@ -10263,6 +10152,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 76.74008810572688,
      "link": "https://www.marksandspencer.com/food/reduced-sugar-tomato-ketchup/p/fdp60443964",
      "product": {
       "name": "Reduced Sugar Tomato Ketchup",
@@ -10291,6 +10181,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 91.6734,
      "link": "https://www.marksandspencer.com/food/strong-white-bread-flour/p/fdp60498666",
      "product": {
       "name": "Strong White Bread Flour",
@@ -10319,6 +10210,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 1498.5,
      "link": "https://www.marksandspencer.com/food/asparagus-spears/p/fdp21003589",
      "product": {
       "name": "Asparagus Spears",
@@ -10344,6 +10236,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 401.95259999999996,
      "link": "https://www.marksandspencer.com/food/chicken-leg-portions/p/fdp60584836",
      "product": {
       "name": "Chicken Leg Portions",
@@ -10374,6 +10267,7 @@
      ],
      "note": "干豆泡 8h、煮 40–50min；约 133g 干豆 ≈ 295g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
+     "_g_need": 1560.5882352941178,
      "link": "https://www.marksandspencer.com/food/black-beans/p/fdp60917584",
      "product": {
       "name": "Black Beans",
@@ -10402,6 +10296,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 35.0,
      "link": "https://www.marksandspencer.com/food/lime-juice/p/fdp60450993",
      "product": {
       "name": "Lime Juice",
@@ -10429,6 +10324,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 75.7,
      "link": "https://www.marksandspencer.com/food/loose-beef-tomatoes/p/fdp60263436",
      "product": {
       "name": "Loose Beef Tomatoes",
@@ -10456,6 +10352,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 132.3,
      "link": "https://www.marksandspencer.com/food/organic-italian-chopped-tomatoes/p/fdp60465728",
      "product": {
       "name": "Organic Italian Chopped Tomatoes",
@@ -10483,6 +10380,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 175.91304347826087,
      "link": "https://www.marksandspencer.com/food/british-lamb-loin-chops/p/fdp60004365",
      "product": {
       "name": "British Lamb Loin Chops",
@@ -10510,6 +10408,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.0,
      "link": "https://www.marksandspencer.com/food/dijon-mustard/p/fdp21041825",
      "product": {
       "name": "Dijon Mustard",
@@ -10538,6 +10437,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 23.75178,
      "link": "https://www.marksandspencer.com/food/balsamic-vinegar-of-modena/p/fdp60010187",
      "product": {
       "name": "Balsamic Vinegar of Modena",
@@ -10569,6 +10469,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 3206.4285714285716,
      "link": "https://www.marksandspencer.com/food/cavolo-nero-kale/p/fdp60075308",
      "product": {
       "name": "Cavolo Nero Kale",
@@ -10596,6 +10497,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 340.0,
      "link": "https://www.marksandspencer.com/food/italian-plum-tomatoes/p/fdp60465696",
      "product": {
       "name": "Italian Plum Tomatoes",
@@ -10623,6 +10525,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 31.558441558441558,
      "link": "https://www.marksandspencer.com/food/carrots/p/fdp21007228",
      "product": {
       "name": "Carrots",
@@ -10650,6 +10553,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 16.833333333333332,
      "link": "https://www.marksandspencer.com/food/white-breadcrumbs/p/fdp20059014",
      "product": {
       "name": "White Breadcrumbs",
@@ -10677,6 +10581,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 1612.7777777777776,
      "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727",
      "product": {
       "name": "Semi Skimmed Milk",
@@ -10704,6 +10609,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 3.9032815198618307,
      "link": "https://www.marksandspencer.com/food/cocoa-powder/p/fdp20059295",
      "product": {
       "name": "Cocoa Powder",
@@ -10731,6 +10637,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 8.883928571428571,
      "link": "https://www.marksandspencer.com/food/chia-seeds/p/fdp60724097",
      "product": {
       "name": "Chia Seeds",
@@ -10759,6 +10666,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
+     "_g_need": 69.44444444444444,
      "link": "https://www.marksandspencer.com/food/courgettes/p/fdp21007251",
      "product": {
       "name": "Courgettes",
@@ -10766,33 +10674,6 @@
       "size": "325 g",
       "price_gbp": 1.45,
       "link": "https://www.marksandspencer.com/food/courgettes/p/fdp21007251"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "脱脂牛奶",
-     "name_display": "脱脂牛奶",
-     "packs": 1,
-     "pack_size": "3.408 l",
-     "name_en": "Semi Skimmed Milk",
-     "name_short": "Semi Skimmed Milk",
-     "brand": NaN,
-     "unit_price_gbp": 2.4,
-     "line_total_gbp": 2.4,
-     "buy_qty": 3408.0,
-     "buy_unit": "g",
-     "used_on": [
-      "11/18"
-     ],
-     "note": "",
-     "bean_form": null,
-     "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727",
-     "product": {
-      "name": "Semi Skimmed Milk",
-      "brand": NaN,
-      "size": "3.408 l",
-      "price_gbp": 2.4,
-      "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727"
      }
     },
     {
@@ -10811,6 +10692,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 31.476,
      "link": "https://www.marksandspencer.com/food/family-chilli-sauce/p/fdp60722692",
      "product": {
       "name": "Family Chilli Sauce",
@@ -10839,6 +10721,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 869.9999999999999,
      "link": "https://www.marksandspencer.com/food/celery/p/fdp21006249",
      "product": {
       "name": "Celery",
@@ -10866,6 +10749,7 @@
      ],
      "note": "耐存，1 包 750g 可覆盖多次",
      "bean_form": null,
+     "_g_need": 26.923076923076927,
      "link": "https://www.marksandspencer.com/food/organic-mixed-vegetables/p/fdp60479464",
      "product": {
       "name": "Organic Mixed Vegetables",
@@ -10879,13 +10763,13 @@
      "category": "肉类",
      "name": "鸡高汤",
      "name_display": "鸡高汤",
-     "packs": 2,
+     "packs": 1,
      "pack_size": "500 g",
      "name_en": "Chicken Stock",
      "name_short": "Chicken Stock",
      "brand": NaN,
      "unit_price_gbp": 3.4,
-     "line_total_gbp": 6.8,
+     "line_total_gbp": 3.4,
      "buy_qty": 500.0,
      "buy_unit": "g",
      "used_on": [
@@ -10894,6 +10778,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 16.926006,
      "link": "https://www.marksandspencer.com/food/chicken-stock/p/fdp60536097",
      "product": {
       "name": "Chicken Stock",
@@ -10919,6 +10804,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 126.52609999999999,
      "link": "https://www.marksandspencer.com/food/sweet-potatoes/p/fdp21003650",
      "product": {
       "name": "Sweet Potatoes",
@@ -10944,6 +10830,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 15.8252427184466,
      "link": "https://www.marksandspencer.com/food/reduced-fat-sour-cream-and-chive/p/fdp60149536",
      "product": {
       "name": "Reduced Fat Sour Cream and Chive",
@@ -10969,6 +10856,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 3.3333333333333335,
      "link": "https://www.marksandspencer.com/food/british-flat-leaf-parsley/p/fdp60018168",
      "product": {
       "name": "British Flat Leaf Parsley",
@@ -10994,6 +10882,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 2.9387755102040813,
      "link": "https://www.marksandspencer.com/food/british-thyme/p/fdp60053507",
      "product": {
       "name": "British Thyme",
@@ -11019,6 +10908,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 2.2394,
      "link": "https://www.marksandspencer.com/food/sage/p/fdp60028168",
      "product": {
       "name": "Sage",
@@ -11044,6 +10934,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 4.482352941176471,
      "link": "https://www.marksandspencer.com/food/cornflour/p/fdp20059293",
      "product": {
       "name": "Cornflour",
@@ -11071,6 +10962,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 23.471698113207545,
      "link": "https://www.marksandspencer.com/food/crunchy-peanut-butter/p/fdp60014919",
      "product": {
       "name": "Crunchy Peanut Butter",
@@ -11098,6 +10990,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 8.0,
      "link": "https://www.marksandspencer.com/food/ground-cinnamon/p/fdp20059581",
      "product": {
       "name": "Ground Cinnamon",
@@ -11126,6 +11019,7 @@
      ],
      "note": "干豆泡 8h、煮 40–50min；约 172g 干豆 ≈ 383g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
+     "_g_need": 179.73214285714286,
      "link": "https://www.marksandspencer.com/food/cannellini-beans/p/fdp60932170",
      "product": {
       "name": "Cannellini Beans",
@@ -11155,6 +11049,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 1153.6363636363635,
      "link": "https://www.marksandspencer.com/food/aubergine/p/fdp21007099",
      "product": {
       "name": "Aubergine",
@@ -11182,6 +11077,7 @@
      ],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 21.86991869918699,
      "link": "https://www.marksandspencer.com/food/italian-tomato-puree/p/fdp60015701",
      "product": {
       "name": "Italian Tomato Puree",
@@ -11207,6 +11103,7 @@
      "used_on": [],
      "note": "耐存",
      "bean_form": null,
+     "_g_need": 1.1884057971014492,
      "link": "https://www.marksandspencer.com/food/oregano/p/fdp60480927",
      "product": {
       "name": "Oregano",
@@ -11232,6 +11129,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 1.19,
      "link": "https://www.marksandspencer.com/food/granulated-sugar/p/fdp60575240",
      "product": {
       "name": "Granulated Sugar",
@@ -11257,6 +11155,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 0.0,
      "link": "https://www.marksandspencer.com/food/vinca-organic-red-wine/p/fdp61218458",
      "product": {
       "name": "Vinca Organic Red Wine",
@@ -11282,6 +11181,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.923984272608125,
      "link": "https://www.marksandspencer.com/food/self-raising-flour/p/fdp60498524",
      "product": {
       "name": "Self Raising Flour",
@@ -11307,6 +11207,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
+     "_g_need": 5.0,
      "link": "https://www.marksandspencer.com/food/dill/p/fdp21003383",
      "product": {
       "name": "Dill",
@@ -11334,6 +11235,7 @@
      ],
      "note": "",
      "bean_form": null,
+     "_g_need": 197.60000000000002,
      "link": "https://www.marksandspencer.com/food/watercress/p/fdp21007241",
      "product": {
       "name": "Watercress",
@@ -11345,7 +11247,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 183.4,
+   "total_gbp": 170.95,
    "missing": [
     "意面南瓜",
     "糙米",
@@ -11365,11 +11267,11 @@
     "青辣椒",
     "羊肉（代表值，fat7g）"
    ],
-   "coverage": 0.8727,
-   "vs_recommend_gbp": 70.71,
-   "vs_recommend_common_n": 50,
-   "vs_recommend_store_gbp": 183.4,
-   "vs_recommend_rec_gbp": 112.69,
+   "coverage": 0.8679,
+   "vs_recommend_gbp": 63.0,
+   "vs_recommend_common_n": 48,
+   "vs_recommend_store_gbp": 170.95,
+   "vs_recommend_rec_gbp": 107.95,
    "vs_recommend_missing": 7
   }
  },
@@ -11385,11 +11287,11 @@
   "coverage": 1.0,
   "missing": [],
   "pantry_missing": [],
-  "cost": 145.63,
+  "cost": 140.89,
   "per_store": {
    "SAINSBURYS": {
-    "subtotal": 58.78,
-    "count": 28,
+    "subtotal": 58.09,
+    "count": 27,
     "names": [
      "黄瓜",
      "鹰嘴豆泥",
@@ -11402,7 +11304,6 @@
      "第戎芥末",
      "黑醋",
      "胡萝卜",
-     "脱脂牛奶",
      "糙米",
      "火鸡胸脯肉",
      "芹菜",
@@ -11439,6 +11340,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 0.0,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-spaghetti-squash-taste-the-difference",
       "product": {
        "name": "Sainsbury's Spaghetti Squash, Taste the Difference",
@@ -11468,6 +11370,7 @@
       ],
       "note": "易坏，分批",
       "bean_form": null,
+      "_g_need": 0.0,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-small-whole-cucumber",
       "product": {
        "name": "Sainsbury's Small Whole Cucumber",
@@ -11496,6 +11399,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 30.0,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-houmous-200g",
       "product": {
        "name": "Sainsbury's Houmous 200g",
@@ -11524,6 +11428,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 164.33962264150946,
       "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-spaghetti-rings-in-tomato-sauce-400g",
       "product": {
        "name": "Stamford Street Co. Spaghetti Rings in Tomato Sauce 400g",
@@ -11552,6 +11457,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 91.6734,
       "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-medium-wholemeal-bread-800g",
       "product": {
        "name": "Stamford Street Co. Medium Wholemeal Bread 800g",
@@ -11580,6 +11486,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 1577.3684210526317,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-250g-asparagus-spears",
       "product": {
        "name": "Sainsbury's 250g Asparagus Spears",
@@ -11607,6 +11514,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 0.0,
       "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-beef-tomato-single-taste-the-difference",
       "product": {
        "name": "Sainsbury's Beef Tomato Single, Taste the Difference",
@@ -11634,6 +11542,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 187.3148148148148,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-or-new-zealand-lamb-chops-170g",
       "product": {
        "name": "Sainsbury's British or New Zealand Lamb Chops 170g",
@@ -11661,6 +11570,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 6.93069306930693,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-dijon-mustard-185g",
       "product": {
        "name": "Sainsbury's Dijon Mustard 185g",
@@ -11689,6 +11599,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 23.75178,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-balsamic-vinegar-of-modena-2-leaf-250ml",
       "product": {
        "name": "Sainsbury's Balsamic Vinegar of Modena 2 Leaf 250ml",
@@ -11716,6 +11627,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 33.28767123287671,
       "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-carrots-1kg",
       "product": {
        "name": "Stamford Street Co. Carrots 1kg",
@@ -11723,33 +11635,6 @@
        "size": "1kg",
        "price_gbp": 0.65,
        "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-carrots-1kg"
-      }
-     },
-     {
-      "category": "乳制品",
-      "name": "脱脂牛奶",
-      "name_display": "脱脂牛奶",
-      "packs": 1,
-      "pack_size": "1L",
-      "name_en": "Dairy Pride UHT Skimmed Milk 1L",
-      "name_short": "Dairy Pride UHT Skimmed Milk",
-      "brand": "Sainsbury's",
-      "unit_price_gbp": 0.69,
-      "line_total_gbp": 0.69,
-      "buy_qty": 1000.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/18"
-      ],
-      "note": "",
-      "bean_form": null,
-      "link": "https://www.sainsburys.co.uk/groceries/product/dairy-pride-uht-skimmed-milk-1l",
-      "product": {
-       "name": "Dairy Pride UHT Skimmed Milk 1L",
-       "brand": "Sainsbury's",
-       "size": "1L",
-       "price_gbp": 0.69,
-       "link": "https://www.sainsburys.co.uk/groceries/product/dairy-pride-uht-skimmed-milk-1l"
       }
      },
      {
@@ -11770,6 +11655,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 48.266666666666666,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-brown-rice-500g",
       "product": {
        "name": "Sainsbury's Brown Rice 500g",
@@ -11797,6 +11683,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 111.46031746031746,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-turkey-breast-steaks-600g",
       "product": {
        "name": "Sainsbury's British Turkey Breast Steaks 600g",
@@ -11825,6 +11712,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 0.0,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-celery",
       "product": {
        "name": "Sainsbury's Celery",
@@ -11852,6 +11740,7 @@
       ],
       "note": "耐存，1 包 1000g 可覆盖多次",
       "bean_form": null,
+      "_g_need": 42.00000000000001,
       "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-mixed-vegetables-1kg",
       "product": {
        "name": "Stamford Street Mixed Vegetables 1kg",
@@ -11877,6 +11766,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 45.91549295774648,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-sour-cream-280g",
       "product": {
        "name": "Sainsbury's Sour Cream 280g",
@@ -11902,6 +11792,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 3.3333333333333335,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-fresh-packed-flat-leaf-parsley-100g",
       "product": {
        "name": "Sainsbury's Fresh Packed Flat Leaf Parsley 100g",
@@ -11927,6 +11818,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 2.2394,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-fresh-packed-sage-20g",
       "product": {
        "name": "Sainsbury's Fresh Packed Sage 20g",
@@ -11954,6 +11846,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 8.0,
       "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-ground-cinnamon-38g",
       "product": {
        "name": "Stamford Street Co. Ground Cinnamon 38g",
@@ -11981,6 +11874,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 113.4,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-7-fat-fresh-british-turkey-mince-750g",
       "product": {
        "name": "Sainsbury's 7% Fat Fresh British Turkey Mince 750g",
@@ -12008,6 +11902,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 0.0,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-green-chillies-65g",
       "product": {
        "name": "Sainsbury's Green Chillies 65g",
@@ -12036,6 +11931,7 @@
       ],
       "note": "开罐沥干即用；每次 ~173g，剩约 62g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
       "bean_form": "canned",
+      "_g_need": 151.3533834586466,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-cannellini-beans-in-water-400g-235g",
       "product": {
        "name": "Sainsbury's Cannellini Beans In Water 400g (235g*)",
@@ -12065,6 +11961,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 517.9591836734693,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-baby-aubergines-200g",
       "product": {
        "name": "Sainsbury's Baby Aubergines 200g",
@@ -12092,6 +11989,7 @@
       ],
       "note": "耐存",
       "bean_form": null,
+      "_g_need": 14.232804232804233,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-tomato-puree-double-concentrate-200g",
       "product": {
        "name": "Sainsbury's Tomato Puree, Double Concentrate 200g",
@@ -12117,6 +12015,7 @@
       "used_on": [],
       "note": "耐存",
       "bean_form": null,
+      "_g_need": 8.45360824742268,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-fresh-oregano-20g",
       "product": {
        "name": "Sainsbury's Fresh Oregano 20g",
@@ -12142,6 +12041,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 0.0,
       "link": "https://www.sainsburys.co.uk/groceries/product/wild-valley-red-wine-75cl",
       "product": {
        "name": "Wild Valley Red Wine 75cl",
@@ -12167,6 +12067,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 5.923984272608125,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-self-raising-flour-1-5kg",
       "product": {
        "name": "Sainsbury's Self Raising Flour 1.5kg",
@@ -12179,11 +12080,11 @@
     ]
    },
    "TESCO": {
-    "subtotal": 86.85,
-    "count": 29,
+    "subtotal": 82.8,
+    "count": 28,
     "names": [
      "藜麦",
-     "半脱脂奶",
+     "牛奶",
      "鸡蛋",
      "草莓",
      "紫甘蓝",
@@ -12196,7 +12097,6 @@
      "羽衣甘蓝",
      "罗马番茄",
      "面包糠",
-     "牛奶",
      "可可粉",
      "奇亚籽",
      "西葫芦",
@@ -12233,6 +12133,7 @@
       ],
       "note": "耐存",
       "bean_form": null,
+      "_g_need": 175.99999999999997,
       "link": "https://www.tesco.com/shop/en-GB/products/297133405",
       "product": {
        "name": "Buchanans Quinoa 250G",
@@ -12240,36 +12141,6 @@
        "size": "250g",
        "price_gbp": 1.9,
        "link": "https://www.tesco.com/shop/en-GB/products/297133405"
-      }
-     },
-     {
-      "category": "乳制品",
-      "name": "半脱脂奶",
-      "name_display": "半脱脂奶",
-      "packs": 1,
-      "pack_size": "2.272l",
-      "name_en": "Tesco British Semi Skimmed Milk 2.272L, 4 Pints",
-      "name_short": "Tesco Semi Skimmed Milk, 4 Pints",
-      "brand": "TESCO",
-      "unit_price_gbp": 1.75,
-      "line_total_gbp": 1.75,
-      "buy_qty": 2272.0,
-      "buy_unit": "g",
-      "used_on": [
-       "11/08",
-       "11/15",
-       "11/19",
-       "11/22"
-      ],
-      "note": "",
-      "bean_form": null,
-      "link": "https://www.tesco.com/shop/en-GB/products/254656543",
-      "product": {
-       "name": "Tesco British Semi Skimmed Milk 2.272L, 4 Pints",
-       "brand": "TESCO",
-       "size": "2.272l",
-       "price_gbp": 1.75,
-       "link": "https://www.tesco.com/shop/en-GB/products/254656543"
       }
      },
      {
@@ -12297,6 +12168,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 360.22222222222223,
       "link": "https://www.tesco.com/shop/en-GB/products/265422924",
       "product": {
        "name": "Tesco Mixed Sized Free Range Eggs 15 Pack",
@@ -12328,6 +12200,7 @@
       ],
       "note": "易坏，分批",
       "bean_form": null,
+      "_g_need": 378.6666666666667,
       "link": "https://www.tesco.com/shop/en-GB/products/312695673",
       "product": {
        "name": "Graham's The Family Dairy Protein 25G Strawberry Pack 200G",
@@ -12356,6 +12229,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 0.0,
       "link": "https://www.tesco.com/shop/en-GB/products/294070184",
       "product": {
        "name": "Tesco Red Cabbage Each",
@@ -12386,6 +12260,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 50.0,
       "link": "https://www.tesco.com/shop/en-GB/products/278857608",
       "product": {
        "name": "Tranos Greek Feta 200G",
@@ -12414,6 +12289,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 93.22222222222223,
       "link": "https://www.tesco.com/shop/en-GB/products/299914475",
       "product": {
        "name": "Creamfields Mozzarella 210G",
@@ -12439,6 +12315,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 401.95259999999996,
       "link": "https://www.tesco.com/shop/en-GB/products/285210436",
       "product": {
        "name": "Tesco British Chicken Legs 1Kg",
@@ -12469,6 +12346,7 @@
       ],
       "note": "干豆泡 8h、煮 40–50min；约 133g 干豆 ≈ 295g 煮后（餐单按煮后量计）。",
       "bean_form": "dry",
+      "_g_need": 1768.6666666666667,
       "link": "https://www.tesco.com/shop/en-GB/products/266870898",
       "product": {
        "name": "Compal Black Beans In Tin/Preto 845G",
@@ -12497,6 +12375,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 42.0,
       "link": "https://www.tesco.com/shop/en-GB/products/301596127",
       "product": {
        "name": "Pride Lime Juice 250Ml",
@@ -12524,6 +12403,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 132.3,
       "link": "https://www.tesco.com/shop/en-GB/products/299768716",
       "product": {
        "name": "Grower's Harvest Chopped Tomatoes 400G",
@@ -12555,6 +12435,7 @@
       ],
       "note": "易坏，分批",
       "bean_form": null,
+      "_g_need": 3206.4285714285716,
       "link": "https://www.tesco.com/shop/en-GB/products/301219155",
       "product": {
        "name": "Tesco Curly Kale 180G",
@@ -12582,6 +12463,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 340.0,
       "link": "https://www.tesco.com/shop/en-GB/products/300522822",
       "product": {
        "name": "Grower's Harvest Plum Tomatoes 400G",
@@ -12609,6 +12491,7 @@
       ],
       "note": "耐存",
       "bean_form": null,
+      "_g_need": 16.833333333333332,
       "link": "https://www.tesco.com/shop/en-GB/products/263190209",
       "product": {
        "name": "Prymat Breadcrumbs 400G",
@@ -12636,6 +12519,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 784.5945945945946,
       "link": "https://www.tesco.com/shop/en-GB/products/254656399",
       "product": {
        "name": "Tesco British Whole Milk 2.272L, 4 Pints",
@@ -12663,6 +12547,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 3.9032815198618307,
       "link": "https://www.tesco.com/shop/en-GB/products/299585229",
       "product": {
        "name": "Tesco Cocoa Powder 250G",
@@ -12690,6 +12575,7 @@
       ],
       "note": "耐存，1 包 500g 可覆盖多次",
       "bean_form": null,
+      "_g_need": 7.184115523465705,
       "link": "https://www.tesco.com/shop/en-GB/products/311792248",
       "product": {
        "name": "Tesco Chia Seeds 500G",
@@ -12718,6 +12604,7 @@
       ],
       "note": "易坏，分批",
       "bean_form": null,
+      "_g_need": 69.44444444444444,
       "link": "https://www.tesco.com/shop/en-GB/products/290361468",
       "product": {
        "name": "Tesco Courgettes 500G (C)",
@@ -12743,6 +12630,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 31.476,
       "link": "https://www.tesco.com/shop/en-GB/products/275477434",
       "product": {
        "name": "Tesco Mild Chilli Sauce 500G",
@@ -12756,13 +12644,13 @@
       "category": "肉类",
       "name": "鸡高汤",
       "name_display": "鸡高汤",
-      "packs": 2,
+      "packs": 1,
       "pack_size": "500ml",
       "name_en": "Potts Chicken Stock 500Ml",
       "name_short": "Potts Chicken Stock",
       "brand": "POTTS",
       "unit_price_gbp": 2.3,
-      "line_total_gbp": 4.6,
+      "line_total_gbp": 2.3,
       "buy_qty": 500.0,
       "buy_unit": "g",
       "used_on": [
@@ -12771,6 +12659,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 16.926006,
       "link": "https://www.tesco.com/shop/en-GB/products/304380585",
       "product": {
        "name": "Potts Chicken Stock 500Ml",
@@ -12796,6 +12685,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 126.52609999999999,
       "link": "https://www.tesco.com/shop/en-GB/products/310190037",
       "product": {
        "name": "Tesco Sweet Potatoes 1Kg",
@@ -12821,6 +12711,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 4.768211920529801,
       "link": "https://www.tesco.com/shop/en-GB/products/304785930",
       "product": {
        "name": "Tesco Fresh Cut Thyme 20G",
@@ -12846,6 +12737,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 4.482352941176471,
       "link": "https://www.tesco.com/shop/en-GB/products/301576497",
       "product": {
        "name": "Boromir Malai Extra Corn Flour 1Kg",
@@ -12873,6 +12765,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 24.536489151873763,
       "link": "https://www.tesco.com/shop/en-GB/products/264769626",
       "product": {
        "name": "Tesco Smooth Peanut Butter 340G",
@@ -12900,6 +12793,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 200.0,
       "link": "https://www.tesco.com/shop/en-GB/products/300543993",
       "product": {
        "name": "Creamfields Low Fat Cottage Cheese 300g",
@@ -12925,6 +12819,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 172.44791666666669,
       "link": "https://www.tesco.com/shop/en-GB/products/297186866",
       "product": {
        "name": "Acre Lane Lamb Leg Joint 1.0-1.2Kg",
@@ -12950,6 +12845,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 1.19,
       "link": "https://www.tesco.com/shop/en-GB/products/287206934",
       "product": {
        "name": "Silver Spoon Granulated Sugar 5Kg",
@@ -12975,6 +12871,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
+      "_g_need": 5.0,
       "link": "https://www.tesco.com/shop/en-GB/products/304404478",
       "product": {
        "name": "Tesco Fresh Cut Dill 20G",
@@ -13002,6 +12899,7 @@
       ],
       "note": "",
       "bean_form": null,
+      "_g_need": 197.60000000000002,
       "link": "https://www.tesco.com/shop/en-GB/products/266589293",
       "product": {
        "name": "Tesco Watercress 85G (C)",
@@ -13014,7 +12912,7 @@
     ]
    }
   },
-  "combined_total_gbp": 145.63
+  "combined_total_gbp": 140.89
  },
  "only_at": {
   "意面南瓜": "Sainsbury's"
@@ -17054,107 +16952,6 @@
    }
   },
   {
-   "name": "脱脂牛奶",
-   "name_display": "脱脂牛奶",
-   "category": "乳制品",
-   "stores": {
-    "ALDI": {
-     "price": 2.4,
-     "pack_g": 3408.0,
-     "size": "3.408 l",
-     "per100_gbp": 0.0704,
-     "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
-     "product_name": "Semi Skimmed Milk 1.7% Fat",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 0.69,
-     "pack_g": 1000.0,
-     "size": "1L",
-     "per100_gbp": 0.069,
-     "link": "https://www.sainsburys.co.uk/groceries/product/dairy-pride-uht-skimmed-milk-1l",
-     "product_name": "Dairy Pride UHT Skimmed Milk 1L",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 1.65,
-     "pack_g": 2000.0,
-     "size": "2L",
-     "per100_gbp": 0.0825,
-     "link": "https://www.iceland.co.uk/p/dale-farm-fresh-semi-skimmed-milk-3.52-pints%2F2l/32024.html",
-     "product_name": "Dale Farm Fresh Semi-Skimmed Milk 3.52 Pints 2L",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.75,
-     "pack_g": 2272.0,
-     "size": "2.272l",
-     "per100_gbp": 0.077,
-     "link": "https://www.tesco.com/shop/en-GB/products/254656543",
-     "product_name": "Tesco British Semi Skimmed Milk 2.272L, 4 Pints",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 0.65,
-     "pack_g": 1000.0,
-     "size": "1L",
-     "per100_gbp": 0.065,
-     "link": "https://groceries.morrisons.com/products/104334259",
-     "product_name": "Morrisons Savers Long Life Skimmed Milk",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.2,
-     "pack_g": 568.0,
-     "size": "568ml",
-     "per100_gbp": 0.2113,
-     "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443",
-     "product_name": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "MARKS & SPENCER": {
-     "price": 2.4,
-     "pack_g": 3408.0,
-     "size": "3.408 l",
-     "per100_gbp": 0.0704,
-     "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727",
-     "product_name": "Semi Skimmed Milk",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "MORRISONS",
-   "cheapest_label": "Morrisons",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.1463,
-   "diff_pct": 2.2508,
-   "spread_ratio": 3.25,
-   "suspect": true,
-   "sizes_g": {
-    "ALDI": 3408.0,
-    "SAINSBURYS": 1000.0,
-    "ICELAND": 2000.0,
-    "TESCO": 2272.0,
-    "MORRISONS": 1000.0,
-    "WAITROSE": 568.0,
-    "MARKS & SPENCER": 3408.0
-   }
-  },
-  {
    "name": "红薯",
    "name_display": "红薯",
    "category": "蔬菜",
@@ -17330,107 +17127,6 @@
     "MORRISONS": 400.0,
     "WAITROSE": 200.0,
     "MARKS & SPENCER": 250.0
-   }
-  },
-  {
-   "name": "半脱脂奶",
-   "name_display": "半脱脂奶",
-   "category": "乳制品",
-   "stores": {
-    "ALDI": {
-     "price": 2.4,
-     "pack_g": 3408.0,
-     "size": "3.408 l",
-     "per100_gbp": 0.0704,
-     "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
-     "product_name": "Semi Skimmed Milk 1.7% Fat",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 2.55,
-     "pack_g": 3408.0,
-     "size": "3.408L (6 pints)",
-     "per100_gbp": 0.0748,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-semi-skimmed-milk-3-4l-6-pint",
-     "product_name": "Sainsbury's British Semi Skimmed Milk 3.4L (6 pint)",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 1.65,
-     "pack_g": 2000.0,
-     "size": "2L",
-     "per100_gbp": 0.0825,
-     "link": "https://www.iceland.co.uk/p/dale-farm-fresh-semi-skimmed-milk-3.52-pints%2F2l/32024.html",
-     "product_name": "Dale Farm Fresh Semi-Skimmed Milk 3.52 Pints 2L",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.75,
-     "pack_g": 2272.0,
-     "size": "2.272l",
-     "per100_gbp": 0.077,
-     "link": "https://www.tesco.com/shop/en-GB/products/254656543",
-     "product_name": "Tesco British Semi Skimmed Milk 2.272L, 4 Pints",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 2.4,
-     "pack_g": 3408.0,
-     "size": "3.408L",
-     "per100_gbp": 0.0704,
-     "link": "https://groceries.morrisons.com/products/113240511",
-     "product_name": "Morrisons British Semi Skimmed Milk 6 Pint",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.2,
-     "pack_g": 568.0,
-     "size": "568ml",
-     "per100_gbp": 0.2113,
-     "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443",
-     "product_name": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "MARKS & SPENCER": {
-     "price": 2.4,
-     "pack_g": 3408.0,
-     "size": "3.408 l",
-     "per100_gbp": 0.0704,
-     "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727",
-     "product_name": "Semi Skimmed Milk",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.1409,
-   "diff_pct": 2.0014,
-   "spread_ratio": 3.0,
-   "suspect": true,
-   "sizes_g": {
-    "ALDI": 3408.0,
-    "SAINSBURYS": 3408.0,
-    "ICELAND": 2000.0,
-    "TESCO": 2272.0,
-    "MORRISONS": 3408.0,
-    "WAITROSE": 568.0,
-    "MARKS & SPENCER": 3408.0
    }
   },
   {
