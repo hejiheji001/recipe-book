@@ -536,13 +536,10 @@ th{color:#777;font-weight:600;font-size:12px}
 <script>
 (function(){
   function openExt(url){
-    // iOS 独立 PWA：navigator.share 可把链接交给系统，选 Safari 打开
-    if (navigator.share) {
-      navigator.share({url:url}).catch(function(){ window.open(url,'_blank','noopener'); });
-      return;
-    }
-    var w = window.open(url, '_blank', 'noopener,noreferrer');
-    if (!w) location.href = url;
+    var w = null;
+    try { w = window.open(url, '_blank'); } catch (err) { w = null; }
+    if (w) { try { w.opener = null; } catch (err) {} return; }
+    location.href = url;   // 真被拦截时才同窗口打开
   }
   document.addEventListener('click', function(e){
     var a = e.target.closest && e.target.closest('a[data-ext]');
