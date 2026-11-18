@@ -836,6 +836,26 @@ th{color:#777;font-weight:600;font-size:12px}
 </script>
 <script>
 (function(){
+  function setMy(s){
+    var bodies = document.querySelectorAll('.mybody');
+    for(var i=0;i<bodies.length;i++){ bodies[i].classList.toggle('on', bodies[i].getAttribute('data-mystore')===s); }
+    var links = document.querySelectorAll('.mypick a');
+    for(var j=0;j<links.length;j++){ links[j].classList.toggle('on', links[j].getAttribute('data-mystore')===s); }
+  }
+  document.addEventListener('click', function(e){
+    var a = e.target && e.target.closest ? e.target.closest('.mypick a') : null;
+    if(!a) return; e.preventDefault();
+    setMy(a.getAttribute('data-mystore'));
+  });
+  function init(){
+    var first = document.querySelector('.mypick a'); if(!first) return;
+    setMy(first.getAttribute('data-mystore'));
+  }
+  if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', init); } else { init(); }
+})();
+</script>
+<script>
+(function(){
   function openExt(url){
     var w = null;
     try { w = window.open(url, '_blank'); } catch (err) { w = null; }
