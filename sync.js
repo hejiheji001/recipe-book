@@ -31,7 +31,9 @@
     { key: 'rb_stock', suffix: '_stock', wrap: false, week: false, mergeKeys: true },
     { key: 'rb_lists', suffix: '_orders', wrap: true, week: false },
     { key: 'rb_prints', suffix: '_prints', wrap: true, week: false },
-    { key: 'rb_shop', suffix: '_shop-fresh', wrap: false, week: true, mergeKeys: true }
+    { key: 'rb_shop', suffix: '_shop-fresh', wrap: false, week: true, mergeKeys: true },
+    // 商品图识别结果待确认队列：离线端写入，网页读出来给人核对后才进库存
+    { key: 'rb_pending', suffix: '_pending', wrap: false, week: false }
   ];
 
   var GATE_KEY = 'rb_gate';
