@@ -1,40 +1,25 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-18T21:58:07",
- "quantity_basis": "单人 5 天份 · 11/17 一次买齐",
+ "generated": "2026-11-18T23:11:54",
+ "quantity_basis": "单人 1 天份 · 11/19 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
- "buy_date": "11/17",
+ "buy_date": "11/19",
  "shop_plan": {
-  "buy_date": "11/17",
-  "span_days": 5,
+  "buy_date": "11/19",
+  "span_days": 1,
   "leafy": [],
   "mid": [
    {
     "name": "紫甘蓝",
     "shelf": "中·保鲜5-7天",
     "days": [
-     "11/15"
+     "11/16"
     ],
-    "last_idx": -2
-   },
-   {
-    "name": "葡萄番茄",
-    "shelf": "中·保鲜5-7天",
-    "days": [],
-    "last_idx": -1
+    "last_idx": -3
    }
   ],
-  "hardy": [
-   {
-    "name": "羽衣甘蓝",
-    "shelf": "根茎·耐放7天+",
-    "days": [
-     "11/08"
-    ],
-    "last_idx": -9
-   }
-  ],
+  "hardy": [],
   "leafy_conflicts": []
  },
  "columns": [
@@ -86,11 +71,11 @@
  "default_store": "ALDI",
  "stores": [
   "ALDI",
-  "ICELAND",
-  "MARKS & SPENCER",
   "TESCO",
   "SAINSBURYS",
   "MORRISONS",
+  "ICELAND",
+  "MARKS & SPENCER",
   "WAITROSE"
  ],
  "store_labels": {
@@ -109,37 +94,31 @@
  "items": [
   {
    "category": "主食",
-   "name": "藜麦",
-   "name_display": "藜麦罐头",
-   "packs": 2,
-   "pack_size": "300g",
-   "name_en": "Sainsbury's Quinoa 300g",
-   "name_short": "Sainsbury's Quinoa",
+   "name": "法棍",
+   "name_display": "法棍",
+   "packs": 1,
+   "pack_size": "400g",
+   "name_en": "Sainsbury's Crusty White Baguette",
+   "name_short": "Sainsbury's Crusty White Baguette",
    "brand": "Sainsbury's",
-   "unit_price_gbp": 3.1,
-   "line_total_gbp": 6.2,
-   "buy_qty": 600.0,
+   "unit_price_gbp": 1.35,
+   "line_total_gbp": 1.35,
+   "buy_qty": 400.0,
    "buy_unit": "g",
-   "_pack_g": 300.0,
-   "used_on": [
-    "11/08",
-    "11/15",
-    "11/17",
-    "11/19",
-    "11/20"
-   ],
-   "note": "耐存，一次买够（ALDI 没有，去 Sainsbury's 买）",
+   "_pack_g": 400.0,
+   "used_on": [],
+   "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
-   "_g_need": 351.9316239316239,
-   "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g",
+   "_g_need": 73.20388349514563,
+   "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-crusty-white-baguette",
    "zone": "室温",
    "aisle": 3,
    "product": {
-    "name": "Sainsbury's Quinoa 300g",
+    "name": "Sainsbury's Crusty White Baguette",
     "brand": "Sainsbury's",
-    "size": "300g",
-    "price_gbp": 3.1,
-    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g"
+    "size": "400g",
+    "price_gbp": 1.35,
+    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-crusty-white-baguette"
    }
   },
   {
@@ -174,68 +153,6 @@
    }
   },
   {
-   "category": "豆制品",
-   "name": "鹰嘴豆泥",
-   "name_display": "鹰嘴豆泥",
-   "packs": 1,
-   "pack_size": "200 g",
-   "name_en": "Houmous",
-   "name_short": "Houmous",
-   "brand": "THE DELI",
-   "unit_price_gbp": 0.95,
-   "line_total_gbp": 0.95,
-   "buy_qty": 200.0,
-   "buy_unit": "g",
-   "_pack_g": 200.0,
-   "used_on": [
-    "11/15"
-   ],
-   "note": "",
-   "bean_form": null,
-   "_g_need": 0.0,
-   "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
-   "zone": "室温",
-   "aisle": 3,
-   "product": {
-    "name": "Houmous",
-    "brand": "THE DELI",
-    "size": "200 g",
-    "price_gbp": 0.95,
-    "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001"
-   }
-  },
-  {
-   "category": "豆制品",
-   "name": "黑豆",
-   "name_display": "黑豆罐头",
-   "packs": 1,
-   "pack_size": "400 g",
-   "name_en": "Tinned Black Beans",
-   "name_short": "Tinned Black Beans",
-   "brand": "FOUR SEASONS",
-   "unit_price_gbp": 0.45,
-   "line_total_gbp": 0.45,
-   "buy_qty": 400.0,
-   "buy_unit": "g",
-   "_pack_g": 400.0,
-   "used_on": [
-    "11/17"
-   ],
-   "note": "开罐沥干即用；每次 ~139g，剩约 101g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
-   "bean_form": "canned",
-   "_g_need": 138.86111111111111,
-   "link": "https://www.aldi.co.uk/product/four-seasons-tinned-black-beans-000000000627180001",
-   "zone": "室温",
-   "aisle": 3,
-   "product": {
-    "name": "Tinned Black Beans",
-    "brand": "FOUR SEASONS",
-    "size": "400 g",
-    "price_gbp": 0.45,
-    "link": "https://www.aldi.co.uk/product/four-seasons-tinned-black-beans-000000000627180001"
-   }
-  },
-  {
    "category": "调料",
    "name": "番茄酱",
    "name_display": "番茄酱",
@@ -254,7 +171,7 @@
    ],
    "note": "",
    "bean_form": null,
-   "_g_need": 0.0,
+   "_g_need": 3.2203389830508473,
    "link": "https://www.aldi.co.uk/product/bramwells-tomato-ketchup-000000000000575453",
    "zone": "室温",
    "aisle": 4,
@@ -264,35 +181,6 @@
     "size": "550 g",
     "price_gbp": 0.89,
     "link": "https://www.aldi.co.uk/product/bramwells-tomato-ketchup-000000000000575453"
-   }
-  },
-  {
-   "category": "调料",
-   "name": "黑醋",
-   "name_display": "黑醋",
-   "packs": 1,
-   "pack_size": "500 ml",
-   "name_en": "Balsamic Vinegar of Modena",
-   "name_short": "Balsamic Vinegar of Modena",
-   "brand": "THE DELI",
-   "unit_price_gbp": 1.49,
-   "line_total_gbp": 1.49,
-   "buy_qty": 500.0,
-   "buy_unit": "g",
-   "_pack_g": 500.0,
-   "used_on": [],
-   "note": "",
-   "bean_form": null,
-   "_g_need": 8.6898,
-   "link": "https://www.aldi.co.uk/product/the-deli-balsamic-vinegar-of-modena-000000000000335643",
-   "zone": "室温",
-   "aisle": 4,
-   "product": {
-    "name": "Balsamic Vinegar of Modena",
-    "brand": "THE DELI",
-    "size": "500 ml",
-    "price_gbp": 1.49,
-    "link": "https://www.aldi.co.uk/product/the-deli-balsamic-vinegar-of-modena-000000000000335643"
    }
   },
   {
@@ -309,7 +197,9 @@
    "buy_qty": 6.0,
    "buy_unit": "个",
    "_pack_g": 6.0,
-   "used_on": [],
+   "used_on": [
+    "11/15"
+   ],
    "note": "",
    "bean_form": null,
    "_g_need": 0.0,
@@ -341,11 +231,12 @@
    "used_on": [
     "11/08",
     "11/15",
-    "11/16"
+    "11/16",
+    "11/18"
    ],
    "note": "易坏，分批",
    "bean_form": null,
-   "_g_need": 144.9295774647887,
+   "_g_need": 0.0,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
    "zone": "冷藏",
    "aisle": 1,
@@ -355,35 +246,6 @@
     "size": "600 g",
     "price_gbp": 2.99,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
-   }
-  },
-  {
-   "category": "水果",
-   "name": "青柠",
-   "name_display": "青柠",
-   "packs": 1,
-   "pack_size": "2gram",
-   "name_en": "Sainsbury's Makrut Lime Leaves 2g",
-   "name_short": "Sainsbury's Makrut Lime Leaves",
-   "brand": "Sainsbury's",
-   "unit_price_gbp": 1.15,
-   "line_total_gbp": 1.15,
-   "buy_qty": "",
-   "buy_unit": "",
-   "_pack_g": null,
-   "used_on": [],
-   "note": "（ALDI 没有，去 Sainsbury's 买）",
-   "bean_form": null,
-   "_g_need": 0.0,
-   "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-makrut-lime-leaves-2g",
-   "zone": "冷藏",
-   "aisle": 1,
-   "product": {
-    "name": "Sainsbury's Makrut Lime Leaves 2g",
-    "brand": "Sainsbury's",
-    "size": "2gram",
-    "price_gbp": 1.15,
-    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-makrut-lime-leaves-2g"
    }
   },
   {
@@ -401,7 +263,7 @@
    "buy_unit": "g",
    "_pack_g": 440.0,
    "used_on": [
-    "11/15"
+    "11/16"
    ],
    "note": "",
    "bean_form": null,
@@ -415,99 +277,6 @@
     "size": "440 g",
     "price_gbp": 1.19,
     "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515"
-   }
-  },
-  {
-   "category": "蔬菜",
-   "name": "羽衣甘蓝",
-   "name_display": "羽衣甘蓝",
-   "packs": 1,
-   "pack_size": "200 g",
-   "name_en": "Scottish Shredded Kale",
-   "name_short": "Shredded Kale",
-   "brand": "NATURE'S PICK",
-   "unit_price_gbp": 0.89,
-   "line_total_gbp": 0.89,
-   "buy_qty": 200.0,
-   "buy_unit": "g",
-   "_pack_g": 200.0,
-   "used_on": [
-    "11/08"
-   ],
-   "note": "易坏，分批",
-   "bean_form": null,
-   "_g_need": 74.91228070175437,
-   "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
-   "zone": "冷藏",
-   "aisle": 1,
-   "product": {
-    "name": "Scottish Shredded Kale",
-    "brand": "NATURE'S PICK",
-    "size": "200 g",
-    "price_gbp": 0.89,
-    "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
-   }
-  },
-  {
-   "category": "蔬菜",
-   "name": "葡萄番茄",
-   "name_display": "葡萄番茄",
-   "packs": 1,
-   "pack_size": "250 g",
-   "name_en": "Baby Plum Tomatoes",
-   "name_short": "Baby Plum Tomatoes",
-   "brand": "EVERYDAY ESSENTIALS",
-   "unit_price_gbp": 0.62,
-   "line_total_gbp": 0.62,
-   "buy_qty": 250.0,
-   "buy_unit": "g",
-   "_pack_g": 250.0,
-   "used_on": [],
-   "note": "",
-   "bean_form": null,
-   "_g_need": 132.44975,
-   "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259",
-   "zone": "冷藏",
-   "aisle": 1,
-   "product": {
-    "name": "Baby Plum Tomatoes",
-    "brand": "EVERYDAY ESSENTIALS",
-    "size": "250 g",
-    "price_gbp": 0.62,
-    "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259"
-   }
-  },
-  {
-   "category": "乳制品",
-   "name": "牛奶",
-   "name_display": "牛奶",
-   "packs": 1,
-   "pack_size": "3.408 l",
-   "name_en": "Semi Skimmed Milk 1.7% Fat",
-   "name_short": "Semi Skimmed Milk 1.7% Fat",
-   "brand": "COWBELLE",
-   "unit_price_gbp": 2.4,
-   "line_total_gbp": 2.4,
-   "buy_qty": 3408.0,
-   "buy_unit": "g",
-   "_pack_g": 3408.0,
-   "used_on": [
-    "11/16",
-    "11/19",
-    "11/21"
-   ],
-   "note": "",
-   "bean_form": null,
-   "_g_need": 365.88235294117646,
-   "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
-   "zone": "冷藏",
-   "aisle": 2,
-   "product": {
-    "name": "Semi Skimmed Milk 1.7% Fat",
-    "brand": "COWBELLE",
-    "size": "3.408 l",
-    "price_gbp": 2.4,
-    "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713"
    }
   },
   {
@@ -529,7 +298,7 @@
    ],
    "note": "",
    "bean_form": null,
-   "_g_need": 222.76500000000001,
+   "_g_need": 292.215,
    "link": "https://www.aldi.co.uk/product/everyday-essentials-low-fat-cottage-cheese-000000000000416217",
    "zone": "冷藏",
    "aisle": 2,
@@ -556,8 +325,7 @@
    "buy_unit": "g",
    "_pack_g": 200.0,
    "used_on": [
-    "11/08",
-    "11/15"
+    "11/08"
    ],
    "note": "",
    "bean_form": null,
@@ -592,7 +360,7 @@
    ],
    "note": "",
    "bean_form": null,
-   "_g_need": 0.0,
+   "_g_need": 22.0,
    "link": "https://www.aldi.co.uk/product/everyday-essentials-classic-mozzarella-000000000283052001",
    "zone": "冷藏",
    "aisle": 2,
@@ -602,66 +370,6 @@
     "size": "0.125 Kg drained",
     "price_gbp": 0.55,
     "link": "https://www.aldi.co.uk/product/everyday-essentials-classic-mozzarella-000000000283052001"
-   }
-  },
-  {
-   "category": "水产",
-   "name": "烟熏三文鱼",
-   "name_display": "烟熏三文鱼",
-   "packs": 1,
-   "pack_size": "200 g",
-   "name_en": "Smoked Salmon Slices",
-   "name_short": "Smoked Salmon Slices",
-   "brand": "THE FISHMONGER",
-   "unit_price_gbp": 4.49,
-   "line_total_gbp": 4.49,
-   "buy_qty": 200.0,
-   "buy_unit": "g",
-   "_pack_g": 200.0,
-   "used_on": [
-    "11/20"
-   ],
-   "note": "",
-   "bean_form": null,
-   "_g_need": 130.5,
-   "link": "https://www.aldi.co.uk/product/the-fishmonger-smoked-salmon-slices-000000000000308148",
-   "zone": "冷藏",
-   "aisle": 2,
-   "product": {
-    "name": "Smoked Salmon Slices",
-    "brand": "THE FISHMONGER",
-    "size": "200 g",
-    "price_gbp": 4.49,
-    "link": "https://www.aldi.co.uk/product/the-fishmonger-smoked-salmon-slices-000000000000308148"
-   }
-  },
-  {
-   "category": "肉类",
-   "name": "牛肉",
-   "name_display": "牛肉",
-   "packs": 1,
-   "pack_size": "nan",
-   "name_en": "British Beef Roasting Joint 21 Day Matured",
-   "name_short": "Beef Roasting Joint 21 Day Matured",
-   "brand": "ASHFIELDS",
-   "unit_price_gbp": 4.98,
-   "line_total_gbp": 4.98,
-   "buy_qty": "",
-   "buy_unit": "",
-   "_pack_g": null,
-   "used_on": [],
-   "note": "",
-   "bean_form": null,
-   "_g_need": 0.0,
-   "link": "https://www.aldi.co.uk/product/ashfields-british-beef-roasting-joint-21-day-matured-000000000000384513",
-   "zone": "冷藏",
-   "aisle": 2,
-   "product": {
-    "name": "British Beef Roasting Joint 21 Day Matured",
-    "brand": "ASHFIELDS",
-    "size": "nan",
-    "price_gbp": 4.98,
-    "link": "https://www.aldi.co.uk/product/ashfields-british-beef-roasting-joint-21-day-matured-000000000000384513"
    }
   },
   {
@@ -683,7 +391,7 @@
    ],
    "note": "",
    "bean_form": null,
-   "_g_need": 367.51300000000003,
+   "_g_need": 0.0,
    "link": "https://www.aldi.co.uk/product/ashfields-chicken-legs-000000000000382089",
    "zone": "冷藏",
    "aisle": 2,
@@ -696,258 +404,102 @@
    }
   },
   {
-   "category": "其他",
-   "name": "切薄的半熟烤牛肉",
-   "name_display": "切薄的半熟烤牛肉",
+   "category": "蛋类",
+   "name": "蛋白",
+   "name_display": "蛋白",
    "packs": 1,
-   "pack_size": "",
-   "buy_qty": null,
-   "buy_unit": "",
-   "buy_text": "按需",
-   "name_en": "",
-   "name_short": "",
-   "brand": "",
-   "unit_price_gbp": null,
-   "line_total_gbp": null,
-   "used_on": [],
-   "note": "三家店都没查到商品，自己挑或家里自备",
-   "link": null,
-   "product": null
-  },
-  {
-   "category": "其他",
-   "name": "罐装低钠白芸豆",
-   "name_display": "罐装低钠白芸豆",
-   "packs": 1,
-   "pack_size": "",
-   "buy_qty": null,
-   "buy_unit": "",
-   "buy_text": "按需",
-   "name_en": "",
-   "name_short": "",
-   "brand": "",
-   "unit_price_gbp": null,
-   "line_total_gbp": null,
-   "used_on": [],
-   "note": "三家店都没查到商品，自己挑或家里自备",
-   "link": null,
-   "product": null
-  },
-  {
-   "category": "调料",
-   "name": "罗勒青酱",
-   "buy_qty": 190.0,
+   "pack_size": "500g",
+   "name_en": "Two Chicks Liquid Egg White 500g",
+   "name_short": "Two Chicks Liquid Egg White",
+   "brand": "Sainsbury's",
+   "unit_price_gbp": 3.7,
+   "line_total_gbp": 3.7,
+   "buy_qty": 500.0,
    "buy_unit": "g",
-   "buy_text": "190g",
-   "packs": 1,
-   "price_gbp": 1.49,
-   "name_en": "Basil Pesto",
-   "name_short": "Basil Pesto",
-   "brand": "SPECIALLY SELECTED",
-   "pack_size": "190 g",
-   "unit_price_gbp": 1.49,
-   "line_total_gbp": 1.49,
-   "used_on": [
-    "11/19"
-   ],
-   "note": "家里没有，买不买你定",
-   "link": "https://www.aldi.co.uk/product/specially-selected-basil-pesto-000000000000504760",
+   "_pack_g": 500.0,
+   "used_on": [],
+   "note": "（ALDI 没有，去 Sainsbury's 买）",
+   "bean_form": null,
+   "_g_need": 12.0,
+   "link": "https://www.sainsburys.co.uk/groceries/product/two-chicks-liquid-egg-white-500g",
+   "zone": "冷藏",
+   "aisle": 2,
    "product": {
-    "name": "Basil Pesto",
-    "brand": "SPECIALLY SELECTED",
-    "size": "190 g",
-    "price_gbp": 1.49,
-    "link": "https://www.aldi.co.uk/product/specially-selected-basil-pesto-000000000000504760"
+    "name": "Two Chicks Liquid Egg White 500g",
+    "brand": "Sainsbury's",
+    "size": "500g",
+    "price_gbp": 3.7,
+    "link": "https://www.sainsburys.co.uk/groceries/product/two-chicks-liquid-egg-white-500g"
    }
   }
  ],
  "batches": [],
- "total_gbp": 37.46,
+ "total_gbp": 17.4,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
    "store_label": "Aldi",
    "items": [
     {
-     "category": "肉类",
-     "name": "牛肉",
-     "name_display": "牛肉",
+     "category": "调料",
+     "name": "番茄酱",
+     "name_display": "番茄酱",
      "packs": 1,
-     "pack_size": "nan",
-     "name_en": "British Beef Roasting Joint 21 Day Matured",
-     "name_short": "Beef Roasting Joint 21 Day Matured",
-     "brand": "ASHFIELDS",
-     "unit_price_gbp": 4.98,
-     "line_total_gbp": 4.98,
-     "buy_qty": "",
-     "buy_unit": "",
-     "_pack_g": null,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.aldi.co.uk/product/ashfields-british-beef-roasting-joint-21-day-matured-000000000000384513",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "British Beef Roasting Joint 21 Day Matured",
-      "brand": "ASHFIELDS",
-      "size": "nan",
-      "price_gbp": 4.98,
-      "link": "https://www.aldi.co.uk/product/ashfields-british-beef-roasting-joint-21-day-matured-000000000000384513"
-     }
-    },
-    {
-     "category": "豆制品",
-     "name": "黑豆",
-     "name_display": "黑豆罐头",
-     "packs": 1,
-     "pack_size": "400 g",
-     "name_en": "Tinned Black Beans",
-     "name_short": "Tinned Black Beans",
-     "brand": "FOUR SEASONS",
-     "unit_price_gbp": 0.45,
-     "line_total_gbp": 0.45,
-     "buy_qty": 400.0,
+     "pack_size": "550 g",
+     "name_en": "Tomato Ketchup",
+     "name_short": "Tomato Ketchup",
+     "brand": "BRAMWELLS",
+     "unit_price_gbp": 0.89,
+     "line_total_gbp": 0.89,
+     "buy_qty": 550.0,
      "buy_unit": "g",
-     "_pack_g": 400.0,
-     "used_on": [
-      "11/17"
-     ],
-     "note": "开罐沥干即用；每次 ~139g，剩约 101g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
-     "bean_form": "canned",
-     "_g_need": 138.86111111111111,
-     "link": "https://www.aldi.co.uk/product/four-seasons-tinned-black-beans-000000000627180001",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Tinned Black Beans",
-      "brand": "FOUR SEASONS",
-      "size": "400 g",
-      "price_gbp": 0.45,
-      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-black-beans-000000000627180001"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "葡萄番茄",
-     "name_display": "葡萄番茄",
-     "packs": 1,
-     "pack_size": "250 g",
-     "name_en": "Baby Plum Tomatoes",
-     "name_short": "Baby Plum Tomatoes",
-     "brand": "EVERYDAY ESSENTIALS",
-     "unit_price_gbp": 0.62,
-     "line_total_gbp": 0.62,
-     "buy_qty": 250.0,
-     "buy_unit": "g",
-     "_pack_g": 250.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 132.44975,
-     "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Baby Plum Tomatoes",
-      "brand": "EVERYDAY ESSENTIALS",
-      "size": "250 g",
-      "price_gbp": 0.62,
-      "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259"
-     }
-    },
-    {
-     "category": "肉类",
-     "name": "鸡肉",
-     "name_display": "鸡肉",
-     "packs": 1,
-     "pack_size": "1 kg",
-     "name_en": "Chicken Legs",
-     "name_short": "Chicken Legs",
-     "brand": "ASHFIELDS",
-     "unit_price_gbp": 2.25,
-     "line_total_gbp": 2.25,
-     "buy_qty": 1000.0,
-     "buy_unit": "g",
-     "_pack_g": 1000.0,
+     "_pack_g": 550.0,
      "used_on": [
       "11/15"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 367.51300000000003,
-     "link": "https://www.aldi.co.uk/product/ashfields-chicken-legs-000000000000382089",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Chicken Legs",
-      "brand": "ASHFIELDS",
-      "size": "1 kg",
-      "price_gbp": 2.25,
-      "link": "https://www.aldi.co.uk/product/ashfields-chicken-legs-000000000000382089"
-     }
-    },
-    {
-     "category": "水果",
-     "name": "草莓",
-     "name_display": "草莓",
-     "packs": 1,
-     "pack_size": "600 g",
-     "name_en": "Strawberries",
-     "name_short": "Strawberries",
-     "brand": "NATURE'S PICK",
-     "unit_price_gbp": 2.99,
-     "line_total_gbp": 2.99,
-     "buy_qty": 600.0,
-     "buy_unit": "g",
-     "_pack_g": 600.0,
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/16"
-     ],
-     "note": "易坏，分批",
-     "bean_form": null,
-     "_g_need": 144.9295774647887,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Strawberries",
-      "brand": "NATURE'S PICK",
-      "size": "600 g",
-      "price_gbp": 2.99,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
-     }
-    },
-    {
-     "category": "调料",
-     "name": "黑醋",
-     "name_display": "黑醋",
-     "packs": 1,
-     "pack_size": "500 ml",
-     "name_en": "Balsamic Vinegar of Modena",
-     "name_short": "Balsamic Vinegar of Modena",
-     "brand": "THE DELI",
-     "unit_price_gbp": 1.49,
-     "line_total_gbp": 1.49,
-     "buy_qty": 500.0,
-     "buy_unit": "g",
-     "_pack_g": 500.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 8.6898,
-     "link": "https://www.aldi.co.uk/product/the-deli-balsamic-vinegar-of-modena-000000000000335643",
+     "_g_need": 3.2203389830508473,
+     "link": "https://www.aldi.co.uk/product/bramwells-tomato-ketchup-000000000000575453",
      "zone": "室温",
      "aisle": 4,
      "product": {
-      "name": "Balsamic Vinegar of Modena",
-      "brand": "THE DELI",
-      "size": "500 ml",
-      "price_gbp": 1.49,
-      "link": "https://www.aldi.co.uk/product/the-deli-balsamic-vinegar-of-modena-000000000000335643"
+      "name": "Tomato Ketchup",
+      "brand": "BRAMWELLS",
+      "size": "550 g",
+      "price_gbp": 0.89,
+      "link": "https://www.aldi.co.uk/product/bramwells-tomato-ketchup-000000000000575453"
+     }
+    },
+    {
+     "category": "乳制品",
+     "name": "马苏里拉",
+     "name_display": "马苏里拉罐头",
+     "packs": 1,
+     "pack_size": "0.125 Kg drained",
+     "name_en": "Classic Mozzarella",
+     "name_short": "Classic Mozzarella",
+     "brand": "EVERYDAY ESSENTIALS",
+     "unit_price_gbp": 0.55,
+     "line_total_gbp": 0.55,
+     "buy_qty": 125.0,
+     "buy_unit": "g",
+     "_pack_g": 125.0,
+     "used_on": [
+      "11/15"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 22.0,
+     "link": "https://www.aldi.co.uk/product/everyday-essentials-classic-mozzarella-000000000283052001",
+     "zone": "冷藏",
+     "aisle": 2,
+     "product": {
+      "name": "Classic Mozzarella",
+      "brand": "EVERYDAY ESSENTIALS",
+      "size": "0.125 Kg drained",
+      "price_gbp": 0.55,
+      "link": "https://www.aldi.co.uk/product/everyday-essentials-classic-mozzarella-000000000283052001"
      }
     },
     {
@@ -969,7 +521,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 222.76500000000001,
+     "_g_need": 292.215,
      "link": "https://www.aldi.co.uk/product/everyday-essentials-low-fat-cottage-cheese-000000000000416217",
      "zone": "冷藏",
      "aisle": 2,
@@ -995,7 +547,9 @@
      "buy_qty": 6.0,
      "buy_unit": "个",
      "_pack_g": 6.0,
-     "used_on": [],
+     "used_on": [
+      "11/15"
+     ],
      "note": "",
      "bean_form": null,
      "_g_need": 0.0,
@@ -1008,68 +562,6 @@
       "size": "6 Each",
       "price_gbp": 1.19,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-kiwis-000000000000263719"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "烟熏三文鱼",
-     "name_display": "烟熏三文鱼",
-     "packs": 1,
-     "pack_size": "200 g",
-     "name_en": "Smoked Salmon Slices",
-     "name_short": "Smoked Salmon Slices",
-     "brand": "THE FISHMONGER",
-     "unit_price_gbp": 4.49,
-     "line_total_gbp": 4.49,
-     "buy_qty": 200.0,
-     "buy_unit": "g",
-     "_pack_g": 200.0,
-     "used_on": [
-      "11/20"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 130.5,
-     "link": "https://www.aldi.co.uk/product/the-fishmonger-smoked-salmon-slices-000000000000308148",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Smoked Salmon Slices",
-      "brand": "THE FISHMONGER",
-      "size": "200 g",
-      "price_gbp": 4.49,
-      "link": "https://www.aldi.co.uk/product/the-fishmonger-smoked-salmon-slices-000000000000308148"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "羽衣甘蓝",
-     "name_display": "羽衣甘蓝",
-     "packs": 1,
-     "pack_size": "200 g",
-     "name_en": "Scottish Shredded Kale",
-     "name_short": "Shredded Kale",
-     "brand": "NATURE'S PICK",
-     "unit_price_gbp": 0.89,
-     "line_total_gbp": 0.89,
-     "buy_qty": 200.0,
-     "buy_unit": "g",
-     "_pack_g": 200.0,
-     "used_on": [
-      "11/08"
-     ],
-     "note": "易坏，分批",
-     "bean_form": null,
-     "_g_need": 74.91228070175437,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Scottish Shredded Kale",
-      "brand": "NATURE'S PICK",
-      "size": "200 g",
-      "price_gbp": 0.89,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
      }
     },
     {
@@ -1104,65 +596,37 @@
      }
     },
     {
-     "category": "豆制品",
-     "name": "鹰嘴豆泥",
-     "name_display": "鹰嘴豆泥",
+     "category": "水果",
+     "name": "草莓",
+     "name_display": "草莓",
      "packs": 1,
-     "pack_size": "200 g",
-     "name_en": "Houmous",
-     "name_short": "Houmous",
-     "brand": "THE DELI",
-     "unit_price_gbp": 0.95,
-     "line_total_gbp": 0.95,
-     "buy_qty": 200.0,
+     "pack_size": "600 g",
+     "name_en": "Strawberries",
+     "name_short": "Strawberries",
+     "brand": "NATURE'S PICK",
+     "unit_price_gbp": 2.99,
+     "line_total_gbp": 2.99,
+     "buy_qty": 600.0,
      "buy_unit": "g",
-     "_pack_g": 200.0,
+     "_pack_g": 600.0,
      "used_on": [
-      "11/15"
+      "11/08",
+      "11/15",
+      "11/16",
+      "11/18"
      ],
-     "note": "",
+     "note": "易坏，分批",
      "bean_form": null,
      "_g_need": 0.0,
-     "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
-     "zone": "室温",
-     "aisle": 3,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
+     "zone": "冷藏",
+     "aisle": 1,
      "product": {
-      "name": "Houmous",
-      "brand": "THE DELI",
-      "size": "200 g",
-      "price_gbp": 0.95,
-      "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001"
-     }
-    },
-    {
-     "category": "调料",
-     "name": "番茄酱",
-     "name_display": "番茄酱",
-     "packs": 1,
-     "pack_size": "550 g",
-     "name_en": "Tomato Ketchup",
-     "name_short": "Tomato Ketchup",
-     "brand": "BRAMWELLS",
-     "unit_price_gbp": 0.89,
-     "line_total_gbp": 0.89,
-     "buy_qty": 550.0,
-     "buy_unit": "g",
-     "_pack_g": 550.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.aldi.co.uk/product/bramwells-tomato-ketchup-000000000000575453",
-     "zone": "室温",
-     "aisle": 4,
-     "product": {
-      "name": "Tomato Ketchup",
-      "brand": "BRAMWELLS",
-      "size": "550 g",
-      "price_gbp": 0.89,
-      "link": "https://www.aldi.co.uk/product/bramwells-tomato-ketchup-000000000000575453"
+      "name": "Strawberries",
+      "brand": "NATURE'S PICK",
+      "size": "600 g",
+      "price_gbp": 2.99,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
      }
     },
     {
@@ -1180,7 +644,7 @@
      "buy_unit": "g",
      "_pack_g": 440.0,
      "used_on": [
-      "11/15"
+      "11/16"
      ],
      "note": "",
      "bean_form": null,
@@ -1198,39 +662,6 @@
     },
     {
      "category": "乳制品",
-     "name": "牛奶",
-     "name_display": "牛奶",
-     "packs": 1,
-     "pack_size": "3.408 l",
-     "name_en": "Semi Skimmed Milk 1.7% Fat",
-     "name_short": "Semi Skimmed Milk 1.7% Fat",
-     "brand": "COWBELLE",
-     "unit_price_gbp": 2.4,
-     "line_total_gbp": 2.4,
-     "buy_qty": 3408.0,
-     "buy_unit": "g",
-     "_pack_g": 3408.0,
-     "used_on": [
-      "11/16",
-      "11/19",
-      "11/21"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 365.88235294117646,
-     "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Semi Skimmed Milk 1.7% Fat",
-      "brand": "COWBELLE",
-      "size": "3.408 l",
-      "price_gbp": 2.4,
-      "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713"
-     }
-    },
-    {
-     "category": "乳制品",
      "name": "菲达奶酪",
      "name_display": "菲达奶酪",
      "packs": 1,
@@ -1244,8 +675,7 @@
      "buy_unit": "g",
      "_pack_g": 200.0,
      "used_on": [
-      "11/08",
-      "11/15"
+      "11/08"
      ],
      "note": "",
      "bean_form": null,
@@ -1262,58 +692,54 @@
      }
     },
     {
-     "category": "乳制品",
-     "name": "马苏里拉",
-     "name_display": "马苏里拉罐头",
+     "category": "肉类",
+     "name": "鸡肉",
+     "name_display": "鸡肉",
      "packs": 1,
-     "pack_size": "0.125 Kg drained",
-     "name_en": "Classic Mozzarella",
-     "name_short": "Classic Mozzarella",
-     "brand": "EVERYDAY ESSENTIALS",
-     "unit_price_gbp": 0.55,
-     "line_total_gbp": 0.55,
-     "buy_qty": 125.0,
+     "pack_size": "1 kg",
+     "name_en": "Chicken Legs",
+     "name_short": "Chicken Legs",
+     "brand": "ASHFIELDS",
+     "unit_price_gbp": 2.25,
+     "line_total_gbp": 2.25,
+     "buy_qty": 1000.0,
      "buy_unit": "g",
-     "_pack_g": 125.0,
+     "_pack_g": 1000.0,
      "used_on": [
       "11/15"
      ],
      "note": "",
      "bean_form": null,
      "_g_need": 0.0,
-     "link": "https://www.aldi.co.uk/product/everyday-essentials-classic-mozzarella-000000000283052001",
+     "link": "https://www.aldi.co.uk/product/ashfields-chicken-legs-000000000000382089",
      "zone": "冷藏",
      "aisle": 2,
      "product": {
-      "name": "Classic Mozzarella",
-      "brand": "EVERYDAY ESSENTIALS",
-      "size": "0.125 Kg drained",
-      "price_gbp": 0.55,
-      "link": "https://www.aldi.co.uk/product/everyday-essentials-classic-mozzarella-000000000283052001"
+      "name": "Chicken Legs",
+      "brand": "ASHFIELDS",
+      "size": "1 kg",
+      "price_gbp": 2.25,
+      "link": "https://www.aldi.co.uk/product/ashfields-chicken-legs-000000000000382089"
      }
     }
    ],
    "batches": [],
-   "total_gbp": 28.62,
+   "total_gbp": 12.35,
    "missing": [
-    "藜麦",
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆",
-    "青柠"
+    "蛋白",
+    "法棍"
    ],
    "pantry_missing": [],
    "unavailable": [
-    "藜麦",
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆",
-    "青柠"
+    "蛋白",
+    "法棍"
    ],
-   "coverage": 0.8095,
-   "vs_recommend_gbp": 5.76,
-   "vs_recommend_common_n": 17,
-   "vs_recommend_store_gbp": 28.62,
-   "vs_recommend_rec_gbp": 22.86,
-   "vs_recommend_missing": 2
+   "coverage": 0.8182,
+   "vs_recommend_gbp": 2.74,
+   "vs_recommend_common_n": 9,
+   "vs_recommend_store_gbp": 12.35,
+   "vs_recommend_rec_gbp": 9.61,
+   "vs_recommend_missing": 1
   },
   "SAINSBURYS": {
    "store": "SAINSBURYS",
@@ -1321,248 +747,122 @@
    "items": [
     {
      "category": "主食",
-     "name": "藜麦",
-     "name_display": "藜麦罐头",
-     "packs": 2,
-     "pack_size": "300g",
-     "name_en": "Sainsbury's Quinoa 300g",
-     "name_short": "Sainsbury's Quinoa",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 3.1,
-     "line_total_gbp": 6.2,
-     "buy_qty": 600.0,
-     "buy_unit": "g",
-     "_pack_g": 300.0,
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/17",
-      "11/19",
-      "11/20"
-     ],
-     "note": "耐存，一次买够",
-     "bean_form": null,
-     "_g_need": 351.9316239316239,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Sainsbury's Quinoa 300g",
-      "brand": "Sainsbury's",
-      "size": "300g",
-      "price_gbp": 3.1,
-      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "牛肉",
-     "name_display": "牛肉",
-     "packs": 1,
-     "pack_size": "nan",
-     "name_en": "Sainsbury's Beef Tomato Single, Taste the Difference",
-     "name_short": "Sainsbury's Beef Tomato Single, Taste the Difference",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 1.4,
-     "line_total_gbp": 1.4,
-     "buy_qty": "",
-     "buy_unit": "",
-     "_pack_g": null,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-beef-tomato-single-taste-the-difference",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Sainsbury's Beef Tomato Single, Taste the Difference",
-      "brand": "Sainsbury's",
-      "size": "nan",
-      "price_gbp": 1.4,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-beef-tomato-single-taste-the-difference"
-     }
-    },
-    {
-     "category": "豆制品",
-     "name": "黑豆",
-     "name_display": "黑豆",
-     "packs": 5,
-     "pack_size": "250g",
-     "name_en": "LEON Brazilian Style Black Beans 250g",
-     "name_short": "LEON Brazilian Style Black Beans",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 2.0,
-     "line_total_gbp": 10.0,
-     "buy_qty": 1250.0,
-     "buy_unit": "g",
-     "_pack_g": 250.0,
-     "used_on": [
-      "11/17"
-     ],
-     "note": "干豆泡 8h、煮 40–50min；约 63g 干豆 ≈ 139g 煮后（餐单按煮后量计）。",
-     "bean_form": "dry",
-     "_g_need": 1162.5581395348838,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/leon-brazilian-style-black-beans-250g",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "LEON Brazilian Style Black Beans 250g",
-      "brand": "Sainsbury's",
-      "size": "250g",
-      "price_gbp": 2.0,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/leon-brazilian-style-black-beans-250g"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "葡萄番茄",
-     "name_display": "葡萄番茄罐头",
+     "name": "番茄酱",
+     "name_display": "番茄酱罐头",
      "packs": 1,
      "pack_size": "400g",
-     "name_en": "KTC Peeled Plum Tomatoes 400g",
-     "name_short": "KTC Peeled Plum Tomatoes",
+     "name_en": "Stamford Street Co. Spaghetti Rings in Tomato Sauce 400g",
+     "name_short": "Stamford Street Co. Spaghetti Rings in Tomato Sauce",
      "brand": "Sainsbury's",
-     "unit_price_gbp": 0.65,
-     "line_total_gbp": 0.65,
+     "unit_price_gbp": 0.19,
+     "line_total_gbp": 0.19,
      "buy_qty": 400.0,
      "buy_unit": "g",
      "_pack_g": 400.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 132.44975,
-     "link": "https://www.sainsburys.co.uk/groceries/product/ktc-peeled-plum-tomatoes-400g",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "KTC Peeled Plum Tomatoes 400g",
-      "brand": "Sainsbury's",
-      "size": "400g",
-      "price_gbp": 0.65,
-      "link": "https://www.sainsburys.co.uk/groceries/product/ktc-peeled-plum-tomatoes-400g"
-     }
-    },
-    {
-     "category": "肉类",
-     "name": "鸡肉",
-     "name_display": "鸡肉",
-     "packs": 1,
-     "pack_size": "2kg",
-     "name_en": "Stamford Street Co. British Frozen Chicken Portions 2kg",
-     "name_short": "Stamford Street Co. Frozen Chicken Portions",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 4.25,
-     "line_total_gbp": 4.25,
-     "buy_qty": 2000.0,
-     "buy_unit": "g",
-     "_pack_g": 2000.0,
      "used_on": [
       "11/15"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 367.51300000000003,
-     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-british-frozen-chicken-portions-2kg",
-     "zone": "冷藏",
-     "aisle": 2,
+     "_g_need": 5.377358490566038,
+     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-spaghetti-rings-in-tomato-sauce-400g",
+     "zone": "室温",
+     "aisle": 3,
      "product": {
-      "name": "Stamford Street Co. British Frozen Chicken Portions 2kg",
-      "brand": "Sainsbury's",
-      "size": "2kg",
-      "price_gbp": 4.25,
-      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-british-frozen-chicken-portions-2kg"
-     }
-    },
-    {
-     "category": "水果",
-     "name": "草莓",
-     "name_display": "草莓",
-     "packs": 1,
-     "pack_size": "400g",
-     "name_en": "Sainsbury's Strawberries 400g",
-     "name_short": "Sainsbury's Strawberries",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 3.25,
-     "line_total_gbp": 3.25,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "_pack_g": 400.0,
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/16"
-     ],
-     "note": "易坏，分批",
-     "bean_form": null,
-     "_g_need": 177.41379310344826,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-strawberries-400g",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Sainsbury's Strawberries 400g",
+      "name": "Stamford Street Co. Spaghetti Rings in Tomato Sauce 400g",
       "brand": "Sainsbury's",
       "size": "400g",
-      "price_gbp": 3.25,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-strawberries-400g"
+      "price_gbp": 0.19,
+      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-spaghetti-rings-in-tomato-sauce-400g"
      }
     },
     {
-     "category": "水果",
-     "name": "青柠",
-     "name_display": "青柠",
+     "category": "主食",
+     "name": "马苏里拉",
+     "name_display": "马苏里拉",
      "packs": 1,
-     "pack_size": "2gram",
-     "name_en": "Sainsbury's Makrut Lime Leaves 2g",
-     "name_short": "Sainsbury's Makrut Lime Leaves",
+     "pack_size": "250g",
+     "name_en": "Sainsbury's Tomato & Mozzarella Filled Tortellini 250g",
+     "name_short": "Sainsbury's Tomato & Mozzarella Filled Tortellini",
      "brand": "Sainsbury's",
-     "unit_price_gbp": 1.15,
-     "line_total_gbp": 1.15,
-     "buy_qty": "",
-     "buy_unit": "",
-     "_pack_g": null,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-makrut-lime-leaves-2g",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Sainsbury's Makrut Lime Leaves 2g",
-      "brand": "Sainsbury's",
-      "size": "2gram",
-      "price_gbp": 1.15,
-      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-makrut-lime-leaves-2g"
-     }
-    },
-    {
-     "category": "调料",
-     "name": "黑醋",
-     "name_display": "黑醋",
-     "packs": 1,
-     "pack_size": "250ml e",
-     "name_en": "Sainsbury's Balsamic Vinegar of Modena 2 Leaf 250ml",
-     "name_short": "Sainsbury's Balsamic Vinegar of Modena 2 Leaf",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 1.75,
-     "line_total_gbp": 1.75,
+     "unit_price_gbp": 0.6,
+     "line_total_gbp": 0.6,
      "buy_qty": 250.0,
      "buy_unit": "g",
      "_pack_g": 250.0,
+     "used_on": [
+      "11/15"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 143.84615384615384,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tomato-mozzarella-filled-tortellini-250g",
+     "zone": "室温",
+     "aisle": 3,
+     "product": {
+      "name": "Sainsbury's Tomato & Mozzarella Filled Tortellini 250g",
+      "brand": "Sainsbury's",
+      "size": "250g",
+      "price_gbp": 0.6,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tomato-mozzarella-filled-tortellini-250g"
+     }
+    },
+    {
+     "category": "蛋类",
+     "name": "蛋白",
+     "name_display": "蛋白",
+     "packs": 1,
+     "pack_size": "500g",
+     "name_en": "Two Chicks Liquid Egg White 500g",
+     "name_short": "Two Chicks Liquid Egg White",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 3.7,
+     "line_total_gbp": 3.7,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "_pack_g": 500.0,
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 8.6898,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-balsamic-vinegar-of-modena-2-leaf-250ml",
-     "zone": "室温",
-     "aisle": 4,
+     "_g_need": 12.0,
+     "link": "https://www.sainsburys.co.uk/groceries/product/two-chicks-liquid-egg-white-500g",
+     "zone": "冷藏",
+     "aisle": 2,
      "product": {
-      "name": "Sainsbury's Balsamic Vinegar of Modena 2 Leaf 250ml",
+      "name": "Two Chicks Liquid Egg White 500g",
       "brand": "Sainsbury's",
-      "size": "250ml e",
-      "price_gbp": 1.75,
-      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-balsamic-vinegar-of-modena-2-leaf-250ml"
+      "size": "500g",
+      "price_gbp": 3.7,
+      "link": "https://www.sainsburys.co.uk/groceries/product/two-chicks-liquid-egg-white-500g"
+     }
+    },
+    {
+     "category": "主食",
+     "name": "法棍",
+     "name_display": "法棍",
+     "packs": 1,
+     "pack_size": "400g",
+     "name_en": "Sainsbury's Crusty White Baguette",
+     "name_short": "Sainsbury's Crusty White Baguette",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 1.35,
+     "line_total_gbp": 1.35,
+     "buy_qty": 400.0,
+     "buy_unit": "g",
+     "_pack_g": 400.0,
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 73.20388349514563,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-crusty-white-baguette",
+     "zone": "室温",
+     "aisle": 3,
+     "product": {
+      "name": "Sainsbury's Crusty White Baguette",
+      "brand": "Sainsbury's",
+      "size": "400g",
+      "price_gbp": 1.35,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-crusty-white-baguette"
      }
     },
     {
@@ -1584,7 +884,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 222.76500000000001,
+     "_g_need": 292.215,
      "link": "https://www.sainsburys.co.uk/groceries/product/arla-300g-cottage-cheese",
      "zone": "冷藏",
      "aisle": 2,
@@ -1610,7 +910,9 @@
      "buy_qty": "",
      "buy_unit": "",
      "_pack_g": null,
-     "used_on": [],
+     "used_on": [
+      "11/15"
+     ],
      "note": "",
      "bean_form": null,
      "_g_need": 0.0,
@@ -1623,99 +925,6 @@
       "size": "nan",
       "price_gbp": 0.4,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-large-kiwi-fruit-single"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "烟熏三文鱼",
-     "name_display": "烟熏三文鱼",
-     "packs": 2,
-     "pack_size": "100g",
-     "name_en": "Stamford Street Co. Scottish Smoked Salmon 100g",
-     "name_short": "Stamford Street Co. Smoked Salmon",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 2.95,
-     "line_total_gbp": 5.9,
-     "buy_qty": 200.0,
-     "buy_unit": "g",
-     "_pack_g": 100.0,
-     "used_on": [
-      "11/20"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 130.5,
-     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-scottish-smoked-salmon-100g",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Stamford Street Co. Scottish Smoked Salmon 100g",
-      "brand": "Sainsbury's",
-      "size": "100g",
-      "price_gbp": 2.95,
-      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-scottish-smoked-salmon-100g"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "羽衣甘蓝",
-     "name_display": "羽衣甘蓝",
-     "packs": 2,
-     "pack_size": "200g",
-     "name_en": "Sainsbury's Kale 200g",
-     "name_short": "Sainsbury's Kale",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 0.89,
-     "line_total_gbp": 1.78,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "_pack_g": 200.0,
-     "used_on": [
-      "11/08"
-     ],
-     "note": "易坏，分批",
-     "bean_form": null,
-     "_g_need": 328.4615384615384,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-kale-200g",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Sainsbury's Kale 200g",
-      "brand": "Sainsbury's",
-      "size": "200g",
-      "price_gbp": 0.89,
-      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-kale-200g"
-     }
-    },
-    {
-     "category": "主食",
-     "name": "番茄酱",
-     "name_display": "番茄酱罐头",
-     "packs": 1,
-     "pack_size": "400g",
-     "name_en": "Stamford Street Co. Spaghetti Rings in Tomato Sauce 400g",
-     "name_short": "Stamford Street Co. Spaghetti Rings in Tomato Sauce",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 0.19,
-     "line_total_gbp": 0.19,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "_pack_g": 400.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-spaghetti-rings-in-tomato-sauce-400g",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Stamford Street Co. Spaghetti Rings in Tomato Sauce 400g",
-      "brand": "Sainsbury's",
-      "size": "400g",
-      "price_gbp": 0.19,
-      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-spaghetti-rings-in-tomato-sauce-400g"
      }
     },
     {
@@ -1750,65 +959,37 @@
      }
     },
     {
-     "category": "主食",
-     "name": "马苏里拉",
-     "name_display": "马苏里拉",
+     "category": "水果",
+     "name": "草莓",
+     "name_display": "草莓",
      "packs": 1,
-     "pack_size": "250g",
-     "name_en": "Sainsbury's Tomato & Mozzarella Filled Tortellini 250g",
-     "name_short": "Sainsbury's Tomato & Mozzarella Filled Tortellini",
+     "pack_size": "400g",
+     "name_en": "Sainsbury's Strawberries 400g",
+     "name_short": "Sainsbury's Strawberries",
      "brand": "Sainsbury's",
-     "unit_price_gbp": 0.6,
-     "line_total_gbp": 0.6,
-     "buy_qty": 250.0,
+     "unit_price_gbp": 3.25,
+     "line_total_gbp": 3.25,
+     "buy_qty": 400.0,
      "buy_unit": "g",
-     "_pack_g": 250.0,
+     "_pack_g": 400.0,
      "used_on": [
-      "11/15"
+      "11/08",
+      "11/15",
+      "11/16",
+      "11/18"
      ],
-     "note": "",
+     "note": "易坏，分批",
      "bean_form": null,
      "_g_need": 0.0,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tomato-mozzarella-filled-tortellini-250g",
-     "zone": "室温",
-     "aisle": 3,
+     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-strawberries-400g",
+     "zone": "冷藏",
+     "aisle": 1,
      "product": {
-      "name": "Sainsbury's Tomato & Mozzarella Filled Tortellini 250g",
+      "name": "Sainsbury's Strawberries 400g",
       "brand": "Sainsbury's",
-      "size": "250g",
-      "price_gbp": 0.6,
-      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tomato-mozzarella-filled-tortellini-250g"
-     }
-    },
-    {
-     "category": "豆制品",
-     "name": "鹰嘴豆泥",
-     "name_display": "鹰嘴豆泥",
-     "packs": 1,
-     "pack_size": "200g",
-     "name_en": "Sainsbury's Houmous 200g",
-     "name_short": "Sainsbury's Houmous",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 1.0,
-     "line_total_gbp": 1.0,
-     "buy_qty": 200.0,
-     "buy_unit": "g",
-     "_pack_g": 200.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-houmous-200g",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Sainsbury's Houmous 200g",
-      "brand": "Sainsbury's",
-      "size": "200g",
-      "price_gbp": 1.0,
-      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-houmous-200g"
+      "size": "400g",
+      "price_gbp": 3.25,
+      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-strawberries-400g"
      }
     },
     {
@@ -1826,7 +1007,7 @@
      "buy_unit": "g",
      "_pack_g": 500.0,
      "used_on": [
-      "11/15"
+      "11/16"
      ],
      "note": "",
      "bean_form": null,
@@ -1844,39 +1025,6 @@
     },
     {
      "category": "乳制品",
-     "name": "牛奶",
-     "name_display": "牛奶",
-     "packs": 1,
-     "pack_size": "3.408L (6 pints)",
-     "name_en": "Sainsbury's British Whole Milk 3.4L (6 pint)",
-     "name_short": "Sainsbury's Whole Milk (6 pint)",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 2.55,
-     "line_total_gbp": 2.55,
-     "buy_qty": 3408.0,
-     "buy_unit": "g",
-     "_pack_g": 3408.0,
-     "used_on": [
-      "11/16",
-      "11/19",
-      "11/21"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 168.1081081081081,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-whole-milk-3-4l-6-pint",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Sainsbury's British Whole Milk 3.4L (6 pint)",
-      "brand": "Sainsbury's",
-      "size": "3.408L (6 pints)",
-      "price_gbp": 2.55,
-      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-whole-milk-3-4l-6-pint"
-     }
-    },
-    {
-     "category": "乳制品",
      "name": "菲达奶酪",
      "name_display": "菲达奶酪罐头",
      "packs": 1,
@@ -1890,8 +1038,7 @@
      "buy_unit": "g",
      "_pack_g": 390.0,
      "used_on": [
-      "11/08",
-      "11/15"
+      "11/08"
      ],
      "note": "",
      "bean_form": null,
@@ -1906,24 +1053,49 @@
       "price_gbp": 3.1,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-175g-in-brine-greek-feta-cubes"
      }
+    },
+    {
+     "category": "肉类",
+     "name": "鸡肉",
+     "name_display": "鸡肉",
+     "packs": 1,
+     "pack_size": "2kg",
+     "name_en": "Stamford Street Co. British Frozen Chicken Portions 2kg",
+     "name_short": "Stamford Street Co. Frozen Chicken Portions",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 4.25,
+     "line_total_gbp": 4.25,
+     "buy_qty": 2000.0,
+     "buy_unit": "g",
+     "_pack_g": 2000.0,
+     "used_on": [
+      "11/15"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 0.0,
+     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-british-frozen-chicken-portions-2kg",
+     "zone": "冷藏",
+     "aisle": 2,
+     "product": {
+      "name": "Stamford Street Co. British Frozen Chicken Portions 2kg",
+      "brand": "Sainsbury's",
+      "size": "2kg",
+      "price_gbp": 4.25,
+      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-british-frozen-chicken-portions-2kg"
+     }
     }
    ],
    "batches": [],
-   "total_gbp": 48.72,
-   "missing": [
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆"
-   ],
+   "total_gbp": 21.39,
+   "missing": [],
    "pantry_missing": [],
-   "unavailable": [
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆"
-   ],
-   "coverage": 0.9048,
-   "vs_recommend_gbp": 20.61,
-   "vs_recommend_common_n": 19,
-   "vs_recommend_store_gbp": 48.72,
-   "vs_recommend_rec_gbp": 28.11,
+   "unavailable": [],
+   "coverage": 1.0,
+   "vs_recommend_gbp": 5.58,
+   "vs_recommend_common_n": 10,
+   "vs_recommend_store_gbp": 17.69,
+   "vs_recommend_rec_gbp": 12.11,
    "vs_recommend_missing": 0
   },
   "ICELAND": {
@@ -1931,138 +1103,78 @@
    "store_label": "Iceland",
    "items": [
     {
-     "category": "肉类",
-     "name": "牛肉",
-     "name_display": "牛肉",
+     "category": "调料",
+     "name": "番茄酱",
+     "name_display": "番茄酱",
      "packs": 1,
-     "pack_size": "300g",
-     "name_en": "Iceland 4 Beef Grillsteaks 300g",
-     "name_short": "Iceland 4 Beef Grillsteaks",
-     "brand": "Iceland",
-     "unit_price_gbp": 2.75,
-     "line_total_gbp": 2.75,
-     "buy_qty": 300.0,
+     "pack_size": "1.35kg",
+     "name_en": "Heinz Tomato Ketchup 1.35kg",
+     "name_short": "Heinz Tomato Ketchup",
+     "brand": "Heinz",
+     "unit_price_gbp": 5.0,
+     "line_total_gbp": 5.0,
+     "buy_qty": 1350.0,
      "buy_unit": "g",
-     "_pack_g": 300.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 126.49572649572652,
-     "link": "https://www.iceland.co.uk/p/iceland-4-beef-grillsteaks-300g/40068.html",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Iceland 4 Beef Grillsteaks 300g",
-      "brand": "Iceland",
-      "size": "300g",
-      "price_gbp": 2.75,
-      "link": "https://www.iceland.co.uk/p/iceland-4-beef-grillsteaks-300g/40068.html"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "葡萄番茄",
-     "name_display": "葡萄番茄",
-     "packs": 1,
-     "pack_size": "250g",
-     "name_en": "Iceland Baby Plum Tomatoes 250g",
-     "name_short": "Iceland Baby Plum Tomatoes",
-     "brand": "Iceland",
-     "unit_price_gbp": 1.0,
-     "line_total_gbp": 1.0,
-     "buy_qty": 250.0,
-     "buy_unit": "g",
-     "_pack_g": 250.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 132.44975,
-     "link": "https://www.iceland.co.uk/p/iceland-baby-plum-tomatoes-250g/62943.html",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Iceland Baby Plum Tomatoes 250g",
-      "brand": "Iceland",
-      "size": "250g",
-      "price_gbp": 1.0,
-      "link": "https://www.iceland.co.uk/p/iceland-baby-plum-tomatoes-250g/62943.html"
-     }
-    },
-    {
-     "category": "肉类",
-     "name": "鸡肉",
-     "name_display": "鸡肉",
-     "packs": 1,
-     "pack_size": "500ml",
-     "name_en": "Crucials Chicken Shop Creamy Ranch 500ml",
-     "name_short": "Crucials Chicken Shop Creamy Ranch",
-     "brand": "Crucials",
-     "unit_price_gbp": 1.5,
-     "line_total_gbp": 1.5,
-     "buy_qty": 500.0,
-     "buy_unit": "g",
-     "_pack_g": 500.0,
+     "_pack_g": 1350.0,
      "used_on": [
       "11/15"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 367.51300000000003,
-     "link": "https://www.iceland.co.uk/p/crucials-chicken-shop-creamy-ranch-500ml/107408.html",
+     "_g_need": 2.4568965517241375,
+     "link": "https://www.iceland.co.uk/p/heinz-tomato-ketchup-1.35kg/14120.html",
+     "zone": "室温",
+     "aisle": 4,
+     "product": {
+      "name": "Heinz Tomato Ketchup 1.35kg",
+      "brand": "Heinz",
+      "size": "1.35kg",
+      "price_gbp": 5.0,
+      "link": "https://www.iceland.co.uk/p/heinz-tomato-ketchup-1.35kg/14120.html"
+     }
+    },
+    {
+     "category": "乳制品",
+     "name": "马苏里拉",
+     "name_display": "马苏里拉",
+     "packs": 1,
+     "pack_size": "900g",
+     "name_en": "Iceland 60 (Approx.) Mozzarella Sticks 900g",
+     "name_short": "Iceland 60 (Approx.) Mozzarella Sticks",
+     "brand": "Iceland",
+     "unit_price_gbp": 6.0,
+     "line_total_gbp": 6.0,
+     "buy_qty": 900.0,
+     "buy_unit": "g",
+     "_pack_g": 900.0,
+     "used_on": [
+      "11/15"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 20.326086956521742,
+     "link": "https://www.iceland.co.uk/p/iceland-60-%28approx.%29-mozzarella-sticks-900g/90908.html",
      "zone": "冷藏",
      "aisle": 2,
      "product": {
-      "name": "Crucials Chicken Shop Creamy Ranch 500ml",
-      "brand": "Crucials",
-      "size": "500ml",
-      "price_gbp": 1.5,
-      "link": "https://www.iceland.co.uk/p/crucials-chicken-shop-creamy-ranch-500ml/107408.html"
+      "name": "Iceland 60 (Approx.) Mozzarella Sticks 900g",
+      "brand": "Iceland",
+      "size": "900g",
+      "price_gbp": 6.0,
+      "link": "https://www.iceland.co.uk/p/iceland-60-%28approx.%29-mozzarella-sticks-900g/90908.html"
      }
     },
     {
-     "category": "水果",
-     "name": "草莓",
-     "name_display": "草莓",
+     "category": "主食",
+     "name": "法棍",
+     "name_display": "法棍",
      "packs": 1,
-     "pack_size": "200g",
-     "name_en": "Chooee Strawberry Super Mix 200g",
-     "name_short": "Chooee Strawberry Super Mix",
-     "brand": "Chooee",
-     "unit_price_gbp": 1.0,
-     "line_total_gbp": 1.0,
-     "buy_qty": 200.0,
-     "buy_unit": "g",
-     "_pack_g": 200.0,
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/16"
-     ],
-     "note": "易坏，分批",
-     "bean_form": null,
-     "_g_need": 144.9295774647887,
-     "link": "https://www.iceland.co.uk/p/chooee-strawberry-super-mix-200g/102058.html",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Chooee Strawberry Super Mix 200g",
-      "brand": "Chooee",
-      "size": "200g",
-      "price_gbp": 1.0,
-      "link": "https://www.iceland.co.uk/p/chooee-strawberry-super-mix-200g/102058.html"
-     }
-    },
-    {
-     "category": "水果",
-     "name": "青柠",
-     "name_display": "青柠",
-     "packs": 1,
-     "pack_size": "27.5cl",
-     "name_en": "BREEZER Lime, 27.5cl",
-     "name_short": "BREEZER Lime, 27.5cl",
-     "brand": "Barcardi",
-     "unit_price_gbp": 2.65,
-     "line_total_gbp": 2.65,
+     "pack_size": "nan",
+     "name_en": "Dr. Oetker Bistro Baguette Pepperoni 2 x 125g (250g)",
+     "name_short": "Dr. Oetker Bistro Baguette Pepperoni 2 x (250g)",
+     "brand": "Dr. Oetker",
+     "unit_price_gbp": 2.5,
+     "line_total_gbp": 2.5,
      "buy_qty": "",
      "buy_unit": "",
      "_pack_g": null,
@@ -2070,15 +1182,15 @@
      "note": "",
      "bean_form": null,
      "_g_need": 0.0,
-     "link": "https://www.iceland.co.uk/p/breezer-lime-27.5cl/105385.html",
-     "zone": "冷藏",
-     "aisle": 1,
+     "link": "https://www.iceland.co.uk/p/dr.-oetker-bistro-baguette-pepperoni-2-x-125g-%28250g%29/72981.html",
+     "zone": "室温",
+     "aisle": 3,
      "product": {
-      "name": "BREEZER Lime, 27.5cl",
-      "brand": "Barcardi",
-      "size": "27.5cl",
-      "price_gbp": 2.65,
-      "link": "https://www.iceland.co.uk/p/breezer-lime-27.5cl/105385.html"
+      "name": "Dr. Oetker Bistro Baguette Pepperoni 2 x 125g (250g)",
+      "brand": "Dr. Oetker",
+      "size": "nan",
+      "price_gbp": 2.5,
+      "link": "https://www.iceland.co.uk/p/dr.-oetker-bistro-baguette-pepperoni-2-x-125g-%28250g%29/72981.html"
      }
     },
     {
@@ -2100,7 +1212,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 222.76500000000001,
+     "_g_need": 292.215,
      "link": "https://www.iceland.co.uk/p/philadelphia-protein-low-fat-cottage-cheese-200g/105877.html",
      "zone": "冷藏",
      "aisle": 2,
@@ -2126,7 +1238,9 @@
      "buy_qty": "",
      "buy_unit": "",
      "_pack_g": null,
-     "used_on": [],
+     "used_on": [
+      "11/15"
+     ],
      "note": "",
      "bean_form": null,
      "_g_need": 0.0,
@@ -2139,37 +1253,6 @@
       "size": "6pk",
       "price_gbp": 2.0,
       "link": "https://www.iceland.co.uk/p/iceland-kiwi-6pk/61776.html"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "烟熏三文鱼",
-     "name_display": "烟熏三文鱼",
-     "packs": 1,
-     "pack_size": "200g",
-     "name_en": "Iceland 2 Lightly Smoked Salmon Fillets 200g",
-     "name_short": "Iceland 2 Lightly Smoked Salmon Fillets",
-     "brand": "Iceland",
-     "unit_price_gbp": 4.5,
-     "line_total_gbp": 4.5,
-     "buy_qty": 200.0,
-     "buy_unit": "g",
-     "_pack_g": 200.0,
-     "used_on": [
-      "11/20"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 130.5,
-     "link": "https://www.iceland.co.uk/p/iceland-2-lightly-smoked-salmon-fillets-200g/17428.html",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Iceland 2 Lightly Smoked Salmon Fillets 200g",
-      "brand": "Iceland",
-      "size": "200g",
-      "price_gbp": 4.5,
-      "link": "https://www.iceland.co.uk/p/iceland-2-lightly-smoked-salmon-fillets-200g/17428.html"
      }
     },
     {
@@ -2204,98 +1287,37 @@
      }
     },
     {
-     "category": "豆制品",
-     "name": "鹰嘴豆泥",
-     "name_display": "鹰嘴豆泥",
+     "category": "水果",
+     "name": "草莓",
+     "name_display": "草莓",
      "packs": 1,
-     "pack_size": "500g",
-     "name_en": "Ramona's Original Heavenly Houmous 500g",
-     "name_short": "Ramona's Original Heavenly Houmous",
-     "brand": "Ramona's",
-     "unit_price_gbp": 3.6,
-     "line_total_gbp": 3.6,
-     "buy_qty": 500.0,
+     "pack_size": "200g",
+     "name_en": "Chooee Strawberry Super Mix 200g",
+     "name_short": "Chooee Strawberry Super Mix",
+     "brand": "Chooee",
+     "unit_price_gbp": 1.0,
+     "line_total_gbp": 1.0,
+     "buy_qty": 200.0,
      "buy_unit": "g",
-     "_pack_g": 500.0,
+     "_pack_g": 200.0,
      "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.iceland.co.uk/p/ramonas-original-heavenly-houmous-500g/107190.html",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Ramona's Original Heavenly Houmous 500g",
-      "brand": "Ramona's",
-      "size": "500g",
-      "price_gbp": 3.6,
-      "link": "https://www.iceland.co.uk/p/ramonas-original-heavenly-houmous-500g/107190.html"
-     }
-    },
-    {
-     "category": "调料",
-     "name": "番茄酱",
-     "name_display": "番茄酱",
-     "packs": 1,
-     "pack_size": "1.35kg",
-     "name_en": "Heinz Tomato Ketchup 1.35kg",
-     "name_short": "Heinz Tomato Ketchup",
-     "brand": "Heinz",
-     "unit_price_gbp": 5.0,
-     "line_total_gbp": 5.0,
-     "buy_qty": 1350.0,
-     "buy_unit": "g",
-     "_pack_g": 1350.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.iceland.co.uk/p/heinz-tomato-ketchup-1.35kg/14120.html",
-     "zone": "室温",
-     "aisle": 4,
-     "product": {
-      "name": "Heinz Tomato Ketchup 1.35kg",
-      "brand": "Heinz",
-      "size": "1.35kg",
-      "price_gbp": 5.0,
-      "link": "https://www.iceland.co.uk/p/heinz-tomato-ketchup-1.35kg/14120.html"
-     }
-    },
-    {
-     "category": "乳制品",
-     "name": "牛奶",
-     "name_display": "牛奶",
-     "packs": 1,
-     "pack_size": "3L",
-     "name_en": "Dale Farm Fresh Whole Milk 5.28 Pints/3L",
-     "name_short": "Dale Farm Fresh Whole Milk 5.28 Pints/3L",
-     "brand": "Dale Farm",
-     "unit_price_gbp": 2.35,
-     "line_total_gbp": 2.35,
-     "buy_qty": 3000.0,
-     "buy_unit": "g",
-     "_pack_g": 3000.0,
-     "used_on": [
+      "11/08",
+      "11/15",
       "11/16",
-      "11/19",
-      "11/21"
+      "11/18"
      ],
-     "note": "",
+     "note": "易坏，分批",
      "bean_form": null,
-     "_g_need": 188.48484848484847,
-     "link": "https://www.iceland.co.uk/p/dale-farm-fresh-whole-milk-5.28-pints%2F3l/3545.html",
+     "_g_need": 0.0,
+     "link": "https://www.iceland.co.uk/p/chooee-strawberry-super-mix-200g/102058.html",
      "zone": "冷藏",
-     "aisle": 2,
+     "aisle": 1,
      "product": {
-      "name": "Dale Farm Fresh Whole Milk 5.28 Pints/3L",
-      "brand": "Dale Farm",
-      "size": "3L",
-      "price_gbp": 2.35,
-      "link": "https://www.iceland.co.uk/p/dale-farm-fresh-whole-milk-5.28-pints%2F3l/3545.html"
+      "name": "Chooee Strawberry Super Mix 200g",
+      "brand": "Chooee",
+      "size": "200g",
+      "price_gbp": 1.0,
+      "link": "https://www.iceland.co.uk/p/chooee-strawberry-super-mix-200g/102058.html"
      }
     },
     {
@@ -2313,8 +1335,7 @@
      "buy_unit": "g",
      "_pack_g": 200.0,
      "used_on": [
-      "11/08",
-      "11/15"
+      "11/08"
      ],
      "note": "",
      "bean_form": null,
@@ -2331,64 +1352,54 @@
      }
     },
     {
-     "category": "乳制品",
-     "name": "马苏里拉",
-     "name_display": "马苏里拉",
+     "category": "肉类",
+     "name": "鸡肉",
+     "name_display": "鸡肉",
      "packs": 1,
-     "pack_size": "900g",
-     "name_en": "Iceland 60 (Approx.) Mozzarella Sticks 900g",
-     "name_short": "Iceland 60 (Approx.) Mozzarella Sticks",
-     "brand": "Iceland",
-     "unit_price_gbp": 6.0,
-     "line_total_gbp": 6.0,
-     "buy_qty": 900.0,
+     "pack_size": "500ml",
+     "name_en": "Crucials Chicken Shop Creamy Ranch 500ml",
+     "name_short": "Crucials Chicken Shop Creamy Ranch",
+     "brand": "Crucials",
+     "unit_price_gbp": 1.5,
+     "line_total_gbp": 1.5,
+     "buy_qty": 500.0,
      "buy_unit": "g",
-     "_pack_g": 900.0,
+     "_pack_g": 500.0,
      "used_on": [
       "11/15"
      ],
      "note": "",
      "bean_form": null,
      "_g_need": 0.0,
-     "link": "https://www.iceland.co.uk/p/iceland-60-%28approx.%29-mozzarella-sticks-900g/90908.html",
+     "link": "https://www.iceland.co.uk/p/crucials-chicken-shop-creamy-ranch-500ml/107408.html",
      "zone": "冷藏",
      "aisle": 2,
      "product": {
-      "name": "Iceland 60 (Approx.) Mozzarella Sticks 900g",
-      "brand": "Iceland",
-      "size": "900g",
-      "price_gbp": 6.0,
-      "link": "https://www.iceland.co.uk/p/iceland-60-%28approx.%29-mozzarella-sticks-900g/90908.html"
+      "name": "Crucials Chicken Shop Creamy Ranch 500ml",
+      "brand": "Crucials",
+      "size": "500ml",
+      "price_gbp": 1.5,
+      "link": "https://www.iceland.co.uk/p/crucials-chicken-shop-creamy-ranch-500ml/107408.html"
      }
     }
    ],
    "batches": [],
-   "total_gbp": 38.85,
+   "total_gbp": 24.5,
    "missing": [
-    "藜麦",
-    "黑豆",
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆",
-    "黑醋",
-    "羽衣甘蓝",
+    "蛋白",
     "紫甘蓝"
    ],
    "pantry_missing": [],
    "unavailable": [
-    "藜麦",
-    "黑豆",
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆",
-    "黑醋",
-    "羽衣甘蓝",
+    "蛋白",
     "紫甘蓝"
    ],
-   "coverage": 0.6667,
-   "vs_recommend_gbp": 18.77,
-   "vs_recommend_common_n": 14,
-   "vs_recommend_store_gbp": 38.85,
-   "vs_recommend_rec_gbp": 20.08,
-   "vs_recommend_missing": 5
+   "coverage": 0.8182,
+   "vs_recommend_gbp": 13.58,
+   "vs_recommend_common_n": 9,
+   "vs_recommend_store_gbp": 24.5,
+   "vs_recommend_rec_gbp": 10.92,
+   "vs_recommend_missing": 1
   },
   "TESCO": {
    "store": "TESCO",
@@ -2396,248 +1407,122 @@
    "items": [
     {
      "category": "主食",
-     "name": "藜麦",
-     "name_display": "藜麦",
-     "packs": 2,
-     "pack_size": "250g",
-     "name_en": "Buchanans Quinoa 250G",
-     "name_short": "Buchanans Quinoa",
-     "brand": "BUCHANANS",
-     "unit_price_gbp": 1.9,
-     "line_total_gbp": 3.8,
-     "buy_qty": 500.0,
+     "name": "番茄酱",
+     "name_display": "番茄酱罐头",
+     "packs": 1,
+     "pack_size": "410g",
+     "name_en": "Tesco Spaghetti Rings In Tomato Sauce 410G",
+     "name_short": "Tesco Spaghetti Rings In Tomato Sauce",
+     "brand": "TESCO",
+     "unit_price_gbp": 0.5,
+     "line_total_gbp": 0.5,
+     "buy_qty": 410.0,
      "buy_unit": "g",
-     "_pack_g": 250.0,
+     "_pack_g": 410.0,
      "used_on": [
-      "11/08",
-      "11/15",
-      "11/17",
-      "11/19",
-      "11/20"
+      "11/15"
      ],
-     "note": "耐存，一次买够",
+     "note": "",
      "bean_form": null,
-     "_g_need": 351.9316239316239,
-     "link": "https://www.tesco.com/shop/en-GB/products/297133405",
+     "_g_need": 4.523809523809524,
+     "link": "https://www.tesco.com/shop/en-GB/products/289055728",
      "zone": "室温",
      "aisle": 3,
      "product": {
-      "name": "Buchanans Quinoa 250G",
-      "brand": "BUCHANANS",
-      "size": "250g",
-      "price_gbp": 1.9,
-      "link": "https://www.tesco.com/shop/en-GB/products/297133405"
+      "name": "Tesco Spaghetti Rings In Tomato Sauce 410G",
+      "brand": "TESCO",
+      "size": "410g",
+      "price_gbp": 0.5,
+      "link": "https://www.tesco.com/shop/en-GB/products/289055728"
      }
     },
     {
-     "category": "肉类",
-     "name": "牛肉",
-     "name_display": "牛肉",
-     "packs": 9,
-     "pack_size": "200g",
-     "name_en": "Tesco Beef Suet 200G",
-     "name_short": "Tesco Beef Suet",
-     "brand": "TESCO",
-     "unit_price_gbp": 1.65,
-     "line_total_gbp": 14.85,
-     "buy_qty": 1800.0,
+     "category": "乳制品",
+     "name": "马苏里拉",
+     "name_display": "马苏里拉",
+     "packs": 1,
+     "pack_size": "125g",
+     "name_en": "Creamfields Mozzarella 210G",
+     "name_short": "Creamfields Mozzarella",
+     "brand": "CREAMFIELDS",
+     "unit_price_gbp": 0.55,
+     "line_total_gbp": 0.55,
+     "buy_qty": 125.0,
      "buy_unit": "g",
-     "_pack_g": 200.0,
-     "used_on": [],
+     "_pack_g": 125.0,
+     "used_on": [
+      "11/15"
+     ],
      "note": "",
      "bean_form": null,
-     "_g_need": 1741.1764705882356,
-     "link": "https://www.tesco.com/shop/en-GB/products/309456235",
+     "_g_need": 20.77777777777778,
+     "link": "https://www.tesco.com/shop/en-GB/products/299914475",
      "zone": "冷藏",
      "aisle": 2,
      "product": {
-      "name": "Tesco Beef Suet 200G",
-      "brand": "TESCO",
-      "size": "200g",
-      "price_gbp": 1.65,
-      "link": "https://www.tesco.com/shop/en-GB/products/309456235"
+      "name": "Creamfields Mozzarella 210G",
+      "brand": "CREAMFIELDS",
+      "size": "125g",
+      "price_gbp": 0.55,
+      "link": "https://www.tesco.com/shop/en-GB/products/299914475"
      }
     },
     {
-     "category": "豆制品",
-     "name": "黑豆",
-     "name_display": "黑豆",
+     "category": "蛋类",
+     "name": "蛋白",
+     "name_display": "蛋白",
      "packs": 1,
-     "pack_size": "845g",
-     "name_en": "Compal Black Beans In Tin/Preto 845G",
-     "name_short": "Compal Black Beans In Tin/Preto",
-     "brand": "COMPAL",
-     "unit_price_gbp": 2.0,
-     "line_total_gbp": 2.0,
-     "buy_qty": 845.0,
+     "pack_size": "500ml",
+     "name_en": "Two Chicks Liquid Egg Whites 500 Ml",
+     "name_short": "Two Chicks Liquid Egg Whites",
+     "brand": "two chicks",
+     "unit_price_gbp": 3.7,
+     "line_total_gbp": 3.7,
+     "buy_qty": 500.0,
      "buy_unit": "g",
-     "_pack_g": 845.0,
-     "used_on": [
-      "11/17"
-     ],
-     "note": "干豆泡 8h、煮 40–50min；约 63g 干豆 ≈ 139g 煮后（餐单按煮后量计）。",
-     "bean_form": "dry",
-     "_g_need": 833.1666666666667,
-     "link": "https://www.tesco.com/shop/en-GB/products/266870898",
-     "zone": "室温",
-     "aisle": 3,
+     "_pack_g": 500.0,
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 12.0,
+     "link": "https://www.tesco.com/shop/en-GB/products/266552250",
+     "zone": "冷藏",
+     "aisle": 2,
      "product": {
-      "name": "Compal Black Beans In Tin/Preto 845G",
-      "brand": "COMPAL",
-      "size": "845g",
-      "price_gbp": 2.0,
-      "link": "https://www.tesco.com/shop/en-GB/products/266870898"
+      "name": "Two Chicks Liquid Egg Whites 500 Ml",
+      "brand": "two chicks",
+      "size": "500ml",
+      "price_gbp": 3.7,
+      "link": "https://www.tesco.com/shop/en-GB/products/266552250"
      }
     },
     {
-     "category": "蔬菜",
-     "name": "葡萄番茄",
-     "name_display": "葡萄番茄罐头",
+     "category": "主食",
+     "name": "法棍",
+     "name_display": "法棍",
      "packs": 1,
      "pack_size": "400g",
-     "name_en": "Grower's Harvest Plum Tomatoes 400G",
-     "name_short": "Grower's Harvest Plum Tomatoes",
-     "brand": "GROWER'S HARVEST",
-     "unit_price_gbp": 0.43,
-     "line_total_gbp": 0.43,
+     "name_en": "Tesco Finest White Sourdough Baguette 400g",
+     "name_short": "Tesco Finest White Sourdough Baguette",
+     "brand": "TESCO finest",
+     "unit_price_gbp": 2.0,
+     "line_total_gbp": 2.0,
      "buy_qty": 400.0,
      "buy_unit": "g",
      "_pack_g": 400.0,
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 132.44975,
-     "link": "https://www.tesco.com/shop/en-GB/products/300522822",
-     "zone": "冷藏",
-     "aisle": 1,
+     "_g_need": 65.0,
+     "link": "https://www.tesco.com/shop/en-GB/products/321107211",
+     "zone": "室温",
+     "aisle": 3,
      "product": {
-      "name": "Grower's Harvest Plum Tomatoes 400G",
-      "brand": "GROWER'S HARVEST",
+      "name": "Tesco Finest White Sourdough Baguette 400g",
+      "brand": "TESCO finest",
       "size": "400g",
-      "price_gbp": 0.43,
-      "link": "https://www.tesco.com/shop/en-GB/products/300522822"
-     }
-    },
-    {
-     "category": "肉类",
-     "name": "鸡肉",
-     "name_display": "鸡肉",
-     "packs": 1,
-     "pack_size": "1kg",
-     "name_en": "Tesco British Chicken Legs 1Kg",
-     "name_short": "Tesco Chicken Legs",
-     "brand": "TESCO",
-     "unit_price_gbp": 2.25,
-     "line_total_gbp": 2.25,
-     "buy_qty": 1000.0,
-     "buy_unit": "g",
-     "_pack_g": 1000.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 367.51300000000003,
-     "link": "https://www.tesco.com/shop/en-GB/products/285210436",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Tesco British Chicken Legs 1Kg",
-      "brand": "TESCO",
-      "size": "1kg",
-      "price_gbp": 2.25,
-      "link": "https://www.tesco.com/shop/en-GB/products/285210436"
-     }
-    },
-    {
-     "category": "水果",
-     "name": "草莓",
-     "name_display": "草莓",
-     "packs": 1,
-     "pack_size": "200g",
-     "name_en": "Graham's The Family Dairy Protein 25G Strawberry Pack 200G",
-     "name_short": "Graham's The Family Dairy Protein Strawberry Pack",
-     "brand": "graham's THE family DAIRY",
-     "unit_price_gbp": 1.15,
-     "line_total_gbp": 1.15,
-     "buy_qty": 200.0,
-     "buy_unit": "g",
-     "_pack_g": 200.0,
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/16"
-     ],
-     "note": "易坏，分批",
-     "bean_form": null,
-     "_g_need": 137.2,
-     "link": "https://www.tesco.com/shop/en-GB/products/312695673",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Graham's The Family Dairy Protein 25G Strawberry Pack 200G",
-      "brand": "graham's THE family DAIRY",
-      "size": "200g",
-      "price_gbp": 1.15,
-      "link": "https://www.tesco.com/shop/en-GB/products/312695673"
-     }
-    },
-    {
-     "category": "调料",
-     "name": "青柠",
-     "name_display": "青柠罐头",
-     "packs": 1,
-     "pack_size": "1.5l",
-     "name_en": "Deep River Rock Blueberry Lime Still Water 1.5 Litre",
-     "name_short": "Deep River Rock Blueberry Lime Still Water 1.5 Litre",
-     "brand": "DEEP RIVER ROCK",
-     "unit_price_gbp": 1.5,
-     "line_total_gbp": 1.5,
-     "buy_qty": 1500.0,
-     "buy_unit": "g",
-     "_pack_g": 1500.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 7.428571428571429,
-     "link": "https://www.tesco.com/shop/en-GB/products/323666069",
-     "zone": "室温",
-     "aisle": 4,
-     "product": {
-      "name": "Deep River Rock Blueberry Lime Still Water 1.5 Litre",
-      "brand": "DEEP RIVER ROCK",
-      "size": "1.5l",
-      "price_gbp": 1.5,
-      "link": "https://www.tesco.com/shop/en-GB/products/323666069"
-     }
-    },
-    {
-     "category": "调料",
-     "name": "黑醋",
-     "name_display": "黑醋",
-     "packs": 1,
-     "pack_size": "250ml",
-     "name_en": "Tesco Balsamic Vinegar Of Modena 250Ml",
-     "name_short": "Tesco Balsamic Vinegar Of Modena",
-     "brand": "TESCO",
-     "unit_price_gbp": 1.75,
-     "line_total_gbp": 1.75,
-     "buy_qty": 250.0,
-     "buy_unit": "g",
-     "_pack_g": 250.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 8.6898,
-     "link": "https://www.tesco.com/shop/en-GB/products/254296718",
-     "zone": "室温",
-     "aisle": 4,
-     "product": {
-      "name": "Tesco Balsamic Vinegar Of Modena 250Ml",
-      "brand": "TESCO",
-      "size": "250ml",
-      "price_gbp": 1.75,
-      "link": "https://www.tesco.com/shop/en-GB/products/254296718"
+      "price_gbp": 2.0,
+      "link": "https://www.tesco.com/shop/en-GB/products/321107211"
      }
     },
     {
@@ -2659,7 +1544,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 222.76500000000001,
+     "_g_need": 292.215,
      "link": "https://www.tesco.com/shop/en-GB/products/300543993",
      "zone": "冷藏",
      "aisle": 2,
@@ -2685,10 +1570,12 @@
      "buy_qty": 200.0,
      "buy_unit": "g",
      "_pack_g": 100.0,
-     "used_on": [],
+     "used_on": [
+      "11/15"
+     ],
      "note": "",
      "bean_form": null,
-     "_g_need": 118.808,
+     "_g_need": 155.84799999999998,
      "link": "https://www.tesco.com/shop/en-GB/products/317546877",
      "zone": "冷藏",
      "aisle": 1,
@@ -2698,99 +1585,6 @@
       "size": "100g",
       "price_gbp": 1.5,
       "link": "https://www.tesco.com/shop/en-GB/products/317546877"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "烟熏三文鱼",
-     "name_display": "烟熏三文鱼",
-     "packs": 2,
-     "pack_size": "100g",
-     "name_en": "Tesco Smoked Salmon 100g",
-     "name_short": "Tesco Smoked Salmon",
-     "brand": "TESCO",
-     "unit_price_gbp": 3.0,
-     "line_total_gbp": 6.0,
-     "buy_qty": 200.0,
-     "buy_unit": "g",
-     "_pack_g": 100.0,
-     "used_on": [
-      "11/20"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 130.5,
-     "link": "https://www.tesco.com/shop/en-GB/products/314583520",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Tesco Smoked Salmon 100g",
-      "brand": "TESCO",
-      "size": "100g",
-      "price_gbp": 3.0,
-      "link": "https://www.tesco.com/shop/en-GB/products/314583520"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "羽衣甘蓝",
-     "name_display": "羽衣甘蓝",
-     "packs": 2,
-     "pack_size": "180g",
-     "name_en": "Tesco Curly Kale 180G",
-     "name_short": "Tesco Curly Kale",
-     "brand": "TESCO",
-     "unit_price_gbp": 0.8,
-     "line_total_gbp": 1.6,
-     "buy_qty": 360.0,
-     "buy_unit": "g",
-     "_pack_g": 180.0,
-     "used_on": [
-      "11/08"
-     ],
-     "note": "易坏，分批",
-     "bean_form": null,
-     "_g_need": 305.0,
-     "link": "https://www.tesco.com/shop/en-GB/products/301219155",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Tesco Curly Kale 180G",
-      "brand": "TESCO",
-      "size": "180g",
-      "price_gbp": 0.8,
-      "link": "https://www.tesco.com/shop/en-GB/products/301219155"
-     }
-    },
-    {
-     "category": "主食",
-     "name": "番茄酱",
-     "name_display": "番茄酱罐头",
-     "packs": 1,
-     "pack_size": "410g",
-     "name_en": "Tesco Spaghetti Rings In Tomato Sauce 410G",
-     "name_short": "Tesco Spaghetti Rings In Tomato Sauce",
-     "brand": "TESCO",
-     "unit_price_gbp": 0.5,
-     "line_total_gbp": 0.5,
-     "buy_qty": 410.0,
-     "buy_unit": "g",
-     "_pack_g": 410.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.tesco.com/shop/en-GB/products/289055728",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Tesco Spaghetti Rings In Tomato Sauce 410G",
-      "brand": "TESCO",
-      "size": "410g",
-      "price_gbp": 0.5,
-      "link": "https://www.tesco.com/shop/en-GB/products/289055728"
      }
     },
     {
@@ -2825,34 +1619,37 @@
      }
     },
     {
-     "category": "豆制品",
-     "name": "鹰嘴豆泥",
-     "name_display": "鹰嘴豆泥",
+     "category": "水果",
+     "name": "草莓",
+     "name_display": "草莓",
      "packs": 1,
-     "pack_size": "300g",
-     "name_en": "Tesco Houmous 300g",
-     "name_short": "Tesco Houmous",
-     "brand": "TESCO",
-     "unit_price_gbp": 1.65,
-     "line_total_gbp": 1.65,
-     "buy_qty": 300.0,
+     "pack_size": "200g",
+     "name_en": "Graham's The Family Dairy Protein 25G Strawberry Pack 200G",
+     "name_short": "Graham's The Family Dairy Protein Strawberry Pack",
+     "brand": "graham's THE family DAIRY",
+     "unit_price_gbp": 1.15,
+     "line_total_gbp": 1.15,
+     "buy_qty": 200.0,
      "buy_unit": "g",
-     "_pack_g": 300.0,
+     "_pack_g": 200.0,
      "used_on": [
-      "11/15"
+      "11/08",
+      "11/15",
+      "11/16",
+      "11/18"
      ],
-     "note": "",
+     "note": "易坏，分批",
      "bean_form": null,
      "_g_need": 0.0,
-     "link": "https://www.tesco.com/shop/en-GB/products/320967265",
-     "zone": "室温",
-     "aisle": 3,
+     "link": "https://www.tesco.com/shop/en-GB/products/312695673",
+     "zone": "冷藏",
+     "aisle": 1,
      "product": {
-      "name": "Tesco Houmous 300g",
-      "brand": "TESCO",
-      "size": "300g",
-      "price_gbp": 1.65,
-      "link": "https://www.tesco.com/shop/en-GB/products/320967265"
+      "name": "Graham's The Family Dairy Protein 25G Strawberry Pack 200G",
+      "brand": "graham's THE family DAIRY",
+      "size": "200g",
+      "price_gbp": 1.15,
+      "link": "https://www.tesco.com/shop/en-GB/products/312695673"
      }
     },
     {
@@ -2870,7 +1667,7 @@
      "buy_unit": "",
      "_pack_g": null,
      "used_on": [
-      "11/15"
+      "11/16"
      ],
      "note": "",
      "bean_form": null,
@@ -2888,39 +1685,6 @@
     },
     {
      "category": "乳制品",
-     "name": "牛奶",
-     "name_display": "牛奶",
-     "packs": 1,
-     "pack_size": "2.272l",
-     "name_en": "Tesco British Whole Milk 2.272L, 4 Pints",
-     "name_short": "Tesco Whole Milk, 4 Pints",
-     "brand": "TESCO",
-     "unit_price_gbp": 1.75,
-     "line_total_gbp": 1.75,
-     "buy_qty": 2272.0,
-     "buy_unit": "g",
-     "_pack_g": 2272.0,
-     "used_on": [
-      "11/16",
-      "11/19",
-      "11/21"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 168.1081081081081,
-     "link": "https://www.tesco.com/shop/en-GB/products/254656399",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Tesco British Whole Milk 2.272L, 4 Pints",
-      "brand": "TESCO",
-      "size": "2.272l",
-      "price_gbp": 1.75,
-      "link": "https://www.tesco.com/shop/en-GB/products/254656399"
-     }
-    },
-    {
-     "category": "乳制品",
      "name": "菲达奶酪",
      "name_display": "菲达奶酪",
      "packs": 1,
@@ -2934,8 +1698,7 @@
      "buy_unit": "g",
      "_pack_g": 200.0,
      "used_on": [
-      "11/08",
-      "11/15"
+      "11/08"
      ],
      "note": "",
      "bean_form": null,
@@ -2952,14 +1715,93 @@
      }
     },
     {
+     "category": "肉类",
+     "name": "鸡肉",
+     "name_display": "鸡肉",
+     "packs": 1,
+     "pack_size": "1kg",
+     "name_en": "Tesco British Chicken Legs 1Kg",
+     "name_short": "Tesco Chicken Legs",
+     "brand": "TESCO",
+     "unit_price_gbp": 2.25,
+     "line_total_gbp": 2.25,
+     "buy_qty": 1000.0,
+     "buy_unit": "g",
+     "_pack_g": 1000.0,
+     "used_on": [
+      "11/15"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 0.0,
+     "link": "https://www.tesco.com/shop/en-GB/products/285210436",
+     "zone": "冷藏",
+     "aisle": 2,
+     "product": {
+      "name": "Tesco British Chicken Legs 1Kg",
+      "brand": "TESCO",
+      "size": "1kg",
+      "price_gbp": 2.25,
+      "link": "https://www.tesco.com/shop/en-GB/products/285210436"
+     }
+    }
+   ],
+   "batches": [],
+   "total_gbp": 17.33,
+   "missing": [],
+   "pantry_missing": [],
+   "unavailable": [],
+   "coverage": 1.0,
+   "vs_recommend_gbp": 1.52,
+   "vs_recommend_common_n": 10,
+   "vs_recommend_store_gbp": 13.63,
+   "vs_recommend_rec_gbp": 12.11,
+   "vs_recommend_missing": 0
+  },
+  "MORRISONS": {
+   "store": "MORRISONS",
+   "store_label": "Morrisons",
+   "items": [
+    {
+     "category": "主食",
+     "name": "番茄酱",
+     "name_display": "番茄酱罐头",
+     "packs": 1,
+     "pack_size": "395g",
+     "name_en": "Morrisons Spaghetti Loops in Tomato Sauce",
+     "name_short": "Morrisons Spaghetti Loops in Tomato Sauce",
+     "brand": "Morrisons",
+     "unit_price_gbp": 0.44,
+     "line_total_gbp": 0.44,
+     "buy_qty": 395.0,
+     "buy_unit": "g",
+     "_pack_g": 395.0,
+     "used_on": [
+      "11/15"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 4.7899159663865545,
+     "link": "https://groceries.morrisons.com/products/105491598",
+     "zone": "室温",
+     "aisle": 3,
+     "product": {
+      "name": "Morrisons Spaghetti Loops in Tomato Sauce",
+      "brand": "Morrisons",
+      "size": "395g",
+      "price_gbp": 0.44,
+      "link": "https://groceries.morrisons.com/products/105491598"
+     }
+    },
+    {
      "category": "乳制品",
      "name": "马苏里拉",
-     "name_display": "马苏里拉",
+     "name_display": "马苏里拉罐头",
      "packs": 1,
      "pack_size": "125g",
-     "name_en": "Creamfields Mozzarella 210G",
-     "name_short": "Creamfields Mozzarella",
-     "brand": "CREAMFIELDS",
+     "name_en": "Morrisons Savers Mozzarella 125g",
+     "name_short": "Morrisons Savers Mozzarella",
+     "brand": "Morrisons",
      "unit_price_gbp": 0.55,
      "line_total_gbp": 0.55,
      "buy_qty": 125.0,
@@ -2970,285 +1812,74 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.tesco.com/shop/en-GB/products/299914475",
+     "_g_need": 20.77777777777778,
+     "link": "https://groceries.morrisons.com/products/112565655",
      "zone": "冷藏",
      "aisle": 2,
      "product": {
-      "name": "Creamfields Mozzarella 210G",
-      "brand": "CREAMFIELDS",
+      "name": "Morrisons Savers Mozzarella 125g",
+      "brand": "Morrisons",
       "size": "125g",
       "price_gbp": 0.55,
-      "link": "https://www.tesco.com/shop/en-GB/products/299914475"
-     }
-    }
-   ],
-   "batches": [],
-   "total_gbp": 46.96,
-   "missing": [
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆"
-   ],
-   "pantry_missing": [],
-   "unavailable": [
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆"
-   ],
-   "coverage": 0.9048,
-   "vs_recommend_gbp": 18.85,
-   "vs_recommend_common_n": 19,
-   "vs_recommend_store_gbp": 46.96,
-   "vs_recommend_rec_gbp": 28.11,
-   "vs_recommend_missing": 0
-  },
-  "MORRISONS": {
-   "store": "MORRISONS",
-   "store_label": "Morrisons",
-   "items": [
-    {
-     "category": "主食",
-     "name": "藜麦",
-     "name_display": "藜麦罐头",
-     "packs": 1,
-     "pack_size": "400g",
-     "name_en": "Biona Organic Chilli Con Quinoa (400g)",
-     "name_short": "Biona Organic Chilli Con Quinoa (400g)",
-     "brand": "Biona",
-     "unit_price_gbp": 3.29,
-     "line_total_gbp": 3.29,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "_pack_g": 400.0,
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/17",
-      "11/19",
-      "11/20"
-     ],
-     "note": "耐存",
-     "bean_form": null,
-     "_g_need": 351.9316239316239,
-     "link": "https://groceries.morrisons.com/products/300001639",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Biona Organic Chilli Con Quinoa (400g)",
-      "brand": "Biona",
-      "size": "400g",
-      "price_gbp": 3.29,
-      "link": "https://groceries.morrisons.com/products/300001639"
+      "link": "https://groceries.morrisons.com/products/112565655"
      }
     },
     {
-     "category": "肉类",
-     "name": "牛肉",
-     "name_display": "牛肉",
-     "packs": 5,
-     "pack_size": "1kg - 1kg",
-     "name_en": "Morrisons British Beef Marrowbone 650g",
-     "name_short": "Morrisons Beef Marrowbone",
-     "brand": "Morrisons",
-     "unit_price_gbp": 3.9,
-     "line_total_gbp": 19.5,
-     "buy_qty": 5000.0,
-     "buy_unit": "g",
-     "_pack_g": 1000.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 4933.333333333334,
-     "link": "https://groceries.morrisons.com/products/109471640",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Morrisons British Beef Marrowbone 650g",
-      "brand": "Morrisons",
-      "size": "1kg - 1kg",
-      "price_gbp": 3.9,
-      "link": "https://groceries.morrisons.com/products/109471640"
-     }
-    },
-    {
-     "category": "豆制品",
-     "name": "黑豆",
-     "name_display": "黑豆",
-     "packs": 3,
-     "pack_size": "425g",
-     "name_en": "Old El Paso Mild Black Beans 425g",
-     "name_short": "Old El Paso Mild Black Beans",
-     "brand": "Old El Paso",
-     "unit_price_gbp": 2.4,
-     "line_total_gbp": 7.2,
-     "buy_qty": 1275.0,
-     "buy_unit": "g",
-     "_pack_g": 425.0,
-     "used_on": [
-      "11/17"
-     ],
-     "note": "干豆泡 8h、煮 40–50min；约 63g 干豆 ≈ 139g 煮后（餐单按煮后量计）。",
-     "bean_form": "dry",
-     "_g_need": 1086.7391304347827,
-     "link": "https://groceries.morrisons.com/products/112495108",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Old El Paso Mild Black Beans 425g",
-      "brand": "Old El Paso",
-      "size": "425g",
-      "price_gbp": 2.4,
-      "link": "https://groceries.morrisons.com/products/112495108"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "葡萄番茄",
-     "name_display": "葡萄番茄罐头",
-     "packs": 1,
-     "pack_size": "400g",
-     "name_en": "Morrisons Peeled Plum Tomatoes (400g)",
-     "name_short": "Morrisons Peeled Plum Tomatoes (400g)",
-     "brand": "Morrisons",
-     "unit_price_gbp": 0.47,
-     "line_total_gbp": 0.47,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "_pack_g": 400.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 132.44975,
-     "link": "https://groceries.morrisons.com/products/105415472",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Morrisons Peeled Plum Tomatoes (400g)",
-      "brand": "Morrisons",
-      "size": "400g",
-      "price_gbp": 0.47,
-      "link": "https://groceries.morrisons.com/products/105415472"
-     }
-    },
-    {
-     "category": "肉类",
-     "name": "鸡肉",
-     "name_display": "鸡肉",
-     "packs": 1,
-     "pack_size": "1.35kg",
-     "name_en": "Morrisons British Chicken Legs 1.35kg",
-     "name_short": "Morrisons Chicken Legs",
-     "brand": "Morrisons",
-     "unit_price_gbp": 3.65,
-     "line_total_gbp": 3.65,
-     "buy_qty": 1350.0,
-     "buy_unit": "g",
-     "_pack_g": 1350.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 367.51300000000003,
-     "link": "https://groceries.morrisons.com/products/106793467",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Morrisons British Chicken Legs 1.35kg",
-      "brand": "Morrisons",
-      "size": "1.35kg",
-      "price_gbp": 3.65,
-      "link": "https://groceries.morrisons.com/products/106793467"
-     }
-    },
-    {
-     "category": "水果",
-     "name": "草莓",
-     "name_display": "草莓",
+     "category": "蛋类",
+     "name": "蛋白",
+     "name_display": "蛋白",
      "packs": 1,
      "pack_size": "500g",
-     "name_en": "Morrisons Strawberry Crisp   500g",
-     "name_short": "Morrisons Strawberry Crisp",
-     "brand": "Morrisons",
-     "unit_price_gbp": 2.1,
-     "line_total_gbp": 2.1,
+     "name_en": "Two Chicks Free Range Egg Whites 500g Chilled",
+     "name_short": "Two Chicks Free Range Egg Whites Chilled",
+     "brand": "Two Chicks",
+     "unit_price_gbp": 3.5,
+     "line_total_gbp": 3.5,
      "buy_qty": 500.0,
      "buy_unit": "g",
      "_pack_g": 500.0,
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/16"
-     ],
-     "note": "易坏，分批",
+     "used_on": [],
+     "note": "",
      "bean_form": null,
-     "_g_need": 15.043859649122805,
-     "link": "https://groceries.morrisons.com/products/105933448",
+     "_g_need": 12.0,
+     "link": "https://groceries.morrisons.com/products/108184526",
      "zone": "冷藏",
-     "aisle": 1,
+     "aisle": 2,
      "product": {
-      "name": "Morrisons Strawberry Crisp   500g",
-      "brand": "Morrisons",
+      "name": "Two Chicks Free Range Egg Whites 500g Chilled",
+      "brand": "Two Chicks",
       "size": "500g",
-      "price_gbp": 2.1,
-      "link": "https://groceries.morrisons.com/products/105933448"
+      "price_gbp": 3.5,
+      "link": "https://groceries.morrisons.com/products/108184526"
      }
     },
     {
-     "category": "待分类",
-     "name": "青柠",
-     "name_display": "青柠",
+     "category": "主食",
+     "name": "法棍",
+     "name_display": "法棍",
      "packs": 1,
-     "pack_size": "4 x 330ml",
-     "name_en": "Aqua Libra Cucumber Mint And Lime ",
-     "name_short": "Aqua Libra Cucumber Mint And Lime",
-     "brand": "Aqua Libra",
-     "unit_price_gbp": 3.65,
-     "line_total_gbp": 3.65,
-     "buy_qty": 330.0,
-     "buy_unit": "g",
-     "_pack_g": 330.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 7.428571428571429,
-     "link": "https://groceries.morrisons.com/products/115329990",
-     "zone": "室温",
-     "aisle": 9,
-     "product": {
-      "name": "Aqua Libra Cucumber Mint And Lime ",
-      "brand": "Aqua Libra",
-      "size": "4 x 330ml",
-      "price_gbp": 3.65,
-      "link": "https://groceries.morrisons.com/products/115329990"
-     }
-    },
-    {
-     "category": "调料",
-     "name": "黑醋",
-     "name_display": "黑醋",
-     "packs": 1,
-     "pack_size": "250ml",
-     "name_en": "Morrisons 25% Balsamic Vinegar For Cold Dishes 250ml",
-     "name_short": "Morrisons 25% Balsamic Vinegar For Cold Dishes",
+     "pack_size": "400g",
+     "name_en": "Market Street Tiger Baguette 400g",
+     "name_short": "Market Street Tiger Baguette",
      "brand": "Morrisons",
-     "unit_price_gbp": 1.6,
-     "line_total_gbp": 1.6,
-     "buy_qty": 250.0,
+     "unit_price_gbp": 1.35,
+     "line_total_gbp": 1.35,
+     "buy_qty": 400.0,
      "buy_unit": "g",
-     "_pack_g": 250.0,
+     "_pack_g": 400.0,
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 8.6898,
-     "link": "https://groceries.morrisons.com/products/105167288",
+     "_g_need": 65.0,
+     "link": "https://groceries.morrisons.com/products/114487611",
      "zone": "室温",
-     "aisle": 4,
+     "aisle": 3,
      "product": {
-      "name": "Morrisons 25% Balsamic Vinegar For Cold Dishes 250ml",
+      "name": "Market Street Tiger Baguette 400g",
       "brand": "Morrisons",
-      "size": "250ml",
-      "price_gbp": 1.6,
-      "link": "https://groceries.morrisons.com/products/105167288"
+      "size": "400g",
+      "price_gbp": 1.35,
+      "link": "https://groceries.morrisons.com/products/114487611"
      }
     },
     {
@@ -3270,7 +1901,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 222.76500000000001,
+     "_g_need": 292.215,
      "link": "https://groceries.morrisons.com/products/113362809",
      "zone": "冷藏",
      "aisle": 2,
@@ -3296,10 +1927,12 @@
      "buy_qty": 200.0,
      "buy_unit": "g",
      "_pack_g": 100.0,
-     "used_on": [],
+     "used_on": [
+      "11/15"
+     ],
      "note": "",
      "bean_form": null,
-     "_g_need": 118.808,
+     "_g_need": 155.84799999999998,
      "link": "https://groceries.morrisons.com/products/115858912",
      "zone": "冷藏",
      "aisle": 1,
@@ -3309,99 +1942,6 @@
       "size": "100g",
       "price_gbp": 1.5,
       "link": "https://groceries.morrisons.com/products/115858912"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "烟熏三文鱼",
-     "name_display": "烟熏三文鱼",
-     "packs": 2,
-     "pack_size": "100g",
-     "name_en": "Big Blue Sea Smoked Salmon Slices",
-     "name_short": "Big Blue Sea Smoked Salmon Slices",
-     "brand": "Big Blue Sea",
-     "unit_price_gbp": 3.0,
-     "line_total_gbp": 6.0,
-     "buy_qty": 200.0,
-     "buy_unit": "g",
-     "_pack_g": 100.0,
-     "used_on": [
-      "11/20"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 130.5,
-     "link": "https://groceries.morrisons.com/products/114214533",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Big Blue Sea Smoked Salmon Slices",
-      "brand": "Big Blue Sea",
-      "size": "100g",
-      "price_gbp": 3.0,
-      "link": "https://groceries.morrisons.com/products/114214533"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "羽衣甘蓝",
-     "name_display": "羽衣甘蓝",
-     "packs": 1,
-     "pack_size": "150g",
-     "name_en": "Morrisons British Sliced Kale  150g",
-     "name_short": "Morrisons Sliced Kale",
-     "brand": "Morrisons",
-     "unit_price_gbp": 0.66,
-     "line_total_gbp": 0.66,
-     "buy_qty": 150.0,
-     "buy_unit": "g",
-     "_pack_g": 150.0,
-     "used_on": [
-      "11/08"
-     ],
-     "note": "易坏，分批",
-     "bean_form": null,
-     "_g_need": 74.91228070175437,
-     "link": "https://groceries.morrisons.com/products/112941551",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Morrisons British Sliced Kale  150g",
-      "brand": "Morrisons",
-      "size": "150g",
-      "price_gbp": 0.66,
-      "link": "https://groceries.morrisons.com/products/112941551"
-     }
-    },
-    {
-     "category": "主食",
-     "name": "番茄酱",
-     "name_display": "番茄酱罐头",
-     "packs": 1,
-     "pack_size": "395g",
-     "name_en": "Morrisons Spaghetti Loops in Tomato Sauce",
-     "name_short": "Morrisons Spaghetti Loops in Tomato Sauce",
-     "brand": "Morrisons",
-     "unit_price_gbp": 0.44,
-     "line_total_gbp": 0.44,
-     "buy_qty": 395.0,
-     "buy_unit": "g",
-     "_pack_g": 395.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://groceries.morrisons.com/products/105491598",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Morrisons Spaghetti Loops in Tomato Sauce",
-      "brand": "Morrisons",
-      "size": "395g",
-      "price_gbp": 0.44,
-      "link": "https://groceries.morrisons.com/products/105491598"
      }
     },
     {
@@ -3436,34 +1976,37 @@
      }
     },
     {
-     "category": "豆制品",
-     "name": "鹰嘴豆泥",
-     "name_display": "鹰嘴豆泥",
+     "category": "水果",
+     "name": "草莓",
+     "name_display": "草莓",
      "packs": 1,
-     "pack_size": "300g",
-     "name_en": "Morrisons Classic Houmous 300g",
-     "name_short": "Morrisons Classic Houmous",
+     "pack_size": "500g",
+     "name_en": "Morrisons Strawberry Crisp   500g",
+     "name_short": "Morrisons Strawberry Crisp",
      "brand": "Morrisons",
-     "unit_price_gbp": 1.49,
-     "line_total_gbp": 1.49,
-     "buy_qty": 300.0,
+     "unit_price_gbp": 2.1,
+     "line_total_gbp": 2.1,
+     "buy_qty": 500.0,
      "buy_unit": "g",
-     "_pack_g": 300.0,
+     "_pack_g": 500.0,
      "used_on": [
-      "11/15"
+      "11/08",
+      "11/15",
+      "11/16",
+      "11/18"
      ],
-     "note": "",
+     "note": "易坏，分批",
      "bean_form": null,
      "_g_need": 0.0,
-     "link": "https://groceries.morrisons.com/products/104263999",
-     "zone": "室温",
-     "aisle": 3,
+     "link": "https://groceries.morrisons.com/products/105933448",
+     "zone": "冷藏",
+     "aisle": 1,
      "product": {
-      "name": "Morrisons Classic Houmous 300g",
+      "name": "Morrisons Strawberry Crisp   500g",
       "brand": "Morrisons",
-      "size": "300g",
-      "price_gbp": 1.49,
-      "link": "https://groceries.morrisons.com/products/104263999"
+      "size": "500g",
+      "price_gbp": 2.1,
+      "link": "https://groceries.morrisons.com/products/105933448"
      }
     },
     {
@@ -3481,7 +2024,7 @@
      "buy_unit": "g",
      "_pack_g": 200.0,
      "used_on": [
-      "11/15"
+      "11/16"
      ],
      "note": "",
      "bean_form": null,
@@ -3499,39 +2042,6 @@
     },
     {
      "category": "乳制品",
-     "name": "牛奶",
-     "name_display": "牛奶",
-     "packs": 1,
-     "pack_size": "3.408L",
-     "name_en": "Morrisons British Semi Skimmed Milk 6 Pint",
-     "name_short": "Morrisons Semi Skimmed Milk 6 Pint",
-     "brand": "Morrisons",
-     "unit_price_gbp": 2.4,
-     "line_total_gbp": 2.4,
-     "buy_qty": 3408.0,
-     "buy_unit": "g",
-     "_pack_g": 3408.0,
-     "used_on": [
-      "11/16",
-      "11/19",
-      "11/21"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 345.55555555555554,
-     "link": "https://groceries.morrisons.com/products/113240511",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Morrisons British Semi Skimmed Milk 6 Pint",
-      "brand": "Morrisons",
-      "size": "3.408L",
-      "price_gbp": 2.4,
-      "link": "https://groceries.morrisons.com/products/113240511"
-     }
-    },
-    {
-     "category": "乳制品",
      "name": "菲达奶酪",
      "name_display": "菲达奶酪罐头",
      "packs": 1,
@@ -3545,8 +2055,7 @@
      "buy_unit": "g",
      "_pack_g": 410.0,
      "used_on": [
-      "11/08",
-      "11/15"
+      "11/08"
      ],
      "note": "",
      "bean_form": null,
@@ -3563,53 +2072,47 @@
      }
     },
     {
-     "category": "乳制品",
-     "name": "马苏里拉",
-     "name_display": "马苏里拉罐头",
+     "category": "肉类",
+     "name": "鸡肉",
+     "name_display": "鸡肉",
      "packs": 1,
-     "pack_size": "125g",
-     "name_en": "Morrisons Savers Mozzarella 125g",
-     "name_short": "Morrisons Savers Mozzarella",
+     "pack_size": "1.35kg",
+     "name_en": "Morrisons British Chicken Legs 1.35kg",
+     "name_short": "Morrisons Chicken Legs",
      "brand": "Morrisons",
-     "unit_price_gbp": 0.55,
-     "line_total_gbp": 0.55,
-     "buy_qty": 125.0,
+     "unit_price_gbp": 3.65,
+     "line_total_gbp": 3.65,
+     "buy_qty": 1350.0,
      "buy_unit": "g",
-     "_pack_g": 125.0,
+     "_pack_g": 1350.0,
      "used_on": [
       "11/15"
      ],
      "note": "",
      "bean_form": null,
      "_g_need": 0.0,
-     "link": "https://groceries.morrisons.com/products/112565655",
+     "link": "https://groceries.morrisons.com/products/106793467",
      "zone": "冷藏",
      "aisle": 2,
      "product": {
-      "name": "Morrisons Savers Mozzarella 125g",
+      "name": "Morrisons British Chicken Legs 1.35kg",
       "brand": "Morrisons",
-      "size": "125g",
-      "price_gbp": 0.55,
-      "link": "https://groceries.morrisons.com/products/112565655"
+      "size": "1.35kg",
+      "price_gbp": 3.65,
+      "link": "https://groceries.morrisons.com/products/106793467"
      }
     }
    ],
    "batches": [],
-   "total_gbp": 62.86,
-   "missing": [
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆"
-   ],
+   "total_gbp": 21.45,
+   "missing": [],
    "pantry_missing": [],
-   "unavailable": [
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆"
-   ],
-   "coverage": 0.9048,
-   "vs_recommend_gbp": 34.75,
-   "vs_recommend_common_n": 19,
-   "vs_recommend_store_gbp": 62.86,
-   "vs_recommend_rec_gbp": 28.11,
+   "unavailable": [],
+   "coverage": 1.0,
+   "vs_recommend_gbp": 5.84,
+   "vs_recommend_common_n": 10,
+   "vs_recommend_store_gbp": 17.95,
+   "vs_recommend_rec_gbp": 12.11,
    "vs_recommend_missing": 0
   },
   "WAITROSE": {
@@ -3617,249 +2120,123 @@
    "store_label": "Waitrose",
    "items": [
     {
-     "category": "主食",
-     "name": "藜麦",
-     "name_display": "藜麦",
+     "category": "调料",
+     "name": "番茄酱",
+     "name_display": "番茄酱",
      "packs": 1,
-     "pack_size": "500g",
-     "name_en": "Waitrose Quinoa",
-     "name_short": "Waitrose Quinoa",
+     "pack_size": "690g",
+     "name_en": "Essential Tomato Ketchup",
+     "name_short": "Essential Tomato Ketchup",
      "brand": "Waitrose Ltd",
-     "unit_price_gbp": 4.25,
-     "line_total_gbp": 4.25,
-     "buy_qty": 500.0,
+     "unit_price_gbp": 1.3,
+     "line_total_gbp": 1.3,
+     "buy_qty": 690.0,
      "buy_unit": "g",
-     "_pack_g": 500.0,
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/17",
-      "11/19",
-      "11/20"
-     ],
-     "note": "耐存，1 包 500g 可覆盖多次",
-     "bean_form": null,
-     "_g_need": 351.9316239316239,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-quinoa/059324-29873-29874",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Waitrose Quinoa",
-      "brand": "Waitrose Ltd",
-      "size": "500g",
-      "price_gbp": 4.25,
-      "link": "https://www.waitrose.com/ecom/products/waitrose-quinoa/059324-29873-29874"
-     }
-    },
-    {
-     "category": "待分类",
-     "name": "牛肉",
-     "name_display": "牛肉",
-     "packs": 1,
-     "pack_size": "75cl",
-     "name_en": "Beefsteak Club Malbec Mendoza Argentina",
-     "name_short": "Beefsteak Club Malbec Mendoza Argentina",
-     "brand": "Beefsteak Club",
-     "unit_price_gbp": 8.75,
-     "line_total_gbp": 8.75,
-     "buy_qty": "",
-     "buy_unit": "",
-     "_pack_g": null,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.waitrose.com/ecom/products/beefsteak-club-malbec-mendoza-argentina/797719-499478-499479",
-     "zone": "室温",
-     "aisle": 9,
-     "product": {
-      "name": "Beefsteak Club Malbec Mendoza Argentina",
-      "brand": "Beefsteak Club",
-      "size": "75cl",
-      "price_gbp": 8.75,
-      "link": "https://www.waitrose.com/ecom/products/beefsteak-club-malbec-mendoza-argentina/797719-499478-499479"
-     }
-    },
-    {
-     "category": "豆制品",
-     "name": "黑豆",
-     "name_display": "黑豆",
-     "packs": 3,
-     "pack_size": "425g",
-     "name_en": "Old El Paso Mild Black Beans",
-     "name_short": "Old El Paso Mild Black Beans",
-     "brand": "Old El Paso",
-     "unit_price_gbp": 1.75,
-     "line_total_gbp": 5.25,
-     "buy_qty": 1275.0,
-     "buy_unit": "g",
-     "_pack_g": 425.0,
-     "used_on": [
-      "11/17"
-     ],
-     "note": "干豆泡 8h、煮 40–50min；约 63g 干豆 ≈ 139g 煮后（餐单按煮后量计）。",
-     "bean_form": "dry",
-     "_g_need": 1086.7391304347827,
-     "link": "https://www.waitrose.com/ecom/products/old-el-paso-mild-black-beans/885072-368534-368535",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Old El Paso Mild Black Beans",
-      "brand": "Old El Paso",
-      "size": "425g",
-      "price_gbp": 1.75,
-      "link": "https://www.waitrose.com/ecom/products/old-el-paso-mild-black-beans/885072-368534-368535"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "葡萄番茄",
-     "name_display": "葡萄番茄罐头",
-     "packs": 1,
-     "pack_size": "4x400g",
-     "name_en": "Mutti Peeled Whole Plum Tomatoes",
-     "name_short": "Mutti Peeled Whole Plum Tomatoes",
-     "brand": "Mutti",
-     "unit_price_gbp": 4.15,
-     "line_total_gbp": 4.15,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "_pack_g": 400.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 132.44975,
-     "link": "https://www.waitrose.com/ecom/products/mutti-peeled-whole-plum-tomatoes/878789-805847-805848",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Mutti Peeled Whole Plum Tomatoes",
-      "brand": "Mutti",
-      "size": "4x400g",
-      "price_gbp": 4.15,
-      "link": "https://www.waitrose.com/ecom/products/mutti-peeled-whole-plum-tomatoes/878789-805847-805848"
-     }
-    },
-    {
-     "category": "肉类",
-     "name": "鸡肉",
-     "name_display": "鸡肉",
-     "packs": 2,
-     "pack_size": "250g",
-     "name_en": "Essential Frozen Chicken Livers",
-     "name_short": "Essential Frozen Chicken Livers",
-     "brand": "Waitrose Ltd",
-     "unit_price_gbp": 1.1,
-     "line_total_gbp": 2.2,
-     "buy_qty": 500.0,
-     "buy_unit": "g",
-     "_pack_g": 250.0,
+     "_pack_g": 690.0,
      "used_on": [
       "11/15"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 367.51300000000003,
-     "link": "https://www.waitrose.com/ecom/products/essential-frozen-chicken-livers/599951-85053-85054",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Essential Frozen Chicken Livers",
-      "brand": "Waitrose Ltd",
-      "size": "250g",
-      "price_gbp": 1.1,
-      "link": "https://www.waitrose.com/ecom/products/essential-frozen-chicken-livers/599951-85053-85054"
-     }
-    },
-    {
-     "category": "水果",
-     "name": "草莓",
-     "name_display": "草莓",
-     "packs": 1,
-     "pack_size": "400g",
-     "name_en": "Essential Frozen Strawberries",
-     "name_short": "Essential Frozen Strawberries",
-     "brand": "Waitrose Ltd",
-     "unit_price_gbp": 3.5,
-     "line_total_gbp": 3.5,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "_pack_g": 400.0,
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/16"
-     ],
-     "note": "易坏，分批",
-     "bean_form": null,
-     "_g_need": 168.68852459016392,
-     "link": "https://www.waitrose.com/ecom/products/essential-frozen-strawberries/832754-679283-679284",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Essential Frozen Strawberries",
-      "brand": "Waitrose Ltd",
-      "size": "400g",
-      "price_gbp": 3.5,
-      "link": "https://www.waitrose.com/ecom/products/essential-frozen-strawberries/832754-679283-679284"
-     }
-    },
-    {
-     "category": "水果",
-     "name": "青柠",
-     "name_display": "青柠",
-     "packs": 1,
-     "pack_size": "4x250ml",
-     "name_en": "Picoso Zesty Lime",
-     "name_short": "Picoso Zesty Lime",
-     "brand": "Picoso",
-     "unit_price_gbp": 7.5,
-     "line_total_gbp": 7.5,
-     "buy_qty": 250.0,
-     "buy_unit": "g",
-     "_pack_g": 250.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 11.142857142857142,
-     "link": "https://www.waitrose.com/ecom/products/picoso-zesty-lime/959626-1-2",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Picoso Zesty Lime",
-      "brand": "Picoso",
-      "size": "4x250ml",
-      "price_gbp": 7.5,
-      "link": "https://www.waitrose.com/ecom/products/picoso-zesty-lime/959626-1-2"
-     }
-    },
-    {
-     "category": "调料",
-     "name": "黑醋",
-     "name_display": "黑醋",
-     "packs": 1,
-     "pack_size": "250ml",
-     "name_en": "Essential Balsamic Vinegar of Modena",
-     "name_short": "Essential Balsamic Vinegar of Modena",
-     "brand": "Waitrose Ltd",
-     "unit_price_gbp": 1.8,
-     "line_total_gbp": 1.8,
-     "buy_qty": 250.0,
-     "buy_unit": "g",
-     "_pack_g": 250.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 8.6898,
-     "link": "https://www.waitrose.com/ecom/products/essential-balsamic-vinegar-of-modena/007184-3299-3300",
+     "_g_need": 2.336065573770492,
+     "link": "https://www.waitrose.com/ecom/products/essential-tomato-ketchup/932714-847900-847901",
      "zone": "室温",
      "aisle": 4,
      "product": {
-      "name": "Essential Balsamic Vinegar of Modena",
+      "name": "Essential Tomato Ketchup",
       "brand": "Waitrose Ltd",
-      "size": "250ml",
-      "price_gbp": 1.8,
-      "link": "https://www.waitrose.com/ecom/products/essential-balsamic-vinegar-of-modena/007184-3299-3300"
+      "size": "690g",
+      "price_gbp": 1.3,
+      "link": "https://www.waitrose.com/ecom/products/essential-tomato-ketchup/932714-847900-847901"
+     }
+    },
+    {
+     "category": "乳制品",
+     "name": "马苏里拉",
+     "name_display": "马苏里拉",
+     "packs": 1,
+     "pack_size": "270g",
+     "name_en": "Waitrose Italian Mozzarella Strength 1",
+     "name_short": "Waitrose Italian Mozzarella Strength 1",
+     "brand": "Waitrose Ltd",
+     "unit_price_gbp": 1.27,
+     "line_total_gbp": 1.27,
+     "buy_qty": 270.0,
+     "buy_unit": "g",
+     "_pack_g": 270.0,
+     "used_on": [
+      "11/15"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 21.74418604651163,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-italian-mozzarella-strength-1/670304-705290-705291",
+     "zone": "冷藏",
+     "aisle": 2,
+     "product": {
+      "name": "Waitrose Italian Mozzarella Strength 1",
+      "brand": "Waitrose Ltd",
+      "size": "270g",
+      "price_gbp": 1.27,
+      "link": "https://www.waitrose.com/ecom/products/waitrose-italian-mozzarella-strength-1/670304-705290-705291"
+     }
+    },
+    {
+     "category": "蛋类",
+     "name": "蛋白",
+     "name_display": "蛋白",
+     "packs": 1,
+     "pack_size": "500g",
+     "name_en": "Clarence Court Liquid Egg White",
+     "name_short": "Clarence Court Liquid Egg White",
+     "brand": "Clarence Court",
+     "unit_price_gbp": 4.3,
+     "line_total_gbp": 4.3,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "_pack_g": 500.0,
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 12.0,
+     "link": "https://www.waitrose.com/ecom/products/clarence-court-liquid-egg-white/737522-741320-741321",
+     "zone": "冷藏",
+     "aisle": 2,
+     "product": {
+      "name": "Clarence Court Liquid Egg White",
+      "brand": "Clarence Court",
+      "size": "500g",
+      "price_gbp": 4.3,
+      "link": "https://www.waitrose.com/ecom/products/clarence-court-liquid-egg-white/737522-741320-741321"
+     }
+    },
+    {
+     "category": "主食",
+     "name": "法棍",
+     "name_display": "法棍",
+     "packs": 1,
+     "pack_size": "400g",
+     "name_en": "White Baguette",
+     "name_short": "White Baguette",
+     "brand": "Waitrose Ltd",
+     "unit_price_gbp": 1.4,
+     "line_total_gbp": 1.4,
+     "buy_qty": 400.0,
+     "buy_unit": "g",
+     "_pack_g": 400.0,
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 74.06679764243616,
+     "link": "https://www.waitrose.com/ecom/products/white-baguette/065131-33004-33005",
+     "zone": "室温",
+     "aisle": 3,
+     "product": {
+      "name": "White Baguette",
+      "brand": "Waitrose Ltd",
+      "size": "400g",
+      "price_gbp": 1.4,
+      "link": "https://www.waitrose.com/ecom/products/white-baguette/065131-33004-33005"
      }
     },
     {
@@ -3881,7 +2258,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 222.76500000000001,
+     "_g_need": 292.215,
      "link": "https://www.waitrose.com/ecom/products/all-things-cottage-cheese-natural/982541-1-2",
      "zone": "冷藏",
      "aisle": 2,
@@ -3897,20 +2274,22 @@
      "category": "水果",
      "name": "猕猴桃",
      "name_display": "猕猴桃",
-     "packs": 1,
+     "packs": 2,
      "pack_size": "120g",
      "name_en": "Waitrose Kiwi",
      "name_short": "Waitrose Kiwi",
      "brand": "Waitrose Ltd",
      "unit_price_gbp": 2.3,
-     "line_total_gbp": 2.3,
-     "buy_qty": 120.0,
+     "line_total_gbp": 4.6,
+     "buy_qty": 240.0,
      "buy_unit": "g",
      "_pack_g": 120.0,
-     "used_on": [],
+     "used_on": [
+      "11/15"
+     ],
      "note": "",
      "bean_form": null,
-     "_g_need": 118.808,
+     "_g_need": 155.84799999999998,
      "link": "https://www.waitrose.com/ecom/products/waitrose-kiwi/272869-846227-846228",
      "zone": "冷藏",
      "aisle": 1,
@@ -3920,68 +2299,6 @@
       "size": "120g",
       "price_gbp": 2.3,
       "link": "https://www.waitrose.com/ecom/products/waitrose-kiwi/272869-846227-846228"
-     }
-    },
-    {
-     "category": "水产",
-     "name": "烟熏三文鱼",
-     "name_display": "烟熏三文鱼",
-     "packs": 1,
-     "pack_size": "291g",
-     "name_en": "Taiko Smoked Salmon Deluxe",
-     "name_short": "Taiko Smoked Salmon Deluxe",
-     "brand": "Taiko",
-     "unit_price_gbp": 6.85,
-     "line_total_gbp": 6.85,
-     "buy_qty": 291.0,
-     "buy_unit": "g",
-     "_pack_g": 291.0,
-     "used_on": [
-      "11/20"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 130.5,
-     "link": "https://www.waitrose.com/ecom/products/taiko-smoked-salmon-deluxe/514434-671670-671671",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Taiko Smoked Salmon Deluxe",
-      "brand": "Taiko",
-      "size": "291g",
-      "price_gbp": 6.85,
-      "link": "https://www.waitrose.com/ecom/products/taiko-smoked-salmon-deluxe/514434-671670-671671"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "羽衣甘蓝",
-     "name_display": "羽衣甘蓝",
-     "packs": 2,
-     "pack_size": "210g",
-     "name_en": "Waitrose Whole Leaf Kale",
-     "name_short": "Waitrose Whole Leaf Kale",
-     "brand": "Waitrose Ltd",
-     "unit_price_gbp": 1.4,
-     "line_total_gbp": 2.8,
-     "buy_qty": 420.0,
-     "buy_unit": "g",
-     "_pack_g": 210.0,
-     "used_on": [
-      "11/08"
-     ],
-     "note": "易坏，分批",
-     "bean_form": null,
-     "_g_need": 305.0,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-whole-leaf-kale/686452-97503-97504",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Waitrose Whole Leaf Kale",
-      "brand": "Waitrose Ltd",
-      "size": "210g",
-      "price_gbp": 1.4,
-      "link": "https://www.waitrose.com/ecom/products/waitrose-whole-leaf-kale/686452-97503-97504"
      }
     },
     {
@@ -4016,65 +2333,37 @@
      }
     },
     {
-     "category": "豆制品",
-     "name": "鹰嘴豆泥",
-     "name_display": "鹰嘴豆泥",
+     "category": "水果",
+     "name": "草莓",
+     "name_display": "草莓",
      "packs": 1,
-     "pack_size": "300g",
-     "name_en": "Essential Reduced Fat Houmous",
-     "name_short": "Essential Reduced Fat Houmous",
+     "pack_size": "400g",
+     "name_en": "Essential Frozen Strawberries",
+     "name_short": "Essential Frozen Strawberries",
      "brand": "Waitrose Ltd",
-     "unit_price_gbp": 1.45,
-     "line_total_gbp": 1.45,
-     "buy_qty": 300.0,
+     "unit_price_gbp": 3.5,
+     "line_total_gbp": 3.5,
+     "buy_qty": 400.0,
      "buy_unit": "g",
-     "_pack_g": 300.0,
+     "_pack_g": 400.0,
      "used_on": [
-      "11/15"
+      "11/08",
+      "11/15",
+      "11/16",
+      "11/18"
      ],
-     "note": "",
+     "note": "易坏，分批",
      "bean_form": null,
      "_g_need": 0.0,
-     "link": "https://www.waitrose.com/ecom/products/essential-reduced-fat-houmous/046201-22747-22748",
-     "zone": "室温",
-     "aisle": 3,
+     "link": "https://www.waitrose.com/ecom/products/essential-frozen-strawberries/832754-679283-679284",
+     "zone": "冷藏",
+     "aisle": 1,
      "product": {
-      "name": "Essential Reduced Fat Houmous",
+      "name": "Essential Frozen Strawberries",
       "brand": "Waitrose Ltd",
-      "size": "300g",
-      "price_gbp": 1.45,
-      "link": "https://www.waitrose.com/ecom/products/essential-reduced-fat-houmous/046201-22747-22748"
-     }
-    },
-    {
-     "category": "调料",
-     "name": "番茄酱",
-     "name_display": "番茄酱",
-     "packs": 1,
-     "pack_size": "690g",
-     "name_en": "Essential Tomato Ketchup",
-     "name_short": "Essential Tomato Ketchup",
-     "brand": "Waitrose Ltd",
-     "unit_price_gbp": 1.3,
-     "line_total_gbp": 1.3,
-     "buy_qty": 690.0,
-     "buy_unit": "g",
-     "_pack_g": 690.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.waitrose.com/ecom/products/essential-tomato-ketchup/932714-847900-847901",
-     "zone": "室温",
-     "aisle": 4,
-     "product": {
-      "name": "Essential Tomato Ketchup",
-      "brand": "Waitrose Ltd",
-      "size": "690g",
-      "price_gbp": 1.3,
-      "link": "https://www.waitrose.com/ecom/products/essential-tomato-ketchup/932714-847900-847901"
+      "size": "400g",
+      "price_gbp": 3.5,
+      "link": "https://www.waitrose.com/ecom/products/essential-frozen-strawberries/832754-679283-679284"
      }
     },
     {
@@ -4092,7 +2381,7 @@
      "buy_unit": "g",
      "_pack_g": 500.0,
      "used_on": [
-      "11/15"
+      "11/16"
      ],
      "note": "",
      "bean_form": null,
@@ -4110,39 +2399,6 @@
     },
     {
      "category": "乳制品",
-     "name": "牛奶",
-     "name_display": "牛奶",
-     "packs": 1,
-     "pack_size": "568ml",
-     "name_en": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-     "name_short": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-     "brand": "Waitrose Ltd",
-     "unit_price_gbp": 1.2,
-     "line_total_gbp": 1.2,
-     "buy_qty": 568.0,
-     "buy_unit": "g",
-     "_pack_g": 568.0,
-     "used_on": [
-      "11/16",
-      "11/19",
-      "11/21"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 345.55555555555554,
-     "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-      "brand": "Waitrose Ltd",
-      "size": "568ml",
-      "price_gbp": 1.2,
-      "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443"
-     }
-    },
-    {
-     "category": "乳制品",
      "name": "菲达奶酪",
      "name_display": "菲达奶酪",
      "packs": 1,
@@ -4156,8 +2412,7 @@
      "buy_unit": "g",
      "_pack_g": 430.0,
      "used_on": [
-      "11/08",
-      "11/15"
+      "11/08"
      ],
      "note": "",
      "bean_form": null,
@@ -4174,53 +2429,47 @@
      }
     },
     {
-     "category": "乳制品",
-     "name": "马苏里拉",
-     "name_display": "马苏里拉",
+     "category": "肉类",
+     "name": "鸡肉",
+     "name_display": "鸡肉",
      "packs": 1,
-     "pack_size": "270g",
-     "name_en": "Waitrose Italian Mozzarella Strength 1",
-     "name_short": "Waitrose Italian Mozzarella Strength 1",
+     "pack_size": "250g",
+     "name_en": "Essential Frozen Chicken Livers",
+     "name_short": "Essential Frozen Chicken Livers",
      "brand": "Waitrose Ltd",
-     "unit_price_gbp": 1.27,
-     "line_total_gbp": 1.27,
-     "buy_qty": 270.0,
+     "unit_price_gbp": 1.1,
+     "line_total_gbp": 1.1,
+     "buy_qty": 250.0,
      "buy_unit": "g",
-     "_pack_g": 270.0,
+     "_pack_g": 250.0,
      "used_on": [
       "11/15"
      ],
      "note": "",
      "bean_form": null,
      "_g_need": 0.0,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-italian-mozzarella-strength-1/670304-705290-705291",
+     "link": "https://www.waitrose.com/ecom/products/essential-frozen-chicken-livers/599951-85053-85054",
      "zone": "冷藏",
      "aisle": 2,
      "product": {
-      "name": "Waitrose Italian Mozzarella Strength 1",
+      "name": "Essential Frozen Chicken Livers",
       "brand": "Waitrose Ltd",
-      "size": "270g",
-      "price_gbp": 1.27,
-      "link": "https://www.waitrose.com/ecom/products/waitrose-italian-mozzarella-strength-1/670304-705290-705291"
+      "size": "250g",
+      "price_gbp": 1.1,
+      "link": "https://www.waitrose.com/ecom/products/essential-frozen-chicken-livers/599951-85053-85054"
      }
     }
    ],
    "batches": [],
-   "total_gbp": 64.67,
-   "missing": [
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆"
-   ],
+   "total_gbp": 27.57,
+   "missing": [],
    "pantry_missing": [],
-   "unavailable": [
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆"
-   ],
-   "coverage": 0.9048,
-   "vs_recommend_gbp": 36.56,
-   "vs_recommend_common_n": 19,
-   "vs_recommend_store_gbp": 64.67,
-   "vs_recommend_rec_gbp": 28.11,
+   "unavailable": [],
+   "coverage": 1.0,
+   "vs_recommend_gbp": 11.16,
+   "vs_recommend_common_n": 10,
+   "vs_recommend_store_gbp": 23.27,
+   "vs_recommend_rec_gbp": 12.11,
    "vs_recommend_missing": 0
   },
   "MARKS & SPENCER": {
@@ -4228,249 +2477,123 @@
    "store_label": "M&S",
    "items": [
     {
-     "category": "主食",
-     "name": "藜麦",
-     "name_display": "藜麦",
+     "category": "调料",
+     "name": "番茄酱",
+     "name_display": "番茄酱",
      "packs": 1,
-     "pack_size": "500 g",
-     "name_en": "Quinoa",
-     "name_short": "Quinoa",
+     "pack_size": "495 g",
+     "name_en": "Reduced Sugar Tomato Ketchup",
+     "name_short": "Reduced Sugar Tomato Ketchup",
      "brand": NaN,
-     "unit_price_gbp": 4.25,
-     "line_total_gbp": 4.25,
-     "buy_qty": 500.0,
+     "unit_price_gbp": 0.95,
+     "line_total_gbp": 0.95,
+     "buy_qty": 495.0,
      "buy_unit": "g",
-     "_pack_g": 500.0,
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/17",
-      "11/19",
-      "11/20"
-     ],
-     "note": "耐存，1 包 500g 可覆盖多次",
-     "bean_form": null,
-     "_g_need": 351.9316239316239,
-     "link": "https://www.marksandspencer.com/food/quinoa/p/fdp60604291",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Quinoa",
-      "brand": NaN,
-      "size": "500 g",
-      "price_gbp": 4.25,
-      "link": "https://www.marksandspencer.com/food/quinoa/p/fdp60604291"
-     }
-    },
-    {
-     "category": "肉类",
-     "name": "牛肉",
-     "name_display": "牛肉",
-     "packs": 1,
-     "pack_size": "180 g",
-     "name_en": "Loose Beef Tomatoes",
-     "name_short": "Loose Beef Tomatoes",
-     "brand": NaN,
-     "unit_price_gbp": 1.0,
-     "line_total_gbp": 1.0,
-     "buy_qty": 180.0,
-     "buy_unit": "g",
-     "_pack_g": 180.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 148.0,
-     "link": "https://www.marksandspencer.com/food/loose-beef-tomatoes/p/fdp60263436",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Loose Beef Tomatoes",
-      "brand": NaN,
-      "size": "180 g",
-      "price_gbp": 1.0,
-      "link": "https://www.marksandspencer.com/food/loose-beef-tomatoes/p/fdp60263436"
-     }
-    },
-    {
-     "category": "豆制品",
-     "name": "黑豆",
-     "name_display": "黑豆",
-     "packs": 2,
-     "pack_size": "430 g",
-     "name_en": "Black Beans",
-     "name_short": "Black Beans",
-     "brand": NaN,
-     "unit_price_gbp": 0.6,
-     "line_total_gbp": 1.2,
-     "buy_qty": 860.0,
-     "buy_unit": "g",
-     "_pack_g": 430.0,
-     "used_on": [
-      "11/17"
-     ],
-     "note": "干豆泡 8h、煮 40–50min；约 63g 干豆 ≈ 139g 煮后（餐单按煮后量计）。",
-     "bean_form": "dry",
-     "_g_need": 735.1470588235294,
-     "link": "https://www.marksandspencer.com/food/black-beans/p/fdp60917584",
-     "zone": "室温",
-     "aisle": 3,
-     "product": {
-      "name": "Black Beans",
-      "brand": NaN,
-      "size": "430 g",
-      "price_gbp": 0.6,
-      "link": "https://www.marksandspencer.com/food/black-beans/p/fdp60917584"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "葡萄番茄",
-     "name_display": "葡萄番茄罐头",
-     "packs": 1,
-     "pack_size": "1600 g",
-     "name_en": "Italian Plum Tomatoes",
-     "name_short": "Italian Plum Tomatoes",
-     "brand": NaN,
-     "unit_price_gbp": 1.8,
-     "line_total_gbp": 1.8,
-     "buy_qty": 1600.0,
-     "buy_unit": "g",
-     "_pack_g": 1600.0,
-     "used_on": [],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 132.44975,
-     "link": "https://www.marksandspencer.com/food/italian-plum-tomatoes/p/fdp60465696",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Italian Plum Tomatoes",
-      "brand": NaN,
-      "size": "1600 g",
-      "price_gbp": 1.8,
-      "link": "https://www.marksandspencer.com/food/italian-plum-tomatoes/p/fdp60465696"
-     }
-    },
-    {
-     "category": "肉类",
-     "name": "鸡肉",
-     "name_display": "鸡肉",
-     "packs": 1,
-     "pack_size": "600 g",
-     "name_en": "Chicken Leg Portions",
-     "name_short": "Chicken Leg Portions",
-     "brand": NaN,
-     "unit_price_gbp": 1.5,
-     "line_total_gbp": 1.5,
-     "buy_qty": 600.0,
-     "buy_unit": "g",
-     "_pack_g": 600.0,
+     "_pack_g": 495.0,
      "used_on": [
       "11/15"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 367.51300000000003,
-     "link": "https://www.marksandspencer.com/food/chicken-leg-portions/p/fdp60584836",
-     "zone": "冷藏",
-     "aisle": 2,
+     "_g_need": 2.511013215859031,
+     "link": "https://www.marksandspencer.com/food/reduced-sugar-tomato-ketchup/p/fdp60443964",
+     "zone": "室温",
+     "aisle": 4,
      "product": {
-      "name": "Chicken Leg Portions",
+      "name": "Reduced Sugar Tomato Ketchup",
       "brand": NaN,
-      "size": "600 g",
-      "price_gbp": 1.5,
-      "link": "https://www.marksandspencer.com/food/chicken-leg-portions/p/fdp60584836"
-     }
-    },
-    {
-     "category": "水果",
-     "name": "草莓",
-     "name_display": "草莓",
-     "packs": 1,
-     "pack_size": "500 g",
-     "name_en": "Frozen Strawberries",
-     "name_short": "Frozen Strawberries",
-     "brand": NaN,
-     "unit_price_gbp": 4.35,
-     "line_total_gbp": 4.35,
-     "buy_qty": 500.0,
-     "buy_unit": "g",
-     "_pack_g": 500.0,
-     "used_on": [
-      "11/08",
-      "11/15",
-      "11/16"
-     ],
-     "note": "易坏，分批",
-     "bean_form": null,
-     "_g_need": 168.68852459016392,
-     "link": "https://www.marksandspencer.com/food/frozen-strawberries/p/fdp60712445",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Frozen Strawberries",
-      "brand": NaN,
-      "size": "500 g",
-      "price_gbp": 4.35,
-      "link": "https://www.marksandspencer.com/food/frozen-strawberries/p/fdp60712445"
+      "size": "495 g",
+      "price_gbp": 0.95,
+      "link": "https://www.marksandspencer.com/food/reduced-sugar-tomato-ketchup/p/fdp60443964"
      }
     },
     {
      "category": "待分类",
-     "name": "青柠",
-     "name_display": "青柠",
+     "name": "马苏里拉",
+     "name_display": "马苏里拉",
      "packs": 1,
-     "pack_size": "1 l",
-     "name_en": "Diet Lemon and Lime",
-     "name_short": "Diet Lemon and Lime",
+     "pack_size": "800 g",
+     "name_en": "Tomato and Mozzarella Pasta Bake",
+     "name_short": "Tomato and Mozzarella Pasta Bake",
      "brand": NaN,
-     "unit_price_gbp": 1.0,
-     "line_total_gbp": 1.0,
-     "buy_qty": 1000.0,
+     "unit_price_gbp": 6.5,
+     "line_total_gbp": 6.5,
+     "buy_qty": 800.0,
      "buy_unit": "g",
-     "_pack_g": 1000.0,
-     "used_on": [],
+     "_pack_g": 800.0,
+     "used_on": [
+      "11/15"
+     ],
      "note": "",
      "bean_form": null,
-     "_g_need": 780.0,
-     "link": "https://www.marksandspencer.com/food/diet-lemon-and-lime/p/fdp60567863",
+     "_g_need": 55.00000000000001,
+     "link": "https://www.marksandspencer.com/food/tomato-and-mozzarella-pasta-bake/p/fdp60715016",
      "zone": "室温",
      "aisle": 9,
      "product": {
-      "name": "Diet Lemon and Lime",
+      "name": "Tomato and Mozzarella Pasta Bake",
       "brand": NaN,
-      "size": "1 l",
-      "price_gbp": 1.0,
-      "link": "https://www.marksandspencer.com/food/diet-lemon-and-lime/p/fdp60567863"
+      "size": "800 g",
+      "price_gbp": 6.5,
+      "link": "https://www.marksandspencer.com/food/tomato-and-mozzarella-pasta-bake/p/fdp60715016"
      }
     },
     {
-     "category": "调料",
-     "name": "黑醋",
-     "name_display": "黑醋",
+     "category": "蛋类",
+     "name": "蛋白",
+     "name_display": "蛋白",
      "packs": 1,
-     "pack_size": "250 ml",
-     "name_en": "Balsamic Vinegar of Modena",
-     "name_short": "Balsamic Vinegar of Modena",
-     "brand": NaN,
-     "unit_price_gbp": 3.2,
-     "line_total_gbp": 3.2,
-     "buy_qty": 250.0,
+     "pack_size": "500 g",
+     "name_en": "Liquid Egg White",
+     "name_short": "Liquid Egg White",
+     "brand": "High Protein",
+     "unit_price_gbp": 3.9,
+     "line_total_gbp": 3.9,
+     "buy_qty": 500.0,
      "buy_unit": "g",
-     "_pack_g": 250.0,
+     "_pack_g": 500.0,
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 8.6898,
-     "link": "https://www.marksandspencer.com/food/balsamic-vinegar-of-modena/p/fdp60010187",
-     "zone": "室温",
-     "aisle": 4,
+     "_g_need": 12.0,
+     "link": "https://www.marksandspencer.com/food/liquid-egg-white/p/fdp60650118",
+     "zone": "冷藏",
+     "aisle": 2,
      "product": {
-      "name": "Balsamic Vinegar of Modena",
+      "name": "Liquid Egg White",
+      "brand": "High Protein",
+      "size": "500 g",
+      "price_gbp": 3.9,
+      "link": "https://www.marksandspencer.com/food/liquid-egg-white/p/fdp60650118"
+     }
+    },
+    {
+     "category": "主食",
+     "name": "法棍",
+     "name_display": "法棍",
+     "packs": 1,
+     "pack_size": "310 g",
+     "name_en": "Baguette",
+     "name_short": "Baguette",
+     "brand": NaN,
+     "unit_price_gbp": 1.35,
+     "line_total_gbp": 1.35,
+     "buy_qty": 310.0,
+     "buy_unit": "g",
+     "_pack_g": 310.0,
+     "used_on": [],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 66.60777385159011,
+     "link": "https://www.marksandspencer.com/food/baguette/p/fdp21097199",
+     "zone": "室温",
+     "aisle": 3,
+     "product": {
+      "name": "Baguette",
       "brand": NaN,
-      "size": "250 ml",
-      "price_gbp": 3.2,
-      "link": "https://www.marksandspencer.com/food/balsamic-vinegar-of-modena/p/fdp60010187"
+      "size": "310 g",
+      "price_gbp": 1.35,
+      "link": "https://www.marksandspencer.com/food/baguette/p/fdp21097199"
      }
     },
     {
@@ -4487,10 +2610,12 @@
      "buy_qty": 320.0,
      "buy_unit": "g",
      "_pack_g": 320.0,
-     "used_on": [],
+     "used_on": [
+      "11/15"
+     ],
      "note": "",
      "bean_form": null,
-     "_g_need": 118.808,
+     "_g_need": 155.84799999999998,
      "link": "https://www.marksandspencer.com/food/organic-kiwis/p/fdp60481505",
      "zone": "冷藏",
      "aisle": 1,
@@ -4500,68 +2625,6 @@
       "size": "320 g",
       "price_gbp": 2.65,
       "link": "https://www.marksandspencer.com/food/organic-kiwis/p/fdp60481505"
-     }
-    },
-    {
-     "category": "待分类",
-     "name": "烟熏三文鱼",
-     "name_display": "烟熏三文鱼",
-     "packs": 1,
-     "pack_size": "220 g",
-     "name_en": "Smoked Salmon and Soft Cheese",
-     "name_short": "Smoked Salmon and Soft Cheese",
-     "brand": NaN,
-     "unit_price_gbp": 3.7,
-     "line_total_gbp": 3.7,
-     "buy_qty": 220.0,
-     "buy_unit": "g",
-     "_pack_g": 220.0,
-     "used_on": [
-      "11/20"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 130.5,
-     "link": "https://www.marksandspencer.com/food/smoked-salmon-and-soft-cheese/p/fdp21051054",
-     "zone": "室温",
-     "aisle": 9,
-     "product": {
-      "name": "Smoked Salmon and Soft Cheese",
-      "brand": NaN,
-      "size": "220 g",
-      "price_gbp": 3.7,
-      "link": "https://www.marksandspencer.com/food/smoked-salmon-and-soft-cheese/p/fdp21051054"
-     }
-    },
-    {
-     "category": "蔬菜",
-     "name": "羽衣甘蓝",
-     "name_display": "羽衣甘蓝",
-     "packs": 2,
-     "pack_size": "200 g",
-     "name_en": "Cavolo Nero Kale",
-     "name_short": "Cavolo Nero Kale",
-     "brand": NaN,
-     "unit_price_gbp": 1.75,
-     "line_total_gbp": 3.5,
-     "buy_qty": 400.0,
-     "buy_unit": "g",
-     "_pack_g": 200.0,
-     "used_on": [
-      "11/08"
-     ],
-     "note": "易坏，分批",
-     "bean_form": null,
-     "_g_need": 305.0,
-     "link": "https://www.marksandspencer.com/food/cavolo-nero-kale/p/fdp60075308",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Cavolo Nero Kale",
-      "brand": NaN,
-      "size": "200 g",
-      "price_gbp": 1.75,
-      "link": "https://www.marksandspencer.com/food/cavolo-nero-kale/p/fdp60075308"
      }
     },
     {
@@ -4596,96 +2659,37 @@
      }
     },
     {
-     "category": "豆制品",
-     "name": "鹰嘴豆泥",
-     "name_display": "鹰嘴豆泥",
+     "category": "水果",
+     "name": "草莓",
+     "name_display": "草莓",
      "packs": 1,
-     "pack_size": "300 g",
-     "name_en": "Classic Houmous",
-     "name_short": "Classic Houmous",
+     "pack_size": "500 g",
+     "name_en": "Frozen Strawberries",
+     "name_short": "Frozen Strawberries",
      "brand": NaN,
-     "unit_price_gbp": 1.85,
-     "line_total_gbp": 1.85,
-     "buy_qty": 300.0,
+     "unit_price_gbp": 4.35,
+     "line_total_gbp": 4.35,
+     "buy_qty": 500.0,
      "buy_unit": "g",
-     "_pack_g": 300.0,
+     "_pack_g": 500.0,
      "used_on": [
-      "11/15"
+      "11/08",
+      "11/15",
+      "11/16",
+      "11/18"
      ],
-     "note": "",
+     "note": "易坏，分批",
      "bean_form": null,
      "_g_need": 0.0,
-     "link": "https://www.marksandspencer.com/food/classic-houmous/p/fdp60524944",
-     "zone": "室温",
-     "aisle": 3,
+     "link": "https://www.marksandspencer.com/food/frozen-strawberries/p/fdp60712445",
+     "zone": "冷藏",
+     "aisle": 1,
      "product": {
-      "name": "Classic Houmous",
+      "name": "Frozen Strawberries",
       "brand": NaN,
-      "size": "300 g",
-      "price_gbp": 1.85,
-      "link": "https://www.marksandspencer.com/food/classic-houmous/p/fdp60524944"
-     }
-    },
-    {
-     "category": "调料",
-     "name": "番茄酱",
-     "name_display": "番茄酱",
-     "packs": 1,
-     "pack_size": "495 g",
-     "name_en": "Reduced Sugar Tomato Ketchup",
-     "name_short": "Reduced Sugar Tomato Ketchup",
-     "brand": NaN,
-     "unit_price_gbp": 0.95,
-     "line_total_gbp": 0.95,
-     "buy_qty": 495.0,
-     "buy_unit": "g",
-     "_pack_g": 495.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.marksandspencer.com/food/reduced-sugar-tomato-ketchup/p/fdp60443964",
-     "zone": "室温",
-     "aisle": 4,
-     "product": {
-      "name": "Reduced Sugar Tomato Ketchup",
-      "brand": NaN,
-      "size": "495 g",
-      "price_gbp": 0.95,
-      "link": "https://www.marksandspencer.com/food/reduced-sugar-tomato-ketchup/p/fdp60443964"
-     }
-    },
-    {
-     "category": "待分类",
-     "name": "马苏里拉",
-     "name_display": "马苏里拉",
-     "packs": 1,
-     "pack_size": "800 g",
-     "name_en": "Tomato and Mozzarella Pasta Bake",
-     "name_short": "Tomato and Mozzarella Pasta Bake",
-     "brand": NaN,
-     "unit_price_gbp": 6.5,
-     "line_total_gbp": 6.5,
-     "buy_qty": 800.0,
-     "buy_unit": "g",
-     "_pack_g": 800.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.marksandspencer.com/food/tomato-and-mozzarella-pasta-bake/p/fdp60715016",
-     "zone": "室温",
-     "aisle": 9,
-     "product": {
-      "name": "Tomato and Mozzarella Pasta Bake",
-      "brand": NaN,
-      "size": "800 g",
-      "price_gbp": 6.5,
-      "link": "https://www.marksandspencer.com/food/tomato-and-mozzarella-pasta-bake/p/fdp60715016"
+      "size": "500 g",
+      "price_gbp": 4.35,
+      "link": "https://www.marksandspencer.com/food/frozen-strawberries/p/fdp60712445"
      }
     },
     {
@@ -4703,7 +2707,7 @@
      "buy_unit": "g",
      "_pack_g": 1200.0,
      "used_on": [
-      "11/15"
+      "11/16"
      ],
      "note": "",
      "bean_form": null,
@@ -4721,39 +2725,6 @@
     },
     {
      "category": "乳制品",
-     "name": "牛奶",
-     "name_display": "牛奶",
-     "packs": 1,
-     "pack_size": "3.408 l",
-     "name_en": "Semi Skimmed Milk",
-     "name_short": "Semi Skimmed Milk",
-     "brand": NaN,
-     "unit_price_gbp": 2.4,
-     "line_total_gbp": 2.4,
-     "buy_qty": 3408.0,
-     "buy_unit": "g",
-     "_pack_g": 3408.0,
-     "used_on": [
-      "11/16",
-      "11/19",
-      "11/21"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 345.55555555555554,
-     "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727",
-     "zone": "冷藏",
-     "aisle": 2,
-     "product": {
-      "name": "Semi Skimmed Milk",
-      "brand": NaN,
-      "size": "3.408 l",
-      "price_gbp": 2.4,
-      "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727"
-     }
-    },
-    {
-     "category": "乳制品",
      "name": "菲达奶酪",
      "name_display": "菲达奶酪",
      "packs": 1,
@@ -4767,8 +2738,7 @@
      "buy_unit": "g",
      "_pack_g": 200.0,
      "used_on": [
-      "11/08",
-      "11/15"
+      "11/08"
      ],
      "note": "",
      "bean_form": null,
@@ -4783,185 +2753,145 @@
       "price_gbp": 2.25,
       "link": "https://www.marksandspencer.com/food/greek-feta/p/fdp60048027"
      }
+    },
+    {
+     "category": "肉类",
+     "name": "鸡肉",
+     "name_display": "鸡肉",
+     "packs": 1,
+     "pack_size": "600 g",
+     "name_en": "Chicken Leg Portions",
+     "name_short": "Chicken Leg Portions",
+     "brand": NaN,
+     "unit_price_gbp": 1.5,
+     "line_total_gbp": 1.5,
+     "buy_qty": 600.0,
+     "buy_unit": "g",
+     "_pack_g": 600.0,
+     "used_on": [
+      "11/15"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 0.0,
+     "link": "https://www.marksandspencer.com/food/chicken-leg-portions/p/fdp60584836",
+     "zone": "冷藏",
+     "aisle": 2,
+     "product": {
+      "name": "Chicken Leg Portions",
+      "brand": NaN,
+      "size": "600 g",
+      "price_gbp": 1.5,
+      "link": "https://www.marksandspencer.com/food/chicken-leg-portions/p/fdp60584836"
+     }
     }
    ],
    "batches": [],
-   "total_gbp": 44.5,
+   "total_gbp": 25.85,
    "missing": [
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆",
     "茅屋奶酪"
    ],
    "pantry_missing": [],
    "unavailable": [
-    "切薄的半熟烤牛肉",
-    "罐装低钠白芸豆",
     "茅屋奶酪"
    ],
-   "coverage": 0.8571,
-   "vs_recommend_gbp": 17.24,
-   "vs_recommend_common_n": 18,
-   "vs_recommend_store_gbp": 44.5,
-   "vs_recommend_rec_gbp": 27.26,
+   "coverage": 0.9091,
+   "vs_recommend_gbp": 10.69,
+   "vs_recommend_common_n": 9,
+   "vs_recommend_store_gbp": 21.95,
+   "vs_recommend_rec_gbp": 11.26,
    "vs_recommend_missing": 1
   }
  },
  "recommend": {
   "stores": [
    "ALDI",
-   "MARKS & SPENCER"
+   "ICELAND"
   ],
   "labels": [
    "Aldi",
-   "M&S"
+   "Iceland"
   ],
-  "coverage": 0.9047619047619048,
+  "coverage": 0.9090909090909091,
   "missing": [
-   "切薄的半熟烤牛肉",
-   "罐装低钠白芸豆"
+   "蛋白"
   ],
   "pantry_missing": [],
-  "cost": 28.11,
+  "cost": 12.11,
   "per_store": {
    "ALDI": {
-    "subtotal": 15.71,
-    "count": 13,
+    "subtotal": 7.11,
+    "count": 7,
     "names": [
-     "黑豆",
-     "葡萄番茄",
-     "牛奶",
-     "草莓",
-     "黑醋",
+     "番茄酱",
+     "马苏里拉",
      "茅屋奶酪",
      "猕猴桃",
-     "羽衣甘蓝",
      "面包",
-     "鹰嘴豆泥",
-     "番茄酱",
-     "菲达奶酪",
-     "马苏里拉"
+     "紫甘蓝",
+     "菲达奶酪"
     ],
     "items": [
      {
-      "category": "豆制品",
-      "name": "黑豆",
-      "name_display": "黑豆罐头",
-      "packs": 1,
-      "pack_size": "400 g",
-      "name_en": "Tinned Black Beans",
-      "name_short": "Tinned Black Beans",
-      "brand": "FOUR SEASONS",
-      "unit_price_gbp": 0.45,
-      "line_total_gbp": 0.45,
-      "buy_qty": 400.0,
-      "buy_unit": "g",
-      "_pack_g": 400.0,
-      "used_on": [
-       "11/17"
-      ],
-      "note": "开罐沥干即用；每次 ~139g，剩约 101g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
-      "bean_form": "canned",
-      "_g_need": 138.86111111111111,
-      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-black-beans-000000000627180001",
-      "zone": "室温",
-      "aisle": 3,
-      "product": {
-       "name": "Tinned Black Beans",
-       "brand": "FOUR SEASONS",
-       "size": "400 g",
-       "price_gbp": 0.45,
-       "link": "https://www.aldi.co.uk/product/four-seasons-tinned-black-beans-000000000627180001"
-      }
-     },
-     {
-      "category": "蔬菜",
-      "name": "葡萄番茄",
-      "name_display": "葡萄番茄",
-      "packs": 1,
-      "pack_size": "250 g",
-      "name_en": "Baby Plum Tomatoes",
-      "name_short": "Baby Plum Tomatoes",
-      "brand": "EVERYDAY ESSENTIALS",
-      "unit_price_gbp": 0.62,
-      "line_total_gbp": 0.62,
-      "buy_qty": 250.0,
-      "buy_unit": "g",
-      "_pack_g": 250.0,
-      "used_on": [],
-      "note": "",
-      "bean_form": null,
-      "_g_need": 132.44975,
-      "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259",
-      "zone": "冷藏",
-      "aisle": 1,
-      "product": {
-       "name": "Baby Plum Tomatoes",
-       "brand": "EVERYDAY ESSENTIALS",
-       "size": "250 g",
-       "price_gbp": 0.62,
-       "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259"
-      }
-     },
-     {
-      "category": "水果",
-      "name": "草莓",
-      "name_display": "草莓",
-      "packs": 1,
-      "pack_size": "600 g",
-      "name_en": "Strawberries",
-      "name_short": "Strawberries",
-      "brand": "NATURE'S PICK",
-      "unit_price_gbp": 2.99,
-      "line_total_gbp": 2.99,
-      "buy_qty": 600.0,
-      "buy_unit": "g",
-      "_pack_g": 600.0,
-      "used_on": [
-       "11/08",
-       "11/15",
-       "11/16"
-      ],
-      "note": "易坏，分批",
-      "bean_form": null,
-      "_g_need": 144.9295774647887,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
-      "zone": "冷藏",
-      "aisle": 1,
-      "product": {
-       "name": "Strawberries",
-       "brand": "NATURE'S PICK",
-       "size": "600 g",
-       "price_gbp": 2.99,
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981"
-      }
-     },
-     {
       "category": "调料",
-      "name": "黑醋",
-      "name_display": "黑醋",
+      "name": "番茄酱",
+      "name_display": "番茄酱",
       "packs": 1,
-      "pack_size": "500 ml",
-      "name_en": "Balsamic Vinegar of Modena",
-      "name_short": "Balsamic Vinegar of Modena",
-      "brand": "THE DELI",
-      "unit_price_gbp": 1.49,
-      "line_total_gbp": 1.49,
-      "buy_qty": 500.0,
+      "pack_size": "550 g",
+      "name_en": "Tomato Ketchup",
+      "name_short": "Tomato Ketchup",
+      "brand": "BRAMWELLS",
+      "unit_price_gbp": 0.89,
+      "line_total_gbp": 0.89,
+      "buy_qty": 550.0,
       "buy_unit": "g",
-      "_pack_g": 500.0,
-      "used_on": [],
+      "_pack_g": 550.0,
+      "used_on": [
+       "11/15"
+      ],
       "note": "",
       "bean_form": null,
-      "_g_need": 8.6898,
-      "link": "https://www.aldi.co.uk/product/the-deli-balsamic-vinegar-of-modena-000000000000335643",
+      "_g_need": 3.2203389830508473,
+      "link": "https://www.aldi.co.uk/product/bramwells-tomato-ketchup-000000000000575453",
       "zone": "室温",
       "aisle": 4,
       "product": {
-       "name": "Balsamic Vinegar of Modena",
-       "brand": "THE DELI",
-       "size": "500 ml",
-       "price_gbp": 1.49,
-       "link": "https://www.aldi.co.uk/product/the-deli-balsamic-vinegar-of-modena-000000000000335643"
+       "name": "Tomato Ketchup",
+       "brand": "BRAMWELLS",
+       "size": "550 g",
+       "price_gbp": 0.89,
+       "link": "https://www.aldi.co.uk/product/bramwells-tomato-ketchup-000000000000575453"
+      }
+     },
+     {
+      "category": "乳制品",
+      "name": "马苏里拉",
+      "name_display": "马苏里拉罐头",
+      "packs": 1,
+      "pack_size": "0.125 Kg drained",
+      "name_en": "Classic Mozzarella",
+      "name_short": "Classic Mozzarella",
+      "brand": "EVERYDAY ESSENTIALS",
+      "unit_price_gbp": 0.55,
+      "line_total_gbp": 0.55,
+      "buy_qty": 125.0,
+      "buy_unit": "g",
+      "_pack_g": 125.0,
+      "used_on": [
+       "11/15"
+      ],
+      "note": "",
+      "bean_form": null,
+      "_g_need": 22.0,
+      "link": "https://www.aldi.co.uk/product/everyday-essentials-classic-mozzarella-000000000283052001",
+      "zone": "冷藏",
+      "aisle": 2,
+      "product": {
+       "name": "Classic Mozzarella",
+       "brand": "EVERYDAY ESSENTIALS",
+       "size": "0.125 Kg drained",
+       "price_gbp": 0.55,
+       "link": "https://www.aldi.co.uk/product/everyday-essentials-classic-mozzarella-000000000283052001"
       }
      },
      {
@@ -4983,7 +2913,7 @@
       ],
       "note": "",
       "bean_form": null,
-      "_g_need": 222.76500000000001,
+      "_g_need": 292.215,
       "link": "https://www.aldi.co.uk/product/everyday-essentials-low-fat-cottage-cheese-000000000000416217",
       "zone": "冷藏",
       "aisle": 2,
@@ -5009,7 +2939,9 @@
       "buy_qty": 6.0,
       "buy_unit": "个",
       "_pack_g": 6.0,
-      "used_on": [],
+      "used_on": [
+       "11/15"
+      ],
       "note": "",
       "bean_form": null,
       "_g_need": 0.0,
@@ -5022,37 +2954,6 @@
        "size": "6 Each",
        "price_gbp": 1.19,
        "link": "https://www.aldi.co.uk/product/nature-s-pick-kiwis-000000000000263719"
-      }
-     },
-     {
-      "category": "蔬菜",
-      "name": "羽衣甘蓝",
-      "name_display": "羽衣甘蓝",
-      "packs": 1,
-      "pack_size": "200 g",
-      "name_en": "Scottish Shredded Kale",
-      "name_short": "Shredded Kale",
-      "brand": "NATURE'S PICK",
-      "unit_price_gbp": 0.89,
-      "line_total_gbp": 0.89,
-      "buy_qty": 200.0,
-      "buy_unit": "g",
-      "_pack_g": 200.0,
-      "used_on": [
-       "11/08"
-      ],
-      "note": "易坏，分批",
-      "bean_form": null,
-      "_g_need": 74.91228070175437,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
-      "zone": "冷藏",
-      "aisle": 1,
-      "product": {
-       "name": "Scottish Shredded Kale",
-       "brand": "NATURE'S PICK",
-       "size": "200 g",
-       "price_gbp": 0.89,
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974"
       }
      },
      {
@@ -5087,98 +2988,34 @@
       }
      },
      {
-      "category": "豆制品",
-      "name": "鹰嘴豆泥",
-      "name_display": "鹰嘴豆泥",
+      "category": "蔬菜",
+      "name": "紫甘蓝",
+      "name_display": "紫甘蓝罐头",
       "packs": 1,
-      "pack_size": "200 g",
-      "name_en": "Houmous",
-      "name_short": "Houmous",
+      "pack_size": "440 g",
+      "name_en": "Red Cabbage",
+      "name_short": "Red Cabbage",
       "brand": "THE DELI",
-      "unit_price_gbp": 0.95,
-      "line_total_gbp": 0.95,
-      "buy_qty": 200.0,
+      "unit_price_gbp": 1.19,
+      "line_total_gbp": 1.19,
+      "buy_qty": 440.0,
       "buy_unit": "g",
-      "_pack_g": 200.0,
+      "_pack_g": 440.0,
       "used_on": [
-       "11/15"
+       "11/16"
       ],
       "note": "",
       "bean_form": null,
       "_g_need": 0.0,
-      "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
-      "zone": "室温",
-      "aisle": 3,
-      "product": {
-       "name": "Houmous",
-       "brand": "THE DELI",
-       "size": "200 g",
-       "price_gbp": 0.95,
-       "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001"
-      }
-     },
-     {
-      "category": "调料",
-      "name": "番茄酱",
-      "name_display": "番茄酱",
-      "packs": 1,
-      "pack_size": "550 g",
-      "name_en": "Tomato Ketchup",
-      "name_short": "Tomato Ketchup",
-      "brand": "BRAMWELLS",
-      "unit_price_gbp": 0.89,
-      "line_total_gbp": 0.89,
-      "buy_qty": 550.0,
-      "buy_unit": "g",
-      "_pack_g": 550.0,
-      "used_on": [
-       "11/15"
-      ],
-      "note": "",
-      "bean_form": null,
-      "_g_need": 0.0,
-      "link": "https://www.aldi.co.uk/product/bramwells-tomato-ketchup-000000000000575453",
-      "zone": "室温",
-      "aisle": 4,
-      "product": {
-       "name": "Tomato Ketchup",
-       "brand": "BRAMWELLS",
-       "size": "550 g",
-       "price_gbp": 0.89,
-       "link": "https://www.aldi.co.uk/product/bramwells-tomato-ketchup-000000000000575453"
-      }
-     },
-     {
-      "category": "乳制品",
-      "name": "牛奶",
-      "name_display": "牛奶",
-      "packs": 1,
-      "pack_size": "3.408 l",
-      "name_en": "Semi Skimmed Milk 1.7% Fat",
-      "name_short": "Semi Skimmed Milk 1.7% Fat",
-      "brand": "COWBELLE",
-      "unit_price_gbp": 2.4,
-      "line_total_gbp": 2.4,
-      "buy_qty": 3408.0,
-      "buy_unit": "g",
-      "_pack_g": 3408.0,
-      "used_on": [
-       "11/16",
-       "11/19",
-       "11/21"
-      ],
-      "note": "",
-      "bean_form": null,
-      "_g_need": 365.88235294117646,
-      "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
+      "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515",
       "zone": "冷藏",
-      "aisle": 2,
+      "aisle": 1,
       "product": {
-       "name": "Semi Skimmed Milk 1.7% Fat",
-       "brand": "COWBELLE",
-       "size": "3.408 l",
-       "price_gbp": 2.4,
-       "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713"
+       "name": "Red Cabbage",
+       "brand": "THE DELI",
+       "size": "440 g",
+       "price_gbp": 1.19,
+       "link": "https://www.aldi.co.uk/product/the-deli-red-cabbage-000000000000536515"
       }
      },
      {
@@ -5196,8 +3033,7 @@
       "buy_unit": "g",
       "_pack_g": 200.0,
       "used_on": [
-       "11/08",
-       "11/15"
+       "11/08"
       ],
       "note": "",
       "bean_form": null,
@@ -5212,114 +3048,79 @@
        "price_gbp": 1.89,
        "link": "https://www.aldi.co.uk/product/emporium-greek-feta-000000000000557625"
       }
-     },
-     {
-      "category": "乳制品",
-      "name": "马苏里拉",
-      "name_display": "马苏里拉罐头",
-      "packs": 1,
-      "pack_size": "0.125 Kg drained",
-      "name_en": "Classic Mozzarella",
-      "name_short": "Classic Mozzarella",
-      "brand": "EVERYDAY ESSENTIALS",
-      "unit_price_gbp": 0.55,
-      "line_total_gbp": 0.55,
-      "buy_qty": 125.0,
-      "buy_unit": "g",
-      "_pack_g": 125.0,
-      "used_on": [
-       "11/15"
-      ],
-      "note": "",
-      "bean_form": null,
-      "_g_need": 0.0,
-      "link": "https://www.aldi.co.uk/product/everyday-essentials-classic-mozzarella-000000000283052001",
-      "zone": "冷藏",
-      "aisle": 2,
-      "product": {
-       "name": "Classic Mozzarella",
-       "brand": "EVERYDAY ESSENTIALS",
-       "size": "0.125 Kg drained",
-       "price_gbp": 0.55,
-       "link": "https://www.aldi.co.uk/product/everyday-essentials-classic-mozzarella-000000000283052001"
-      }
      }
     ]
    },
-   "MARKS & SPENCER": {
-    "subtotal": 12.4,
-    "count": 6,
+   "ICELAND": {
+    "subtotal": 5.0,
+    "count": 3,
     "names": [
-     "藜麦",
-     "牛肉",
-     "鸡肉",
-     "青柠",
-     "烟熏三文鱼",
-     "紫甘蓝"
+     "法棍",
+     "草莓",
+     "鸡肉"
     ],
     "items": [
      {
       "category": "主食",
-      "name": "藜麦",
-      "name_display": "藜麦",
+      "name": "法棍",
+      "name_display": "法棍",
       "packs": 1,
-      "pack_size": "500 g",
-      "name_en": "Quinoa",
-      "name_short": "Quinoa",
-      "brand": NaN,
-      "unit_price_gbp": 4.25,
-      "line_total_gbp": 4.25,
-      "buy_qty": 500.0,
-      "buy_unit": "g",
-      "_pack_g": 500.0,
-      "used_on": [
-       "11/08",
-       "11/15",
-       "11/17",
-       "11/19",
-       "11/20"
-      ],
-      "note": "耐存，1 包 500g 可覆盖多次",
-      "bean_form": null,
-      "_g_need": 351.9316239316239,
-      "link": "https://www.marksandspencer.com/food/quinoa/p/fdp60604291",
-      "zone": "室温",
-      "aisle": 3,
-      "product": {
-       "name": "Quinoa",
-       "brand": NaN,
-       "size": "500 g",
-       "price_gbp": 4.25,
-       "link": "https://www.marksandspencer.com/food/quinoa/p/fdp60604291"
-      }
-     },
-     {
-      "category": "肉类",
-      "name": "牛肉",
-      "name_display": "牛肉",
-      "packs": 1,
-      "pack_size": "180 g",
-      "name_en": "Loose Beef Tomatoes",
-      "name_short": "Loose Beef Tomatoes",
-      "brand": NaN,
-      "unit_price_gbp": 1.0,
-      "line_total_gbp": 1.0,
-      "buy_qty": 180.0,
-      "buy_unit": "g",
-      "_pack_g": 180.0,
+      "pack_size": "nan",
+      "name_en": "Dr. Oetker Bistro Baguette Pepperoni 2 x 125g (250g)",
+      "name_short": "Dr. Oetker Bistro Baguette Pepperoni 2 x (250g)",
+      "brand": "Dr. Oetker",
+      "unit_price_gbp": 2.5,
+      "line_total_gbp": 2.5,
+      "buy_qty": "",
+      "buy_unit": "",
+      "_pack_g": null,
       "used_on": [],
       "note": "",
       "bean_form": null,
-      "_g_need": 148.0,
-      "link": "https://www.marksandspencer.com/food/loose-beef-tomatoes/p/fdp60263436",
-      "zone": "冷藏",
-      "aisle": 2,
+      "_g_need": 0.0,
+      "link": "https://www.iceland.co.uk/p/dr.-oetker-bistro-baguette-pepperoni-2-x-125g-%28250g%29/72981.html",
+      "zone": "室温",
+      "aisle": 3,
       "product": {
-       "name": "Loose Beef Tomatoes",
-       "brand": NaN,
-       "size": "180 g",
+       "name": "Dr. Oetker Bistro Baguette Pepperoni 2 x 125g (250g)",
+       "brand": "Dr. Oetker",
+       "size": "nan",
+       "price_gbp": 2.5,
+       "link": "https://www.iceland.co.uk/p/dr.-oetker-bistro-baguette-pepperoni-2-x-125g-%28250g%29/72981.html"
+      }
+     },
+     {
+      "category": "水果",
+      "name": "草莓",
+      "name_display": "草莓",
+      "packs": 1,
+      "pack_size": "200g",
+      "name_en": "Chooee Strawberry Super Mix 200g",
+      "name_short": "Chooee Strawberry Super Mix",
+      "brand": "Chooee",
+      "unit_price_gbp": 1.0,
+      "line_total_gbp": 1.0,
+      "buy_qty": 200.0,
+      "buy_unit": "g",
+      "_pack_g": 200.0,
+      "used_on": [
+       "11/08",
+       "11/15",
+       "11/16",
+       "11/18"
+      ],
+      "note": "易坏，分批",
+      "bean_form": null,
+      "_g_need": 0.0,
+      "link": "https://www.iceland.co.uk/p/chooee-strawberry-super-mix-200g/102058.html",
+      "zone": "冷藏",
+      "aisle": 1,
+      "product": {
+       "name": "Chooee Strawberry Super Mix 200g",
+       "brand": "Chooee",
+       "size": "200g",
        "price_gbp": 1.0,
-       "link": "https://www.marksandspencer.com/food/loose-beef-tomatoes/p/fdp60263436"
+       "link": "https://www.iceland.co.uk/p/chooee-strawberry-super-mix-200g/102058.html"
       }
      },
      {
@@ -5327,146 +3128,68 @@
       "name": "鸡肉",
       "name_display": "鸡肉",
       "packs": 1,
-      "pack_size": "600 g",
-      "name_en": "Chicken Leg Portions",
-      "name_short": "Chicken Leg Portions",
-      "brand": NaN,
+      "pack_size": "500ml",
+      "name_en": "Crucials Chicken Shop Creamy Ranch 500ml",
+      "name_short": "Crucials Chicken Shop Creamy Ranch",
+      "brand": "Crucials",
       "unit_price_gbp": 1.5,
       "line_total_gbp": 1.5,
-      "buy_qty": 600.0,
+      "buy_qty": 500.0,
       "buy_unit": "g",
-      "_pack_g": 600.0,
-      "used_on": [
-       "11/15"
-      ],
-      "note": "",
-      "bean_form": null,
-      "_g_need": 367.51300000000003,
-      "link": "https://www.marksandspencer.com/food/chicken-leg-portions/p/fdp60584836",
-      "zone": "冷藏",
-      "aisle": 2,
-      "product": {
-       "name": "Chicken Leg Portions",
-       "brand": NaN,
-       "size": "600 g",
-       "price_gbp": 1.5,
-       "link": "https://www.marksandspencer.com/food/chicken-leg-portions/p/fdp60584836"
-      }
-     },
-     {
-      "category": "待分类",
-      "name": "青柠",
-      "name_display": "青柠",
-      "packs": 1,
-      "pack_size": "1 l",
-      "name_en": "Diet Lemon and Lime",
-      "name_short": "Diet Lemon and Lime",
-      "brand": NaN,
-      "unit_price_gbp": 1.0,
-      "line_total_gbp": 1.0,
-      "buy_qty": 1000.0,
-      "buy_unit": "g",
-      "_pack_g": 1000.0,
-      "used_on": [],
-      "note": "",
-      "bean_form": null,
-      "_g_need": 780.0,
-      "link": "https://www.marksandspencer.com/food/diet-lemon-and-lime/p/fdp60567863",
-      "zone": "室温",
-      "aisle": 9,
-      "product": {
-       "name": "Diet Lemon and Lime",
-       "brand": NaN,
-       "size": "1 l",
-       "price_gbp": 1.0,
-       "link": "https://www.marksandspencer.com/food/diet-lemon-and-lime/p/fdp60567863"
-      }
-     },
-     {
-      "category": "待分类",
-      "name": "烟熏三文鱼",
-      "name_display": "烟熏三文鱼",
-      "packs": 1,
-      "pack_size": "220 g",
-      "name_en": "Smoked Salmon and Soft Cheese",
-      "name_short": "Smoked Salmon and Soft Cheese",
-      "brand": NaN,
-      "unit_price_gbp": 3.7,
-      "line_total_gbp": 3.7,
-      "buy_qty": 220.0,
-      "buy_unit": "g",
-      "_pack_g": 220.0,
-      "used_on": [
-       "11/20"
-      ],
-      "note": "",
-      "bean_form": null,
-      "_g_need": 130.5,
-      "link": "https://www.marksandspencer.com/food/smoked-salmon-and-soft-cheese/p/fdp21051054",
-      "zone": "室温",
-      "aisle": 9,
-      "product": {
-       "name": "Smoked Salmon and Soft Cheese",
-       "brand": NaN,
-       "size": "220 g",
-       "price_gbp": 3.7,
-       "link": "https://www.marksandspencer.com/food/smoked-salmon-and-soft-cheese/p/fdp21051054"
-      }
-     },
-     {
-      "category": "蔬菜",
-      "name": "紫甘蓝",
-      "name_display": "紫甘蓝",
-      "packs": 1,
-      "pack_size": "1200 g",
-      "name_en": "Organic Red Cabbage",
-      "name_short": "Organic Red Cabbage",
-      "brand": NaN,
-      "unit_price_gbp": 0.95,
-      "line_total_gbp": 0.95,
-      "buy_qty": 1200.0,
-      "buy_unit": "g",
-      "_pack_g": 1200.0,
+      "_pack_g": 500.0,
       "used_on": [
        "11/15"
       ],
       "note": "",
       "bean_form": null,
       "_g_need": 0.0,
-      "link": "https://www.marksandspencer.com/food/organic-red-cabbage/p/fdp60038615",
+      "link": "https://www.iceland.co.uk/p/crucials-chicken-shop-creamy-ranch-500ml/107408.html",
       "zone": "冷藏",
-      "aisle": 1,
+      "aisle": 2,
       "product": {
-       "name": "Organic Red Cabbage",
-       "brand": NaN,
-       "size": "1200 g",
-       "price_gbp": 0.95,
-       "link": "https://www.marksandspencer.com/food/organic-red-cabbage/p/fdp60038615"
+       "name": "Crucials Chicken Shop Creamy Ranch 500ml",
+       "brand": "Crucials",
+       "size": "500ml",
+       "price_gbp": 1.5,
+       "link": "https://www.iceland.co.uk/p/crucials-chicken-shop-creamy-ranch-500ml/107408.html"
       }
      }
     ]
    }
   },
-  "combined_total_gbp": 28.11
+  "combined_total_gbp": 12.11
  },
  "recommend_unit": {
   "basis": "per_100g",
   "stores": [
    "ALDI",
    "SAINSBURYS",
-   "TESCO",
    "MORRISONS",
    "MARKS & SPENCER"
   ],
   "labels": [
    "Aldi",
    "Sainsbury's",
-   "Tesco",
    "Morrisons",
    "M&S"
   ],
-  "store_count": 5,
+  "store_count": 4,
   "items": [
+   {
+    "name": "法棍",
+    "name_en": "Sainsbury's Crusty White Baguette",
+    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-crusty-white-baguette",
+    "store": "SAINSBURYS",
+    "packs": 1,
+    "price": 1.35,
+    "line_total": 1.35,
+    "pack_g": 400.0,
+    "per100_gbp": 0.3375,
+    "basis": "per_100g",
+    "zone": "室温",
+    "aisle": 3,
+    "category": "主食"
+   },
    {
     "name": "番茄酱",
     "name_en": "Stamford Street Co. Spaghetti Rings in Tomato Sauce 400g",
@@ -5477,21 +3200,6 @@
     "line_total": 0.19,
     "pack_g": 400.0,
     "per100_gbp": 0.0475,
-    "basis": "per_100g",
-    "zone": "室温",
-    "aisle": 3,
-    "category": "主食"
-   },
-   {
-    "name": "藜麦",
-    "name_en": "Buchanans Quinoa 250G",
-    "link": "https://www.tesco.com/shop/en-GB/products/297133405",
-    "store": "TESCO",
-    "packs": 2,
-    "price": 1.9,
-    "line_total": 3.8,
-    "pack_g": 250.0,
-    "per100_gbp": 0.76,
     "basis": "per_100g",
     "zone": "室温",
     "aisle": 3,
@@ -5526,81 +3234,6 @@
     "zone": "室温",
     "aisle": 3,
     "category": "主食"
-   },
-   {
-    "name": "鹰嘴豆泥",
-    "name_en": "Houmous",
-    "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
-    "store": "ALDI",
-    "packs": 1,
-    "price": 0.95,
-    "line_total": 0.95,
-    "pack_g": 200.0,
-    "per100_gbp": 0.475,
-    "basis": "per_100g",
-    "zone": "室温",
-    "aisle": 3,
-    "category": "豆制品"
-   },
-   {
-    "name": "黑豆",
-    "name_en": "Tinned Black Beans",
-    "link": "https://www.aldi.co.uk/product/four-seasons-tinned-black-beans-000000000627180001",
-    "store": "ALDI",
-    "packs": 1,
-    "price": 0.45,
-    "line_total": 0.45,
-    "pack_g": 400.0,
-    "per100_gbp": 0.1125,
-    "basis": "per_100g",
-    "zone": "室温",
-    "aisle": 3,
-    "category": "豆制品"
-   },
-   {
-    "name": "黑醋",
-    "name_en": "Balsamic Vinegar of Modena",
-    "link": "https://www.aldi.co.uk/product/the-deli-balsamic-vinegar-of-modena-000000000000335643",
-    "store": "ALDI",
-    "packs": 1,
-    "price": 1.49,
-    "line_total": 1.49,
-    "pack_g": 500.0,
-    "per100_gbp": 0.298,
-    "basis": "per_100g",
-    "zone": "室温",
-    "aisle": 4,
-    "category": "调料"
-   },
-   {
-    "name": "烟熏三文鱼",
-    "name_en": "Smoked Salmon and Soft Cheese",
-    "link": "https://www.marksandspencer.com/food/smoked-salmon-and-soft-cheese/p/fdp21051054",
-    "store": "MARKS & SPENCER",
-    "packs": 1,
-    "price": 3.7,
-    "line_total": 3.7,
-    "pack_g": 220.0,
-    "per100_gbp": 1.6818,
-    "basis": "per_100g",
-    "zone": "室温",
-    "aisle": 9,
-    "category": "待分类"
-   },
-   {
-    "name": "青柠",
-    "name_en": "Diet Lemon and Lime",
-    "link": "https://www.marksandspencer.com/food/diet-lemon-and-lime/p/fdp60567863",
-    "store": "MARKS & SPENCER",
-    "packs": 1,
-    "price": 1.0,
-    "line_total": 1.0,
-    "pack_g": 1000.0,
-    "per100_gbp": 0.1,
-    "basis": "per_100g",
-    "zone": "室温",
-    "aisle": 9,
-    "category": "待分类"
    },
    {
     "name": "猕猴桃",
@@ -5648,51 +3281,6 @@
     "category": "蔬菜"
    },
    {
-    "name": "羽衣甘蓝",
-    "name_en": "Morrisons British Sliced Kale  150g",
-    "link": "https://groceries.morrisons.com/products/112941551",
-    "store": "MORRISONS",
-    "packs": 1,
-    "price": 0.66,
-    "line_total": 0.66,
-    "pack_g": 150.0,
-    "per100_gbp": 0.44,
-    "basis": "per_100g",
-    "zone": "冷藏",
-    "aisle": 1,
-    "category": "蔬菜"
-   },
-   {
-    "name": "葡萄番茄",
-    "name_en": "Grower's Harvest Plum Tomatoes 400G",
-    "link": "https://www.tesco.com/shop/en-GB/products/300522822",
-    "store": "TESCO",
-    "packs": 1,
-    "price": 0.43,
-    "line_total": 0.43,
-    "pack_g": 400.0,
-    "per100_gbp": 0.1075,
-    "basis": "per_100g",
-    "zone": "冷藏",
-    "aisle": 1,
-    "category": "蔬菜"
-   },
-   {
-    "name": "牛奶",
-    "name_en": "Semi Skimmed Milk 1.7% Fat",
-    "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
-    "store": "ALDI",
-    "packs": 1,
-    "price": 2.4,
-    "line_total": 2.4,
-    "pack_g": 3408.0,
-    "per100_gbp": 0.0704,
-    "basis": "per_100g",
-    "zone": "冷藏",
-    "aisle": 2,
-    "category": "乳制品"
-   },
-   {
     "name": "茅屋奶酪",
     "name_en": "Low Fat Cottage Cheese",
     "link": "https://www.aldi.co.uk/product/everyday-essentials-low-fat-cottage-cheese-000000000000416217",
@@ -5723,21 +3311,6 @@
     "category": "乳制品"
    },
    {
-    "name": "牛肉",
-    "name_en": "Morrisons British Beef Marrowbone 650g",
-    "link": "https://groceries.morrisons.com/products/109471640",
-    "store": "MORRISONS",
-    "packs": 5,
-    "price": 3.9,
-    "line_total": 19.5,
-    "pack_g": 1000.0,
-    "per100_gbp": 0.39,
-    "basis": "per_100g",
-    "zone": "冷藏",
-    "aisle": 2,
-    "category": "肉类"
-   },
-   {
     "name": "鸡肉",
     "name_en": "Stamford Street Co. British Frozen Chicken Portions 2kg",
     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-british-frozen-chicken-portions-2kg",
@@ -5751,90 +3324,164 @@
     "zone": "冷藏",
     "aisle": 2,
     "category": "肉类"
+   },
+   {
+    "name": "蛋白",
+    "name_en": "Two Chicks Free Range Egg Whites 500g Chilled",
+    "link": "https://groceries.morrisons.com/products/108184526",
+    "store": "MORRISONS",
+    "packs": 1,
+    "price": 3.5,
+    "line_total": 3.5,
+    "pack_g": 500.0,
+    "per100_gbp": 0.7,
+    "basis": "per_100g",
+    "zone": "冷藏",
+    "aisle": 2,
+    "category": "蛋类"
    }
   ],
   "per_store": {
    "ALDI": {
-    "subtotal": 6.69,
-    "count": 6
-   },
-   "SAINSBURYS": {
-    "subtotal": 5.04,
-    "count": 3
-   },
-   "TESCO": {
-    "subtotal": 4.23,
+    "subtotal": 1.4,
     "count": 2
    },
-   "MORRISONS": {
-    "subtotal": 25.17,
+   "SAINSBURYS": {
+    "subtotal": 6.39,
     "count": 4
+   },
+   "MORRISONS": {
+    "subtotal": 8.51,
+    "count": 3
    },
    "MARKS & SPENCER": {
-    "subtotal": 8.3,
-    "count": 4
+    "subtotal": 3.6,
+    "count": 2
    }
   },
-  "cost": 49.43,
-  "coverage": 0.9047619047619048,
-  "missing": [
-   "切薄的半熟烤牛肉",
-   "罐装低钠白芸豆"
-  ],
-  "total_if_pick_by_line_total": 21.99,
+  "cost": 19.9,
+  "coverage": 1.0,
+  "missing": [],
+  "total_if_pick_by_line_total": 12.27,
   "oversized": [
    {
-    "name": "黑醋",
-    "pack_g": 500.0,
-    "need_g": 8.7,
-    "ratio": 57.5
-   },
-   {
-    "name": "草莓",
-    "pack_g": 500.0,
-    "need_g": 15.0,
-    "ratio": 33.2
-   },
-   {
-    "name": "牛奶",
-    "pack_g": 3408.0,
-    "need_g": 365.9,
-    "ratio": 9.3
-   },
-   {
-    "name": "鸡肉",
-    "pack_g": 2000.0,
-    "need_g": 367.5,
-    "ratio": 5.4
-   },
-   {
-    "name": "葡萄番茄",
+    "name": "番茄酱",
     "pack_g": 400.0,
-    "need_g": 132.4,
-    "ratio": 3.0
+    "need_g": 5.4,
+    "ratio": 74.4
    },
    {
-    "name": "黑豆",
+    "name": "蛋白",
+    "pack_g": 500.0,
+    "need_g": 12.0,
+    "ratio": 41.7
+   },
+   {
+    "name": "法棍",
     "pack_g": 400.0,
-    "need_g": 138.9,
-    "ratio": 2.9
+    "need_g": 73.2,
+    "ratio": 5.5
    },
    {
     "name": "猕猴桃",
     "pack_g": 320.0,
-    "need_g": 118.8,
-    "ratio": 2.7
-   },
-   {
-    "name": "羽衣甘蓝",
-    "pack_g": 150.0,
-    "need_g": 74.9,
-    "ratio": 2.0
+    "need_g": 155.8,
+    "ratio": 2.1
    }
   ]
  },
  "only_at": {},
  "price_compare": [
+  {
+   "name": "法棍",
+   "name_display": "法棍",
+   "category": "主食",
+   "stores": {
+    "SAINSBURYS": {
+     "price": 1.35,
+     "pack_g": 400.0,
+     "size": "400g",
+     "per100_gbp": 0.3375,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-crusty-white-baguette",
+     "product_name": "Sainsbury's Crusty White Baguette",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    },
+    "ICELAND": {
+     "price": 2.5,
+     "pack_g": null,
+     "size": "nan",
+     "per100_gbp": null,
+     "link": "https://www.iceland.co.uk/p/dr.-oetker-bistro-baguette-pepperoni-2-x-125g-%28250g%29/72981.html",
+     "product_name": "Dr. Oetker Bistro Baguette Pepperoni 2 x 125g (250g)",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 2.0,
+     "pack_g": 400.0,
+     "size": "400g",
+     "per100_gbp": 0.5,
+     "link": "https://www.tesco.com/shop/en-GB/products/321107211",
+     "product_name": "Tesco Finest White Sourdough Baguette 400g",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 1.35,
+     "pack_g": 400.0,
+     "size": "400g",
+     "per100_gbp": 0.3375,
+     "link": "https://groceries.morrisons.com/products/114487611",
+     "product_name": "Market Street Tiger Baguette 400g",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.4,
+     "pack_g": 400.0,
+     "size": "400g",
+     "per100_gbp": 0.35,
+     "link": "https://www.waitrose.com/ecom/products/white-baguette/065131-33004-33005",
+     "product_name": "White Baguette",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.35,
+     "pack_g": 310.0,
+     "size": "310 g",
+     "per100_gbp": 0.4355,
+     "link": "https://www.marksandspencer.com/food/baguette/p/fdp21097199",
+     "product_name": "Baguette",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "SAINSBURYS",
+   "cheapest_label": "Sainsbury's",
+   "expensive_label": "Tesco",
+   "diff_per100": 0.1625,
+   "diff_pct": 0.4815,
+   "spread_ratio": 1.48,
+   "suspect": false,
+   "sizes_g": {
+    "SAINSBURYS": 400.0,
+    "TESCO": 400.0,
+    "MORRISONS": 400.0,
+    "WAITROSE": 400.0,
+    "MARKS & SPENCER": 310.0
+   },
+   "zone": "室温",
+   "aisle": 3
+  },
   {
    "name": "番茄酱",
    "name_display": "番茄酱",
@@ -5934,85 +3581,6 @@
     "MORRISONS": 395.0,
     "WAITROSE": 690.0,
     "MARKS & SPENCER": 495.0
-   },
-   "zone": "室温",
-   "aisle": 3
-  },
-  {
-   "name": "藜麦",
-   "name_display": "藜麦",
-   "category": "主食",
-   "stores": {
-    "SAINSBURYS": {
-     "price": 3.1,
-     "pack_g": 300.0,
-     "size": "300g",
-     "per100_gbp": 1.0333,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g",
-     "product_name": "Sainsbury's Quinoa 300g",
-     "category": "主食",
-     "form": "raw",
-     "canned": true
-    },
-    "TESCO": {
-     "price": 1.9,
-     "pack_g": 250.0,
-     "size": "250g",
-     "per100_gbp": 0.76,
-     "link": "https://www.tesco.com/shop/en-GB/products/297133405",
-     "product_name": "Buchanans Quinoa 250G",
-     "category": "主食",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 3.29,
-     "pack_g": 400.0,
-     "size": "400g",
-     "per100_gbp": 0.8225,
-     "link": "https://groceries.morrisons.com/products/300001639",
-     "product_name": "Biona Organic Chilli Con Quinoa (400g)",
-     "category": "主食",
-     "form": "raw",
-     "canned": true
-    },
-    "WAITROSE": {
-     "price": 4.25,
-     "pack_g": 500.0,
-     "size": "500g",
-     "per100_gbp": 0.85,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-quinoa/059324-29873-29874",
-     "product_name": "Waitrose Quinoa",
-     "category": "主食",
-     "form": "raw",
-     "canned": false
-    },
-    "MARKS & SPENCER": {
-     "price": 4.25,
-     "pack_g": 500.0,
-     "size": "500 g",
-     "per100_gbp": 0.85,
-     "link": "https://www.marksandspencer.com/food/quinoa/p/fdp60604291",
-     "product_name": "Quinoa",
-     "category": "主食",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "TESCO",
-   "cheapest_label": "Tesco",
-   "expensive_label": "Sainsbury's",
-   "diff_per100": 0.2733,
-   "diff_pct": 0.3596,
-   "spread_ratio": 1.36,
-   "suspect": false,
-   "sizes_g": {
-    "SAINSBURYS": 300.0,
-    "TESCO": 250.0,
-    "MORRISONS": 400.0,
-    "WAITROSE": 500.0,
-    "MARKS & SPENCER": 500.0
    },
    "zone": "室温",
    "aisle": 3
@@ -6198,471 +3766,6 @@
    },
    "zone": "室温",
    "aisle": 3
-  },
-  {
-   "name": "鹰嘴豆泥",
-   "name_display": "鹰嘴豆泥",
-   "category": "豆制品",
-   "stores": {
-    "ALDI": {
-     "price": 0.95,
-     "pack_g": 200.0,
-     "size": "200 g",
-     "per100_gbp": 0.475,
-     "link": "https://www.aldi.co.uk/product/the-deli-houmous-000000000403915001",
-     "product_name": "Houmous",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.0,
-     "pack_g": 200.0,
-     "size": "200g",
-     "per100_gbp": 0.5,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-houmous-200g",
-     "product_name": "Sainsbury's Houmous 200g",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 3.6,
-     "pack_g": 500.0,
-     "size": "500g",
-     "per100_gbp": 0.72,
-     "link": "https://www.iceland.co.uk/p/ramonas-original-heavenly-houmous-500g/107190.html",
-     "product_name": "Ramona's Original Heavenly Houmous 500g",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.65,
-     "pack_g": 300.0,
-     "size": "300g",
-     "per100_gbp": 0.55,
-     "link": "https://www.tesco.com/shop/en-GB/products/320967265",
-     "product_name": "Tesco Houmous 300g",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 1.49,
-     "pack_g": 300.0,
-     "size": "300g",
-     "per100_gbp": 0.4967,
-     "link": "https://groceries.morrisons.com/products/104263999",
-     "product_name": "Morrisons Classic Houmous 300g",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.45,
-     "pack_g": 300.0,
-     "size": "300g",
-     "per100_gbp": 0.4833,
-     "link": "https://www.waitrose.com/ecom/products/essential-reduced-fat-houmous/046201-22747-22748",
-     "product_name": "Essential Reduced Fat Houmous",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "MARKS & SPENCER": {
-     "price": 1.85,
-     "pack_g": 300.0,
-     "size": "300 g",
-     "per100_gbp": 0.6167,
-     "link": "https://www.marksandspencer.com/food/classic-houmous/p/fdp60524944",
-     "product_name": "Classic Houmous",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.245,
-   "diff_pct": 0.5158,
-   "spread_ratio": 1.52,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 200.0,
-    "SAINSBURYS": 200.0,
-    "ICELAND": 500.0,
-    "TESCO": 300.0,
-    "MORRISONS": 300.0,
-    "WAITROSE": 300.0,
-    "MARKS & SPENCER": 300.0
-   },
-   "zone": "室温",
-   "aisle": 3
-  },
-  {
-   "name": "黑豆",
-   "name_display": "黑豆",
-   "category": "豆制品",
-   "stores": {
-    "SAINSBURYS": {
-     "price": 2.0,
-     "pack_g": 250.0,
-     "size": "250g",
-     "per100_gbp": 0.8,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/leon-brazilian-style-black-beans-250g",
-     "product_name": "LEON Brazilian Style Black Beans 250g",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 2.0,
-     "pack_g": 845.0,
-     "size": "845g",
-     "per100_gbp": 0.2367,
-     "link": "https://www.tesco.com/shop/en-GB/products/266870898",
-     "product_name": "Compal Black Beans In Tin/Preto 845G",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 2.4,
-     "pack_g": 425.0,
-     "size": "425g",
-     "per100_gbp": 0.5647,
-     "link": "https://groceries.morrisons.com/products/112495108",
-     "product_name": "Old El Paso Mild Black Beans 425g",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.75,
-     "pack_g": 425.0,
-     "size": "425g",
-     "per100_gbp": 0.4118,
-     "link": "https://www.waitrose.com/ecom/products/old-el-paso-mild-black-beans/885072-368534-368535",
-     "product_name": "Old El Paso Mild Black Beans",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    },
-    "MARKS & SPENCER": {
-     "price": 0.6,
-     "pack_g": 430.0,
-     "size": "430 g",
-     "per100_gbp": 0.1395,
-     "link": "https://www.marksandspencer.com/food/black-beans/p/fdp60917584",
-     "product_name": "Black Beans",
-     "category": "豆制品",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "MARKS & SPENCER",
-   "cheapest_label": "M&S",
-   "expensive_label": "Sainsbury's",
-   "diff_per100": 0.6605,
-   "diff_pct": 4.7348,
-   "spread_ratio": 5.73,
-   "suspect": true,
-   "sizes_g": {
-    "SAINSBURYS": 250.0,
-    "TESCO": 845.0,
-    "MORRISONS": 425.0,
-    "WAITROSE": 425.0,
-    "MARKS & SPENCER": 430.0
-   },
-   "zone": "室温",
-   "aisle": 3
-  },
-  {
-   "name": "青柠",
-   "name_display": "青柠",
-   "category": "调料",
-   "stores": {
-    "SAINSBURYS": {
-     "price": 1.15,
-     "pack_g": null,
-     "size": "2gram",
-     "per100_gbp": null,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-makrut-lime-leaves-2g",
-     "product_name": "Sainsbury's Makrut Lime Leaves 2g",
-     "category": "水果",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 2.65,
-     "pack_g": null,
-     "size": "27.5cl",
-     "per100_gbp": null,
-     "link": "https://www.iceland.co.uk/p/breezer-lime-27.5cl/105385.html",
-     "product_name": "BREEZER Lime, 27.5cl",
-     "category": "水果",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.5,
-     "pack_g": 1500.0,
-     "size": "1.5l",
-     "per100_gbp": 0.1,
-     "link": "https://www.tesco.com/shop/en-GB/products/323666069",
-     "product_name": "Deep River Rock Blueberry Lime Still Water 1.5 Litre",
-     "category": "调料",
-     "form": "raw",
-     "canned": true
-    },
-    "MORRISONS": {
-     "price": 3.65,
-     "pack_g": 330.0,
-     "size": "4 x 330ml",
-     "per100_gbp": 1.1061,
-     "link": "https://groceries.morrisons.com/products/115329990",
-     "product_name": "Aqua Libra Cucumber Mint And Lime ",
-     "category": "待分类",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 7.5,
-     "pack_g": 250.0,
-     "size": "4x250ml",
-     "per100_gbp": 3.0,
-     "link": "https://www.waitrose.com/ecom/products/picoso-zesty-lime/959626-1-2",
-     "product_name": "Picoso Zesty Lime",
-     "category": "水果",
-     "form": "raw",
-     "canned": false
-    },
-    "MARKS & SPENCER": {
-     "price": 1.0,
-     "pack_g": 1000.0,
-     "size": "1 l",
-     "per100_gbp": 0.1,
-     "link": "https://www.marksandspencer.com/food/diet-lemon-and-lime/p/fdp60567863",
-     "product_name": "Diet Lemon and Lime",
-     "category": "待分类",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "TESCO",
-   "cheapest_label": "Tesco",
-   "expensive_label": "Waitrose",
-   "diff_per100": 2.9,
-   "diff_pct": 29.0,
-   "spread_ratio": 30.0,
-   "suspect": true,
-   "sizes_g": {
-    "TESCO": 1500.0,
-    "MORRISONS": 330.0,
-    "WAITROSE": 250.0,
-    "MARKS & SPENCER": 1000.0
-   },
-   "zone": "室温",
-   "aisle": 4
-  },
-  {
-   "name": "黑醋",
-   "name_display": "黑醋",
-   "category": "调料",
-   "stores": {
-    "ALDI": {
-     "price": 1.49,
-     "pack_g": 500.0,
-     "size": "500 ml",
-     "per100_gbp": 0.298,
-     "link": "https://www.aldi.co.uk/product/the-deli-balsamic-vinegar-of-modena-000000000000335643",
-     "product_name": "Balsamic Vinegar of Modena",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.75,
-     "pack_g": 250.0,
-     "size": "250ml e",
-     "per100_gbp": 0.7,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-balsamic-vinegar-of-modena-2-leaf-250ml",
-     "product_name": "Sainsbury's Balsamic Vinegar of Modena 2 Leaf 250ml",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.75,
-     "pack_g": 250.0,
-     "size": "250ml",
-     "per100_gbp": 0.7,
-     "link": "https://www.tesco.com/shop/en-GB/products/254296718",
-     "product_name": "Tesco Balsamic Vinegar Of Modena 250Ml",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 1.6,
-     "pack_g": 250.0,
-     "size": "250ml",
-     "per100_gbp": 0.64,
-     "link": "https://groceries.morrisons.com/products/105167288",
-     "product_name": "Morrisons 25% Balsamic Vinegar For Cold Dishes 250ml",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.8,
-     "pack_g": 250.0,
-     "size": "250ml",
-     "per100_gbp": 0.72,
-     "link": "https://www.waitrose.com/ecom/products/essential-balsamic-vinegar-of-modena/007184-3299-3300",
-     "product_name": "Essential Balsamic Vinegar of Modena",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    },
-    "MARKS & SPENCER": {
-     "price": 3.2,
-     "pack_g": 250.0,
-     "size": "250 ml",
-     "per100_gbp": 1.28,
-     "link": "https://www.marksandspencer.com/food/balsamic-vinegar-of-modena/p/fdp60010187",
-     "product_name": "Balsamic Vinegar of Modena",
-     "category": "调料",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "M&S",
-   "diff_per100": 0.982,
-   "diff_pct": 3.2953,
-   "spread_ratio": 4.3,
-   "suspect": true,
-   "sizes_g": {
-    "ALDI": 500.0,
-    "SAINSBURYS": 250.0,
-    "TESCO": 250.0,
-    "MORRISONS": 250.0,
-    "WAITROSE": 250.0,
-    "MARKS & SPENCER": 250.0
-   },
-   "zone": "室温",
-   "aisle": 4
-  },
-  {
-   "name": "烟熏三文鱼",
-   "name_display": "烟熏三文鱼",
-   "category": "待分类",
-   "stores": {
-    "ALDI": {
-     "price": 4.49,
-     "pack_g": 200.0,
-     "size": "200 g",
-     "per100_gbp": 2.245,
-     "link": "https://www.aldi.co.uk/product/the-fishmonger-smoked-salmon-slices-000000000000308148",
-     "product_name": "Smoked Salmon Slices",
-     "category": "水产",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 2.95,
-     "pack_g": 100.0,
-     "size": "100g",
-     "per100_gbp": 2.95,
-     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-scottish-smoked-salmon-100g",
-     "product_name": "Stamford Street Co. Scottish Smoked Salmon 100g",
-     "category": "水产",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 4.5,
-     "pack_g": 200.0,
-     "size": "200g",
-     "per100_gbp": 2.25,
-     "link": "https://www.iceland.co.uk/p/iceland-2-lightly-smoked-salmon-fillets-200g/17428.html",
-     "product_name": "Iceland 2 Lightly Smoked Salmon Fillets 200g",
-     "category": "水产",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 3.0,
-     "pack_g": 100.0,
-     "size": "100g",
-     "per100_gbp": 3.0,
-     "link": "https://www.tesco.com/shop/en-GB/products/314583520",
-     "product_name": "Tesco Smoked Salmon 100g",
-     "category": "水产",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 3.0,
-     "pack_g": 100.0,
-     "size": "100g",
-     "per100_gbp": 3.0,
-     "link": "https://groceries.morrisons.com/products/114214533",
-     "product_name": "Big Blue Sea Smoked Salmon Slices",
-     "category": "水产",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 6.85,
-     "pack_g": 291.0,
-     "size": "291g",
-     "per100_gbp": 2.354,
-     "link": "https://www.waitrose.com/ecom/products/taiko-smoked-salmon-deluxe/514434-671670-671671",
-     "product_name": "Taiko Smoked Salmon Deluxe",
-     "category": "水产",
-     "form": "raw",
-     "canned": false
-    },
-    "MARKS & SPENCER": {
-     "price": 3.7,
-     "pack_g": 220.0,
-     "size": "220 g",
-     "per100_gbp": 1.6818,
-     "link": "https://www.marksandspencer.com/food/smoked-salmon-and-soft-cheese/p/fdp21051054",
-     "product_name": "Smoked Salmon and Soft Cheese",
-     "category": "待分类",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "MARKS & SPENCER",
-   "cheapest_label": "M&S",
-   "expensive_label": "Tesco",
-   "diff_per100": 1.3182,
-   "diff_pct": 0.7838,
-   "spread_ratio": 1.78,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 200.0,
-    "SAINSBURYS": 100.0,
-    "ICELAND": 200.0,
-    "TESCO": 100.0,
-    "MORRISONS": 100.0,
-    "WAITROSE": 291.0,
-    "MARKS & SPENCER": 220.0
-   },
-   "zone": "室温",
-   "aisle": 9
   },
   {
    "name": "猕猴桃",
@@ -6958,303 +4061,6 @@
    "aisle": 1
   },
   {
-   "name": "羽衣甘蓝",
-   "name_display": "羽衣甘蓝",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 0.89,
-     "pack_g": 200.0,
-     "size": "200 g",
-     "per100_gbp": 0.445,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-scottish-shredded-kale-000000000000339974",
-     "product_name": "Scottish Shredded Kale",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 0.89,
-     "pack_g": 200.0,
-     "size": "200g",
-     "per100_gbp": 0.445,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-kale-200g",
-     "product_name": "Sainsbury's Kale 200g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 0.8,
-     "pack_g": 180.0,
-     "size": "180g",
-     "per100_gbp": 0.4444,
-     "link": "https://www.tesco.com/shop/en-GB/products/301219155",
-     "product_name": "Tesco Curly Kale 180G",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 0.66,
-     "pack_g": 150.0,
-     "size": "150g",
-     "per100_gbp": 0.44,
-     "link": "https://groceries.morrisons.com/products/112941551",
-     "product_name": "Morrisons British Sliced Kale  150g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.4,
-     "pack_g": 210.0,
-     "size": "210g",
-     "per100_gbp": 0.6667,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-whole-leaf-kale/686452-97503-97504",
-     "product_name": "Waitrose Whole Leaf Kale",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "MARKS & SPENCER": {
-     "price": 1.75,
-     "pack_g": 200.0,
-     "size": "200 g",
-     "per100_gbp": 0.875,
-     "link": "https://www.marksandspencer.com/food/cavolo-nero-kale/p/fdp60075308",
-     "product_name": "Cavolo Nero Kale",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "MORRISONS",
-   "cheapest_label": "Morrisons",
-   "expensive_label": "M&S",
-   "diff_per100": 0.435,
-   "diff_pct": 0.9886,
-   "spread_ratio": 1.99,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 200.0,
-    "SAINSBURYS": 200.0,
-    "TESCO": 180.0,
-    "MORRISONS": 150.0,
-    "WAITROSE": 210.0,
-    "MARKS & SPENCER": 200.0
-   },
-   "zone": "冷藏",
-   "aisle": 1
-  },
-  {
-   "name": "葡萄番茄",
-   "name_display": "葡萄番茄",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 0.62,
-     "pack_g": 250.0,
-     "size": "250 g",
-     "per100_gbp": 0.248,
-     "link": "https://www.aldi.co.uk/product/everyday-essentials-baby-plum-tomatoes-000000000000275259",
-     "product_name": "Baby Plum Tomatoes",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 0.65,
-     "pack_g": 400.0,
-     "size": "400g",
-     "per100_gbp": 0.1625,
-     "link": "https://www.sainsburys.co.uk/groceries/product/ktc-peeled-plum-tomatoes-400g",
-     "product_name": "KTC Peeled Plum Tomatoes 400g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": true
-    },
-    "ICELAND": {
-     "price": 1.0,
-     "pack_g": 250.0,
-     "size": "250g",
-     "per100_gbp": 0.4,
-     "link": "https://www.iceland.co.uk/p/iceland-baby-plum-tomatoes-250g/62943.html",
-     "product_name": "Iceland Baby Plum Tomatoes 250g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 0.43,
-     "pack_g": 400.0,
-     "size": "400g",
-     "per100_gbp": 0.1075,
-     "link": "https://www.tesco.com/shop/en-GB/products/300522822",
-     "product_name": "Grower's Harvest Plum Tomatoes 400G",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": true
-    },
-    "MORRISONS": {
-     "price": 0.47,
-     "pack_g": 400.0,
-     "size": "400g",
-     "per100_gbp": 0.1175,
-     "link": "https://groceries.morrisons.com/products/105415472",
-     "product_name": "Morrisons Peeled Plum Tomatoes (400g)",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": true
-    },
-    "WAITROSE": {
-     "price": 4.15,
-     "pack_g": 400.0,
-     "size": "4x400g",
-     "per100_gbp": 1.0375,
-     "link": "https://www.waitrose.com/ecom/products/mutti-peeled-whole-plum-tomatoes/878789-805847-805848",
-     "product_name": "Mutti Peeled Whole Plum Tomatoes",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": true
-    },
-    "MARKS & SPENCER": {
-     "price": 1.8,
-     "pack_g": 1600.0,
-     "size": "1600 g",
-     "per100_gbp": 0.1125,
-     "link": "https://www.marksandspencer.com/food/italian-plum-tomatoes/p/fdp60465696",
-     "product_name": "Italian Plum Tomatoes",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": true
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "TESCO",
-   "cheapest_label": "Tesco",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.93,
-   "diff_pct": 8.6512,
-   "spread_ratio": 9.65,
-   "suspect": true,
-   "sizes_g": {
-    "ALDI": 250.0,
-    "SAINSBURYS": 400.0,
-    "ICELAND": 250.0,
-    "TESCO": 400.0,
-    "MORRISONS": 400.0,
-    "WAITROSE": 400.0,
-    "MARKS & SPENCER": 1600.0
-   },
-   "zone": "冷藏",
-   "aisle": 1
-  },
-  {
-   "name": "牛奶",
-   "name_display": "牛奶",
-   "category": "乳制品",
-   "stores": {
-    "ALDI": {
-     "price": 2.4,
-     "pack_g": 3408.0,
-     "size": "3.408 l",
-     "per100_gbp": 0.0704,
-     "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
-     "product_name": "Semi Skimmed Milk 1.7% Fat",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 2.55,
-     "pack_g": 3408.0,
-     "size": "3.408L (6 pints)",
-     "per100_gbp": 0.0748,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-whole-milk-3-4l-6-pint",
-     "product_name": "Sainsbury's British Whole Milk 3.4L (6 pint)",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 2.35,
-     "pack_g": 3000.0,
-     "size": "3L",
-     "per100_gbp": 0.0783,
-     "link": "https://www.iceland.co.uk/p/dale-farm-fresh-whole-milk-5.28-pints%2F3l/3545.html",
-     "product_name": "Dale Farm Fresh Whole Milk 5.28 Pints/3L",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.75,
-     "pack_g": 2272.0,
-     "size": "2.272l",
-     "per100_gbp": 0.077,
-     "link": "https://www.tesco.com/shop/en-GB/products/254656399",
-     "product_name": "Tesco British Whole Milk 2.272L, 4 Pints",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 2.4,
-     "pack_g": 3408.0,
-     "size": "3.408L",
-     "per100_gbp": 0.0704,
-     "link": "https://groceries.morrisons.com/products/113240511",
-     "product_name": "Morrisons British Semi Skimmed Milk 6 Pint",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.2,
-     "pack_g": 568.0,
-     "size": "568ml",
-     "per100_gbp": 0.2113,
-     "link": "https://www.waitrose.com/ecom/products/duchy-organic-semiskimmed-milk-1-pint/090078-46442-46443",
-     "product_name": "Duchy Organic Semi-Skimmed Milk 1 Pint",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    },
-    "MARKS & SPENCER": {
-     "price": 2.4,
-     "pack_g": 3408.0,
-     "size": "3.408 l",
-     "per100_gbp": 0.0704,
-     "link": "https://www.marksandspencer.com/food/semi-skimmed-milk/p/fdp61267727",
-     "product_name": "Semi Skimmed Milk",
-     "category": "乳制品",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "ALDI",
-   "cheapest_label": "Aldi",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.1409,
-   "diff_pct": 2.0014,
-   "spread_ratio": 3.0,
-   "suspect": true,
-   "sizes_g": {
-    "ALDI": 3408.0,
-    "SAINSBURYS": 3408.0,
-    "ICELAND": 3000.0,
-    "TESCO": 2272.0,
-    "MORRISONS": 3408.0,
-    "WAITROSE": 568.0,
-    "MARKS & SPENCER": 3408.0
-   },
-   "zone": "冷藏",
-   "aisle": 2
-  },
-  {
    "name": "茅屋奶酪",
    "name_display": "茅屋奶酪",
    "category": "乳制品",
@@ -7437,106 +4243,6 @@
    "aisle": 2
   },
   {
-   "name": "牛肉",
-   "name_display": "牛肉",
-   "category": "肉类",
-   "stores": {
-    "ALDI": {
-     "price": 4.98,
-     "pack_g": null,
-     "size": "nan",
-     "per100_gbp": null,
-     "link": "https://www.aldi.co.uk/product/ashfields-british-beef-roasting-joint-21-day-matured-000000000000384513",
-     "product_name": "British Beef Roasting Joint 21 Day Matured",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.4,
-     "pack_g": null,
-     "size": "nan",
-     "per100_gbp": null,
-     "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-beef-tomato-single-taste-the-difference",
-     "product_name": "Sainsbury's Beef Tomato Single, Taste the Difference",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 2.75,
-     "pack_g": 300.0,
-     "size": "300g",
-     "per100_gbp": 0.9167,
-     "link": "https://www.iceland.co.uk/p/iceland-4-beef-grillsteaks-300g/40068.html",
-     "product_name": "Iceland 4 Beef Grillsteaks 300g",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.65,
-     "pack_g": 200.0,
-     "size": "200g",
-     "per100_gbp": 0.825,
-     "link": "https://www.tesco.com/shop/en-GB/products/309456235",
-     "product_name": "Tesco Beef Suet 200G",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "MORRISONS": {
-     "price": 3.9,
-     "pack_g": 1000.0,
-     "size": "1kg - 1kg",
-     "per100_gbp": 0.39,
-     "link": "https://groceries.morrisons.com/products/109471640",
-     "product_name": "Morrisons British Beef Marrowbone 650g",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 8.75,
-     "pack_g": null,
-     "size": "75cl",
-     "per100_gbp": null,
-     "link": "https://www.waitrose.com/ecom/products/beefsteak-club-malbec-mendoza-argentina/797719-499478-499479",
-     "product_name": "Beefsteak Club Malbec Mendoza Argentina",
-     "category": "待分类",
-     "form": "raw",
-     "canned": false
-    },
-    "MARKS & SPENCER": {
-     "price": 1.0,
-     "pack_g": 180.0,
-     "size": "180 g",
-     "per100_gbp": 0.5556,
-     "link": "https://www.marksandspencer.com/food/loose-beef-tomatoes/p/fdp60263436",
-     "product_name": "Loose Beef Tomatoes",
-     "category": "肉类",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "MORRISONS",
-   "cheapest_label": "Morrisons",
-   "expensive_label": "Iceland",
-   "diff_per100": 0.5267,
-   "diff_pct": 1.3505,
-   "spread_ratio": 2.35,
-   "suspect": false,
-   "sizes_g": {
-    "ICELAND": 300.0,
-    "TESCO": 200.0,
-    "MORRISONS": 1000.0,
-    "MARKS & SPENCER": 180.0
-   },
-   "zone": "冷藏",
-   "aisle": 2
-  },
-  {
    "name": "鸡肉",
    "name_display": "鸡肉",
    "category": "肉类",
@@ -7635,6 +4341,85 @@
     "MORRISONS": 1350.0,
     "WAITROSE": 250.0,
     "MARKS & SPENCER": 600.0
+   },
+   "zone": "冷藏",
+   "aisle": 2
+  },
+  {
+   "name": "蛋白",
+   "name_display": "蛋白",
+   "category": "蛋类",
+   "stores": {
+    "SAINSBURYS": {
+     "price": 3.7,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.74,
+     "link": "https://www.sainsburys.co.uk/groceries/product/two-chicks-liquid-egg-white-500g",
+     "product_name": "Two Chicks Liquid Egg White 500g",
+     "category": "蛋类",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 3.7,
+     "pack_g": 500.0,
+     "size": "500ml",
+     "per100_gbp": 0.74,
+     "link": "https://www.tesco.com/shop/en-GB/products/266552250",
+     "product_name": "Two Chicks Liquid Egg Whites 500 Ml",
+     "category": "蛋类",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 3.5,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.7,
+     "link": "https://groceries.morrisons.com/products/108184526",
+     "product_name": "Two Chicks Free Range Egg Whites 500g Chilled",
+     "category": "蛋类",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 4.3,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.86,
+     "link": "https://www.waitrose.com/ecom/products/clarence-court-liquid-egg-white/737522-741320-741321",
+     "product_name": "Clarence Court Liquid Egg White",
+     "category": "蛋类",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 3.9,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.78,
+     "link": "https://www.marksandspencer.com/food/liquid-egg-white/p/fdp60650118",
+     "product_name": "Liquid Egg White",
+     "category": "蛋类",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "MORRISONS",
+   "cheapest_label": "Morrisons",
+   "expensive_label": "Waitrose",
+   "diff_per100": 0.16,
+   "diff_pct": 0.2286,
+   "spread_ratio": 1.23,
+   "suspect": false,
+   "sizes_g": {
+    "SAINSBURYS": 500.0,
+    "TESCO": 500.0,
+    "MORRISONS": 500.0,
+    "WAITROSE": 500.0,
+    "MARKS & SPENCER": 500.0
    },
    "zone": "冷藏",
    "aisle": 2
