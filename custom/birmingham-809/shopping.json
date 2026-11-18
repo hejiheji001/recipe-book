@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-18T21:09:17",
+ "generated": "2026-11-18T21:28:53",
  "quantity_basis": "单人 8 天份 · 11/22 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/22",
@@ -26,15 +26,6 @@
     "last_idx": -7
    },
    {
-    "name": "芦笋",
-    "shelf": "中·保鲜5-7天",
-    "days": [
-     "11/15",
-     "11/19"
-    ],
-    "last_idx": -3
-   },
-   {
     "name": "小葱",
     "shelf": "中·保鲜5-7天",
     "days": [],
@@ -51,6 +42,26 @@
     "shelf": "中·保鲜5-7天",
     "days": [],
     "last_idx": -1
+   },
+   {
+    "name": "芦笋",
+    "shelf": "中·保鲜5-7天",
+    "days": [
+     "11/15",
+     "11/19",
+     "11/26"
+    ],
+    "last_idx": 4
+   },
+   {
+    "name": "西葫芦",
+    "shelf": "中·保鲜5-7天",
+    "days": [
+     "11/14",
+     "11/25",
+     "11/29"
+    ],
+    "last_idx": 7
    }
   ],
   "hardy": [
@@ -58,9 +69,11 @@
     "name": "羽衣甘蓝",
     "shelf": "根茎·耐放7天+",
     "days": [
-     "11/08"
+     "11/08",
+     "11/22",
+     "11/24"
     ],
-    "last_idx": -14
+    "last_idx": 2
    }
   ],
   "leafy_conflicts": []
@@ -280,7 +293,7 @@
    "used_on": [],
    "note": "",
    "bean_form": null,
-   "_g_need": 14.5,
+   "_g_need": 7.25,
    "link": "https://www.aldi.co.uk/product/snackrite-fully-loaded-jalapeno-peanuts-000000000386540001",
    "zone": "室温",
    "aisle": 3,
@@ -367,8 +380,7 @@
    "buy_unit": "g",
    "_pack_g": 200.0,
    "used_on": [
-    "11/15",
-    "11/27"
+    "11/15"
    ],
    "note": "",
    "bean_form": null,
@@ -399,13 +411,11 @@
    "buy_unit": "g",
    "_pack_g": 400.0,
    "used_on": [
-    "11/17",
-    "11/22",
-    "11/29"
+    "11/17"
    ],
    "note": "开罐沥干即用；每次 ~139g，剩约 101g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
    "bean_form": "canned",
-   "_g_need": 166.16666666666666,
+   "_g_need": 83.08333333333333,
    "link": "https://www.aldi.co.uk/product/four-seasons-tinned-black-beans-000000000627180001",
    "zone": "室温",
    "aisle": 3,
@@ -678,7 +688,8 @@
    "_pack_g": 4.0,
    "used_on": [
     "11/18",
-    "11/25"
+    "11/25",
+    "11/29"
    ],
    "note": "",
    "bean_form": null,
@@ -804,7 +815,7 @@
    "used_on": [],
    "note": "",
    "bean_form": null,
-   "_g_need": 15.384615384615385,
+   "_g_need": 7.6923076923076925,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-spring-onions-000000000000339978",
    "zone": "冷藏",
    "aisle": 1,
@@ -862,7 +873,7 @@
    "used_on": [],
    "note": "",
    "bean_form": null,
-   "_g_need": 382.8301886792453,
+   "_g_need": 191.32075471698116,
    "link": "https://www.aldi.co.uk/product/heinz-beanz-in-a-rich-tomato-sauce-3-pack-000000000610253001",
    "zone": "冷藏",
    "aisle": 1,
@@ -920,7 +931,9 @@
    "buy_unit": "g",
    "_pack_g": 200.0,
    "used_on": [
-    "11/08"
+    "11/08",
+    "11/22",
+    "11/24"
    ],
    "note": "易坏，分批",
    "bean_form": null,
@@ -952,7 +965,8 @@
    "_pack_g": 100.0,
    "used_on": [
     "11/15",
-    "11/19"
+    "11/19",
+    "11/26"
    ],
    "note": "",
    "bean_form": null,
@@ -1024,6 +1038,39 @@
     "size": "80g",
     "price_gbp": 1.45,
     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-80g-watercress"
+   }
+  },
+  {
+   "category": "蔬菜",
+   "name": "西葫芦",
+   "name_display": "西葫芦",
+   "packs": 1,
+   "pack_size": "500 g",
+   "name_en": "Courgettes",
+   "name_short": "Courgettes",
+   "brand": "NATURE'S PICK",
+   "unit_price_gbp": 1.39,
+   "line_total_gbp": 1.39,
+   "buy_qty": 500.0,
+   "buy_unit": "g",
+   "_pack_g": 500.0,
+   "used_on": [
+    "11/14",
+    "11/25",
+    "11/29"
+   ],
+   "note": "易坏，分批",
+   "bean_form": null,
+   "_g_need": 73.42105263157896,
+   "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+   "zone": "冷藏",
+   "aisle": 1,
+   "product": {
+    "name": "Courgettes",
+    "brand": "NATURE'S PICK",
+    "size": "500 g",
+    "price_gbp": 1.39,
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
    }
   },
   {
@@ -1330,7 +1377,7 @@
    ],
    "note": "",
    "bean_form": null,
-   "_g_need": 329.17269999999996,
+   "_g_need": 323.91765,
    "link": "https://www.aldi.co.uk/product/ashfields-chicken-legs-000000000000382089",
    "zone": "冷藏",
    "aisle": 2,
@@ -1386,11 +1433,12 @@
    "buy_unit": "g",
    "_pack_g": 500.0,
    "used_on": [
-    "11/25"
+    "11/25",
+    "11/29"
    ],
    "note": "（ALDI 没有，去 Sainsbury's 买）",
    "bean_form": null,
-   "_g_need": 85.55,
+   "_g_need": 203.0,
    "link": "https://www.sainsburys.co.uk/groceries/product/two-chicks-liquid-egg-white-500g",
    "zone": "冷藏",
    "aisle": 2,
@@ -1488,7 +1536,7 @@
   }
  ],
  "batches": [],
- "total_gbp": 92.89,
+ "total_gbp": 94.28,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -1511,7 +1559,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 15.384615384615385,
+     "_g_need": 7.6923076923076925,
      "link": "https://www.aldi.co.uk/product/nature-s-pick-spring-onions-000000000000339978",
      "zone": "冷藏",
      "aisle": 1,
@@ -1538,13 +1586,11 @@
      "buy_unit": "g",
      "_pack_g": 400.0,
      "used_on": [
-      "11/17",
-      "11/22",
-      "11/29"
+      "11/17"
      ],
      "note": "开罐沥干即用；每次 ~139g，剩约 101g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
      "bean_form": "canned",
-     "_g_need": 166.16666666666666,
+     "_g_need": 83.08333333333333,
      "link": "https://www.aldi.co.uk/product/four-seasons-tinned-black-beans-000000000627180001",
      "zone": "室温",
      "aisle": 3,
@@ -1573,7 +1619,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 14.5,
+     "_g_need": 7.25,
      "link": "https://www.aldi.co.uk/product/snackrite-fully-loaded-jalapeno-peanuts-000000000386540001",
      "zone": "室温",
      "aisle": 3,
@@ -1602,7 +1648,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 382.8301886792453,
+     "_g_need": 191.32075471698116,
      "link": "https://www.aldi.co.uk/product/heinz-beanz-in-a-rich-tomato-sauce-3-pack-000000000610253001",
      "zone": "冷藏",
      "aisle": 1,
@@ -1693,7 +1739,9 @@
      "buy_unit": "g",
      "_pack_g": 200.0,
      "used_on": [
-      "11/08"
+      "11/08",
+      "11/22",
+      "11/24"
      ],
      "note": "易坏，分批",
      "bean_form": null,
@@ -1955,6 +2003,39 @@
      }
     },
     {
+     "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "500 g",
+     "name_en": "Courgettes",
+     "name_short": "Courgettes",
+     "brand": "NATURE'S PICK",
+     "unit_price_gbp": 1.39,
+     "line_total_gbp": 1.39,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "_pack_g": 500.0,
+     "used_on": [
+      "11/14",
+      "11/25",
+      "11/29"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "_g_need": 73.42105263157896,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+     "zone": "冷藏",
+     "aisle": 1,
+     "product": {
+      "name": "Courgettes",
+      "brand": "NATURE'S PICK",
+      "size": "500 g",
+      "price_gbp": 1.39,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
+     }
+    },
+    {
      "category": "肉类",
      "name": "鸡肉",
      "name_display": "鸡肉",
@@ -1973,7 +2054,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 329.17269999999996,
+     "_g_need": 323.91765,
      "link": "https://www.aldi.co.uk/product/ashfields-chicken-legs-000000000000382089",
      "zone": "冷藏",
      "aisle": 2,
@@ -2001,7 +2082,8 @@
      "_pack_g": 4.0,
      "used_on": [
       "11/18",
-      "11/25"
+      "11/25",
+      "11/29"
      ],
      "note": "",
      "bean_form": null,
@@ -2066,7 +2148,8 @@
      "_pack_g": 100.0,
      "used_on": [
       "11/15",
-      "11/19"
+      "11/19",
+      "11/26"
      ],
      "note": "",
      "bean_form": null,
@@ -2155,8 +2238,7 @@
      "buy_unit": "g",
      "_pack_g": 200.0,
      "used_on": [
-      "11/15",
-      "11/27"
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -2483,7 +2565,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 62.1,
+   "total_gbp": 63.49,
    "missing": [
     "藜麦",
     "青柠",
@@ -2510,11 +2592,11 @@
     "罐装低钠白芸豆",
     "抹茶粉"
    ],
-   "coverage": 0.7805,
+   "coverage": 0.7857,
    "vs_recommend_gbp": 6.95,
-   "vs_recommend_common_n": 31,
-   "vs_recommend_store_gbp": 61.21,
-   "vs_recommend_rec_gbp": 54.26,
+   "vs_recommend_common_n": 32,
+   "vs_recommend_store_gbp": 62.6,
+   "vs_recommend_rec_gbp": 55.65,
    "vs_recommend_missing": 7
   },
   "SAINSBURYS": {
@@ -2554,24 +2636,22 @@
      "category": "豆制品",
      "name": "黑豆",
      "name_display": "黑豆",
-     "packs": 6,
+     "packs": 3,
      "pack_size": "250g",
      "name_en": "LEON Brazilian Style Black Beans 250g",
      "name_short": "LEON Brazilian Style Black Beans",
      "brand": "Sainsbury's",
      "unit_price_gbp": 2.0,
-     "line_total_gbp": 12.0,
-     "buy_qty": 1500.0,
+     "line_total_gbp": 6.0,
+     "buy_qty": 750.0,
      "buy_unit": "g",
      "_pack_g": 250.0,
      "used_on": [
-      "11/17",
-      "11/22",
-      "11/29"
+      "11/17"
      ],
-     "note": "干豆泡 8h、煮 40–50min；约 137g 干豆 ≈ 305g 煮后（餐单按煮后量计）。",
+     "note": "干豆泡 8h、煮 40–50min；约 100g 干豆 ≈ 222g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
-     "_g_need": 1391.1627906976746,
+     "_g_need": 695.5813953488373,
      "link": "https://www.sainsburys.co.uk/gol-ui/product/leon-brazilian-style-black-beans-250g",
      "zone": "室温",
      "aisle": 3,
@@ -2600,7 +2680,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 191.41509433962264,
+     "_g_need": 95.66037735849058,
      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-spaghetti-rings-in-tomato-sauce-400g",
      "zone": "室温",
      "aisle": 3,
@@ -2691,7 +2771,9 @@
      "buy_unit": "g",
      "_pack_g": 200.0,
      "used_on": [
-      "11/08"
+      "11/08",
+      "11/22",
+      "11/24"
      ],
      "note": "易坏，分批",
      "bean_form": null,
@@ -3085,6 +3167,39 @@
     },
     {
      "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "nan",
+     "name_en": "Sainsbury's Courgettes Loose",
+     "name_short": "Sainsbury's Courgettes Loose",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 2.78,
+     "line_total_gbp": 2.78,
+     "buy_qty": "",
+     "buy_unit": "",
+     "_pack_g": null,
+     "used_on": [
+      "11/14",
+      "11/25",
+      "11/29"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "_g_need": 0.0,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-courgettes-loose",
+     "zone": "冷藏",
+     "aisle": 1,
+     "product": {
+      "name": "Sainsbury's Courgettes Loose",
+      "brand": "Sainsbury's",
+      "size": "nan",
+      "price_gbp": 2.78,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-courgettes-loose"
+     }
+    },
+    {
+     "category": "蔬菜",
      "name": "西洋菜",
      "name_display": "西洋菜",
      "packs": 5,
@@ -3127,11 +3242,12 @@
      "buy_unit": "g",
      "_pack_g": 500.0,
      "used_on": [
-      "11/25"
+      "11/25",
+      "11/29"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 85.55,
+     "_g_need": 203.0,
      "link": "https://www.sainsburys.co.uk/groceries/product/two-chicks-liquid-egg-white-500g",
      "zone": "冷藏",
      "aisle": 2,
@@ -3162,7 +3278,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 329.17269999999996,
+     "_g_need": 323.91765,
      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-british-frozen-chicken-portions-2kg",
      "zone": "冷藏",
      "aisle": 2,
@@ -3190,7 +3306,8 @@
      "_pack_g": null,
      "used_on": [
       "11/18",
-      "11/25"
+      "11/25",
+      "11/29"
      ],
      "note": "",
      "bean_form": null,
@@ -3255,7 +3372,8 @@
      "_pack_g": 250.0,
      "used_on": [
       "11/15",
-      "11/19"
+      "11/19",
+      "11/26"
      ],
      "note": "",
      "bean_form": null,
@@ -3373,8 +3491,7 @@
      "buy_unit": "g",
      "_pack_g": 200.0,
      "used_on": [
-      "11/15",
-      "11/27"
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -3699,7 +3816,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 107.93,
+   "total_gbp": 104.71,
    "missing": [
     "墨西哥青辣椒",
     "芥末",
@@ -3715,11 +3832,11 @@
     "罐装低钠白芸豆",
     "抹茶粉"
    ],
-   "coverage": 0.9024,
-   "vs_recommend_gbp": 33.86,
-   "vs_recommend_common_n": 37,
-   "vs_recommend_store_gbp": 105.03,
-   "vs_recommend_rec_gbp": 71.17,
+   "coverage": 0.9048,
+   "vs_recommend_gbp": 29.25,
+   "vs_recommend_common_n": 38,
+   "vs_recommend_store_gbp": 101.81,
+   "vs_recommend_rec_gbp": 72.56,
    "vs_recommend_missing": 1
   },
   "ICELAND": {
@@ -3772,7 +3889,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 14.5,
+     "_g_need": 7.25,
      "link": "https://www.iceland.co.uk/p/old-el-paso-jalapenos-215g/47774.html",
      "zone": "室温",
      "aisle": 4,
@@ -3801,7 +3918,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 405.79999999999995,
+     "_g_need": 202.8,
      "link": "https://www.iceland.co.uk/p/rodolfi-passata-di-pomodoro-690g/101061.html",
      "zone": "室温",
      "aisle": 4,
@@ -4081,7 +4198,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 329.17269999999996,
+     "_g_need": 323.91765,
      "link": "https://www.iceland.co.uk/p/crucials-chicken-shop-creamy-ranch-500ml/107408.html",
      "zone": "冷藏",
      "aisle": 2,
@@ -4109,7 +4226,8 @@
      "_pack_g": null,
      "used_on": [
       "11/18",
-      "11/25"
+      "11/25",
+      "11/29"
      ],
      "note": "",
      "bean_form": null,
@@ -4231,8 +4349,7 @@
      "buy_unit": "g",
      "_pack_g": 500.0,
      "used_on": [
-      "11/15",
-      "11/27"
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -4388,6 +4505,7 @@
     "椰蓉",
     "芥末",
     "白芸豆",
+    "西葫芦",
     "西洋菜",
     "蛋白",
     "罐装低钠白芸豆",
@@ -4414,6 +4532,7 @@
     "椰蓉",
     "芥末",
     "白芸豆",
+    "西葫芦",
     "西洋菜",
     "蛋白",
     "罐装低钠白芸豆",
@@ -4425,12 +4544,12 @@
     "黑巧克力",
     "紫甘蓝"
    ],
-   "coverage": 0.5366,
+   "coverage": 0.5238,
    "vs_recommend_gbp": 32.68,
    "vs_recommend_common_n": 20,
    "vs_recommend_store_gbp": 70.65,
    "vs_recommend_rec_gbp": 37.97,
-   "vs_recommend_missing": 18
+   "vs_recommend_missing": 19
   },
   "TESCO": {
    "store": "TESCO",
@@ -4453,7 +4572,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 33.33333333333333,
+     "_g_need": 16.666666666666664,
      "link": "https://www.tesco.com/shop/en-GB/products/281056432",
      "zone": "冷藏",
      "aisle": 1,
@@ -4469,24 +4588,22 @@
      "category": "豆制品",
      "name": "黑豆",
      "name_display": "黑豆",
-     "packs": 2,
+     "packs": 1,
      "pack_size": "845g",
      "name_en": "Compal Black Beans In Tin/Preto 845G",
      "name_short": "Compal Black Beans In Tin/Preto",
      "brand": "COMPAL",
      "unit_price_gbp": 2.0,
-     "line_total_gbp": 4.0,
-     "buy_qty": 1690.0,
+     "line_total_gbp": 2.0,
+     "buy_qty": 845.0,
      "buy_unit": "g",
      "_pack_g": 845.0,
      "used_on": [
-      "11/17",
-      "11/22",
-      "11/29"
+      "11/17"
      ],
-     "note": "干豆泡 8h、煮 40–50min；约 137g 干豆 ≈ 305g 煮后（餐单按煮后量计）。",
+     "note": "干豆泡 8h、煮 40–50min；约 100g 干豆 ≈ 222g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
-     "_g_need": 997.0000000000001,
+     "_g_need": 498.50000000000006,
      "link": "https://www.tesco.com/shop/en-GB/products/266870898",
      "zone": "室温",
      "aisle": 3,
@@ -4515,7 +4632,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 14.5,
+     "_g_need": 7.25,
      "link": "https://www.tesco.com/shop/en-GB/products/330786751",
      "zone": "室温",
      "aisle": 9,
@@ -4544,7 +4661,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 461.13636363636357,
+     "_g_need": 230.45454545454547,
      "link": "https://www.tesco.com/shop/en-GB/products/300522845",
      "zone": "冷藏",
      "aisle": 1,
@@ -4635,7 +4752,9 @@
      "buy_unit": "g",
      "_pack_g": 180.0,
      "used_on": [
-      "11/08"
+      "11/08",
+      "11/22",
+      "11/24"
      ],
      "note": "易坏，分批",
      "bean_form": null,
@@ -5029,6 +5148,39 @@
     },
     {
      "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "500g",
+     "name_en": "Tesco Courgettes 500G (C)",
+     "name_short": "Tesco Courgettes (C)",
+     "brand": "TESCO",
+     "unit_price_gbp": 1.39,
+     "line_total_gbp": 1.39,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "_pack_g": 500.0,
+     "used_on": [
+      "11/14",
+      "11/25",
+      "11/29"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "_g_need": 155.0,
+     "link": "https://www.tesco.com/shop/en-GB/products/290361468",
+     "zone": "冷藏",
+     "aisle": 1,
+     "product": {
+      "name": "Tesco Courgettes 500G (C)",
+      "brand": "TESCO",
+      "size": "500g",
+      "price_gbp": 1.39,
+      "link": "https://www.tesco.com/shop/en-GB/products/290361468"
+     }
+    },
+    {
+     "category": "蔬菜",
      "name": "西洋菜",
      "name_display": "西洋菜",
      "packs": 5,
@@ -5071,11 +5223,12 @@
      "buy_unit": "g",
      "_pack_g": 500.0,
      "used_on": [
-      "11/25"
+      "11/25",
+      "11/29"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 85.55,
+     "_g_need": 203.0,
      "link": "https://www.tesco.com/shop/en-GB/products/266552250",
      "zone": "冷藏",
      "aisle": 2,
@@ -5106,7 +5259,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 329.17269999999996,
+     "_g_need": 323.91765,
      "link": "https://www.tesco.com/shop/en-GB/products/285210436",
      "zone": "冷藏",
      "aisle": 2,
@@ -5134,11 +5287,12 @@
      "_pack_g": 310.0,
      "used_on": [
       "11/18",
-      "11/25"
+      "11/25",
+      "11/29"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 1.12,
+     "_g_need": 1.04,
      "link": "https://www.tesco.com/shop/en-GB/products/330745582",
      "zone": "冷藏",
      "aisle": 1,
@@ -5199,7 +5353,8 @@
      "_pack_g": 180.0,
      "used_on": [
       "11/15",
-      "11/19"
+      "11/19",
+      "11/26"
      ],
      "note": "",
      "bean_form": null,
@@ -5288,8 +5443,7 @@
      "buy_unit": "g",
      "_pack_g": 300.0,
      "used_on": [
-      "11/15",
-      "11/27"
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -5676,7 +5830,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 103.91,
+   "total_gbp": 103.3,
    "missing": [
     "芥末",
     "罐装低钠白芸豆"
@@ -5688,11 +5842,11 @@
     "芥末",
     "罐装低钠白芸豆"
    ],
-   "coverage": 0.9512,
-   "vs_recommend_gbp": 22.75,
-   "vs_recommend_common_n": 38,
-   "vs_recommend_store_gbp": 95.41,
-   "vs_recommend_rec_gbp": 72.66,
+   "coverage": 0.9524,
+   "vs_recommend_gbp": 20.75,
+   "vs_recommend_common_n": 39,
+   "vs_recommend_store_gbp": 94.8,
+   "vs_recommend_rec_gbp": 74.05,
    "vs_recommend_missing": 0
   },
   "MORRISONS": {
@@ -5716,7 +5870,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 15.384615384615385,
+     "_g_need": 7.6923076923076925,
      "link": "https://groceries.morrisons.com/products/115577045",
      "zone": "室温",
      "aisle": 4,
@@ -5732,24 +5886,22 @@
      "category": "豆制品",
      "name": "黑豆",
      "name_display": "黑豆",
-     "packs": 4,
+     "packs": 2,
      "pack_size": "425g",
      "name_en": "Old El Paso Mild Black Beans 425g",
      "name_short": "Old El Paso Mild Black Beans",
      "brand": "Old El Paso",
      "unit_price_gbp": 2.4,
-     "line_total_gbp": 9.6,
-     "buy_qty": 1700.0,
+     "line_total_gbp": 4.8,
+     "buy_qty": 850.0,
      "buy_unit": "g",
      "_pack_g": 425.0,
      "used_on": [
-      "11/17",
-      "11/22",
-      "11/29"
+      "11/17"
      ],
-     "note": "干豆泡 8h、煮 40–50min；约 137g 干豆 ≈ 305g 煮后（餐单按煮后量计）。",
+     "note": "干豆泡 8h、煮 40–50min；约 100g 干豆 ≈ 222g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
-     "_g_need": 1300.4347826086957,
+     "_g_need": 650.2173913043479,
      "link": "https://groceries.morrisons.com/products/112495108",
      "zone": "室温",
      "aisle": 3,
@@ -5778,7 +5930,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 14.5,
+     "_g_need": 7.25,
      "link": "https://groceries.morrisons.com/products/115681969",
      "zone": "室温",
      "aisle": 4,
@@ -5794,20 +5946,20 @@
      "category": "调料",
      "name": "番茄酱汁",
      "name_display": "番茄酱汁罐头",
-     "packs": 2,
+     "packs": 1,
      "pack_size": "500g",
      "name_en": "Morrisons Passata (500g)",
      "name_short": "Morrisons Passata (500g)",
      "brand": "Morrisons",
      "unit_price_gbp": 0.45,
-     "line_total_gbp": 0.9,
-     "buy_qty": 1000.0,
+     "line_total_gbp": 0.45,
+     "buy_qty": 500.0,
      "buy_unit": "g",
      "_pack_g": 500.0,
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 654.516129032258,
+     "_g_need": 327.0967741935484,
      "link": "https://groceries.morrisons.com/products/104954925",
      "zone": "室温",
      "aisle": 4,
@@ -5898,7 +6050,9 @@
      "buy_unit": "g",
      "_pack_g": 150.0,
      "used_on": [
-      "11/08"
+      "11/08",
+      "11/22",
+      "11/24"
      ],
      "note": "易坏，分批",
      "bean_form": null,
@@ -6292,6 +6446,39 @@
     },
     {
      "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "500g",
+     "name_en": "Morrisons Courgettes",
+     "name_short": "Morrisons Courgettes",
+     "brand": "Morrisons",
+     "unit_price_gbp": 1.39,
+     "line_total_gbp": 1.39,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "_pack_g": 500.0,
+     "used_on": [
+      "11/14",
+      "11/25",
+      "11/29"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "_g_need": 73.42105263157896,
+     "link": "https://groceries.morrisons.com/products/115508998",
+     "zone": "冷藏",
+     "aisle": 1,
+     "product": {
+      "name": "Morrisons Courgettes",
+      "brand": "Morrisons",
+      "size": "500g",
+      "price_gbp": 1.39,
+      "link": "https://groceries.morrisons.com/products/115508998"
+     }
+    },
+    {
+     "category": "蔬菜",
      "name": "西洋菜",
      "name_display": "西洋菜",
      "packs": 36,
@@ -6334,11 +6521,12 @@
      "buy_unit": "g",
      "_pack_g": 500.0,
      "used_on": [
-      "11/25"
+      "11/25",
+      "11/29"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 85.55,
+     "_g_need": 203.0,
      "link": "https://groceries.morrisons.com/products/108184526",
      "zone": "冷藏",
      "aisle": 2,
@@ -6369,7 +6557,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 329.17269999999996,
+     "_g_need": 323.91765,
      "link": "https://groceries.morrisons.com/products/106793467",
      "zone": "冷藏",
      "aisle": 2,
@@ -6397,7 +6585,8 @@
      "_pack_g": null,
      "used_on": [
       "11/18",
-      "11/25"
+      "11/25",
+      "11/29"
      ],
      "note": "",
      "bean_form": null,
@@ -6462,7 +6651,8 @@
      "_pack_g": 250.0,
      "used_on": [
       "11/15",
-      "11/19"
+      "11/19",
+      "11/26"
      ],
      "note": "",
      "bean_form": null,
@@ -6580,8 +6770,7 @@
      "buy_unit": "g",
      "_pack_g": 300.0,
      "used_on": [
-      "11/15",
-      "11/27"
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -6937,7 +7126,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 130.31,
+   "total_gbp": 126.45,
    "missing": [
     "芥末",
     "罐装低钠白芸豆",
@@ -6951,11 +7140,11 @@
     "罐装低钠白芸豆",
     "抹茶粉"
    ],
-   "coverage": 0.9268,
-   "vs_recommend_gbp": 54.91,
-   "vs_recommend_common_n": 38,
-   "vs_recommend_store_gbp": 127.57,
-   "vs_recommend_rec_gbp": 72.66,
+   "coverage": 0.9286,
+   "vs_recommend_gbp": 49.66,
+   "vs_recommend_common_n": 39,
+   "vs_recommend_store_gbp": 123.71,
+   "vs_recommend_rec_gbp": 74.05,
    "vs_recommend_missing": 0
   },
   "WAITROSE": {
@@ -6979,7 +7168,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 33.33333333333333,
+     "_g_need": 16.666666666666664,
      "link": "https://www.waitrose.com/ecom/products/trimmed-salad-onions/023549-11426-11427",
      "zone": "冷藏",
      "aisle": 1,
@@ -6995,24 +7184,22 @@
      "category": "豆制品",
      "name": "黑豆",
      "name_display": "黑豆",
-     "packs": 4,
+     "packs": 2,
      "pack_size": "425g",
      "name_en": "Old El Paso Mild Black Beans",
      "name_short": "Old El Paso Mild Black Beans",
      "brand": "Old El Paso",
      "unit_price_gbp": 1.75,
-     "line_total_gbp": 7.0,
-     "buy_qty": 1700.0,
+     "line_total_gbp": 3.5,
+     "buy_qty": 850.0,
      "buy_unit": "g",
      "_pack_g": 425.0,
      "used_on": [
-      "11/17",
-      "11/22",
-      "11/29"
+      "11/17"
      ],
-     "note": "干豆泡 8h、煮 40–50min；约 137g 干豆 ≈ 305g 煮后（餐单按煮后量计）。",
+     "note": "干豆泡 8h、煮 40–50min；约 100g 干豆 ≈ 222g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
-     "_g_need": 1300.4347826086957,
+     "_g_need": 650.2173913043479,
      "link": "https://www.waitrose.com/ecom/products/old-el-paso-mild-black-beans/885072-368534-368535",
      "zone": "室温",
      "aisle": 3,
@@ -7041,7 +7228,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 14.5,
+     "_g_need": 7.25,
      "link": "https://www.waitrose.com/ecom/products/waitrose-mexican-green-jalapenos/961987-1-2",
      "zone": "冷藏",
      "aisle": 1,
@@ -7070,7 +7257,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 471.86046511627904,
+     "_g_need": 235.81395348837214,
      "link": "https://www.waitrose.com/ecom/products/essential-passata/827066-230035-230036",
      "zone": "室温",
      "aisle": 4,
@@ -7161,7 +7348,9 @@
      "buy_unit": "g",
      "_pack_g": 210.0,
      "used_on": [
-      "11/08"
+      "11/08",
+      "11/22",
+      "11/24"
      ],
      "note": "易坏，分批",
      "bean_form": null,
@@ -7526,6 +7715,39 @@
     },
     {
      "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "600g",
+     "name_en": "Essential Courgettes",
+     "name_short": "Essential Courgettes",
+     "brand": "Waitrose Ltd",
+     "unit_price_gbp": 1.9,
+     "line_total_gbp": 1.9,
+     "buy_qty": 600.0,
+     "buy_unit": "g",
+     "_pack_g": 600.0,
+     "used_on": [
+      "11/14",
+      "11/25",
+      "11/29"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "_g_need": 121.30434782608697,
+     "link": "https://www.waitrose.com/ecom/products/essential-courgettes/574915-81449-81450",
+     "zone": "冷藏",
+     "aisle": 1,
+     "product": {
+      "name": "Essential Courgettes",
+      "brand": "Waitrose Ltd",
+      "size": "600g",
+      "price_gbp": 1.9,
+      "link": "https://www.waitrose.com/ecom/products/essential-courgettes/574915-81449-81450"
+     }
+    },
+    {
+     "category": "蔬菜",
      "name": "西洋菜",
      "name_display": "西洋菜",
      "packs": 5,
@@ -7568,11 +7790,12 @@
      "buy_unit": "g",
      "_pack_g": 500.0,
      "used_on": [
-      "11/25"
+      "11/25",
+      "11/29"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 85.55,
+     "_g_need": 203.0,
      "link": "https://www.waitrose.com/ecom/products/clarence-court-liquid-egg-white/737522-741320-741321",
      "zone": "冷藏",
      "aisle": 2,
@@ -7603,7 +7826,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 329.17269999999996,
+     "_g_need": 323.91765,
      "link": "https://www.waitrose.com/ecom/products/essential-frozen-chicken-livers/599951-85053-85054",
      "zone": "冷藏",
      "aisle": 2,
@@ -7631,7 +7854,8 @@
      "_pack_g": null,
      "used_on": [
       "11/18",
-      "11/25"
+      "11/25",
+      "11/29"
      ],
      "note": "",
      "bean_form": null,
@@ -7696,7 +7920,8 @@
      "_pack_g": 230.0,
      "used_on": [
       "11/15",
-      "11/19"
+      "11/19",
+      "11/26"
      ],
      "note": "",
      "bean_form": null,
@@ -7785,8 +8010,7 @@
      "buy_unit": "g",
      "_pack_g": 300.0,
      "used_on": [
-      "11/15",
-      "11/27"
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -8173,7 +8397,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 125.36,
+   "total_gbp": 123.76,
    "missing": [
     "芥末",
     "罐装低钠白芸豆"
@@ -8185,11 +8409,11 @@
     "芥末",
     "罐装低钠白芸豆"
    ],
-   "coverage": 0.9512,
-   "vs_recommend_gbp": 48.8,
-   "vs_recommend_common_n": 37,
-   "vs_recommend_store_gbp": 120.76,
-   "vs_recommend_rec_gbp": 71.96,
+   "coverage": 0.9524,
+   "vs_recommend_gbp": 45.81,
+   "vs_recommend_common_n": 38,
+   "vs_recommend_store_gbp": 119.16,
+   "vs_recommend_rec_gbp": 73.35,
    "vs_recommend_missing": 1
   },
   "MARKS & SPENCER": {
@@ -8213,7 +8437,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 33.33333333333333,
+     "_g_need": 16.666666666666664,
      "link": "https://www.marksandspencer.com/food/spring-onions/p/fdp21003126",
      "zone": "冷藏",
      "aisle": 1,
@@ -8229,24 +8453,22 @@
      "category": "豆制品",
      "name": "黑豆",
      "name_display": "黑豆",
-     "packs": 3,
+     "packs": 2,
      "pack_size": "430 g",
      "name_en": "Black Beans",
      "name_short": "Black Beans",
      "brand": NaN,
      "unit_price_gbp": 0.6,
-     "line_total_gbp": 1.8,
-     "buy_qty": 1290.0,
+     "line_total_gbp": 1.2,
+     "buy_qty": 860.0,
      "buy_unit": "g",
      "_pack_g": 430.0,
      "used_on": [
-      "11/17",
-      "11/22",
-      "11/29"
+      "11/17"
      ],
-     "note": "干豆泡 8h、煮 40–50min；约 137g 干豆 ≈ 305g 煮后（餐单按煮后量计）。",
+     "note": "干豆泡 8h、煮 40–50min；约 100g 干豆 ≈ 222g 煮后（餐单按煮后量计）。",
      "bean_form": "dry",
-     "_g_need": 879.7058823529412,
+     "_g_need": 439.8529411764706,
      "link": "https://www.marksandspencer.com/food/black-beans/p/fdp60917584",
      "zone": "室温",
      "aisle": 3,
@@ -8275,7 +8497,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 14.5,
+     "_g_need": 7.25,
      "link": "https://www.marksandspencer.com/food/jalapeno-and-herb-spatchcock-chicken/p/fdp61221420",
      "zone": "冷藏",
      "aisle": 2,
@@ -8304,7 +8526,7 @@
      "used_on": [],
      "note": "",
      "bean_form": null,
-     "_g_need": 414.08163265306115,
+     "_g_need": 206.93877551020407,
      "link": "https://www.marksandspencer.com/food/italian-passata/p/fdp60465581",
      "zone": "室温",
      "aisle": 4,
@@ -8395,7 +8617,9 @@
      "buy_unit": "g",
      "_pack_g": 200.0,
      "used_on": [
-      "11/08"
+      "11/08",
+      "11/22",
+      "11/24"
      ],
      "note": "易坏，分批",
      "bean_form": null,
@@ -8755,6 +8979,39 @@
     },
     {
      "category": "蔬菜",
+     "name": "西葫芦",
+     "name_display": "西葫芦",
+     "packs": 1,
+     "pack_size": "325 g",
+     "name_en": "Courgettes",
+     "name_short": "Courgettes",
+     "brand": NaN,
+     "unit_price_gbp": 1.45,
+     "line_total_gbp": 1.45,
+     "buy_qty": 325.0,
+     "buy_unit": "g",
+     "_pack_g": 325.0,
+     "used_on": [
+      "11/14",
+      "11/25",
+      "11/29"
+     ],
+     "note": "易坏，分批",
+     "bean_form": null,
+     "_g_need": 155.0,
+     "link": "https://www.marksandspencer.com/food/courgettes/p/fdp21007251",
+     "zone": "冷藏",
+     "aisle": 1,
+     "product": {
+      "name": "Courgettes",
+      "brand": NaN,
+      "size": "325 g",
+      "price_gbp": 1.45,
+      "link": "https://www.marksandspencer.com/food/courgettes/p/fdp21007251"
+     }
+    },
+    {
+     "category": "蔬菜",
      "name": "西洋菜",
      "name_display": "西洋菜",
      "packs": 5,
@@ -8797,11 +9054,12 @@
      "buy_unit": "g",
      "_pack_g": 500.0,
      "used_on": [
-      "11/25"
+      "11/25",
+      "11/29"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 85.55,
+     "_g_need": 203.0,
      "link": "https://www.marksandspencer.com/food/liquid-egg-white/p/fdp60650118",
      "zone": "冷藏",
      "aisle": 2,
@@ -8832,7 +9090,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 329.17269999999996,
+     "_g_need": 323.91765,
      "link": "https://www.marksandspencer.com/food/chicken-leg-portions/p/fdp60584836",
      "zone": "冷藏",
      "aisle": 2,
@@ -8860,11 +9118,12 @@
      "_pack_g": 685.0,
      "used_on": [
       "11/18",
-      "11/25"
+      "11/25",
+      "11/29"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 17.5,
+     "_g_need": 16.25,
      "link": "https://www.marksandspencer.com/food/lemons/p/fdp21007170",
      "zone": "冷藏",
      "aisle": 1,
@@ -8925,7 +9184,8 @@
      "_pack_g": 180.0,
      "used_on": [
       "11/15",
-      "11/19"
+      "11/19",
+      "11/26"
      ],
      "note": "",
      "bean_form": null,
@@ -9014,8 +9274,7 @@
      "buy_unit": "g",
      "_pack_g": 300.0,
      "used_on": [
-      "11/15",
-      "11/27"
+      "11/15"
      ],
      "note": "",
      "bean_form": null,
@@ -9371,7 +9630,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 141.05,
+   "total_gbp": 141.9,
    "missing": [
     "茅屋奶酪",
     "芥末",
@@ -9387,11 +9646,11 @@
     "罐装低钠白芸豆",
     "抹茶粉"
    ],
-   "coverage": 0.9024,
-   "vs_recommend_gbp": 69.99,
-   "vs_recommend_common_n": 37,
-   "vs_recommend_store_gbp": 140.1,
-   "vs_recommend_rec_gbp": 70.11,
+   "coverage": 0.9048,
+   "vs_recommend_gbp": 69.45,
+   "vs_recommend_common_n": 38,
+   "vs_recommend_store_gbp": 140.95,
+   "vs_recommend_rec_gbp": 71.5,
    "vs_recommend_missing": 1
   }
  },
@@ -9404,7 +9663,7 @@
    "Aldi",
    "Sainsbury's"
   ],
-  "coverage": 0.926829268292683,
+  "coverage": 0.9285714285714286,
   "missing": [
    "食盐",
    "芥末",
@@ -9414,11 +9673,11 @@
   "pantry_missing": [
    "食盐"
   ],
-  "cost": 72.66,
+  "cost": 74.05,
   "per_store": {
    "ALDI": {
-    "subtotal": 48.05,
-    "count": 26,
+    "subtotal": 49.44,
+    "count": 27,
     "names": [
      "小葱",
      "黑豆",
@@ -9435,6 +9694,7 @@
      "椰蓉",
      "面包",
      "烟熏三文鱼",
+     "西葫芦",
      "鸡肉",
      "牛奶",
      "草莓",
@@ -9465,7 +9725,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
-      "_g_need": 15.384615384615385,
+      "_g_need": 7.6923076923076925,
       "link": "https://www.aldi.co.uk/product/nature-s-pick-spring-onions-000000000000339978",
       "zone": "冷藏",
       "aisle": 1,
@@ -9492,13 +9752,11 @@
       "buy_unit": "g",
       "_pack_g": 400.0,
       "used_on": [
-       "11/17",
-       "11/22",
-       "11/29"
+       "11/17"
       ],
       "note": "开罐沥干即用；每次 ~139g，剩约 101g，分装冷冻可存 2–3 个月（冷藏则 3 天内吃完），别连铁罐存。",
       "bean_form": "canned",
-      "_g_need": 166.16666666666666,
+      "_g_need": 83.08333333333333,
       "link": "https://www.aldi.co.uk/product/four-seasons-tinned-black-beans-000000000627180001",
       "zone": "室温",
       "aisle": 3,
@@ -9527,7 +9785,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
-      "_g_need": 14.5,
+      "_g_need": 7.25,
       "link": "https://www.aldi.co.uk/product/snackrite-fully-loaded-jalapeno-peanuts-000000000386540001",
       "zone": "室温",
       "aisle": 3,
@@ -9618,7 +9876,9 @@
       "buy_unit": "g",
       "_pack_g": 200.0,
       "used_on": [
-       "11/08"
+       "11/08",
+       "11/22",
+       "11/24"
       ],
       "note": "易坏，分批",
       "bean_form": null,
@@ -9880,6 +10140,39 @@
       }
      },
      {
+      "category": "蔬菜",
+      "name": "西葫芦",
+      "name_display": "西葫芦",
+      "packs": 1,
+      "pack_size": "500 g",
+      "name_en": "Courgettes",
+      "name_short": "Courgettes",
+      "brand": "NATURE'S PICK",
+      "unit_price_gbp": 1.39,
+      "line_total_gbp": 1.39,
+      "buy_qty": 500.0,
+      "buy_unit": "g",
+      "_pack_g": 500.0,
+      "used_on": [
+       "11/14",
+       "11/25",
+       "11/29"
+      ],
+      "note": "易坏，分批",
+      "bean_form": null,
+      "_g_need": 73.42105263157896,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+      "zone": "冷藏",
+      "aisle": 1,
+      "product": {
+       "name": "Courgettes",
+       "brand": "NATURE'S PICK",
+       "size": "500 g",
+       "price_gbp": 1.39,
+       "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808"
+      }
+     },
+     {
       "category": "肉类",
       "name": "鸡肉",
       "name_display": "鸡肉",
@@ -9898,7 +10191,7 @@
       ],
       "note": "",
       "bean_form": null,
-      "_g_need": 329.17269999999996,
+      "_g_need": 323.91765,
       "link": "https://www.aldi.co.uk/product/ashfields-chicken-legs-000000000000382089",
       "zone": "冷藏",
       "aisle": 2,
@@ -9987,8 +10280,7 @@
       "buy_unit": "g",
       "_pack_g": 200.0,
       "used_on": [
-       "11/15",
-       "11/27"
+       "11/15"
       ],
       "note": "",
       "bean_form": null,
@@ -10288,7 +10580,7 @@
       "used_on": [],
       "note": "",
       "bean_form": null,
-      "_g_need": 191.41509433962264,
+      "_g_need": 95.66037735849058,
       "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-spaghetti-rings-in-tomato-sauce-400g",
       "zone": "室温",
       "aisle": 3,
@@ -10475,11 +10767,12 @@
       "buy_unit": "g",
       "_pack_g": 500.0,
       "used_on": [
-       "11/25"
+       "11/25",
+       "11/29"
       ],
       "note": "",
       "bean_form": null,
-      "_g_need": 85.55,
+      "_g_need": 203.0,
       "link": "https://www.sainsburys.co.uk/groceries/product/two-chicks-liquid-egg-white-500g",
       "zone": "冷藏",
       "aisle": 2,
@@ -10507,7 +10800,8 @@
       "_pack_g": null,
       "used_on": [
        "11/18",
-       "11/25"
+       "11/25",
+       "11/29"
       ],
       "note": "",
       "bean_form": null,
@@ -10539,7 +10833,8 @@
       "_pack_g": 250.0,
       "used_on": [
        "11/15",
-       "11/19"
+       "11/19",
+       "11/26"
       ],
       "note": "",
       "bean_form": null,
@@ -10647,7 +10942,7 @@
     ]
    }
   },
-  "combined_total_gbp": 72.66
+  "combined_total_gbp": 74.05
  },
  "recommend_unit": {
   "basis": "per_100g",
@@ -11120,6 +11415,21 @@
     "category": "蔬菜"
    },
    {
+    "name": "西葫芦",
+    "name_en": "Courgettes",
+    "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+    "store": "ALDI",
+    "packs": 1,
+    "price": 1.39,
+    "line_total": 1.39,
+    "pack_g": 500.0,
+    "per100_gbp": 0.278,
+    "basis": "per_100g",
+    "zone": "冷藏",
+    "aisle": 1,
+    "category": "蔬菜"
+   },
+   {
     "name": "牛奶",
     "name_en": "Semi Skimmed Milk 1.7% Fat",
     "link": "https://www.aldi.co.uk/product/cowbelle-semi-skimmed-milk-1-7-fat-000000000000416713",
@@ -11257,8 +11567,8 @@
   ],
   "per_store": {
    "ALDI": {
-    "subtotal": 18.57,
-    "count": 10
+    "subtotal": 19.96,
+    "count": 11
    },
    "SAINSBURYS": {
     "subtotal": 7.49,
@@ -11281,14 +11591,14 @@
     "count": 6
    }
   },
-  "cost": 114.2,
-  "coverage": 0.9512195121951219,
+  "cost": 115.59,
+  "coverage": 0.9523809523809523,
   "missing": [
    "食盐",
    "芥末",
    "罐装低钠白芸豆"
   ],
-  "total_if_pick_by_line_total": 64.62,
+  "total_if_pick_by_line_total": 66.01,
   "oversized": [
    {
     "name": "低钠鸡高汤",
@@ -11315,6 +11625,18 @@
     "ratio": 59.2
    },
    {
+    "name": "墨西哥青辣椒",
+    "pack_g": 340.0,
+    "need_g": 7.2,
+    "ratio": 46.9
+   },
+   {
+    "name": "小葱",
+    "pack_g": 350.0,
+    "need_g": 7.7,
+    "ratio": 45.5
+   },
+   {
     "name": "中筋面粉",
     "pack_g": 1500.0,
     "need_g": 33.8,
@@ -11323,20 +11645,8 @@
    {
     "name": "柠檬",
     "pack_g": 685.0,
-    "need_g": 17.5,
-    "ratio": 39.1
-   },
-   {
-    "name": "墨西哥青辣椒",
-    "pack_g": 340.0,
-    "need_g": 14.5,
-    "ratio": 23.4
-   },
-   {
-    "name": "小葱",
-    "pack_g": 350.0,
-    "need_g": 15.4,
-    "ratio": 22.8
+    "need_g": 16.2,
+    "ratio": 42.2
    },
    {
     "name": "欧芹",
@@ -11405,22 +11715,34 @@
     "ratio": 7.9
    },
    {
-    "name": "鸡肉",
-    "pack_g": 2000.0,
-    "need_g": 329.2,
-    "ratio": 6.1
+    "name": "西葫芦",
+    "pack_g": 500.0,
+    "need_g": 73.4,
+    "ratio": 6.8
    },
    {
-    "name": "蛋白",
-    "pack_g": 500.0,
-    "need_g": 85.5,
-    "ratio": 5.8
+    "name": "鸡肉",
+    "pack_g": 2000.0,
+    "need_g": 323.9,
+    "ratio": 6.2
+   },
+   {
+    "name": "黑豆",
+    "pack_g": 400.0,
+    "need_g": 83.1,
+    "ratio": 4.8
    },
    {
     "name": "黑巧克力",
     "pack_g": 100.0,
     "need_g": 21.1,
     "ratio": 4.7
+   },
+   {
+    "name": "番茄酱汁",
+    "pack_g": 400.0,
+    "need_g": 95.7,
+    "ratio": 4.2
    },
    {
     "name": "抹茶粉",
@@ -11441,10 +11763,10 @@
     "ratio": 2.5
    },
    {
-    "name": "黑豆",
-    "pack_g": 400.0,
-    "need_g": 166.2,
-    "ratio": 2.4
+    "name": "蛋白",
+    "pack_g": 500.0,
+    "need_g": 203.0,
+    "ratio": 2.5
    },
    {
     "name": "羊排",
@@ -11457,12 +11779,6 @@
     "pack_g": 229.0,
     "need_g": 96.7,
     "ratio": 2.4
-   },
-   {
-    "name": "番茄酱汁",
-    "pack_g": 400.0,
-    "need_g": 191.4,
-    "ratio": 2.1
    }
   ]
  },
@@ -14133,6 +14449,96 @@
     "MORRISONS": 70.0,
     "WAITROSE": 80.0,
     "MARKS & SPENCER": 80.0
+   },
+   "zone": "冷藏",
+   "aisle": 1
+  },
+  {
+   "name": "西葫芦",
+   "name_display": "西葫芦",
+   "category": "蔬菜",
+   "stores": {
+    "ALDI": {
+     "price": 1.39,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.278,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-courgettes-000000000000339808",
+     "product_name": "Courgettes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 2.78,
+     "pack_g": null,
+     "size": "nan",
+     "per100_gbp": null,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-courgettes-loose",
+     "product_name": "Sainsbury's Courgettes Loose",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 1.39,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.278,
+     "link": "https://www.tesco.com/shop/en-GB/products/290361468",
+     "product_name": "Tesco Courgettes 500G (C)",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 1.39,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.278,
+     "link": "https://groceries.morrisons.com/products/115508998",
+     "product_name": "Morrisons Courgettes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 1.9,
+     "pack_g": 600.0,
+     "size": "600g",
+     "per100_gbp": 0.3167,
+     "link": "https://www.waitrose.com/ecom/products/essential-courgettes/574915-81449-81450",
+     "product_name": "Essential Courgettes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 1.45,
+     "pack_g": 325.0,
+     "size": "325 g",
+     "per100_gbp": 0.4462,
+     "link": "https://www.marksandspencer.com/food/courgettes/p/fdp21007251",
+     "product_name": "Courgettes",
+     "category": "蔬菜",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "M&S",
+   "diff_per100": 0.1682,
+   "diff_pct": 0.605,
+   "spread_ratio": 1.61,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 500.0,
+    "TESCO": 500.0,
+    "MORRISONS": 500.0,
+    "WAITROSE": 600.0,
+    "MARKS & SPENCER": 325.0
    },
    "zone": "冷藏",
    "aisle": 1
