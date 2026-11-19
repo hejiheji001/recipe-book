@@ -11,7 +11,17 @@ CAT="$ROOT/食谱库/catalog.html"
 [ -f "$CAT" ] || { echo "找不到 $CAT"; exit 1; }
 
 # 找最新一周（按导出目录名里的日期排序）
-LATEST=$(ls -d "$ROOT"/输出/W*-*-*/ 2>/dev/null | sort -t- -k2,3 | tail -1)
+# 2026-11-19 修：原来只匹配 W*-*-*，而 build_all.py --roll 生成的目录叫
+# auto-D1123-11-23，永远匹配不到 —— 结果自动生成的下一周菜单发布不出去，
+# 站点一直停在上一周。现在同时匹配 W* 和 auto-*，按目录名末尾日期排序。
+# 取基线名（W3-11-16 / auto-D1123-11-23），再按「月-日」排序。
+# 不能用 awk -F- 切整条路径：$ROOT 里有空格和中文（「MCN 大冒险」）。
+LATEST=$(for d in "$ROOT"/输出/W*-*-*/ "$ROOT"/输出/auto-*-*/; do
+           [ -d "$d" ] || continue
+           b=$(basename "$d")
+           echo "$(echo "$b" | grep -oE '[0-9]{2}-[0-9]{2}$')\t$b"
+         done | sort | tail -1 | cut -f2)
+LATEST="$ROOT/输出/$LATEST"
 [ -n "$LATEST" ] || { echo "输出/ 下没有周目录"; exit 1; }
 LATEST="${LATEST%/}"
 CODE=$(basename "$LATEST")
