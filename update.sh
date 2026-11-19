@@ -19,8 +19,9 @@ CAT="$ROOT/食谱库/catalog.html"
 LATEST=$(for d in "$ROOT"/输出/W*-*-*/ "$ROOT"/输出/auto-*-*/; do
            [ -d "$d" ] || continue
            b=$(basename "$d")
-           echo "$(echo "$b" | grep -oE '[0-9]{2}-[0-9]{2}$')\t$b"
-         done | sort | tail -1 | cut -f2)
+           d8=$(printf "%s" "$b" | grep -oE "[0-9]{2}-[0-9]{2}$")
+           printf "%s|%s\n" "$d8" "$b"
+         done | sort | tail -1 | cut -d"|" -f2)
 LATEST="$ROOT/输出/$LATEST"
 [ -n "$LATEST" ] || { echo "输出/ 下没有周目录"; exit 1; }
 LATEST="${LATEST%/}"
