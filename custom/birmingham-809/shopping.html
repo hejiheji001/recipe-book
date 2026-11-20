@@ -580,19 +580,39 @@ th{color:#777;font-weight:600;font-size:12px}
 </script>
 <script>
 (function(){
-  function openExt(url){
-    var w = null;
-    try { w = window.open(url, '_blank'); } catch (err) { w = null; }
-    if (w) { try { w.opener = null; } catch (err) {} return; }
-    location.href = url;   // 真被拦截时才同窗口打开
+  function saveCtx(){
+    try{
+      localStorage.setItem('rb_return_hash', location.hash || '#shopping');
+      localStorage.setItem('rb_return_at', String(Date.now()));
+    }catch(err){}
   }
   document.addEventListener('click', function(e){
     var a = e.target.closest && e.target.closest('a[data-ext]');
     if (!a) return;
     var url = a.getAttribute('href');
     if (!url || url.charAt(0) === '#') return;
+    saveCtx();
+    var w = null;
+    try { w = window.open(url, '_blank'); } catch (err) { w = null; }
+    if (!w) return;
     e.preventDefault();
-    openExt(url);
+    try { w.opener = null; } catch (err) {}
   }, true);
+  function restore(){
+    var h = null, at = 0;
+    try{
+      h = localStorage.getItem('rb_return_hash');
+      at = parseInt(localStorage.getItem('rb_return_at') || '0', 10);
+    }catch(err){ return; }
+    if(!h) return;
+    if(Date.now() - at > 600000) return;
+    if(location.hash && location.hash !== '#' && location.hash !== h) return;
+    if(location.hash !== h){ try{ location.replace(h); }catch(err){} }
+  }
+  if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', restore); }
+  else { restore(); }
+  document.addEventListener('visibilitychange', function(){
+    if(document.visibilityState === 'visible') restore();
+  });
 })();
 </script></body></html>
