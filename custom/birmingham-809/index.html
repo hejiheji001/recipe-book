@@ -324,7 +324,7 @@ th{color:#777;font-weight:600;font-size:12px}
 .shelfline{margin:1px 0}
 .shelfconf{margin:4px 0 8px;font-size:12px;color:#b23b3b;background:#fdeaea;
   border-left:3px solid #b23b3b;padding:5px 9px;border-radius:4px}
-.recbody{display:none}.recbody.on{display:block}
+.recpanel{display:none}.recpanel.on{display:block}
 .daysum{font-size:12px;color:#2f6f4e;padding:6px 4px}
 .vsrec{margin:8px 2px 0;padding:7px 10px;border-left:3px solid #2f6f4e;background:#f3f8ef;
  font-size:12.5px;color:#2f6f4e;border-radius:3px}
@@ -748,7 +748,7 @@ th{color:#777;font-weight:600;font-size:12px}
     for(var i = 0; i < tabs.length; i++){
       tabs[i].classList.toggle("on", tabs[i].getAttribute("data-store") === s);
     }
-    var links = document.querySelectorAll(".storepick:not(.recpick) a");
+    var links = document.querySelectorAll(".storepick:not(.recstore) a");
     for(var j = 0; j < links.length; j++){
       links[j].classList.toggle("on", links[j].getAttribute("data-store") === s);
     }
@@ -758,7 +758,7 @@ th{color:#777;font-weight:600;font-size:12px}
     }
   }
   function init(){
-    var first = document.querySelector(".storepick:not(.recpick) a");
+    var first = document.querySelector(".storepick:not(.recstore) a");
     if(!first) return;
     var m = location.hash.match(/[?&]store=([A-Za-z0-9_]+)/);
     var s = m ? m[1] : null;
@@ -769,7 +769,7 @@ th{color:#777;font-weight:600;font-size:12px}
     pick(s, false);
   }
   document.addEventListener("click", function(e){
-    var a = e.target && e.target.closest ? e.target.closest(".storepick:not(.recpick) a") : null;
+    var a = e.target && e.target.closest ? e.target.closest(".storepick:not(.recstore) a") : null;
     if(!a) return;
     e.preventDefault();
     pick(a.getAttribute("data-store"), true);
@@ -784,7 +784,7 @@ th{color:#777;font-weight:600;font-size:12px}
 
 <script>
 (function(){
-  function activeBody(){ return document.querySelector('.recbody.on'); }
+  function activeBody(){ return document.querySelector('.recpanel.on'); }
   function applyDay(day){
     var links = document.querySelectorAll('.daypick a');
     for(var i=0;i<links.length;i++){ links[i].classList.toggle('on', (links[i].getAttribute('data-day')||'')===day); }
@@ -802,9 +802,9 @@ th{color:#777;font-weight:600;font-size:12px}
     if(lbl) lbl.textContent = day ? ('该日 '+cnt+' 项 · 小计 £'+sum.toFixed(2)) : '';
   }
   function setRec(s){
-    var bodies = document.querySelectorAll('.recbody');
+    var bodies = document.querySelectorAll('.recpanel');
     for(var i=0;i<bodies.length;i++){ bodies[i].classList.toggle('on', bodies[i].getAttribute('data-recstore')===s); }
-    var links = document.querySelectorAll('.recpick a');
+    var links = document.querySelectorAll('.recstore a');
     for(var j=0;j<links.length;j++){ links[j].classList.toggle('on', links[j].getAttribute('data-recstore')===s); }
   }
   document.addEventListener('click', function(e){
@@ -812,7 +812,7 @@ th{color:#777;font-weight:600;font-size:12px}
     if(!a) return; e.preventDefault(); applyDay(a.getAttribute('data-day')||'');
   });
   document.addEventListener('click', function(e){
-    var a = e.target && e.target.closest ? e.target.closest('.recpick a') : null;
+    var a = e.target && e.target.closest ? e.target.closest('.recstore a') : null;
     if(!a) return; e.preventDefault();
     var s = a.getAttribute('data-recstore'); setRec(s);
     var act = document.querySelector('.daypick a.on');
@@ -820,9 +820,9 @@ th{color:#777;font-weight:600;font-size:12px}
     try{ localStorage.setItem('rb_store_rec', s); } catch(err){}
   });
   function initRec(){
-    var first = document.querySelector('.recpick a'); if(!first) return;
+    var first = document.querySelector('.recstore a'); if(!first) return;
     var s = null; try{ s = localStorage.getItem('rb_store_rec'); } catch(e){}
-    if(!s || !document.querySelector('.recbody[data-recstore="'+s+'"]')) s = first.getAttribute('data-recstore');
+    if(!s || !document.querySelector('.recpanel[data-recstore="'+s+'"]')) s = first.getAttribute('data-recstore');
     setRec(s);
   }
   if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', initRec); } else { initRec(); }
