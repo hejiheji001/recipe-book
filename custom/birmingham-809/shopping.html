@@ -593,11 +593,8 @@ th{color:#777;font-weight:600;font-size:12px}
     var url = a.getAttribute('href');
     if (!url || url.charAt(0) === '#') return;
     saveCtx();
-    var w = null;
-    try { w = window.open(url, '_blank'); } catch (err) { w = null; }
-    if (!w) return;
     e.preventDefault();
-    try { w.opener = null; } catch (err) {}
+    location.href = url;
   }, true);
   function restore(){
     var h = null, at = 0;
