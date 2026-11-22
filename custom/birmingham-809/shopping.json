@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "code": "H1-11-05",
- "generated": "2026-11-22T00:54:43",
+ "generated": "2026-11-22T20:51:07",
  "quantity_basis": "单人 8 天份 · 11/22 一次买齐",
  "portion_hint": "这是她自己一周的量，不是家庭量",
  "buy_date": "11/22",
@@ -19,14 +19,6 @@
    }
   ],
   "mid": [
-   {
-    "name": "芦笋",
-    "shelf": "中·保鲜5-7天",
-    "days": [
-     "11/15"
-    ],
-    "last_idx": -7
-   },
    {
     "name": "紫甘蓝",
     "shelf": "中·保鲜5-7天",
@@ -53,9 +45,10 @@
     "last_idx": -1
    },
    {
-    "name": "玉米",
+    "name": "芦笋",
     "shelf": "中·保鲜5-7天",
     "days": [
+     "11/15",
      "11/28"
     ],
     "last_idx": 6
@@ -122,9 +115,9 @@
  "default_store": "ALDI",
  "stores": [
   "ALDI",
+  "ICELAND",
   "TESCO",
   "SAINSBURYS",
-  "ICELAND",
   "MORRISONS",
   "WAITROSE",
   "MARKS & SPENCER"
@@ -236,6 +229,40 @@
     "size": "500 g",
     "price_gbp": 0.28,
     "link": "https://www.aldi.co.uk/product/everyday-essentials-spaghetti-pasta-500g-000000000000306030"
+   }
+  },
+  {
+   "category": "主食",
+   "name": "藜麦",
+   "name_display": "藜麦罐头",
+   "packs": 1,
+   "pack_size": "300g",
+   "name_en": "Sainsbury's Quinoa 300g",
+   "name_short": "Sainsbury's Quinoa",
+   "brand": "Sainsbury's",
+   "unit_price_gbp": 3.1,
+   "line_total_gbp": 3.1,
+   "buy_qty": 300.0,
+   "buy_unit": "g",
+   "_pack_g": 300.0,
+   "used_on": [
+    "11/08",
+    "11/15",
+    "11/19",
+    "11/28"
+   ],
+   "note": "耐存（ALDI 没有，去 Sainsbury's 买）",
+   "bean_form": null,
+   "_g_need": 21.00854700854701,
+   "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g",
+   "zone": "室温",
+   "aisle": 3,
+   "product": {
+    "name": "Sainsbury's Quinoa 300g",
+    "brand": "Sainsbury's",
+    "size": "300g",
+    "price_gbp": 3.1,
+    "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g"
    }
   },
   {
@@ -597,7 +624,7 @@
    ],
    "note": "易坏，分批",
    "bean_form": null,
-   "_g_need": 240.28169014084506,
+   "_g_need": 285.3521126760564,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
    "zone": "冷藏",
    "aisle": 1,
@@ -626,6 +653,7 @@
    "used_on": [
     "11/16",
     "11/23",
+    "11/28",
     "11/29"
    ],
    "note": "易坏，分批",
@@ -640,37 +668,6 @@
     "size": "7 Each",
     "price_gbp": 0.88,
     "link": "https://www.aldi.co.uk/product/nature-s-pick-mini-bananas-000000000000267193"
-   }
-  },
-  {
-   "category": "蔬菜",
-   "name": "玉米",
-   "name_display": "玉米",
-   "packs": 1,
-   "pack_size": "1 kg",
-   "name_en": "Sweetcorn",
-   "name_short": "Sweetcorn",
-   "brand": "FOUR SEASONS",
-   "unit_price_gbp": 1.49,
-   "line_total_gbp": 1.49,
-   "buy_qty": 1000.0,
-   "buy_unit": "g",
-   "_pack_g": 1000.0,
-   "used_on": [
-    "11/28"
-   ],
-   "note": "",
-   "bean_form": null,
-   "_g_need": 32.041343669250644,
-   "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
-   "zone": "冷藏",
-   "aisle": 1,
-   "product": {
-    "name": "Sweetcorn",
-    "brand": "FOUR SEASONS",
-    "size": "1 kg",
-    "price_gbp": 1.49,
-    "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686"
    }
   },
   {
@@ -770,22 +767,23 @@
    "category": "蔬菜",
    "name": "芦笋",
    "name_display": "芦笋",
-   "packs": 1,
+   "packs": 3,
    "pack_size": "100 g",
    "name_en": "Asparagus Tips",
    "name_short": "Asparagus Tips",
    "brand": "NATURE'S PICK",
    "unit_price_gbp": 1.4,
-   "line_total_gbp": 1.4,
-   "buy_qty": 100.0,
+   "line_total_gbp": 4.2,
+   "buy_qty": 300.0,
    "buy_unit": "g",
    "_pack_g": 100.0,
    "used_on": [
-    "11/15"
+    "11/15",
+    "11/28"
    ],
    "note": "",
    "bean_form": null,
-   "_g_need": 0.0,
+   "_g_need": 249.7058823529412,
    "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166",
    "zone": "冷藏",
    "aisle": 1,
@@ -1028,6 +1026,37 @@
   },
   {
    "category": "肉类",
+   "name": "羊排",
+   "name_display": "羊排",
+   "packs": 1,
+   "pack_size": "340 g",
+   "name_en": "British Lamb Chops",
+   "name_short": "Lamb Chops",
+   "brand": "ASHFIELDS",
+   "unit_price_gbp": 5.79,
+   "line_total_gbp": 5.79,
+   "buy_qty": 340.0,
+   "buy_unit": "g",
+   "_pack_g": 340.0,
+   "used_on": [
+    "11/28"
+   ],
+   "note": "",
+   "bean_form": null,
+   "_g_need": 277.95652173913044,
+   "link": "https://www.aldi.co.uk/product/ashfields-british-lamb-chops-000000000661917001",
+   "zone": "冷藏",
+   "aisle": 2,
+   "product": {
+    "name": "British Lamb Chops",
+    "brand": "ASHFIELDS",
+    "size": "340 g",
+    "price_gbp": 5.79,
+    "link": "https://www.aldi.co.uk/product/ashfields-british-lamb-chops-000000000661917001"
+   }
+  },
+  {
+   "category": "肉类",
    "name": "高汤",
    "name_display": "高汤",
    "packs": 1,
@@ -1205,7 +1234,7 @@
   }
  ],
  "batches": [],
- "total_gbp": 57.41,
+ "total_gbp": 67.61,
  "by_store": {
   "ALDI": {
    "store": "ALDI",
@@ -1232,7 +1261,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
-     "_g_need": 240.28169014084506,
+     "_g_need": 285.3521126760564,
      "link": "https://www.aldi.co.uk/product/nature-s-pick-strawberries-000000000000339981",
      "zone": "冷藏",
      "aisle": 1,
@@ -1419,6 +1448,7 @@
      "used_on": [
       "11/16",
       "11/23",
+      "11/28",
       "11/29"
      ],
      "note": "易坏，分批",
@@ -1800,34 +1830,66 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "玉米",
-     "name_display": "玉米",
+     "category": "肉类",
+     "name": "羊排",
+     "name_display": "羊排",
      "packs": 1,
-     "pack_size": "1 kg",
-     "name_en": "Sweetcorn",
-     "name_short": "Sweetcorn",
-     "brand": "FOUR SEASONS",
-     "unit_price_gbp": 1.49,
-     "line_total_gbp": 1.49,
-     "buy_qty": 1000.0,
+     "pack_size": "340 g",
+     "name_en": "British Lamb Chops",
+     "name_short": "Lamb Chops",
+     "brand": "ASHFIELDS",
+     "unit_price_gbp": 5.79,
+     "line_total_gbp": 5.79,
+     "buy_qty": 340.0,
      "buy_unit": "g",
-     "_pack_g": 1000.0,
+     "_pack_g": 340.0,
      "used_on": [
       "11/28"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 32.041343669250644,
-     "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
+     "_g_need": 277.95652173913044,
+     "link": "https://www.aldi.co.uk/product/ashfields-british-lamb-chops-000000000661917001",
+     "zone": "冷藏",
+     "aisle": 2,
+     "product": {
+      "name": "British Lamb Chops",
+      "brand": "ASHFIELDS",
+      "size": "340 g",
+      "price_gbp": 5.79,
+      "link": "https://www.aldi.co.uk/product/ashfields-british-lamb-chops-000000000661917001"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "芦笋",
+     "name_display": "芦笋",
+     "packs": 3,
+     "pack_size": "100 g",
+     "name_en": "Asparagus Tips",
+     "name_short": "Asparagus Tips",
+     "brand": "NATURE'S PICK",
+     "unit_price_gbp": 1.4,
+     "line_total_gbp": 4.2,
+     "buy_qty": 300.0,
+     "buy_unit": "g",
+     "_pack_g": 100.0,
+     "used_on": [
+      "11/15",
+      "11/28"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 249.7058823529412,
+     "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166",
      "zone": "冷藏",
      "aisle": 1,
      "product": {
-      "name": "Sweetcorn",
-      "brand": "FOUR SEASONS",
-      "size": "1 kg",
-      "price_gbp": 1.49,
-      "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686"
+      "name": "Asparagus Tips",
+      "brand": "NATURE'S PICK",
+      "size": "100 g",
+      "price_gbp": 1.4,
+      "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166"
      }
     },
     {
@@ -2015,37 +2077,6 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "芦笋",
-     "name_display": "芦笋",
-     "packs": 1,
-     "pack_size": "100 g",
-     "name_en": "Asparagus Tips",
-     "name_short": "Asparagus Tips",
-     "brand": "NATURE'S PICK",
-     "unit_price_gbp": 1.4,
-     "line_total_gbp": 1.4,
-     "buy_qty": 100.0,
-     "buy_unit": "g",
-     "_pack_g": 100.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Asparagus Tips",
-      "brand": "NATURE'S PICK",
-      "size": "100 g",
-      "price_gbp": 1.4,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166"
-     }
-    },
-    {
      "category": "乳制品",
      "name": "马苏里拉",
      "name_display": "马苏里拉罐头",
@@ -2078,24 +2109,26 @@
     }
    ],
    "batches": [],
-   "total_gbp": 41.41,
+   "total_gbp": 48.51,
    "missing": [
     "蛋白粉",
     "蛋白",
-    "白芸豆"
+    "白芸豆",
+    "藜麦"
    ],
    "pantry_missing": [],
    "unavailable": [
     "蛋白粉",
     "蛋白",
-    "白芸豆"
+    "白芸豆",
+    "藜麦"
    ],
-   "coverage": 0.9062,
-   "vs_recommend_gbp": 2.69,
+   "coverage": 0.8788,
+   "vs_recommend_gbp": 3.55,
    "vs_recommend_common_n": 28,
-   "vs_recommend_store_gbp": 41.41,
-   "vs_recommend_rec_gbp": 38.72,
-   "vs_recommend_missing": 2
+   "vs_recommend_store_gbp": 48.51,
+   "vs_recommend_rec_gbp": 44.96,
+   "vs_recommend_missing": 3
   },
   "SAINSBURYS": {
    "store": "SAINSBURYS",
@@ -2122,7 +2155,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
-     "_g_need": 294.13793103448273,
+     "_g_need": 349.3103448275862,
      "link": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-strawberries-400g",
      "zone": "冷藏",
      "aisle": 1,
@@ -2309,6 +2342,7 @@
      "used_on": [
       "11/16",
       "11/23",
+      "11/28",
       "11/29"
      ],
      "note": "易坏，分批",
@@ -2785,34 +2819,100 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "玉米",
-     "name_display": "玉米",
+     "category": "主食",
+     "name": "藜麦",
+     "name_display": "藜麦罐头",
      "packs": 1,
-     "pack_size": "950g",
-     "name_en": "Stamford Street Co. Sweetcorn 950g",
-     "name_short": "Stamford Street Co. Sweetcorn",
+     "pack_size": "300g",
+     "name_en": "Sainsbury's Quinoa 300g",
+     "name_short": "Sainsbury's Quinoa",
      "brand": "Sainsbury's",
-     "unit_price_gbp": 1.42,
-     "line_total_gbp": 1.42,
-     "buy_qty": 950.0,
+     "unit_price_gbp": 3.1,
+     "line_total_gbp": 3.1,
+     "buy_qty": 300.0,
      "buy_unit": "g",
-     "_pack_g": 950.0,
+     "_pack_g": 300.0,
+     "used_on": [
+      "11/08",
+      "11/15",
+      "11/19",
+      "11/28"
+     ],
+     "note": "耐存",
+     "bean_form": null,
+     "_g_need": 21.00854700854701,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g",
+     "zone": "室温",
+     "aisle": 3,
+     "product": {
+      "name": "Sainsbury's Quinoa 300g",
+      "brand": "Sainsbury's",
+      "size": "300g",
+      "price_gbp": 3.1,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "羊排",
+     "name_display": "羊排",
+     "packs": 2,
+     "pack_size": "170g",
+     "name_en": "Sainsbury's British or New Zealand Lamb Chops 170g",
+     "name_short": "Sainsbury's or New Zealand Lamb Chops",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 3.25,
+     "line_total_gbp": 6.5,
+     "buy_qty": 340.0,
+     "buy_unit": "g",
+     "_pack_g": 170.0,
      "used_on": [
       "11/28"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 52.21052631578947,
-     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-sweetcorn-950g",
+     "_g_need": 295.97222222222223,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-or-new-zealand-lamb-chops-170g",
+     "zone": "冷藏",
+     "aisle": 2,
+     "product": {
+      "name": "Sainsbury's British or New Zealand Lamb Chops 170g",
+      "brand": "Sainsbury's",
+      "size": "170g",
+      "price_gbp": 3.25,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-or-new-zealand-lamb-chops-170g"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "芦笋",
+     "name_display": "芦笋",
+     "packs": 2,
+     "pack_size": "250g",
+     "name_en": "Sainsbury's 250g Asparagus Spears",
+     "name_short": "Sainsbury's Asparagus Spears",
+     "brand": "Sainsbury's",
+     "unit_price_gbp": 2.0,
+     "line_total_gbp": 4.0,
+     "buy_qty": 500.0,
+     "buy_unit": "g",
+     "_pack_g": 250.0,
+     "used_on": [
+      "11/15",
+      "11/28"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 446.8421052631579,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-250g-asparagus-spears",
      "zone": "冷藏",
      "aisle": 1,
      "product": {
-      "name": "Stamford Street Co. Sweetcorn 950g",
+      "name": "Sainsbury's 250g Asparagus Spears",
       "brand": "Sainsbury's",
-      "size": "950g",
-      "price_gbp": 1.42,
-      "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-sweetcorn-950g"
+      "size": "250g",
+      "price_gbp": 2.0,
+      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-250g-asparagus-spears"
      }
     },
     {
@@ -3029,41 +3129,10 @@
       "price_gbp": 2.5,
       "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-500g-red-cabbage-taste-the-difference"
      }
-    },
-    {
-     "category": "蔬菜",
-     "name": "芦笋",
-     "name_display": "芦笋",
-     "packs": 1,
-     "pack_size": "250g",
-     "name_en": "Sainsbury's 250g Asparagus Spears",
-     "name_short": "Sainsbury's Asparagus Spears",
-     "brand": "Sainsbury's",
-     "unit_price_gbp": 2.0,
-     "line_total_gbp": 2.0,
-     "buy_qty": 250.0,
-     "buy_unit": "g",
-     "_pack_g": 250.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-250g-asparagus-spears",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Sainsbury's 250g Asparagus Spears",
-      "brand": "Sainsbury's",
-      "size": "250g",
-      "price_gbp": 2.0,
-      "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-250g-asparagus-spears"
-     }
     }
    ],
    "batches": [],
-   "total_gbp": 73.65,
+   "total_gbp": 83.83,
    "missing": [
     "蛋白粉"
    ],
@@ -3071,11 +3140,11 @@
    "unavailable": [
     "蛋白粉"
    ],
-   "coverage": 0.9688,
-   "vs_recommend_gbp": 28.08,
-   "vs_recommend_common_n": 30,
-   "vs_recommend_store_gbp": 70.75,
-   "vs_recommend_rec_gbp": 42.67,
+   "coverage": 0.9697,
+   "vs_recommend_gbp": 28.73,
+   "vs_recommend_common_n": 31,
+   "vs_recommend_store_gbp": 80.93,
+   "vs_recommend_rec_gbp": 52.2,
    "vs_recommend_missing": 0
   },
   "ICELAND": {
@@ -3137,7 +3206,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
-     "_g_need": 240.28169014084506,
+     "_g_need": 285.3521126760564,
      "link": "https://www.iceland.co.uk/p/chooee-strawberry-super-mix-200g/102058.html",
      "zone": "冷藏",
      "aisle": 1,
@@ -3261,6 +3330,7 @@
      "used_on": [
       "11/16",
       "11/23",
+      "11/28",
       "11/29"
      ],
      "note": "易坏，分批",
@@ -3518,37 +3588,6 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "玉米",
-     "name_display": "玉米",
-     "packs": 1,
-     "pack_size": "875g",
-     "name_en": "Iceland Mini Corn Cobs 875g",
-     "name_short": "Iceland Mini Corn Cobs",
-     "brand": "Iceland",
-     "unit_price_gbp": 2.0,
-     "line_total_gbp": 2.0,
-     "buy_qty": 875.0,
-     "buy_unit": "g",
-     "_pack_g": 875.0,
-     "used_on": [
-      "11/28"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 52.21052631578947,
-     "link": "https://www.iceland.co.uk/p/iceland-mini-corn-cobs-875g/95373.html",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Iceland Mini Corn Cobs 875g",
-      "brand": "Iceland",
-      "size": "875g",
-      "price_gbp": 2.0,
-      "link": "https://www.iceland.co.uk/p/iceland-mini-corn-cobs-875g/95373.html"
-     }
-    },
-    {
      "category": "肉类",
      "name": "鸡肉",
      "name_display": "鸡肉",
@@ -3734,7 +3773,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 77.49,
+   "total_gbp": 75.49,
    "missing": [
     "芝麻",
     "西葫芦",
@@ -3744,8 +3783,10 @@
     "白芸豆",
     "羽衣甘蓝",
     "亚麻籽粉",
-    "紫甘蓝",
-    "芦笋"
+    "藜麦",
+    "羊排",
+    "芦笋",
+    "紫甘蓝"
    ],
    "pantry_missing": [],
    "unavailable": [
@@ -3757,15 +3798,17 @@
     "白芸豆",
     "羽衣甘蓝",
     "亚麻籽粉",
-    "紫甘蓝",
-    "芦笋"
+    "藜麦",
+    "羊排",
+    "芦笋",
+    "紫甘蓝"
    ],
-   "coverage": 0.6875,
-   "vs_recommend_gbp": 42.98,
-   "vs_recommend_common_n": 20,
-   "vs_recommend_store_gbp": 69.49,
-   "vs_recommend_rec_gbp": 26.51,
-   "vs_recommend_missing": 10
+   "coverage": 0.6364,
+   "vs_recommend_gbp": 41.48,
+   "vs_recommend_common_n": 19,
+   "vs_recommend_store_gbp": 67.49,
+   "vs_recommend_rec_gbp": 26.01,
+   "vs_recommend_missing": 12
   },
   "TESCO": {
    "store": "TESCO",
@@ -3792,7 +3835,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
-     "_g_need": 227.46666666666667,
+     "_g_need": 270.1333333333333,
      "link": "https://www.tesco.com/shop/en-GB/products/312695673",
      "zone": "冷藏",
      "aisle": 1,
@@ -3979,11 +4022,12 @@
      "used_on": [
       "11/16",
       "11/23",
+      "11/28",
       "11/29"
      ],
      "note": "易坏，分批",
      "bean_form": null,
-     "_g_need": 53.090909090909086,
+     "_g_need": 112.09090909090908,
      "link": "https://www.tesco.com/shop/en-GB/products/307754489",
      "zone": "冷藏",
      "aisle": 1,
@@ -4046,7 +4090,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 2.66,
+     "_g_need": 3.16,
      "link": "https://www.tesco.com/shop/en-GB/products/330745582",
      "zone": "冷藏",
      "aisle": 1,
@@ -4426,34 +4470,100 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "玉米",
-     "name_display": "玉米",
+     "category": "主食",
+     "name": "藜麦",
+     "name_display": "藜麦",
      "packs": 1,
-     "pack_size": "907g",
-     "name_en": "Grower's Harvest Sweetcorn 907G",
-     "name_short": "Grower's Harvest Sweetcorn",
-     "brand": "GROWER'S HARVEST",
-     "unit_price_gbp": 1.35,
-     "line_total_gbp": 1.35,
-     "buy_qty": 907.0,
+     "pack_size": "250g",
+     "name_en": "Buchanans Quinoa 250G",
+     "name_short": "Buchanans Quinoa",
+     "brand": "BUCHANANS",
+     "unit_price_gbp": 1.9,
+     "line_total_gbp": 1.9,
+     "buy_qty": 250.0,
      "buy_unit": "g",
-     "_pack_g": 907.0,
+     "_pack_g": 250.0,
+     "used_on": [
+      "11/08",
+      "11/15",
+      "11/19",
+      "11/28"
+     ],
+     "note": "耐存",
+     "bean_form": null,
+     "_g_need": 21.00854700854701,
+     "link": "https://www.tesco.com/shop/en-GB/products/297133405",
+     "zone": "室温",
+     "aisle": 3,
+     "product": {
+      "name": "Buchanans Quinoa 250G",
+      "brand": "BUCHANANS",
+      "size": "250g",
+      "price_gbp": 1.9,
+      "link": "https://www.tesco.com/shop/en-GB/products/297133405"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "羊排",
+     "name_display": "羊排",
+     "packs": 1,
+     "pack_size": "550g",
+     "name_en": "Tesco Welsh 8 Lamb Chops 550G",
+     "name_short": "Tesco Welsh 8 Lamb Chops",
+     "brand": "TESCO",
+     "unit_price_gbp": 9.5,
+     "line_total_gbp": 9.5,
+     "buy_qty": 550.0,
+     "buy_unit": "g",
+     "_pack_g": 550.0,
      "used_on": [
       "11/28"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 42.03389830508474,
-     "link": "https://www.tesco.com/shop/en-GB/products/299539429",
+     "_g_need": 338.2539682539683,
+     "link": "https://www.tesco.com/shop/en-GB/products/293467615",
+     "zone": "冷藏",
+     "aisle": 2,
+     "product": {
+      "name": "Tesco Welsh 8 Lamb Chops 550G",
+      "brand": "TESCO",
+      "size": "550g",
+      "price_gbp": 9.5,
+      "link": "https://www.tesco.com/shop/en-GB/products/293467615"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "芦笋",
+     "name_display": "芦笋",
+     "packs": 3,
+     "pack_size": "180g",
+     "name_en": "Tesco Asparagus 180G",
+     "name_short": "Tesco Asparagus",
+     "brand": "TESCO",
+     "unit_price_gbp": 1.7,
+     "line_total_gbp": 5.1,
+     "buy_qty": 540.0,
+     "buy_unit": "g",
+     "_pack_g": 180.0,
+     "used_on": [
+      "11/15",
+      "11/28"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 424.5,
+     "link": "https://www.tesco.com/shop/en-GB/products/313732922",
      "zone": "冷藏",
      "aisle": 1,
      "product": {
-      "name": "Grower's Harvest Sweetcorn 907G",
-      "brand": "GROWER'S HARVEST",
-      "size": "907g",
-      "price_gbp": 1.35,
-      "link": "https://www.tesco.com/shop/en-GB/products/299539429"
+      "name": "Tesco Asparagus 180G",
+      "brand": "TESCO",
+      "size": "180g",
+      "price_gbp": 1.7,
+      "link": "https://www.tesco.com/shop/en-GB/products/313732922"
      }
     },
     {
@@ -4641,37 +4751,6 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "芦笋",
-     "name_display": "芦笋",
-     "packs": 1,
-     "pack_size": "180g",
-     "name_en": "Tesco Asparagus 180G",
-     "name_short": "Tesco Asparagus",
-     "brand": "TESCO",
-     "unit_price_gbp": 1.7,
-     "line_total_gbp": 1.7,
-     "buy_qty": 180.0,
-     "buy_unit": "g",
-     "_pack_g": 180.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.tesco.com/shop/en-GB/products/313732922",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Tesco Asparagus 180G",
-      "brand": "TESCO",
-      "size": "180g",
-      "price_gbp": 1.7,
-      "link": "https://www.tesco.com/shop/en-GB/products/313732922"
-     }
-    },
-    {
      "category": "乳制品",
      "name": "马苏里拉",
      "name_display": "马苏里拉",
@@ -4704,7 +4783,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 68.47,
+   "total_gbp": 81.92,
    "missing": [
     "蛋白粉"
    ],
@@ -4712,11 +4791,11 @@
    "unavailable": [
     "蛋白粉"
    ],
-   "coverage": 0.9688,
-   "vs_recommend_gbp": 25.8,
-   "vs_recommend_common_n": 30,
-   "vs_recommend_store_gbp": 68.47,
-   "vs_recommend_rec_gbp": 42.67,
+   "coverage": 0.9697,
+   "vs_recommend_gbp": 29.72,
+   "vs_recommend_common_n": 31,
+   "vs_recommend_store_gbp": 81.92,
+   "vs_recommend_rec_gbp": 52.2,
    "vs_recommend_missing": 0
   },
   "MORRISONS": {
@@ -4744,7 +4823,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
-     "_g_need": 24.941520467836252,
+     "_g_need": 29.619883040935672,
      "link": "https://groceries.morrisons.com/products/105933448",
      "zone": "冷藏",
      "aisle": 1,
@@ -4931,6 +5010,7 @@
      "used_on": [
       "11/16",
       "11/23",
+      "11/28",
       "11/29"
      ],
      "note": "易坏，分批",
@@ -5407,34 +5487,100 @@
      }
     },
     {
-     "category": "调料",
-     "name": "玉米",
-     "name_display": "玉米罐头",
+     "category": "主食",
+     "name": "藜麦",
+     "name_display": "藜麦罐头",
      "packs": 1,
-     "pack_size": "326g",
-     "name_en": "Morrisons Savers Sweetcorn in Water 326g",
-     "name_short": "Morrisons Savers Sweetcorn in Water",
-     "brand": "Morrisons Savers",
-     "unit_price_gbp": 0.5,
-     "line_total_gbp": 0.5,
-     "buy_qty": 326.0,
+     "pack_size": "400g",
+     "name_en": "Biona Organic Chilli Con Quinoa (400g)",
+     "name_short": "Biona Organic Chilli Con Quinoa (400g)",
+     "brand": "Biona",
+     "unit_price_gbp": 3.29,
+     "line_total_gbp": 3.29,
+     "buy_qty": 400.0,
      "buy_unit": "g",
-     "_pack_g": 326.0,
+     "_pack_g": 400.0,
+     "used_on": [
+      "11/08",
+      "11/15",
+      "11/19",
+      "11/28"
+     ],
+     "note": "耐存",
+     "bean_form": null,
+     "_g_need": 21.00854700854701,
+     "link": "https://groceries.morrisons.com/products/300001639",
+     "zone": "室温",
+     "aisle": 3,
+     "product": {
+      "name": "Biona Organic Chilli Con Quinoa (400g)",
+      "brand": "Biona",
+      "size": "400g",
+      "price_gbp": 3.29,
+      "link": "https://groceries.morrisons.com/products/300001639"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "羊排",
+     "name_display": "羊排",
+     "packs": 1,
+     "pack_size": "320g",
+     "name_en": "Morrisons Lamb Chops 320g",
+     "name_short": "Morrisons Lamb Chops",
+     "brand": "Morrisons",
+     "unit_price_gbp": 6.0,
+     "line_total_gbp": 6.0,
+     "buy_qty": 320.0,
+     "buy_unit": "g",
+     "_pack_g": 320.0,
      "used_on": [
       "11/28"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 35.68345323741007,
-     "link": "https://groceries.morrisons.com/products/109381062",
-     "zone": "室温",
-     "aisle": 4,
+     "_g_need": 277.95652173913044,
+     "link": "https://groceries.morrisons.com/products/113711108",
+     "zone": "冷藏",
+     "aisle": 2,
      "product": {
-      "name": "Morrisons Savers Sweetcorn in Water 326g",
-      "brand": "Morrisons Savers",
-      "size": "326g",
-      "price_gbp": 0.5,
-      "link": "https://groceries.morrisons.com/products/109381062"
+      "name": "Morrisons Lamb Chops 320g",
+      "brand": "Morrisons",
+      "size": "320g",
+      "price_gbp": 6.0,
+      "link": "https://groceries.morrisons.com/products/113711108"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "芦笋",
+     "name_display": "芦笋",
+     "packs": 1,
+     "pack_size": "250g",
+     "name_en": "Morrisons Asparagus ",
+     "name_short": "Morrisons Asparagus",
+     "brand": "Morrisons",
+     "unit_price_gbp": 2.35,
+     "line_total_gbp": 2.35,
+     "buy_qty": 250.0,
+     "buy_unit": "g",
+     "_pack_g": 250.0,
+     "used_on": [
+      "11/15",
+      "11/28"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 249.7058823529412,
+     "link": "https://groceries.morrisons.com/products/108467331",
+     "zone": "冷藏",
+     "aisle": 1,
+     "product": {
+      "name": "Morrisons Asparagus ",
+      "brand": "Morrisons",
+      "size": "250g",
+      "price_gbp": 2.35,
+      "link": "https://groceries.morrisons.com/products/108467331"
      }
     },
     {
@@ -5622,37 +5768,6 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "芦笋",
-     "name_display": "芦笋",
-     "packs": 1,
-     "pack_size": "250g",
-     "name_en": "Morrisons Asparagus ",
-     "name_short": "Morrisons Asparagus",
-     "brand": "Morrisons",
-     "unit_price_gbp": 2.35,
-     "line_total_gbp": 2.35,
-     "buy_qty": 250.0,
-     "buy_unit": "g",
-     "_pack_g": 250.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://groceries.morrisons.com/products/108467331",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Morrisons Asparagus ",
-      "brand": "Morrisons",
-      "size": "250g",
-      "price_gbp": 2.35,
-      "link": "https://groceries.morrisons.com/products/108467331"
-     }
-    },
-    {
      "category": "乳制品",
      "name": "马苏里拉",
      "name_display": "马苏里拉罐头",
@@ -5685,7 +5800,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 78.31,
+   "total_gbp": 87.1,
    "missing": [
     "蛋白粉"
    ],
@@ -5693,11 +5808,11 @@
    "unavailable": [
     "蛋白粉"
    ],
-   "coverage": 0.9688,
-   "vs_recommend_gbp": 33.34,
-   "vs_recommend_common_n": 30,
-   "vs_recommend_store_gbp": 76.01,
-   "vs_recommend_rec_gbp": 42.67,
+   "coverage": 0.9697,
+   "vs_recommend_gbp": 32.6,
+   "vs_recommend_common_n": 31,
+   "vs_recommend_store_gbp": 84.8,
+   "vs_recommend_rec_gbp": 52.2,
    "vs_recommend_missing": 0
   },
   "WAITROSE": {
@@ -5725,7 +5840,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
-     "_g_need": 279.672131147541,
+     "_g_need": 332.13114754098365,
      "link": "https://www.waitrose.com/ecom/products/essential-frozen-strawberries/832754-679283-679284",
      "zone": "冷藏",
      "aisle": 1,
@@ -5912,6 +6027,7 @@
      "used_on": [
       "11/16",
       "11/23",
+      "11/28",
       "11/29"
      ],
      "note": "易坏，分批",
@@ -6330,34 +6446,100 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "玉米",
-     "name_display": "玉米罐头",
+     "category": "主食",
+     "name": "藜麦",
+     "name_display": "藜麦",
      "packs": 1,
-     "pack_size": "340g",
-     "name_en": "Green Giant Sweetcorn",
-     "name_short": "Green Giant Sweetcorn",
-     "brand": "Green Giant",
-     "unit_price_gbp": 1.35,
-     "line_total_gbp": 1.35,
-     "buy_qty": 340.0,
+     "pack_size": "500g",
+     "name_en": "Waitrose Quinoa",
+     "name_short": "Waitrose Quinoa",
+     "brand": "Waitrose Ltd",
+     "unit_price_gbp": 4.25,
+     "line_total_gbp": 4.25,
+     "buy_qty": 500.0,
      "buy_unit": "g",
-     "_pack_g": 340.0,
+     "_pack_g": 500.0,
+     "used_on": [
+      "11/08",
+      "11/15",
+      "11/19",
+      "11/28"
+     ],
+     "note": "耐存，1 包 500g 可覆盖多次",
+     "bean_form": null,
+     "_g_need": 21.00854700854701,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-quinoa/059324-29873-29874",
+     "zone": "室温",
+     "aisle": 3,
+     "product": {
+      "name": "Waitrose Quinoa",
+      "brand": "Waitrose Ltd",
+      "size": "500g",
+      "price_gbp": 4.25,
+      "link": "https://www.waitrose.com/ecom/products/waitrose-quinoa/059324-29873-29874"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "羊排",
+     "name_display": "羊排",
+     "packs": 1,
+     "pack_size": "per kg",
+     "name_en": "Waitrose 2 British Lamb Loin Chops",
+     "name_short": "Waitrose 2 Lamb Loin Chops",
+     "brand": "Waitrose Ltd",
+     "unit_price_gbp": 7.59,
+     "line_total_gbp": 7.59,
+     "buy_qty": "",
+     "buy_unit": "",
+     "_pack_g": null,
      "used_on": [
       "11/28"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 39.36507936507937,
-     "link": "https://www.waitrose.com/ecom/products/green-giant-sweetcorn/019835-9664-9665",
+     "_g_need": 0.0,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-2-british-lamb-loin-chops/088583-45471-45472",
+     "zone": "冷藏",
+     "aisle": 2,
+     "product": {
+      "name": "Waitrose 2 British Lamb Loin Chops",
+      "brand": "Waitrose Ltd",
+      "size": "per kg",
+      "price_gbp": 7.59,
+      "link": "https://www.waitrose.com/ecom/products/waitrose-2-british-lamb-loin-chops/088583-45471-45472"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "芦笋",
+     "name_display": "芦笋",
+     "packs": 2,
+     "pack_size": "230g",
+     "name_en": "Waitrose Asparagus",
+     "name_short": "Waitrose Asparagus",
+     "brand": "Waitrose Ltd",
+     "unit_price_gbp": 2.75,
+     "line_total_gbp": 5.5,
+     "buy_qty": 460.0,
+     "buy_unit": "g",
+     "_pack_g": 230.0,
+     "used_on": [
+      "11/15",
+      "11/28"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 424.5,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-asparagus/085482-43550-43551",
      "zone": "冷藏",
      "aisle": 1,
      "product": {
-      "name": "Green Giant Sweetcorn",
-      "brand": "Green Giant",
-      "size": "340g",
-      "price_gbp": 1.35,
-      "link": "https://www.waitrose.com/ecom/products/green-giant-sweetcorn/019835-9664-9665"
+      "name": "Waitrose Asparagus",
+      "brand": "Waitrose Ltd",
+      "size": "230g",
+      "price_gbp": 2.75,
+      "link": "https://www.waitrose.com/ecom/products/waitrose-asparagus/085482-43550-43551"
      }
     },
     {
@@ -6514,37 +6696,6 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "芦笋",
-     "name_display": "芦笋",
-     "packs": 1,
-     "pack_size": "230g",
-     "name_en": "Waitrose Asparagus",
-     "name_short": "Waitrose Asparagus",
-     "brand": "Waitrose Ltd",
-     "unit_price_gbp": 2.75,
-     "line_total_gbp": 2.75,
-     "buy_qty": 230.0,
-     "buy_unit": "g",
-     "_pack_g": 230.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.waitrose.com/ecom/products/waitrose-asparagus/085482-43550-43551",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Waitrose Asparagus",
-      "brand": "Waitrose Ltd",
-      "size": "230g",
-      "price_gbp": 2.75,
-      "link": "https://www.waitrose.com/ecom/products/waitrose-asparagus/085482-43550-43551"
-     }
-    },
-    {
      "category": "乳制品",
      "name": "马苏里拉",
      "name_display": "马苏里拉",
@@ -6577,7 +6728,7 @@
     }
    ],
    "batches": [],
-   "total_gbp": 96.87,
+   "total_gbp": 110.11,
    "missing": [
     "蛋白粉",
     "鸡肉末"
@@ -6587,11 +6738,11 @@
     "蛋白粉",
     "鸡肉末"
    ],
-   "coverage": 0.9375,
-   "vs_recommend_gbp": 57.24,
-   "vs_recommend_common_n": 28,
-   "vs_recommend_store_gbp": 96.87,
-   "vs_recommend_rec_gbp": 39.63,
+   "coverage": 0.9394,
+   "vs_recommend_gbp": 60.95,
+   "vs_recommend_common_n": 29,
+   "vs_recommend_store_gbp": 110.11,
+   "vs_recommend_rec_gbp": 49.16,
    "vs_recommend_missing": 2
   },
   "MARKS & SPENCER": {
@@ -6619,7 +6770,7 @@
      ],
      "note": "易坏，分批",
      "bean_form": null,
-     "_g_need": 279.672131147541,
+     "_g_need": 332.13114754098365,
      "link": "https://www.marksandspencer.com/food/frozen-strawberries/p/fdp60712445",
      "zone": "冷藏",
      "aisle": 1,
@@ -6806,11 +6957,12 @@
      "used_on": [
       "11/16",
       "11/23",
+      "11/28",
       "11/29"
      ],
      "note": "易坏，分批",
      "bean_form": null,
-     "_g_need": 50.3448275862069,
+     "_g_need": 106.29310344827587,
      "link": "https://www.marksandspencer.com/food/banana/p/fdp60676395",
      "zone": "冷藏",
      "aisle": 1,
@@ -6873,7 +7025,7 @@
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 41.5625,
+     "_g_need": 49.375,
      "link": "https://www.marksandspencer.com/food/lemons/p/fdp21007170",
      "zone": "冷藏",
      "aisle": 1,
@@ -7253,34 +7405,100 @@
      }
     },
     {
-     "category": "蔬菜",
-     "name": "玉米",
-     "name_display": "玉米",
+     "category": "主食",
+     "name": "藜麦",
+     "name_display": "藜麦",
      "packs": 1,
-     "pack_size": "1 kg",
-     "name_en": "Petits Pois and Sweetcorn",
-     "name_short": "Petits Pois and Sweetcorn",
+     "pack_size": "500 g",
+     "name_en": "Quinoa",
+     "name_short": "Quinoa",
      "brand": NaN,
-     "unit_price_gbp": 2.4,
-     "line_total_gbp": 2.4,
-     "buy_qty": 1000.0,
+     "unit_price_gbp": 4.25,
+     "line_total_gbp": 4.25,
+     "buy_qty": 500.0,
      "buy_unit": "g",
-     "_pack_g": 1000.0,
+     "_pack_g": 500.0,
+     "used_on": [
+      "11/08",
+      "11/15",
+      "11/19",
+      "11/28"
+     ],
+     "note": "耐存，1 包 500g 可覆盖多次",
+     "bean_form": null,
+     "_g_need": 21.00854700854701,
+     "link": "https://www.marksandspencer.com/food/quinoa/p/fdp60604291",
+     "zone": "室温",
+     "aisle": 3,
+     "product": {
+      "name": "Quinoa",
+      "brand": NaN,
+      "size": "500 g",
+      "price_gbp": 4.25,
+      "link": "https://www.marksandspencer.com/food/quinoa/p/fdp60604291"
+     }
+    },
+    {
+     "category": "肉类",
+     "name": "羊排",
+     "name_display": "羊排",
+     "packs": 1,
+     "pack_size": "360 g",
+     "name_en": "British Lamb Loin Chops",
+     "name_short": "Lamb Loin Chops",
+     "brand": NaN,
+     "unit_price_gbp": 12.5,
+     "line_total_gbp": 12.5,
+     "buy_qty": 360.0,
+     "buy_unit": "g",
+     "_pack_g": 360.0,
      "used_on": [
       "11/28"
      ],
      "note": "",
      "bean_form": null,
-     "_g_need": 48.155339805825236,
-     "link": "https://www.marksandspencer.com/food/petits-pois-and-sweetcorn/p/fdp60291381",
+     "_g_need": 277.95652173913044,
+     "link": "https://www.marksandspencer.com/food/british-lamb-loin-chops/p/fdp60004365",
+     "zone": "冷藏",
+     "aisle": 2,
+     "product": {
+      "name": "British Lamb Loin Chops",
+      "brand": NaN,
+      "size": "360 g",
+      "price_gbp": 12.5,
+      "link": "https://www.marksandspencer.com/food/british-lamb-loin-chops/p/fdp60004365"
+     }
+    },
+    {
+     "category": "蔬菜",
+     "name": "芦笋",
+     "name_display": "芦笋",
+     "packs": 3,
+     "pack_size": "180 g",
+     "name_en": "Asparagus Spears",
+     "name_short": "Asparagus Spears",
+     "brand": NaN,
+     "unit_price_gbp": 2.9,
+     "line_total_gbp": 8.7,
+     "buy_qty": 540.0,
+     "buy_unit": "g",
+     "_pack_g": 180.0,
+     "used_on": [
+      "11/15",
+      "11/28"
+     ],
+     "note": "",
+     "bean_form": null,
+     "_g_need": 424.5,
+     "link": "https://www.marksandspencer.com/food/asparagus-spears/p/fdp21003589",
      "zone": "冷藏",
      "aisle": 1,
      "product": {
-      "name": "Petits Pois and Sweetcorn",
+      "name": "Asparagus Spears",
       "brand": NaN,
-      "size": "1 kg",
-      "price_gbp": 2.4,
-      "link": "https://www.marksandspencer.com/food/petits-pois-and-sweetcorn/p/fdp60291381"
+      "size": "180 g",
+      "price_gbp": 2.9,
+      "link": "https://www.marksandspencer.com/food/asparagus-spears/p/fdp21003589"
      }
     },
     {
@@ -7497,41 +7715,10 @@
       "price_gbp": 0.95,
       "link": "https://www.marksandspencer.com/food/organic-red-cabbage/p/fdp60038615"
      }
-    },
-    {
-     "category": "蔬菜",
-     "name": "芦笋",
-     "name_display": "芦笋",
-     "packs": 1,
-     "pack_size": "180 g",
-     "name_en": "Asparagus Spears",
-     "name_short": "Asparagus Spears",
-     "brand": NaN,
-     "unit_price_gbp": 2.9,
-     "line_total_gbp": 2.9,
-     "buy_qty": 180.0,
-     "buy_unit": "g",
-     "_pack_g": 180.0,
-     "used_on": [
-      "11/15"
-     ],
-     "note": "",
-     "bean_form": null,
-     "_g_need": 0.0,
-     "link": "https://www.marksandspencer.com/food/asparagus-spears/p/fdp21003589",
-     "zone": "冷藏",
-     "aisle": 1,
-     "product": {
-      "name": "Asparagus Spears",
-      "brand": NaN,
-      "size": "180 g",
-      "price_gbp": 2.9,
-      "link": "https://www.marksandspencer.com/food/asparagus-spears/p/fdp21003589"
-     }
     }
    ],
    "batches": [],
-   "total_gbp": 145.57,
+   "total_gbp": 165.72,
    "missing": [
     "蛋白粉"
    ],
@@ -7539,11 +7726,11 @@
    "unavailable": [
     "蛋白粉"
    ],
-   "coverage": 0.9688,
-   "vs_recommend_gbp": 102.9,
-   "vs_recommend_common_n": 30,
-   "vs_recommend_store_gbp": 145.57,
-   "vs_recommend_rec_gbp": 42.67,
+   "coverage": 0.9697,
+   "vs_recommend_gbp": 113.52,
+   "vs_recommend_common_n": 31,
+   "vs_recommend_store_gbp": 165.72,
+   "vs_recommend_rec_gbp": 52.2,
    "vs_recommend_missing": 0
   }
  },
@@ -7556,15 +7743,15 @@
    "Aldi",
    "Morrisons"
   ],
-  "coverage": 0.96875,
+  "coverage": 0.9696969696969697,
   "missing": [
    "蛋白粉"
   ],
   "pantry_missing": [],
-  "cost": 42.67,
+  "cost": 52.2,
   "per_store": {
    "ALDI": {
-    "subtotal": 31.6,
+    "subtotal": 35.99,
     "count": 23,
     "names": [
      "花椰菜",
@@ -7584,11 +7771,11 @@
      "大虾",
      "菲达奶酪",
      "橄榄",
+     "羊排",
      "鸡肉",
      "面包",
      "生菜",
      "紫甘蓝",
-     "芦笋",
      "马苏里拉"
     ],
     "items": [
@@ -8085,6 +8272,37 @@
      },
      {
       "category": "肉类",
+      "name": "羊排",
+      "name_display": "羊排",
+      "packs": 1,
+      "pack_size": "340 g",
+      "name_en": "British Lamb Chops",
+      "name_short": "Lamb Chops",
+      "brand": "ASHFIELDS",
+      "unit_price_gbp": 5.79,
+      "line_total_gbp": 5.79,
+      "buy_qty": 340.0,
+      "buy_unit": "g",
+      "_pack_g": 340.0,
+      "used_on": [
+       "11/28"
+      ],
+      "note": "",
+      "bean_form": null,
+      "_g_need": 277.95652173913044,
+      "link": "https://www.aldi.co.uk/product/ashfields-british-lamb-chops-000000000661917001",
+      "zone": "冷藏",
+      "aisle": 2,
+      "product": {
+       "name": "British Lamb Chops",
+       "brand": "ASHFIELDS",
+       "size": "340 g",
+       "price_gbp": 5.79,
+       "link": "https://www.aldi.co.uk/product/ashfields-british-lamb-chops-000000000661917001"
+      }
+     },
+     {
+      "category": "肉类",
       "name": "鸡肉",
       "name_display": "鸡肉",
       "packs": 1,
@@ -8237,37 +8455,6 @@
       }
      },
      {
-      "category": "蔬菜",
-      "name": "芦笋",
-      "name_display": "芦笋",
-      "packs": 1,
-      "pack_size": "100 g",
-      "name_en": "Asparagus Tips",
-      "name_short": "Asparagus Tips",
-      "brand": "NATURE'S PICK",
-      "unit_price_gbp": 1.4,
-      "line_total_gbp": 1.4,
-      "buy_qty": 100.0,
-      "buy_unit": "g",
-      "_pack_g": 100.0,
-      "used_on": [
-       "11/15"
-      ],
-      "note": "",
-      "bean_form": null,
-      "_g_need": 0.0,
-      "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166",
-      "zone": "冷藏",
-      "aisle": 1,
-      "product": {
-       "name": "Asparagus Tips",
-       "brand": "NATURE'S PICK",
-       "size": "100 g",
-       "price_gbp": 1.4,
-       "link": "https://www.aldi.co.uk/product/nature-s-pick-asparagus-tips-000000000000297166"
-      }
-     },
-     {
       "category": "乳制品",
       "name": "马苏里拉",
       "name_display": "马苏里拉罐头",
@@ -8301,15 +8488,16 @@
     ]
    },
    "MORRISONS": {
-    "subtotal": 11.07,
-    "count": 7,
+    "subtotal": 16.21,
+    "count": 8,
     "names": [
      "草莓",
      "香蕉",
      "蛋白",
      "白芸豆",
      "羽衣甘蓝",
-     "玉米",
+     "藜麦",
+     "芦笋",
      "番茄酱"
     ],
     "items": [
@@ -8334,7 +8522,7 @@
       ],
       "note": "易坏，分批",
       "bean_form": null,
-      "_g_need": 24.941520467836252,
+      "_g_need": 29.619883040935672,
       "link": "https://groceries.morrisons.com/products/105933448",
       "zone": "冷藏",
       "aisle": 1,
@@ -8363,6 +8551,7 @@
       "used_on": [
        "11/16",
        "11/23",
+       "11/28",
        "11/29"
       ],
       "note": "易坏，分批",
@@ -8477,34 +8666,69 @@
       }
      },
      {
-      "category": "调料",
-      "name": "玉米",
-      "name_display": "玉米罐头",
+      "category": "主食",
+      "name": "藜麦",
+      "name_display": "藜麦罐头",
       "packs": 1,
-      "pack_size": "326g",
-      "name_en": "Morrisons Savers Sweetcorn in Water 326g",
-      "name_short": "Morrisons Savers Sweetcorn in Water",
-      "brand": "Morrisons Savers",
-      "unit_price_gbp": 0.5,
-      "line_total_gbp": 0.5,
-      "buy_qty": 326.0,
+      "pack_size": "400g",
+      "name_en": "Biona Organic Chilli Con Quinoa (400g)",
+      "name_short": "Biona Organic Chilli Con Quinoa (400g)",
+      "brand": "Biona",
+      "unit_price_gbp": 3.29,
+      "line_total_gbp": 3.29,
+      "buy_qty": 400.0,
       "buy_unit": "g",
-      "_pack_g": 326.0,
+      "_pack_g": 400.0,
       "used_on": [
+       "11/08",
+       "11/15",
+       "11/19",
+       "11/28"
+      ],
+      "note": "耐存",
+      "bean_form": null,
+      "_g_need": 21.00854700854701,
+      "link": "https://groceries.morrisons.com/products/300001639",
+      "zone": "室温",
+      "aisle": 3,
+      "product": {
+       "name": "Biona Organic Chilli Con Quinoa (400g)",
+       "brand": "Biona",
+       "size": "400g",
+       "price_gbp": 3.29,
+       "link": "https://groceries.morrisons.com/products/300001639"
+      }
+     },
+     {
+      "category": "蔬菜",
+      "name": "芦笋",
+      "name_display": "芦笋",
+      "packs": 1,
+      "pack_size": "250g",
+      "name_en": "Morrisons Asparagus ",
+      "name_short": "Morrisons Asparagus",
+      "brand": "Morrisons",
+      "unit_price_gbp": 2.35,
+      "line_total_gbp": 2.35,
+      "buy_qty": 250.0,
+      "buy_unit": "g",
+      "_pack_g": 250.0,
+      "used_on": [
+       "11/15",
        "11/28"
       ],
       "note": "",
       "bean_form": null,
-      "_g_need": 35.68345323741007,
-      "link": "https://groceries.morrisons.com/products/109381062",
-      "zone": "室温",
-      "aisle": 4,
+      "_g_need": 249.7058823529412,
+      "link": "https://groceries.morrisons.com/products/108467331",
+      "zone": "冷藏",
+      "aisle": 1,
       "product": {
-       "name": "Morrisons Savers Sweetcorn in Water 326g",
-       "brand": "Morrisons Savers",
-       "size": "326g",
-       "price_gbp": 0.5,
-       "link": "https://groceries.morrisons.com/products/109381062"
+       "name": "Morrisons Asparagus ",
+       "brand": "Morrisons",
+       "size": "250g",
+       "price_gbp": 2.35,
+       "link": "https://groceries.morrisons.com/products/108467331"
       }
      },
      {
@@ -8541,7 +8765,7 @@
     ]
    }
   },
-  "combined_total_gbp": 42.67
+  "combined_total_gbp": 52.2
  },
  "recommend_unit": {
   "basis": "per_100g",
@@ -8605,6 +8829,21 @@
     "line_total": 0.19,
     "pack_g": 400.0,
     "per100_gbp": 0.0475,
+    "basis": "per_100g",
+    "zone": "室温",
+    "aisle": 3,
+    "category": "主食"
+   },
+   {
+    "name": "藜麦",
+    "name_en": "Buchanans Quinoa 250G",
+    "link": "https://www.tesco.com/shop/en-GB/products/297133405",
+    "store": "TESCO",
+    "packs": 1,
+    "price": 1.9,
+    "line_total": 1.9,
+    "pack_g": 250.0,
+    "per100_gbp": 0.76,
     "basis": "per_100g",
     "zone": "室温",
     "aisle": 3,
@@ -8806,21 +9045,6 @@
     "category": "水果"
    },
    {
-    "name": "玉米",
-    "name_en": "Grower's Harvest Sweetcorn 907G",
-    "link": "https://www.tesco.com/shop/en-GB/products/299539429",
-    "store": "TESCO",
-    "packs": 1,
-    "price": 1.35,
-    "line_total": 1.35,
-    "pack_g": 907.0,
-    "per100_gbp": 0.1488,
-    "basis": "per_100g",
-    "zone": "冷藏",
-    "aisle": 1,
-    "category": "蔬菜"
-   },
-   {
     "name": "生菜",
     "name_en": "Little Gem Lettuce",
     "link": "https://www.marksandspencer.com/food/little-gem-lettuce/p/fdp21007258",
@@ -8870,9 +9094,9 @@
     "name_en": "Sainsbury's 250g Asparagus Spears",
     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-250g-asparagus-spears",
     "store": "SAINSBURYS",
-    "packs": 1,
+    "packs": 2,
     "price": 2.0,
-    "line_total": 2.0,
+    "line_total": 4.0,
     "pack_g": 250.0,
     "per100_gbp": 0.8,
     "basis": "per_100g",
@@ -8971,6 +9195,21 @@
     "category": "水产"
    },
    {
+    "name": "羊排",
+    "name_en": "British Lamb Chops",
+    "link": "https://www.aldi.co.uk/product/ashfields-british-lamb-chops-000000000661917001",
+    "store": "ALDI",
+    "packs": 1,
+    "price": 5.79,
+    "line_total": 5.79,
+    "pack_g": 340.0,
+    "per100_gbp": 1.7029,
+    "basis": "per_100g",
+    "zone": "冷藏",
+    "aisle": 2,
+    "category": "肉类"
+   },
+   {
     "name": "高汤",
     "name_en": "Oxo Signature Chicken Stock",
     "link": "https://www.waitrose.com/ecom/products/oxo-signature-chicken-stock/328672-1-2",
@@ -9033,11 +9272,11 @@
   ],
   "per_store": {
    "ALDI": {
-    "subtotal": 12.09,
-    "count": 8
+    "subtotal": 17.88,
+    "count": 9
    },
    "SAINSBURYS": {
-    "subtotal": 9.99,
+    "subtotal": 11.99,
     "count": 6
    },
    "ICELAND": {
@@ -9045,7 +9284,7 @@
     "count": 1
    },
    "TESCO": {
-    "subtotal": 8.9,
+    "subtotal": 9.45,
     "count": 4
    },
    "MORRISONS": {
@@ -9061,10 +9300,10 @@
     "count": 6
    }
   },
-  "cost": 67.81,
+  "cost": 76.15,
   "coverage": 1.0,
   "missing": [],
-  "total_if_pick_by_line_total": 46.36,
+  "total_if_pick_by_line_total": 54.5,
   "oversized": [
    {
     "name": "红葡萄酒",
@@ -9097,28 +9336,28 @@
     "ratio": 31.2
    },
    {
-    "name": "玉米",
-    "pack_g": 907.0,
-    "need_g": 42.0,
-    "ratio": 21.6
-   },
-   {
-    "name": "草莓",
-    "pack_g": 500.0,
-    "need_g": 24.9,
-    "ratio": 20.0
-   },
-   {
     "name": "罗勒",
     "pack_g": 220.0,
     "need_g": 12.2,
     "ratio": 18.1
    },
    {
+    "name": "草莓",
+    "pack_g": 500.0,
+    "need_g": 29.6,
+    "ratio": 16.9
+   },
+   {
     "name": "柠檬",
     "pack_g": 685.0,
-    "need_g": 41.6,
-    "ratio": 16.5
+    "need_g": 49.4,
+    "ratio": 13.9
+   },
+   {
+    "name": "藜麦",
+    "pack_g": 250.0,
+    "need_g": 21.0,
+    "ratio": 11.9
    },
    {
     "name": "菲达奶酪",
@@ -9143,12 +9382,6 @@
     "pack_g": 500.0,
     "need_g": 93.2,
     "ratio": 5.4
-   },
-   {
-    "name": "香蕉",
-    "pack_g": 150.0,
-    "need_g": 50.3,
-    "ratio": 3.0
    },
    {
     "name": "橄榄",
@@ -9455,6 +9688,85 @@
     "MORRISONS": 395.0,
     "WAITROSE": 690.0,
     "MARKS & SPENCER": 495.0
+   },
+   "zone": "室温",
+   "aisle": 3
+  },
+  {
+   "name": "藜麦",
+   "name_display": "藜麦",
+   "category": "主食",
+   "stores": {
+    "SAINSBURYS": {
+     "price": 3.1,
+     "pack_g": 300.0,
+     "size": "300g",
+     "per100_gbp": 1.0333,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-quinoa-300g",
+     "product_name": "Sainsbury's Quinoa 300g",
+     "category": "主食",
+     "form": "raw",
+     "canned": true
+    },
+    "TESCO": {
+     "price": 1.9,
+     "pack_g": 250.0,
+     "size": "250g",
+     "per100_gbp": 0.76,
+     "link": "https://www.tesco.com/shop/en-GB/products/297133405",
+     "product_name": "Buchanans Quinoa 250G",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 3.29,
+     "pack_g": 400.0,
+     "size": "400g",
+     "per100_gbp": 0.8225,
+     "link": "https://groceries.morrisons.com/products/300001639",
+     "product_name": "Biona Organic Chilli Con Quinoa (400g)",
+     "category": "主食",
+     "form": "raw",
+     "canned": true
+    },
+    "WAITROSE": {
+     "price": 4.25,
+     "pack_g": 500.0,
+     "size": "500g",
+     "per100_gbp": 0.85,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-quinoa/059324-29873-29874",
+     "product_name": "Waitrose Quinoa",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 4.25,
+     "pack_g": 500.0,
+     "size": "500 g",
+     "per100_gbp": 0.85,
+     "link": "https://www.marksandspencer.com/food/quinoa/p/fdp60604291",
+     "product_name": "Quinoa",
+     "category": "主食",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "TESCO",
+   "cheapest_label": "Tesco",
+   "expensive_label": "Sainsbury's",
+   "diff_per100": 0.2733,
+   "diff_pct": 0.3596,
+   "spread_ratio": 1.36,
+   "suspect": false,
+   "sizes_g": {
+    "SAINSBURYS": 300.0,
+    "TESCO": 250.0,
+    "MORRISONS": 400.0,
+    "WAITROSE": 500.0,
+    "MARKS & SPENCER": 500.0
    },
    "zone": "室温",
    "aisle": 3
@@ -10646,97 +10958,6 @@
    "aisle": 1
   },
   {
-   "name": "玉米",
-   "name_display": "玉米",
-   "category": "蔬菜",
-   "stores": {
-    "ALDI": {
-     "price": 1.49,
-     "pack_g": 1000.0,
-     "size": "1 kg",
-     "per100_gbp": 0.149,
-     "link": "https://www.aldi.co.uk/product/four-seasons-sweetcorn-000000000000262686",
-     "product_name": "Sweetcorn",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "SAINSBURYS": {
-     "price": 1.42,
-     "pack_g": 950.0,
-     "size": "950g",
-     "per100_gbp": 0.1495,
-     "link": "https://www.sainsburys.co.uk/groceries/product/stamford-street-co-sweetcorn-950g",
-     "product_name": "Stamford Street Co. Sweetcorn 950g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "ICELAND": {
-     "price": 2.0,
-     "pack_g": 875.0,
-     "size": "875g",
-     "per100_gbp": 0.2286,
-     "link": "https://www.iceland.co.uk/p/iceland-mini-corn-cobs-875g/95373.html",
-     "product_name": "Iceland Mini Corn Cobs 875g",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "TESCO": {
-     "price": 1.35,
-     "pack_g": 907.0,
-     "size": "907g",
-     "per100_gbp": 0.1488,
-     "link": "https://www.tesco.com/shop/en-GB/products/299539429",
-     "product_name": "Grower's Harvest Sweetcorn 907G",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    },
-    "WAITROSE": {
-     "price": 1.35,
-     "pack_g": 340.0,
-     "size": "340g",
-     "per100_gbp": 0.3971,
-     "link": "https://www.waitrose.com/ecom/products/green-giant-sweetcorn/019835-9664-9665",
-     "product_name": "Green Giant Sweetcorn",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": true
-    },
-    "MARKS & SPENCER": {
-     "price": 2.4,
-     "pack_g": 1000.0,
-     "size": "1 kg",
-     "per100_gbp": 0.24,
-     "link": "https://www.marksandspencer.com/food/petits-pois-and-sweetcorn/p/fdp60291381",
-     "product_name": "Petits Pois and Sweetcorn",
-     "category": "蔬菜",
-     "form": "raw",
-     "canned": false
-    }
-   },
-   "no_price_stores": {},
-   "cheapest": "TESCO",
-   "cheapest_label": "Tesco",
-   "expensive_label": "Waitrose",
-   "diff_per100": 0.2483,
-   "diff_pct": 1.6687,
-   "spread_ratio": 2.67,
-   "suspect": false,
-   "sizes_g": {
-    "ALDI": 1000.0,
-    "SAINSBURYS": 950.0,
-    "ICELAND": 875.0,
-    "TESCO": 907.0,
-    "WAITROSE": 340.0,
-    "MARKS & SPENCER": 1000.0
-   },
-   "zone": "冷藏",
-   "aisle": 1
-  },
-  {
    "name": "生菜",
    "name_display": "生菜",
    "category": "蔬菜",
@@ -11583,6 +11804,96 @@
     "MORRISONS": 200.0,
     "WAITROSE": 250.0,
     "MARKS & SPENCER": 130.0
+   },
+   "zone": "冷藏",
+   "aisle": 2
+  },
+  {
+   "name": "羊排",
+   "name_display": "羊排",
+   "category": "肉类",
+   "stores": {
+    "ALDI": {
+     "price": 5.79,
+     "pack_g": 340.0,
+     "size": "340 g",
+     "per100_gbp": 1.7029,
+     "link": "https://www.aldi.co.uk/product/ashfields-british-lamb-chops-000000000661917001",
+     "product_name": "British Lamb Chops",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "SAINSBURYS": {
+     "price": 3.25,
+     "pack_g": 170.0,
+     "size": "170g",
+     "per100_gbp": 1.9118,
+     "link": "https://www.sainsburys.co.uk/groceries/product/sainsburys-british-or-new-zealand-lamb-chops-170g",
+     "product_name": "Sainsbury's British or New Zealand Lamb Chops 170g",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "TESCO": {
+     "price": 9.5,
+     "pack_g": 550.0,
+     "size": "550g",
+     "per100_gbp": 1.7273,
+     "link": "https://www.tesco.com/shop/en-GB/products/293467615",
+     "product_name": "Tesco Welsh 8 Lamb Chops 550G",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "MORRISONS": {
+     "price": 6.0,
+     "pack_g": 320.0,
+     "size": "320g",
+     "per100_gbp": 1.875,
+     "link": "https://groceries.morrisons.com/products/113711108",
+     "product_name": "Morrisons Lamb Chops 320g",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "WAITROSE": {
+     "price": 7.59,
+     "pack_g": null,
+     "size": "per kg",
+     "per100_gbp": null,
+     "link": "https://www.waitrose.com/ecom/products/waitrose-2-british-lamb-loin-chops/088583-45471-45472",
+     "product_name": "Waitrose 2 British Lamb Loin Chops",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    },
+    "MARKS & SPENCER": {
+     "price": 12.5,
+     "pack_g": 360.0,
+     "size": "360 g",
+     "per100_gbp": 3.4722,
+     "link": "https://www.marksandspencer.com/food/british-lamb-loin-chops/p/fdp60004365",
+     "product_name": "British Lamb Loin Chops",
+     "category": "肉类",
+     "form": "raw",
+     "canned": false
+    }
+   },
+   "no_price_stores": {},
+   "cheapest": "ALDI",
+   "cheapest_label": "Aldi",
+   "expensive_label": "M&S",
+   "diff_per100": 1.7693,
+   "diff_pct": 1.039,
+   "spread_ratio": 2.04,
+   "suspect": false,
+   "sizes_g": {
+    "ALDI": 340.0,
+    "SAINSBURYS": 170.0,
+    "TESCO": 550.0,
+    "MORRISONS": 320.0,
+    "MARKS & SPENCER": 360.0
    },
    "zone": "冷藏",
    "aisle": 2

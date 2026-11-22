@@ -3,7 +3,7 @@
  "code": "H1-11-05",
  "week": "2026-11-08 – 2026-11-29",
  "family": "伯明翰809",
- "generated": "2026-11-22T00:54:43",
+ "generated": "2026-11-22T20:51:07",
  "source": "健康减肥/01-事实/饮食/餐单.csv + 食谱库.csv",
  "nutrition_basis": "整份（一餐全部食材，非家庭整锅）",
  "servings_hint": 1.0,
@@ -4016,6 +4016,17 @@
    "prep": {
     "zones": [
      {
+      "zone": "冷冻",
+      "items": [
+       {
+        "name": "芦笋",
+        "qty": 393.0,
+        "unit": "g",
+        "hint": ""
+       }
+      ]
+     },
+     {
       "zone": "冷藏",
       "items": [
        {
@@ -4045,12 +4056,6 @@
        {
         "name": "马苏里拉",
         "qty": 44.0,
-        "unit": "g",
-        "hint": ""
-       },
-       {
-        "name": "芦笋",
-        "qty": 393.0,
         "unit": "g",
         "hint": ""
        }
@@ -4217,7 +4222,12 @@
          "hint": "",
          "qty": 44.0,
          "unit": "g"
-        },
+        }
+       ]
+      },
+      {
+       "zone": "冷冻",
+       "items": [
         {
          "name": "芦笋",
          "hint": "",
@@ -8659,178 +8669,148 @@
    "weekday": "周六",
    "iso_date": "2026-11-28",
    "theme": "休息日",
-   "active_min": 45,
-   "total_min": 60,
+   "active_min": 50,
+   "total_min": 65,
    "dishes": [
     {
      "role": "简餐",
-     "name": "意式玉米糊配嫩茎西兰花和煎蛋",
+     "name": "浆果藜麦早餐碗",
      "cook_min": 30,
      "camera": false,
      "kid_ok": false,
      "ing": [
       {
-       "name": "玉米",
-       "qty": 21.8,
+       "name": "藜麦",
+       "qty": 21.0,
        "unit": "g",
-       "buy": 21.8,
+       "buy": 21.0,
        "whole": null
       },
       {
-       "name": "帕玛森干酪",
-       "qty": 26.1,
+       "name": "蜂蜜",
+       "qty": 7.0,
        "unit": "g",
-       "buy": 26.1,
+       "buy": 7.0,
        "whole": null
       },
       {
-       "name": "西兰花",
-       "qty": 165.3,
+       "name": "香蕉",
+       "qty": 59.0,
        "unit": "g",
-       "buy": 165.3,
+       "buy": 59.0,
+       "whole": "买1根，本餐用59g，余81g 冷藏下次用"
+      },
+      {
+       "name": "蓝莓",
+       "qty": 45.0,
+       "unit": "g",
+       "buy": 45.0,
        "whole": null
       },
       {
-       "name": "鸡蛋",
-       "qty": 320.4,
+       "name": "蓝莓",
+       "qty": 37.0,
        "unit": "g",
-       "buy": 320.4,
-       "whole": "买6个，本餐用320g，余40g 冷藏下次用"
-      },
-      {
-       "name": "四季豆",
-       "qty": 197.2,
-       "unit": "g",
-       "buy": 197.2,
+       "buy": 37.0,
        "whole": null
       }
      ],
-     "pantry": [
-      "盐",
-      "黑胡椒",
-      "橄榄油",
-      "大蒜"
-     ],
-     "pantry_missing": [
-      "水",
-      "红辣椒碎"
-     ],
+     "pantry": [],
+     "pantry_missing": [],
      "caveat": "",
      "nutrition": {
-      "kcal_total": 891.1,
-      "protein_total": 62.5,
-      "fat_total": 58.5,
-      "carb_total": 32.0,
-      "fiber_total": 0.6,
-      "sodium_total": 925.8,
-      "sat_fat_total": 8.3
+      "kcal_total": 199.9,
+      "protein_total": 3.6,
+      "fat_total": 1.9,
+      "carb_total": 42.9,
+      "fiber_total": 5.1,
+      "sodium_total": 1.6,
+      "sat_fat_total": 0.0
      },
-     "edible_grams": 730.8,
+     "edible_grams": 169.0,
      "per100g": {
-      "kcal_total": 121.9,
-      "protein_total": 8.6,
-      "fat_total": 8.0,
-      "carb_total": 4.4,
-      "fiber_total": 0.1,
-      "sodium_total": 126.7,
-      "sat_fat_total": 1.1
+      "kcal_total": 118.3,
+      "protein_total": 2.1,
+      "fat_total": 1.1,
+      "carb_total": 25.4,
+      "fiber_total": 3.0,
+      "sodium_total": 0.9,
+      "sat_fat_total": 0.0
      },
      "nutrition_known": true,
      "steps": [
-      "四季豆 197.2g：沥干冲洗，下锅翻热 2 分钟",
-      "将烤箱架调至距上火烤元素 4 英寸（约 10 厘米）处，预热上火烤。在大汤锅中用高火将水煮至沸腾。搅打入玉米糊",
-      "转中低火",
-      "烹煮至浓稠，约 3 分钟。离火，拌入 1 杯帕玛森干酪、番茄干、½ 小匙盐和 ¼ 小匙胡椒。盖上保温。",
-      "用 1 大匙油刷有边烤盘。在碗中将嫩茎西兰花、大蒜、辣椒碎、¼ 小匙盐和 3 大匙油拌匀",
-      "移至准备好的烤盘上。上火烤嫩茎西兰花至大部分叶片轻微焦化且茎部脆嫩，约 5 分钟，烤至一半时翻动一次。覆锡纸。",
-      "在 12 英寸不粘锅中用中高火加热剩余的 1 大匙油至微微发亮。将鸡蛋打入锅中，撒上剩余的 ¼ 小匙盐和剩余的 ¼ 小匙胡椒。盖上盖子烹煮 1 分钟。离火，静置 15 至 45 秒可得流心蛋黄，45 至 60 秒可得柔软但凝固的蛋黄，或约 2 分钟可得中等凝固的蛋黄。将玉米糊配嫩茎西兰花和鸡蛋上桌，各份撒上剩余的 ¼ 杯帕玛森干酪。",
-      "另起锅加少量油，放入甜椒 197.2g 炒至断生，拌入主料。"
+      "在小锅中倒入杏仁奶、肉桂和香草精，煮至沸腾，转小火慢煮，加入藜麦，盖上盖子用小火烹煮至液体蒸发，约 20 至 25 分钟。|| 用叉子拨松。|| 将热藜麦分装到 2 个碗中，每碗铺上切片水果和火麻籽，淋上蜂蜜，如需要可加入温热的牛奶。",
+      "最后加入香蕉 59g，拌匀即可。最后加入草莓 45g，拌匀即可。最后加入蓝莓 37g，拌匀即可。"
      ],
-     "serving_g": 1012.1,
-     "recipe_id": "R037",
-     "portion_multiplier": 1.45
+     "serving_g": 169.0,
+     "recipe_id": "R913",
+     "portion_multiplier": 1.0
     },
     {
      "role": "主菜",
-     "name": "鳕鱼茄子鹰嘴豆",
-     "cook_min": 15,
+     "name": "法式修整羊排",
+     "cook_min": 20,
      "camera": false,
      "kid_ok": false,
      "ing": [
       {
-       "name": "鳕鱼",
-       "qty": 160.6,
+       "name": "羊排",
+       "qty": 491.8,
        "unit": "g",
-       "buy": 160.6,
+       "buy": 491.8,
        "whole": null
       },
       {
-       "name": "茄子",
-       "qty": 170.1,
+       "name": "芦笋",
+       "qty": 499.8,
        "unit": "g",
-       "buy": 170.1,
-       "whole": "买1个，本餐用170g，余80g 冷藏下次用"
-      },
-      {
-       "name": "蘑菇",
-       "qty": 94.5,
-       "unit": "g",
-       "buy": 94.5,
-       "whole": null
-      },
-      {
-       "name": "鹰嘴豆罐头",
-       "qty": 122.8,
-       "unit": "g",
-       "buy": 122.8,
-       "whole": null
-      },
-      {
-       "name": "橄榄油",
-       "qty": 5.7,
-       "unit": "g",
-       "buy": 5.7,
+       "buy": 499.8,
        "whole": null
       }
      ],
      "pantry": [
-      "盐",
       "大蒜",
-      "黑胡椒"
+      "迷迭香",
+      "柠檬",
+      "盐"
      ],
      "pantry_missing": [],
      "caveat": "",
      "nutrition": {
-      "kcal_total": 680.2,
-      "protein_total": 63.6,
-      "fat_total": 12.1,
-      "carb_total": 88.7,
-      "fiber_total": 18.7,
-      "sodium_total": 529.9,
-      "sat_fat_total": 1.0
+      "kcal_total": 1087.3,
+      "protein_total": 107.2,
+      "fat_total": 65.2,
+      "carb_total": 18.2,
+      "fiber_total": 6.8,
+      "sodium_total": 415.8,
+      "sat_fat_total": 26.2
      },
-     "edible_grams": 553.7,
+     "edible_grams": 991.6,
      "per100g": {
-      "kcal_total": 122.8,
-      "protein_total": 11.5,
-      "fat_total": 2.2,
-      "carb_total": 16.0,
-      "fiber_total": 3.4,
-      "sodium_total": 95.7,
-      "sat_fat_total": 0.2
+      "kcal_total": 109.7,
+      "protein_total": 10.8,
+      "fat_total": 6.6,
+      "carb_total": 1.8,
+      "fiber_total": 0.7,
+      "sodium_total": 41.9,
+      "sat_fat_total": 2.6
      },
      "nutrition_known": true,
      "steps": [
-      "鹰嘴豆罐头 122.8g：沥干冲洗，下锅翻热 2 分钟",
-      "橄榄油 5.7g：洗净切成适口大小，热锅少油炒 3 分钟",
-      "蒜5g爆香，茄子170.1g切块炒3分钟",
-      "蘑菇94.5g下锅",
-      "加鹰嘴豆122.8g+水80ml",
-      "鳕鱼160.6g切块铺面盖盖焖6分钟，盐黑胡椒。"
+      "用柠檬汁给羊排调味，两面撒盐和胡椒。",
+      "将大蒜抹遍羊排，撒上迷迭香。",
+      "将羊排脂肪面朝上放在铺了锡纸（如需要）的大号带边烤盘上，静置 1 小时。",
+      "预热烤箱至 450°F（约 230°C）。",
+      "将羊排放在烤箱上三分之一处烤约 25 分钟，至三分熟，或至温度计达到 130°F（约 54°C）（如喜欢五分熟或七分熟可延长）。将温度计尖端从排骨侧面插入肉最厚处，注意不要碰到骨头（骨头比周围肉更热）。",
+      "当该处达到 130°F（约 54°C）即完成。羊排静置时温度还会继续上升约 5 度。",
+      "将羊排移至切肉板，覆锡纸静置 10 分钟。",
+      "在肋骨之间切肉（熟肉分切），移至盘中。",
+      "立即上桌。食用前修去脂肪*。",
+      "另起锅加少量油，放入芦笋 499.8g 炒至断生，拌入主料。"
      ],
-     "serving_g": 553.7,
-     "recipe_id": "R025",
-     "portion_multiplier": 0.9449
+     "serving_g": 999.6,
+     "recipe_id": "R415",
+     "portion_multiplier": 1.9991
     }
    ],
    "prep": {
@@ -8839,51 +8819,16 @@
       "zone": "冷冻",
       "items": [
        {
-        "name": "帕玛森干酪",
-        "qty": 26.1,
+        "name": "蓝莓",
+        "qty": 82.0,
         "unit": "g",
         "hint": ""
        },
        {
-        "name": "西兰花",
-        "qty": 165.3,
+        "name": "芦笋",
+        "qty": 499.8,
         "unit": "g",
         "hint": ""
-       },
-       {
-        "name": "四季豆",
-        "qty": 197.2,
-        "unit": "g",
-        "hint": ""
-       },
-       {
-        "name": "鳕鱼",
-        "qty": 160.6,
-        "unit": "g",
-        "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
-       },
-       {
-        "name": "蘑菇",
-        "qty": 94.5,
-        "unit": "g",
-        "hint": "易坏，3 天内吃完"
-       }
-      ]
-     },
-     {
-      "zone": "冷藏",
-      "items": [
-       {
-        "name": "鸡蛋",
-        "qty": 320.4,
-        "unit": "g",
-        "hint": ""
-       },
-       {
-        "name": "茄子",
-        "qty": 170.1,
-        "unit": "g",
-        "hint": "冷藏，一周内吃完"
        }
       ]
      },
@@ -8891,20 +8836,26 @@
       "zone": "室温",
       "items": [
        {
-        "name": "玉米",
-        "qty": 21.8,
+        "name": "藜麦",
+        "qty": 21.0,
         "unit": "g",
         "hint": ""
        },
        {
-        "name": "鹰嘴豆罐头",
-        "qty": 122.8,
+        "name": "蜂蜜",
+        "qty": 7.0,
         "unit": "g",
         "hint": ""
        },
        {
-        "name": "橄榄油",
-        "qty": 5.7,
+        "name": "香蕉",
+        "qty": 59.0,
+        "unit": "g",
+        "hint": ""
+       },
+       {
+        "name": "羊排",
+        "qty": 491.8,
         "unit": "g",
         "hint": ""
        }
@@ -8912,10 +8863,10 @@
      }
     ],
     "pantry": [
-     "盐",
-     "黑胡椒",
-     "橄榄油",
-     "大蒜"
+     "大蒜",
+     "迷迭香",
+     "柠檬",
+     "盐"
     ],
     "missing_pantry": []
    },
@@ -8927,39 +8878,27 @@
        "zone": "室温",
        "items": [
         {
-         "name": "玉米",
+         "name": "藜麦",
          "hint": "",
-         "qty": 21.8,
+         "qty": 21.0,
          "unit": "g"
         },
         {
-         "name": "鹰嘴豆罐头",
+         "name": "蜂蜜",
          "hint": "",
-         "qty": 122.8,
+         "qty": 7.0,
          "unit": "g"
         },
         {
-         "name": "橄榄油",
+         "name": "香蕉",
          "hint": "",
-         "qty": 5.7,
+         "qty": 59.0,
          "unit": "g"
-        }
-       ]
-      },
-      {
-       "zone": "冷藏",
-       "items": [
-        {
-         "name": "鸡蛋",
-         "hint": "",
-         "qty": 5.3,
-         "unit": "个",
-         "note": "320g"
         },
         {
-         "name": "茄子",
-         "hint": "冷藏，一周内吃完",
-         "qty": 170.1,
+         "name": "羊排",
+         "hint": "",
+         "qty": 491.8,
          "unit": "g"
         }
        ]
@@ -8968,33 +8907,15 @@
        "zone": "冷冻",
        "items": [
         {
-         "name": "帕玛森干酪",
+         "name": "蓝莓",
          "hint": "",
-         "qty": 26.1,
+         "qty": 82.0,
          "unit": "g"
         },
         {
-         "name": "西兰花",
+         "name": "芦笋",
          "hint": "",
-         "qty": 165.3,
-         "unit": "g"
-        },
-        {
-         "name": "四季豆",
-         "hint": "",
-         "qty": 197.2,
-         "unit": "g"
-        },
-        {
-         "name": "鳕鱼",
-         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
-         "qty": 160.6,
-         "unit": "g"
-        },
-        {
-         "name": "蘑菇",
-         "hint": "易坏，3 天内吃完",
-         "qty": 94.5,
+         "qty": 499.8,
          "unit": "g"
         }
        ]
