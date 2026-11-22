@@ -3,7 +3,7 @@
  "code": "H1-11-05",
  "week": "2026-11-08 – 2026-11-29",
  "family": "伯明翰809",
- "generated": "2026-11-21T14:31:08",
+ "generated": "2026-11-22T00:54:43",
  "source": "健康减肥/01-事实/饮食/餐单.csv + 食谱库.csv",
  "nutrition_basis": "整份（一餐全部食材，非家庭整锅）",
  "servings_hint": 1.0,
@@ -5247,7 +5247,7 @@
      "kid_ok": false,
      "ing": [
       {
-       "name": "鸡腿肉",
+       "name": "鸡胸肉",
        "qty": 228.3,
        "unit": "g",
        "buy": 228.3,
@@ -5290,26 +5290,27 @@
      "pantry_missing": [],
      "caveat": "",
      "nutrition": {
-      "kcal_total": 890.3,
-      "protein_total": 54.1,
-      "fat_total": 37.9,
-      "carb_total": 83.3,
+      "kcal_total": 746.5,
+      "protein_total": 73.7,
+      "fat_total": 12.6,
+      "carb_total": 84.7,
       "fiber_total": 10.5,
-      "sodium_total": 741.2,
+      "sodium_total": 697.4,
       "sat_fat_total": 9.0
      },
      "edible_grams": 920.4,
      "per100g": {
-      "kcal_total": 96.7,
-      "protein_total": 5.9,
-      "fat_total": 4.1,
-      "carb_total": 9.1,
+      "kcal_total": 81.1,
+      "protein_total": 8.0,
+      "fat_total": 1.4,
+      "carb_total": 9.2,
       "fiber_total": 1.1,
-      "sodium_total": 80.5,
+      "sodium_total": 75.8,
       "sat_fat_total": 1.0
      },
      "nutrition_known": true,
      "steps": [
+      "鸡胸肉 228.3g：切块，平底锅少油中火煎 4 分钟至熟",
       "小土豆 351.3g：沥干冲洗，下锅翻热 2 分钟",
       "橄榄油 7g：洗净切成适口大小，热锅少油炒 3 分钟",
       "洋葱70.3g炒香，下鸡腿肉228.3g块煎至变色",
@@ -5332,7 +5333,7 @@
         "hint": "冷藏，一周内吃完"
        },
        {
-        "name": "鸡腿肉",
+        "name": "鸡胸肉",
         "qty": 228.3,
         "unit": "g",
         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
@@ -5423,7 +5424,7 @@
          "unit": "g"
         },
         {
-         "name": "鸡腿肉",
+         "name": "鸡胸肉",
          "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
          "qty": 228.3,
          "unit": "g"
@@ -5542,7 +5543,7 @@
      "kid_ok": false,
      "ing": [
       {
-       "name": "鸡腿肉",
+       "name": "鸡胸肉",
        "qty": 252.1,
        "unit": "g",
        "buy": 252.1,
@@ -5578,26 +5579,27 @@
      "pantry_missing": [],
      "caveat": "",
      "nutrition": {
-      "kcal_total": 1063.5,
-      "protein_total": 60.9,
-      "fat_total": 50.0,
-      "carb_total": 95.2,
+      "kcal_total": 904.7,
+      "protein_total": 82.6,
+      "fat_total": 22.0,
+      "carb_total": 96.7,
       "fiber_total": 13.8,
-      "sodium_total": 787.0,
+      "sodium_total": 738.6,
       "sat_fat_total": 9.9
      },
      "edible_grams": 764.1,
      "per100g": {
-      "kcal_total": 139.2,
-      "protein_total": 8.0,
-      "fat_total": 6.5,
-      "carb_total": 12.5,
+      "kcal_total": 118.4,
+      "protein_total": 10.8,
+      "fat_total": 2.9,
+      "carb_total": 12.7,
       "fiber_total": 1.8,
-      "sodium_total": 103.0,
+      "sodium_total": 96.7,
       "sat_fat_total": 1.3
      },
      "nutrition_known": true,
      "steps": [
+      "鸡胸肉 252.1g：切块，平底锅少油中火煎 4 分钟至熟",
       "四季豆 387.8g：沥干冲洗，下锅翻热 2 分钟",
       "藜麦116.4g水煮12分钟",
       "鸡腿肉252.1g切块用橄榄油7.8g煎5分钟",
@@ -5606,7 +5608,7 @@
      "serving_g": 777.6,
      "recipe_id": "R233",
      "portion_multiplier": 1.9392,
-     "peri": "练前碳水 · 95g｜练后蛋白 · 61g"
+     "peri": "练前碳水 · 97g｜练后蛋白 · 83g"
     },
     {
      "role": "甜品",
@@ -5694,7 +5696,7 @@
         "hint": ""
        },
        {
-        "name": "鸡腿肉",
+        "name": "鸡胸肉",
         "qty": 252.1,
         "unit": "g",
         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
@@ -5828,7 +5830,7 @@
          "unit": "g"
         },
         {
-         "name": "鸡腿肉",
+         "name": "鸡胸肉",
          "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
          "qty": 252.1,
          "unit": "g"
@@ -6255,7 +6257,7 @@
      "kid_ok": false,
      "ing": [
       {
-       "name": "鸡腿肉",
+       "name": "鸡胸肉",
        "qty": 253.7,
        "unit": "g",
        "buy": 253.7,
@@ -6298,26 +6300,27 @@
      "pantry_missing": [],
      "caveat": "",
      "nutrition": {
-      "kcal_total": 989.3,
-      "protein_total": 60.1,
-      "fat_total": 42.2,
-      "carb_total": 92.5,
+      "kcal_total": 829.5,
+      "protein_total": 81.9,
+      "fat_total": 14.0,
+      "carb_total": 94.0,
       "fiber_total": 11.7,
-      "sodium_total": 823.6,
+      "sodium_total": 774.9,
       "sat_fat_total": 10.0
      },
      "edible_grams": 1022.7,
      "per100g": {
-      "kcal_total": 96.7,
-      "protein_total": 5.9,
-      "fat_total": 4.1,
-      "carb_total": 9.0,
+      "kcal_total": 81.1,
+      "protein_total": 8.0,
+      "fat_total": 1.4,
+      "carb_total": 9.2,
       "fiber_total": 1.1,
-      "sodium_total": 80.5,
+      "sodium_total": 75.8,
       "sat_fat_total": 1.0
      },
      "nutrition_known": true,
      "steps": [
+      "鸡胸肉 253.7g：切块，平底锅少油中火煎 4 分钟至熟",
       "小土豆 390.3g：沥干冲洗，下锅翻热 2 分钟",
       "橄榄油 7.8g：洗净切成适口大小，热锅少油炒 3 分钟",
       "洋葱78.1g炒香，下鸡腿肉253.7g块煎至变色",
@@ -6346,7 +6349,7 @@
         "hint": ""
        },
        {
-        "name": "鸡腿肉",
+        "name": "鸡胸肉",
         "qty": 253.7,
         "unit": "g",
         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
@@ -6439,7 +6442,7 @@
          "unit": "g"
         },
         {
-         "name": "鸡腿肉",
+         "name": "鸡胸肉",
          "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
          "qty": 253.7,
          "unit": "g"
@@ -6550,7 +6553,7 @@
      "kid_ok": false,
      "ing": [
       {
-       "name": "鸡腿肉",
+       "name": "鸡胸肉",
        "qty": 194.4,
        "unit": "g",
        "buy": 194.4,
@@ -6578,7 +6581,7 @@
        "whole": "买1个，本餐用43g，余17g 冷藏下次用"
       },
       {
-       "name": "四季豆",
+       "name": "西兰花",
        "qty": 485.9,
        "unit": "g",
        "buy": 485.9,
@@ -6601,29 +6604,28 @@
      ],
      "caveat": "",
      "nutrition": {
-      "kcal_total": 902.3,
-      "protein_total": 62.0,
-      "fat_total": 47.8,
-      "carb_total": 61.3,
+      "kcal_total": 794.4,
+      "protein_total": 85.9,
+      "fat_total": 28.1,
+      "carb_total": 51.4,
       "fiber_total": 0.3,
-      "sodium_total": 419.2,
+      "sodium_total": 587.4,
       "sat_fat_total": 11.7
      },
      "edible_grams": 822.2,
      "per100g": {
-      "kcal_total": 109.7,
-      "protein_total": 7.5,
-      "fat_total": 5.8,
-      "carb_total": 7.5,
+      "kcal_total": 96.6,
+      "protein_total": 10.4,
+      "fat_total": 3.4,
+      "carb_total": 6.3,
       "fiber_total": 0.0,
-      "sodium_total": 51.0,
+      "sodium_total": 71.4,
       "sat_fat_total": 1.4
      },
      "nutrition_known": true,
      "steps": [
-      "鸡腿肉 194.4g：切块，平底锅少油中火煎 4 分钟至熟",
       "番茄罐头 5.8g：洗净切成适口大小，热锅少油炒 3 分钟",
-      "四季豆 485.9g：沥干冲洗，下锅翻热 2 分钟",
+      "西兰花 485.9g：洗净切成适口大小，热锅少油炒 3 分钟",
       "中碗中混合中筋面粉18g、泡打粉和盐搅匀，加希腊酸奶70g用叉子拌成碎屑状，取出揉约20下至光滑",
       "烤箱预热至425°F（约220°C），烤盘铺硅胶垫",
       "面团分4个球，擀成7英寸（18cm）薄圆片",
@@ -6650,13 +6652,13 @@
         "hint": ""
        },
        {
-        "name": "鸡腿肉",
+        "name": "鸡胸肉",
         "qty": 194.4,
         "unit": "g",
         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
        },
        {
-        "name": "四季豆",
+        "name": "西兰花",
         "qty": 485.9,
         "unit": "g",
         "hint": ""
@@ -6786,13 +6788,13 @@
          "unit": "g"
         },
         {
-         "name": "鸡腿肉",
+         "name": "鸡胸肉",
          "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
          "qty": 194.4,
          "unit": "g"
         },
         {
-         "name": "四季豆",
+         "name": "西兰花",
          "hint": "",
          "qty": 485.9,
          "unit": "g"
@@ -6925,7 +6927,7 @@
        "whole": null
       },
       {
-       "name": "四季豆",
+       "name": "西兰花",
        "qty": 460.1,
        "unit": "g",
        "buy": 460.1,
@@ -6950,28 +6952,28 @@
      ],
      "caveat": "牛肉末 303g 你买的是 Aldi Beef Mince 25% Fat 500g £3.19（11-05 买的那包），标签 286 kcal/100g（蛋白 17.7 脂肪 23.8）；本菜单按代表值 113 kcal/100g（蛋白 21.3 脂肪 2.5）→ 这餐真实约 +524 kcal、脂肪 +65g、蛋白 -11g",
      "nutrition": {
-      "kcal_total": 642.9,
-      "protein_total": 74.4,
-      "fat_total": 24.3,
-      "carb_total": 36.1,
+      "kcal_total": 656.7,
+      "protein_total": 81.3,
+      "fat_total": 26.1,
+      "carb_total": 25.5,
       "fiber_total": 0.4,
-      "sodium_total": 216.6,
+      "sodium_total": 411.2,
       "sat_fat_total": 13.4
      },
      "edible_grams": 788.2,
      "per100g": {
-      "kcal_total": 81.6,
-      "protein_total": 9.4,
-      "fat_total": 3.1,
-      "carb_total": 4.6,
+      "kcal_total": 83.3,
+      "protein_total": 10.3,
+      "fat_total": 3.3,
+      "carb_total": 3.2,
       "fiber_total": 0.1,
-      "sodium_total": 27.5,
+      "sodium_total": 52.2,
       "sat_fat_total": 1.7
      },
      "nutrition_known": true,
      "steps": [
       "牛肉末 302.9g：切块，平底锅少油中火煎 4 分钟至熟",
-      "四季豆 460.1g：沥干冲洗，下锅翻热 2 分钟",
+      "西兰花 460.1g：洗净切成适口大小，热锅少油炒 3 分钟",
       "制作香料擦料。在一个大碗中，混合蒜粉、肉豆蔻、小豆蔻、多香果、红椒粉，以及非常充足的一两少许盐和胡椒。",
       "给肉调味。将肉加入装有香料擦料的碗中。用手将香料揉进肉里，使肉裹满香料。",
       "准备腌料。在一个大而深的烤盘或保鲜盒中，混合红洋葱、柠檬汁、橄榄油和红葡萄酒。加入调味好的肉，用手将腌料揉进肉中。盖上盖子冷藏至少 30 分钟（最好 2 到 4 小时，若牛排部位较韧可腌过夜）。",
@@ -6985,7 +6987,7 @@
      "serving_g": 854.3,
      "recipe_id": "R497",
      "portion_multiplier": 1.9415,
-     "peri": "练后蛋白 · 74g"
+     "peri": "练后蛋白 · 81g"
     },
     {
      "role": "甜品",
@@ -7056,7 +7058,7 @@
       "items": [
        {
         "name": "四季豆",
-        "qty": 747.2,
+        "qty": 287.1,
         "unit": "g",
         "hint": ""
        },
@@ -7075,6 +7077,12 @@
        {
         "name": "甜椒",
         "qty": 25.2,
+        "unit": "g",
+        "hint": ""
+       },
+       {
+        "name": "西兰花",
+        "qty": 460.1,
         "unit": "g",
         "hint": ""
        }
@@ -7194,7 +7202,7 @@
         {
          "name": "四季豆",
          "hint": "",
-         "qty": 747.2,
+         "qty": 287.1,
          "unit": "g"
         },
         {
@@ -7213,6 +7221,12 @@
          "name": "甜椒",
          "hint": "",
          "qty": 25.2,
+         "unit": "g"
+        },
+        {
+         "name": "西兰花",
+         "hint": "",
+         "qty": 460.1,
          "unit": "g"
         }
        ]
@@ -7298,7 +7312,7 @@
      "serving_g": 468.0,
      "recipe_id": "R9335",
      "portion_multiplier": 1.2,
-     "peri": "练前碳水 · 60g｜练后蛋白 · 74g"
+     "peri": "练前碳水 · 60g"
     },
     {
      "role": "主菜",
@@ -7308,7 +7322,7 @@
      "kid_ok": false,
      "ing": [
       {
-       "name": "鸡腿肉",
+       "name": "鸡胸肉",
        "qty": 248.9,
        "unit": "g",
        "buy": 248.9,
@@ -7343,7 +7357,7 @@
        "whole": null
       },
       {
-       "name": "四季豆",
+       "name": "西兰花",
        "qty": 338.9,
        "unit": "g",
        "buy": 338.9,
@@ -7363,30 +7377,30 @@
      ],
      "caveat": "",
      "nutrition": {
-      "kcal_total": 617.2,
-      "protein_total": 49.0,
-      "fat_total": 35.1,
-      "carb_total": 29.9,
+      "kcal_total": 470.5,
+      "protein_total": 75.5,
+      "fat_total": 8.9,
+      "carb_total": 23.6,
       "fiber_total": 1.1,
-      "sodium_total": 236.1,
+      "sodium_total": 331.6,
       "sat_fat_total": 8.6
      },
      "edible_grams": 695.4,
      "per100g": {
-      "kcal_total": 88.8,
-      "protein_total": 7.0,
-      "fat_total": 5.0,
-      "carb_total": 4.3,
+      "kcal_total": 67.7,
+      "protein_total": 10.9,
+      "fat_total": 1.3,
+      "carb_total": 3.4,
       "fiber_total": 0.2,
-      "sodium_total": 34.0,
+      "sodium_total": 47.7,
       "sat_fat_total": 1.2
      },
      "nutrition_known": true,
      "steps": [
-      "鸡腿肉 248.9g：切块，平底锅少油中火煎 4 分钟至熟",
+      "鸡胸肉 248.9g：切块，平底锅少油中火煎 4 分钟至熟",
       "番茄罐头 30g：洗净切成适口大小，热锅少油炒 3 分钟",
       "意大利面 3.5g：按生重下锅煮熟，沥干备用",
-      "四季豆 338.9g：沥干冲洗，下锅翻热 2 分钟",
+      "西兰花 338.9g：洗净切成适口大小，热锅少油炒 3 分钟",
       "用犹太盐和胡椒给鸡肉调味。",
       "取一口深的重底煎锅，中大火加热，喷上食用油。",
       "把鸡块放入锅中，煎至表面上色，每面约 3-4 分钟。暂置一旁。",
@@ -7399,7 +7413,8 @@
      ],
      "serving_g": 734.2,
      "recipe_id": "R494",
-     "portion_multiplier": 1.7649
+     "portion_multiplier": 1.7649,
+     "peri": "练后蛋白 · 76g"
     },
     {
      "role": "甜品",
@@ -7476,7 +7491,7 @@
         "hint": ""
        },
        {
-        "name": "鸡腿肉",
+        "name": "鸡胸肉",
         "qty": 248.9,
         "unit": "g",
         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
@@ -7494,7 +7509,7 @@
         "hint": "易坏，3 天内吃完"
        },
        {
-        "name": "四季豆",
+        "name": "西兰花",
         "qty": 338.9,
         "unit": "g",
         "hint": ""
@@ -7629,7 +7644,7 @@
          "unit": "g"
         },
         {
-         "name": "鸡腿肉",
+         "name": "鸡胸肉",
          "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
          "qty": 248.9,
          "unit": "g"
@@ -7647,7 +7662,7 @@
          "unit": "g"
         },
         {
-         "name": "四季豆",
+         "name": "西兰花",
          "hint": "",
          "qty": 338.9,
          "unit": "g"
@@ -8057,14 +8072,14 @@
        "whole": null
       },
       {
-       "name": "四季豆",
+       "name": "西兰花",
        "qty": 396.5,
        "unit": "g",
        "buy": 396.5,
        "whole": null
       },
       {
-       "name": "鸡腿肉",
+       "name": "鸡胸肉",
        "qty": 197.4,
        "unit": "g",
        "buy": 197.4,
@@ -8082,28 +8097,28 @@
      ],
      "caveat": "",
      "nutrition": {
-      "kcal_total": 616.9,
-      "protein_total": 50.5,
-      "fat_total": 33.0,
-      "carb_total": 33.7,
+      "kcal_total": 504.5,
+      "protein_total": 73.4,
+      "fat_total": 12.7,
+      "carb_total": 25.8,
       "fiber_total": 2.6,
-      "sodium_total": 559.4,
+      "sodium_total": 689.2,
       "sat_fat_total": 3.8
      },
      "edible_grams": 651.1,
      "per100g": {
-      "kcal_total": 94.7,
-      "protein_total": 7.8,
-      "fat_total": 5.1,
-      "carb_total": 5.2,
+      "kcal_total": 77.5,
+      "protein_total": 11.3,
+      "fat_total": 2.0,
+      "carb_total": 4.0,
       "fiber_total": 0.4,
-      "sodium_total": 85.9,
+      "sodium_total": 105.9,
       "sat_fat_total": 0.6
      },
      "nutrition_known": true,
      "steps": [
-      "四季豆 396.5g：沥干冲洗，下锅翻热 2 分钟",
-      "鸡腿肉 197.4g：切块，平底锅少油中火煎 4 分钟至熟",
+      "西兰花 396.5g：洗净切成适口大小，热锅少油炒 3 分钟",
+      "鸡胸肉 197.4g：切块，平底锅少油中火煎 4 分钟至熟",
       "在中碗中用叉子背将 ⅓ 杯沥干的豆压成泥。其余留用。",
       "将鸡肉馅、洋葱粉和盐加入压碎的豆碗中，拌匀。",
       "在高速料理机中搅打罗勒、大蒜、帕玛森干酪、柠檬皮屑和汁。",
@@ -8198,13 +8213,13 @@
         "hint": ""
        },
        {
-        "name": "四季豆",
+        "name": "西兰花",
         "qty": 396.5,
         "unit": "g",
         "hint": ""
        },
        {
-        "name": "鸡腿肉",
+        "name": "鸡胸肉",
         "qty": 197.4,
         "unit": "g",
         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
@@ -8333,13 +8348,13 @@
          "unit": "g"
         },
         {
-         "name": "四季豆",
+         "name": "西兰花",
          "hint": "",
          "qty": 396.5,
          "unit": "g"
         },
         {
-         "name": "鸡腿肉",
+         "name": "鸡胸肉",
          "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
          "qty": 197.4,
          "unit": "g"
@@ -8453,7 +8468,7 @@
        "whole": null
       },
       {
-       "name": "切达芝士",
+       "name": "希腊酸奶",
        "qty": 41.1,
        "unit": "g",
        "buy": 41.1,
@@ -8480,22 +8495,22 @@
      ],
      "caveat": "",
      "nutrition": {
-      "kcal_total": 954.0,
-      "protein_total": 91.9,
-      "fat_total": 22.3,
-      "carb_total": 118.8,
+      "kcal_total": 856.5,
+      "protein_total": 84.9,
+      "fat_total": 14.1,
+      "carb_total": 120.2,
       "fiber_total": 6.2,
-      "sodium_total": 1686.7,
+      "sodium_total": 1472.3,
       "sat_fat_total": 6.9
      },
      "edible_grams": 821.4,
      "per100g": {
-      "kcal_total": 116.1,
-      "protein_total": 11.2,
-      "fat_total": 2.7,
-      "carb_total": 14.5,
+      "kcal_total": 104.3,
+      "protein_total": 10.3,
+      "fat_total": 1.7,
+      "carb_total": 14.6,
       "fiber_total": 0.8,
-      "sodium_total": 205.3,
+      "sodium_total": 179.2,
       "sat_fat_total": 0.8
      },
      "nutrition_known": true,
@@ -8508,7 +8523,7 @@
       "在 12 英寸（约 30 厘米）不粘锅中以中高火加热 1 大匙橄榄油至刚冒烟。加入洋葱烹煮至软化，约 4 分钟。拌入大蒜烹煮至出香，约 30 秒。拌入米形面，频繁搅拌烹煮至米形面裹上油并微微上色，约 4 分钟。加入鸡高汤，煮至沸腾，不加盖烹煮至米形面有嚼劲，约 6 分钟。拌入橄榄、½ 杯菲达奶酪和柠檬汁。用盐和胡椒适量调味。",
       "转中小火，将虾嵌入米形面中，盖上盖子烹煮至虾变粉红且熟透，约 5 分钟。将剩余 ½ 杯菲达奶酪撒在表面，淋上少许橄榄油。上桌。",
       "另起锅加少量油，放入羽衣甘蓝 367.4g 炒至断生，拌入主料。",
-      "切达芝士 41.1g：掰成小块，出锅前撒上"
+      "希腊酸奶 41.1g：直接倒入拌匀"
      ],
      "serving_g": 1278.6,
      "recipe_id": "R033",
@@ -8533,19 +8548,13 @@
       "items": [
        {
         "name": "希腊酸奶",
-        "qty": 200.0,
+        "qty": 241.1,
         "unit": "g",
         "hint": ""
        },
        {
         "name": "桃",
         "qty": 467.4,
-        "unit": "g",
-        "hint": ""
-       },
-       {
-        "name": "切达芝士",
-        "qty": 41.1,
         "unit": "g",
         "hint": ""
        }
@@ -8617,19 +8626,13 @@
         {
          "name": "希腊酸奶",
          "hint": "",
-         "qty": 200.0,
+         "qty": 241.1,
          "unit": "g"
         },
         {
          "name": "桃",
          "hint": "",
          "qty": 467.4,
-         "unit": "g"
-        },
-        {
-         "name": "切达芝士",
-         "hint": "",
-         "qty": 41.1,
          "unit": "g"
         }
        ]
@@ -8681,7 +8684,7 @@
        "whole": null
       },
       {
-       "name": "四季豆",
+       "name": "西兰花",
        "qty": 165.3,
        "unit": "g",
        "buy": 165.3,
@@ -8714,27 +8717,26 @@
      ],
      "caveat": "",
      "nutrition": {
-      "kcal_total": 886.1,
-      "protein_total": 60.0,
-      "fat_total": 57.8,
-      "carb_total": 35.8,
+      "kcal_total": 891.1,
+      "protein_total": 62.5,
+      "fat_total": 58.5,
+      "carb_total": 32.0,
       "fiber_total": 0.6,
-      "sodium_total": 855.8,
+      "sodium_total": 925.8,
       "sat_fat_total": 8.3
      },
      "edible_grams": 730.8,
      "per100g": {
-      "kcal_total": 121.3,
-      "protein_total": 8.2,
-      "fat_total": 7.9,
-      "carb_total": 4.9,
+      "kcal_total": 121.9,
+      "protein_total": 8.6,
+      "fat_total": 8.0,
+      "carb_total": 4.4,
       "fiber_total": 0.1,
-      "sodium_total": 117.1,
+      "sodium_total": 126.7,
       "sat_fat_total": 1.1
      },
      "nutrition_known": true,
      "steps": [
-      "四季豆 165.3g：沥干冲洗，下锅翻热 2 分钟",
       "四季豆 197.2g：沥干冲洗，下锅翻热 2 分钟",
       "将烤箱架调至距上火烤元素 4 英寸（约 10 厘米）处，预热上火烤。在大汤锅中用高火将水煮至沸腾。搅打入玉米糊",
       "转中低火",
@@ -8843,8 +8845,14 @@
         "hint": ""
        },
        {
+        "name": "西兰花",
+        "qty": 165.3,
+        "unit": "g",
+        "hint": ""
+       },
+       {
         "name": "四季豆",
-        "qty": 362.5,
+        "qty": 197.2,
         "unit": "g",
         "hint": ""
        },
@@ -8966,9 +8974,15 @@
          "unit": "g"
         },
         {
+         "name": "西兰花",
+         "hint": "",
+         "qty": 165.3,
+         "unit": "g"
+        },
+        {
          "name": "四季豆",
          "hint": "",
-         "qty": 362.5,
+         "qty": 197.2,
          "unit": "g"
         },
         {
@@ -9096,7 +9110,7 @@
        "whole": null
       },
       {
-       "name": "鸡腿肉",
+       "name": "鸡胸肉",
        "qty": 199.2,
        "unit": "g",
        "buy": 199.2,
@@ -9128,28 +9142,28 @@
      "pantry_missing": [],
      "caveat": "",
      "nutrition": {
-      "kcal_total": 1147.2,
-      "protein_total": 80.0,
-      "fat_total": 40.3,
-      "carb_total": 115.3,
+      "kcal_total": 1021.7,
+      "protein_total": 97.2,
+      "fat_total": 18.2,
+      "carb_total": 116.5,
       "fiber_total": 22.0,
-      "sodium_total": 489.4,
+      "sodium_total": 451.2,
       "sat_fat_total": 7.4
      },
      "edible_grams": 436.3,
      "per100g": {
-      "kcal_total": 262.9,
-      "protein_total": 18.3,
-      "fat_total": 9.2,
-      "carb_total": 26.4,
+      "kcal_total": 234.2,
+      "protein_total": 22.3,
+      "fat_total": 4.2,
+      "carb_total": 26.7,
       "fiber_total": 5.0,
-      "sodium_total": 112.2,
+      "sodium_total": 103.4,
       "sat_fat_total": 1.7
      },
      "nutrition_known": true,
      "steps": [
       "鹰嘴豆罐头 186.3g：沥干冲洗，下锅翻热 2 分钟",
-      "鸡腿肉 199.2g：切块，平底锅少油中火煎 4 分钟至熟",
+      "鸡胸肉 199.2g：切块，平底锅少油中火煎 4 分钟至熟",
       "在中碗中用叉子背将 ⅓ 杯沥干的豆压成泥。其余留用。 || 将鸡肉馅、洋葱粉和盐加入压碎的豆碗中，拌匀。 || 在高速料理机中搅打罗勒、大蒜、帕玛森干酪、柠檬皮屑和汁。 || 取两大匙青酱加入鸡肉馅中拌匀。将鸡肉整形成 12 个丸子，每个约 3 大匙。 || 将剩余豆加入料理机，搅打至非常顺滑",
       "如有需要，按大匙分次加入留用的豆液。 || 给有高边的煎锅喷油。用中低火烹煮肉丸至熟透，约 10 分钟，使每面金黄。取出锅，暂置一旁。用湿纸巾将锅擦净。 || 转小火，将留用的白豆青酱放入同一锅中，加入 ¼ 杯豆液*，搅拌，如有需要加几大匙水。加入肉丸，小火慢煮至酱汁增稠，约 2 至 3 分钟。",
       "另起锅加少量油，放入罐装低钠白芸豆 186.3g 炒至断生，拌入主料。"
@@ -9157,7 +9171,7 @@
      "serving_g": 436.9,
      "recipe_id": "R1231",
      "portion_multiplier": 1.7547,
-     "peri": "练前碳水 · 115g｜练后蛋白 · 80g"
+     "peri": "练前碳水 · 116g｜练后蛋白 · 97g"
     }
    ],
    "prep": {
@@ -9178,7 +9192,7 @@
         "hint": ""
        },
        {
-        "name": "鸡腿肉",
+        "name": "鸡胸肉",
         "qty": 199.2,
         "unit": "g",
         "hint": "拆半份分装冷冻，吃前一夜冷藏解冻"
@@ -9303,7 +9317,7 @@
          "unit": "g"
         },
         {
-         "name": "鸡腿肉",
+         "name": "鸡胸肉",
          "hint": "拆半份分装冷冻，吃前一夜冷藏解冻",
          "qty": 199.2,
          "unit": "g"
